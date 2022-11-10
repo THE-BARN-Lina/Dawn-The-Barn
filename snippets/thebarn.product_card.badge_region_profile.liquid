@@ -1,11 +1,13 @@
 {{ 'thebarn.product_card.css' | asset_url | stylesheet_tag }}
 
-{{ card_products.metafields.profile  }}
+
 {% case card_products.metafields.profile %}
-    {% when "Balanced" %}
+    {% when "balance" %}
         {% assign background = settings.color_profile_balance %}
-    {% else %}
-    {% assign background = settings.color_profile_exotic %}
+    {% when "terroir" %} 
+      {% assign background = settings.color_profile_exotic %}
+    {%else%}
+        {% assign background = settings.color_profile_exotic %}
 {% endcase %}
 
 
