@@ -13,3 +13,13 @@
         align-content:center;
         align-items: center;   
       }
+
+      .card__heading {
+        margin-top: 5px !important;
+        margin-bottom: 0;
+    }
+
+      .card-information {
+        width: 100%;
+        margin-bottom: 5px !important;
+    }
