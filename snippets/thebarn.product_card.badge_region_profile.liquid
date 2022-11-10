@@ -4,7 +4,6 @@
     <div class="card__50_50__grid">
        <p style="text-transform: capitalize;
                    text-align: center;
-                   background-color: #698972;
                    font-size: 12px;
                    width: 100%;
                    padding: 3px;
@@ -12,6 +11,16 @@
                    height:fit-content;
                    margin:0px;
                    grid-area: a;" > {{ card_product.metafields.custom.region|escape |downcase }}</p>
+    
+                   <p style="text-transform: capitalize;
+                    text-align: center;
+                    font-size: 12px;
+                    width: 100%;
+                    padding: 3px;
+                    min-height: 24px; 
+                    height:fit-content;
+                    margin:0px;
+                    grid-area: a;" > {{ card_product.metafields.bean.profile|escape |downcase }}</p>
     
    </div>
 
