@@ -1,0 +1,411 @@
+{% schema %}
+  {
+   "settings": [
+          {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+    ],
+ 	"presets": [
+      {
+        "name": "Fullwidth-img",
+        "category": "Custom"
+      }
+    
+    ]
+  }
+{% endschema %}
+
+<header class="subs-cont">
+<section class="subs-hero">
+<img class="subs-hero-img" src="https://cdn.shopify.com/s/files/1/0831/4141/files/8FD93ECA-9E2F-4977-995A-042780658A63.jpg?v=1667235171">
+<section class="subs-hero-text">
+<h1 class="hero-text-heading">COFFEE SUBSCRIPTIONS</h1>
+<p class="hero-text-desc">THE WORLDS BEST COFFEES ON REPEAT</p>
+</section>
+</section>
+</header>
+
+<style>
+
+/* Appoligies because shopify dawn theme does not have full width there are some forcefull styles here*/
+
+/*main stylying*/  
+#shopify-section-template--16149468774667__61526f59-c5c6-4ec0-b13e-f55767a96db1 .subs-cont{
+width: 100vw;}
+
+#shopify-section-template--16149468774667__61526f59-c5c6-4ec0-b13e-f55767a96db1{
+margin-left: -210px;}
+  
+.subs-hero{
+position: relative;}
+
+.subs-hero-img {
+opacity: 0.6;
+width: 100% !important;
+height: 100%;
+max-height: 560px;
+object-fit: contain;
+object-position: center;
+margin-left: 196px;
+position: relative;
+/*left: -1.5%;*/
+}
+
+/*.subs-hero {
+width: 100vw;
+}*/
+
+.subs-hero-text {
+position: relative;
+width: 246px;
+margin-left: 210px;
+display: grid;
+row-gap: 10px;
+bottom: 212px;
+}
+
+.hero-text-heading {
+margin: 0;
+line-height: 1.3;}
+
+.hero-text-desc {
+color: white;
+width: auto;
+line-height: 1.5;
+margin: 0;}
+/*main stylying*/
+
+/*MEDIA stylying 730px,750px,799px*/
+@media screen and (min-width: 750px) {
+.section-template--16149468774667__61526f59-c5c6-4ec0-b13e-f55767a96db1-padding {
+  margin-left: -245px;
+}
+}
+  
+@media screen and (min-width: 730px) {
+.subs-hero-text {
+margin-left: 200px;
+bottom: 220px;
+width: auto;}
+}
+
+ @media screen and (min-width: 750px) {
+.subs-hero-img {
+ margin-left: 159px;
+}
+}
+/*END OF MEDIA stylying 730px,750px,799px*/
+
+
+/*MEDIA stylying 800px,899px*/  
+@media screen and (min-width: 800px) {
+#shopify-section-template--16149468774667__61526f59-c5c6-4ec0-b13e-f55767a96db1{
+margin-left: -245px;}
+}
+
+@media screen and (min-width: 800px) {
+.subs-hero-img {
+ margin-left: 195px;
+}
+}
+
+@media screen and (min-width: 800px) {
+.subs-hero-text {
+padding-left: 5%;
+bottom: 245px;
+}
+}
+
+@media screen and (min-width: 850px) {
+.subs-hero-text {
+padding-left: 6%;
+}
+}
+
+@media screen and (min-width: 870px) {
+.subs-hero-text {
+padding-left: 7%;
+}
+
+@media screen and (min-width: 890px) {
+.subs-hero-text {
+padding-left: 8%;
+}
+}
+/*END OF MEDIA stylying  800px,899px*/
+
+/*MEDIA stylying 900px,999px*/  
+@media screen and (min-width: 930px) {
+.subs-hero-text {
+padding-left: 9%;
+}
+
+@media screen and (min-width: 960px) {
+.subs-hero-text {
+padding-left: 10%;
+}
+  
+@media screen and (min-width: 999px) {
+.subs-hero-img {
+/*width: 1000px !important;}*/
+}
+/* END MEDIA stylying 900px,999px*/
+
+/*MEDIA stylying 1000px - 1099px*/ 
+
+@media screen and (min-width: 1000px) {
+.subs-hero-img {
+object-fit: cover;}
+.subs-hero-text {
+padding-left: 0%;
+}
+}
+
+@media screen and (min-width: 1099px) {
+.subs-hero-img {
+max-width: 1600px !important;}
+}
+
+@media screen and (min-width: 1199px) {
+.subs-hero-img {
+ object-fit: cover;
+object-position: 25% 82%; 
+}}
+/*END OF MEDIA stylying 1000px - 1099px*/ 
+
+
+/*MEDIA stylying 1200px - 1299px*/ 
+ @media screen and (min-width: 1219px) {
+.subs-hero-img {
+ margin-left: 183px;
+}}
+
+ @media screen and (min-width: 1229px) {
+.subs-hero-img {
+ margin-left: 178px;
+}}
+
+ @media screen and (min-width: 1239px) {
+.subs-hero-img {
+ margin-left: 172px;
+}}
+
+ @media screen and (min-width: 1249px) {
+.subs-hero-img {
+ margin-left: 167px;
+}}
+
+ @media screen and (min-width: 1259px) {
+.subs-hero-img {
+ margin-left: 163px;
+}}
+
+ @media screen and (min-width: 1269px) {
+.subs-hero-img {
+ margin-left: 157px;
+}}
+
+@media screen and (min-width: 1279px) {
+.subs-hero-img {
+ margin-left: 155px;
+}}
+
+@media screen and (min-width: 1289px) {
+.subs-hero-img {
+ margin-left: 148px;
+}}
+
+@media screen and (min-width: 1299px) {
+.subs-hero-img {
+ margin-left: 145px;
+}}
+/*END OF MEDIA stylying 1200px - 1299px*/ 
+
+/*MEDIA stylying 1300px - 1399px*/   
+@media screen and (min-width: 1310px) {
+.subs-hero-img {
+ margin-left: 140px;
+}}
+
+@media screen and (min-width: 1319px) {
+.subs-hero-img {
+ margin-left: 130px;
+}}
+
+@media screen and (min-width: 1329px) {
+.subs-hero-img {
+ margin-left: 130px;
+}}
+
+@media screen and (min-width: 1339px) {
+.subs-hero-img {
+ margin-left: 123px;
+}}
+
+@media screen and (min-width: 1349px) {
+.subs-hero-img {
+ margin-left: 118px;
+}}
+
+@media screen and (min-width: 1359px) {
+.subs-hero-img {
+ margin-left: 114px;
+}}
+
+@media screen and (min-width: 1369px) {
+.subs-hero-img {
+ margin-left: 106px;
+}}
+
+@media screen and (min-width: 1379px) {
+.subs-hero-img {
+ margin-left: 103px;
+}}
+
+@media screen and (min-width: 1389px) {
+.subs-hero-img {
+ margin-left: 98px;
+}}
+
+@media screen and (min-width: 1399px) {
+.subs-hero-img {
+ margin-left: 91px;
+}}
+/*END OF MEDIA stylying 1300px - 1399px*/  
+
+
+/*MEDIA stylying 1400px - 1499px*/   
+@media screen and (min-width: 1409px) {
+.subs-hero-img {
+ margin-left: 90px;
+}}
+
+@media screen and (min-width: 1419px) {
+.subs-hero-img {
+ margin-left: 84px;
+}}
+
+@media screen and (min-width: 1429px) {
+.subs-hero-img {
+ margin-left: 79px;
+}}
+
+@media screen and (min-width: 1439px) {
+.subs-hero-img {
+ margin-left: 74px;
+}}
+
+@media screen and (min-width: 1449px) {
+.subs-hero-img {
+ margin-left: 68px;
+}}
+
+@media screen and (min-width: 1459px) {
+.subs-hero-img {
+ margin-left: 62px;
+}}
+
+@media screen and (min-width: 1469px) {
+.subs-hero-img {
+ margin-left: 57px;
+}}
+
+@media screen and (min-width: 1479px) {
+.subs-hero-img {
+ margin-left: 52px;
+}}
+
+@media screen and (min-width: 1489px) {
+.subs-hero-img {
+ margin-left: 50px;
+}}
+
+@media screen and (min-width: 1499px) {
+.subs-hero-img {
+ margin-left: 43px;
+}}
+/*END OF MEDIA stylying 1400px - 1499px*/
+
+
+/*MEDIA stylying 1500px - 1599px*/   
+@media screen and (min-width: 1509px) {
+.subs-hero-img {
+ margin-left: 39px;
+}}
+
+@media screen and (min-width: 1519px) {
+.subs-hero-img {
+ margin-left: 33px;
+}}
+
+@media screen and (min-width: 1529px) {
+.subs-hero-img {
+ margin-left: 18px;
+}}
+
+@media screen and (min-width: 1539px) {
+.subs-hero-img {
+ margin-left: 13px;
+}}
+
+@media screen and (min-width: 1549px) {
+.subs-hero-img {
+ margin-left: 10px;
+}}
+
+@media screen and (min-width: 1559px) {
+.subs-hero-img {
+ margin-left: 9px;
+}}
+
+@media screen and (min-width: 1569px) {
+.subs-hero-img {
+ margin-left: 6px;
+}}
+
+@media screen and (min-width: 1589px) {
+.subs-hero-img {
+ margin-left: 0px;
+}}
+
+@media screen and (min-width: 1600px) {
+.subs-hero-img {
+ left: 9.5% !important;
+}}
+/* END OF MEDIA stylying 1500px - 1599px*/
+
+@media screen and (min-width: 1600px) {
+.subs-hero-img {
+ overflow: hidden;
+}
+#shopify-section-template--16149468774667__61526f59-c5c6-4ec0-b13e-f55767a96db1 .subs-cont{
+width: 100%;}
+}
+</style>
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

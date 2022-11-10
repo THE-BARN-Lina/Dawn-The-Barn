@@ -1,0 +1,169 @@
+{{ '_auction.css' | asset_url | stylesheet_tag }}
+{% assign auction_description_size = 'collection_auctions.auction_description' | t | size %}
+<div id="_a-auction-grid">
+    <div class="_a-grid-container _a-padding-20m">
+        <div class="_a-row _a-banner _a-banner-error _a-display-none _a-margin-bottom-10" id="_a-banner-div">
+            <div class="_a-display-inline-block _a-banner-message">{{ 'auction_pro_template.js.error' | t }}</div>
+            <div class="_a-display-inline-block _a-float-right"><span class="_a-banner-close" id="_a-banner-close-btn">X</span></div>
+        </div>
+        <h1 class="_a-margin-bottom-0">{{ 'collection_auctions.auction_title' | t }}</h1>
+        {%- if auction_description_size > 0 -%}
+            <div class="_a-margin-bottom-0 _a-auction-description-style">{{ 'collection_auctions.auction_description' | t }}</div>
+        {%- endif -%}
+    </div>
+    {%- paginate collection.products by section.settings.products_per_page -%}
+        {%- if collection.products.size == 0 -%}
+            <div class="_a-grid-container">
+                <div class="_a-padding-30 _a-text-center">
+                    <h2>{{ 'collection_auctions.empty' | t }}</h2>
+                </div>
+            </div>
+        {%- else -%}
+            {% assign anonymous_derples = '68ec6d3993ad84bf05477ba6d7c256f706696e8e3bd592c816ff98a72ad4d8e4d781280c2e4f1f1448e383ce' | append: shop.domain | hmac_sha256: '0eefd9aa5e74df94d89a506aa360f6d2fb16952b6f963d9392ad64e646fb531bb981eb22fa5ead2e4b83cef7b6967518ef9bfac65f5ae91f5ab1197bcf1a7204' %}    
+            <div class="_a-margin-vertical-50-100 _a-text-center" id="_a-auction-loading">
+                <div class="_a-lds-ring _a-lds-ring-dark"><div></div><div></div><div></div><div></div></div>
+            </div>
+            <div class="_a-display-none" id="_a-auction-container" data-shop-domain="{{ shop.domain }}" data-shop-id="{{ shop.id }}" data-anonymous-derples="{{ anonymous_derples }}" data-currency="{{ shop.money_with_currency_format }}" data-shop-currency="{{ shop.currency }}" data-primary-locale="{{ request.locale.primary }}" data-root-url="{{ request.locale.root_url }}">
+                <div class="_a-grid-container _a-padding-20m">
+                    <form class="_a-display-flex">
+                        <input class="_a-current-bid-input _a-search-input _a-search-input-box" name="q" id="_a-auction-form-q" type="search" placeholder="{{ 'collection_auctions.search' | t }}">
+                        <select class="_a-current-bid-input _a-search-input _a-search-input-select" name="auction_sort" id="_a-auction-form-sort">
+                            <option value="" selected="">{{ 'collection_auctions.sort' | t }}:</option>
+                            <option value="time-asc">{{ 'collection_auctions.sort_time_ending_soonest' | t }}</option>
+                            <option value="time-desc">{{ 'collection_auctions.sort_time_newly_listed' | t }}</option>
+                            <option value="price-asc">{{ 'collection_auctions.sort_price_lowest' | t }}</option>
+                            <option value="price-desc">{{ 'collection_auctions.sort_price_highest' | t }}</option>
+                            <option value="bids-asc">{{ 'collection_auctions.sort_bids_lowest' | t }}</option>
+                            <option value="bids-desc">{{ 'collection_auctions.sort_bids_highest' | t }}</option>
+                        </select>
+                        <button class="_a-search-input-btn" id="_a-form-btn">
+                            <svg class="_a-icon-search icon-search1">
+                                <use xlink:href="#icon-search1">
+                                    <symbol id="icon-search1" viewBox="0 0 32 32">
+                                        <path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
+                                    </symbol>
+                                </use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="_a-grid-container _a-display-none _a-padding-20 _a-text-center" id="_a-auction-no-results">
+                    <h2>{{ 'collection_auctions.search_no_results' | t }}</h2>
+                </div>
+                <div class="_a-grid-container _a-grid-flex _a-padding-20" id="_a-auction-grid-items">
+                    {%- for product in collection.products -%}
+                        <div class="_a-width-2m _a-margin-bottom-20" data-product-id="{{ product.id }}">
+                        <a href="{{ product.url | default: '#' }}" class="_a-unstyled-link">
+                            {% if product.featured_image %}
+                                {%- assign img_url = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                                <img class="lazyload lazypreload _a-grid-card-img"
+                                        alt="{{ product.featured_image.alt | escape }}"
+                                        src="{{ product.featured_media | img_url: '533x' }}"
+                                        data-src="{{ img_url }}"
+                                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                                        data-aspectratio="{{ product.featured_image.aspect_ratio }}"
+                                        data-sizes="auto"
+                                        data-image /> 
+                            {% else %}
+                                <div class="_a-grid-img-div">
+                                    <svg class="_a-grid-icon icon-image">
+                                        <use xlink:href="#icon-image">
+                                            <symbol id="icon-image" viewBox="0 0 30 28">
+                                                <path d="M10 9c0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3 3 1.344 3 3zM26 15v7h-22v-3l5-5 2.5 2.5 8-8zM27.5 4h-25c-0.266 0-0.5 0.234-0.5 0.5v19c0 0.266 0.234 0.5 0.5 0.5h25c0.266 0 0.5-0.234 0.5-0.5v-19c0-0.266-0.234-0.5-0.5-0.5zM30 4.5v19c0 1.375-1.125 2.5-2.5 2.5h-25c-1.375 0-2.5-1.125-2.5-2.5v-19c0-1.375 1.125-2.5 2.5-2.5h25c1.375 0 2.5 1.125 2.5 2.5z"></path>
+                                            </symbol>
+                                        </use>
+                                    </svg>
+                                </div>
+                            {% endif %}
+                            <a href="{{ product.url | default: '#' }}" class="_a-unstyled-link">
+                                <h3>{{ product.title | escape }}</h3>
+                                <span class="_a-display-block"></span>
+                                <span class="_a-display-block">{{ product.metafields.___auction_pro.end_date | date: "%s" | times: 1000 }}</span>
+                                <span class="_a-display-block">
+                                    {% if request.locale.iso_code == 'en' %}
+                                        {{ product.metafields.___auction_pro.end_date | date: "%m-%d-%Y - %r" }}
+                                    {% else %}
+                                        {{ product.metafields.___auction_pro.end_date | date: "%F - %T" }}
+                                    {% endif %}
+                                </span>
+                            </a>
+                        </a>
+                        </div>
+                    {%- endfor -%}
+                    {% assign ghost_box_count = collection.products.size | modulo: 4 | minus: 4 | times: -1 %}
+                    {% if ghost_box_count == 1 or ghost_box_count == 2%}
+                        {% for i in (1..ghost_box_count) %}
+                            <div class="_a-width-2m _a-margin-bottom-20" style="visibility:hidden;">{{i}}</div> 
+                        {% endfor %}
+                    {% endif %}
+                </div>
+                {%- if paginate.pages > 1 and paginate.parts.size > 0 -%}
+                    <div class="_a-display-none _a-grid-pagination-wrapper _a-text-center" id="_a-auction-pagination">
+                        <nav role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
+                            <ul class="_a-grid-pagination-list" role="list">
+                            {%- if paginate.previous -%}
+                                <li>
+                                <a href="{{ paginate.previous.url }}" class="_a-grid-pagination-item" aria-label="{{ 'general.pagination.previous' | t }}">
+                                    <svg class="_a-grid-pagination-icon">
+                                        <use xlink:href="#icon-chevron-left">
+                                            <symbol id="icon-chevron-left" viewBox="0 0 24 24">
+                                            <path d="M15.707 17.293l-5.293-5.293 5.293-5.293c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-6 6c-0.391 0.391-0.391 1.024 0 1.414l6 6c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
+                                            </symbol>
+                                        </use>
+                                    </svg>
+                                </a>
+                                </li>
+                            {%- endif -%}
+                            {%- for part in paginate.parts -%}
+                                <li>
+                                {%- if part.is_link -%}
+                                    <a href="{{ part.url }}" class="_a-grid-pagination-item" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</a>
+                                {%- else -%}
+                                    {%- if part.title == paginate.current_page -%}
+                                    <span class="_a-grid-pagination-item-current _a-grid-pagination-item-flex" aria-current="page" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</span>
+                                    {%- else -%}
+                                    <span class="_a-grid-pagination-item">{{ part.title }}</span>
+                                    {%- endif -%}
+                                {%- endif -%}
+                                </li>
+                            {%- endfor -%}
+                            {%- if paginate.next -%}
+                                <li>
+                                <a href="{{ paginate.next.url }}" class="_a-grid-pagination-item" aria-label="{{ 'general.pagination.next' | t }}" >
+                                    <svg class="_a-grid-pagination-icon">
+                                        <use xlink:href="#icon-chevron-right">
+                                            <symbol id="icon-chevron-right" viewBox="0 0 24 24">
+                                            <path d="M9.707 18.707l6-6c0.391-0.391 0.391-1.024 0-1.414l-6-6c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414l5.293 5.293-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0z"></path>
+                                            </symbol>
+                                        </use>
+                                    </svg>
+                                </a>
+                                </li>
+                            {%- endif -%}
+                            </ul>
+                        </nav>
+                    </div>
+                {%- endif -%}
+            </div>
+        {%- endif -%}
+    {%- endpaginate -%}
+</div>
+<script id="_a-language-data" type="application/json">{"auction_end": "{{ 'auction_pro_template.js.auction_end' | t }}","bid": "{{ 'auction_pro_template.js.bid' | t }}","bids": "{{ 'auction_pro_template.js.bids' | t }}","buy_it_now": "{{ 'auction_pro_template.template.buy_it_now' | t }}","days": "{{ 'auction_pro_template.js.timer.days' | t }}","hours": "{{ 'auction_pro_template.js.timer.hours' | t }}","minutes": "{{ 'auction_pro_template.js.timer.minutes' | t }}"}</script>
+<script src="{{ '_lazysizes.min.js' | asset_url }}"></script>
+<script src="{{ '_auction-collection.js' | asset_url }}"></script>
+{% schema %}
+{
+  "name": "Auction Collection",
+  "settings": [
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "min": 8,
+      "max": 20,
+	  "step": 4,
+      "default": 16,
+      "label": "Auction Collection"
+    }
+  ]
+}
+{% endschema %}

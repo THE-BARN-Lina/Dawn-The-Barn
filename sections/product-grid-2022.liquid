@@ -1,0 +1,323 @@
+{% schema %}
+  {
+    "name": "Product Grid 2022",
+    "settings": [
+      { "type":"header",
+        "content":"Brew Icons"
+      },
+      {
+        "type": "html",
+        "id": "filter_icon1",
+        "label": "Filter Icon 1"
+      },
+      {
+        "type": "html",
+        "id": "filter_icon2",
+        "label": "Filter Icon 2"
+      },
+      {
+        "type": "html",
+        "id": "espresso_icon1",
+        "label": "Espresso Icon 1"
+      },
+      {
+        "type": "html",
+        "id": "espresso_icon2",
+        "label": "Espresso Icon 2"
+      }
+
+    ],
+    "blocks": [
+      {
+        "name": "Product Type Group",
+        "type": "typeGroup",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Product Type",
+            "info":"Set it to 'All' to display All Products in Collection. Recomendations: 'Filter Coffee', 'Espressso Coffee', 'Instant & Drip, 'Misc'., 'Equipment' ",
+            "default":"All"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title For Collection Page"
+            
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Grid THE BARN 2022",
+        "category": "Custom",
+        "blocks": [
+          {
+            "type": "typeGroup"
+          }
+        ]
+      }
+    
+    ]
+  }
+{% endschema %}
+
+
+{% comment %}
+<select class="sort-collection" id="sort-by">
+  {% assign sort_by = collection.sort_by | default: collection.default_sort_by %}
+  {% for option in collection.sort_options %}
+    {% unless option.value == "manual" %}
+      <option class="option-collection"value="{{ option.value }}" {% if option.value == collection.sort_by %}selected="selected"{% endif %}>
+        {{ option.name }}
+      </option>
+    {% endunless %}
+  {% endfor %}
+</select>
+<script>
+  Shopify.queryParams = {};
+  // Preserve existing query parameters
+  if (location.search.length) {
+    var params = location.search.substr(1).split('&');
+    for (var i = 0; i < params.length; i++) {
+      var keyValue = params[i].split('=');
+      if (keyValue.length) {
+        Shopify.queryParams[decodeURIComponent(keyValue[0])] = decodeURIComponent(keyValue[1]);
+      }
+    }
+  }
+  // Update sort_by query parameter on select change
+  document.querySelector('#sort-by').addEventListener('change', function(e) {
+    var value = e.target.value;
+    Shopify.queryParams.sort_by = value;
+    location.search = new URLSearchParams(Shopify.queryParams).toString();
+  });
+</script>
+{% endcomment %}
+
+
+{%comment%}
+<div>
+<form class="filter-form">
+  {%- for filter in collection.filters -%}
+    <details class="filter-group">
+      <summary class="filter-group-summary">
+        <div>
+          <span>{{ filter.label }}</span>
+          {%- if filter.active_values.size > 0 -%}
+            <span>({{ filter.active_values.size }})</span>
+          {%- endif -%}
+        </div>
+      </summary>
+      <div class="filter-group-display">
+        <div class="filter-group-display__header">
+          <span class="filter-group-display__header-selected">{{ filter.active_values.size }} selected</span>
+          {%- if filter.active_values.size > 0 -%}
+            <a href="{{ filter.url_to_remove }}" class="filter-group-display__header-reset">Reset</a>
+          {%- endif -%}
+        </div>
+        {%- case filter.type -%}
+          {%- when 'boolean' or 'list' -%}
+            <ul class="filter-group-display__list">
+              {%- for filter_value in filter.values -%}
+                <li class="filter-group-display__list-item">
+                  <label for="Filter-{{ filter.param_name }}-{{ forloop.index }}">
+                  <input type="checkbox"
+                    name="{{ filter_value.param_name }}"
+                    value="{{ filter_value.value }}"
+                    id="Filter-{{ filter.param_name }}-{{ forloop.index }}"
+                    {% if filter_value.active -%}checked{%- endif %}
+                    {% if filter_value.count == 0 and filter_value.active == false -%}disabled{%- endif %}
+                  >{{ filter_value.label }}</label>
+                </li>
+              {%- endfor -%}
+            </ul>
+            <div class="filter-group-display__submit">
+              <input type="submit" value="Apply">
+            </div>
+          {%- when 'price_range' -%}
+            <div class="filter-group-display__price-range">
+              <div class="filter-group-display__price-range-from">
+                <span>{{ cart.currency.symbol }}</span>
+                <input name="{{ filter.min_value.param_name }}"
+                  id="Filter-{{ filter.min_value.param_name }}"
+                  {% if filter.min_value.value -%}
+                    value="{{ filter.min_value.value | money_without_currency | replace: ',', '' }}"
+                  {%- endif %}
+                  type="number"
+                  placeholder="0"
+                  min="0"
+                  max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                >
+                <label for="Filter-{{ filter.min_value.param_name }}">From</label>
+              </div>
+              <div class="filter-group-display__price-range-to">
+                <span>{{ cart.currency.symbol }}</span>
+                <input name="{{ filter.max_value.param_name }}"
+                  id="Filter-{{ filter.max_value.param_name }}"
+                  {% if filter.max_value.value -%}
+                    value="{{ filter.max_value.value | money_without_currency | replace: ',', '' }}"
+                  {%- endif %}
+                  type="number"
+                  placeholder="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                  min="0"
+                  max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                >
+                <label for="Filter-{{ filter.max_value.param_name }}">To</label>
+              </div>
+            </div>
+            <div class="filter-group-display__submit">
+              <input type="submit" value="Apply">
+            </div>
+        {%- endcase -%}
+      </div>
+    </details>
+  {%- endfor -%}
+  <div class="active-filters">
+    <a href="{{ collection.url }}?sort_by={{ collection.sort_by }}" class="active-filters__clear">Clear all</a>
+    {%- for filter in collection.filters -%}
+      {%- if filter.type == "price_range" -%}
+        {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}
+          <a class="active-filters__remove-filter" href="{{ filter.url_to_remove }}">
+            {%- assign min_value = filter.min_value.value | default: 0 -%}
+            {%- assign max_value = filter.max_value.value | default: filter.range_max -%}
+            {{ min_value | money }} - {{ max_value | money }} X
+          </a>
+        {%- endif -%}
+      {%- else -%}
+        {%- for filter_value in filter.active_values -%}
+          <a class="active-filters__remove-filter" href="{{ filter_value.url_to_remove }}">
+            {{ filter.label }}: {{ filter_value.label }} X
+          </a>
+        {%- endfor -%}
+      {%- endif- %}
+    {%- endfor -%}
+  </div>
+</form>
+</div>
+{%endcomment%}
+
+
+
+
+  
+
+
+{% for block in section.blocks %}
+    {% if block.type == "typeGroup" %}
+	{%assign title = block.settings.title %}
+          {% case block.settings.text %}
+            {% when "All" %}
+                    <div class="product-grid">
+                    {% for product in collection.products %}
+                      {% case product.type %}
+                        {% when "Filter Coffee" %}
+                          {% assign brew_icon1 = section.settings.filter_icon1 %}
+                          {% assign brew_icon2 = section.settings.filter_icon2 %}
+                          {% assign displayAsBean = true %}
+                        {% when "Espresso Coffee"%}
+                          {% assign brew_icon1 = section.settings.espresso_icon1 %}
+                          {% assign brew_icon2 = section.settings.espresso_icon2 %}  
+                          {% assign displayAsBean = true %} 
+                        {% else %}
+                          {% assign brew_icon1 = "hide" %}
+                          {% assign brew_icon2 = "hide" %}
+                          {% assign displayAsBean = false %}
+                      {% endcase %}
+                      {% render 'product-grid-item-2022' , product : product, brew_icon1: brew_icon1, brew_icon2: brew_icon2, displayAsBean: displayAsBean  %}
+                    {% endfor %}
+                  </div>
+            {% else %}
+ 				<h2>{{ title |upcase}}</h2>
+                  <div class="product-grid">
+                   
+                    {% for product in collection.products %}
+                      {% if block.settings.text == product.type %}
+                        {% case product.type %}
+                          {% when "Filter Coffee" %}
+                            {% assign brew_icon1 = section.settings.filter_icon1 %}
+                            {% assign brew_icon2 = section.settings.filter_icon2 %}
+                            {% assign displayAsBean = true %}
+                          {% when "Espresso Coffee"%}
+                            {% assign brew_icon1 = section.settings.espresso_icon1 %}
+                            {% assign brew_icon2 = section.settings.espresso_icon2 %}  
+                            {% assign displayAsBean = true %} 
+                          {% else %}
+                            {% assign brew_icon1 = "hide" %}
+                            {% assign brew_icon2 = "hide" %}
+                            {% assign displayAsBean = false %}
+                        {% endcase %}
+                        {% render 'product-grid-item-2022' , product : product, brew_icon1: brew_icon1, brew_icon2: brew_icon2, displayAsBean: displayAsBean  %}
+                       {% endif %}
+                      {% endfor %}
+                  </div>
+                {% endcase %}  
+              {% endif %} 
+            {% endfor %}
+
+
+<style>
+  .product-grid{
+    margin: 20px 0px 100px 0px ;
+
+    display:grid;
+    grid-template-columns: repeat(4, 24%);
+    column-gap:15px;
+    row-gap: 15px;
+  }
+  .sort-collection
+  {
+  
+     color:white;
+     background-color: #242424;
+     font-size: 15px;
+     font-family: Raleway, sans-serif;
+     text-decoration: none;
+    
+     border: none;
+     padding: 10px;
+  
+  }
+  .option-collection{
+    margin: 10px;
+  
+  }
+  .btn{
+  	width:100%;
+    padding:10px;
+    
+    text-align:center;
+    background:#482E11;
+  }
+
+  @media only screen and (max-width: 1000px)
+  {
+    .product-grid{
+  
+     grid-template-columns: repeat(3, 32%);
+ 
+   }
+  }
+
+  @media only screen and (max-width: 780px)
+  {
+    .product-grid{
+  
+     grid-template-columns: repeat(2, 49%);
+ 
+   }
+  }
+  
+  @media only screen and (max-width: 450px)
+  {
+    .product-grid{
+  
+     grid-template-columns: 1fr;
+ 
+   }
+  }
+</style>
+
+
+

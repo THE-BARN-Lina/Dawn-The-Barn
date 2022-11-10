@@ -1,0 +1,61 @@
+/* PageFly Element Styles */
+					.gsoKZR__parallax { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; }
+.gsoKZR { padding: 15px 0px; position: relative; }
+.gsoKZR .sc-gHboQg { position: relative; }
+.gsoKZR[data-container="true"] .sc-gHboQg { padding: 0px 15px; width: 100%; margin: auto; }
+.gsoKZR .pf-parallax__img { text-indent: -10000px; position: absolute; object-fit: cover; top: 0px; left: 0px; width: 100%; height: 100%; }
+.bgvpaP { margin: 0px -15px; }
+.bTgDOc { position: relative; }
+.bTgDOc.pf-editor-col::before, .bTgDOc.pf-editor-col::after { content: ""; display: block; position: absolute; top: 0px; bottom: 0px; width: 10px; }
+.bTgDOc.pf-editor-col::before { left: -10px; }
+.bTgDOc.pf-editor-col::after { right: -10px; }
+.lmgwgQ { margin: 0px 0px 15px; }
+.lmgwgQ > a { color: inherit !important; }
+.lmgwgQ > span { font-weight: inherit; text-decoration: inherit; }
+.lmgwgQ { word-break: break-word; }
+.lmgwgQ.pf-i--left i { margin-right: 0.3em; }
+.lmgwgQ.pf-i--right i { margin-left: 0.3em; }
+.lmgwgQ.pf-i--top i { margin-bottom: 0.5em; }
+.lmgwgQ.pf-i--top > span, .lmgwgQ.pf-i--top > a { display: block; }
+.lmgwgQ.pf-i--top > span[data-empty][contenteditable] { display: block !important; }
+.lmgwgQ [class*="--diamond"] { margin-right: 1em; }
+.ihLHML { display: inline-block; }
+.ihLHML { vertical-align: baseline; word-break: break-word; }
+.ihLHML:focus { outline: none; }
+.fWpeJL > span:last-child { line-height: inherit; display: block; }
+.fWpeJL[class*="dropcap--"] > span:first-child { display: block; margin-right: 10px; float: left; width: 50px; height: 50px; line-height: 50px; }
+.fWpeJL[class*="dropcap--"]:not(.dropcap--none) > span:first-child { margin-right: 20px; text-align: center; }
+.fWpeJL.dropcap--none > span:first-child { text-align: inherit; border-radius: 0px; line-height: 1 !important; width: auto !important; height: auto !important; background: none !important; }
+.fWpeJL.dropcap--circle > span:first-child { border-radius: 100%; }
+.fWpeJL:not([class*="dropcap--"]) > span { margin-right: 0px !important; }
+.fWpeJL ol, .fWpeJL ul { list-style-position: inside; }
+.fWpeJL blockquote { font-size: inherit; }
+					/* PageFly Styles */
+					
+@media all {
+	[data-pf-type="Heading"].pf-b3914661 {
+		text-align: center;
+	}
+	[data-pf-type="Paragraph"].pf-a3293ef6 {
+		text-align: center;
+	}
+	[data-pf-type="Column"].pf-46e08cd0 {
+		display: flex;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center flex-start;
+	}
+	[data-pf-type="Image"].pf-3578f830 {
+		height: 400px;
+		 width: 400px;
+	}
+	[data-pf-type="Column"].pf-2bb463c2 {
+		display: flex;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center flex-end;
+	}
+	[data-pf-type="Paragraph"].pf-023a0295 {
+		text-align: justify;
+	}
+}

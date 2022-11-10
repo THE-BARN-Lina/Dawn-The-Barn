@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "16577906429738c545": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"display:flex;   align-items: center;\n  justify-content: center;\"><iframe width=\"700\" height=\"394\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/VnAQDO-fg6M?playlist=VnAQDO-fg6M&loop=1&controls=0&autoplay=1&mute=1&amp;start=5\"title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; ; clipboard-write; encrypted-media;mute=1; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<div id=\"text\">\n  <h3>Our exciting journey continues.<br> Join our crew and grow with us! <\/h3>\n<\/div>\n<\/div>\n<style>\n\n\nh3{\n  background: rgba(0,0,0,0);\n  padding: 10px;\n}\n\n#text{\n  position: absolute;\n  color: #FFFFFF;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n @media only screen and (max-width: 600px) {\niframe{\nheight:30vh;\n}\n#text{\ndisplay:none}\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "pf-635d8333": {
+      "type": "pf-635d8333",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16577906429738c545",
+    "pf-635d8333"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "sections": {
+    "1653508613176eef1e": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1653508613b6ce8078-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BARN BERLIN",
+            "heading_size": "h2"
+          }
+        },
+        "1653508613b6ce8078-1": {
+          "type": "text",
+          "settings": {
+            "text": "BREW. SIP. REMEMBER.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1653508613b6ce8078-0",
+        "1653508613b6ce8078-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-03-24_um_18.02.50_e16b7422-ecff-4a06-8c2b-0e4378142bd5.png",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16535086919ac74a95": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1653508691527e35bd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our philosophy is to source and roast some of the best coffees available. By paying premium prices we enable coffee farmers to create a sustainable business. All coffees are scoring 86 points and more; they are fresh in season and roasted to perfection.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653508691527e35bd-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16590189470dfa78be": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\"> \n<div class=\"iframe-container\">\n    <iframe width=\"auto\" height=\"auto\"src=\"https:\/\/www.youtube-nocookie.com\/embed\/VnAQDO-fg6M?playlist=VnAQDO-fg6M&loop=1&controls=1&autoplay=1&mute=1&amp;start=5\"title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; ; clipboard-write; encrypted-media; mute=1; gyroscope; picture-in-picture\" allowfullscreen><\/iframe> \n<div id=\"text\"><h1> About Us<\/h1><\/div>\n<\/div>\n<\/div> \n\n    <style>\n#text{\n \/*position: absolute;*\/\ncolor: #FFFFFF;\n}\n        \n\n\n.iframe-container{\n  \/*position: relative;*\/\n  width: 100%; \n  height: 640px;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  gap:10px;\n}\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1653508694fa6f7e80": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"awards-snippet\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16535087560770a397": {
+      "type": "rich-text",
+      "blocks": {
+        "165350875611e9ca12-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>THE BARN is a leading coffee roaster in Europe and represents the Specialty Coffee Movement at the highest level since 2010. Our beans are served by many coffee shops and home brewers across the globe.<\/p><p><br\/>Our vision has been very clear from the start: We focus on making our coffees better and better. No compromise - just great coffee. We would never blend our coffees in order to showcase specific flavour profiles and to present each farm we work with. This makes our farmers proud and the product fully traceable.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165350875611e9ca12-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165350883755001537": {
+      "type": "image-with-text",
+      "blocks": {
+        "16535088379107698d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Highlighting flavour",
+            "heading_size": "h1"
+          }
+        },
+        "16535088379107698d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We choose our beans for quality, cleanliness, sustainability and traceability. We only buy fresh, seasonal crop. It is one of our principles to treasure the value chain from crop to cup.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16535088379107698d-0",
+        "16535088379107698d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wheeeeel.bez_kola_czarnego.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16535089403fff00a8": {
+      "type": "rich-text",
+      "blocks": {
+        "16535089409b33198c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our roast style is fully developed but light and clean. We bring out the full flavour potential of each coffee. Working with Single Origin Beans is a lot easier than using Blends - all beans are uniform and of highest grading.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16535089409b33198c-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "1653508613176eef1e",
+    "16535086919ac74a95",
+    "16590189470dfa78be",
+    "main",
+    "1653508694fa6f7e80",
+    "16535087560770a397",
+    "165350883755001537",
+    "16535089403fff00a8"
+  ]
+}

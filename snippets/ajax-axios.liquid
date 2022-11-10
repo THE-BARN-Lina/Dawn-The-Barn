@@ -1,0 +1,689 @@
+<script>
+
+  
+  var cart = null;
+  const cart_side_panel = document.getElementById("cart-side-panel");
+  const color_overlay = document.getElementById("color_overlay");
+  
+  const cart_count_indicator = document.getElementsByClassName("count_prod")[0];
+  const empty_message = document.getElementById("empty_message");
+  const cart_content = document.getElementById("cart_content");
+  
+  const shipping_indicator = document.getElementById("shipping_indicator");
+ 
+  const price_until_free = document.getElementById("price_until_free");
+  const free = document.getElementById("free");
+  const not_free = document.getElementById("not_free");
+  
+  const bottom_bar = document.getElementById("bottom_bar");
+  const element = document.getElementById("new");
+  
+  
+  var totalPriceElement = document.getElementById("drawer_total_price");
+  
+  var bannerItem = undefined;
+
+   
+  class Country{
+  constructor(country, MinEuro) {
+    this.country = country;
+    this.MinEuro = MinEuro;
+  }
+}
+  
+     class CartItem{
+      constructor(Item,name,id,price,count,img_src,options,handle,type) {
+        
+        this.QtyElement = undefined;
+        this.LineElement = undefined;
+
+        if(Item == undefined){
+          this.ConstructFromVariables(name,id,price,count,img_src,options,handle,type);
+        }
+      else
+        { 
+          this.ConstructFromItem(Item);
+          this.LineElement = GenerateLineItem(this);
+        }
+        
+        
+
+  
+ 	 }
+     
+     ConstructFromItem(Item)
+     {
+      this.name = Item.product_title;
+      this.id = Item.id;
+      this.price = Item.price;
+      this.count = Item.quantity;
+      this.img_src = Item.image;
+      this.options = Item.options_with_values;
+      this.handle = Item.url;
+      this.type = Item.product_type;
+     }
+      ConstructFromVariables(name,id,price,count,img_src,options,handle,type)
+      {
+        this.name = name;
+        this.id = id;
+        this.price = price;
+        this.count = count;
+        this.img_src = img_src;
+        this.options = options;
+        this.handle =handle;  
+        this.type = type;
+      }
+     
+      get PrettyPrice()
+      {
+        return (this.price/100).toFixed(2)  +"€" 
+      }
+     
+      Change(change)
+      {
+        if(change == "zero") this.count = 0; 
+      	else this.count+=change;
+
+        if(this.count <= 0)
+        {
+        	this.count = 0;
+            return false;  
+        }
+        
+       
+     
+        return true;
+      }
+       
+  }
+  
+
+  class Cart {
+    constructor(AxiosResponse) {
+      this.items = new Array;
+      AxiosResponse.data.items.forEach(element => this.items.push(new CartItem(element)));
+      this.total_price = AxiosResponse.data.total_price;
+      this.total_count = AxiosResponse.data.item_count;
+      this.country_info = SetCountry();
+      UpdateDocument(this);
+      ToggleEmptyCart(this.total_count);
+     
+      
+    }
+    
+
+
+    
+    get PrettyTotalPrice()
+    {
+    	return (this.total_price/100).toFixed(2)  +"€" 
+    }
+    
+    get PrettyUntilFree()
+    {
+    
+     return (this.ShippingThreshhold/100).toFixed(2)  +"€" ;
+         
+    }
+    
+    get ShippingThreshhold()
+    {
+      if(this.country_info == null) return 0;
+    
+ 	   return this.country_info.MinEuro - this.total_price ;
+    }
+    
+    get  NotFreeText()
+    {
+    	return this.PrettyUntilFree + " away from free shipping for " +this.country_info.country+"!";
+    
+    }
+    
+    get FreeText()
+    {
+      return  "Free Shipping "+ this.country_info.country +" ✔";
+    }
+    
+    get UntilFreePercent()
+    
+    {
+      
+      if(this.country_info == 0) return 0;
+      	
+       var val = (100 * this.total_price) / this.country_info.MinEuro;
+       if(val>=100){
+       val = 100;}
+      return val.toFixed(3);
+    	
+    
+    }
+    
+    
+    
+ 	 HasItem(variantID)
+    {
+      
+      var hasID = this.items.some((element) => 
+                                  { return element.id == variantID })
+      return hasID;
+      
+    }
+    
+    ChangeItem(Item, change,parent,counter)
+    {
+      if (this.items.includes(Item))
+      {
+        parent.style.display = "grid";
+        if(Item.Change(change))
+        {
+          counter.innerHTML = Item.count;
+          if(Item.count == 1 && change>=1)
+          {
+            element.appendChild(parent);
+          }
+          this.total_count =0;
+            this.total_price =0;
+            this.items.forEach(item =>
+                               {this.total_count += item.count
+                               	this.total_price += item.count *item.price
+                               
+                               });
+          
+        }
+        else
+        {
+        	element.removeChild(parent)
+          	this.total_count =0;
+            this.total_price =0;
+            this.items.forEach(item =>
+                               {this.total_count += item.count
+                               	this.total_price += item.count *item.price
+                               
+                               });
+          
+        
+        }
+        
+
+        UpdateDocument(this);
+        SubmitChange();
+        new Recomendation(this);
+  
+        
+      }
+     
+    
+    }
+    
+    AddItem(Item)
+    {
+      var test = true;
+      var index = -1;
+      this.items.forEach(item => {
+        							
+       							   if(test == false)return;
+                                   item.id == Item.id? test=false :test=true;
+                                   console.log(item.id,Item.id,index);
+     							   index++;
+        							
+                                 });
+   
+      if (test == true)
+      {
+        
+        this.items.unshift(Item);
+        GenerateLineItem(Item,false);
+        
+        this.ChangeItem(Item, 0,Item.LineElement,Item.QtyElement);
+    	
+        //UpdateDocument(this);
+        //SubmitChange();
+      }
+      else
+      {
+        this.ChangeItem(this.items[index], 1,this.items[index].LineElement,this.items[index].QtyElement);
+      
+      }
+    }
+}
+  
+  
+  function ToggleEmptyCart(cartcount)
+  {
+  	if(cartcount <=0)
+    {
+        	cart_content.classList.add("hide");
+            empty_message.classList.remove("hide");
+          	
+    }
+    if(cartcount >0)
+    {
+        	cart_content.classList.remove("hide");
+            empty_message.classList.add("hide");
+          	
+    } 
+    
+    
+  }
+  
+  function ToggleFreeShipping(localcart)
+  {
+    if(localcart.country_info == 0)
+    {
+      shipping_indicator.classList.add("hide");
+      return;
+    }
+    else{
+      shipping_indicator.classList.remove("hide");
+      if(localcart.ShippingThreshhold>0)
+      {
+              not_free.innerHTML = localcart.NotFreeText;
+        
+              free.classList.add("hide");
+              not_free.classList.remove("hide");
+
+      }
+      if(localcart.ShippingThreshhold <=0)
+      {
+             free.innerHTML  = localcart.FreeText;
+             free.classList.remove("hide");
+             not_free.classList.add("hide");
+        
+
+      } 
+    }
+    
+  }
+ 
+  
+  function UpdateDocument(localcart)
+  {
+    
+    new Recomendation(localcart);
+      
+    if(totalPriceElement == null)
+    	totalPriceElement = document.getElementById("drawer_total_price");
+    
+    ToggleEmptyCart(localcart.total_count); 
+    if(localcart.country_info != 0){
+    	UpdateShipping(localcart);
+    }
+
+    cart_count_indicator.innerHTML = localcart.total_count ;
+    totalPriceElement.innerHTML = localcart.PrettyTotalPrice;
+   
+  }
+
+  function GenerateLineItem(Item, pre = true)
+  {
+   
+    if(Item.count <= 0) return;
+    
+    //big Parent Element 
+    var LineItem = document.createElement("div");
+    LineItem.className = "drawer_line_item";
+    LineItem.id ="line_item_"+ Item.id;
+    
+    // Right Site 
+    var LineInfo = document.createElement("div");
+     LineInfo.classList.add("drawer_line_info");
+
+  	var LineText = document.createElement("a");
+    LineText.innerHTML = Item.name;
+    LineText.href = Item.handle;
+    LineText.style.overflow ="hidden";
+    LineText.style.gridArea=" a";
+    LineInfo.appendChild(LineText);
+    
+    
+    var  LineOptionInfo = document.createElement("p");
+    LineOptionInfo.style.lineHeight= "14px";
+    LineOptionInfo.style.gridArea="b";
+    let count =0;
+    Item.options.forEach(option =>
+         { 
+			
+      	    let LineOption = document.createElement("span");
+      		//let Break = document.createElement("br");
+      		if(count >0)
+              LineOption.innerHTML =   " / "+(option.value==undefined?option:option.value);
+      		else
+            LineOption.innerHTML = option.value==undefined?option:option.value;
+            if(LineOption.innerHTML == "Default Title")LineOption.innerHTML ="";
+      		LineOption.classList.add("line_option_text");
+           	LineOptionInfo.appendChild(LineOption);
+           // LineInfo.appendChild(Break);
+      		count++;
+         });
+    LineInfo.appendChild(LineOptionInfo);
+    
+    
+    var LineQuantity = document.createElement("span");
+    LineQuantity.innerHTML = Item.count;
+    LineQuantity.id = "qty_"+ Item.id;
+    LineQuantity.classList.add("drawer_line_qty");
+  
+    
+    var LineAdd = document.createElement("btn");
+    LineAdd.innerHTML = "+";
+    LineAdd.classList.add("drawer_line_qty_change");
+    LineAdd.addEventListener("click",function(){cart.ChangeItem(Item,+1,LineItem,LineQuantity )})
+    
+    var LineMinus = document.createElement("btn");
+    LineMinus.innerHTML = "-";
+    LineMinus.classList.add("drawer_line_qty_change");
+    LineMinus.addEventListener("click",function(){cart.ChangeItem(Item,-1,LineItem,LineQuantity)})
+    
+
+    
+     
+    
+    var LineChange = document.createElement("div");
+    LineChange.appendChild(LineMinus);
+    LineChange.appendChild(LineQuantity);
+    LineChange.appendChild(LineAdd);   
+    LineChange.className = "drawer_line_change";
+    LineChange.style.gridArea="c";
+    LineInfo.appendChild(LineChange);
+
+    
+    
+
+
+    
+    var LineImage = document.createElement("img");
+    
+    LineImage.src=Item.img_src.replace(".png", "_110x110.png").replace(".jpg", "_110x110.jpg");
+    
+    var LinePrice = document.createElement("p");
+    LinePrice.innerHTML = Item.PrettyPrice ;
+    LinePrice.style.gridArea="d";
+    LinePrice.classList.add("drawe_line_price");
+    LineInfo.appendChild(LinePrice);
+    
+    var Line = document.createElement("hr");
+    Line.classList.add("drawer_line");
+    
+    
+  	//adding the direct Children to Parent Object
+    LineItem.appendChild(LineImage);
+    LineItem.appendChild(LineInfo);
+    LineItem.appendChild(Line);
+    
+  
+    
+   
+
+   
+    
+    
+    pre? element.prepend(LineItem):element.appendChild(LineItem);    
+   // pre? element.prepend(Line):element;
+
+    
+   Item.QtyElement = LineQuantity;
+   Item.LineElement = LineItem;
+    return LineItem;
+  
+  }
+  
+  function GenerateAllLineItems()
+  {
+   
+    var element = document.getElementById("new");
+    element.innerHTML = '';
+  	if (cart == null) return;
+
+    cart.items.forEach(item => {GenerateLineItem(item)});
+  }
+  
+
+
+ document.addEventListener('DOMContentLoaded', (event) => {
+    Load();
+});
+
+  
+ 
+  
+  function Load()
+{
+   
+  axios.get('/cart.js').then(
+    function(response){
+      var element = document.getElementById("new");
+      element.innerHTML = '';
+      SetCart(response);
+      AttachEvents();
+    });
+ 
+}
+  
+  
+  function delay(time) {
+  return new Promise(resolve => setTimeout(resolve, time));
+}
+  
+  async function Reload(reload = true)
+  {
+
+     await delay(500);
+      axios.get('/cart.js').then(
+      async function(response){
+        
+        SetCart(response,reload);
+    	});
+  }
+  
+  async function Timeoutlement(element)
+  {
+    
+    element.disabled = true;
+    await delay(500);
+    element.disabled = false;
+  
+  }
+  
+ 
+  function AttachEvents()
+  {
+    {%assign bannerVariant = section.settings.banner-product.first_available_variant%}
+ 
+    //name,id,price,count,img_src,options,handle,type
+        
+    //document.getElementById("shoppingcart").addEventListener("click", GenerateAllLineItems);
+    
+    document.getElementById("drawer_checkout").addEventListener("click", SubmitChangeGoCart);
+    
+    color_overlay.addEventListener("click", function()                               
+	{
+    	document.body.classList.remove("cart_open");
+    
+    });
+    
+       document.getElementById("cart-icon-bubble").addEventListener("click", function()                               
+	{
+    	cart-side-panel.classList.toggle("cart_open");
+    
+    });
+    
+    
+    //direct Add To Cart Buttons
+    var direct = document.getElementsByClassName("upcell_cart_id");
+    
+    for (var i = 0; i < direct.length; i++) {
+       let variantID=direct[i].getAttribute("data-id");
+       let handle=direct[i].getAttribute("data-handle");
+      direct[i].addEventListener('click', function(){  Reload();});
+    }
+    
+
+
+	    //if we have a product page Submition
+    	 var submit = document.getElementsByClassName("product-form__cart-submit");
+        for (var i = 0; i < submit.length; i++) 
+        {
+          Timeoutlement( submit[i]);
+          submit[i].addEventListener('click', function(){Reload();});
+        }
+    
+    bottom_bar.addEventListener("click", function()                               
+	{
+    	 cart.AddItem( new CartItem( undefined,
+      						  {{bannerVariant.product.title | json}},
+                              {{bannerVariant.id | json}},
+                              {{bannerVariant.price | json}},
+                              1,
+                              {{bannerVariant.product.featured_image | json}},
+                              {{bannerVariant.options| json}},
+                              {{bannerVariant.url | json}},
+                              {{bannerVariant.product.type| json}}
+                              	
+      
+      ));
+    
+    });
+      
+  }
+
+
+  var reloadCounter = 0;
+                             
+	
+  async function SetCart(response, forceReload =false)	
+  {
+   
+      
+    element.innerHTML = '';
+    var  newCart = new Cart(response);
+    if	(cart != null) {
+         if( cart.total_count >= newCart.total_count && forceReload == true && reloadCounter <5)
+              { 
+                reloadCounter ++;
+                console.log(reloadCounter );
+                Reload(true);
+              }
+      	else reloadCounter = 0;
+      
+    }
+    
+     cart = newCart;
+     UpdateDocument(cart);
+  }
+  
+  
+   async function SubmitChange()
+  {
+    updates =
+    {
+         	
+    }
+           
+    cart.items.forEach(item =>  updates [item.id] = item.count);
+    axios.post('/cart/update.js',{updates});  
+  }
+  
+  
+
+  
+  function SubmitChangeAndSetCart()
+   {
+    updates =
+    {
+          
+    	
+    }
+           
+    cart.items.forEach(item =>  updates [item.id] = item.count);
+    axios.post('/cart/update.js',{updates}).then(function(response){ SetCart(response);});
+  }
+  
+  function SubmitChangeGoCart()
+  {
+  	updates =
+    {
+          
+    	
+    }
+           
+    cart.items.forEach(item =>  updates [item.id] = item.count);
+    axios.post('/cart/update.js',{updates}).then(function(response){window.location = "/cart"});
+  
+  }
+  
+  
+  window.onbeforeunload = function(e) {
+  SubmitChangeAndSetCart();
+    
+};
+
+  
+  
+  
+
+  
+
+  
+  
+
+  
+  function UpdateShipping(localcart)
+  {
+    ToggleFreeShipping(localcart);
+    
+    var indicator =  document.getElementById("indicator");
+    indicator.style.width = localcart.UntilFreePercent+"%";    	
+  }
+  
+  
+// ip-api pro endpoint URL
+// see https://members.ip-api.com/docs/json for documentation
+              var allCountries = new Array();
+    {% for block in section.blocks%}
+    {%if block.type == "country_select" %}
+
+    allCountries.push(new Country("{{ block.settings.country}}",{{ block.settings.cart_min}}));
+    {%endif%}
+    {%endfor%}
+
+    function SetCountry()
+    {
+      
+     let cc = check_cookie_name("country");
+     let ci;
+     
+     if(cc != 0)
+     {
+       
+     	ci =  allCountries.find(c => c.country == cc );
+       if(ci != null)
+       {
+      
+       	return ci;
+       }
+       return 0;
+     
+     }
+     return 0;  
+    }
+  
+  
+  function check_cookie_name(name) 
+  {
+      var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+      if (match) {
+        return match[2];
+      }
+      else{
+         return 0;
+      }
+  }
+            
+  
+
+ </script>
+
+
+
+
+

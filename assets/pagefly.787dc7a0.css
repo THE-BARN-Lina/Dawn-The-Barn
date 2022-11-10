@@ -1,0 +1,958 @@
+/* PageFly Element Styles */
+					.jCTrmc__parallax { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; }
+.jCTrmc { padding: 15px 0px; position: relative; }
+.jCTrmc .sc-hzDEsm { position: relative; }
+.jCTrmc[data-container="true"] .sc-hzDEsm { padding: 0px 15px; width: 100%; margin: auto; }
+.jCTrmc .pf-parallax__img { text-indent: -10000px; position: absolute; object-fit: cover; top: 0px; left: 0px; width: 100%; height: 100%; }
+.bIROef { margin: 0 calc(-1 * var(--pf-s-lg)); }
+@media (max-width: 1199px) and (min-width: 992px) {
+  .bIROef { margin: 0 calc(-1 * var(--pf-s-md)); }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .bIROef { margin: 0 calc(-1 * var(--pf-s-sm)); }
+}
+@media (max-width: 767px) {
+  .bIROef { margin: 0 calc(-1 * var(--pf-s-xs)); }
+}
+.hPSgdS { padding: var(--pf-s-lg); }
+@media (max-width: 1199px) and (min-width: 992px) {
+  .hPSgdS { padding: var(--pf-s-md); }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .hPSgdS { padding: var(--pf-s-sm); }
+}
+@media (max-width: 767px) {
+  .hPSgdS { padding: var(--pf-s-xs); }
+}
+.hJSrYv { position: relative; }
+.cilIiP > a { color: inherit !important; }
+.cilIiP > span { font-weight: inherit; text-decoration: inherit; }
+.cilIiP { word-break: break-word; }
+.cilIiP.pf-i--left i { margin-right: 0.3em; }
+.cilIiP.pf-i--right i { margin-left: 0.3em; }
+.cilIiP.pf-i--top i { margin-bottom: 0.5em; }
+.cilIiP.pf-i--top > span, .cilIiP.pf-i--top > a { display: block; }
+.cilIiP.pf-i--top > span[data-empty][contenteditable] { display: block !important; }
+.cilIiP [class*="--diamond"] { margin-right: 1em; }
+.ditGEd { display: inline-block; }
+.ditGEd[contenteditable="true"] { user-select: text; }
+.ditGEd { vertical-align: baseline; word-break: break-word; }
+.ditGEd:focus { outline: none; }
+.ditGEd::after { display: inline; }
+.ibpxCV > a { color: inherit !important; }
+.ibpxCV > span { font-weight: inherit; text-decoration: inherit; }
+.ibpxCV { word-break: break-word; }
+.ibpxCV.pf-i--left i { margin-right: 0.3em; }
+.ibpxCV.pf-i--right i { margin-left: 0.3em; }
+.ibpxCV.pf-i--top i { margin-bottom: 0.5em; }
+.ibpxCV.pf-i--top > span, .ibpxCV.pf-i--top > a { display: block; }
+.ibpxCV.pf-i--top > span[data-empty][contenteditable] { display: block !important; }
+.ibpxCV [class*="--diamond"] { margin-right: 1em; }
+.iyWsWK > span:last-child { line-height: inherit; display: block; }
+#editor-dnd-wrapper .iyWsWK[class*="dropcap--"]:not(.dropcap--none) > span:last-child[contenteditable] { display: block; }
+#editor-dnd-wrapper .iyWsWK[class*="dropcap--"]:not(.dropcap--none) > span:last-child[contenteditable]:empty::after { display: inline; }
+.iyWsWK[class*="dropcap--"] > span:first-child { display: block; margin-right: 10px; float: left; width: 50px; height: 50px; line-height: 50px; }
+.iyWsWK[class*="dropcap--"]:not(.dropcap--none) > span:first-child { margin-right: 20px; text-align: center; }
+.iyWsWK.dropcap--none > span:first-child { text-align: inherit; border-radius: 0px; line-height: 1 !important; width: auto !important; height: auto !important; background: none !important; }
+.iyWsWK.dropcap--circle > span:first-child { border-radius: 100%; }
+.iyWsWK:not([class*="dropcap--"]) > span { margin-right: 0px !important; }
+.iyWsWK ol, .iyWsWK ul { list-style-position: inside; }
+.iyWsWK blockquote { font-size: inherit; }
+.hUlMxv > a { color: inherit !important; }
+.hUlMxv > span { font-weight: inherit; text-decoration: inherit; }
+.hUlMxv { word-break: break-word; }
+.hUlMxv.pf-i--left i { margin-right: 0.3em; }
+.hUlMxv.pf-i--right i { margin-left: 0.3em; }
+.hUlMxv.pf-i--top i { margin-bottom: 0.5em; }
+.hUlMxv.pf-i--top > span, .hUlMxv.pf-i--top > a { display: block; }
+.hUlMxv.pf-i--top > span[data-empty][contenteditable] { display: block !important; }
+.hUlMxv [class*="--diamond"] { margin-right: 1em; }
+.lgliwA { position: relative; }
+.jvPHs { display: inline-block; line-height: 1; padding: 0.7em 1.2em; box-sizing: border-box; cursor: pointer; text-align: center; border: none; border-radius: 0px; text-decoration: none; position: relative; max-width: 100%; outline: none; vertical-align: middle; }
+.jvPHs:hover, .jvPHs:active, .jvPHs:focus { color: inherit; text-decoration: none; }
+.jvPHs > span { text-decoration: inherit; line-height: inherit; display: inline-block; max-width: 100%; }
+.jvPHs[data-active="true"] { background: black; color: white; }
+.jvPHs.pf-i--left i { margin-right: 0.3em; }
+.jvPHs + .sc-iGrrsa, .jvPHs.pf-i--right i { margin-left: 0.3em; }
+.jvPHs.pf-i--top i { margin-bottom: 0.5em; display: block; }
+.kilsks { display: inline-flex; vertical-align: middle; }
+.kilsks picture { width: 100%; }
+.dSpQIS { position: relative; overflow: hidden; display: inline-flex; -webkit-box-pack: start; justify-content: flex-start; align-items: flex-start; vertical-align: middle; max-width: 100%; }
+.dSpQIS img { display: inline-block; object-fit: cover; max-width: 100%; max-height: 100%; height: auto; text-align: center; width: 100%; vertical-align: middle; position: unset; }
+					/* PageFly Styles */
+					
+@media all {
+	.__pf .pf-cef971f0 {
+		width: 100vw;
+		 min-height: 400px;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+	}
+	.__pf .pf-3b451990 {
+		min-height: 500px;
+		 width: 100vw;
+		 background-color: rgba(0, 0, 0, 0.5);
+		 padding-top: 50px;
+		 padding-bottom: 50px;
+	}
+	.__pf .pf-0dbec459 {
+		background-position: 50% 50%;
+		 background-size: cover;
+		 min-height: 400px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 padding: 0px;
+		 margin-top: -41px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-dab556d5-344b-47b2-8c69-f0ba34a72381--market-day-2.JPG?217067");
+	}
+	.__pf .pf-f6a09115 {
+		font-size: 36px;
+		 font-family: Raleway;
+		 font-weight: 700;
+	}
+	.__pf .pf-0e4b2fa5 {
+		font-family: Raleway;
+		 font-size: 18px;
+		 display: flex;
+		 place-content: center;
+		 align-items: center;
+		 flex-wrap: nowrap;
+		 flex-grow: 1;
+	}
+	.__pf .pf-90adc8ad {
+		display: flex;
+		 flex-direction: row;
+		 align-items: center;
+		 align-content: center;
+	}
+	.__pf .pf-5a11f396 {
+		padding-top: 80px;
+	}
+	.__pf .pf-56014f96 {
+		text-transform: uppercase;
+	}
+	.__pf .pf-71a482b1 {
+		margin-top: 100px;
+		 text-align: center;
+	}
+	.__pf .pf-c81d7e25 {
+		display: flex;
+		 flex-flow: column nowrap;
+		 align-items: flex-start;
+		 place-content: center;
+	}
+	.__pf .pf-05547b70 {
+		text-align: center;
+		 padding: 15px;
+		 width: 100%;
+		 height: 100%;
+		 min-height: 240px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-747f3d1e {
+		display: flex;
+		 flex: 1 1 50%;
+		 text-align: justify;
+		 min-height: 240px;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-color: rgb(0, 0, 0);
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-6dad8373-ee4b-41b5-9178-5c6486785c5e--water.jpg?219233");
+	}
+	.__pf .pf-79820481 {
+		text-align: center;
+		 padding: 15px;
+		 width: 100%;
+		 height: 100%;
+		 min-height: 240px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-fc5a835c {
+		display: flex;
+		 flex: 1 1 50%;
+		 text-align: justify;
+		 min-height: 240px;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-color: rgb(0, 0, 0);
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-5bc21d2e-b116-40d3-9d93-bdd8ddb6cd9b--roasting.jpg?217035");
+		 position: relative;
+		 overflow: hidden;
+	}
+	.__pf .pf-de50c6d1 {
+		text-align: center;
+		 padding: 15px;
+		 width: 100%;
+		 height: 100%;
+		 min-height: 240px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-61fa49b9 {
+		display: flex;
+		 flex: 1 1 50%;
+		 text-align: justify;
+		 min-height: 240px;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-color: rgb(0, 0, 0);
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-f8779bb4-6c9e-48c3-8112-fb86d84a5e57--extract.jpg?217037");
+	}
+	.__pf .pf-a2313e53 {
+		display: flex;
+		 flex-flow: row wrap;
+		 align-items: flex-start;
+		 place-content: center;
+	}
+	.__pf .pf-fa3b837b {
+		text-align: center;
+		 padding: 15px;
+		 width: 100%;
+		 height: 100%;
+		 min-height: 240px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-8aaad65c {
+		display: flex;
+		 flex: 1 1 50%;
+		 text-align: justify;
+		 min-height: 240px;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-color: rgb(0, 0, 0);
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-e916541d-6cd8-41de-bf6b-7304393ca861--umami.jpg?217039");
+	}
+	.__pf .pf-f85b5984 {
+		text-align: center;
+		 padding: 15px;
+		 width: 100%;
+		 height: 100%;
+		 min-height: 240px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-e9cff96b {
+		display: flex;
+		 flex: 1 1 50%;
+		 text-align: justify;
+		 min-height: 240px;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-color: rgb(0, 0, 0);
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-730a02d0-49f3-4c0d-ad96-b586b27348e7--espresso.jpg?217043");
+		 overflow: hidden;
+	}
+	.__pf .pf-1530075d {
+		text-align: center;
+		 padding: 15px;
+		 width: 100%;
+		 height: 100%;
+		 min-height: 240px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-928619bb {
+		display: flex;
+		 flex: 1 1 50%;
+		 text-align: justify;
+		 min-height: 240px;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-color: rgb(0, 0, 0);
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-4e4e3665-03c4-48d0-bfeb-abb15bf8b852--greengrading.jpg?217045");
+		 overflow: hidden;
+	}
+	.__pf .pf-50c7fe93 {
+		display: flex;
+		 flex-flow: row wrap;
+		 align-items: flex-start;
+		 place-content: center;
+	}
+	.__pf .pf-e8c02c2d {
+		text-align: center;
+		 padding: 15px;
+		 width: 100%;
+		 height: 100%;
+		 min-height: 240px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-33da01e2 {
+		display: flex;
+		 flex: 1 1 50%;
+		 text-align: justify;
+		 min-height: 240px;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-color: rgb(0, 0, 0);
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-b9e7506b-4599-447b-9e3d-9bf07b6aa0e2--latteart.jpg?217047");
+		 overflow: hidden;
+	}
+	.__pf .pf-2628c597 {
+		text-align: center;
+		 padding: 15px;
+		 width: 100%;
+		 height: 100%;
+		 min-height: 240px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-386558fd {
+		display: flex;
+		 flex: 1 1 50%;
+		 text-align: justify;
+		 min-height: 240px;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-color: rgb(0, 0, 0);
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7e6c49a1-5051-4aa3-ab47-0d652f06dcba--manualbrew.jpg?217049");
+		 overflow: hidden;
+	}
+	.__pf .pf-ae2762df {
+		text-align: center;
+		 padding: 15px;
+		 width: 100%;
+		 height: 100%;
+		 min-height: 240px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-ebb31ecd {
+		display: flex;
+		 flex: 1 1 50%;
+		 text-align: justify;
+		 min-height: 240px;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-color: rgb(0, 0, 0);
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-5890d361-1633-4c98-ad0a-d3c413790476--sensory.jpg?217031");
+		 overflow: hidden;
+	}
+	.__pf .pf-82317b9e {
+		display: flex;
+		 flex-flow: row wrap;
+		 align-items: flex-start;
+		 place-content: center;
+	}
+	.__pf .pf-2a84305b {
+		margin-top: -29px;
+	}
+	.__pf .pf-64cbe587 {
+		padding-bottom: 0px;
+	}
+	.__pf .pf-c834abf9 {
+		text-transform: uppercase;
+	}
+	.__pf .pf-50332f72 {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+	}
+	.__pf .pf-3968b73f {
+		display: block;
+		 width: 100%;
+		 height: auto;
+	}
+	.__pf .pf-818c0fd5 {
+		background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+	}
+	.__pf .pf-66722f70 {
+		display: flex;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+		 margin-top: 50px;
+	}
+	.__pf .pf-227d0877 {
+		text-align: center;
+	}
+	.__pf .pf-69dbd1e9 {
+		margin-top: 100px;
+	}
+	.__pf .pf-c0d4637c {
+		text-transform: uppercase;
+	}
+	.__pf .pf-6f3584e7 {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+	}
+	.__pf .pf-5af5ee0e {
+		background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 min-height: 360px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7928cb46-1e19-48d0-b430-a6f12bde3643--DSC02538.jpg?217686");
+	}
+	.__pf .pf-14b6fd23 {
+		background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-eaa8f5c9-cb00-4978-ba01-3938f6dedf0e--Ethiopia-Kopie.jpg?219218");
+	}
+	.__pf .pf-2fc53b4c {
+		text-transform: uppercase;
+	}
+	.__pf .pf-11fb19fc {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+	}
+	.__pf .pf-874e6c0b {
+		display: flex;
+		 flex-direction: column;
+		 align-items: flex-start;
+		 place-content: center;
+	}
+	.__pf .pf-414a02e7 {
+		min-height: 400px;
+	}
+	.__pf .pf-1eefa65d {
+		margin-top: 70px;
+	}
+	.__pf .pf-28e43520 {
+		text-align: center;
+	}
+	.__pf .pf-1c7488b6 {
+		margin-top: 100px;
+	}
+	.__pf .pf-1ff8890b {
+		text-align: center;
+		 padding: 15px;
+		 background-color: rgba(0, 0, 0, 0.5);
+		 width: 100%;
+		 height: 100%;
+		 min-height: 300px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-ab010c33 {
+		width: 100%;
+		 min-height: 300px;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-53a5fae9-3c15-4018-9a9b-7656e903bcee--kraft-tasting.jpg?219220");
+	}
+	.__pf .pf-d7ba4d80 {
+		text-align: justify;
+		 padding: 0px;
+		 margin-top: 20px;
+	}
+	.__pf .pf-97b96b08 {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+	}
+	.__pf .pf-92e6c880 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center flex-start;
+	}
+	.__pf .pf-b95f95f2 {
+		text-align: center;
+		 padding: 15px;
+		 background-color: rgba(0, 0, 0, 0.5);
+		 width: 100%;
+		 height: 100%;
+		 min-height: 300px;
+		 display: flex;
+		 align-items: center;
+		 place-content: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-458b22cf {
+		width: 100%;
+		 min-height: 300px;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-ed7a29bf-2bb9-43ad-9e9d-41fbf5cfd515--panel-sustainability.jpg?219222");
+	}
+	.__pf .pf-aa728646 {
+		text-align: justify;
+		 padding: 0px;
+		 margin-top: 20px;
+	}
+	.__pf .pf-45f74a29 {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+	}
+	.__pf .pf-674a2669 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center flex-start;
+	}
+	.__pf .pf-4c2805fb {
+		display: flex;
+		 flex-flow: row wrap;
+		 align-items: center;
+		 place-content: stretch center;
+	}
+	.__pf .pf-9f97f5a6 {
+		padding-top: 0px;
+	}
+	.__pf .pf-775fad78 {
+		font-size: 36px;
+		 font-family: Raleway;
+		 font-weight: 700;
+		 text-align: center;
+		 margin-bottom: 0px;
+	}
+	.__pf .pf-291338a0 {
+		margin-top: 100px;
+	}
+	.__pf .pf-7456f506 {
+		text-transform: uppercase;
+	}
+	.__pf .pf-819737b4 {
+		text-align: right;
+	}
+	.__pf .pf-6b48eb8f {
+		display: flex;
+		 flex-direction: column;
+		 align-items: flex-end;
+		 place-content: center;
+	}
+	.__pf .pf-d78f0545 {
+		background-position: 50% 50%;
+		 background-size: cover;
+		 background-repeat: no-repeat;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-637139ea-f9f2-4e62-9f13-9ce083b5faed--cupping.jpg?219224");
+	}
+	.__pf .pf-b0f3fb7e {
+		text-transform: uppercase;
+	}
+	.__pf .pf-c291a3e8 {
+		display: flex;
+		 flex-direction: column;
+		 place-content: center;
+		 align-items: flex-start;
+	}
+	.__pf .pf-980ec995 {
+		min-height: 500px;
+	}
+	.__pf .pf-300ea6b9 {
+		text-transform: uppercase;
+	}
+	.__pf .pf-c405d1b7 {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+	}
+	.__pf .pf-25bd007c {
+		display: flex;
+		 flex-direction: column;
+		 align-items: flex-start;
+		 place-content: center;
+	}
+	.__pf .pf-72a50d19 {
+		background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-a7938e62-671a-4d34-8eff-07e263677149--huye-mountain-2.jpg?217071");
+	}
+	.__pf .pf-cd638122 {
+		min-height: 400px;
+	}
+	.__pf .pf-a6085d0f {
+		background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-ca358ca1-91c0-4c3d-bcde-e509da9b0de2--P1050033.JPG?217511");
+	}
+	.__pf .pf-86314cdf {
+		text-transform: uppercase;
+	}
+	.__pf .pf-626b3f32 {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+	}
+	.__pf .pf-473a3fad {
+		display: flex;
+		 flex-direction: column;
+		 align-items: flex-start;
+		 place-content: center;
+	}
+	.__pf .pf-581b5978 {
+		min-height: 400px;
+	}
+	.__pf .pf-c33fdad0 {
+		margin-top: 100px;
+	}
+	.__pf .pf-30cd45b3 {
+		text-align: center;
+		 padding: 30px 50px 0px;
+		 margin-bottom: 0px;
+		 display: inline-block;
+		 width: 100%;
+	}
+	.__pf .pf-f17555c0 {
+		background-color: rgba(0, 0, 0, 0.6);
+		 position: absolute;
+		 top: 0px;
+		 bottom: 0px;
+		 left: 0px;
+		 right: 0px;
+		 display: flex;
+		 flex-wrap: wrap;
+		 align-items: center;
+		 align-content: center;
+	}
+	.__pf .pf-d6b30dac {
+		width: 100%;
+		 min-height: 500px;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 padding-bottom: 0px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-a0eb6675-c362-41ae-8cbf-6e5639da761a--Comandante-Cup-2019.JPG?219226");
+		 background-repeat: no-repeat;
+	}
+	.__pf .pf-b413c52e {
+		text-align: center;
+		 padding: 0px;
+		 margin-top: 20px;
+	}
+	.__pf .pf-a9035ecf {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+		 display: inline-block;
+	}
+	.__pf .pf-868d4a16 {
+		text-align: center;
+	}
+	.__pf .pf-fb598496 {
+		width: 100%;
+		 height: auto;
+	}
+	.__pf .pf-fe516fa8 {
+		margin-top: 10px;
+	}
+	.__pf .pf-3dd55901 {
+		text-align: justify;
+		 padding: 0px;
+		 margin-top: 20px;
+	}
+	.__pf .pf-0a0aaee3 {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+		 display: inline-block;
+	}
+	.__pf .pf-9a20228b {
+		width: 100%;
+		 height: auto;
+	}
+	.__pf .pf-20c2141d {
+		margin-top: 10px;
+	}
+	.__pf .pf-85ea1b02 {
+		margin-top: 100px;
+	}
+	.__pf .pf-54ffdf7f {
+		text-align: center;
+		 text-transform: uppercase;
+	}
+	.__pf .pf-0b3e0f47 {
+		text-align: justify;
+		 text-align-last: center;
+		 padding-left: 30px;
+		 padding-right: 30px;
+	}
+	.__pf .pf-b6ff087e {
+		background-color: rgb(152, 104, 48);
+		 color: rgb(255, 255, 255);
+		 display: inline-block;
+	}
+	.__pf .pf-81883c85 {
+		text-align: center;
+		 height: 100%;
+		 min-width: 200px;
+		 max-width: 700px;
+	}
+	.__pf .pf-d03ac07d {
+		background-color: rgba(0, 0, 0, 0.4);
+		 display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 align-content: center;
+		 padding-bottom: 30px;
+		 padding-top: 30px;
+		 min-height: 500px;
+		 height: 100%;
+		 width: 100%;
+	}
+	.__pf .pf-b180c524 {
+		padding: 0px;
+		 min-height: 500px;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 margin-top: 100px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-313f59a7-3594-427d-aea1-902c6d1b7f12--Party-final-festival-drink-2.jpg?217065");
+	}
+}
+@media only screen and (max-width: 767px) {
+	.__pf .pf-fa83802b {
+		text-align: center;
+		 padding-left: 10px;
+		 padding-right: 10px;
+	}
+	.__pf .pf-a9ca6dfc {
+		text-align: center;
+	}
+	.__pf .pf-0dbec459 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-dab556d5-344b-47b2-8c69-f0ba34a72381--market-day-2.JPG?217067");
+	}
+	.__pf .pf-747f3d1e {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-6dad8373-ee4b-41b5-9178-5c6486785c5e--water.jpg?219233");
+	}
+	.__pf .pf-fc5a835c {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-5bc21d2e-b116-40d3-9d93-bdd8ddb6cd9b--roasting.jpg?217035");
+	}
+	.__pf .pf-61fa49b9 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-f8779bb4-6c9e-48c3-8112-fb86d84a5e57--extract.jpg?217037");
+	}
+	.__pf .pf-8aaad65c {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-e916541d-6cd8-41de-bf6b-7304393ca861--umami.jpg?217039");
+	}
+	.__pf .pf-e9cff96b {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-730a02d0-49f3-4c0d-ad96-b586b27348e7--espresso.jpg?217043");
+	}
+	.__pf .pf-928619bb {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-4e4e3665-03c4-48d0-bfeb-abb15bf8b852--greengrading.jpg?217045");
+	}
+	.__pf .pf-50c7fe93 {
+		margin-bottom: -30px;
+	}
+	.__pf .pf-33da01e2 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-b9e7506b-4599-447b-9e3d-9bf07b6aa0e2--latteart.jpg?217047");
+	}
+	.__pf .pf-386558fd {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7e6c49a1-5051-4aa3-ab47-0d652f06dcba--manualbrew.jpg?217049");
+	}
+	.__pf .pf-ebb31ecd {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-5890d361-1633-4c98-ad0a-d3c413790476--sensory.jpg?217031");
+	}
+	.__pf .pf-14b6fd23 {
+		min-height: 300px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-eaa8f5c9-cb00-4978-ba01-3938f6dedf0e--Ethiopia-Kopie.jpg?219218");
+	}
+	.__pf .pf-ab010c33 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-53a5fae9-3c15-4018-9a9b-7656e903bcee--kraft-tasting.jpg?219220");
+	}
+	.__pf .pf-458b22cf {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-ed7a29bf-2bb9-43ad-9e9d-41fbf5cfd515--panel-sustainability.jpg?219222");
+	}
+	.__pf .pf-775fad78 {
+		font-size: 20px;
+	}
+	.__pf .pf-7456f506 {
+		text-align: left;
+		 display: block;
+		 width: 100%;
+	}
+	.__pf .pf-819737b4 {
+		text-align: left;
+	}
+	.__pf .pf-d78f0545 {
+		min-height: 300px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-637139ea-f9f2-4e62-9f13-9ce083b5faed--cupping.jpg?219224");
+	}
+	.__pf .pf-72a50d19 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-a7938e62-671a-4d34-8eff-07e263677149--huye-mountain-2.jpg?217071");
+		 min-height: 300px;
+	}
+	.__pf .pf-a6085d0f {
+		min-height: 300px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-ca358ca1-91c0-4c3d-bcde-e509da9b0de2--P1050033.JPG?217511");
+	}
+	.__pf .pf-d6b30dac {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-a0eb6675-c362-41ae-8cbf-6e5639da761a--Comandante-Cup-2019.JPG?219226");
+	}
+	.__pf .pf-b180c524 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-313f59a7-3594-427d-aea1-902c6d1b7f12--Party-final-festival-drink-2.jpg?217065");
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.__pf .pf-0dbec459 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-dab556d5-344b-47b2-8c69-f0ba34a72381--market-day-2.JPG?217067");
+	}
+	.__pf .pf-747f3d1e {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-6dad8373-ee4b-41b5-9178-5c6486785c5e--water.jpg?219233");
+	}
+	.__pf .pf-fc5a835c {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-5bc21d2e-b116-40d3-9d93-bdd8ddb6cd9b--roasting.jpg?217035");
+	}
+	.__pf .pf-61fa49b9 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-f8779bb4-6c9e-48c3-8112-fb86d84a5e57--extract.jpg?217037");
+	}
+	.__pf .pf-8aaad65c {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-e916541d-6cd8-41de-bf6b-7304393ca861--umami.jpg?217039");
+	}
+	.__pf .pf-e9cff96b {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-730a02d0-49f3-4c0d-ad96-b586b27348e7--espresso.jpg?217043");
+	}
+	.__pf .pf-928619bb {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-4e4e3665-03c4-48d0-bfeb-abb15bf8b852--greengrading.jpg?217045");
+	}
+	.__pf .pf-33da01e2 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-b9e7506b-4599-447b-9e3d-9bf07b6aa0e2--latteart.jpg?217047");
+	}
+	.__pf .pf-386558fd {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7e6c49a1-5051-4aa3-ab47-0d652f06dcba--manualbrew.jpg?217049");
+	}
+	.__pf .pf-ebb31ecd {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-5890d361-1633-4c98-ad0a-d3c413790476--sensory.jpg?217031");
+	}
+	.__pf .pf-2a84305b {
+		margin-top: -26px;
+	}
+	.__pf .pf-14b6fd23 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-eaa8f5c9-cb00-4978-ba01-3938f6dedf0e--Ethiopia-Kopie.jpg?219218");
+	}
+	.__pf .pf-ab010c33 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-53a5fae9-3c15-4018-9a9b-7656e903bcee--kraft-tasting.jpg?219220");
+	}
+	.__pf .pf-458b22cf {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-ed7a29bf-2bb9-43ad-9e9d-41fbf5cfd515--panel-sustainability.jpg?219222");
+	}
+	.__pf .pf-d78f0545 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-637139ea-f9f2-4e62-9f13-9ce083b5faed--cupping.jpg?219224");
+	}
+	.__pf .pf-72a50d19 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-a7938e62-671a-4d34-8eff-07e263677149--huye-mountain-2.jpg?217071");
+	}
+	.__pf .pf-a6085d0f {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-ca358ca1-91c0-4c3d-bcde-e509da9b0de2--P1050033.JPG?217511");
+	}
+	.__pf .pf-d6b30dac {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-a0eb6675-c362-41ae-8cbf-6e5639da761a--Comandante-Cup-2019.JPG?219226");
+	}
+	.__pf .pf-b180c524 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-313f59a7-3594-427d-aea1-902c6d1b7f12--Party-final-festival-drink-2.jpg?217065");
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.__pf .pf-0dbec459 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-dab556d5-344b-47b2-8c69-f0ba34a72381--market-day-2.JPG?217067");
+	}
+	.__pf .pf-747f3d1e {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-6dad8373-ee4b-41b5-9178-5c6486785c5e--water.jpg?219233");
+	}
+	.__pf .pf-fc5a835c {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-5bc21d2e-b116-40d3-9d93-bdd8ddb6cd9b--roasting.jpg?217035");
+	}
+	.__pf .pf-61fa49b9 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-f8779bb4-6c9e-48c3-8112-fb86d84a5e57--extract.jpg?217037");
+	}
+	.__pf .pf-8aaad65c {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-e916541d-6cd8-41de-bf6b-7304393ca861--umami.jpg?217039");
+	}
+	.__pf .pf-e9cff96b {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-730a02d0-49f3-4c0d-ad96-b586b27348e7--espresso.jpg?217043");
+	}
+	.__pf .pf-928619bb {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-4e4e3665-03c4-48d0-bfeb-abb15bf8b852--greengrading.jpg?217045");
+	}
+	.__pf .pf-33da01e2 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-b9e7506b-4599-447b-9e3d-9bf07b6aa0e2--latteart.jpg?217047");
+	}
+	.__pf .pf-386558fd {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7e6c49a1-5051-4aa3-ab47-0d652f06dcba--manualbrew.jpg?217049");
+	}
+	.__pf .pf-ebb31ecd {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-5890d361-1633-4c98-ad0a-d3c413790476--sensory.jpg?217031");
+	}
+	.__pf .pf-14b6fd23 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-eaa8f5c9-cb00-4978-ba01-3938f6dedf0e--Ethiopia-Kopie.jpg?219218");
+	}
+	.__pf .pf-ab010c33 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-53a5fae9-3c15-4018-9a9b-7656e903bcee--kraft-tasting.jpg?219220");
+	}
+	.__pf .pf-458b22cf {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-ed7a29bf-2bb9-43ad-9e9d-41fbf5cfd515--panel-sustainability.jpg?219222");
+	}
+	.__pf .pf-d78f0545 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-637139ea-f9f2-4e62-9f13-9ce083b5faed--cupping.jpg?219224");
+	}
+	.__pf .pf-72a50d19 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-a7938e62-671a-4d34-8eff-07e263677149--huye-mountain-2.jpg?217071");
+	}
+	.__pf .pf-a6085d0f {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-ca358ca1-91c0-4c3d-bcde-e509da9b0de2--P1050033.JPG?217511");
+	}
+	.__pf .pf-d6b30dac {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-a0eb6675-c362-41ae-8cbf-6e5639da761a--Comandante-Cup-2019.JPG?219226");
+	}
+	.__pf .pf-b180c524 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-313f59a7-3594-427d-aea1-902c6d1b7f12--Party-final-festival-drink-2.jpg?217065");
+	}
+}

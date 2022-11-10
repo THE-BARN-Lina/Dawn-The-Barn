@@ -1,0 +1,465 @@
+{{ '_auction.css' | asset_url | stylesheet_tag }}
+<div class="_a-container">
+    <div class="_a-row _a-display-none _a-banner _a-margin-bottom-30" id="_a-banner-div">
+        <div class="_a-display-inline-block _a-banner-message"></div>
+        <div class="_a-display-inline-block _a-float-right"><span class="_a-banner-close" id="_a-banner-close-btn">X</span></div>
+    </div>
+    <div class="_a-row">
+        <div class="_a-five _a-columns">
+            <div class="_a-product-photo-container">
+                {% assign featured_image = product.selected_or_first_available_variant.featured_image | default: product.featured_image %}
+                {% for image in product.images %}
+                    {%- capture img_wrapper_id -%}productPhotoWrapper-{{ section.id }}-{{ image.id }}{%- endcapture -%}
+                    {%- assign max_width = 700 -%}
+                    {%- assign max_height = 1024 -%}
+                    {% if image.aspect_ratio < 1 %}
+                        {% assign max_width = max_height | times: image.aspect_ratio %}
+                        {% if image.height < max_height %}
+                            {% assign max_width = image.width %}
+                        {% endif %}
+                    {% else %}
+                        {% assign max_height = max_width | divided_by: image.aspect_ratio %}
+                        {% if image.width < max_width %}
+                            {% assign max_width = image.width %}
+                        {% else %}
+                            {% assign max_width = max_width %}
+                        {% endif %}
+                    {% endif %}
+
+                    {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <div id="{{ img_wrapper_id }}" class="_a-lazyload-image-wrapper{% unless image == featured_image %} _a-hide{% endunless %}" data-image-id="{{ image.id }}" style="max-width: {{ max_width }}px">
+                    <div style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;">
+                        <img 
+                        {% if forloop.first == true %}
+                        src="{{ featured_image | img_url: '300x300' }}"
+                        {% endif %}
+                        class="lazyload lazypreload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="{{ image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ image.alt | escape }}"
+                        {% if section.settings.product_image_zoom_enable %} data-zoom="{{ image | img_url: '1024x1024', scale: 2 }}"{% endif %}>
+                    </div>
+                    </div>
+                    {% if forloop.first == true %}
+                    <noscript>
+                        <img src="{{ image | img_url: '580x' }}"
+                        srcset="{{ image | img_url: '580x' }} 1x, {{ image | img_url: '580x', scale: 2 }} 2x"
+                        alt="{{ image.alt }}" style="opacity:1;">
+                    </noscript>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            {% if product.images.size > 1 %}
+            <ul class="_a-product-photo-thumbs _a-grid-uniform">
+
+                {% for image in product.images %}
+                    <li class="_a-width-25">
+                        <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}">
+                    </li>
+                {% endfor %}
+
+            </ul>
+            {% endif %}
+        </div>
+        <div class="_a-seven _a-columns">
+
+            {% if section.settings.product_vendor_enable %}
+                <h1 itemprop="name" class="_a-margin-bottom-10">{{ product.title }}</h1>
+                <p itemprop="brand" class="_a-margin-bottom-30">{{ product.vendor }}</p>
+            {% else %}
+                <h1 itemprop="name" class="_a-margin-bottom-30">{{ product.title }}</h1>
+            {% endif %}
+            {% assign auction_end_date = product.metafields.___auction_pro.end_date | date: "%s" | plus: 0 %}
+            {% assign current_date = 'now' | date: "%s" | plus: 0 %}
+            {% if product.selected_or_first_available_variant.inventory_quantity > 0 and auction_end_date > current_date %}
+                <div class="_a-margin-bottom-30" id="_a-auction-inputs">
+                    <div class="_a-margin-bottom-5 _a-timer" id="_a-countdown-timer" data-product-id="{{ product.id }}" data-shop-domain="{{ shop.domain }}" data-shop-id="{{ shop.id }}" data-currency="{{ shop.money_with_currency_format }}" data-shop-currency="{{ shop.currency }}">---</div>
+                    <div id="_a-end-date">---</div>
+                    <div class="_a-auction-input-container _a-margin-vertical-15">
+                        <span class="_a-display-block _a-margin-bottom-10 _a-current-bid-font" id="_a-current-bid-placeholder">---</span>
+                      	<span class="_a-hide _a-display-block _a-margin-bottom-10 _a-current-bid-font"><span>{{ 'auction_pro_template.template.bid_current' | t }}: </span><b id="_a-current-bid"></b> (<b class="_a-modal-btn-link" id="_a-bids"></b>)</span>
+                        <span class="_a-hide _a-display-block _a-margin-bottom-10 _a-current-bid-font">{{ 'auction_pro_template.template.bid_starting' | t }}: <b id="_a-starting-bid"></b></span>
+                        <span class="_a-hide _a-display-block _a-margin-bottom-10 _a-current-bid-font"><span id="_a-reserve-price-message">{{ 'auction_pro_template.template.reserve_price_not_met' | t }}</span> <b id="_a-reserve-price"></b></span>
+                      	<div class="_a-row" id="_a-auction-inputs-container">
+                            <div class="_a-row">
+                                <div class="_a-float-left _a-margin-right-20 _a-max-width-50">
+                                    <input placeholder="{{ 'auction_pro_template.template.bid_enter' | t }}" type="text" class="_a-margin-bottom-10 _a-max-width-100 _a-current-bid-input" id="_a-bid-input"></input>
+                                </div>
+                                <div class="_a-float-left"><button class="_a-auction-btn _a-margin-bottom-10 _a-current-bid-input-btn" id="_a-bid-btn">{{ 'auction_pro_template.template.bid_verb' | t }}</button></div>
+                            </div>
+                            <div class="_a-row _a-margin-bottom-20">
+                                <span class="_a-display-block _a-auction-grey _a-current-bid-input-prompt" id="_a-bid-prompt"></span>
+                            </div>
+                            <div class="_a-row _a-display-inline-block _a-hide" id="_a-error-message" data-login-url="/account/login?checkout_url={{canonical_url}}" data-register-url="/account/register?checkout_url={{canonical_url}}">
+                                <span class="_a-message-block">
+                                    <svg class="_a-icon icon-exclamation-circle">
+                                        <use xlink:href="#icon-exclamation-circle">
+                                            <symbol id="icon-exclamation-circle" viewBox="0 0 24 28">
+                                                <path fill="#FF101F" d="M12 2c6.625 0 12 5.375 12 12s-5.375 12-12 12-12-5.375-12-12 5.375-12 12-12zM14 21.484v-2.969c0-0.281-0.219-0.516-0.484-0.516h-3c-0.281 0-0.516 0.234-0.516 0.516v2.969c0 0.281 0.234 0.516 0.516 0.516h3c0.266 0 0.484-0.234 0.484-0.516zM13.969 16.109l0.281-9.703c0-0.109-0.047-0.219-0.156-0.281-0.094-0.078-0.234-0.125-0.375-0.125h-3.437c-0.141 0-0.281 0.047-0.375 0.125-0.109 0.063-0.156 0.172-0.156 0.281l0.266 9.703c0 0.219 0.234 0.391 0.531 0.391h2.891c0.281 0 0.516-0.172 0.531-0.391z"></path>
+                                            </symbol>
+                                        </use>
+                                    </svg>
+                                    <span class="_a-padding-left-5" id="_a-error-message-span"></span>
+                                </span>
+                            </div>
+                            <div class="_a-hide _a-row _a-margin-bottom-20" id="_a-buy-it-now-section">
+                                <div class="_a-float-left _a-buy-it-now-style _a-display-table _a-margin-right-20">                     
+                                    <span class="_a-buy-it-now-font">{{ 'auction_pro_template.template.buy_it_now_price' | t }}: <b id="_a-buy-it-now-price">{{ product.selected_or_first_available_variant.price | money }}</b></span>
+                                </div>
+                                <div class="_a-float-left">
+                                    <button class="_a-auction-btn _a-margin-bottom-10 _a-buy-it-now-btn" id="_a-buy-it-now-btn" data-product-variant-id="{{ product.selected_or_first_available_variant.id }}" data-cart-url="{{ routes.cart_url }}">{{ 'auction_pro_template.template.buy_it_now' | t }}</button>
+                                </div>
+                            </div>
+                            <div class="_a-row _a-display-block _a-automatic-bid-font">
+                                <span class="_a-modal-btn-link" id="_a-auto-bid">
+                                    <b>{{ 'auction_pro_template.template.automatic_bid_place' | t }}</b>
+                                    <span class=" _a-tooltip">
+                                      <svg class="_a-icon-auto-bid icon-question-circle">
+                                          <use xlink:href="#icon-question-circle">
+                                              <symbol id="icon-question-circle" viewBox="0 0 24 28">
+                                                    <path d="M14 21.5v-3c0-0.281-0.219-0.5-0.5-0.5h-3c-0.281 0-0.5 0.219-0.5 0.5v3c0 0.281 0.219 0.5 0.5 0.5h3c0.281 0 0.5-0.219 0.5-0.5zM18 11c0-2.859-3-5-5.688-5-2.547 0-4.453 1.094-5.797 3.328-0.141 0.219-0.078 0.5 0.125 0.656l2.063 1.563c0.078 0.063 0.187 0.094 0.297 0.094 0.141 0 0.297-0.063 0.391-0.187 0.734-0.938 1.047-1.219 1.344-1.437 0.266-0.187 0.781-0.375 1.344-0.375 1 0 1.922 0.641 1.922 1.328 0 0.812-0.422 1.219-1.375 1.656-1.109 0.5-2.625 1.797-2.625 3.313v0.562c0 0.281 0.219 0.5 0.5 0.5h3c0.281 0 0.5-0.219 0.5-0.5v0c0-0.359 0.453-1.125 1.188-1.547 1.188-0.672 2.812-1.578 2.812-3.953zM24 14c0 6.625-5.375 12-12 12s-12-5.375-12-12 5.375-12 12-12 12 5.375 12 12z"></path>
+                                              </symbol>
+                                          </use>
+                                      </svg>
+                                      <span class="_a-tooltiptext">{{ 'auction_pro_template.template.automatic_bid_tooltip' | t }}</span>
+                                    </span>
+                                 </span>
+                            </div>
+                      	</div>
+                    </div>
+                    {% assign anonymous_derples = '68ec6d3993ad84bf05477ba6d7c256f706696e8e3bd592c816ff98a72ad4d8e4d781280c2e4f1f1448e383ce' | append: shop.domain | append: product.url | append: product.id | hmac_sha256: '0eefd9aa5e74df94d89a506aa360f6d2fb16952b6f963d9392ad64e646fb531bb981eb22fa5ead2e4b83cef7b6967518ef9bfac65f5ae91f5ab1197bcf1a7204' %}      
+                    <span class="_a-hide" id="_a-anonymous-info" data-anonymous-derples="{{ anonymous_derples }}" data-product-url="{{ product.url }}"></span>
+                    {% if customer %}
+                        {% assign customer_derples = '68ec6d3993ad84bf05477ba6d7c256f706696e8e3bd592c816ff98a72ad4d8e4d781280c2e4f1f1448e383ce' | append: shop.domain | append: customer.id | append: customer.email | hmac_sha256: '0eefd9aa5e74df94d89a506aa360f6d2fb16952b6f963d9392ad64e646fb531bb981eb22fa5ead2e4b83cef7b6967518ef9bfac65f5ae91f5ab1197bcf1a7204' %}      
+                        <span class="_a-hide" id="_a-customer-info" data-customer-derples="{{ customer_derples }}" data-customer-id="{{customer.id}}" data-customer-email="{{customer.email}}" data-customer-first-name="{{customer.first_name}}" data-customer-last-name="{{customer.last_name}}"></span>
+                    {% endif %}
+                </div>
+            {% else %}
+      			<div class="_a-margin-bottom-30">
+                    <div class="_a-margin-bottom-5 _a-timer">{{ 'auction_pro_template.js.auction_end' | t }}</div>
+                    <div>{{ 'auction_pro_template.js.end_date' | t }}:                 
+                    {% if request.locale.iso_code == 'en' %}
+                        {{ product.metafields.___auction_pro.end_date | date: "%m-%d-%Y - %r" }}
+                    {% else %}
+                        {{ product.metafields.___auction_pro.end_date | date: "%F - %T" }}
+                    {% endif %}
+                    </div>
+                    {% if product.metafields.___auction_pro.bids != blank %}
+                        <div class="_a-auction-input-container _a-margin-vertical-15">
+                        	<span class="_a-display-block _a-margin-bottom-10 _a-current-bid-font">{{ 'auction_pro_template.template.bid_winning' | t }}: <b id="_a-current-bid">{{ product.metafields.___auction_pro.bids[0].bid | times: 100 | money }}</b> (<b class="_a-modal-btn-link" id="_a-bids-complete">{{ product.metafields.___auction_pro.bids.size }} {% if product.metafields.___auction_pro.bids.size > 1 %}{{ 'auction_pro_template.js.bids' | t }}{% else %}{{ 'auction_pro_template.js.bid' | t }}{% endif %}</b>)</span>
+                        </div>
+                    {% elsif product.selected_or_first_available_variant.inventory_quantity == 0 %}
+                        <div class="_a-auction-input-container _a-margin-vertical-15">
+                        	<span class="_a-display-block _a-margin-bottom-10 _a-current-bid-font">{{ 'auction_pro_template.template.bid_winning' | t }}: <b id="_a-current-bid">{{ product.price | money }}</b></span>
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+  
+            {% if section.settings.product_reviews_enable %}
+                <div class="product-meta--review">
+                    <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+                </div>
+            {% endif %}
+
+            <div class="_a-margin-bottom-30" itemprop="description">{{ product.description }}</div>
+
+            {% if section.settings.social_sharing_products %}
+                {% capture permalinkURL %}{{ shop.url }}{{ product.url }}{% endcapture %}
+                {% capture shareTitle %}{{ product.title | url_param_escape }}{% endcapture %}
+                <div data-permalink="{{ permalinkURL }}">
+
+                    {% if settings.share_facebook %}
+                    <a class="_a-share-btn _a-margin-right-20" target="_blank" href="//www.facebook.com/sharer.php?u={{ permalinkURL }}" title="{{ 'general.social.alt_text.share_on_facebook' | t }}">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="_a-icon" viewBox="0 0 20 20"><path fill="#3b5998" d="M18.05.811q.439 0 .744.305t.305.744v16.637q0 .439-.305.744t-.744.305h-4.732v-7.221h2.415l.342-2.854h-2.757v-1.83q0-.659.293-1t1.073-.342h1.488V3.762q-.976-.098-2.171-.098-1.634 0-2.635.964t-1 2.72V9.47H7.951v2.854h2.415v7.221H1.413q-.439 0-.744-.305t-.305-.744V1.859q0-.439.305-.744T1.413.81H18.05z"></path></svg>
+                        <span class="_a-share-title" aria-hidden="true">{{ 'general.social.share_on_facebook' | t }}</span>
+                    </a>
+                    {% endif %}
+
+                    {% if settings.share_twitter %}
+                    <a class="_a-share-btn _a-margin-right-20" target="_blank" href="//twitter.com/share?text={{ shareTitle }}&amp;url={{ permalinkURL }}&amp;source=webclient" class="share-twitter" title="{{ 'general.social.alt_text.share_on_twitter' | t }}">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="_a-icon" viewBox="0 0 20 20"><path fill="#00aced" d="M19.551 4.208q-.815 1.202-1.956 2.038 0 .082.02.255t.02.255q0 1.589-.469 3.179t-1.426 3.036-2.272 2.567-3.158 1.793-3.963.672q-3.301 0-6.031-1.773.571.041.937.041 2.751 0 4.911-1.671-1.284-.02-2.292-.784T2.456 11.85q.346.082.754.082.55 0 1.039-.163-1.365-.285-2.262-1.365T1.09 7.918v-.041q.774.408 1.773.448-.795-.53-1.263-1.396t-.469-1.864q0-1.019.509-1.997 1.487 1.854 3.596 2.924T9.81 7.184q-.143-.509-.143-.897 0-1.63 1.161-2.781t2.832-1.151q.815 0 1.569.326t1.284.917q1.345-.265 2.506-.958-.428 1.386-1.732 2.18 1.243-.163 2.262-.611z"></path></svg>
+                        <span class="_a-share-title" aria-hidden="true">{{ 'general.social.share_on_twitter' | t }}</span>
+                    </a>
+                    {% endif %}
+
+                    {% if settings.share_pinterest %}
+                        <a class="_a-share-btn" target="_blank" href="//pinterest.com/pin/create/button/?url={{ permalinkURL }}&amp;media=http:{% if request.page_type == 'product' %}{{ product | img_url: '1024x1024' }}{% else %}{{ article | img_url: '1024x1024' }}{% endif %}&amp;description={{ shareTitle }}" class="share-pinterest" title="{{ 'general.social.alt_text.share_on_pinterest' | t }}">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="_a-icon" viewBox="0 0 20 20"><path fill="#cb2027" d="M9.958.811q1.903 0 3.635.744t2.988 2 2 2.988.744 3.635q0 2.537-1.256 4.696t-3.415 3.415-4.696 1.256q-1.39 0-2.659-.366.707-1.147.951-2.025l.659-2.561q.244.463.903.817t1.39.354q1.464 0 2.622-.842t1.793-2.305.634-3.293q0-2.171-1.671-3.769t-4.257-1.598q-1.586 0-2.903.537T5.298 5.897 4.066 7.775t-.427 2.037q0 1.268.476 2.22t1.427 1.342q.171.073.293.012t.171-.232q.171-.61.195-.756.098-.268-.122-.512-.634-.707-.634-1.83 0-1.854 1.281-3.183t3.354-1.329q1.83 0 2.854 1t1.025 2.61q0 1.342-.366 2.476t-1.049 1.817-1.561.683q-.732 0-1.195-.537t-.293-1.269q.098-.342.256-.878t.268-.915.207-.817.098-.732q0-.61-.317-1t-.927-.39q-.756 0-1.269.695t-.512 1.744q0 .39.061.756t.134.537l.073.171q-1 4.342-1.22 5.098-.195.927-.146 2.171-2.513-1.122-4.062-3.44T.59 10.177q0-3.879 2.744-6.623T9.957.81z"></path></svg>
+                        <span class="_a-share-title" aria-hidden="true">{{ 'general.social.share_on_pinterest' | t }}</span>
+                        </a>
+                    {% endif %}
+
+                </div>
+            {% endif %}
+
+        </div>
+        <div id="_a-auction-modal-automatic" class="_a-modal _a-hidden-menu">
+            <div class="_a-modal-container _a-width-500">
+                <div class="_a-row _a-modal-header">
+                    <svg class="_a-modal-close _a-modal-close-btn">
+                        <use xlink:href="#icon-x-altx-alt">
+                            <symbol id="icon-x-altx-alt" viewBox="0 0 32 32">
+                                <path d="M16 0c-8.836 0-16 7.164-16 16s7.164 16 16 16 16-7.164 16-16-7.164-16-16-16zM23.914 21.086l-2.828 2.828-5.086-5.086-5.086 5.086-2.828-2.828 5.086-5.086-5.086-5.086 2.828-2.828 5.086 5.086 5.086-5.086 2.828 2.828-5.086 5.086 5.086 5.086z"></path>
+                            </symbol>
+                        </use>
+                    </svg>
+                    <span class="_a-modal-title">{{ 'auction_pro_template.template.automatic_bid_place' | t }}</span>
+                </div>
+                <div class="_a-modal-body _a-padding-30">
+                    <div class="_a-row _a-display-none _a-banner _a-banner-error _a-margin-bottom-20">
+                        <div class="_a-display-inline-block _a-banner-message"></div>
+                    </div>
+                    <label for="_a-automatic-bid-input" class="_a-display-block _a-margin-bottom-20">{{ 'auction_pro_template.template.automatic_bid_message' | t }}</label>
+                    <input placeholder="{{ 'auction_pro_template.template.bid_amount' | t }}" type="text" class="_a-margin-bottom-10 _a-current-bid-input _a-width-100" id="_a-automatic-bid-input"></input>
+              	</div>
+                <div class="_a-row _a-modal-footer">
+                    <input type="button" class="_a-modal-btn _a-modal-btn-cancel _a-modal-close-btn _a-margin-right-20" value="{{ 'auction_pro_template.template.cancel' | t }}">
+                    <input type="button" class="_a-modal-btn _a-modal-btn-confirm" id="_a-auction-submit-automatic-bid" value="{{ 'auction_pro_template.template.confirm' | t }}">
+                </div>
+            </div>
+        </div>
+        <div id="_a-auction-modal-bids" class="_a-modal _a-hidden-menu">
+            <div class="_a-modal-container _a-width-700">
+                <div class="_a-row _a-modal-header">
+                    <svg class="_a-modal-close _a-modal-close-btn">
+                        <use xlink:href="#icon-x-altx-alt">
+                            <symbol id="icon-x-altx-alt" viewBox="0 0 32 32">
+                                <path d="M16 0c-8.836 0-16 7.164-16 16s7.164 16 16 16 16-7.164 16-16-7.164-16-16-16zM23.914 21.086l-2.828 2.828-5.086-5.086-5.086 5.086-2.828-2.828 5.086-5.086-5.086-5.086 2.828-2.828 5.086 5.086 5.086-5.086 2.828 2.828-5.086 5.086 5.086 5.086z"></path>
+                            </symbol>
+                        </use>
+                    </svg>
+                    <span class="_a-modal-title">{{ 'auction_pro_template.template.bids' | t }}</span>
+                </div>
+                <div class="_a-modal-body _a-padding-20">
+                  	<table class="_a-modal-auction-bids">
+                        <thead>
+                            <tr>
+                                <th scope="col">{{ 'auction_pro_template.js.bidder' | t }}</th>
+                                <th scope="col">{{ 'auction_pro_template.js.amount' | t }}</th>
+                                <th scope="col">{{ 'auction_pro_template.js.date' | t }}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                          	{% if product.metafields.___auction_pro.bids != blank %}
+                          		{% for item in product.metafields.___auction_pro.bids %}
+                                    <tr>
+                                        <td data-label="{{ 'auction_pro_template.js.bidder' | t }}">{{ item.name }}</td>
+                                        <td data-label="{{ 'auction_pro_template.js.amount' | t }}">{{ item.bid | times: 100 | money }}</td>
+                                        <td data-label="{{ 'auction_pro_template.js.date' | t }}">
+                                            {% if request.locale.iso_code == 'en' %}
+                                                {{ item.bid_date | date: "%m-%d-%Y - %r" }}
+                                            {% else %}
+                                                {{ item.bid_date | date: "%F - %T" }}
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                          	{% endif %}
+                        </tbody>
+                    </table>
+              	</div>
+                <div class="_a-row _a-modal-footer">
+                    <input type="button" class="_a-modal-btn _a-modal-btn-cancel _a-modal-close-btn" value="{{ 'auction_pro_template.template.close' | t }}">
+                </div>
+            </div>
+        </div>
+        <div id="_a-auction-modal-bid-confirm" class="_a-modal _a-hidden-menu">
+            <div class="_a-modal-container _a-width-500">
+                <div class="_a-row _a-modal-header">
+                    <svg class="_a-modal-close _a-modal-close-btn">
+                        <use xlink:href="#icon-x-altx-alt">
+                            <symbol id="icon-x-altx-alt" viewBox="0 0 32 32">
+                                <path d="M16 0c-8.836 0-16 7.164-16 16s7.164 16 16 16 16-7.164 16-16-7.164-16-16-16zM23.914 21.086l-2.828 2.828-5.086-5.086-5.086 5.086-2.828-2.828 5.086-5.086-5.086-5.086 2.828-2.828 5.086 5.086 5.086-5.086 2.828 2.828-5.086 5.086 5.086 5.086z"></path>
+                            </symbol>
+                        </use>
+                    </svg>
+                    <span class="_a-modal-title">{{ 'auction_pro_template.template.bid_submit' | t }}</span>
+                </div>
+                <div class="_a-modal-body _a-padding-40-30">{{ 'auction_pro_template.template.bid_submit_confirm' | t }}</div>
+                <div class="_a-row _a-modal-footer">
+                    <input type="button" class="_a-modal-btn _a-modal-btn-cancel _a-modal-close-btn _a-margin-right-20" value="{{ 'auction_pro_template.template.cancel' | t }}">
+                    <input type="button" class="_a-modal-btn _a-modal-btn-confirm" id="_a-auction-submit-bid" value="{{ 'auction_pro_template.template.confirm' | t }}">
+                </div>
+            </div>
+        </div>
+        <div id="_a-auction-modal-loading" class="_a-modal _a-hidden-menu">
+            <div class="_a-modal-center">
+                <span class="_a-display-block _a-font-32 _a-margin-bottom-20 _a-white-text">{{ 'auction_pro_template.template.bid_submitting' | t }}</span>
+                <div class="_a-lds-ring _a-lds-ring-light"><div></div><div></div><div></div><div></div></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script id="_a-language-data" type="application/json">{{ 'auction_pro_template.js' | t }}</script>
+<script src="{{ '_lazysizes.min.js' | asset_url }}"></script>
+<script src="{{ '_auction.js' | asset_url }}"></script>
+
+{% schema %}
+{
+  "name": {
+    "da": "Produkt",
+    "de": "Produkt",
+    "en": "Product",
+    "es": "Producto",
+    "fi": "Tuote",
+    "fr": "Produit",
+    "hi": "उत्पाद",
+    "it": "Prodotto",
+    "ja": "商品",
+    "ko": "제품",
+    "nb": "Produkt",
+    "nl": "Product",
+    "pt-BR": "Produto",
+    "pt-PT": "Produto",
+    "sv": "Produkt",
+    "th": "สินค้า",
+    "zh-CN": "产品",
+    "zh-TW": "產品"
+  },
+  "class": "product-template-auction-alt-section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "product_vendor_enable",
+      "label": {
+        "da": "Vis produktleverandør",
+        "de": "Produktanbieter anzeigen",
+        "en": "Show product vendor",
+        "es": "Mostrar proveedor del producto",
+        "fi": "Näytä tuotteen myyjä",
+        "fr": "Afficher le distributeur du produit",
+        "hi": "उत्पाद विक्रेता दिखाएं",
+        "it": "Mostra fornitore prodotto",
+        "ja": "商品の販売元を表示する",
+        "ko": "제품 공급 업체 표시",
+        "nb": "Vis produktleverandør",
+        "nl": "Productleverancier weergeven",
+        "pt-BR": "Exibir fornecedor do produto",
+        "pt-PT": "Mostrar o fornecedor do produto",
+        "sv": "Visa produktsäljare",
+        "th": "แสดงผู้ขายสินค้า",
+        "zh-CN": "显示产品厂商",
+        "zh-TW": "顯示產品廠商"
+      }
+    },
+    {
+      "type": "checkbox",
+      "id": "social_sharing_products",
+      "label": {
+        "da": "Aktivér produktdeling",
+        "de": "Teilen von Produkten aktivieren",
+        "en": "Enable product sharing",
+        "es": "Habilitar compartir productos",
+        "fi": "Ota tuotejako käyttöön",
+        "fr": "Activer le partage de produits",
+        "hi": "उत्पाद साझाकरण सक्षम करें",
+        "it": "Abilita condivisione del prodotto",
+        "ja": "商品の共有を有効にする",
+        "ko": "제품 공유 활성화",
+        "nb": "Aktiver produktdeling",
+        "nl": "Schakel het delen van producten in",
+        "pt-BR": "Habilitar o compartilhamento de produtos",
+        "pt-PT": "Ativar a partilha de produtos",
+        "sv": "Aktivera produktdelning",
+        "th": "เปิดใช้การแชร์สินค้า",
+        "zh-CN": "启用产品分享",
+        "zh-TW": "啟用產品分享"
+      },
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "product_reviews_enable",
+      "label": {
+        "da": "Aktivér produktanmeldelser",
+        "de": "Produktbewertungen aktivieren",
+        "en": "Enable product reviews",
+        "es": "Habilitar reseñas de productos",
+        "fi": "Ota tuotearvostelut käyttöön",
+        "fr": "Activer les avis sur les produits",
+        "hi": "उत्पाद समीक्षा सक्षम करें",
+        "it": "Abilita recensioni di prodotto",
+        "ja": "商品レビューを有効にする",
+        "ko": "제품 리뷰 사용",
+        "nb": "Aktiver produktanmeldelser",
+        "nl": "Productbeoordelingen inschakelen",
+        "pt-BR": "Habilitar as avaliações de produtos",
+        "pt-PT": "Ativar as análises de produtos",
+        "sv": "Aktivera produktrecensioner",
+        "th": "เปิดรีวิวสินค้า",
+        "zh-CN": "启用产品评论",
+        "zh-TW": "啟用產品評論"
+      },
+      "info": {
+        "da": "Installer den gratis Shopify-app [Produktanmeldelser](https://apps.shopify.com/product-reviews) for at tilføje produktanmeldelser.",
+        "de": "Installieren Sie die kostenlose Shopify-App [Product Reviews](https://apps.shopify.com/product-reviews), um Produktbewertungen hinzuzufügen.",
+        "en": "Install the free Shopify [Product Reviews](https://apps.shopify.com/product-reviews) app to add product reviews.",
+        "es": "Instala la aplicación gratis de Shopify [Product Reviews](https://apps.shopify.com/product-reviews) para agregar reseñas de productos.",
+        "fi": "Asenna ilmainen Shopify [tuotearvostelut](https://apps.shopify.com/product-reviews) -sovellus tuotearvostelujen lisäämiseen.",
+        "fr": "Installer l'application Shopify gratuite [Product Reviews](https://apps.shopify.com/product-reviews) pour ajouter des avis sur les produits.",
+        "hi": "नि: शुल्क Shopify इंस्टाल करें [उत्पाद समीक्षा](https://apps.shopify.com/product-reviews) उत्पाद समीक्षा जोड़ने के लिए ऐप.",
+        "it": "Installa l'app gratuita di Shopify [Recensioni Prodotto](https://apps.shopify.com/product-reviews) per aggiungere delle recensioni di prodotto.",
+        "ja": "無料のShopify[商品レビュー](https://apps.shopify.com/product-reviews)をインストールしてください商品レビューを追加するためのアプリです。",
+        "ko": "무료 Shopify [제품 리뷰] 를 설치하십시오.(https://apps.shopify.com/product-reviews) 제품 리뷰 추가 앱",
+        "nb": "Installer den gratis Shopify [Produktanmeldelser](https://apps.shopify.com/product-reviews) appen for å legge til produktanmeldelser.",
+        "nl": "Installeer de gratis Shopify [Productbeoordelingen](https://apps.shopify.com/product-reviews) app om productbeoordelingen toe te voegen",
+        "pt-BR": "Instale o app Shopify [Avaliações de Produtos](https://apps.shopify.com/product-reviews) para adicionar avaliações de produtos.",
+        "pt-PT": "Instale a aplicação gratuita da Shopify [Análises de produtos](https://apps.shopify.com/product-reviews) para adicionar análises de produtos.",
+        "sv": "Installera den fria Shopify [Produktrecensioner](https://apps.shopify.com/product-reviews) app för att lägga till produktrecensioner.",
+        "th": "ติดตั้งแอป Shopify [รีวิวสินค้า](https://apps.shopify.com/product-reviews) เพื่อเพิ่มรีวิวสินค้าฟรี",
+        "zh-CN": "安装免费 Shopify [产品评论](https://apps.shopify.com/product-reviews) 应用以添加产品评论。",
+        "zh-TW": "免費安裝 Shopify [Product Reviews](https://apps.shopify.com/product-reviews) 應用程式以新增產品評論。"
+      }
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_payment_button",
+      "label": {
+        "da": "Vis dynamisk betalingsknap",
+        "de": "Dynamischen Checkout-Button anzeigen",
+        "en": "Show dynamic checkout button",
+        "es": "Mostrar botón de pago dinámico",
+        "fi": "Näytä dynaaminen kassapainike",
+        "fr": "Afficher le bouton de paiement dynamique",
+        "hi": "डायनेमिक चेकआउट बटन दिखाएं",
+        "it": "Mostra pulsante di check-out dinamico",
+        "ja": "動的チェックアウトボタンを表示する",
+        "ko": "동적 결제 버튼 표시",
+        "nb": "Vis dynamisk knapp for å gå til kassen",
+        "nl": "Dynamische betaalknop weergeven",
+        "pt-BR": "Exibir botão de checkout dinâmico",
+        "pt-PT": "Mostrar o botão dinâmico de finalização da compra",
+        "sv": "Visa dynamiska utcheckningsknappar",
+        "th": "แสดงปุ่มชำระเงินแบบไดนามิก",
+        "zh-CN": "显示动态结账按钮",
+        "zh-TW": "顯示動態結帳按鈕"
+      },
+      "info": {
+        "da": "Den enkelte kunde vil se sin foretrukne betalingsmetode blandt dem, der er tilgængelige i din butik, f.eks. PayPal eller Apple Pay. [Få mere at vide](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "de": "Jeder Kunde sieht seine bevorzugte Zahlungsmethode aus den in Ihrem Shop verfügbaren Zahlungsmethoden wie PayPal oder Apple Pay. [Mehr Infos](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "en": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "es": "Cada cliente verá su forma de pago preferida entre las disponibles en tu tienda, como PayPal o Apple Pay. [Más información](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "fi": "Kukin asiakas näkee ensisijaisen valintansa kauppasi tarjoamista maksutavoista, esim. PayPal tai Apple Pay. [Lisätietoja](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "fr": "Chaque client verra son moyen de paiement préféré parmi ceux qui sont proposés sur votre boutique, tels que PayPal ou Apple Pay. [En savoir plus](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "hi": "प्रत्येक ग्राहक आपके स्टोर पर उपलब्ध अपनी पसंदीदा भुगतान की विधि देखेंगे जैसे PayPal या Apple Pay. [अधिक जानें](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "it": "Ogni cliente vedrà il suo metodo di pagamento preferito tra quelli disponibili nel tuo negozio, come PayPal o Apple Pay. [Maggiori informazioni](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "ja": "PayPalやApple Payなど、ストアで利用可能な希望の決済方法がお客様に表示されます。[もっと詳しく](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "ko": "각 고객은 PayPal 또는 Apple Pay와 같이 스토어에서 사용 가능한 지불 방법을 확인할 수 있습니다. [자세히 알아보기](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "nb": "Hver enkelt kunde vil se sin foretrukne betalingsmåte blant de som er tilgjengelig i butikken din, som PayPal eller Apple Pay. [Finn ut mer](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "nl": "Elke klant ziet zijn of haar beschikbare voorkeursmethode om af te rekenen, zoals PayPal of Apple Pay. [Meer informatie](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "pt-BR": "Cada cliente verá a forma de pagamento preferencial dele dentre as disponíveis na loja, como PayPal ou Apple Pay. [Saiba mais](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "pt-PT": "Cada cliente irá ver o seu método de pagamento preferido entre os disponíveis na loja, como o PayPal ou Apple Pay. [Saiba mais](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "sv": "Varje kund kommer att se den föredragna betalningsmetoden från de som finns tillgängliga i din butik, till exempel PayPal eller Apple Pay. [Läs mer](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "th": "ลูกค้าแต่ละรายจะเห็นวิธีการชำระเงินที่ต้องการจากวิธีที่ใช้ได้ในร้านค้าของคุณ เช่น PayPal หรือ Apple Pay [ดูข้อมูลเพิ่มเติม](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "zh-CN": "每位客户都可在您商店提供的付款方式中看到他们的首选付款方式，例如 PayPal 或 Apple Pay。[了解详细信息](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "zh-TW": "每位顧客都可以在您商店內開放使用的付款方式中看見他們偏好使用的方式，如 PayPal、Apple Pay 等。[深入瞭解相關資訊](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+      },
+      "default": true
+    }
+  ]
+}
+{% endschema %}

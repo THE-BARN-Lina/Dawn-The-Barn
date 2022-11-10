@@ -1,0 +1,286 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "small"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "37a1fa2a-1f24-450a-a9a1-cb4528b8519d": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "09e3b91c-548d-4e0d-8407-66cce56af3e5": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "37a1fa2a-1f24-450a-a9a1-cb4528b8519d",
+        "09e3b91c-548d-4e0d-8407-66cce56af3e5"
+      ],
+      "settings": {
+      }
+    },
+    "16539896096a558956": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "16539896093449c6a4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Barn x lala Berlin x Platte",
+            "heading_size": "h1"
+          }
+        },
+        "16539896093449c6a4-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16539896093449c6a4-0",
+        "16539896093449c6a4-1"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16540050392bcccc55": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1654005039cc792148-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From the 16th to the 18th of June 2022, for lala Berlins annual archive and sample sale, Lala Berlin, Platte, and The Barn will come together to host an event that is not to be missed: <br\/>a celebration of three innovative companies born and bred in Berlin. <\/p><p>Whilst browsing the designs of a unique Berlin fashion designer you’ll have the chance to sip a coffee or just enjoy the atmosphere curated by Berlin’s most exciting events space.<\/p><p>☕️🛍<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1654005039cc792148-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1654005012719f3a7e": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1654005012d50721a7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "It All Starts With a Brew",
+            "heading_size": "h2"
+          }
+        },
+        "1654005012d50721a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We all know the importance of fuelling any creative work and it was back in 2010, after her daily kindergarten drop off, that Ralf first served Leyla of lala Berlin a perfectly crafted flat white.<\/p><p>Since that first coffee, Leyla and Ralf have developed a firm friendship and we continue to be driven by the same shared values. With quality and sustainability at the core of our businesses, we have always strived to do things a little better<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1654005012d50721a7-0",
+        "1654005012d50721a7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LeylaPiedayesh_kluka_02.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1654005344077c5435": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "165400534418956c86-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Today, we are very pleased to once again be neighbours in the Brunnenviertel Kiez of Berlin, where we roast all our coffee and where Leyla creates her latest designs.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "165400534418956c86-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_2253.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1654005496339b24f5": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1654005496959b4f47-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspired by Berlin",
+            "heading_size": "h2"
+          }
+        },
+        "1654005496959b4f47-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With sustainability as a core value of lala Berlin, we are pleased to announce that our hosts Platte are as serious about reducing their impact on the planet as we are. <\/p><p>Based in the heart of the city, Platte have created a fair, open, and sustainable space that helps connect people and ideas. <\/p><p>Having championed progressive business models and new ways of consumption from their inception, they are our perfect partners and true representatives of the creative mindset that thrives in Berlin.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1654005496959b4f47-0",
+        "1654005496959b4f47-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PLATTE-Team_by_Susanna_Stursberg.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16540060169347aa3b": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "165400601694ad6df1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "JOIN US",
+            "heading_size": "h1"
+          }
+        },
+        "165400601694ad6df1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>So with a flash sale of LaLa Berlin designs and the chance to taste some of the best single origin coffees, sign up now!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "165400601694ad6df1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up",
+            "button_link": "https:\/\/www.eventbrite.com\/e\/334385414777"
+          }
+        }
+      },
+      "block_order": [
+        "165400601694ad6df1-0",
+        "165400601694ad6df1-1",
+        "165400601694ad6df1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Regular-Invitation.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1657800005e8dead30": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "newest-coffees",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16539896096a558956",
+    "16540050392bcccc55",
+    "1654005012719f3a7e",
+    "1654005344077c5435",
+    "1654005496339b24f5",
+    "16540060169347aa3b",
+    "1657800005e8dead30"
+  ]
+}

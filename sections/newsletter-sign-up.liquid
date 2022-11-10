@@ -1,0 +1,223 @@
+{% schema %}
+  {
+    "name": "Newsletter",
+    "settings": [
+          {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+    ],
+ 	"presets": [
+      {
+        "name": "Newsletter banner",
+        "category": "Custom"
+      }
+    
+    ]
+  }
+{% endschema %}
+
+<div class="Bannerwrapper">
+ <div class="Bannerbox">
+    <p>Stay connected! Sign up now and get 10% off your next bean order.</p>
+    <div class="formbox">
+          <div class="footer-block__newsletter">
+            {%- if section.settings.newsletter_heading != blank -%}
+              <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
+            {%- endif -%}
+            {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <div class="newsletter-form__Bannerbox">
+                <div class="field">
+                  <input
+                    id="NewsletterForm--{{ section.id }}"
+                    type="email"
+                    name="contact[email]"
+                    class="field__input"
+                    value="{{ form.email }}"
+                    aria-required="true"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    autocomplete="email"
+                    {% if form.errors %}
+                      autofocus
+                      aria-invalid="true"
+                      aria-describedby="ContactFooter-error"
+                    {% elsif form.posted_successfully? %}
+                      aria-describedby="ContactFooter-success"
+                    {% endif %}
+                    placeholder="{{ 'newsletter.label' | t }}"
+                    required
+                  >
+                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                    Enter email address
+                  </label>
+                  <button type="submit" class="" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">SIGN UP</button>
+                </div>
+                {%- if form.errors -%}
+                  <small class="newsletter-form__message form__message" id="ContactFooter-error">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+                {%- endif -%}
+              </div>
+              {%- if form.posted_successfully? -%}
+                <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+              {%- endif -%}
+            {%- endform -%}
+            
+            </div>     
+           </div>
+         </div>
+      </div>
+
+<style>
+  .section-{{ section.id }}-padding {
+  padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+  padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+}
+  
+* { Box-sizing: Border-box }
+
+.Bannerwrapper{
+            margin-right: auto;
+            margin-left:auto;
+            display: flex;
+            justify-content: center;
+            }
+
+  .Bannerbox p {
+    color: #fff;
+            }
+  
+ .Bannerwrapper .Bannerbox {
+          background: #1c1c1c;
+          display: flex;
+          align-items: center;
+          padding: 2.5rem;
+          width: 1100px;
+          justify-content: space-around;
+          text-align: center;
+          gap: 38px;
+          }
+
+.Bannerwrapper .formbox {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;  
+        align-items: center;
+        justify-content: center;
+        }
+
+  .field__label{
+      opacity: 40%; 
+    }
+
+.Bannerwrapper  .field__input:focus{
+          outline: none;
+          box-shadow: 0 0 0 3px #232323;
+          }
+
+.Bannerwrapper  button{
+         background: white;
+         border: none;
+         cursor: pointer;
+         font-size: 15px;
+         letter-spacing: 0.6px;
+         text-align: center;
+         width: 160px;
+         height: 45px;
+         margin-top: 1px;
+       }
+
+   @media screen and (max-width: 1120px) {
+
+     .Bannerwrapper .Bannerbox {
+       padding: 20px 48px 20px 48px;
+     }
+
+      @media screen and (max-width: 1110px) {
+
+     .Bannerwrapper .Bannerbox {
+       padding: 20px 20px 20px 20px;
+       width: 1000px;
+        gap: 50px;
+     }
+
+      .Bannerbox p {
+          color: #fff;
+      }
+
+       @media screen and (max-width: 988px) {
+
+     .Bannerwrapper .Bannerbox {
+       width: 888px;
+     }  
+
+         .Bannerbox p {
+            width: 377px;
+       }
+
+            @media screen and (max-width: 920px) {
+           
+       .Bannerbox p {
+            width: 330px;
+       }
+
+           @media screen and (max-width: 890px) {
+
+              .Bannerwrapper .Bannerbox {
+    width: 798px;
+              }
+
+                @media screen and (max-width: 780px) {
+           
+          .Bannerwrapper .Bannerbox {
+    width: 680px;
+              }
+
+           @media screen and (max-width: 694px) {
+             .Bannerwrapper .Bannerbox {
+                  padding: 10px 40px 10px 40px;
+                  gap: 4px;
+                  display: flex;
+                  flex-direction: column;
+                  width: 660px;
+                  min-width: 400px;
+             }
+
+             .Bannerbox p {
+                      margin-top: 10px;
+                    }
+
+             .Bannerwrapper .formbox {
+               margin-bottom: 10px;
+                    }
+}
+  
+  
+</style>
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+

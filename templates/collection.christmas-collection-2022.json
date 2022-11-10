@@ -1,0 +1,300 @@
+{
+  "wrapper": "div#div_id.page-width",
+  "sections": {
+    "4f1480d0-e188-4c1b-88a1-d0727494c927": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHRISTMAS",
+            "heading_size": "h2"
+          }
+        },
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0",
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7e63d166-e043-404d-836b-94a1f670b7c1": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "It is the most wonderful time of the year....",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-0",
+        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/A5E33E5A-910D-4264-83D6-0A8C869AC3C3.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "transparent_block": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "12c08833-363b-46d1-8516-2d25abd2136a": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.custom.taste_notes.value }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "55485292-d9a1-4dd4-8c01-70307aa74748": {
+          "type": "text",
+          "settings": {
+            "text": "Every year we search far and wide to find the perfect coffee to share with our loved ones over the Christmas season. This year is no different. ",
+            "text_style": "body"
+          }
+        },
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-1",
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-0",
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-3",
+        "55485292-d9a1-4dd4-8c01-70307aa74748",
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-2",
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-4",
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-5",
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-6",
+        "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-7"
+      ],
+      "settings": {
+        "product": "christmas-coffee-2022",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "3c745dad-598d-473f-8669-98ccee87e5f0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Gift Subscriptions",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gift-subscriptions",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "accent-2"
+      }
+    },
+    "166186709197b72a8b": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "quick_add_button_color": "#804d15",
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Explore our Christmas Gifts",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "christmas-2022-add-ons",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "1662738554a4ae067d": {
+      "type": "image-with-text",
+      "blocks": {
+        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e": {
+          "type": "caption",
+          "settings": {
+            "caption": "SOLD OUT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "16627385548857c752-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SPECIALTY COFFEE ADVENT CALENDAR",
+            "heading_size": "h2"
+          }
+        },
+        "16627385548857c752-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A flavour journey through the worlds most exciting coffee regions. Make this Christmas Season special with 24x cute cotton bags, filled with delicious surprises.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16627385548857c752-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SOLD OUT",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e",
+        "16627385548857c752-0",
+        "16627385548857c752-1",
+        "16627385548857c752-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cca8fe96-bb92-41da-b9a4-473d80fe2500.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "4f1480d0-e188-4c1b-88a1-d0727494c927",
+    "7e63d166-e043-404d-836b-94a1f670b7c1",
+    "12c08833-363b-46d1-8516-2d25abd2136a",
+    "3c745dad-598d-473f-8669-98ccee87e5f0",
+    "banner",
+    "166186709197b72a8b",
+    "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc",
+    "1662738554a4ae067d"
+  ]
+}

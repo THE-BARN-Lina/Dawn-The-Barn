@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "166487745024746111": {
+      "type": "rich-text",
+      "blocks": {
+        "16648774498992d6ee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Locations",
+            "heading_size": "h1"
+          }
+        },
+        "16648774498992d6ee-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16648774498992d6ee-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16648774498992d6ee-0",
+        "16648774498992d6ee-1",
+        "16648774498992d6ee-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "pf-6a5ef4aa": {
+      "type": "pf-6a5ef4aa",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "166487745024746111",
+    "pf-6a5ef4aa"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "sections": {
+    "16617886004c08eb06": {
+      "type": "rich-text",
+      "blocks": {
+        "166178860017e2e27d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUBSCRIPTIONS",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "166178860017e2e27d-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1661788498089f2742": {
+      "type": "rich-text",
+      "blocks": {
+        "1661788498284b952d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "SUBSCRIPTIONS",
+            "heading_size": "h1"
+          }
+        },
+        "1661788498284b952d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>THE WORLDS BEST COFFEES ON REPEAT<\/strong><br\/>We are sending out the most amazing Single Origin Coffees every day.<br\/>Simply pick your style: From rotating Microlots to Masterpiece Coffees.<br\/><br\/><strong>OUR PLEDGE TO QUALITY<\/strong><br\/>We will never lower our qualities - even with the sharp increase of coffee prices, transportation costs and a 15% decline of the Euro against the US Dollar. That said, we had to increase slightly our subscription pricing. We know that you appreciate our delicious coffees. You can trust us to deliver total quality!<br\/><br\/><strong>NEWS:<\/strong> We are working on new eco-price shipment for our European Customers!<br\/><br\/>Ralf Rueller, Founder<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1661788498284b952d-0",
+        "1661788498284b952d-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "Subscription": {
+      "type": "subcriptions-2021-08",
+      "blocks": {
+        "82ceee26-0a37-48a6-a8a1-48dee5e2616a": {
+          "type": "subWithFrom",
+          "settings": {
+            "name": "curated",
+            "title": "<p>CURATED FILTER OR ESPRESSO<\/p>",
+            "product": "curated-subscription-monthly",
+            "img": "shopify:\/\/shop_images\/subscription_3_bags_1.jpg",
+            "shortDescription": "Two new coffee experiences per month.",
+            "longDescription": "<p>Receive two new coffees every month. Chose your roast style. Always get the latest releases.<br\/><strong>In {{ \"now\" | date: \"%B\"| prepend: \" \" }} we are sending out :<\/strong><\/p><p><strong>FILTER<br\/><\/strong>{{settings.curated_filter_1}}<br\/>{{settings.curated_filter_2}}<br\/><strong><br\/>ESPRESSO <\/strong><br\/>{{settings.curated_espresso_1}}<br\/>{{settings.curated_espresso_2}}<\/p>",
+            "Question1": "How many 250 gram bags?",
+            "hideQuestion1": false,
+            "noBagsButKG": false,
+            "positionQuestion1": "1",
+            "exlcudeFromQuestion1": "",
+            "alternativeLabelsQuestion1En": "2, 4, 6",
+            "Question2": "Select your roast",
+            "hideQuestion2": false,
+            "positionQuestion2": "1",
+            "exlcudeFromQuestion2": "",
+            "alternativeLabelsQuestion2En": "",
+            "Question3": "Where do we ship to?",
+            "hideQuestion3": false,
+            "positionQuestion3": "2",
+            "exlcudeFromQuestion3": "world",
+            "alternativeLabelsQuestion3En": "Germany, Europe, Australasia, Special Regions, USA & Canada",
+            "QuestionTooltip": "*We are currently not shipping to: Brasil, Côte D’Ivoire, Chile, Indonesia, Malaysia, Mexico, Puerto Rico, Taiwan, Africa",
+            "redirect": "https:\/\/thebarnberlin.com\/products\/curated-filter-subscription",
+            "destinationImages": "https:\/\/cdn.shopify.com\/s\/files\/1\/0582\/0258\/7329\/files\/germany_flag_circle-512_99ab45a8-88a9-465c-b12b-ec2914db02c0.png?v=1631272798, https:\/\/cdn.shopify.com\/s\/files\/1\/0582\/0258\/7329\/files\/Flag_of_Europe_-_Circle-512_c12a0625-6d15-43cd-a8f4-992232253f6b.png?v=1631272798, https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/earth_PNG25.png?v=1653393484, https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/earth_PNG25.png?v=1653393484,https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/earth_PNG25.png?v=1653393484",
+            "destinationTooltips": "%*Choose special regions for: Bulgaria, Croatia, Romania, Malta %*Australia, New Zealand, Far East excluding: Taiwan and Malaysia %*UAE, Bulgaria, Croatia, Romania, Malta %Go to our North America Page",
+            "additionalRedirect": true,
+            "Question4": "How do you want to pay?",
+            "prepaidHandles": "subscription-3-months-fixed, subscription-6-months-fixed, copy-of-subscription-12-months-fixed",
+            "prepaidLables": "3 Months, 6 Months, 12 Months"
+          }
+        },
+        "8e659993-db4c-421f-b8da-b0ef1e31d716": {
+          "type": "subWithFrom",
+          "settings": {
+            "name": "lowcaf",
+            "title": "<p>LOW CAFFEINE <br\/>COFFEE<\/p>",
+            "product": "low-caf-subscription",
+            "img": "shopify:\/\/shop_images\/Insta_1.jpg",
+            "shortDescription": "Beans with naturally low caffeine levels.",
+            "longDescription": "<p>We offer two coffee varietals that contain less than half of the caffeine you typically find in coffee. These rare beans are grown in nature. Each month you will receive two 250g bags of naturally low caffeine beans.<br\/><br\/>In  {{ \"now\" | date: \"%B\"| prepend: \" \" }} we are sending out :<br\/><strong>{{settings.low_caf}}<\/strong> <\/p>",
+            "Question1": "Where do we Ship To?",
+            "hideQuestion1": true,
+            "noBagsButKG": false,
+            "positionQuestion1": "0",
+            "exlcudeFromQuestion1": "",
+            "alternativeLabelsQuestion1En": "",
+            "Question2": "Where do we Ship To?",
+            "hideQuestion2": true,
+            "positionQuestion2": "1",
+            "exlcudeFromQuestion2": "",
+            "alternativeLabelsQuestion2En": "",
+            "Question3": "Where do we Ship To?",
+            "hideQuestion3": false,
+            "positionQuestion3": "2",
+            "exlcudeFromQuestion3": "",
+            "alternativeLabelsQuestion3En": "Germany, Europe, Australasia, Special Regions, USA & Canada",
+            "QuestionTooltip": "*We are currently not shipping to: Brasil, Côte D’Ivoire, Chile, Indonesia, Malaysia, Mexico, Puerto Rico, Taiwan, Africa",
+            "redirect": "",
+            "destinationImages": "https:\/\/cdn.shopify.com\/s\/files\/1\/0582\/0258\/7329\/files\/germany_flag_circle-512_99ab45a8-88a9-465c-b12b-ec2914db02c0.png?v=1631272798, https:\/\/cdn.shopify.com\/s\/files\/1\/0582\/0258\/7329\/files\/Flag_of_Europe_-_Circle-512_c12a0625-6d15-43cd-a8f4-992232253f6b.png?v=1631272798, https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/earth_PNG25.png?v=1653393484, https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/earth_PNG25.png?v=1653393484,\nhttps:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/earth_PNG25.png?v=1653393484",
+            "destinationTooltips": "%*Choose special regions for: Bulgaria, Croatia, Romania, Malta %*Australia, New Zealand, Far East excluding: Taiwan and Malaysia %*UAE, Bulgaria, Croatia, Romania, Malta %Go to our North America Page",
+            "additionalRedirect": false,
+            "Question4": "",
+            "prepaidHandles": "",
+            "prepaidLables": ""
+          }
+        },
+        "5f0ab4d1-c9cb-4ad3-aad7-a926f705ea4e": {
+          "type": "subWithFrom",
+          "settings": {
+            "name": "otm",
+            "title": "<p>Espresso <br\/>of the Month<\/p>",
+            "product": "espresso-of-the-month-subscription-legacy",
+            "img": "shopify:\/\/shop_images\/milkespresso.jpg",
+            "shortDescription": "A different Espresso each month.",
+            "longDescription": "<p>You receive a new espresso every month. This coffee is typically a new release and definetely an espresso that you will be excited about.<\/p><p>In {{ \"now\" | date: \"%B\"| prepend: \" \" }} we are sending out :<br\/><strong>{{settings.espresso_of_the_month}}<\/strong><\/p>",
+            "Question1": "How many kilogramms of espresso per month?",
+            "hideQuestion1": false,
+            "noBagsButKG": true,
+            "positionQuestion1": "0",
+            "exlcudeFromQuestion1": "",
+            "alternativeLabelsQuestion1En": "1KG per Month, 2KG per Month, 3KG per Month",
+            "Question2": "",
+            "hideQuestion2": true,
+            "positionQuestion2": "2",
+            "exlcudeFromQuestion2": "",
+            "alternativeLabelsQuestion2En": "",
+            "Question3": "Where do we Ship To?",
+            "hideQuestion3": false,
+            "positionQuestion3": "2",
+            "exlcudeFromQuestion3": "",
+            "alternativeLabelsQuestion3En": "",
+            "QuestionTooltip": "",
+            "redirect": "",
+            "destinationImages": "https:\/\/cdn.shopify.com\/s\/files\/1\/0582\/0258\/7329\/files\/germany_flag_circle-512_99ab45a8-88a9-465c-b12b-ec2914db02c0.png?v=1631272798, https:\/\/cdn.shopify.com\/s\/files\/1\/0582\/0258\/7329\/files\/Flag_of_Europe_-_Circle-512_c12a0625-6d15-43cd-a8f4-992232253f6b.png?v=1631272798, https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/earth_PNG25.png?v=1653393484, https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/earth_PNG25.png?v=1653393484",
+            "destinationTooltips": "%We currently don't ship to: Bulgaria, Croatia, Romania, Malta",
+            "additionalRedirect": false,
+            "Question4": "",
+            "prepaidHandles": "",
+            "prepaidLables": ""
+          }
+        },
+        "e747732d-1b91-407d-ba45-192ea6f6ab62": {
+          "type": "subNoForm",
+          "settings": {
+            "name": "Masterpiece",
+            "product": "shopify:\/\/products\/masterpiece-subscription-legacy",
+            "img": "shopify:\/\/shop_images\/elidapic01_77d827ed-5978-45d7-a854-169674873a8f.jpg",
+            "description": "Our most exclusive subscription. The rarest coffee beans with unique traits and flavours. We carefully select and ship a different coffee every month."
+          }
+        },
+        "b8b52367-d997-48da-b211-bc8b472d211e": {
+          "type": "subNoForm",
+          "settings": {
+            "name": "House Subscription",
+            "product": "https:\/\/thebarn.de\/products\/house-subscription",
+            "img": "shopify:\/\/shop_images\/58A7546A-31EE-46C2-AE76-EF3A84FF9085-5.jpg",
+            "description": "Our House Filter or Espresso. Single Origin Coffee with a consistent profile for you to enjoy all day at your house. Our best offer for customers in Germany"
+          }
+        },
+        "828fa2a7-6fae-4157-bc8a-9e2385a374d9": {
+          "type": "subNoForm",
+          "settings": {
+            "name": "USA & CANADA",
+            "product": "https:\/\/thebarnberlin.com",
+            "img": "shopify:\/\/shop_images\/IMG_7351.jpg",
+            "description": "Our most popular subscriptions are now tailormade for North America: Cheaper & Faster. We ship fresh from our warehouse in the USA. Like a local."
+          }
+        }
+      },
+      "block_order": [
+        "82ceee26-0a37-48a6-a8a1-48dee5e2616a",
+        "8e659993-db4c-421f-b8da-b0ef1e31d716",
+        "5f0ab4d1-c9cb-4ad3-aad7-a926f705ea4e",
+        "e747732d-1b91-407d-ba45-192ea6f6ab62",
+        "b8b52367-d997-48da-b211-bc8b472d211e",
+        "828fa2a7-6fae-4157-bc8a-9e2385a374d9"
+      ],
+      "settings": {
+        "pageHeader": "",
+        "pageIntroP": "",
+        "overviewIMG1": "shopify:\/\/shop_images\/Scale.png",
+        "overviewT1": "Single Origin Coffee",
+        "overviewIMG2": "shopify:\/\/shop_images\/Box_02b945d6-7aab-42a7-858f-85b3fbafea27.png",
+        "overviewT2": "Shipping Costs Included",
+        "overviewIMG3": "shopify:\/\/shop_images\/Roaster.png",
+        "overviewT3": "Save Lots Of Money",
+        "overviewIMG4": "shopify:\/\/shop_images\/Plant.png",
+        "overviewT4": "Skip. Stop. Adjust.",
+        "summaryTextBeansEng": "2 Bags Of Beans, 4 Bags Of Beans, 6 Bags Of Beans, Bags",
+        "summaryTextBeansGer": "2 Tüten mit Bohnen, 4 Tüten mit Bohnen, 6 Tüten mit Bohnen, Tüten",
+        "summaryTextBeansKGEng": "1Kg Of Beans, 2Kg  Of Beans, 3 Kg Of Beans, Kgs",
+        "summaryTextBeansKGGer": "1 Kilo Bohnen, 2 Kilo Bohnen, 3 Kilo Bohnen, Tüten",
+        "summaryTextRoastEng": "Filter Roast, Espresso Roast, Roast",
+        "summaryTextRoastGer": "Filter Röstung, Espresso Röstung, Röstung",
+        "summaryTextDestEng": "Deliver to Germany, Deliver to Europe, Deliver to Far East \/ Australia \/ New Zealand, Deliver to UAE \/ Bulgaria \/ Croatia \/ Malta \/ Romania, Delivery",
+        "summaryTextDestGer": "",
+        "summary_icon_1": "shopify:\/\/shop_images\/image.png",
+        "summary_icon_2": "shopify:\/\/shop_images\/image_3.png",
+        "summary_icon_3": "shopify:\/\/shop_images\/image_1.png",
+        "noShipping": "*Not Shipping to: \nAfghanistan, Åland Islands, Albania, Algeria, Andorra, Angola, Anguilla, Antigua & Barbuda, Argentina, Armenia, Aruba, Ascension Island, Azerbaijan, Bahamas, Bangladesh, Barbados, Belarus, Belize, Benin, Bermuda, Bhutan, Bolivia, Bosnia & Herzegovina, Botswana, Brazil, British Indian Ocean Territory, British Virgin Islands, Brunei, Burkina Faso, Burundi, Cambodia, Cameroon, Cape Verde, Caribbean Netherlands, Cayman Islands, Central African Republic, Chad, Chile, Christmas Island, Cocos (Keeling) Islands, Colombia, Comoros, Congo - Brazzaville, Congo - Kinshasa, Cook Islands, Costa Rica, Curaçao, Côte d’Ivoire, Djibouti, Dominica, Dominican Republic, Ecuador, El Salvador, Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Falkland Islands, Faroe Islands, Fiji, French Guiana, French Polynesia, French Southern Territories, Gabon, Gambia, Georgia, Ghana, Gibraltar, Greenland, Grenada, Guadeloupe, Guatemala, Guernsey, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, India, Iraq, Isle of Man, Israel, Jamaica, Jersey, Kazakhstan, Kenya, Kiribati, Kosovo, Kyrgyzstan, Laos, Lesotho, Liberia, Libya, Macao SAR, Madagascar, Malawi, Maldives, Mali, Martinique, Mauritania, Mauritius, Mayotte, Mexico, Moldova, Monaco, Mongolia, Montenegro, Montserrat, Morocco, Mozambique, Myanmar (Burma), Namibia, Nauru, Nepal, New Caledonia, Nicaragua, Niger, Nigeria, Niue, Norfolk Island, North Macedonia, Oman, Pakistan, Palestinian Territories, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Pitcairn Islands, Réunion, Russia, Rwanda, Samoa, San Marino, São Tomé & Príncipe, Senegal, Serbia, Seychelles, Sierra Leone, Sint Maarten, Solomon Islands, Somalia, South Africa, South Georgia & South Sandwich Islands, South Sudan, Sri Lanka, St. Barthélemy, St. Helena, St. Kitts & Nevis, St. Lucia, St. Martin, St. Pierre & Miquelon, St. Vincent & Grenadines, Sudan, Suriname, Svalbard & Jan Mayen, Taiwan, Tajikistan, Tanzania, Timor-Leste, Togo, Tokelau, Tonga, Trinidad & Tobago, Tristan da Cunha, Tunisia, Turkmenistan, Turks & Caicos Islands, Tuvalu, U.S. Outlying Islands, Uganda, Ukraine, United States (1 of 62 states), Uruguay, Uzbekistan, Vanuatu, Vatican City, Venezuela, Vietnam, Wallis & Futuna, Western Sahara, Yemen, Zambia, Zimbabwe"
+      }
+    }
+  },
+  "order": [
+    "16617886004c08eb06",
+    "1661788498089f2742",
+    "Subscription"
+  ]
+}

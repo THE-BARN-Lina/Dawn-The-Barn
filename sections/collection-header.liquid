@@ -1,0 +1,92 @@
+{% schema %}
+  {
+    "name": "Collection Header 2022",
+    "settings": [
+      {
+        "type": "text",
+        "id": "header",
+        "label": "Header",
+        "default": "Single Origin Coffee Beans"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": " <p >We enjoy supplying leading coffee shops and individual customers across the globe. </br> Shipping daily fresh roasts into 80+ countries.</br> Almost as fast as a local.</p>"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Icons",
+        "type": "icons",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Info Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "2022",
+        "category": "Custom"
+        
+      }
+	]
+
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .bean-header{
+    text-transform: uppercase;
+    text-align: center;  
+
+    font-size: 25px;
+  }
+  .bean-info{
+    text-align: center;  
+  }
+
+  .bean-icons{
+    margin:30px 60px;
+    display:flex;
+    flex-direction: row;
+
+    text-align:center;
+    justify-content: center;
+    gap:60px;
+  }
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+<div>
+  <p class="bean-header">{{section.settings.header}}</p>
+  <span class='bean-info'>{{section.settings.text}}</span>
+
+</div>
+
+<div class = "bean-icons">
+{% for block in section.blocks %}
+   {% if block.type == "icons" %}
+    <div>
+      {{block.settings.image  | image_url: height: 85.48  |image_tag}}
+      <span class="bean-info"> {{block.settings.text }}</span>
+    </div>
+   {% endif %}
+  
+{% endfor %}
+</div>
+
+
+
+

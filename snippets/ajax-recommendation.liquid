@@ -1,0 +1,350 @@
+ <script>
+  
+  const recomendation_outer = document.getElementById("recomendation_outer");
+  var recomendation;
+
+  
+  var BeanItems = new Array();
+  
+  
+  {%assign beans = section.settings.collection_beans.products %}
+  
+  {% for product in beans%}
+  
+  {% assign firstvariant = product.first_available_variant%}
+    BeanItems.push(
+    new CartItem( undefined,
+      						  {{firstvariant.product.title | json}},
+                              {{firstvariant.id | json}},
+                              {{firstvariant.price | json}},
+                              1,
+                              {{firstvariant.product.featured_image | json}},
+                              {{firstvariant.options| json}},
+                              {{firstvariant.url | json}},
+                              {{firstvariant.product.type| json}}  
+      ));
+  
+  
+  
+  {%endfor%}
+  
+  
+  
+   class Recomendation {
+  	constructor(cart)
+    {
+       this.recommendation = new Array();
+       this.recommendationType = "Filter"; 
+       this.hasRecommendation = false;
+      
+       this.filterToEspresso = 0; //>=0 Filter <0 Espresso
+       this.containedIDs = new Array();
+       this.containsSubscription = false;   
+      
+       this.recommendationType = this.analyse(cart);
+      
+      this.recomend(this.recommendationType);  
+      console.log(this.recommendationType);
+  
+    }
+    
+    
+       
+    analyse(cart){
+      console.log(cart.items);
+      cart.items.forEach(item =>{
+        	switch(item.type){
+              case "Espresso Coffee":
+             		this.filterToEspresso-=item.count;
+                break;
+                
+              case "Filter Coffee":
+             		this.filterToEspresso+=item.count;
+                break;
+                
+              case "Subscription":
+             		this.containsSubscription = true;
+                
+                	//Logic for when A Subscription Coffee is in there
+                break;
+            
+            }    
+        this.containedIDs.push(item.id);
+      });
+      
+      	
+
+      
+      
+      if(this.containsSubscription){
+        return this.filterToEspresso>=0?"Filter Coffee":"Espresso Coffee";
+      }
+      
+
+      return "Subscription";
+    
+    
+    }
+    
+    
+    recomend(rT){
+      
+      if( rT != "Subscription"){
+       
+    BeanItems.forEach( product  => {
+      let canAdd = true;
+      	  this.containedIDs.forEach(cartID=> {
+            //console.log(product.id,cartID,product.id===cartID);
+         
+          if(product.id === cartID || product.type !== rT)
+          { 
+            
+            canAdd = false;
+          }
+ 
+        
+        });
+      if(canAdd){
+        	
+        GenerateLineRecomendation(product,false);
+        
+        return;
+      }
+     });      
+  	 }
+      else{
+         GenerateLineSubscription();
+      }
+    
+  
+  
+    }
+  
+  }
+  
+  
+  
+  
+    function GenerateLineRecomendation(Item, pre = true)
+  {
+    recomendation_outer.innerHTML = '';
+
+   
+    if(Item.count <= 0) return;
+    
+     var LineRecomendation = document.createElement("div");
+
+    
+    //big Parent Element 
+    var LineItem = document.createElement("div");
+    LineItem.className = "drawer_line_recommendation_bean";
+    LineItem.id ="line_item_"+ Item.id;
+    
+     
+    var RecomendationHeader = document.createElement("p");
+    RecomendationHeader.innerHTML = "RECOMMENDED FOR YOUR SELECTION: ";
+
+    // Right Site 
+    var LineInfo = document.createElement("div");
+     LineInfo.classList.add("drawer_line_info");
+     LineInfo.classList.add("bean_recommendation");
+
+  	var LineText = document.createElement("a");
+    LineText.innerHTML = Item.name;
+    LineText.href = Item.handle;
+    LineText.style.gridArea=" a";
+    LineInfo.appendChild(LineText);
+    
+    
+
+
+    
+    var LineImage = document.createElement("img");
+    
+    LineImage.src=Item.img_src.replace(".png", "_110x110.png").replace(".jpg", "_110x110.jpg");
+    
+    var LinePrice = document.createElement("p");
+    LinePrice.innerHTML = Item.PrettyPrice ;
+    LinePrice.style.gridArea="b";
+    LineInfo.appendChild(LinePrice);
+    
+    var LineFeatured = document.createElement("span");
+    LineFeatured.innerHTML = "FEATURED";
+    LineFeatured.classList.add("line_feature_text");
+    LineFeatured.style.gridArea="c";
+    LineInfo.appendChild(LineFeatured);
+    
+        
+  
+   
+  	//adding the direct Children to Parent Object
+   
+    
+    var AddToCart = document.createElement("btn");
+    AddToCart.innerHTML = "ADD";
+    AddToCart.style.gridArea="d";
+    AddToCart.classList.add("add_recomendation");
+    AddToCart.addEventListener("click", function()                               
+	{
+    	 cart.AddItem( Item);
+    
+    });
+    LineInfo.appendChild(AddToCart);
+   
+    
+    var Line = document.createElement("hr");
+    Line.classList.add("drawer_line");
+    
+    
+  	//adding the direct Children to Parent Object
+    LineItem.appendChild(LineImage);
+    LineItem.appendChild(LineInfo);
+   
+    LineRecomendation.appendChild( RecomendationHeader);
+    LineRecomendation.appendChild(LineItem);
+   
+    pre? recomendation_outer.prepend( LineRecomendation):recomendation_outer.appendChild( LineRecomendation);
+    
+    recomendation_outer.appendChild(Line);
+      
+   Item.LineElement =  LineRecomendation;
+    
+    
+    
+   return LineItem;
+  
+  }
+  
+  
+  
+    function GenerateLineSubscription()
+  {
+    recomendation_outer.innerHTML = '';
+
+  
+    
+     var LineRecomendation = document.createElement("div");
+     LineRecomendation.className = "drawer_line_recommendation_subs";
+   //  LineRecomendation.href ="/pages/subscription"
+    
+    //big Parent Element 
+ 
+    
+     
+
+  
+ 
+
+
+   
+
+    var AddToCart = document.createElement("a");
+    AddToCart.href ="/pages/subscription"
+    
+
+   
+    
+    var SubscriptionInfo = document.createElement("div");
+    SubscriptionInfo.classList.add("subscription_link")
+    SubscriptionInfo.innerHTML = "Our most exclusive subscription. The rarest coffee beans with unique traits and flavours. We carefully select and ship a different coffee every month.";  
+  
+        AddToCart.appendChild( SubscriptionInfo);
+    
+    
+
+    LineRecomendation.appendChild( AddToCart);
+
+
+   
+    recomendation_outer.appendChild( LineRecomendation);
+    recomendation_outer.classList.add("noMargin");
+
+    
+      }
+  
+  
+  
+  
+  
+
+
+</script>
+
+<style>
+  .drawer_line_recommendation_subs
+  {
+   
+    
+    background-image:    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url("https://cdn.shopify.com/s/files/1/0831/4141/files/IMG_1535.jpg?v=1652691931");
+
+    background-size: cover;
+    
+    text-align: center;
+
+  }
+  .drawer_line_recommendation_bean{
+      
+      padding :10px;
+      
+      background:rgba(38, 38, 38, 0.4);
+    
+      display:flex;
+      flex-direction:row;
+    
+     justify-content: space-between;
+    align-content: space-between;
+
+      gap:15px;
+  
+  }
+   
+   .drawer_line_recommendation_bean img{
+     height:72px;
+      width:72px;
+    }
+  
+  .subscription_link{
+     padding: 20px;
+     
+     height:100%;
+     width:100%;
+  
+  }
+  .noMargin{
+   margin: 30px 0 0 !important;
+  }
+  
+  .bean_recommendation{
+    height:100% !important;
+    width:100%;
+  	
+  }
+  
+  .recomendation_header{
+  	text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #363636;
+  
+  }
+  
+  .add_recomendation{
+    
+    text-align: center;
+    background: #FFFFFF;
+    color: #000000;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .line_feature_text{
+  color: rgba(255, 255, 255, 0.5);
+font-weight: 450;
+font-size: 14px;
+  
+  }
+
+</style>

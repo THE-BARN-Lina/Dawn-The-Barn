@@ -1,0 +1,406 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16536571382eb9c811": {
+      "type": "image-banner",
+      "blocks": {
+        "16536571386e6f32f0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BARN LOCATIONS",
+            "heading_size": "h1"
+          }
+        },
+        "16536571386e6f32f0-1": {
+          "type": "text",
+          "settings": {
+            "text": "We love operating unique cafés for our coffee communities in Berlin and beyond.  All our locations have a different look that is inspired by the architecture or history of each building. They are hubs in your neighborhoods with the intention to bring our coffee closer to your homes and work spaces. Our minimalistic approach offers an atmosphere to slow down, relax and to enjoy your coffee. Awards: „Best Independent Coffee Shop in Europe 2018\" & \"Best Specialty Coffee Roaster in Europe & Middle East 2019\".  We are hiring: Trained Baristas | Check out our careers page.",
+            "text_style": "body"
+          }
+        },
+        "93115f6c-a8b7-4eca-b9bc-456cbfdd503e": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "VIEW OUR MENU",
+            "button_link_1": "https:\/\/thebarn.de\/locations\/menu",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16536571386e6f32f0-0",
+        "16536571386e6f32f0-1",
+        "93115f6c-a8b7-4eca-b9bc-456cbfdd503e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pf-a1bdf7c9--IMG11091.webp",
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "transparent_block": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1653655010539ba647": {
+      "type": "multicolumn",
+      "blocks": {
+        "165365501035c26048-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_8042-2-1631564443865.webp",
+            "title": "THE BARN DUBAI",
+            "text": "<p>Al Khazzan Park - Dubai, UAE<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/the-barn-dubai"
+          }
+        },
+        "165365501035c26048-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8455_2.jpg",
+            "title": "THE BARN MALLORCA",
+            "text": "<p>Costa D´en Brossa 5 - Palma, Balears<\/p>",
+            "link_label": "READ MORE",
+            "link": "\/pages\/the-barn-mallorca"
+          }
+        }
+      },
+      "block_order": [
+        "165365501035c26048-0",
+        "165365501035c26048-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "1653655713d52aa308": {
+      "type": "multicolumn",
+      "blocks": {
+        "1653655713fadd8c6f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-fb1dcfbc--IMG3082_800x800_947f015a-5a03-4d8c-968e-dee6f0c41ded.webp",
+            "title": "SCHÖNHAUSER ALLEE",
+            "text": "<p>Schönhauser Allee 8,<\/p><p> 10119 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/s8"
+          }
+        },
+        "1653655713fadd8c6f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-39b626d1--unnamed.webp",
+            "title": "MITTE",
+            "text": "<p>Auguststraße 58, <br\/>10119 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/a58"
+          }
+        },
+        "77365861-1c67-4aef-8096-b5244fdcb047": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1bed94fe-212c-48f7-a253-29fb9a707dc3.JPG",
+            "title": "NEUKÖLLN",
+            "text": "<p>Friedelstraße 27, <br\/>12047 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/f27"
+          }
+        },
+        "1653655713fadd8c6f-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-a1bdf7c9--IMG11091.webp",
+            "title": "ROSENTHALER PLATZ",
+            "text": "<p>Weinbergsweg 1,<br\/> 10119 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/rosenthaler-platz"
+          }
+        },
+        "24d8361d-6010-40f5-a81a-c8105c82f889": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-5c5aa795-9ffe-4e35-8c8e-6c63492c9d88--image00015-copy.webp",
+            "title": "NORDBAHNHOF",
+            "text": "<p>Invalidenstraße 112, <br\/>10115 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/cafe-nordbahnhof"
+          }
+        },
+        "19ddef5e-ef02-4e43-88aa-14fdd5f368fc": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-a397f4c8--2c235b2760b34a07b34a45c6a64c4092-Edited.webp",
+            "title": "HACKESCHER MARKT",
+            "text": "<p>Neue Schönhauser Straße 12, <br\/>10178 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/s12"
+          }
+        },
+        "4d8fee15-3849-48ef-97ae-6d7154fc5949": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-21c458be--IMG4274.webp",
+            "title": "SONY CENTER",
+            "text": "<p>Bellevuestraße 1, <br\/>10785 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/the-barn-sony-center"
+          }
+        },
+        "92a97975-d740-496f-b0b2-e25694f37c02": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-1da99c58--500d9275e3d54adf947abc75ce8298c1.webp",
+            "title": "POTSDAMER PLATZ",
+            "text": "<p>Alte Potsdamer Straße 5, <br\/>10785 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/p5"
+          }
+        },
+        "f922519f-975d-4b7c-a68b-331a9edbd249": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-75d74133--IMG4670.jpg",
+            "title": "CAFÈ KRANZLER",
+            "text": "<p>Kurfürstendamm 18, <br\/>10719 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/k18"
+          }
+        },
+        "e6212e9e-2dd7-409f-b947-339575953d77": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-35c4ade4--0b4d357011754a65939594cba8bf9c43.webp",
+            "title": "ROASTERY AND CAFÉ",
+            "text": "<p>Voltastraße 28, <br\/>13355 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/brunnenviertel"
+          }
+        }
+      },
+      "block_order": [
+        "1653655713fadd8c6f-0",
+        "1653655713fadd8c6f-1",
+        "77365861-1c67-4aef-8096-b5244fdcb047",
+        "1653655713fadd8c6f-2",
+        "24d8361d-6010-40f5-a81a-c8105c82f889",
+        "19ddef5e-ef02-4e43-88aa-14fdd5f368fc",
+        "4d8fee15-3849-48ef-97ae-6d7154fc5949",
+        "92a97975-d740-496f-b0b2-e25694f37c02",
+        "f922519f-975d-4b7c-a68b-331a9edbd249",
+        "e6212e9e-2dd7-409f-b947-339575953d77"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "1654257735c7640922": {
+      "type": "multicolumn",
+      "blocks": {
+        "16542577352546cb71-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-75d74133--IMG4670.jpg",
+            "title": "CAFÈ KRANZLER",
+            "text": "<p>Kurfürstendamm 18, <br\/>10719 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/k18"
+          }
+        },
+        "16542577352546cb71-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-35c4ade4--0b4d357011754a65939594cba8bf9c43.webp",
+            "title": "ROASTERY AND CAFÉ",
+            "text": "<p>Voltastraße 28, <br\/>13355 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/brunnenviertel"
+          }
+        }
+      },
+      "block_order": [
+        "16542577352546cb71-0",
+        "16542577352546cb71-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "16542542760fc75c52": {
+      "type": "multicolumn",
+      "blocks": {
+        "16542542766fb4e1b2-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-a397f4c8--2c235b2760b34a07b34a45c6a64c4092-Edited.webp",
+            "title": "HACKESCHER MARKT",
+            "text": "<p>Neue Schönhauser Straße 12, <br\/>10178 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/s12"
+          }
+        },
+        "16542542766fb4e1b2-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-21c458be--IMG4274.webp",
+            "title": "SONY CENTER",
+            "text": "<p>Bellevuestraße 1, <br\/>10785 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/the-barn-sony-center"
+          }
+        },
+        "16542542766fb4e1b2-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-1da99c58--500d9275e3d54adf947abc75ce8298c1.webp",
+            "title": "POTSDAMER PLATZ",
+            "text": "<p>Alte Potsdamer Straße 5, <br\/>10785 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/p5"
+          }
+        }
+      },
+      "block_order": [
+        "16542542766fb4e1b2-0",
+        "16542542766fb4e1b2-1",
+        "16542542766fb4e1b2-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "165418417569f14407": {
+      "type": "multicolumn",
+      "blocks": {
+        "b75d6feb-881e-4d60-8498-0995f88cbe69": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-a1bdf7c9--IMG11091.webp",
+            "title": "ROSENTHALER PLATZ",
+            "text": "<p>Weinbergsweg 1, <br\/>10119 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/rosenthaler-platz"
+          }
+        },
+        "68f0ddfb-c2b2-4e80-8e54-d1bc8785ae60": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pf-5c5aa795-9ffe-4e35-8c8e-6c63492c9d88--image00015-copy_fdc33419-db66-4847-b460-c3f7c1fe10a9.webp",
+            "title": "NORDBAHNHOF",
+            "text": "<p>Invalidenstraße 112, <br\/>10115 Berlin<\/p>",
+            "link_label": "READ MORE",
+            "link": "https:\/\/thebarn.de\/pages\/cafe-nordbahnhof"
+          }
+        }
+      },
+      "block_order": [
+        "b75d6feb-881e-4d60-8498-0995f88cbe69",
+        "68f0ddfb-c2b2-4e80-8e54-d1bc8785ae60"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16536571382eb9c811",
+    "1653655010539ba647",
+    "1653655713d52aa308",
+    "1654257735c7640922",
+    "16542542760fc75c52",
+    "165418417569f14407"
+  ]
+}

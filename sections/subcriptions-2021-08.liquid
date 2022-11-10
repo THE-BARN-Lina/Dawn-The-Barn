@@ -1,0 +1,1626 @@
+{% schema %}
+  {
+    "name": "Subscription",
+    "settings": 
+    [
+      {
+		  	"type":"header",
+			  "content": "Important Information"
+		  },
+      {
+        "type": "paragraph",
+        "content": "In order To Add A product There are 3 Things you need to know:"
+      },
+	
+      {
+        "type": "paragraph",
+        "content": " 1. A prepaid Version of A Subscription needs exactily the same Optionsas its flexible Counterpart!"
+      },
+      {
+        "type": "paragraph",
+        "content": " 2. The Option-Names must alsways be 'Quantity', 'Roast', 'Destination' !"
+      },
+      {
+        "type": "paragraph",
+        "content": "3. They need to be in that order!"
+      },
+      {
+		  	"type":"header",
+			  "content": "Basic Text"
+		  },      
+	    {
+        "type": "text",
+        "id": "pageHeader",
+        "label": "Page Header",
+        "default" :"SELECT YOUR SUBSCRIPTION"
+      },
+	    {
+        "type": "richtext",
+        "id": "pageIntroP",
+        "label": "Intro Paragraf",
+        "default" :"<p>Our coffee subscription-info service is fully flexible.We deliver our freshly roasted coffee beans to your doorstep every month - nice and easy.Always the Single Origin Quality you can rely on.</p>"
+      },
+		  {
+        "type": "image_picker",
+        "id": "overviewIMG1",
+        "label": "Overview Image 1"
+      },
+	  	{
+        "type": "html",
+        "id": "overviewT1",
+        "label": "Overview Text 1",
+        "default" : "Single Origin Coffee"
+      },
+	  	{
+        "type": "image_picker",
+        "id": "overviewIMG2",
+        "label": "Overview Image 2"
+      },
+      {
+        "type": "html",
+        "id": "overviewT2",
+        "label": "Overview Text 2",
+        "default" : "Shipping Costs Included"
+      },
+		  {
+        "type": "image_picker",
+        "id": "overviewIMG3",
+        "label": "Overview Image 3"
+      },
+      {
+
+        "type": "html",
+        "id": "overviewT3",
+        "label": "Overview Text 3",
+        "default" : "Save Lots Of Money"
+      },
+		  {
+        "type": "image_picker",
+        "id": "overviewIMG4",
+        "label": "Overview Image 4"
+      },
+      {
+        "type": "html",
+        "id": "overviewT4",
+        "label": "Overview Text 4",
+        "default" : "Skip Stop Adjust"
+      },
+
+      {
+			  "type":"header",
+			  "content": "Summary Text"
+		  },
+  		{
+        "type": "textarea",
+        "id": "summaryTextBeansEng",
+        "label": "Summary Text Beans ENGLISH",
+		    "default" :"2 Bags Of Beans, 4 Bags Of Beans, 6 Bags Of Beans, Bags",
+        "info": "This text gets Swapped in Code so we Need the tanslation here! Seperate with ', ' last item will be default."
+      },
+	 	  {
+        "type": "textarea",
+        "id": "summaryTextBeansGer",
+        "label": "Summary Text Beans GERMAN",
+		    "default" :"2 Tüten mit Bohnen, 4 Tüten mit Bohnen, 6 Tüten mit Bohnen, Tüten"
+      },{
+        "type": "textarea",
+        "id": "summaryTextBeansKGEng",
+        "label": "Summary Text Beans ENGLISH",
+		    "default" :"1Kg Of Beans, 2Kg  Of Beans, 3 Kg Of Beans, Kgs",
+        "info": "This text gets Swapped in Code so we Need the tanslation here! Seperate with ', ' last item will be default."
+      },
+	 	  {
+        "type": "textarea",
+        "id": "summaryTextBeansKGGer",
+        "label": "Summary Text Beans GERMAN",
+		    "default" :"1 Kilo Bohnen, 2 Kilo Bohnen, 3 Kilo Bohnen, Tüten"
+      },
+      {
+        "type": "textarea",
+        "id": "summaryTextRoastEng",
+        "label": "Summary Text Roast ENGLISH",
+		    "default" :"Filter Roast, Espresso Roast, Roast"
+      },
+	    {
+        "type": "textarea",
+        "id": "summaryTextRoastGer",
+        "label": "Summary Text Roast GERMAN",
+		    "default" :"Filter Röstung, Espresso Röstung, Röstung"
+      },
+		  {
+        "type": "textarea",
+        "id": "summaryTextDestEng",
+        "label": "Summary Text Destination ENGLISH",
+		    "default" :"Deliver to Germany, Deliver to Europe, Deliver to Worldwide, Deliver to USA / Middle East, Destination"
+        },
+	    {
+          "type": "textarea",
+          "id": "summaryTextDestGer",
+          "label": "Summary Text Destination GERMAN",
+		  "default" :"Liefern nach Deutschland, Liefern nach Europa, Liefern Weltweit, Liefern nach USA / Naher Osten"
+        },
+		{
+		 	"type":"image_picker",
+			"id":"summary_icon_1",
+			"label":"Summary Icon 1"
+		},
+		{
+		 	"type":"image_picker",
+			"id":"summary_icon_2",
+			"label":"Summary Icon 2"
+		},
+		{
+		 	"type":"image_picker",
+			"id":"summary_icon_3",
+			"label":"Summary Icon 3"
+		},
+       {
+         	"type": "textarea",
+            "id": "noShipping",
+            "label": "No Shipping"
+       
+        }
+
+],
+      "blocks":
+			[{
+				"name":"Subscription With Form",
+				"type":"subWithFrom",
+				"settings" : [
+					{
+						"type":"text",
+						"id":"name",
+						"label":"Name"
+				    },
+					{
+						"type":"richtext",
+						"id":"title",
+						"label":"Name"
+				    },
+					{
+						"type":"product",
+						"id":"product",
+						"label":"Product"
+				    },
+					{
+						"type":"image_picker",
+						"id":"img",
+						"label":"Product Image"
+				    },
+					{
+						"type":"textarea",
+						"id":"shortDescription",
+						"label":"Short Description"
+				    },
+					{
+						"type":"liquid",
+						"id":"longDescription",
+						"label":"Londg Description"
+				    },
+					{
+						"type":"header",
+						"content":"Bag Question"
+				    },
+                    {
+						"type":"text",
+						"id":"Question1",
+						"label":"Question:"
+				    },
+					{
+						"type":"checkbox",
+						"id":"hideQuestion1",
+						"label":"Hide Bag Question?"
+				    },
+	{
+						"type":"checkbox",
+						"id":"noBagsButKG",
+						"label":"Kg instead of Bags"
+				    },
+					{
+						"type":"select",
+						"id":"positionQuestion1",
+						"label":"Position of Bag Question:",
+						"options":
+							[
+								{
+								"value":"0",
+								"label":" 1"
+								},
+								{
+								"value":"1",
+								"label":" 2"
+								},	
+								{
+								"value":"2",
+								"label":" 3"
+								}
+							],
+						"default":"0"
+				    },
+
+					{
+						"type":"text",
+						"id":"exlcudeFromQuestion1",
+						"label":"Exclude Bag Question:"
+				    },
+					{
+						"type":"text",
+						"id":"alternativeLabelsQuestion1En",
+						"label":"Alternative Labels English"
+						
+				    },	
+					{
+						"type":"header",
+						"content":"Roast Question"
+				    },
+                   {
+						"type":"text",
+						"id":"Question2",
+						"label":"Question"
+				    },
+					{
+						"type":"checkbox",
+						"id":"hideQuestion2",
+						"label":"Hide Roast Question?"
+				    },
+					{
+						"type":"select",
+						"id":"positionQuestion2",
+						"label":"Position of Roast Question:",
+						"options":
+							[
+								{
+								"value":"0",
+								"label":" 1"
+								},
+								{
+								"value":"1",
+								"label":" 2"
+								},	
+								{
+								"value":"2",
+								"label":" 3"
+								}
+							],
+						"default":"1"
+				    },
+					{
+						"type":"text",
+						"id":"exlcudeFromQuestion2",
+						"label":"Exclude From Roast Question:"
+				    },
+					{
+						"type":"text",
+						"id":"alternativeLabelsQuestion2En",
+						"label":"Alternative Labels English"
+						
+				    },	
+				    {
+						"type":"header",
+						"content":"Destination Question"
+				    },
+{
+						"type":"text",
+						"id":"Question3",
+						"label":"Question:"
+				    },
+					{
+						"type":"checkbox",
+						"id":"hideQuestion3",
+						"label":"Hide Destination Question?"
+				    },
+					{
+						"type":"select",
+						"id":"positionQuestion3",
+						"label":"Position of Destination Question:",
+						"options":
+						[
+              {
+              "value":"0",
+              "label":" 1"
+              },
+              {
+              "value":"1",
+              "label":" 2"
+              },	
+              {
+              "value":"2",
+              "label":" 3"
+              }
+						],
+						"default":"2"
+				  },
+					{
+						"type":"textarea",
+						"id":"exlcudeFromQuestion3",
+						"label":"Exclude Destination Question:"
+				  },
+					{
+						"type":"text",
+						"id":"alternativeLabelsQuestion3En",
+						"label":"Alternative Labels English"
+						
+				  },
+{
+						"type":"text",
+						"id":"QuestionTooltip",
+						"label":" Tooltip for Question"
+						
+				  },
+                  {
+						"type":"text",
+						"id":"redirect",
+						"label":"Redirect Option",
+						"info": "Name of Option : Link, "
+						
+				  },
+                  {
+						"type":"textarea",
+						"id":"destinationImages",
+						"label":"Destination Images In Order",
+						"default":"https://cdn.shopify.com/s/files/1/0582/0258/7329/files/germany_flag_circle-512_99ab45a8-88a9-465c-b12b-ec2914db02c0.png?v=1631272798, https://cdn.shopify.com/s/files/1/0582/0258/7329/files/Flag_of_Europe_-_Circle-512_c12a0625-6d15-43cd-a8f4-992232253f6b.png?v=1631272798, https://cdn.shopify.com/s/files/1/0831/4141/files/earth_PNG25.png?v=1653393484, https://cdn.shopify.com/s/files/1/0831/4141/files/earth_PNG25.png?v=1653393484"
+		
+				  },
+				  {
+						"type":"textarea",
+						"id":"destinationTooltips",
+						"label":"Destination Tooltips in Order",
+						"info": "'%' as Separator"
+		
+				  },
+ 				{
+						"type":"checkbox",
+						"id":"additionalRedirect",
+						"label":"Additional Redirect",
+						"default":false
+		
+				  },
+				
+					
+					{
+						"type":"header",
+						"content":"Prepaid Alternatives"
+				  },
+         		 {
+						"type":"text",
+						"id":"Question4",
+						"label":"Question: "
+				    },
+					{
+						"type":"textarea",
+						"id":"prepaidHandles",
+						"label":"Product Handles for Prepaid Versions"
+				  },
+					{
+						"type":"textarea",
+						"id":"prepaidLables",
+						"label":"Labels for prepaid Versions"
+				  }
+
+				]
+
+			},
+      {
+				"name":"Special Subscription",
+				"type":"subNoForm",
+				"settings" : 
+        [
+					{
+						"type":"text",
+						"id":"name",
+						"label":"Name"
+				  },
+					{
+						"type":"url",
+						"id":"product",
+						"label":"Product"
+				  },
+					{
+						"type":"image_picker",
+						"id":"img",
+						"label":"Image"
+				  },
+					{
+						"type":"textarea",
+						"id":"description",
+						"label":"Description"
+				  }
+				]
+
+			}
+
+		]
+
+      
+        
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+
+
+<style>
+  html {
+  scroll-behavior: smooth;
+  /*Adds smooth scrolling instead of snapping to element*/
+   }
+
+  /*General Items that are used multiple times*/
+  .text
+  {
+    text-align: center;
+  }
+  /*THE Rounded Lighter Gray Backround */
+  .shortDescription,
+  .summmaryContainer,
+  .question,
+  .specialSubscriptionsView-item,
+  .subscription-card,
+  .info {
+    
+    background: #1C1D1C;
+    padding:20px;
+
+  
+
+  }
+  
+  .summmaryContainer{
+  
+  
+  }
+
+  .flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    width: 135px;
+  }
+
+  /* First Item*/
+  .hero {
+  
+    
+    height:100%;
+    margin-bottom: 35px;
+    text-align: center;
+   
+    overflow: hidden;
+  }
+
+  .stand-out {
+    position: relative;
+    z-index: 2; 
+  }
+
+  /*The Items That Show General Subscrition Information*/
+  .subscription-info-overview {
+    display: flex;
+    justify-content: center;
+  }
+  .subscription-info-overview-item {}
+
+  .subscription-info-overview.img {
+    width: 100%;
+    height: 80px;
+    
+    object-fit: contain;
+
+    padding: 3%;
+    margin: 10px;
+
+  }
+
+  .subscription-info-overview.header {
+    margin-bottom: 0;
+  }
+  .subscription-info-overview.text {
+    height: 50px;
+
+
+    padding: 5px 20px;
+
+    text-align: center;
+    vertical-align: center;
+  }
+  /*The Overview of the different Subscription Types*/
+  .subscription-types-overview {
+    text-align: center;
+  }
+
+  .subscription-types-overview.select {
+    justify-content: center;
+
+    margin-bottom: 35px;
+  }
+  .area-header{
+    
+    margin:60px 0 10px 0;
+
+    text-align: center;
+
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+
+  .subscription-card {
+      width: 240px;
+      height: 400px;
+    
+      margin-bottom: 0px !important;
+      padding: 20px;
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap:20px;
+    
+      text-align: center;
+  }
+
+  .subscription-card-header {
+    
+    margin: 0px;
+      font-weight: bold;
+  }
+  
+
+  .subscription-card-description {
+    padding: 10px;
+    margin:0;
+    
+    background-color:#242424;
+    
+    text-align: center;
+      font-size: 12px;
+  }
+
+  .subscription-card-image {
+   overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  }
+
+  .subscription-card-button {
+    width: 100%;
+    height: 47px;
+
+        color:white;
+    padding: 10px;
+    text-align: center;
+    background: #482E11;
+         border:0px;
+    text-transform: uppercase;
+    text-decoration:none;
+
+  }
+
+  .subscription-type {
+    display: none;
+      margin: 50px 10px;
+}
+  
+  .wider{
+
+        width:400px;
+        height:400px;
+  }
+  .special-info {
+  display: flex;
+  justify-content: center;
+  gap:20px;
+    flex-wrap: wrap;
+}
+  .anchor
+  {
+    position: relative; 
+    top: -100px; 
+    left: 0;
+  }
+
+  .shortDescription {
+    text-align: center;
+    padding: 20px 14%;
+  }
+
+  .subscription-FormAndSummary-parent {
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+
+    transition: all 1s ease;
+    gap:20px
+  }
+  .destinationImg{
+  	width:30px;
+  }
+  .summmaryContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+    gap:10px;
+
+    width: 37%;
+
+    padding:20px;
+  }
+  .summary_answ{
+  
+  	margin:10px;
+  }
+
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 67%;
+    gap: 20px;
+
+  }
+
+  .que_hed {
+
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    
+    text-align: left;
+
+    color: #fff;
+
+  }
+
+  .selector,
+  .subscription-types-overview {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .selector {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .selector input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 100px;
+
+
+  }
+
+
+  select{
+  	border-radius:40px;
+    background-color:white;
+  }
+  .selector label {
+    
+    padding: 5px 10px;
+
+    color: #c7c7c7;
+
+
+    border: 0px solid #fff;
+
+
+
+  }
+  .months{
+  		border-radius:40px;
+    background-color:white;
+  }
+
+  .months,
+  .selector input[type="radio"]:checked+label p,
+  .selector input[type="radio"]:checked+label {
+    background-color: white;
+    border-color: white;
+    color: black;
+  }
+    
+ .selector label{
+  padding:1rem 2rem;
+   border:2px solid rgba(255, 255, 255, .5);
+   border-radius: 40px;
+   
+    }
+
+  .countryselector label:hover,
+  .selector label p:hover,
+  .selector label:hover {
+    border-color: rgba(255, 255, 255, 1);
+ 
+  }
+
+  
+  .countryselector {
+	width: ;
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+
+	align-content: space-between;
+	align-items: center;
+	justify-content: space-between;
+	
+	gap: 10px;
+	height: 100%;
+
+
+  }
+
+  .months {
+    display: none;
+
+    flex: 1 1 0;
+
+    padding: 5px 10px;
+    margin: 0px 10px 0px 0px;
+
+    background-color: #9cb380;
+    border-color: #000;
+    color: #000;
+
+    border: 0px solid #fff;
+    border-radius: 15px;
+
+    text-align: center;
+  }
+
+  .destinationText {
+    
+    text-align: center;
+    vertical-align: bottom;
+    margin: 0;
+  }
+
+  .summary-icon {
+    width: 80px !important;
+    height: 80px !important;
+
+
+  }
+
+  .summary_answ {
+    text-align: center;
+  }
+
+  .cartbox {
+    text-align: center;
+  }
+
+  .summary_info {
+     text-align: center;
+  padding: 5px 30px;
+  font-size: 14px;
+
+  }
+  .summary_list_outer
+  {
+		display: flex;
+    	flex-direction: column;
+  }
+  .summary.header{
+ 	 width: 100%;
+  	margin: 0px;
+    text-align:center;
+  }
+    .icons-container
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .icons-subcontainer
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 10%;
+    max-width:135px;
+  }
+  
+  .small-icon
+  {
+    height: 80px;
+	object-fit: contain;
+    padding: 3%;
+    margin: 10px;
+    border: none !important;
+  }
+  
+  .icons-title
+  {
+    text-transform: uppercase;
+    text-align: center;
+    padding:5px;
+  }
+  
+  .icons-subtitle
+  {
+    text-wrap: wrap;
+    text-align: center;
+    
+    font-size: 1.3rem;
+    letter-spacing: .13rem;
+    line-height: calc(1 + .2 / var(--font-body-scale));
+  }
+  .section-template--16083381879051__1651574465fc19c571-padding{
+  	padding:0 0 100px 0 !important;
+  }
+  
+  .tooltip-trigger{
+    display:inline;
+  
+  }
+  .tooltip{
+    
+ display:none;
+    opacity:0;
+
+    visibility:hidden;
+      position: absolute;
+    display: inline-flex;
+       transform: translateY(0px) translateX(20px);
+      font-size: 12px;
+      color: white !important;
+      background:  rgba(24, 24, 24, .9) !important;
+    
+
+      border-radius: 0px;
+      width: 250px;
+      padding: 5px 15px; 
+    
+    
+         -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+    
+  
+  }
+  
+  .tooltip-trigger:hover .tooltip{
+	  
+    
+     
+    visibility:visible;
+     filter: alpha(opacity=50);
+    opacity: 0.9;
+    
+    	
+  }
+  .round{
+      display: inline-flex;
+      color: black;
+      background-color: white;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+    
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    
+  }
+  
+   .noShipping{
+    	opacity: 0.5;
+		text-align: center;
+		font-size: 12px;
+        padding: 20px 60px;
+    }
+  
+  
+
+  @media screen and (max-width: 800px)
+    {
+      .icons-subcontainer
+      {
+        flex: 40%;
+      }
+
+  
+  @media only screen and (max-width: 600px) {
+   .subscription-FormAndSummary-parent {
+    flex-direction: column;
+    align-items: center;
+     
+  }
+    .subscription-form{
+      
+      width:100%;
+    	
+    }
+    .summmaryContainer{
+    	width:100%;
+    }
+    .hero p br{
+    display:none;
+    }
+    
+   
+    
+}
+</style>
+
+<!-- Jquery wird gegrabbt -->
+{% assign optionNames = "Quantity, Roast, Destination" | split:", "%}
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"/>
+    <script>
+
+</script>
+  <script>
+    //Saving of all the Subscriptions we later use 
+    var currentOptions = [null,null,null,-1]; 
+    var currentSubTypIndex = 0;
+    var currentProductIndex = 0;
+    var TypeNames = new Array();
+    var SubTypes= new Array();
+    
+  
+
+    
+      var SummaryText = [{{section.settings.summaryTextBeansEng|split:", " |json}},
+                  {{section.settings.summaryTextRoastEng|split:", " |json}},
+                  {{section.settings.summaryTextDestEng|split:", " |json}},
+                  {{section.settings.summaryTextBeansKGEng|split:", " |json}}      
+                ];
+    
+   
+    
+    function SubType(id, products, reset) 
+    {
+      this.id = id;
+      this.products = products;
+      this.reset = reset;
+    } 
+
+    //defining the 2 classes objects oriented style
+    function  Product(id,variants)
+    {
+      this.id = id;
+      this.variants = variants;
+    }
+    function Variant(id, option1, option2, option3, price) 
+    {
+      this.id = id;
+      this.option1 = option1;
+      this.option2 = option2;
+      this.option3 = option3;
+      this.price = price;
+    } 
+    
+   {% assign counter = 0 %}
+    {% for block in section.blocks %}
+   
+
+
+  		{% if block.type == 'subWithFrom' %}
+
+
+      	{% assign handles = block.settings.product%}
+        {% assign handles = handles |append:", "|append: block.settings.prepaidHandles %}
+        {% assign typeHandles = handles |split:", " %}
+    		var reset= [null,null,null];
+      	var tempProducts = new Array;
+    		{% for producthandle in typeHandles%}
+            {% assign product = all_products[producthandle]%}
+    				var tempVariants = new Array;
+            {% for variant in product.variants %}
+              {% if variant.available%}
+                var options = ["","","",""]
+                options[0]=({{ variant.option1 | remove: " " | json }});    				
+                options[1]=({{ variant.option2 | remove: " " | json }});
+                options[2]=({{ variant.option3 | remove: " " | json }});    				
+
+                tempVariants.push(new Variant(
+                            {{ variant.id | json }}, 
+                     	    (options[{{product.options_by_name["Quantity"].position}}-1])=== undefined?  options[3]:(options[{{product.options_by_name["Quantity"].position}}-1]), 
+                           	(options[{{product.options_by_name["Roast"].position}}-1])=== undefined?  options[3]:(options[{{product.options_by_name["Roast"].position}}-1]), 
+                            (options[{{product.options_by_name["Destination"].position}}-1])=== undefined? options[3]:(options[{{product.options_by_name["Destination"].position}}-1]), 
+                            {{ variant.price | json }}, ));
+              {% endif %}
+                
+            {% endfor %}
+             tempProducts.push(new Product({{product.id |json}},tempVariants));
+   		  {% endfor%}
+        {% assign tempProduct = all_products[block.settings.product]%}
+        {% for i in (0..2)%}        
+          reset[{{i}}]=({{tempProduct.options_by_name[optionNames[i]]|json}} == null)? "" : null;             
+        {% endfor%}
+      		reset.push(({{block.settings.prepaidHandles|json}} == "")?0:-1);
+          TypeNames.push('{{block.settings.name |remove:" "}}');
+          SubTypes.push(new SubType({{counter|json}}, tempProducts ,reset));
+      {% assign counter = counter | plus: 1 %}
+    	{% endif%}
+   {% endfor%}
+
+  </script>
+
+<div class="page-width">
+ <div class="hero"> 
+      <h2 class="stand-out">{{section.settings.pageHeader}}</h2>
+      <p class="stand-out">{{section.settings.pageIntroP}}</p>
+  </div>   
+ <div class="page-width">
+<div class="icons-container">
+  <div class="icons-subcontainer">
+   <img  class="small-icon"src="https://cdn.shopify.com/s/files/1/0831/4141/files/Flower.gif?v=1653644994" height="100%"  >
+    <h5 class="icons-title">seasonal quality</h5>
+
+  </div>
+  
+  <div class="icons-subcontainer">
+    <img src="https://cdn.shopify.com/s/files/1/0643/2224/0731/files/Box.svg?v=1651574617" class="small-icon">
+    <h5 class="icons-title">shipping included</h5>
+
+  </div>
+    
+  <div class="icons-subcontainer">  
+    <img src="https://cdn.shopify.com/s/files/1/0643/2224/0731/files/Scale.svg?v=1651574618" class="small-icon">
+    <h5 class="icons-title">carefully curated</h5>
+   
+  </div>
+    
+  <div class="icons-subcontainer">  
+    <img src="https://cdn.shopify.com/s/files/1/0643/2224/0731/files/Roaster.svg?v=1651574617" class="small-icon">
+    <h5 class="icons-title">roasted in berlin</h5>
+
+  </div>  
+</div>
+</div>
+
+    <h2 class="area-header">SUBSCRIPTION TYPE</h2>
+    
+    <div class="subscription-types-overview">
+      
+      
+		{% assign counter = 0 %}
+        {% for block in section.blocks %}
+  
+        {% if block.type == 'subWithFrom' %}
+             <div class="subscription-card">
+              <span  class="subscription-card-header">{{block.settings.title|upcase}}</span >
+              <p class="subscription-card-description">{{block.settings.shortDescription}}</p>
+              <img class="subscription-card-image" src={{block.settings.img  | img_url: '800x'  }}>
+              <button href="#scrollAnchor" class="subscription-card-button" onclick="ChangeSubscriptionType({{counter}},'{{block.settings.name | remove:" "}}',SubTypes[{{counter}}].reset);">SELECT</button>
+
+            </div>
+	
+		 {% assign counter = counter | plus: 1 %}
+        {% endif %}
+
+        <!-- output a header with text -->
+        {% endfor %}
+
+    </div>
+ <div id="scrollAnchor"> </div>
+  
+  {% for block in section.blocks %}
+  
+   {% if block.type == 'subWithFrom' %}
+
+   {% assign myvar = all_products[block.settings.product]%}
+  <div id="{{block.settings.name | remove:" "}}" class="subscription-type" >
+    <div id="{{block.settings.name | remove:" "}}-anchor" class="anchor"></div>
+    <div class="shortDescription">
+      <h2>{{block.settings.title|upcase}}</h2><br>
+     <p>{{block.settings.longDescription}}<p>
+     </div>
+  
+   
+  <div class="subscription-FormAndSummary-parent">
+    
+   
+    <div class="subscription-form">
+     {% if block.settings.hideQuestion1 == false %}
+      {% if block.setting.noBagsButKG == true %}
+      <script>
+      
+          SummaryText[0] = {{section.settings.summaryTextBeansKGEng |split:", " |json}}
+        </script>
+      {%endif%}
+     {% assign labelText = block.settings.alternativeLabelsQuestion1En | split:", " %}
+     {% assign labelIndex = 0 %}
+   		 <div class="question" style="order:{{block.settings.positionQuestion1}}">
+        <div class="que_hed"><span>{{block.settings.Question1}}</span>
+        </div>
+        <div class="selector " >
+            {% for value in myvar.options_with_values[0].values %}
+            {% unless block.settings.exlcudeFromQuestion1 contains value %} 
+              <div>
+                <input type="radio" name="question0{{block.settings.name | remove:" " }}" id={{value|remove:" "}} value={{value |remove:" "}} onclick="OptionValueChanged(0,'{{block.settings.name | remove:" "}}');" />
+                {%unless labelText[labelIndex] == null%}
+                <label for={{value|remove:" "}}>{{labelText[labelIndex]}}</label><br>
+                {% else%}
+                  <label for={{value|remove:" "}}>{{value|remove:" "}}</label><br>
+                {% endunless%}
+              </div>
+                {% assign labelIndex = labelIndex| plus: 1 %}
+           		{% endunless%}
+            {% endfor %}
+         
+          </div>
+        </div>
+
+      {% endif%}
+     
+     {% if block.settings.hideQuestion2 == false %}
+     {% assign labelText = block.settings.alternativeLabelsQuestion2En | split:", " %}
+     {% assign labelIndex = 0 %}
+   		 <div class="question" style="order:{{block.settings.positionQuestion2}}">
+        <div class="que_hed"><span>{{block.settings.Question2}}</span>
+        </div>
+        <div class="selector" >
+            {% for value in myvar.options_with_values[1].values %}
+            {% unless block.settings.exlcudeFromQuestion2 contains value %} 
+              <div>
+                <input type="radio" name="question1{{block.settings.name | remove:" "}}" id={{value|remove:" "}} value={{value |remove:" "}} onclick="OptionValueChanged(1,'{{block.settings.name | remove:" "}}');" />
+                {%unless labelText[labelIndex] == null%}
+                <label for={{value|remove:" "}}>{{labelText[labelIndex]}}</label><br>
+                {% else%}
+                  <label for={{value|remove:" "}}>{{value|remove:" "}}</label><br>
+                {% endunless%}
+              </div>
+                {% assign labelIndex = labelIndex| plus: 1 %}
+           		{% endunless%}
+            {% endfor %}
+         
+          </div>
+        </div>
+     
+      {% endif%}
+      
+     {% if block.settings.hideQuestion3 == false %}
+     {% assign labelText = block.settings.alternativeLabelsQuestion3En | split:", " %}
+   
+     {% assign destinations = block.settings.destinationTooltips |split:"%" %}
+
+     {% assign labelIndex = 0 %}
+   		 <div class="question" style="order:{{block.settings.positionQuestion3}}">
+         
+           <div class="que_hed"><span>{{block.settings.Question3}} </span><span class="tooltip-trigger"><span class="round">?</span><span class="tooltip">{{block.settings.QuestionTooltip}}</span></span>
+        </div>
+        <div class="selector country-grid " >
+               
+
+            {% for value in myvar.options_by_name["Destination"].values %}
+                  	 
+     
+        	    {% unless block.settings.exlcudeFromQuestion3 contains value %} 
+         	   {% assign destination = destinations[labelIndex]%}
+           		   <div >
+                        {% assign DestinationImages = block.settings.destinationImages | split: ","%}
+                
+                        <input type="radio" href="thebarn.de" name="question2{{block.settings.name | remove:" "}}" id="{{value|remove:" "}}" value="{{value|remove:" "}}" onclick="OptionValueChanged(2,'{{block.settings.name| remove:" "}}');" />
+
+                        <label class="countryselector" for="{{value|remove:" "}}">   
+                          <div class="tooltip-trigger">
+                            <div class="countryselector" >
+                        {%unless labelText[labelIndex] == null%}
+                       <p class="destinationText">{{labelText[labelIndex]}}</p>
+                        {% else%}
+                          <p class="destinationText">{{value}}</p>
+                           {% endunless%}
+
+                            <img class="destinationImg" src="{{ DestinationImages[labelIndex]}}">
+                                              </div>
+
+                          {% unless destination == "" or destination == null%}
+                             <p class="tooltip">{{destination}}</p>
+                        {%endunless%}
+                          </div>
+                   </label>
+  			
+              </div>
+       
+          
+          
+        {% assign labelIndex = labelIndex| plus: 1 %}   
+           
+           		{% endunless%}
+            {% endfor %}
+          
+          {% unless block.settings.additionalRedirect == false %}
+           {% assign destination = destinations[labelIndex]%}
+  <div >
+          	  <input type="radio" href="thebarn.de" name="question2{{block.settings.name | remove:" "}}" id="redirect" value="redirect" onclick="window.location.href='{{block.settings.redirect}}'" />
+
+                        <label class="countryselector" for="redirect">   
+                          <div class="tooltip-trigger">
+                            <div class="countryselector" >
+                        {%unless labelText[labelIndex] == null%}
+                       <p class="destinationText">{{labelText[labelIndex]}}</p>
+                        {% else%}
+                          <p class="destinationText">{{labelText[labelIndex]}}</p>
+                           {% endunless%}
+
+                            <img class="destinationImg" src="{{ DestinationImages[labelIndex]}}">
+                                   </div>
+
+                          {% unless destination == "" or destination == null%}
+                             <p class="tooltip">{{destination}}</p>
+                        {%endunless%}
+                          </div>
+                   </label>
+          </div>
+          
+          {%endunless%}
+      	
+          </div>
+        </div>
+      {% endif%}
+     
+   
+    {% unless block.settings.prepaidHandles == empty%}
+      	{%assign handles = block.settings.prepaidHandles | split:", "%}
+     
+        {%assign labels = block.settings.prepaidLables | split:", "%}
+          <div class="question" style="order:4">
+      <div class="que_hed"><span>{{block.settings.Question4}}</span></div>
+      <div class="selector">
+        <input type="radio" name="paymentMethod" id="monthly" value="monthly" onclick="HideSelect('months',0);">
+        <label for=monthly>Monthly</label><br>
+        <input type="radio" name="paymentMethod" id="prepaid" value="prepaid" onclick="ShowSelect('months');" />
+        <label for=prepaid>Prepaid</label><br>
+        <select class="months" style="border-radius:40px;background-color:white; font-family:Raleway; font-size:16px" id="months" onchange="ChangeProduct( this.options[this.selectedIndex].value)">
+           {% assign labelIndex = 0 %}
+          {%for handle in handles%}
+          
+          <option value={{ labelIndex| plus: 1}}>{{labels[labelIndex]}}</option>
+          {% assign labelIndex = labelIndex| plus: 1 %}
+          {%endfor%}
+        </select>
+      </div>
+    </div>
+         
+    {%endunless%}
+
+
+ 
+	 </div>	
+ 
+   <div class="summmaryContainer">
+      <h2 class="summary_header">SUMMARY</h2>
+      <div class="summary_list_outer">
+        {% unless block.settings.hideQuestion1%}
+        <div class="summary_answ" style="order:{{block.settings.positionQuestion1}}">
+          <div class="select_val_2">
+            <img class="summary-icon" id="bagno" src={{section.settings.summary_icon_1 | image_url}}><br>
+                <span id="question-display0{{block.settings.name | remove:" "}}" class="question-display0">Bags</span>
+          </div>
+        </div>
+         
+        {%endunless%}
+     
+        {% unless block.settings.hideQuestion2%}
+        <div class="summary_answ" style="order:{{block.settings.positionQuestion2}}">
+          <div class="select_val_1">
+            <img class="summary-icon" id="dmf" src={{section.settings.summary_icon_2 | image_url}}><br>
+            <span id="question-display1{{block.settings.name| remove:" "}}" class="question-display1">Roast</span>
+          </div>
+        </div>
+          
+        {%endunless%}
+      
+       {% unless block.settings.hideQuestion3%}
+        <div class="summary_answ" style="order:{{block.settings.positionQuestion3}}">
+          <div class="select_val_4">
+            <img class="summary-icon" id="flagno" src={{section.settings.summary_icon_3 | image_url}}><br>
+            <span id="question-display2{{block.settings.name| remove:" "}}" class="question-display2">Destination</span>
+          </div>
+        </div>
+        {%endunless%}
+      </div>
+      <div class="summary_moreinfo">
+        <div class="info_cont">
+        </div>
+        <div class="summary_info">
+          <p> Much looking forward to having you as a part of our Subscribers Club.</p>
+        </div>
+      </div>
+      <div class="cartbox">
+        <div>
+          <h2><span class="PrizedDisplay">0.00</span><span>{{ cart.currency.symbol| prepend: " " }}</span><h2>
+        </div>
+        <button class="subscription-card-button checkout" disabled onclick="addItemToCart();"> Checkout </button>
+      </div>
+  </div>
+</div>
+    
+    </div>
+      {% endif %}
+      {% endfor %}
+ 
+ <details class="noShipping"><summary>    <p>*We don't ship to the following Countries. <br>READ MORE</p></summary> {{ section.settings.noShipping}}</details>
+
+<div class="specialSubscriptionsView">
+  <h2 class="area-header"> Special Offers</h2>
+  <div class="special-info">
+   {% for block in section.blocks %}
+  
+        {% if block.type == 'subNoForm' %}
+   
+    
+      <div class="subscription-card wider">
+       
+          <h2 class="subscription-card-header">
+            {{block.settings.name}}
+          </h2>
+          <p class="subscription-card-description">
+			{{block.settings.description}}
+          </p>
+
+       
+        <img class="subscription-card-image" src={{block.settings.img  | img_url: '800x'  }}>
+
+        <a class="subscription-card-button" href="{{block.settings.product}}">Subscribe</a>
+      </div>
+  
+
+  {%endif%}
+  {%endfor%}
+
+</div>
+
+    </div>
+   
+<script>
+  
+   function addItemToCart() {
+
+  // This Is responsible for the recharge stuff
+    data = {
+      "id": currentProduct.id,
+      "quantity": 1,
+            "properties": {
+        
+shipping_interval_unit_type:
+    "month" ,
+shipping_interval_frequency:
+    1 
+            
+            }
+    }
+
+    // ads the Item to Cart
+	axios.post("/cart/add.js",data).then(function (response) {
+                window.location = "/cart"
+             });
+  }
+   let currentProduct;
+   let chargeIntervall = 1;
+  //
+  
+  function ChangeSubscriptionType(index, elementID,reset)
+  {
+    
+    FocusElementById(elementID);
+    currentProductIndex=0;
+    ChangeSubType(index);
+    SetCurrentOptions(reset);
+    UnselctAllRadio();
+    ResetSummary();
+   
+   currentProduct = GetCurrentProduct();
+   AddToCartLinkToButton(currentProduct);
+   ChangePriceDisplay(currentProduct);
+  }
+  
+  
+ function ChangeSubType(index)
+  {
+	 currentSubTypIndex = index; 
+  }
+  
+  //enables element by id and scrolls down to it
+  function FocusElementById(id) {
+   DisableAllSelectionViews(TypeNames);
+   var display = document.getElementById(id);
+   display.style.display = "block";
+    display.scrollIntoView(true);
+ }
+ 
+ //resests the currentOptions
+  function SetCurrentOptions(reset)
+  {
+    currentOptions[0] = reset[0];
+    currentOptions[1] = reset[1];
+    currentOptions[2] = reset[2];
+    currentOptions[3] = reset[3];
+  }
+  
+  function UnselctAllRadio()
+  {
+  	allInp = document.getElementsByTagName("input");
+    for (i = 0; i < allInp.length; i++) 
+    {
+      if (allInp[i].type == "radio")
+      {
+        allInp[i].checked = false; 
+      }
+    }
+  }
+  
+  function ResetSummary()
+  {
+    for(let i =0;i<SummaryText.length;i++)
+    {
+	  questiondisplays= Array.from(document.getElementsByClassName("question-display"+i));
+      questiondisplays.forEach(q => q.innerHTML = SummaryText[i][SummaryText[i].length-1]);
+    	
+    }
+  }
+
+//disables the ids given into it
+ function DisableAllSelectionViews(IDs) {
+   for (var i = 0; i <= IDs.length; i++) {
+     var element = document.getElementById(IDs[i - 1]);
+     if (element != null)
+       element.style.display = "none";
+   }
+ }
+
+ //Master Function That is Called Whenever A radio Button of the Non Payment Question Values are Changed
+ function OptionValueChanged(optionNumber,typeIdentifyer) {
+   
+   const selectedRadio = document.querySelector("input[type=radio][name=question" + optionNumber+typeIdentifyer + "]:checked").value;
+  
+     currentOptions[optionNumber] = selectedRadio;
+ 
+   UpdateDisplayAndSummary(optionNumber,typeIdentifyer);
+ 
+  
+
+ }
+
+  //when the current variant/product changes this is responsible for all that needs to happen 
+ function UpdateDisplayAndSummary(optionNumber,typeIdentifyer) {
+   currentProduct = GetCurrentProduct();
+   AddToCartLinkToButton(currentProduct);
+   ChangePriceDisplay(currentProduct);
+   ChangeSummary(optionNumber,typeIdentifyer);
+ }
+
+ //when the current variant/product changes this changes the priceDisplay but not the summary
+ function UpdateDisplay() {
+   currentProduct = GetCurrentProduct();
+   AddToCartLinkToButton(currentProduct);
+   ChangePriceDisplay(currentProduct);
+ }
+
+
+ //returns the curret roduct
+ function GetCurrentProduct() {
+
+     
+   var currentList = SubTypes[currentSubTypIndex].products[currentProductIndex].variants.filter(isCurrent);
+   if (currentList.length > 0) {
+    
+     return currentList[0];
+    
+   }
+   return null;
+ }
+
+ //filter that return the variant that fits the current option values
+ function isCurrent(variant) {
+   if (variant.option1 == currentOptions[0] && variant.option2 == currentOptions[1] && variant.option3.includes(currentOptions[2]) == true && currentOptions[3] >= 0 && currentOptions[3] <= 3 ) {
+   
+     return variant;
+   }
+   else if (variant.option1 == currentOptions[2] && currentOptions[3]>3){
+     return variant;
+   }
+ }
+
+  //if a variant exist its Addto cart link will be added to the checkout button
+  // if not the button will be disabled
+ function AddToCartLinkToButton(currentProduct) {
+   var btn =  Array.from(document.getElementsByClassName("checkout"));
+   if (currentProduct) {
+     btn.forEach(e => e.disabled = false);
+     btn[0].disabled = false;
+   } else {
+     btn.forEach(e => e.disabled = true);
+   }
+ }
+
+ function GoToProduct(id) {
+   location.href = '/cart/add?id=' + id;
+ }
+
+ //if a variant exists its price will be displayed
+ function ChangePriceDisplay(currentProduct) {
+
+   var displays = Array.from(document.getElementsByClassName("PrizedDisplay"));
+   if (currentProduct) {
+     var scaled = currentProduct.price / 100;
+    displays.forEach(display=> display.textContent = scaled.toLocaleString(undefined, {
+       minimumFractionDigits: 2 }));
+   } else {
+     displays.forEach(display => display.textContent = "0.00");
+   }
+ }
+
+ //Changes the innerHTML of a certain element
+ function ChangeSummary(optionNumber,typeIdentifyer) {
+
+   var display = document.getElementById("question-display"+optionNumber+typeIdentifyer);
+   var radio = document.getElementsByName("question" + optionNumber+ typeIdentifyer );
+     for(i = 0; i < radio.length; i++) 
+     {
+        if(radio[i].checked)
+                var radioIndex = i;
+     }
+   
+   if(optionNumber == 0 && currentOptions[0].includes("kg"))
+   	 display.innerHTML = SummaryText[3][radioIndex];
+
+   else
+      display.innerHTML = SummaryText[optionNumber][radioIndex];
+     
+ }
+  
+  function DeterminOption()
+  {
+	  
+  
+  }
+  
+//changes the Current products Variants we Fetch
+ function ChangeProduct(index) {
+   currentProductIndex = index;
+   currentOptions[3] = index;
+   UpdateDisplay();
+ }
+
+//Enables The Selection with a certain id
+ function ShowSelect(elementId) {
+   var x = document.getElementById(elementId);
+   x.style.display = "block";
+   ChangeProduct(x.options[x.selectedIndex].value);
+ }
+
+ //hides the Selection with a certain id
+ function HideSelect(elementId, index) {
+   var x = document.getElementById(elementId);
+   x.style.display = "none";
+   ChangeProduct(index);
+ }
+  
+
+ 
+</script>
+
+

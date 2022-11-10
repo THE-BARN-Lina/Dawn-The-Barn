@@ -1,0 +1,10 @@
+{% layout none %}
+{%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
+{%- assign pageUrl = contentForQuerystring | split:'"pageurl":"' | last | split:'"' | first | split:'.myshopify.com' | last |
+   replace:'\/','/' | 
+   replace:'%20',' ' | 
+   replace:'\u0026','&'
+-%}
+{% assign metaname = pageUrl | split: '==' %}
+{% capture t2 %}{{metaname[1]}}{% endcapture %}
+{{shop.metafields.prime[t2]}}

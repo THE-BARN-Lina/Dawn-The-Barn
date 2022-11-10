@@ -1,0 +1,362 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "BREW. SIP. REMEMBER.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "THE BARN IS A DIFFERENT COFFEE EXPERIENCE",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SUBSCRIPTIONS",
+            "button_link_1": "https:\/\/thebarn.de\/collections\/subscriptions",
+            "button_style_secondary_1": false,
+            "button_label_2": "BUY BEANS",
+            "button_link_2": "shopify:\/\/collections\/beans",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-03-24_um_18.02.50_e16b7422-ecff-4a06-8c2b-0e4378142bd5.png",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "1653387743507b82e2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"awards-snippet\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "1652970717af5972f9": {
+      "type": "multicolumn",
+      "blocks": {
+        "1652970717eaeb9726-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1838D2E9-22DB-42AA-A85B-0772DC19307E_fcec143d-c457-4988-9c48-e85c29f3c33a.jpg",
+            "title": "CHRISTMAS COFFEE",
+            "text": "<p><strong>Merry Christmas<\/strong><\/p><p>It became our tradition to feature a Christmas Coffee for the festive season each year. What better than giving away a bag of amazing Single Origin Coffee.<\/p>",
+            "link_label": "ORDER NOW",
+            "link": "shopify:\/\/products\/christmas-coffee-2022"
+          }
+        },
+        "1652970717eaeb9726-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/503230FE-6E41-4601-9BDC-07D3B43A0BBA.jpg",
+            "title": "BLACK HONEY GUATEMALA",
+            "text": "<p><strong>Introducing: Finca Gascon <\/strong><\/p><p>We are thrilled to work with producer Felipe Contreras. At just 26 he is making waves already. His Black Honey stands out with amazing depth and texture. Microlot level.<\/p>",
+            "link_label": "ORDER GASCON",
+            "link": "https:\/\/thebarn.de\/products\/finca-gascon"
+          }
+        }
+      },
+      "block_order": [
+        "1652970717eaeb9726-1",
+        "1652970717eaeb9726-0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}\n<style>\na:hover{\ncolor:white !important;\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16529435131152e250": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1652943513cf238e66-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "OCTOBER SUBSCRIPTION SPECIAL",
+            "heading_size": "h2"
+          }
+        },
+        "1652943513cf238e66-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>RECEIVE A FREE V60 BREW SET<br\/><\/strong><\/p><p>In October, we want to highlight the beauty of handbrewed filter coffees. With autumn weather and more time at home, we recommend switching to our favourite brewing method: V60<\/p><p>If you sign up for our curated coffee subscription this month, your first delivery will come with a free Hario V60 brewer plus enough filter paper to keep you busy.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1652943513cf238e66-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SIGN UP NOW",
+            "button_link": "https:\/\/thebarn.de\/products\/subscription-october-special"
+          }
+        }
+      },
+      "block_order": [
+        "1652943513cf238e66-0",
+        "1652943513cf238e66-1",
+        "1652943513cf238e66-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/B4207B7E-0E82-44AE-BDBD-FCB26D135380_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc": {
+      "type": "image-with-text",
+      "blocks": {
+        "25a5c07b-9386-4266-a2cf-aeac850247f2": {
+          "type": "caption",
+          "settings": {
+            "caption": "STAFF RECOMMENDATION",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ODE TO A GRINDER",
+            "heading_size": "h2"
+          }
+        },
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>FELLOW ODE UPGRADED<\/strong><\/p><p>Perfectly designed, the Ode transforms a morning chore into a quieter and more enjoyable experience. <\/p><p>A variety of carefully engineered features set Ode apart from the pack. With a magnetically aligned catch for added cleanliness, a grinds knocker to reduce grind retention, and auto stop for one less step. Includes the new 1.1 burr version. <\/p><p><strong>Hurry: Only 10 units are available!<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER",
+            "button_link": "https:\/\/thebarn.de\/products\/new-fellow-ode-brew-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "25a5c07b-9386-4266-a2cf-aeac850247f2",
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0",
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1",
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_3204.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "165339081846c57155": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "LATEST RELEASES",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-releases",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "view_all_label": "SEE FULL BEAN COLLECTION",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 52,
+        "padding_bottom": 12
+      }
+    },
+    "534dac0d-13ae-4ca4-8a87-df64d29c7bf1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEE FULL BEAN COLLECTION",
+            "button_link": "shopify:\/\/collections\/beans",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-0",
+        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-1",
+        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "165900919845720bf8": {
+      "type": "newsletter-sign-up",
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "16515783060899e67e": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651578306681188a7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "UNCOMPROMISED QUALITY",
+            "heading_size": "h2"
+          }
+        },
+        "1651578306681188a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Through personal farm relationships we build quality from the start. Our integrated approach connects all stages to create excellent coffee: sourcing, roasting and serving the perfect cup.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1651578306681188a7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "OUR STORY",
+            "button_link": "shopify:\/\/pages\/aboutus"
+          }
+        }
+      },
+      "block_order": [
+        "1651578306681188a7-0",
+        "1651578306681188a7-1",
+        "1651578306681188a7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_0100_2_720x_24c7d0ef-f25b-4bc9-9da7-f3e13cb6d797.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
+    },
+    "16578991104d1ffac5": {
+      "type": "popup-main",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1659955349273aa5dd": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\"> \n<div class=\"iframe-container\">\n<iframe src=\"https:\/\/www.youtube-nocookie.com\/embed\/oXN7oMeDE98?playlist=oXN7oMeDE98&loop=1&controls=1&rel=0&autoplay=0&mute=1&amp;start=5\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"allowfullscreen> marginwidth=\"0\"\nmarginheight=\"0\"\nhspace=\"0\"\nvspace=\"0\"\nframeborder=\"0\"\nscrolling=\"no\"<\/iframe> \n<\/div>\n<\/div> \n\n    <style>\n .container {\ndisplay: flex;\njustify-content: center;\nmargin-right: 5%;\nmargin-left: 5%;\n}\n\n.iframe-container{\n  \/*position: relative;*\/\n  width: 1092px; \n  height: 640px;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  object-fit: cover;\n \n}\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n@media only screen and (max-width: 600px) {\n.iframe-container{\nheight:30vh;\n}\n\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "1653387743507b82e2",
+    "1652970717af5972f9",
+    "88c54afd-6289-46f8-8ace-ea6a928b554f",
+    "16529435131152e250",
+    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
+    "165339081846c57155",
+    "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",
+    "165900919845720bf8",
+    "16515783060899e67e",
+    "16578991104d1ffac5",
+    "1659955349273aa5dd"
+  ]
+}

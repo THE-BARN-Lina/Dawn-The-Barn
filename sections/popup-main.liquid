@@ -1,0 +1,397 @@
+{% schema %}
+  {
+    "name": "Popup",
+    "settings": [],
+ 	 "presets": [
+      {
+        "name": "Product PopUp",
+        "category": "Custom"
+      }
+    
+    ]
+  }
+{% endschema %}
+
+<div id="popup" class="hide">
+    <div class="popup-overlay">
+      <div class="maincontainer">
+        
+        		<img src ="https://cdn.shopify.com/s/files/1/0831/4141/files/Ralf_house_subscription_2.jpg?v=1657870811" class="grid-img">
+       
+        
+        
+         <div class="txtbox">
+                <div class="close" onclick="Close()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                        <g id="Close_button" data-name="Close button" transform="translate(-5 -5)">
+                          <path id="Path_12" data-name="Path 12" d="M19,6.41,17.59,5,12,10.59,6.41,5,5,6.41,10.59,12,5,17.59,6.41,19,12,13.41,17.59,19,19,17.59,13.41,12Z" fill="#fff"/>
+                        </g>
+                    </svg>
+                </div>
+           
+           <h3 class="Main"><strong>House Coffee Subscription</strong></h3>
+               
+          <span class="description">Are you looking for a consistent flavour profile <br> 
+                    at home? We have created a new subscription 
+            especially for you: House!</span>
+           
+           <span class="short-description">A consistent flavour profile <br>at home</span>         
+            
+          <div class="lists">
+             	<ul>
+                                <li>High Sweetness</li>
+                                <li>Low Acidity</li>
+                                <li>Balanced Flavours</li>
+              	</ul>
+           </div>
+           
+           
+               
+           <a href="/products/house-subscription" class="button">SIGN UP</a>
+           
+            <a href="/products/house-subscription" class="button2">SIGN UP</a>
+           
+           </div>
+
+        </div>
+  
+      
+	</div>
+      
+</div>
+ 
+
+<script>
+  const popup = document.getElementById("popup");
+  switch(check_cookie_name("PopupSeen")){
+      
+      case "false":
+      popup.classList.remove("hide"); 
+      break;
+  }
+ 
+        
+
+  function Close(){
+     popup.classList.add("hide"); 
+     setSeen("true");
+   }
+
+    function check_cookie_name(name) 
+  {
+      var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+      if (match) {
+        return match[2];
+      }
+      else{
+         return 0;
+      }
+  }
+    
+</script>
+
+                            
+
+ 
+<style>
+  
+  
+  
+  
+.popup-overlay{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+   display: flex;
+     pointer-events: none;
+
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+    
+      background: rgba(0, 0, 0, 0.8);
+     width:100%;
+  max-width:100%;
+       opacity:0;
+      z-index: 9;
+      animation: fadein 0.3s forwards;
+      animation-delay: 1s;
+      -moz-animation: fadein 0.3s forwards;
+      -moz-animation-delay: 1s;
+      -webkit-animation: fadein 0.3s forwards;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+      -webkit-animation-delay:5s;
+  
+     
+     
+  	
+}
+
+    <script>
+
+  </script>
+  
+  
+  @keyframe fadein {
+  
+    0% {
+
+    pointer-events: auto;
+  }
+  100% {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+  
+  @-webkit-keyframes fadein {
+  0% {
+
+    pointer-events: auto;
+  }
+
+  100% {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+  
+ 
+ 
+  .maincontainer{
+     
+    display: grid;
+    grid-template-columns: 320px auto;
+    column-gap: 0;
+    z-index: 25;
+    position: absolute;
+    background-color: #1a1a1a;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    max-width: 762px;
+    height: 567px;
+  
+     transform: translateX(200%);
+    animation : slide-in 2s forwards;
+    animation-delay:5.3s;
+
+   
+  }
+  
+
+
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
+}
+  
+  .maincontainer .short-description 
+  {display: none;}
+   
+  .maincontainer .button2 {display: none;}
+  
+  
+  .maincontainer p {
+    width: auto;
+    height: auto;}
+  
+  .hide{
+   display:none;
+    
+   transform: translateX(-100%);
+  }
+
+ 
+  
+   
+  
+  
+  
+  .maincontainer,
+.maincontainer *{
+   box-sizing: border-box; 
+}
+  
+  .close {
+   position: absolute; 
+   top: 20px;
+   right: 20px;
+   width: 14px;
+   height: 14px;
+   cursor: pointer;
+   z-index: 10;
+     pointer-events: auto;
+}
+  .grid-img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  opacity: 50%;
+}
+      
+  .maincontainer .txtbox{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-items: center;
+  justify-self: center;
+  place-items: center;
+  vertical-align: middle;
+  line-height: 100%;
+  padding-right: 16px;
+  padding: 16px;
+    gap: 20px;
+}
+    
+    
+}
+
+  .maincontainer h3{
+    font-size: 20px;
+    color: #fff;
+    
+  
+}
+  
+  .maincontainer .description{
+    font-size: 16px;
+    text-align: center;
+    
+    
+}
+    
+  .maincontainer .lists{
+   
+    
+
+  
+    position: relative; 
+     font-size: 15px;
+    /*font-weight: bold;*/
+    letter-spacing: 0.6px;
+    line-height: 1.8em;
+  }
+  
+  
+  
+ 
+  
+  .maincontainer .button{
+    background: #68431B;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 16px 68px;
+    pointer-events: auto;
+    
+  
+}
+
+  @media screen and (max-width: 860px) {
+    
+    .maincontainer {
+        height: 480px;
+      width: 700px; 
+      grid-template-columns: 240px auto;
+        
+    }
+    
+    .imgbox {
+      width: 240px;
+      height: 480px;
+      position: fixed;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+   }
+
+  
+  }
+    
+  
+ @media screen and (max-width: 600px) {
+    
+    .maincontainer .description {visibility:hidden;
+      
+  width: 0px;
+overflow: hidden;
+    display:none;} 
+   
+   .maincontainer .short-description {display: inline;
+   
+   }
+   
+
+   
+    .maincontainer .button {visibility:hidden;
+  width: 0px;
+overflow: hidden;
+      display:none;
+    pointer-events: auto;} 
+   
+   .maincontainer .button2 {display: inline;
+     pointer-events: auto;
+   
+   }
+   
+   .maincontainer {
+        height: 340px;
+      width: 440px; 
+     grid-template-columns: 150px auto;
+     max-width: 100%;
+        
+    }
+
+
+
+   .maincontainer h3{
+    font-size: 16px;
+    color: #fff;
+     text-align:center;
+  }
+   
+  .maincontainer .short-description{
+    font-size: 12px;
+     text-align:center;
+   
+   
+ }
+   
+  .maincontainer .button2{
+    background: #68431B;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 50px;
+    pointer-events: auto;
+    
+  
+  } 
+      
+    .maincontainer .lists{
+  
+    position: relative; 
+     font-size: 15px;
+    /*font-weight: bold;*/
+    letter-spacing: 0.6px;
+    line-height: 1.3em;
+  }
+   
+   
+     .maincontainer .txtbox
+ 
+    gap: 3px;
+}
+  
+   
+  }
+</style>
+
+{% javascript %}
+{% endjavascript %}

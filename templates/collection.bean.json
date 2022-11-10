@@ -1,0 +1,229 @@
+{
+  "wrapper": "div#div_id.page-width",
+  "sections": {
+    "16536485367ff1191d": {
+      "type": "image-banner",
+      "blocks": {
+        "16536485364024ce9d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "16536485364024ce9d-1": {
+          "type": "text",
+          "settings": {
+            "text": "We celebrate seasonality.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16536485364024ce9d-0",
+        "16536485364024ce9d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/82041b76-de41-47e5-bdd7-653d8b2d6c4c_6098e16f-b204-483b-b7bb-2d96331bfcac.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "165364865504f222aa": {
+      "type": "rich-text",
+      "blocks": {
+        "1653648655189455e5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1653648655189455e5-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1651573600c50faa59": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "16515736008aaacc61-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "SELECT YOUR SUBSCRIPTION",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "16515736008aaacc61-0"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-2"
+      }
+    },
+    "16518336251bec1554": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "165183362505911af8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our most popular Coffee Subscriptions are now tailormade for the USA & Canada. <\/p><p><\/p><p><strong>CHEAPER & FASTER<br\/><\/strong>We ship fresh roast to our warehouse in the US. From there we send it out with local mail to you. No more hassle with customs - shipping included.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165183362505911af8-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 2,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "quick_add_button_color": "",
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    },
+    "1651574465fc19c571": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "16609093955d46716e": {
+      "type": "bean-collection-product-grid",
+      "settings": {
+        "products_per_page": 64,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "quick_add_button_color": "#804d15",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16609096892f959660": {
+      "type": "collection-list",
+      "blocks": {
+        "16609096892c11eee0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "instant-drip"
+          }
+        },
+        "cf528b2f-6e3c-49a0-85d9-a8bb2f990829": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "capsules"
+          }
+        },
+        "16609096892c11eee0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "equipment"
+          }
+        },
+        "16609096892c11eee0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "merchandise"
+          }
+        }
+      },
+      "block_order": [
+        "16609096892c11eee0-0",
+        "cf528b2f-6e3c-49a0-85d9-a8bb2f990829",
+        "16609096892c11eee0-1",
+        "16609096892c11eee0-2"
+      ],
+      "settings": {
+        "title": "DISCOVER MORE",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "16536485367ff1191d",
+    "165364865504f222aa",
+    "1651573600c50faa59",
+    "banner",
+    "16518336251bec1554",
+    "product-grid",
+    "1651574465fc19c571",
+    "16609093955d46716e",
+    "16609096892f959660"
+  ]
+}

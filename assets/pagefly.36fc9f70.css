@@ -1,0 +1,133 @@
+/* PageFly Element Styles */
+						.kuwSuz { display: inline-block; line-height: 1; padding: 12px 20px; text-align: center; text-decoration: none; outline: 0px; }
+.kuwSuz i { margin-right: 0.3em; }
+.kuwSuz:hover, .kuwSuz:active, .kuwSuz:focus, .kuwSuz span { color: inherit; }
+.kuwSuz span { display: initial; }
+.hpksip div { display: flex; align-items: center; padding: 1rem 0px; position: relative; font-size: 2px; }
+.hpksip div::before, .hpksip div::after { content: ""; width: 100%; border-top: 1em solid; }
+.hpksip > div > span { padding: 0px 1rem; flex: 1 0 auto; line-height: 1; color: rgb(0, 0, 0); font-size: 30px; display: none; }
+.hpksip span > span { vertical-align: middle; }
+.lcHmGL { word-break: break-word; }
+.lcHmGL span { font-weight: inherit; text-decoration: inherit; }
+.lcHmGL i { margin-right: 0.3em; }
+.jklmHY { padding: var(--pf-s-lg); }
+@media (max-width: 1199px) and (min-width: 992px) {
+  .jklmHY { padding: var(--pf-s-md); }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .jklmHY { padding: var(--pf-s-sm); }
+}
+@media (max-width: 767px) {
+  .jklmHY { padding: var(--pf-s-xs); }
+}
+.fTyjzF { position: relative; }
+.eYzxUD { margin: 0 calc(-1 * var(--pf-s-lg)); }
+@media (max-width: 1199px) and (min-width: 992px) {
+  .eYzxUD { margin: 0 calc(-1 * var(--pf-s-md)); }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .eYzxUD { margin: 0 calc(-1 * var(--pf-s-sm)); }
+}
+@media (max-width: 767px) {
+  .eYzxUD { margin: 0 calc(-1 * var(--pf-s-xs)); }
+}
+.bjKdkd__parallax { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; }
+.bjKdkd { padding: 15px 0px; position: relative; }
+.HrWqm > span:last-child { line-height: inherit; display: block; }
+#editor-dnd-wrapper .HrWqm[class*="dropcap--"]:not(.dropcap--none) > span:last-child[contenteditable] { display: block; }
+#editor-dnd-wrapper .HrWqm[class*="dropcap--"]:not(.dropcap--none) > span:last-child[contenteditable]:empty::after { display: inline; }
+.HrWqm[class*="dropcap--"] > span:first-child { display: block; margin-right: 10px; float: left; width: 50px; height: 50px; line-height: 50px; }
+.HrWqm[class*="dropcap--"]:not(.dropcap--none) > span:first-child { margin-right: 20px; text-align: center; }
+.HrWqm.dropcap--none > span:first-child { text-align: inherit; border-radius: 0px; line-height: 1 !important; width: auto !important; height: auto !important; background: none !important; }
+.HrWqm.dropcap--circle > span:first-child { border-radius: 100%; }
+.HrWqm:not([class*="dropcap--"]) > span { margin-right: 0px !important; }
+.HrWqm ol, .HrWqm ul { list-style-position: inside; }
+.HrWqm blockquote { font-size: inherit; }
+.fnmilh { display: inline-block; }
+.fnmilh[contenteditable="true"] { user-select: text; }
+.fnmilh { vertical-align: baseline; word-break: break-word; }
+.fnmilh:focus { outline: none; }
+.fnmilh::after { display: inline; }
+						/* PageFly Styles */
+						
+@media all {
+	.__pf .pf-129e0d52 {
+		text-align: justify;
+	}
+	.__pf .pf-867209ab {
+		min-height: 300px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/32.png?998");
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: contain;
+	}
+	.__pf .pf-8e35b19f {
+		color: rgb(104, 67, 27);
+	}
+	.__pf .pf-6c2314fe {
+		text-align: justify;
+	}
+	.__pf .pf-4f1398dd {
+		min-height: 300px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/31.png?999");
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: contain;
+	}
+	.__pf .pf-42ae084e {
+		color: rgb(104, 67, 27);
+	}
+	.__pf .pf-6de320f5 {
+		text-align: justify;
+	}
+	.__pf .pf-bee6d458 {
+		min-height: 300px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/30.png?1000");
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: contain;
+	}
+	.__pf .pf-a8e9f206 {
+		text-align: center;
+		 display: flex;
+		 flex-flow: column wrap;
+		 align-items: center;
+		 place-content: center;
+	}
+	.__pf .pf-86e276b0 {
+		width: 300px;
+		 height: auto;
+	}
+	.__pf .pf-41e8b406 {
+		margin-top: 30px;
+	}
+	.__pf .pf-b2c8ca5b {
+		width: 300px;
+		 height: auto;
+	}
+	.__pf .pf-a53986cb {
+		margin-top: 30px;
+	}
+	.__pf .pf-86cb12da {
+		text-align: center;
+		 display: flex;
+		 flex-flow: column wrap;
+		 align-items: center;
+		 place-content: center;
+	}
+	.__pf .pf-1c7c0a1f {
+		width: 300px;
+		 height: auto;
+	}
+	.__pf .pf-69f0b3a5 {
+		margin-top: 30px;
+	}
+	.__pf .pf-b3a58231 {
+		text-align: center;
+		 display: flex;
+		 flex-flow: column wrap;
+		 align-items: center;
+		 place-content: center;
+	}
+}
+						

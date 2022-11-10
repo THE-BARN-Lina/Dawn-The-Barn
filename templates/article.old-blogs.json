@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "main": {
+      "type": "dawn-article-main",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "small"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "37a1fa2a-1f24-450a-a9a1-cb4528b8519d": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "09e3b91c-548d-4e0d-8407-66cce56af3e5": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "37a1fa2a-1f24-450a-a9a1-cb4528b8519d",
+        "09e3b91c-548d-4e0d-8407-66cce56af3e5"
+      ],
+      "settings": {
+      }
+    },
+    "1657793783f709b9e4": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "newest-coffees",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1657793783f709b9e4"
+  ]
+}
