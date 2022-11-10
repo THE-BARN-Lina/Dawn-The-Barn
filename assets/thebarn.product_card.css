@@ -1,0 +1,15 @@
+
+    .card_tastnote_text{
+        background-color: #242424;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+        padding: 3px  6px;
+        min-height: 24px;
+      
+        display: flex;
+        justify-content:center;
+        align-content:center;
+        align-items: center;   
+      }
