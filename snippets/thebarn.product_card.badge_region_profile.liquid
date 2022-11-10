@@ -1,7 +1,6 @@
 {{ 'thebarn.product_card.css' | asset_url | stylesheet_tag }}
 
 {% if   card_product.metafields.custom.taste_notes%}
-    <hr style="margin:10px 0">
     <div class="card__50_50__grid">
        <p style="text-transform: capitalize;
                    text-align: center;
@@ -15,6 +14,6 @@
                    grid-area: a;" > {{ card_product.metafields.custom.region|escape |downcase }}</p>
     
    </div>
-    <hr style="margin:10px 0 0 0">
+
 {% endif %}   
 
