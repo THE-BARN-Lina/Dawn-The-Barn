@@ -1,14 +1,14 @@
 {{ 'thebarn.product_card.css' | asset_url | stylesheet_tag }}
 
 {% case card_products.metafields.region %}
-    {% when "Balanced" %}
+    {% when contains "Balanced" %}
         {% assign background = settings.color_profile_balance %}
     {% else %}
     {% assign background = settings.color_profile_exotic %}
 {% endcase %}
 
 
-{% if   card_product.metafields.custom.taste_notes%}
+{% if   card_product.metafields.custom.region%}
     <div class="card__50_50__grid">
        <p style="text-transform: capitalize;
                    text-align: center;
