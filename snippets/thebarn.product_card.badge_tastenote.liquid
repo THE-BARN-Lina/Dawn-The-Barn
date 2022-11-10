@@ -5,10 +5,10 @@
     <div class="card__50_50__grid">
     {% assign tastenotes = card_product.metafields.custom.taste_notes | split: "." %}
      {% if tastenotes.size > 1 %}
-       <div class = "card_tastnote_text" style="grid-area: b;"> <p style= "height:fit-content; margin: 0px;"> {{ tastenotes.first |downcase}} </p> </div>
-       <div class = "card_tastnote_text"  style="grid-area: c;"> <p style= "height:fit-content; margin: 0px;"> {{ tastenotes[1] |downcase}} </p> </div>
+       <div class = "card_tastnote_text" style="grid-area: c;"> <p style= "height:fit-content; margin: 0px;"> {{ tastenotes.first |downcase}} </p> </div>
+       <div class = "card_tastnote_text"  style="grid-area: d;"> <p style= "height:fit-content; margin: 0px;"> {{ tastenotes[1] |downcase}} </p> </div>
      {% else %}
-      <p class="card_tastnote_text"style="text-transform: capitalize; grid-area: b;"> {{ card_product.metafields.custom.taste_notes|escape |downcase }}</p>
+      <p class="card_tastnote_text"style="text-transform: capitalize; grid-area: c;"> {{ card_product.metafields.custom.taste_notes|escape |downcase }}</p>
      {% endif %} 
    </div>
    
