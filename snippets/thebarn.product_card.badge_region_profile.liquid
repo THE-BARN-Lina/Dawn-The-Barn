@@ -1,6 +1,6 @@
 {{ 'thebarn.product_card.css' | asset_url | stylesheet_tag }}
 
-{{card_products.metafields.profile}}
+{{ card_products.metafields.profile  }}
 {% case card_products.metafields.profile %}
     {% when "Balanced" %}
         {% assign background = settings.color_profile_balance %}
@@ -9,8 +9,9 @@
 {% endcase %}
 
 
-{% if   card_product.metafields.custom.region%}
+{% if   card_product.metafields.custom.region %}
     <div class="card__50_50__grid">
+        {{ card_products.metafields.profile  }}
        <p style="text-transform: capitalize;
                    text-align: center;
                    background-color: #242424;
