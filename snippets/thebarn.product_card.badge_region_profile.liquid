@@ -3,11 +3,11 @@
 {% assign profile = card_product.metafields.bean.profile|escape |downcase %}
 
 {% case profile %}
-    {% when "balanced" %}
+    {% when 'balanced' %}
         {% assign background = settings.color_profile_balanced %}
-    {% when "terroir" %} 
+    {% when 'terroir' %} 
       {% assign background = settings.color_profile_terroir %}
-    {% when "exotic" %}
+    {% when 'exotic' %}
          {% assign background = settings.color_profile_exotic %}
     {%else%}
         {% assign background = settings.color_profile_exotic %}
@@ -38,6 +38,9 @@
                     margin:0px;
                     grid-area: b;" >
                      {{ profile }}
+                     {{settings.color_profile_balanced}}
+                     {{settings.color_profile_exotic}}
+                     {{settings.color_profile_terroir}}
                     {{background}}
                     </p>
 
