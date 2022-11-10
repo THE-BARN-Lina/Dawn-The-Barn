@@ -98,7 +98,7 @@
     "favicon": "shopify:\/\/shop_images\/barn_logo_large_house_white.webp",
     "currency_code_enabled": true,
     "color_profile_terroir": "#ff0000",
-    "color_profile_balance": "#0c9836",
+    "color_profile_balanced": "#7e5d38",
     "color_profile_exotic": "#461a1a",
     "curated_filter_1": "Los Chorros, Honduras",
     "curated_filter_2": "Giakanya AA, Kenya",
@@ -113,6 +113,7 @@
     "checkout_sidebar_background_color": "#212121",
     "checkout_accent_color": "#804d15",
     "checkout_button_color": "#68431b",
+    "color_profile_balance": "#0c9836",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
