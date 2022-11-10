@@ -1149,14 +1149,17 @@
     "settings": [
       {
         "type": "color",
+        "label": "Color Terroir",
         "id": "color_profile_terroir"
       },
       {
         "type": "color",
+        "label": "Color Balanced",
         "id": "color_profile_balance"
       },
       {
         "type": "color",
+        "label": "Color Exotic",
         "id": "color_profile_exotic"
       }
     ]
