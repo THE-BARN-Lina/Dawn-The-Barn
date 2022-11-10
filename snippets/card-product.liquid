@@ -18,6 +18,7 @@
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
+{{ card_products.metafields.profile  }}
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
