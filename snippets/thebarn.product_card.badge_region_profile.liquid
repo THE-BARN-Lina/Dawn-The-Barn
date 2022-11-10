@@ -1,7 +1,7 @@
 {{ 'thebarn.product_card.css' | asset_url | stylesheet_tag }}
 
-{% case card_products.metafields.region %}
-    {% when contains "Balanced" %}
+{% case card_products.metafields.profile %}
+    {% when contains "balanced" %}
         {% assign background = settings.color_profile_balance %}
     {% else %}
     {% assign background = settings.color_profile_exotic %}
