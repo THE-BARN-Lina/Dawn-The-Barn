@@ -1,5 +1,6 @@
 {{ 'thebarn.product_card.css' | asset_url | stylesheet_tag }}
 
+{{card_products.metafields.profile}}
 {% case card_products.metafields.profile %}
     {% when "Balanced" %}
         {% assign background = settings.color_profile_balance %}
