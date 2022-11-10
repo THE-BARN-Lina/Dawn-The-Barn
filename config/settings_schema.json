@@ -1145,22 +1145,21 @@
     ]
   },
   {
-    "name":"Bean Profile Colors",
-    "settings":[
+    "name": "Bean Profile Colors",
+    "settings": [
       {
-        "type":"color",
-        "id":"color_profile_terroir"
+        "type": "color",
+        "id": "color_profile_terroir"
       },
       {
-        "type":"color",
-        "id":"color_profile_balance"
+        "type": "color",
+        "id": "color_profile_balance"
       },
       {
-        "type":"color",
-        "id":"color_profile_exotic"
+        "type": "color",
+        "id": "color_profile_exotic"
       }
     ]
-
   },
   {
     "name": "Subscription Coffees",
