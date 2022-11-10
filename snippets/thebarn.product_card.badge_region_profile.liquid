@@ -5,9 +5,9 @@
     {% when "Balanced" %}
         {% assign background = settings.color_profile_balance %}
     {% when "Terroir" %} 
-      {% assign background = settings.color_profile_terroir %}
+      {% assign background = settings.color_profile_exotic %}
     {%else%}
-        {% assign background = settings.color_profile_exotic %}
+        {% assign background = settings.color_profile_balanced %}
 {% endcase %}
 
 
