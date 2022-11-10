@@ -1,10 +1,18 @@
 {{ 'thebarn.product_card.css' | asset_url | stylesheet_tag }}
 
+{% case card_products.metafields.region %}
+    {% when "Balanced" %}
+        {% assign background = settings.color_profile_balance %}
+    {% else %}
+    {% assign background = settings.color_profile_exotic %}
+{% endcase %}
+
+
 {% if   card_product.metafields.custom.taste_notes%}
     <div class="card__50_50__grid">
        <p style="text-transform: capitalize;
                    text-align: center;
-                   background-color: #242424
+                   background-color: #242424;
                    font-size: 12px;
                    width: 100%;
                    padding: 3px;
@@ -15,6 +23,7 @@
     
                    <p style="text-transform: capitalize;
                     text-align: center;
+                    background-color: {{background}};
                     font-size: 12px;
                     width: 100%;
                     padding: 3px;
@@ -23,7 +32,7 @@
                     margin:0px;
                     grid-area: b;" >
                      {{ card_product.metafields.bean.profile|escape |downcase }}</p>
-    
+
    </div>
 
 {% endif %}   
