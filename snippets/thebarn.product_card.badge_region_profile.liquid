@@ -3,10 +3,10 @@
 {% assign profile = card_product.metafields.bean.profile|escape |downcase %}
 
 {% case profile %}
-    {% when "balance" %}
-        {% assign background = settings.color_profile_balance %}
+    {% when "balanced" %}
+        {% assign background = settings.color_profile_balanced %}
     {% when "terroir" %} 
-      {% assign background = settings.color_profile_exotic %}
+      {% assign background = settings.color_profile_terroir %}
     {% when "exotic" %}
          {% assign background = settings.color_profile_exotic %}
     {%else%}
