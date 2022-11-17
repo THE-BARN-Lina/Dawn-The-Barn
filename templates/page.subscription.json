@@ -93,7 +93,7 @@
           "settings": {
             "name": "lowcaf",
             "title": "<p>LOW CAFFEINE <br\/>COFFEE<\/p>",
-            "product": "low-caf-subscription",
+            "product": "low-caf-subscription-legacy",
             "img": "shopify:\/\/shop_images\/Insta_1.jpg",
             "shortDescription": "Beans with naturally low caffeine levels.",
             "longDescription": "<p>We offer two coffee varietals that contain less than half of the caffeine you typically find in coffee. These rare beans are grown in nature. Each month you will receive two 250g bags of naturally low caffeine beans.<br\/><br\/>In  {{ \"now\" | date: \"%B\"| prepend: \" \" }} we are sending out :<br\/><strong>{{settings.low_caf}}<\/strong> <\/p>",

@@ -1,0 +1,315 @@
+{
+  "sections": {
+    "16533374668f19867f": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "774d434a-03b9-4a0f-865a-e14942643b32": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.taste_notes.value }}",
+            "text_style": "Titlecase"
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "91f9e491-1535-469c-ba91-3e4531606aed": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Your next Masterpieces",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.product.metafield | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Best of The Best",
+            "icon": "none",
+            "content": "<p>We are working with the best coffee growers out there. They proudly produce very limited rarities: Their Masterpieces. For some unboxing footage of our most exclusive coffee follow Ertuğrul <a href=\"https:\/\/www.instagram.com\/reel\/Cj2VtEKjf6U\/?utm_source=ig_web_copy_link\"><strong>here<\/strong><\/a><strong>.<\/strong><\/p><p><\/p><p><strong>Stay in Control : <\/strong>With our new online tool you can access your subscriber account and adjust as you like: Add more coffee beans to your next delivery (<strong>at 10% discount<\/strong>), skip a delivery or adjust the dispatch date. Change your address or simply opt out.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Pricing Information",
+            "icon": "none",
+            "content": "<p>As a subscriber, you are <strong>buying your coffee at a price advantage <\/strong>compared to regular market pricing. The bean weight we send out may differ because of the differences in pricing we pay for each individual lot to the coffee producer.<\/p>",
+            "page": ""
+          }
+        },
+        "fbe59c11-1527-4d06-b7dd-3a419ee5cbbf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping Information",
+            "icon": "none",
+            "content": "<p>Our international subscribers can now opt between Premium Tracked Service (Fast) or Eco Untracked Service (Cheaper).<\/p><p><\/p><p><strong>Non-EU and all wordwide customers <\/strong>Shipping included – taxes and import fees not included.<\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "6ca2dfaf-57f2-423e-a8df-929d589ab9da": {
+          "type": "shopify:\/\/apps\/auction-pro\/blocks\/product-template-auction\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
+          "disabled": true,
+          "settings": {
+            "timer_bold": false,
+            "timer_font_size": 18,
+            "timer_colour": "#212b36",
+            "end_date_font_size": 16,
+            "current_bid_font_size": 18,
+            "bid_link_colour": "#136af6",
+            "current_bid_btn_colour": "#0053a0",
+            "current_bid_input_size": 15,
+            "current_bid_border_radius": 3,
+            "buy_it_now_font_size": 16,
+            "buy_it_now_btn_colour": "#0053a0",
+            "buy_it_now_size": 15,
+            "buy_it_now_border_radius": 3,
+            "automatic_bid_font_size": 16,
+            "automatic_bid_colour": "#136af6"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "774d434a-03b9-4a0f-865a-e14942643b32",
+        "caption",
+        "price",
+        "91f9e491-1535-469c-ba91-3e4531606aed",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-3",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "fbe59c11-1527-4d06-b7dd-3a419ee5cbbf",
+        "share",
+        "6ca2dfaf-57f2-423e-a8df-929d589ab9da"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail",
+        "media_size": "small",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "2d304d85-3b03-4980-b291-93b36b8bbef4": {
+      "type": "Video-With-Text",
+      "disabled": true,
+      "settings": {
+        "video_id": "VnAQDO-fg6M",
+        "overlay": "",
+        "padding_top": 56,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "28b0f08c-11fb-4359-b8a4-7d166ef1090c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9738EC93-8A2F-44CA-AA82-8F635A68D804.jpg",
+            "title": "November 2022",
+            "text": "<p>Sudan Rume - Colombia<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Finca_Auromar_-_Panama_-_Masterpiece_Image.webp",
+            "title": "October 2022",
+            "text": "<p>Finca Auromar - Panama<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/El_Obraje_Washed_-_Masterpiece.jpg",
+            "title": "September 2022",
+            "text": "<p>El Obraje Washed - Colombia<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e3693e32-3e1d-4248-843b-3ea05fca3222": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CC66A3BD-1BBF-4783-9103-BE497927483C.jpg",
+            "title": "August 2022",
+            "text": "<p>El Burro Geisha - Panama<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "0448ab10-38ad-45f9-a478-170a5c1cc72d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/670E1ED6-37EA-4D69-BE8E-FE30FB25B24E_6d10c909-e7c4-43f3-9c7c-66e36ffaa46b.webp",
+            "title": "July 2022",
+            "text": "<p>Yemen Alchemy - Yemen<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "93adf530-e26e-448b-a1aa-d3cdc4e15ddb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/83F0BA5C-4E5F-4B7D-92EC-69039D0668BA.jpg",
+            "title": "June 2022",
+            "text": "<p>Gesha Village Natural - Ethiopia<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2d777bc0-ad0a-49be-9d6e-da413140cf58": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FD1B8178-35B7-44D3-95CE-7E7ADD4E0655.jpg",
+            "title": "May 2022",
+            "text": "<p>El Obraje Gesha. Nariño - Colombia<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2142a6fb-61d3-4187-9c94-b81b11d42e7b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/98937871-5937-4526-B0FD-CC7ECDDC92C2.jpg",
+            "title": "April 2022",
+            "text": "<p> Mokka. Finca Hawaii - Colombia<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "28b0f08c-11fb-4359-b8a4-7d166ef1090c",
+        "column-0",
+        "column-1",
+        "e3693e32-3e1d-4248-843b-3ea05fca3222",
+        "0448ab10-38ad-45f9-a478-170a5c1cc72d",
+        "93adf530-e26e-448b-a1aa-d3cdc4e15ddb",
+        "2d777bc0-ad0a-49be-9d6e-da413140cf58",
+        "2142a6fb-61d3-4187-9c94-b81b11d42e7b"
+      ],
+      "settings": {
+        "title": "Previous Masterpieces",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "1",
+        "padding_top": 60,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "16533374668f19867f",
+    "main",
+    "2d304d85-3b03-4980-b291-93b36b8bbef4",
+    "multicolumn",
+    "product-recommendations"
+  ]
+}

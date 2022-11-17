@@ -97,9 +97,6 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/barn_logo_large_house_white.webp",
     "currency_code_enabled": true,
-    "color_profile_terroir": "#267632",
-    "color_profile_balanced": "#7e5d38",
-    "color_profile_exotic": "#ce5d03",
     "curated_filter_1": "Los Chorros, Honduras",
     "curated_filter_2": "Giakanya AA, Kenya",
     "curated_espresso_1": "Caballero Washed, Honduras",
@@ -113,7 +110,6 @@
     "checkout_sidebar_background_color": "#212121",
     "checkout_accent_color": "#804d15",
     "checkout_button_color": "#68431b",
-    "color_profile_balance": "#0c9836",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -121,9 +117,9 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
             "settings": {
-              "text": "DONT MISS OUT: LIMITED CHRISTMAS GIFT SUBSCRIPTION 🌲📦",
+              "text": "OUR CHRISTMAS COFFEE IS CUP OF EXCELLENCE WINNING FARM: HUYE MOUNTAIN - RWANDA",
               "color_scheme": "accent-1",
-              "link": "https:\/\/thebarn.de\/products\/christmas-3-months-gift-subscription"
+              "link": "https:\/\/thebarn.de\/products\/christmas-coffee-2022"
             }
           }
         },

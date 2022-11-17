@@ -1,9 +1,9 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "THE BARN DAWN",
-    "theme_version": "5.0.1",
-    "theme_author": "Shopify + Lina Vorpahl",
+    "theme_name": "Dawn",
+    "theme_version": "5.0.0",
+    "theme_author": "Shopify",
     "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
@@ -1141,26 +1141,6 @@
         "id": "currency_code_enabled",
         "label": "t:settings_schema.currency_format.settings.currency_code_enabled.label",
         "default": true
-      }
-    ]
-  },
-  {
-    "name": "Bean Profile Colors",
-    "settings": [
-      {
-        "type": "color",
-        "label": "Color Terroir",
-        "id": "color_profile_terroir"
-      },
-      {
-        "type": "color",
-        "label": "Color Balanced",
-        "id": "color_profile_balanced"
-      },
-      {
-        "type": "color",
-        "label": "Color Exotic",
-        "id": "color_profile_exotic"
       }
     ]
   },

@@ -106,10 +106,18 @@
             "heading": "YOUR SUBSCRIPTION PERKS",
             "heading_size": "h1"
           }
+        },
+        "e04ad895-a511-49f5-928e-0b3e0c1ccb60": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
         }
       },
       "block_order": [
-        "16629821308589b769-0"
+        "16629821308589b769-0",
+        "e04ad895-a511-49f5-928e-0b3e0c1ccb60"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -123,43 +131,72 @@
       "settings": {
         "custom_liquid": "{% render | \"perks.icons\" %}\n<style>\na:hover{\ncolor:white !important;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 56,
-        "padding_bottom": 16
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "3b0902d2-e018-4cad-989b-028a36cd0279": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16149468774667__3b0902d2-e018-4cad-989b-028a36cd0279-16680858457392e0b5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHRISTMAS GIFT SUBSCRIPTION",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149468774667__3b0902d2-e018-4cad-989b-028a36cd0279-16680858457392e0b5-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 20
       }
     },
     "1662738554a4ae067d": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "16627385548857c752-0": {
           "type": "heading",
           "settings": {
-            "heading": "OCTOBER SPECIAL",
+            "heading": "THE BEST GIFT EVER",
             "heading_size": "h2"
+          }
+        },
+        "f4ad95fc-a4f3-4f09-92f0-8089324985ec": {
+          "type": "caption",
+          "settings": {
+            "caption": "First delivery is wrapped in our Craft Box",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         },
         "16627385548857c752-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Receive a free Brew Set<br\/><\/strong><\/p><p>In October, we want to highlight the beauty of handbrewed filter coffees. With autumn weather and more time at home, we recommend switching to our favourite brewing method: V60<\/p><p>Sign up for our curated coffee subscription this month, your first delivery will come with a free Hario V60 brewer plus enough filter paper to keep you busy.<\/p>",
+            "text": "<p>This one keeps on giving for several months in the New Year! First delivery is packed with a cute Mug and Chocolate from Berlin. Boxed to be put straight under the tree.  <\/p><p>You can buy this gift subscription with a term of 3 or 6 months.<\/p>",
             "text_style": "body"
           }
         },
         "16627385548857c752-2": {
           "type": "button",
           "settings": {
-            "button_label": "REGISTER HERE",
-            "button_link": "shopify:\/\/products\/subscription-october-special"
+            "button_label": "ORDER HERE",
+            "button_link": "shopify:\/\/products\/christmas-3-months-gift-subscription"
           }
         }
       },
       "block_order": [
         "16627385548857c752-0",
+        "f4ad95fc-a4f3-4f09-92f0-8089324985ec",
         "16627385548857c752-1",
         "16627385548857c752-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/659028d6-7db3-4f64-bffb-9f13014af883.jpg",
+        "image": "shopify:\/\/shop_images\/85BBA4AA-DD5D-4B64-9F29-17202FCD1956.webp",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -168,13 +205,33 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "636edd10-9556-4424-add9-ef1faa9ebb3f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16149468774667__636edd10-9556-4424-add9-ef1faa9ebb3f-1668503808fe4ddc54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "YOUR CHOICES",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149468774667__636edd10-9556-4424-add9-ef1faa9ebb3f-1668503808fe4ddc54-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "166186709197b72a8b": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -182,18 +239,40 @@
         "show_secondary_image": false,
         "show_vendor": true,
         "show_rating": false,
-        "enable_quick_add": false,
-        "quick_add_button_color": "",
+        "enable_quick_add": true,
+        "quick_add_button_color": "#804d15",
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "2",
         "padding_top": 8,
-        "padding_bottom": 36
+        "padding_bottom": 0
+      }
+    },
+    "d38cf404-aacf-4801-91d6-0f1e1abf762d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16149468774667__d38cf404-aacf-4801-91d6-0f1e1abf762d-1668503808fe4ddc54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIFT CHOICES",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149468774667__d38cf404-aacf-4801-91d6-0f1e1abf762d-1668503808fe4ddc54-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 0
       }
     },
     "2e034e63-477f-45f5-98d3-88aec71c4fca": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "YOUR CHOICES",
         "heading_size": "h1",
@@ -213,7 +292,7 @@
         "show_secondary_image": false,
         "show_vendor": true,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 72,
@@ -223,7 +302,7 @@
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5": {
       "type": "featured-collection",
       "settings": {
-        "title": "GIFT CHOICES",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -241,10 +320,10 @@
         "show_secondary_image": false,
         "show_vendor": true,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -429,8 +508,11 @@
     "16617837917eb97d25",
     "166298213040d91fb2",
     "166178416464969217",
+    "3b0902d2-e018-4cad-989b-028a36cd0279",
     "1662738554a4ae067d",
+    "636edd10-9556-4424-add9-ef1faa9ebb3f",
     "166186709197b72a8b",
+    "d38cf404-aacf-4801-91d6-0f1e1abf762d",
     "2e034e63-477f-45f5-98d3-88aec71c4fca",
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5",
     "16629804922d2a4cf0",

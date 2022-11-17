@@ -1,35 +1,6 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
-    "4f1480d0-e188-4c1b-88a1-d0727494c927": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "CHRISTMAS",
-            "heading_size": "h2"
-          }
-        },
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0",
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "7e63d166-e043-404d-836b-94a1f670b7c1": {
       "type": "image-banner",
       "blocks": {
@@ -65,6 +36,35 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "4f1480d0-e188-4c1b-88a1-d0727494c927": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "CUP OF EXCELLENCE",
+            "heading_size": "h2"
+          }
+        },
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LIMITED EDITION<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0",
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 0
       }
     },
     "12c08833-363b-46d1-8516-2d25abd2136a": {
@@ -146,7 +146,7 @@
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 52,
+        "padding_top": 32,
         "padding_bottom": 52
       }
     },
@@ -214,8 +214,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "christmas-2022-add-ons",
-        "products_to_show": 3,
-        "columns_desktop": 3,
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -262,7 +262,7 @@
           "type": "button",
           "settings": {
             "button_label": "SOLD OUT",
-            "button_link": ""
+            "button_link": "shopify:\/\/products\/advent-calendar-2022"
           }
         }
       },
@@ -288,8 +288,8 @@
     }
   },
   "order": [
-    "4f1480d0-e188-4c1b-88a1-d0727494c927",
     "7e63d166-e043-404d-836b-94a1f670b7c1",
+    "4f1480d0-e188-4c1b-88a1-d0727494c927",
     "12c08833-363b-46d1-8516-2d25abd2136a",
     "3c745dad-598d-473f-8669-98ccee87e5f0",
     "banner",
