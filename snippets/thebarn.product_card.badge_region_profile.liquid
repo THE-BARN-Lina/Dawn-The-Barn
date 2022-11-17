@@ -1,3 +1,11 @@
+{% comment %}
+    Display by adding 
+
+    {%render 'thebarn.product_card.badge_region_profile' , card_product:card_product %}
+  
+{%endcomment%}
+
+
 {% assign profile = card_product.metafields.bean.profile|escape |downcase %}
 
 {% case profile %}
