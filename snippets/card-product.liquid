@@ -17,7 +17,7 @@
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-{% include 'thebarn.product_card'%}
+{{ 'thebarn.product_card' | asset_url | stylesheet_tag }}
 
 {%- if card_product and card_product != empty -%}
   {%- liquid
