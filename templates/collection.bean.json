@@ -55,8 +55,8 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "1651573600c50faa59": {
@@ -139,15 +139,6 @@
         "padding_bottom": 36
       }
     },
-    "1651574465fc19c571": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "16609093955d46716e": {
       "type": "bean-collection-product-grid",
       "settings": {
@@ -163,7 +154,7 @@
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "1",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -213,6 +204,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1651574465fc19c571": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -222,8 +222,8 @@
     "banner",
     "16518336251bec1554",
     "product-grid",
-    "1651574465fc19c571",
     "16609093955d46716e",
-    "16609096892f959660"
+    "16609096892f959660",
+    "1651574465fc19c571"
   ]
 }

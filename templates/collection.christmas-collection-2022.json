@@ -105,7 +105,6 @@
         },
         "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-4": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -146,8 +145,8 @@
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 32,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 80
       }
     },
     "3c745dad-598d-473f-8669-98ccee87e5f0": {
@@ -174,8 +173,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 80
       }
     },
     "banner": {
