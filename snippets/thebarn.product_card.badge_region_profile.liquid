@@ -1,5 +1,3 @@
-{{ 'thebarn.product_card.css' | asset_url | stylesheet_tag }}
-
 {% assign profile = card_product.metafields.bean.profile|escape |downcase %}
 
 {% case profile %}
