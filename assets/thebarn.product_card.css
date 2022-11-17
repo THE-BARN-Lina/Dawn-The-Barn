@@ -1,0 +1,36 @@
+
+    .card__50_50__grid{
+      display: grid;
+      grid-template-columns: 48% 48%;
+      row-gap: 1vh;
+      column-gap: 1vh;
+     min-height :24px;
+      height: fit-content;
+      grid-template-areas: 
+                "a b"
+    }
+
+    .card_tastnote_text{
+        background-color: #242424;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+        padding: 3px  6px;
+        min-height: 24px;
+      
+        display: flex;
+        justify-content:center;
+        align-content:center;
+        align-items: center;   
+      }
+
+      .card__heading {
+        margin-top: 10px !important;
+        margin-bottom: 0;
+    }
+
+      .card-information {
+        width: 100%;
+        margin-bottom: 5px !important;
+    }
