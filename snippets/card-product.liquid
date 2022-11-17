@@ -17,6 +17,7 @@
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
+{% render 'thebarn.product_card'%}
 
 {%- if card_product and card_product != empty -%}
   {%- liquid

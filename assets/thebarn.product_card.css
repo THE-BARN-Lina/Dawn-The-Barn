@@ -4,7 +4,7 @@
       grid-template-columns: 48% 48%;
       row-gap: 1vh;
       column-gap: 1vh;
-     min-height :24px;
+      min-height :24px;
       height: fit-content;
       grid-template-areas: 
                 "a b"
