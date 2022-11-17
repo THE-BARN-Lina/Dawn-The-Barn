@@ -229,7 +229,35 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 20,
-        "padding_bottom": 0
+        "padding_bottom": 100
+      }
+    },
+    "95588731-6055-4a06-8105-e34d15b5db92": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Christmas Gifts for Book Lovers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gift-books",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
       }
     },
     "1662738554a4ae067d": {
@@ -294,6 +322,7 @@
     "banner",
     "166186709197b72a8b",
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc",
+    "95588731-6055-4a06-8105-e34d15b5db92",
     "1662738554a4ae067d"
   ]
 }
