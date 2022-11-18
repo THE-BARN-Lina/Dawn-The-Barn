@@ -64,14 +64,14 @@
         "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Get ready for amazing deals",
+            "heading": "Get ready for our Black Friday specials",
             "heading_size": "h1"
           }
         },
         "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Black Friday is coming and we are ready with exclusive coffee!<br\/>Sign up and be first in line<\/p>"
+            "text": "<p>Black Friday and Cyber Monday is coming and we are ready with exclusive coffee!<br\/>Sign up and be the first in line<\/p>"
           }
         }
       },
