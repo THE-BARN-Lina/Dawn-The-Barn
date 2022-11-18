@@ -6,50 +6,123 @@
       "settings": {
       }
     },
-    "1668784400ef2d08e9": {
-      "type": "apps",
+    "cd1a742b-b201-4e8a-94a4-3650a276ce8f": {
+      "type": "image-banner",
       "blocks": {
-        "c4cdbbdc-d26f-43ee-9f1d-04ddd420dfd1": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-0": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "formId": "TNYASt"
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "c4cdbbdc-d26f-43ee-9f1d-04ddd420dfd1"
+        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-0",
+        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-1",
+        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-2"
       ],
       "settings": {
-        "include_margins": true
+        "image": "shopify:\/\/shop_images\/IMG_6045.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "e153d836-6ad9-4677-a1cc-16cd175ee048": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get ready for amazing deals",
+            "heading_size": "h1"
+          }
+        },
+        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Black Friday is coming and we are ready with exclusive coffee!<br\/>Sign up and be first in line<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0",
+        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "998f2603-49de-4008-9453-7c0a6101f94b": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-0": {
           "type": "heading",
           "settings": {
-            "heading": "Black Friday Special",
+            "heading": "",
             "heading_size": "h1"
+          }
+        },
+        "1f674afb-31a6-46e9-8ba1-4837bfc25a5e": {
+          "type": "caption",
+          "settings": {
+            "caption": "Get Ready for amazing deals",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         },
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Black Friday is coming and we are ready with exclusive coffee!<br\/>Sign up and be first in line<\/p>",
             "text_style": "body"
           }
         },
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-0",
+        "1f674afb-31a6-46e9-8ba1-4837bfc25a5e",
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-1",
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-2"
       ],
@@ -66,11 +139,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1668784400ef2d08e9": {
+      "type": "apps",
+      "blocks": {
+        "c4cdbbdc-d26f-43ee-9f1d-04ddd420dfd1": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TNYASt"
+          }
+        }
+      },
+      "block_order": [
+        "c4cdbbdc-d26f-43ee-9f1d-04ddd420dfd1"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "pf-592ad8c6",
-    "1668784400ef2d08e9",
-    "998f2603-49de-4008-9453-7c0a6101f94b"
+    "cd1a742b-b201-4e8a-94a4-3650a276ce8f",
+    "e153d836-6ad9-4677-a1cc-16cd175ee048",
+    "998f2603-49de-4008-9453-7c0a6101f94b",
+    "1668784400ef2d08e9"
   ]
 }
