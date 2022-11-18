@@ -6,18 +6,19 @@
       "settings": {
       }
     },
-    "cd1a742b-b201-4e8a-94a4-3650a276ce8f": {
+    "865e2ef5-ab91-4551-8206-c6f0bc152ac7": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
-        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-0": {
+        "template--16233837101323__865e2ef5-ab91-4551-8206-c6f0bc152ac7-166878850733c15a61-0": {
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "",
+            "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-1": {
+        "template--16233837101323__865e2ef5-ab91-4551-8206-c6f0bc152ac7-166878850733c15a61-1": {
           "type": "text",
           "disabled": true,
           "settings": {
@@ -25,7 +26,7 @@
             "text_style": "body"
           }
         },
-        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-2": {
+        "template--16233837101323__865e2ef5-ab91-4551-8206-c6f0bc152ac7-166878850733c15a61-2": {
           "type": "buttons",
           "disabled": true,
           "settings": {
@@ -39,12 +40,13 @@
         }
       },
       "block_order": [
-        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-0",
-        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-1",
-        "template--16233837101323__cd1a742b-b201-4e8a-94a4-3650a276ce8f-1668786342f9879956-2"
+        "template--16233837101323__865e2ef5-ab91-4551-8206-c6f0bc152ac7-166878850733c15a61-0",
+        "template--16233837101323__865e2ef5-ab91-4551-8206-c6f0bc152ac7-166878850733c15a61-1",
+        "template--16233837101323__865e2ef5-ab91-4551-8206-c6f0bc152ac7-166878850733c15a61-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_6045.jpg",
+        "image": "shopify:\/\/shop_images\/2C2EBAF9-9F15-4C98-9CCA-AFB34401B617.jpg",
+        "image_2": "shopify:\/\/shop_images\/051AD70E-360F-47EA-87CB-D03A8E83B904_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -67,17 +69,10 @@
             "heading": "Get ready for our Black Friday specials",
             "heading_size": "h1"
           }
-        },
-        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Black Friday and Cyber Monday is coming and we are ready with exclusive coffee!<br\/>Sign up and be the first in line<\/p>"
-          }
         }
       },
       "block_order": [
-        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0",
-        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-1"
+        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -88,7 +83,6 @@
     },
     "998f2603-49de-4008-9453-7c0a6101f94b": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-0": {
           "type": "heading",
@@ -99,6 +93,7 @@
         },
         "1f674afb-31a6-46e9-8ba1-4837bfc25a5e": {
           "type": "caption",
+          "disabled": true,
           "settings": {
             "caption": "Get Ready for amazing deals",
             "text_style": "caption-with-letter-spacing",
@@ -108,7 +103,7 @@
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Black Friday is coming and we are ready with exclusive coffee!<br\/>Sign up and be first in line<\/p>",
+            "text": "<p>Black Friday and Cyber Monday is coming and we are ready with exclusive coffee!<br\/><\/p><p>Sign up and be the first in line<\/p>",
             "text_style": "body"
           }
         },
@@ -127,15 +122,15 @@
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/051AD70E-360F-47EA-87CB-D03A8E83B904_1.jpg",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/Black_Friday_Bar.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -160,7 +155,7 @@
   },
   "order": [
     "pf-592ad8c6",
-    "cd1a742b-b201-4e8a-94a4-3650a276ce8f",
+    "865e2ef5-ab91-4551-8206-c6f0bc152ac7",
     "e153d836-6ad9-4677-a1cc-16cd175ee048",
     "998f2603-49de-4008-9453-7c0a6101f94b",
     "1668784400ef2d08e9"
