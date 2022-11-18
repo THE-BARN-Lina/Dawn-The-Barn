@@ -62,6 +62,7 @@
     },
     "e153d836-6ad9-4677-a1cc-16cd175ee048": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0": {
           "type": "heading",
@@ -87,7 +88,7 @@
         "template--16233837101323__998f2603-49de-4008-9453-7c0a6101f94b-16687851841842e497-0": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Get ready for our Black Friday specials",
             "heading_size": "h1"
           }
         },
