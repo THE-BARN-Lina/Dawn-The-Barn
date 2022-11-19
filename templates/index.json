@@ -105,16 +105,6 @@
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
-        "1652970717eaeb9726-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1838D2E9-22DB-42AA-A85B-0772DC19307E_fcec143d-c457-4988-9c48-e85c29f3c33a.jpg",
-            "title": "YOUR CHRISTMAS COFFEE",
-            "text": "<p><strong>Cup of Excellence<\/strong><\/p><p>Huye Mountain from Rwanda is our Christmas Coffee. It is simply the best choice. With sweet flavours of chocolate, raisin and winter-spices, it tastes like a Christmas Cake. <\/p>",
-            "link_label": "LIMITED EDITION",
-            "link": "shopify:\/\/products\/christmas-coffee-2022"
-          }
-        },
         "1652970717eaeb9726-0": {
           "type": "column",
           "settings": {
@@ -124,11 +114,21 @@
             "link_label": "GET YOURS",
             "link": "https:\/\/thebarn.de\/products\/beanie"
           }
+        },
+        "1652970717eaeb9726-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1838D2E9-22DB-42AA-A85B-0772DC19307E_fcec143d-c457-4988-9c48-e85c29f3c33a.jpg",
+            "title": "YOUR CHRISTMAS COFFEE",
+            "text": "<p><strong>Cup of Excellence<\/strong><\/p><p>Huye Mountain from Rwanda is our Christmas Coffee. It is simply the best choice. With sweet flavours of chocolate, raisin and winter-spices, it tastes like a Christmas Cake. <\/p>",
+            "link_label": "LIMITED EDITION",
+            "link": "shopify:\/\/products\/christmas-coffee-2022"
+          }
         }
       },
       "block_order": [
-        "1652970717eaeb9726-1",
-        "1652970717eaeb9726-0"
+        "1652970717eaeb9726-0",
+        "1652970717eaeb9726-1"
       ],
       "settings": {
         "title": "",
