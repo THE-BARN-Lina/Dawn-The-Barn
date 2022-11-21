@@ -105,16 +105,6 @@
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
-        "1652970717eaeb9726-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1a022281-a754-4c1d-8405-90cd33b1097a.jpg",
-            "title": "NEW BEANIE ARRIVED",
-            "text": "<p><strong>Just in time for the colder days <\/strong><\/p><p>Sipping a coffee outside this winter? Pull on the perfect black beanie to stay warm and cosy. With our cute logo. Made from organic peta vegan approved cotton. <\/p>",
-            "link_label": "GET YOURS",
-            "link": "https:\/\/thebarn.de\/products\/beanie"
-          }
-        },
         "1652970717eaeb9726-1": {
           "type": "column",
           "settings": {
@@ -124,11 +114,21 @@
             "link_label": "LIMITED EDITION",
             "link": "shopify:\/\/products\/christmas-coffee-2022"
           }
+        },
+        "1652970717eaeb9726-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1a022281-a754-4c1d-8405-90cd33b1097a.jpg",
+            "title": "NEW BEANIE ARRIVED",
+            "text": "<p><strong>Just in time for the colder days <\/strong><\/p><p>Sipping a coffee outside this winter? Pull on the perfect black beanie to stay warm and cosy. With our cute logo. Made from organic peta vegan approved cotton. <\/p>",
+            "link_label": "GET YOURS",
+            "link": "https:\/\/thebarn.de\/products\/beanie"
+          }
         }
       },
       "block_order": [
-        "1652970717eaeb9726-0",
-        "1652970717eaeb9726-1"
+        "1652970717eaeb9726-1",
+        "1652970717eaeb9726-0"
       ],
       "settings": {
         "title": "",
