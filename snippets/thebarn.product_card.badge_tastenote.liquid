@@ -1,8 +1,7 @@
 {% comment %}
     Display by adding 
 
-    {%render 'thebarn.product_card.badge_tastenote' , card_product:card_product %}
-  
+    {%render 'thebarn.product_card.badge_tastenote' , card_product:card_product , show_vendor:show_vendor %}
 {%endcomment%}
 
 {% if show_vendor == false%}
@@ -15,6 +14,7 @@
      {% else %}
       <p class="card_tastnote_text"style="text-transform: capitalize; grid-area: a; grid-column: span 2;"> {{ card_product.metafields.custom.taste_notes|escape |downcase }}</p>
      {% endif %} 
+
    </div>
    
 {% endif %}   
