@@ -26,7 +26,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.custom.taste_notes.value }}",
-            "text_style": "Titlecase"
+            "text_style": "body"
           }
         },
         "caption": {
