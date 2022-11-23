@@ -1,3 +1,9 @@
+{% comment %}
+   Coutom Code: 
+   - Show Tastnote 
+      139
+      223
+{% endcomment %}
 
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
@@ -128,9 +134,13 @@
                         show_rating: section.settings.show_rating,
                         lazy_load: lazy_load,
                         show_quick_add: section.settings.enable_quick_add,
-                        section_id: section.id
-    
+                        section_id: section.id,
+                     
+                        show_tastenotes: section.settings.show_tastenotes
+                      
                       %}
+
+                         
                     </li>
 
               
@@ -209,6 +219,12 @@
       "id": "show_vendor",
       "default": false,
       "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tastenotes",
+      "default": false,
+      "label": "Show Tastenote or Tagline"
     },
     {
       "type": "checkbox",

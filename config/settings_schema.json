@@ -1190,5 +1190,25 @@
         "label": "EOTM"
       }
     ]
+  },
+  {
+    "name": "Profile Colors",
+    "settings": [
+      {
+        "type": "color",
+        "label": "Profile Color Balanced",
+        "id": "color_profile_balanced"
+      },
+      {
+        "type": "color",
+        "label": "Profile Color Terrior",
+        "id": "color_profile_terroir"
+      },
+      {
+        "type": "color",
+        "label": "Profile Color Exotic",
+        "id": "color_profile_exotic"
+      }
+    ]
   }
 ]

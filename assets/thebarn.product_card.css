@@ -1,0 +1,53 @@
+
+    .card__50_50__grid{
+      display: grid;
+      grid-template-columns: 48% 48%;
+      row-gap: 1vh;
+      column-gap: 1vh;
+      padding-bottom: 1vh;
+      min-height :24px;
+      height: fit-content;
+      grid-template-areas: 
+                "a b"
+    }
+
+    .card_tastnote_text{
+        background-color: #24242400;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+        padding: 3px  6px;
+        min-height: 24px;
+
+        border: 1px #ddd solid;
+        border-radius: 2px;
+      
+        display: flex;
+        justify-content:center;
+        align-content:center;
+        align-items: center;
+        margin: 0px;   
+      }
+
+      .card_region_text{
+        text-transform: capitalize;
+        text-align: center;
+        background-color: #363636;
+        font-size: 12px;
+        width: 100%;
+        padding: 3px;
+        min-height: 24px; 
+        height:fit-content;
+        margin:0px; 
+      }
+
+      .card__heading {
+        margin-top: 10px !important;
+        margin-bottom: 0;
+    }
+
+      .card-information {
+        width: 100%;
+        margin-bottom: 5px !important;
+    }

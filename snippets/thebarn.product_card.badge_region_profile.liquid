@@ -1,0 +1,42 @@
+{% comment %}
+    Displays the Producs Metafield Region & Profile
+    
+    Usage:
+    {%render 'thebarn.product_card.badge_region_profile' , card_product:card_product %}
+  
+{%endcomment%}
+
+
+{% assign profile = card_product.metafields.bean.profile|escape |downcase %}
+
+{% case profile %}
+    {% when 'balanced' %}
+        {% assign background = settings.color_profile_balanced %}
+    {% when 'terroir' %} 
+      {% assign background = settings.color_profile_terroir %}
+    {% when 'exotic' %}
+         {% assign background = settings.color_profile_exotic %}
+{% endcase %}
+
+
+{% if   card_product.metafields.custom.region and card_product.metafields.bean.profile %}
+    <div class="card__50_50__grid">
+       <p class="card_region_text"" style="grid-area: a;" > {{ card_product.metafields.custom.region|escape |downcase }}</p>
+    
+                   <p style="text-transform: capitalize;
+                    text-align: center;
+                    background-color: {{background}};
+                    font-size: 12px;
+                    width: 100%;
+                    padding: 3px;
+                    min-height: 24px; 
+                    height:fit-content;
+                    margin:0px;
+                    grid-area: b;" >
+                     {{ profile }}
+                    </p>
+
+   </div>
+
+{% endif %}   
+
