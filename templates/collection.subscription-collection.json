@@ -234,7 +234,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": true,
@@ -309,7 +309,7 @@
         "description_style": "body",
         "collection": "subscription-gifts",
         "products_to_show": 4,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
