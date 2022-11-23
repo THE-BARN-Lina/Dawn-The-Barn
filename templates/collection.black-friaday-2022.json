@@ -130,12 +130,6 @@
           "settings": {
             "show_dynamic_checkout": false
           }
-        },
-        "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -145,8 +139,7 @@
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-3",
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-4",
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-5",
-        "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-6",
-        "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-7"
+        "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-6"
       ],
       "settings": {
         "product": "tripple-box-brazil-black-friday",
@@ -154,6 +147,50 @@
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "380b3502-1601-49fc-8ce5-83906ed3323d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMANDANTE MASTERPIECE SPECIAL",
+            "heading_size": "h1"
+          }
+        },
+        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buy your Comandante Grinder <br\/>today and receive for free 100g of one of the most Exclusive Coffees we <br\/>have: YEMEN ALCHEMY MASTERPIECE <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/comandante-masterpiece-special-black-friday"
+          }
+        }
+      },
+      "block_order": [
+        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-0",
+        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-1",
+        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EBC0FF2D-CCB2-4466-9BD0-60111442F322.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -177,7 +214,7 @@
         "638d817d-56eb-4af8-9eae-72659de0952e": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "Get exclusive access to all three beans sizes, AA + AB + PB, in one box. Save up to 30% when buying this box.",
             "text_style": "body"
           }
         },
@@ -194,7 +231,7 @@
         "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-6": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         }
       },
@@ -215,78 +252,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "9e2d8cd5-d579-4d75-8301-811927a173b8": {
-      "type": "featured-product",
-      "blocks": {
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-0",
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-1",
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-2",
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-3",
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-4",
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-5",
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-6",
-        "template--16299050041611__9e2d8cd5-d579-4d75-8301-811927a173b8-16692184063cca95ce-7"
-      ],
-      "settings": {
-        "product": "comandante-masterpiece-special-black-friday",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -294,7 +259,7 @@
     "banner",
     "a7448949-597c-4acf-9228-f4b0aaaa634b",
     "80cf5954-02d1-44dc-b539-2235803e8a4b",
-    "4c42d88f-ef9a-4728-8982-3784d5c84fd0",
-    "9e2d8cd5-d579-4d75-8301-811927a173b8"
+    "380b3502-1601-49fc-8ce5-83906ed3323d",
+    "4c42d88f-ef9a-4728-8982-3784d5c84fd0"
   ]
 }
