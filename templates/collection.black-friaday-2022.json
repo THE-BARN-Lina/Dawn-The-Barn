@@ -346,6 +346,13 @@
             "text_style": "subtitle"
           }
         },
+        "8022d779-e438-48bb-933a-4afbfb3605a6": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.custom.taste_notes.value }}",
+            "text_style": "body"
+          }
+        },
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-3": {
           "type": "price",
           "settings": {
@@ -379,6 +386,7 @@
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-0",
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-1",
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-2",
+        "8022d779-e438-48bb-933a-4afbfb3605a6",
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-3",
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-4",
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-5",
