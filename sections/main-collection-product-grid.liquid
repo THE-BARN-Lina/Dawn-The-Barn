@@ -1,3 +1,9 @@
+{% comment %}
+   Coutom Code: 
+   - Show Tastnote 
+      139
+      223
+{% endcomment %}
 
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
@@ -124,14 +130,17 @@
                         card_product: product,
                         media_aspect_ratio: section.settings.image_ratio,
                         show_secondary_image: section.settings.show_secondary_image,
-                        show_vendor: section.settings.show_vendor,
+                        dor: section.settings.show_vendor,
                         show_rating: section.settings.show_rating,
-                        show_tastenotes:section.settings.show_tastenotes,
                         lazy_load: lazy_load,
                         show_quick_add: section.settings.enable_quick_add,
-                        section_id: section.id
-    
+                        section_id: section.id,
+                     
+                        show_tastenotes: section.settings.show_tastenotes
+                      
                       %}
+
+                         
                     </li>
 
               
