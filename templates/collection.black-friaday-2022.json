@@ -25,8 +25,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_5612.jpg",
+        "image_2": "shopify:\/\/shop_images\/051AD70E-360F-47EA-87CB-D03A8E83B904.jpg",
         "image_overlay_opacity": 50,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "transparent_block": true,
         "desktop_content_position": "middle-center",
@@ -45,6 +46,43 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "color_scheme": "accent-2"
+      }
+    },
+    "a7448949-597c-4acf-9228-f4b0aaaa634b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cyber Monday",
+            "heading_size": "h1"
+          }
+        },
+        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-1": {
+          "type": "text",
+          "settings": {
+            "text": "This Black Friday special brings you an in-depth taste of Brazil. Save up to 30% when buying this box.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-0",
+        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_5612.jpg",
+        "image_overlay_opacity": 60,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "transparent_block": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "80cf5954-02d1-44dc-b539-2235803e8a4b": {
@@ -207,61 +245,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "a7448949-597c-4acf-9228-f4b0aaaa634b": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Cyber Monday",
-            "heading_size": "h1"
-          }
-        },
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-0",
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-1",
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-2"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
     "7e63d166-e043-404d-836b-94a1f670b7c1",
     "banner",
+    "a7448949-597c-4acf-9228-f4b0aaaa634b",
     "80cf5954-02d1-44dc-b539-2235803e8a4b",
-    "4c42d88f-ef9a-4728-8982-3784d5c84fd0",
-    "a7448949-597c-4acf-9228-f4b0aaaa634b"
+    "4c42d88f-ef9a-4728-8982-3784d5c84fd0"
   ]
 }
