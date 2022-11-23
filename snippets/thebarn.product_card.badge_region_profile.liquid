@@ -18,7 +18,7 @@
 {% endcase %}
 
 
-{% if   card_product.metafields.custom.region %}
+{% if   card_product.metafields.custom.region and card_product.metafields.bean.profile %}
     <div class="card__50_50__grid">
        <p class="card_region_text"" style="grid-area: a;" > {{ card_product.metafields.custom.region|escape |downcase }}</p>
     
