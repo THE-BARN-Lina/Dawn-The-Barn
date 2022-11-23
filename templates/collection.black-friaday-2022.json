@@ -151,6 +151,7 @@
     },
     "3c745dad-598d-473f-8669-98ccee87e5f0": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Gift Subscriptions",
         "heading_size": "h1",
@@ -169,6 +170,7 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",
@@ -179,6 +181,7 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
@@ -187,12 +190,14 @@
     },
     "166186709197b72a8b": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "quick_add_button_color": "#804d15",
@@ -206,6 +211,7 @@
     },
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Explore our Christmas Gifts",
         "heading_size": "h2",
@@ -224,6 +230,7 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",
@@ -234,6 +241,7 @@
     },
     "95588731-6055-4a06-8105-e34d15b5db92": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Christmas Gifts for Book Lovers",
         "heading_size": "h2",
@@ -252,6 +260,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",
