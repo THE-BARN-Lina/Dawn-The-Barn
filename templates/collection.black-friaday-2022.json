@@ -281,7 +281,7 @@
       "settings": {
         "product": "comandante-masterpiece-special-black-friday",
         "color_scheme": "background-1",
-        "secondary_background": true,
+        "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
