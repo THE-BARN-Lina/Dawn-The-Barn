@@ -223,6 +223,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15079184273603081885": {
+        "type": "shopify:\/\/apps\/order-value-booster\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
