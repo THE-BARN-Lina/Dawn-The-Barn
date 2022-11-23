@@ -1,10 +1,10 @@
 {% comment %}
     Display by adding 
 
-    {%render 'thebarn.product_card.badge_tastenote' , card_product:card_product , show_tastenotesr:show_tastenotes %}
+    {%render 'thebarn.product_card.badge_tastenote' , card_product:card_product , show_tastenotes:show_tastenotes %}
 {%endcomment%}
 
-{% if show_tastenotes == false%}
+{% if show_tastenotes %}
     <div class="card__50_50__grid">
     {% case card_product.type %}
        {% when "Espresso Coffee" or "Filter Coffee"%}
