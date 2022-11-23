@@ -386,7 +386,7 @@
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-7"
       ],
       "settings": {
-        "product": "",
+        "product": "tripple-box-brazil-black-friday",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -445,6 +445,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "e7421dd3-a2cb-46be-a5a3-9b496c98ebbe": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -455,7 +462,8 @@
         "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-4",
         "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-5",
         "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-6",
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-7"
+        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-7",
+        "e7421dd3-a2cb-46be-a5a3-9b496c98ebbe"
       ],
       "settings": {
         "product": "",
