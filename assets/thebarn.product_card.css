@@ -12,18 +12,33 @@
     }
 
     .card_tastnote_text{
-        background-color: #242424;
+        background-color: #24242400;
         text-transform: capitalize;
         text-align: center;
         font-size: 12px;
         width: 100%;
         padding: 3px  6px;
         min-height: 24px;
+
+        border: 1px #ddd solid;
+        border-radius: 2px;
       
         display: flex;
         justify-content:center;
         align-content:center;
         align-items: center;   
+      }
+
+      .card_region_text{
+        text-transform: capitalize;
+        text-align: center;
+        background-color: #242424;
+        font-size: 12px;
+        width: 100%;
+        padding: 3px;
+        min-height: 24px; 
+        height:fit-content;
+        margin:0px; 
       }
 
       .card__heading {
