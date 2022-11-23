@@ -1,10 +1,11 @@
 {% comment %}
-    Display by adding 
+    Displays Tastenotes Or Tagline depends on if coffee or not
 
-    {%render 'thebarn.product_card.badge_tastenote' , card_product:card_product , show_tastenotes:show_tastenotes %}
+    Usage:
+    {%render 'thebarn.product_card.badge_tastenote' , card_product:card_product , show_tastenotesr:show_tastenotes %}
 {%endcomment%}
 
-{% if show_tastenotes %}
+{% if show_tastenotes%}
     <div class="card__50_50__grid">
     {% case card_product.type %}
        {% when "Espresso Coffee" or "Filter Coffee"%}
