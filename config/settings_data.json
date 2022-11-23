@@ -235,6 +235,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "16390614482629636697": {
+        "type": "shopify:\/\/apps\/elegantsy-product-labels\/blocks\/app-embed\/c30636bd-a076-406e-8881-3527b45b58d0",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
