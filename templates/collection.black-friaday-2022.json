@@ -54,15 +54,15 @@
         "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-0": {
           "type": "heading",
           "settings": {
-            "heading": "Cyber Monday",
+            "heading": "Cyber Monday Special",
             "heading_size": "h1"
           }
         },
         "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-1": {
           "type": "text",
           "settings": {
-            "text": "This Black Friday special brings you an in-depth taste of Brazil. Save up to 30% when buying this box.",
-            "text_style": "body"
+            "text": "A rare opportunity to order one of our Masterpiece Coffees at a steal.",
+            "text_style": "subtitle"
           }
         }
       },
@@ -237,7 +237,7 @@
         "e7421dd3-a2cb-46be-a5a3-9b496c98ebbe"
       ],
       "settings": {
-        "product": "",
+        "product": "tripple-box-brazil-black-friday",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
