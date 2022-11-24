@@ -343,9 +343,15 @@
         "padding_top": 40,
         "padding_bottom": 0
       }
+    },
+    "81bd5dc6_1669127959": {
+      "type": "powr-image-slider",
+      "settings": {
+      }
     }
   },
   "order": [
+    "81bd5dc6_1669127959",
     "image_banner",
     "1653387743507b82e2",
     "16529435131152e250",
