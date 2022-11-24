@@ -121,9 +121,9 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
             "settings": {
-              "text": "NEW COFFEE FROM COSTA RICA: CORAZÓN DE JESÚS",
+              "text": "Shop our Black Friday Specials now ✨",
               "color_scheme": "accent-1",
-              "link": "https:\/\/thebarn.de\/products\/jesus"
+              "link": "shopify:\/\/collections\/black-friday"
             }
           }
         },
