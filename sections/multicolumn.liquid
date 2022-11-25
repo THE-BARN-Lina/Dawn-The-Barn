@@ -108,7 +108,12 @@
                     let el1 = document.getElementById("Slide-template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1");
                     console.log(el1);
                     console.log("{{section.id}}");
-                    el1.onclick = function(){window.location("https://linuxhint.com/go-to-url-with-onclick-javascript/")};
+                    el1.setAttribute(onclick,"test()");
+
+                    function test(){
+                      console.log(el1);
+                      console.log("{{section.id}}");
+                    }
                 </script>
               </div>
             </div>
