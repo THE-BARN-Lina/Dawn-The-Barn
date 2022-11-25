@@ -85,7 +85,7 @@
             "text": "<p>An entry style level Single Origin coffee with a balanced cup profile. Coffees in this category are typically sweet, round with a low to medium acidity. Easy drinking, all day coffees. Of course, they will have a minimum scoring of 86 points.<\/p>",
             "link_label": "",
             "link": "https:\/\/thebarn.de\/collections\/beans?filter.p.m.bean.profile=Balanced",
-            "custom_liquid": "{%render 'thebarn.coffeebeanprofile'%}"
+            "custom_liquid": ""
           }
         },
         "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-1": {
@@ -105,7 +105,7 @@
             "text": "<p>This advanced level of processing features more extreme taste profile, surely coming from fermentation and the processing of these super extra-ordinary coffees. You often find boozy, funky or have cinnamon flavours, overrip fruits and an intense dry aroma.<\/p>",
             "link_label": "",
             "link": "https:\/\/thebarn.de\/collections\/beans?filter.p.m.bean.profile=Balanced",
-            "custom_liquid": ""
+            "custom_liquid": "{%render 'thebarn.coffeebeanprofile'%}"
           }
         }
       },
