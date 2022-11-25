@@ -47,7 +47,6 @@
         "color_scheme": "background-2"
       }
     },
-<<<<<<< HEAD
     "1a713986-dc37-4b66-b5cf-0705458ba228": {
       "type": "rich-text",
       "blocks": {
@@ -115,11 +114,6 @@
         "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-1",
         "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-2"
       ],
-=======
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "disabled": true,
->>>>>>> live
       "settings": {
         "title": "",
         "heading_size": "h1",
