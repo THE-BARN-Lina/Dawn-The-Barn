@@ -100,6 +100,13 @@
                 {%- if block.settings.link_label != blank -%}
                   <a {% if section.settings.link_as_button ==  true %}class="button" {%else%}class="link animate-arrow" {%endif%}{% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
                 {%- endif -%}
+                {%- if block.settings.custom_html != blank -%}
+                 {{block.settings.custom_html}}
+                {%- endif -%}
+                multicolumn-card__info {
+                  padding: 2.5rem;
+                  background: aqua;
+                }
               </div>
             </div>
           </li>
@@ -376,9 +383,9 @@
           "label": "t:sections.multicolumn.blocks.column.settings.link.label"
         },
         {
-          "type": "color",
-          "id": "background_color",
-          "label":"Special Background"
+          "type": "html",
+          "id": "custom_html",
+          "label":"Custom HTML"
         }
 
       ]
