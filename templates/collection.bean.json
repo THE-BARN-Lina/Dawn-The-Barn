@@ -207,24 +207,17 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "b7f3d9a9-4ec2-4b18-ac1d-8de0a7012982": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\n[id*=\"shopify-section-template-{{ section.id }}\"] {\n    outline: 3px dashed yellow;\n}\n\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
+    }
     }
   },
   "order": [
     "16536485367ff1191d",
+    "1a713986-dc37-4b66-b5cf-0705458ba228"
+    "9aed932f-1130-4b01-8d78-81c28dfcac7f"
     "banner",
     "product-grid",
     "16609093955d46716e",
     "16609096892f959660",
-    "1651574465fc19c571",
-    "b7f3d9a9-4ec2-4b18-ac1d-8de0a7012982"
+    "1651574465fc19c571"
   ]
 }
