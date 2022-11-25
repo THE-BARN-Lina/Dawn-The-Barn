@@ -104,7 +104,7 @@
     "low_caf": "El Obraje Washed, Colombia",
     "espresso_of_the_month": "Caballero Washed, Honduras",
     "color_profile_balanced": "#947c5a",
-    "color_profile_terroir": "#138423",
+    "color_profile_terroir": "#3fe445",
     "color_profile_exotic": "#b9631a",
     "checkout_logo_image": "shopify:\/\/shop_images\/barn_logo_large_house_white.webp",
     "checkout_logo_position": "center",
@@ -224,20 +224,8 @@
         "settings": {
         }
       },
-      "16304872806d79912c": {
-        "type": "shopify:\/\/apps\/icart-cart-drawer-cart-upsell\/blocks\/icart-block\/e651bbc2-5760-47d8-a513-2aa6ee3a9aa7",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "14429071373314833104": {
         "type": "shopify:\/\/apps\/candy-rack-all-in-one-upsell\/blocks\/head\/cb9c657f-334f-4905-80c2-f69cca01460c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "16390614482629636697": {
-        "type": "shopify:\/\/apps\/elegantsy-product-labels\/blocks\/app-embed\/c30636bd-a076-406e-8881-3527b45b58d0",
         "disabled": false,
         "settings": {
         }
