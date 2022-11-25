@@ -47,6 +47,7 @@
         "color_scheme": "background-2"
       }
     },
+<<<<<<< HEAD
     "1a713986-dc37-4b66-b5cf-0705458ba228": {
       "type": "rich-text",
       "blocks": {
@@ -114,6 +115,11 @@
         "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-1",
         "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-2"
       ],
+=======
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+>>>>>>> live
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -221,8 +227,7 @@
   "order": [
     "16536485367ff1191d",
     "banner",
-    "1a713986-dc37-4b66-b5cf-0705458ba228",
-    "9aed932f-1130-4b01-8d78-81c28dfcac7f",
+    "product-grid",
     "16609093955d46716e",
     "16609096892f959660",
     "1651574465fc19c571",
