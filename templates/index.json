@@ -113,7 +113,7 @@
             "text": "<p><strong>Cup of Excellence<\/strong><\/p><p>Huye Mountain from Rwanda is our Christmas Coffee. It is simply the best choice. With sweet flavours of chocolate, raisin and winter-spices, it tastes like a Christmas Cake. <\/p>",
             "link_label": "LIMITED EDITION",
             "link": "shopify:\/\/products\/christmas-coffee-2022",
-            "custom_html": ""
+            "custom_liquid": ""
           }
         },
         "1652970717eaeb9726-0": {
@@ -124,7 +124,7 @@
             "text": "<p><strong>Just in time for the colder days <\/strong><\/p><p>Sipping a coffee outside this winter? Pull on the perfect black beanie to stay warm and cosy. With our cute logo. Made from organic peta vegan approved cotton. <\/p>",
             "link_label": "GET YOURS",
             "link": "https:\/\/thebarn.de\/products\/beanie",
-            "custom_html": "<style>   \n#Slide-template--16319338119435__1652970717af5972f9-2 > *\n{\n   background:red !important;\n}\n<\/style>"
+            "custom_liquid": ""
           }
         }
       },
@@ -180,7 +180,7 @@
         "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>FELLOW ODE UPGRADED<\/strong><\/p><p>Perfectly designed, the Ode transforms a morning chore into a quieter and more enjoyable experience. <\/p><p>A variety of carefully engineered features set Ode apart from the pack. With a magnetically aligned catch for added cleanliness, a grinds knocker to reduce grind retention, and auto stop for one less step. Includes the new 1.1 burr version. <\/p><p><strong>Hurry: Only 6 units are available!<\/strong><\/p>",
+            "text": "<p><strong>FELLOW ODE UPGRADED<\/strong><\/p><p>Perfectly designed, the Ode transforms a morning chore into a quieter and more enjoyable experience. <\/p><p>A variety of carefully engineered features set Ode apart from the pack. With a magnetically aligned catch for added cleanliness, a grinds knocker to reduce grind retention, and auto stop for one less step. Includes the new 1.1 burr version. <\/p><p><strong>Hurry: Only 4 units are available!<\/strong><\/p>",
             "text_style": "body"
           }
         },
