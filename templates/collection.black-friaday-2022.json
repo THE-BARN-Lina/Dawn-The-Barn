@@ -48,50 +48,6 @@
         "color_scheme": "accent-2"
       }
     },
-    "7556fcc9-040c-42e9-aca6-03430bfa8971": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "KINTO TUMBLER  BUNDLE",
-            "heading_size": "h1"
-          }
-        },
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Order our practical black Kinto tumbler from Japan: <strong>And get 1x 250g of freshly roasted filter coffee for free.<\/strong> Select from our most favourite coffees. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "BUY NOW",
-            "button_link": "shopify:\/\/products\/kinto-tumbler-bundle"
-          }
-        }
-      },
-      "block_order": [
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-0",
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-1",
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/e9cfc453-5fd8-40e2-8fa4-b5ab5857d336_f32a5cfc-5ffd-4299-9e0f-1bce28ebdcb1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "a7448949-597c-4acf-9228-f4b0aaaa634b": {
       "type": "image-banner",
       "disabled": true,
@@ -297,15 +253,59 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "7556fcc9-040c-42e9-aca6-03430bfa8971": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "KINTO TUMBLER  BUNDLE",
+            "heading_size": "h1"
+          }
+        },
+        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order our practical black Kinto tumbler from Japan: <strong>And get 1x 250g of freshly roasted filter coffee for free.<\/strong> Select from our most favourite coffees. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY NOW",
+            "button_link": "shopify:\/\/products\/kinto-tumbler-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-0",
+        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-1",
+        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/e9cfc453-5fd8-40e2-8fa4-b5ab5857d336_f32a5cfc-5ffd-4299-9e0f-1bce28ebdcb1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "7e63d166-e043-404d-836b-94a1f670b7c1",
     "banner",
-    "7556fcc9-040c-42e9-aca6-03430bfa8971",
     "a7448949-597c-4acf-9228-f4b0aaaa634b",
     "80cf5954-02d1-44dc-b539-2235803e8a4b",
     "380b3502-1601-49fc-8ce5-83906ed3323d",
-    "4c42d88f-ef9a-4728-8982-3784d5c84fd0"
+    "4c42d88f-ef9a-4728-8982-3784d5c84fd0",
+    "7556fcc9-040c-42e9-aca6-03430bfa8971"
   ]
 }
