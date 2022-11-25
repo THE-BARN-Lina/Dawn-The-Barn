@@ -4,13 +4,6 @@
     "7e63d166-e043-404d-836b-94a1f670b7c1": {
       "type": "image-banner",
       "blocks": {
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
         "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1": {
           "type": "text",
           "settings": {
@@ -20,7 +13,6 @@
         }
       },
       "block_order": [
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-0",
         "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1"
       ],
       "settings": {
@@ -41,14 +33,6 @@
     "4f1480d0-e188-4c1b-88a1-d0727494c927": {
       "type": "rich-text",
       "blocks": {
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "CUP OF EXCELLENCE",
-            "heading_size": "h2"
-          }
-        },
         "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1": {
           "type": "text",
           "settings": {
@@ -57,7 +41,6 @@
         }
       },
       "block_order": [
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0",
         "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1"
       ],
       "settings": {
@@ -169,6 +152,7 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",
@@ -193,6 +177,7 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "quick_add_button_color": "#804d15",
@@ -224,6 +209,7 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",
@@ -252,6 +238,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",

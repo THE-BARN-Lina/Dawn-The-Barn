@@ -8,6 +8,27 @@
         "padding_bottom": 28
       }
     },
+    "e4e851bf-e627-4ccf-83a5-203b2ffc9601": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16216421400843__e4e851bf-e627-4ccf-83a5-203b2ffc9601-166937409999910c0c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BREW GUIDES",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16216421400843__e4e851bf-e627-4ccf-83a5-203b2ffc9601-166937409999910c0c-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "165330918641cafdb0": {
       "type": "multicolumn",
       "blocks": {
@@ -48,7 +69,7 @@
         "165330918608a91bfa-2"
       ],
       "settings": {
-        "title": "BREW GUIDES",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
@@ -268,6 +289,7 @@
   },
   "order": [
     "main",
+    "e4e851bf-e627-4ccf-83a5-203b2ffc9601",
     "165330918641cafdb0",
     "165338928113f35a7d"
   ]
