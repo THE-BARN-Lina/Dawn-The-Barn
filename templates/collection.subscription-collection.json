@@ -8,28 +8,6 @@
         "padding_bottom": 0
       }
     },
-    "166263722152d2fc15": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "166263722155b226df-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "SUBSCRIPTIONS",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "166263722155b226df-0"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 24
-      }
-    },
     "16626372939107f99e": {
       "type": "image-with-text",
       "disabled": true,
@@ -74,27 +52,6 @@
         "show_collection_description": true,
         "show_collection_image": true,
         "color_scheme": "background-2"
-      }
-    },
-    "16617837917eb97d25": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "166178379000414997-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>DIE BESTEN KAFFEES DIESER ERDE<\/strong><br\/>Wir versenden täglich super spannende Single Origin Kaffees.<br\/>Wähle deinen Stil: pick: Von monatlich wechselnden Mikrolots hin zu Masterpiece Kaffees.<br\/><br\/><strong>NEU:<\/strong> Neuer Eco-Versand für unsere Kunden außerhalb Deutschlands!<br\/><br\/>Ralf Rueller, Gründer<br\/><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "166178379000414997-1"
-      ],
-      "settings": {
-        "color_scheme": "accent-1",
-        "full_width": false,
-        "padding_top": 12,
-        "padding_bottom": 4
       }
     },
     "166298213040d91fb2": {
@@ -238,6 +195,7 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "quick_add_button_color": "#804d15",
@@ -270,35 +228,6 @@
         "padding_bottom": 0
       }
     },
-    "2e034e63-477f-45f5-98d3-88aec71c4fca": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "YOUR CHOICES",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "subscriptions",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 72,
-        "padding_bottom": 40
-      }
-    },
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5": {
       "type": "featured-collection",
       "settings": {
@@ -319,6 +248,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",
@@ -502,10 +432,8 @@
   },
   "order": [
     "61526f59-c5c6-4ec0-b13e-f55767a96db1",
-    "166263722152d2fc15",
     "16626372939107f99e",
     "banner",
-    "16617837917eb97d25",
     "166298213040d91fb2",
     "166178416464969217",
     "3b0902d2-e018-4cad-989b-028a36cd0279",
@@ -513,7 +441,6 @@
     "636edd10-9556-4424-add9-ef1faa9ebb3f",
     "166186709197b72a8b",
     "d38cf404-aacf-4801-91d6-0f1e1abf762d",
-    "2e034e63-477f-45f5-98d3-88aec71c4fca",
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5",
     "16629804922d2a4cf0",
     "1662636697f92db74e",
