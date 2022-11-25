@@ -61,7 +61,7 @@
 }
 
 .multicolumn:not(.background-none) .multicolumn-card {
-  background: aqua ;
+  background: rgb(var(--color-background));
   height: 100%;
 }
 
@@ -85,7 +85,6 @@
 }
 
 .multicolumn-card__info > :nth-child(2) {
-  background-color: aqua;
   margin-top: 1rem;
 }
 
