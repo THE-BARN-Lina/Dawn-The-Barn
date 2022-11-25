@@ -103,16 +103,18 @@
                 {%- if block.settings.custom_html != blank -%}
                  {{block.settings.custom_html}}
                 {%- endif -%}
+            
                 <script>
 
                     let el1 = document.getElementById("Slide-{{section.id}}-1");
                     let el2 = document.getElementById("Slide-{{section.id}}-2");
                     let el3 = document.getElementById("Slide-{{section.id}}-3");
+                    
                     console.log(el1,el2,el3);
                     el1.onclick = function(){window.location.href = "https://thebarn.de/collections/beans?filter.p.m.bean.profile=Balanced"};
                     el2.onclick = function(){window.location.href = "https://thebarn.de/collections/beans?filter.p.m.bean.profile=Terroir"};
                     el3.onclick = function(){window.location.href = "https://thebarn.de/collections/beans?filter.p.m.bean.profile=Exotic"};
-
+ 
                 </script>
               </div>
             </div>
