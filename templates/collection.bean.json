@@ -38,27 +38,6 @@
         "show_text_below": false
       }
     },
-    "165364865504f222aa": {
-      "type": "rich-text",
-      "blocks": {
-        "1653648655189455e5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "1653648655189455e5-0"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "1651573600c50faa59": {
       "type": "image-banner",
       "disabled": true,
@@ -219,7 +198,6 @@
   },
   "order": [
     "16536485367ff1191d",
-    "165364865504f222aa",
     "1651573600c50faa59",
     "banner",
     "16518336251bec1554",
