@@ -124,7 +124,7 @@
             "text": "<p><strong>Just in time for the colder days <\/strong><\/p><p>Sipping a coffee outside this winter? Pull on the perfect black beanie to stay warm and cosy. With our cute logo. Made from organic peta vegan approved cotton. <\/p>",
             "link_label": "GET YOURS",
             "link": "https:\/\/thebarn.de\/products\/beanie",
-            "custom_html": "<style>   \n#Slide-template--16319338119435__1652970717af5972f9-2{\n    border: 2px solid orange;\n}\n\n\n<\/style>"
+            "custom_html": "<style>   \n#Slide-template--16319338119435__1652970717af5972f9-1{\n   color:red;\n}\n<\/style>"
           }
         }
       },
