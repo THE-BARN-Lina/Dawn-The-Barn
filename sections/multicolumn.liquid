@@ -103,6 +103,71 @@
                 {%- if block.settings.custom_html != blank -%}
                  {{block.settings.custom_html}}
                 {%- endif -%}
+
+                <style>
+                  <style>
+#Slide-template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1 > * {
+  border: 1px solid #947C5A;
+  color: slate;
+  cursor: pointer;
+  flex-basis: calc(33% - 40px);
+ box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s ease all;
+}
+
+#Slide-template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1 > *:before {
+background-image: linear-gradient(
+  55deg,
+  hsl(31deg 54% 53%) 0%,
+  hsl(32deg 49% 52%) 13%,
+  hsl(32deg 45% 51%) 25%,
+  hsl(33deg 40% 50%) 38%,
+  hsl(33deg 37% 49%) 50%,
+  hsl(34deg 34% 49%) 63%,
+  hsl(34deg 31% 48%) 75%,
+  hsl(35deg 28% 47%) 88%,
+  hsl(35deg 24% 47%) 100%
+);
+  border-radius: 40px;
+  height: 5px;
+  content: '';
+  left: 20px;
+  position: absolute;
+  right: 20px;
+  top: 52px;
+  transition: 0.5s ease all;
+}
+
+#Slide-template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1 > * p , h3{
+  position: relative;
+  z-index: 2;
+}
+
+#Slide-template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1 > * p {
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+}
+
+#Slide-template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1 > *:hover {
+  border: 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  color: #fff;
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+[id*="#Slide-{{ section.id }}-1"]> *:hover:before
+{
+  border-radius: 4px;
+  left: 0;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+</style>
+                </style>
             
                 <script>
 
