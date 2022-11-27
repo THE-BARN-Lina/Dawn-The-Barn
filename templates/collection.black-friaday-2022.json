@@ -3,6 +3,7 @@
   "sections": {
     "7e63d166-e043-404d-836b-94a1f670b7c1": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-0": {
           "type": "heading",
@@ -50,7 +51,6 @@
     },
     "a7448949-597c-4acf-9228-f4b0aaaa634b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-0": {
           "type": "heading",
@@ -88,6 +88,7 @@
     },
     "80cf5954-02d1-44dc-b539-2235803e8a4b": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--16299050041611__80cf5954-02d1-44dc-b539-2235803e8a4b-1669216741f4761bce-1": {
           "type": "title",
@@ -154,6 +155,7 @@
     },
     "380b3502-1601-49fc-8ce5-83906ed3323d": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-0": {
           "type": "heading",
@@ -215,7 +217,7 @@
         "638d817d-56eb-4af8-9eae-72659de0952e": {
           "type": "text",
           "settings": {
-            "text": "Get exclusive access to all three beans sizes, AA + AB + PB, in one box. Save up to 30% when buying this box.",
+            "text": "Cyber Monday Special | Buy 100g of one of the most Exclusive Coffees we have: YEMEN ALCHEMY MASTERPIECE at an unbeatable price.",
             "text_style": "body"
           }
         },
@@ -245,7 +247,7 @@
         "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-6"
       ],
       "settings": {
-        "product": "tripple-box-kenya-black-friday",
+        "product": "yemen-alchemy",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
