@@ -254,6 +254,78 @@
         "padding_bottom": 36
       }
     },
+    "8359b937-cd3a-4efc-8fa4-9e68c2500ceb": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-0",
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-1",
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-2",
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-3",
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-4",
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-5",
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-6",
+        "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-7"
+      ],
+      "settings": {
+        "product": "tripple-box-kenya-black-friday",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "7556fcc9-040c-42e9-aca6-03430bfa8971": {
       "type": "image-with-text",
       "blocks": {
@@ -306,6 +378,7 @@
     "4c42d88f-ef9a-4728-8982-3784d5c84fd0",
     "380b3502-1601-49fc-8ce5-83906ed3323d",
     "80cf5954-02d1-44dc-b539-2235803e8a4b",
+    "8359b937-cd3a-4efc-8fa4-9e68c2500ceb",
     "7556fcc9-040c-42e9-aca6-03430bfa8971"
   ]
 }
