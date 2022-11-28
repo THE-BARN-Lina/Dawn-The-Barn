@@ -153,7 +153,7 @@
     "88c54afd-6289-46f8-8ace-ea6a928b554f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}\n<style>\na:hover{\ncolor:white !important;\n}\n<\/style>",
+        "custom_liquid": "{% render | \"four-icons\" %}\n}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
