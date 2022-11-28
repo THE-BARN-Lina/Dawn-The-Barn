@@ -259,6 +259,7 @@
       "blocks": {
         "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-0": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
@@ -284,6 +285,7 @@
         },
         "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-4": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -301,6 +303,7 @@
         },
         "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-7": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
