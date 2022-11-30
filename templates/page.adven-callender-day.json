@@ -78,7 +78,7 @@
     "667d2416-4551-4913-b40f-4658bf8c9e41": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"container\"> \n<div class=\"iframe-container\">\n    <iframe width=\"auto\" height=\"auto\"src=\"https:\/\/www.youtube-nocookie.com\/embed\/Q3fAFcpupus?playlist=Q3fAFcpupus&loop=1&controls=1&autoplay=0&mute=1&amp;start=5\"title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; ; clipboard-write; encrypted-media; mute=1; gyroscope; picture-in-picture\" allowfullscreen><\/iframe> \n<\/div>\n<\/div> \n\n    <style>\n.iframe-container{\n  \/*position: relative;*\/\n  width: 100%; \n  height: 640px;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  gap:10px;\n}\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n<\/style>",
+        "custom_liquid": "<div class=\"container\"> \n<div class=\"iframe-container\">\n    <iframe width=\"auto\" height=\"auto\"src=\"https:\/\/www.youtube-nocookie.com\/embed\/Q3fAFcpupus?playlist=Q3fAFcpupus&loop=1&controls=1&autoplay=0&mute=1&amp;start=5\"title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; ; clipboard-write; encrypted-media; mute=1; gyroscope; picture-in-picture\" allowfullscreen><\/iframe> \n<\/div>\n<\/div> \n\n    <style>\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -167,7 +167,7 @@
     "8f1be29f-f14e-485c-a7df-94472a50cd9d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe width=\"951\" height=\"534\" src=\"https:\/\/www.youtube.com\/embed\/Q3fAFcpupus\" title=\"ADVENTCALENDAR REVEALING 01.12.2022 STARDUST, BRAZIL\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n\n<style>\n.iframe-container{\n  \/*position: relative;*\/\n  width: 100%; \n  height: 640px;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  gap:10px;\n}\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n<\/style>",
+        "custom_liquid": "<iframe width=100% height=\"534\" src=\"https:\/\/www.youtube.com\/embed\/Q3fAFcpupus\" title=\"ADVENTCALENDAR REVEALING 01.12.2022 STARDUST, BRAZIL\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n\n<style>\n\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
