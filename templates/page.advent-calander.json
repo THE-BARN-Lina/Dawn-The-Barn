@@ -106,8 +106,8 @@
             "image": "shopify:\/\/shop_images\/jasminefw_480x480_163e8816-afa5-463f-b240-9d5847fffd2b.webp",
             "title": "Day 1",
             "text": "",
-            "link_label": "RECIPE",
-            "link": "",
+            "link_label": "Find out more about this coffee",
+            "link": "shopify:\/\/pages\/1st-december",
             "custom_liquid": ""
           }
         },
@@ -257,7 +257,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "link_as_button": true,
+        "link_as_button": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
