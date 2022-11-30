@@ -182,7 +182,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-39c7bf63-a06c-4d23-91ed-7061435099af--IMG4093_800x3000_32b03349-2722-4afd-a343-30f71a08b370.webp",
             "title": "DEC 22nd",
-            "text": "",
+            "text": "<p>Corazon de Jesus, Costa Rica<\/p>",
             "link_label": "LEARN MORE",
             "link": "",
             "custom_liquid": ""
@@ -193,7 +193,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-8b0875e3-8200-4a8f-9124-0acc44c32942--3_800x3000_e82cdcb9-8886-4a7a-a54b-ec8341718526.webp",
             "title": "DEC 24th",
-            "text": "",
+            "text": "<p>El Burro, Panama<\/p>",
             "link_label": "LEARN MORE",
             "link": "",
             "custom_liquid": ""
@@ -219,8 +219,8 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 4,
-        "column_alignment": "center",
+        "columns_desktop": 3,
+        "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",

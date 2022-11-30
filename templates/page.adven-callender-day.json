@@ -23,7 +23,7 @@
         "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-0"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -80,7 +80,6 @@
       "blocks": {
         "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-0": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
@@ -127,6 +126,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "44d3da97-d814-443d-b2e0-18172705f6fb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -137,7 +142,8 @@
         "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-4",
         "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-5",
         "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-6",
-        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-7"
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-7",
+        "44d3da97-d814-443d-b2e0-18172705f6fb"
       ],
       "settings": {
         "product": "{{ page.metafields.cadvent_callender.product.value }}",
