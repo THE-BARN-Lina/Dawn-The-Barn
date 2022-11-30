@@ -36,65 +36,32 @@
         "padding_bottom": 80
       }
     },
-    "165330918641cafdb0": {
-      "type": "multicolumn",
-      "disabled": true,
+    "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80": {
+      "type": "rich-text",
       "blocks": {
-        "165330918608a91bfa-0": {
-          "type": "column",
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3274.jpg",
-            "title": "Hario V60",
-            "text": "<p>The Hario V60 is one of the most iconic drip brewers. The V60 is named after the angle that form its V-shape. The grooves on the inside the dripper support extraction along the side of the filter.<br\/><br\/>This full filtration creates extremely clean flavours while the paper filter also allows some of the coffee oils to pass through.<\/p>",
-            "link_label": "V60 RECIPE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/v60-drip",
-            "custom_liquid": ""
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
           }
         },
-        "165330918608a91bfa-1": {
-          "type": "column",
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3275_3b9145c3-51a1-495e-a98b-edabb158ed69.jpg",
-            "title": "Chemex",
-            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<br\/><br\/>The paper used for Chemex filters is slightly thicker than most, which creates incredibly clean brews.<\/p>",
-            "link_label": "CHEMEX RECIPE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/chemex",
-            "custom_liquid": ""
-          }
-        },
-        "165330918608a91bfa-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3276.jpg",
-            "title": "Aeropress",
-            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee.<br\/><br\/>The The AeroPress is based on the mechanics of the French Press. The addition of paper filters and a rubber seal results in excellent extraction and a fantastic mouthfeel.<\/p>",
-            "link_label": "AEROPRESS RECIPE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/aeropress",
-            "custom_liquid": ""
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "165330918608a91bfa-0",
-        "165330918608a91bfa-1",
-        "165330918608a91bfa-2"
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-0",
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "link_as_button": true,
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "165338928113f35a7d": {
@@ -269,7 +236,7 @@
   "order": [
     "main",
     "e4e851bf-e627-4ccf-83a5-203b2ffc9601",
-    "165330918641cafdb0",
+    "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80",
     "165338928113f35a7d"
   ]
 }
