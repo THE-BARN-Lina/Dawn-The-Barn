@@ -161,7 +161,7 @@
         "44d3da97-d814-443d-b2e0-18172705f6fb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.featured-product .product__media-list\n{width: 78%;\nmargin-left: 130px;}\n\n@media only screen and (max-width: 600px) {\n.featured-product .product__media-list\n{width: 78%;\nmargin-left: 0px;}\n<\/style>"
+            "custom_liquid": "<style>\n.featured-product .product__media-list\n{width: 78%;\nmargin-left: 130px;}\n\n@media only screen and (max-width: 600px) {\n.featured-product .product__media-list\n{width: 100%;\nmargin-left: 0px;}\n<\/style>"
           }
         }
       },
