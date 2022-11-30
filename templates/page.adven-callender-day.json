@@ -30,6 +30,7 @@
         "template--16379897512203__8ea5eca9-dbf3-4398-ab19-d2240b0230dc-1669807602e7252fe1-1"
       ],
       "settings": {
+        "image": "{{ page.metafields.advent_callender.Image.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
