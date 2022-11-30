@@ -4,29 +4,209 @@
     "16618500908bb9c917": {
       "type": "rich-text",
       "blocks": {
-        "f24efdbc-a955-4bf3-934d-96601c53a8db": {
-          "type": "text",
-          "settings": {
-            "text": "<p>THE BARN SPECIALTY COFFEE<\/p>"
-          }
-        },
         "1661850090c55b6adb-0": {
           "type": "heading",
           "settings": {
-            "heading": "ADVENT CALENDAR",
+            "heading": "THE BARN SPECIALTY COFFEE ADVENT CALENDAR",
             "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "f24efdbc-a955-4bf3-934d-96601c53a8db",
         "1661850090c55b6adb-0"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": false,
         "padding_top": 40,
-        "padding_bottom": 80
+        "padding_bottom": 40
+      }
+    },
+    "09856d42-1ad9-4798-bb6d-f605acb86565": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16379994964235__09856d42-1ad9-4798-bb6d-f605acb86565-16698087461c20fb78-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Twelve Coffees of Christmas",
+            "heading_size": "h1"
+          }
+        },
+        "template--16379994964235__09856d42-1ad9-4798-bb6d-f605acb86565-16698087461c20fb78-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For the first time this year we have created our very own Christmas Advent Calendar.<\/p><p><\/p><p>There is nothing quite like the countdown to Christmas and our calendar will give you a different flavour experience every day. With 12 unique coffees we will be taking you around the world to experience terroir, varietal, and process.<\/p><p><\/p><p>For every coffee, we will be releasing a video introduction and brew guide to tell you a little more about the different flavours that await. So each time you find a new coffee in your calendar, check in here and see the new videos.<\/p><p><\/p><p><strong>Spoiler alert! <\/strong>Each coffee is named below so if you want to keep each coffee as a surprise stop reading now.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16379994964235__09856d42-1ad9-4798-bb6d-f605acb86565-16698087461c20fb78-0",
+        "template--16379994964235__09856d42-1ad9-4798-bb6d-f605acb86565-16698087461c20fb78-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f47a2f2c-61de-4597-80bd-2dda218ccfe6": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16379994964235__f47a2f2c-61de-4597-80bd-2dda218ccfe6-166980851914c9b1a4-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Product-Cover-Image--250g_Free.png",
+            "title": "DEC 1",
+            "text": "<p>Stardust, Brazil<\/p>",
+            "link_label": "Learn More About This Coffee",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "template--16379994964235__f47a2f2c-61de-4597-80bd-2dda218ccfe6-166980851914c9b1a4-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1a022281-a754-4c1d-8405-90cd33b1097a.jpg",
+            "title": "DEC 5",
+            "text": "<p>Mbokam, PB<\/p>",
+            "link_label": "Learn More About This Coffee",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--16379994964235__f47a2f2c-61de-4597-80bd-2dda218ccfe6-166980851914c9b1a4-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FD1B8178-35B7-44D3-95CE-7E7ADD4E0655.jpg",
+            "title": "DEC 6",
+            "text": "<p>Christmas Coffee, Rwanda<\/p>",
+            "link_label": "Learn More About This Coffee",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "303b0ffb-0628-4922-924f-73d0438b3f2a": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "c5f49b12-f831-40c0-ac5c-be17476c2382": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "d85e8686-9501-4f7b-8ab5-2331a13bdb15": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "d849cff2-2276-4e0a-959c-c664d590df3e": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "5b1f4bfa-82c6-42c6-91d9-e2af3c252221": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "67e51ebf-1390-4926-a642-68b0a6383af2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "78e192fc-33bd-458f-8d00-44a1295daacc": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "6d791704-cae0-482b-ab47-4ea267aaeb17": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "89a75a1f-84d8-4f4b-85e2-afaa8ddd5323": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16379994964235__f47a2f2c-61de-4597-80bd-2dda218ccfe6-166980851914c9b1a4-0",
+        "template--16379994964235__f47a2f2c-61de-4597-80bd-2dda218ccfe6-166980851914c9b1a4-1",
+        "template--16379994964235__f47a2f2c-61de-4597-80bd-2dda218ccfe6-166980851914c9b1a4-2",
+        "303b0ffb-0628-4922-924f-73d0438b3f2a",
+        "c5f49b12-f831-40c0-ac5c-be17476c2382",
+        "d85e8686-9501-4f7b-8ab5-2331a13bdb15",
+        "d849cff2-2276-4e0a-959c-c664d590df3e",
+        "5b1f4bfa-82c6-42c6-91d9-e2af3c252221",
+        "67e51ebf-1390-4926-a642-68b0a6383af2",
+        "78e192fc-33bd-458f-8d00-44a1295daacc",
+        "6d791704-cae0-482b-ab47-4ea267aaeb17",
+        "89a75a1f-84d8-4f4b-85e2-afaa8ddd5323"
+      ],
+      "settings": {
+        "title": "The Twelve Coffees of Christmas",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "banner": {
@@ -88,6 +268,8 @@
   },
   "order": [
     "16618500908bb9c917",
+    "09856d42-1ad9-4798-bb6d-f605acb86565",
+    "f47a2f2c-61de-4597-80bd-2dda218ccfe6",
     "banner",
     "166185182978c04b4e"
   ]
