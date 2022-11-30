@@ -53,7 +53,7 @@
     "d3677044-3934-4e0a-8083-f3bd974bf1f8": {
       "type": "Video-With-Text",
       "settings": {
-        "video_id": "VnAQDO-fg6M",
+        "video_id": "{{ page.metafields.cadvent_callender.Video.value }}",
         "overlay": "",
         "padding_top": 40,
         "padding_bottom": 52
