@@ -12,6 +12,7 @@
       "blocks": {
         "template--16379897512203__8ea5eca9-dbf3-4398-ab19-d2240b0230dc-1669807602e7252fe1-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image with text",
             "heading_size": "h1"
@@ -20,7 +21,7 @@
         "template--16379897512203__8ea5eca9-dbf3-4398-ab19-d2240b0230dc-1669807602e7252fe1-1": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>{{ page.metafields.advent_callender.recipe | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         }
