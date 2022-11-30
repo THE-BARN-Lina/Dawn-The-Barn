@@ -231,50 +231,6 @@
             "link": "shopify:\/\/pages\/dambi-uddo-espresso-lemonade",
             "custom_liquid": ""
           }
-        },
-        "aab50bcc-69f0-42b3-9fa2-02dbfa40c3bc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sig_drink_large_4b6f121a-7b0a-47cd-8644-f28234135af1.webp",
-            "title": "Rose Brew",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/rose-brew",
-            "custom_liquid": ""
-          }
-        },
-        "04bda137-c5b3-47ea-a23b-c0a3d3d5eac6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/zutaten_kl_large_large_bd1f7989-a7c9-4443-915c-13496500dbd2.jpg",
-            "title": "Caffe Crudo",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/agua-del-caffe-crudo",
-            "custom_liquid": ""
-          }
-        },
-        "618e5f5a-ee67-4aed-977d-c543ac7d8204": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Beetroot_Flatwhite_1024x1024_ef1b0837-6d7c-4ea2-be5b-4c00512a37f9.webp",
-            "title": "Beetroot Flat White",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/beetroot-flat-white",
-            "custom_liquid": ""
-          }
-        },
-        "3e2c50dd-440a-46ac-9a38-a6d1613f2436": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/flat_white_russian_1000x666_9f039610-9048-40bd-a668-117da20b197f.webp",
-            "title": "Russian Flat White",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/russian-flat-white",
-            "custom_liquid": ""
-          }
         }
       },
       "block_order": [
@@ -289,11 +245,7 @@
         "ea05195e-8bc5-4336-89dc-9994519e0243",
         "81f8f5a5-f92f-46ba-aedd-f41d5b4794fd",
         "d6244320-1121-4b86-831d-99c4406f719f",
-        "65804a50-6f0c-49cb-bce9-bc64beacdf78",
-        "aab50bcc-69f0-42b3-9fa2-02dbfa40c3bc",
-        "04bda137-c5b3-47ea-a23b-c0a3d3d5eac6",
-        "618e5f5a-ee67-4aed-977d-c543ac7d8204",
-        "3e2c50dd-440a-46ac-9a38-a6d1613f2436"
+        "65804a50-6f0c-49cb-bce9-bc64beacdf78"
       ],
       "settings": {
         "title": "Make this Christmas Season special with 24 days of excitement",
