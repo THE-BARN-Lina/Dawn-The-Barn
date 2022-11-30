@@ -205,8 +205,8 @@
             "image": "shopify:\/\/shop_images\/pf-d6a9820f-6056-45d1-a660-a5f046e810a6--IMG0251_800x3000_903e40eb-66eb-46ac-b218-8ac66088e79a.webp",
             "title": "Aeropress Goji",
             "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/aeropress-goji-infusion",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -216,8 +216,8 @@
             "image": "shopify:\/\/shop_images\/pf-39c7bf63-a06c-4d23-91ed-7061435099af--IMG4093_800x3000_32b03349-2722-4afd-a343-30f71a08b370.webp",
             "title": "Sherbet",
             "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/sherbet-mohammed-ali",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -227,8 +227,8 @@
             "image": "shopify:\/\/shop_images\/pf-8b0875e3-8200-4a8f-9124-0acc44c32942--3_800x3000_e82cdcb9-8886-4a7a-a54b-ec8341718526.webp",
             "title": "Espresso Lemonade",
             "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/dambi-uddo-espresso-lemonade",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         }
