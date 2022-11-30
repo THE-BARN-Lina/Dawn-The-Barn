@@ -10,11 +10,23 @@
     "1659101550da353959": {
       "type": "newsletter-sign-up",
       "settings": {
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "31033833-9178-488e-970f-116ecc17b10a": {
+      "type": "Video-With-Text",
+      "settings": {
+        "video_id": "VnAQDO-fg6M",
+        "overlay": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "1659101550da353959"
+    "1659101550da353959",
+    "31033833-9178-488e-970f-116ecc17b10a"
   ]
 }

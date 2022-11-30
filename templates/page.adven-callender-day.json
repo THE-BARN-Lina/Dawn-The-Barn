@@ -2,295 +2,67 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "e4e851bf-e627-4ccf-83a5-203b2ffc9601": {
-      "type": "rich-text",
+    "8ea5eca9-dbf3-4398-ab19-d2240b0230dc": {
+      "type": "image-with-text",
       "blocks": {
-        "template--16216421400843__e4e851bf-e627-4ccf-83a5-203b2ffc9601-166937409999910c0c-0": {
+        "template--16379897512203__8ea5eca9-dbf3-4398-ab19-d2240b0230dc-1669807602e7252fe1-0": {
           "type": "heading",
           "settings": {
-            "heading": "BREW GUIDES",
+            "heading": "Image with text",
             "heading_size": "h1"
           }
+        },
+        "template--16379897512203__8ea5eca9-dbf3-4398-ab19-d2240b0230dc-1669807602e7252fe1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16379897512203__8ea5eca9-dbf3-4398-ab19-d2240b0230dc-1669807602e7252fe1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "template--16216421400843__e4e851bf-e627-4ccf-83a5-203b2ffc9601-166937409999910c0c-0"
+        "template--16379897512203__8ea5eca9-dbf3-4398-ab19-d2240b0230dc-1669807602e7252fe1-0",
+        "template--16379897512203__8ea5eca9-dbf3-4398-ab19-d2240b0230dc-1669807602e7252fe1-1",
+        "template--16379897512203__8ea5eca9-dbf3-4398-ab19-d2240b0230dc-1669807602e7252fe1-2"
       ],
       "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "full_width": true,
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d3677044-3934-4e0a-8083-f3bd974bf1f8": {
+      "type": "Video-With-Text",
+      "settings": {
+        "video_id": "VnAQDO-fg6M",
+        "overlay": "",
         "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "165330918641cafdb0": {
-      "type": "multicolumn",
-      "blocks": {
-        "165330918608a91bfa-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3274.jpg",
-            "title": "Hario V60",
-            "text": "<p>The Hario V60 is one of the most iconic drip brewers. The V60 is named after the angle that form its V-shape. The grooves on the inside the dripper support extraction along the side of the filter.<br\/><br\/>This full filtration creates extremely clean flavours while the paper filter also allows some of the coffee oils to pass through.<\/p>",
-            "link_label": "V60 RECIPE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/v60-drip"
-          }
-        },
-        "165330918608a91bfa-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3275_3b9145c3-51a1-495e-a98b-edabb158ed69.jpg",
-            "title": "Chemex",
-            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<br\/><br\/>The paper used for Chemex filters is slightly thicker than most, which creates incredibly clean brews.<\/p>",
-            "link_label": "CHEMEX RECIPE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/chemex"
-          }
-        },
-        "165330918608a91bfa-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3276.jpg",
-            "title": "Aeropress",
-            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee.<br\/><br\/>The The AeroPress is based on the mechanics of the French Press. The addition of paper filters and a rubber seal results in excellent extraction and a fantastic mouthfeel.<\/p>",
-            "link_label": "AEROPRESS RECIPE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/aeropress"
-          }
-        }
-      },
-      "block_order": [
-        "165330918608a91bfa-0",
-        "165330918608a91bfa-1",
-        "165330918608a91bfa-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "link_as_button": true,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "165338928113f35a7d": {
-      "type": "multicolumn",
-      "blocks": {
-        "16533892817718819e-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/jasminefw_480x480_163e8816-afa5-463f-b240-9d5847fffd2b.webp",
-            "title": "Jasmine Flat White",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/jasmine-flat-white"
-          }
-        },
-        "8db05c6b-e185-45ee-ab91-b8c5d2e41bc2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG-1026_800x3000_0256cfc4-8321-41dc-911d-ceb46bf90cc8.jpg",
-            "title": "Sakerato",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/sakerato"
-          }
-        },
-        "86a91959-faf0-4c55-8529-4f339a920933": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG-0308.jpg",
-            "title": "Yuzu Shake Tonic",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/yuzu-shake-tonic"
-          }
-        },
-        "93ede514-ef6e-476b-8aea-ef8cf37b5899": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/d8c128f2-6915-4ab1-95fe-8715780132f4CROP_480x480_b6999918-a8e1-417b-bf19-cd07b42dcb6c.webp",
-            "title": "Mococa Granada",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/mococa-granada"
-          }
-        },
-        "16533892817718819e-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1531_copy_320x320_946ac99f-16fd-4cdb-be09-d2e87810b486.webp",
-            "title": "Coffee Paloma",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/coffee-paloma"
-          }
-        },
-        "6b207fa8-8c96-4ffe-9002-cfb7f8e165da": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Espresso_Roiboos_Shot2_large_large_e5fd9c38-e5b6-4efd-b460-7b2639cdc535.webp",
-            "title": "Winter Flat White",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/winter-flat-white-rooibos-style"
-          }
-        },
-        "16533892817718819e-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1467-cropped_360x360_1552f976-7a7e-4873-b94a-084693ddc4f8.webp",
-            "title": "Freimeister Drinks",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/freimeisteskollektiv-drinks"
-          }
-        },
-        "6a0c6934-49ad-4e5b-8d7a-3595f6467ab2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sig_drink_cold_brew_orange_small_large_0ba23d65-064f-4a50-9bc4-d89d226f4c6c.webp",
-            "title": "Blood Orange Brew",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/huye-mountain-bloodorange-brew"
-          }
-        },
-        "ea05195e-8bc5-4336-89dc-9994519e0243": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pf-a86170fa--IMG1363800x3000_800x3000_9ccc7813-15b4-42f4-b412-4193d3ed5bd6.jpg",
-            "title": "Shakerato",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/shakerato"
-          }
-        },
-        "81f8f5a5-f92f-46ba-aedd-f41d5b4794fd": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pf-d6a9820f-6056-45d1-a660-a5f046e810a6--IMG0251_800x3000_903e40eb-66eb-46ac-b218-8ac66088e79a.webp",
-            "title": "Aeropress Goji",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/aeropress-goji-infusion"
-          }
-        },
-        "d6244320-1121-4b86-831d-99c4406f719f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pf-39c7bf63-a06c-4d23-91ed-7061435099af--IMG4093_800x3000_32b03349-2722-4afd-a343-30f71a08b370.webp",
-            "title": "Sherbet",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/sherbet-mohammed-ali"
-          }
-        },
-        "65804a50-6f0c-49cb-bce9-bc64beacdf78": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pf-8b0875e3-8200-4a8f-9124-0acc44c32942--3_800x3000_e82cdcb9-8886-4a7a-a54b-ec8341718526.webp",
-            "title": "Espresso Lemonade",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/dambi-uddo-espresso-lemonade"
-          }
-        },
-        "aab50bcc-69f0-42b3-9fa2-02dbfa40c3bc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sig_drink_large_4b6f121a-7b0a-47cd-8644-f28234135af1.webp",
-            "title": "Rose Brew",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/rose-brew"
-          }
-        },
-        "04bda137-c5b3-47ea-a23b-c0a3d3d5eac6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/zutaten_kl_large_large_bd1f7989-a7c9-4443-915c-13496500dbd2.jpg",
-            "title": "Caffe Crudo",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/agua-del-caffe-crudo"
-          }
-        },
-        "618e5f5a-ee67-4aed-977d-c543ac7d8204": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Beetroot_Flatwhite_1024x1024_ef1b0837-6d7c-4ea2-be5b-4c00512a37f9.webp",
-            "title": "Beetroot Flat White",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/beetroot-flat-white"
-          }
-        },
-        "3e2c50dd-440a-46ac-9a38-a6d1613f2436": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/flat_white_russian_1000x666_9f039610-9048-40bd-a668-117da20b197f.webp",
-            "title": "Russian Flat White",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/russian-flat-white"
-          }
-        }
-      },
-      "block_order": [
-        "16533892817718819e-0",
-        "8db05c6b-e185-45ee-ab91-b8c5d2e41bc2",
-        "86a91959-faf0-4c55-8529-4f339a920933",
-        "93ede514-ef6e-476b-8aea-ef8cf37b5899",
-        "16533892817718819e-2",
-        "6b207fa8-8c96-4ffe-9002-cfb7f8e165da",
-        "16533892817718819e-1",
-        "6a0c6934-49ad-4e5b-8d7a-3595f6467ab2",
-        "ea05195e-8bc5-4336-89dc-9994519e0243",
-        "81f8f5a5-f92f-46ba-aedd-f41d5b4794fd",
-        "d6244320-1121-4b86-831d-99c4406f719f",
-        "65804a50-6f0c-49cb-bce9-bc64beacdf78",
-        "aab50bcc-69f0-42b3-9fa2-02dbfa40c3bc",
-        "04bda137-c5b3-47ea-a23b-c0a3d3d5eac6",
-        "618e5f5a-ee67-4aed-977d-c543ac7d8204",
-        "3e2c50dd-440a-46ac-9a38-a6d1613f2436"
-      ],
-      "settings": {
-        "title": "SIGNATURE DRINKS",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "link_as_button": true,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "e4e851bf-e627-4ccf-83a5-203b2ffc9601",
-    "165330918641cafdb0",
-    "165338928113f35a7d"
+    "8ea5eca9-dbf3-4398-ab19-d2240b0230dc",
+    "d3677044-3934-4e0a-8083-f3bd974bf1f8"
   ]
 }
