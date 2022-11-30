@@ -68,20 +68,12 @@
     },
     "d3677044-3934-4e0a-8083-f3bd974bf1f8": {
       "type": "Video-With-Text",
+      "disabled": true,
       "settings": {
         "video_id": "{{ page.metafields.cadvent_callender.Video.value }}",
         "overlay": "",
         "padding_top": 56,
         "padding_bottom": 84
-      }
-    },
-    "667d2416-4551-4913-b40f-4658bf8c9e41": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"container\"> \n<div class=\"iframe-container\">\n    <iframe width=\"auto\" height=\"auto\"src=\"https:\/\/www.youtube-nocookie.com\/embed\/Q3fAFcpupus?playlist=Q3fAFcpupus&loop=1&controls=1&autoplay=0&mute=1&amp;start=5\"title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; ; clipboard-write; encrypted-media; mute=1; gyroscope; picture-in-picture\" allowfullscreen><\/iframe> \n<\/div>\n<\/div> \n\n    <style>\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4": {
@@ -200,7 +192,6 @@
     "253402cd-6aae-45df-8b59-88861dafe335",
     "8ea5eca9-dbf3-4398-ab19-d2240b0230dc",
     "d3677044-3934-4e0a-8083-f3bd974bf1f8",
-    "667d2416-4551-4913-b40f-4658bf8c9e41",
     "f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4",
     "e59c0634-a9b3-479e-8411-5809cc40b72a",
     "8f1be29f-f14e-485c-a7df-94472a50cd9d"
