@@ -23,7 +23,7 @@
         "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-0"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -62,8 +62,8 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 8,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "e59c0634-a9b3-479e-8411-5809cc40b72a": {
