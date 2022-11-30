@@ -105,8 +105,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/jasminefw_480x480_163e8816-afa5-463f-b240-9d5847fffd2b.webp",
             "title": "Day 1",
-            "text": "",
-            "link_label": "Find out more about this coffee",
+            "text": "<p>Stardust, Brazil<\/p>",
+            "link_label": "LEARN MORE",
             "link": "shopify:\/\/pages\/1st-december",
             "custom_liquid": ""
           }
@@ -116,9 +116,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG-1026_800x3000_0256cfc4-8321-41dc-911d-ceb46bf90cc8.jpg",
             "title": "Sakerato",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/sakerato",
+            "text": "<p>Mbokam PB<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -127,9 +127,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG-0308.jpg",
             "title": "Yuzu Shake Tonic",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/yuzu-shake-tonic",
+            "text": "<p>Christmas Coffee, Rwanda<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -138,9 +138,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/d8c128f2-6915-4ab1-95fe-8715780132f4CROP_480x480_b6999918-a8e1-417b-bf19-cd07b42dcb6c.webp",
             "title": "Mococa Granada",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/mococa-granada",
+            "text": "<p>Low Caf Reserve, Brazil<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -149,9 +149,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1531_copy_320x320_946ac99f-16fd-4cdb-be09-d2e87810b486.webp",
             "title": "Coffee Paloma",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/coffee-paloma",
+            "text": "<p>Yemen Alchemy, Yemen <\/p>",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -160,9 +160,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/THE_BARN_Espresso_Roiboos_Shot2_large_large_e5fd9c38-e5b6-4efd-b460-7b2639cdc535.webp",
             "title": "Winter Flat White",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/winter-flat-white-rooibos-style",
+            "text": "<p>Dambi Uddo, Ethiopia<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -171,9 +171,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1467-cropped_360x360_1552f976-7a7e-4873-b94a-084693ddc4f8.webp",
             "title": "Freimeister Drinks",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/freimeisteskollektiv-drinks",
+            "text": "<p>Mohamed Ali Honey, Ethiopia<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -182,9 +182,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sig_drink_cold_brew_orange_small_large_0ba23d65-064f-4a50-9bc4-d89d226f4c6c.webp",
             "title": "Blood Orange Brew",
-            "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/huye-mountain-bloodorange-brew",
+            "text": "<p>Himilaya <\/p>",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -194,8 +194,8 @@
             "image": "shopify:\/\/shop_images\/pf-a86170fa--IMG1363800x3000_800x3000_9ccc7813-15b4-42f4-b412-4193d3ed5bd6.jpg",
             "title": "Shakerato",
             "text": "",
-            "link_label": "RECIPE",
-            "link": "shopify:\/\/pages\/shakerato",
+            "link_label": "LEARN MORE",
+            "link": "",
             "custom_liquid": ""
           }
         },
@@ -257,7 +257,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "link_as_button": false,
+        "link_as_button": true,
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
