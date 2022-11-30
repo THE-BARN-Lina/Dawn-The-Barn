@@ -192,8 +192,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-a86170fa--IMG1363800x3000_800x3000_9ccc7813-15b4-42f4-b412-4193d3ed5bd6.jpg",
-            "title": "Andres Ramires, Guatemala",
-            "text": "",
+            "title": "",
+            "text": "<p>Andres Ramires, Guatemala<\/p>",
             "link_label": "LEARN MORE",
             "link": "",
             "custom_liquid": ""
@@ -203,8 +203,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/pf-d6a9820f-6056-45d1-a660-a5f046e810a6--IMG0251_800x3000_903e40eb-66eb-46ac-b218-8ac66088e79a.webp",
-            "title": "Caballero, Honduras",
-            "text": "",
+            "title": "",
+            "text": "<p>Caballero, Honduras<\/p>",
             "link_label": "LEARN MORE",
             "link": "",
             "custom_liquid": ""
