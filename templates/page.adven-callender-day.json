@@ -2,9 +2,31 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "253402cd-6aae-45df-8b59-88861dafe335": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "8ea5eca9-dbf3-4398-ab19-d2240b0230dc": {
@@ -49,91 +71,88 @@
       "settings": {
         "video_id": "{{ page.metafields.cadvent_callender.Video.value }}",
         "overlay": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 56,
+        "padding_bottom": 84
       }
     },
-    "34078b84-deb0-45ef-8d56-feb57f788ac8": {
-      "type": "rich-text",
+    "f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4": {
+      "type": "featured-product",
       "blocks": {
-        "template--16379897512203__34078b84-deb0-45ef-8d56-feb57f788ac8-16698091983599dd3e-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h0"
-          }
-        },
-        "template--16379897512203__34078b84-deb0-45ef-8d56-feb57f788ac8-16698091983599dd3e-1": {
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-0": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
           }
         },
-        "template--16379897512203__34078b84-deb0-45ef-8d56-feb57f788ac8-16698091983599dd3e-2": {
-          "type": "button",
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-1": {
+          "type": "title",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "heading_size": "h1"
+          }
+        },
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "template--16379897512203__34078b84-deb0-45ef-8d56-feb57f788ac8-16698091983599dd3e-0",
-        "template--16379897512203__34078b84-deb0-45ef-8d56-feb57f788ac8-16698091983599dd3e-1",
-        "template--16379897512203__34078b84-deb0-45ef-8d56-feb57f788ac8-16698091983599dd3e-2"
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-0",
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-1",
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-2",
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-3",
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-4",
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-5",
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-6",
+        "template--16379897512203__f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4-16698093158006ea3b-7"
       ],
       "settings": {
+        "product": "{{ page.metafields.cadvent_callender.product.value }}",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "253402cd-6aae-45df-8b59-88861dafe335": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ page.title }}",
-            "heading_size": "h0"
-          }
-        },
-        "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-0",
-        "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-1",
-        "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 60,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
+    "253402cd-6aae-45df-8b59-88861dafe335",
     "8ea5eca9-dbf3-4398-ab19-d2240b0230dc",
     "d3677044-3934-4e0a-8083-f3bd974bf1f8",
-    "34078b84-deb0-45ef-8d56-feb57f788ac8",
-    "253402cd-6aae-45df-8b59-88861dafe335"
+    "f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4"
   ]
 }
