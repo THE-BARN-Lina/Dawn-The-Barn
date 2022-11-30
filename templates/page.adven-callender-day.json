@@ -75,6 +75,15 @@
         "padding_bottom": 84
       }
     },
+    "667d2416-4551-4913-b40f-4658bf8c9e41": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4": {
       "type": "featured-product",
       "blocks": {
@@ -130,7 +139,7 @@
         "44d3da97-d814-443d-b2e0-18172705f6fb": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<style>\n.featured-product .product__media-list\n{width: 78%;\nmargin-left: 130px;}\n<\/style>"
           }
         }
       },
@@ -161,6 +170,7 @@
     "253402cd-6aae-45df-8b59-88861dafe335",
     "8ea5eca9-dbf3-4398-ab19-d2240b0230dc",
     "d3677044-3934-4e0a-8083-f3bd974bf1f8",
+    "667d2416-4551-4913-b40f-4658bf8c9e41",
     "f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4"
   ]
 }
