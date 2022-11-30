@@ -82,7 +82,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG-1026_800x3000_0256cfc4-8321-41dc-911d-ceb46bf90cc8.jpg",
-            "title": "DEC 1",
+            "title": "DEC 2",
             "text": "<p>Mbokam PB<\/p>",
             "link_label": "LEARN MORE",
             "link": "",
@@ -220,7 +220,7 @@
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
