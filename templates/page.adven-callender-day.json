@@ -66,6 +66,36 @@
         "padding_bottom": 36
       }
     },
+    "e59c0634-a9b3-479e-8411-5809cc40b72a": {
+      "type": "rich-text",
+      "blocks": {
+        "c1459525-6ee3-4d21-b7f7-6c1b95e53944": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find out more and enjoy the video on how we brew this delicious coffee. ",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "c1459525-6ee3-4d21-b7f7-6c1b95e53944"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "8f1be29f-f14e-485c-a7df-94472a50cd9d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div=\"container\">\n<div class=\"i-container\">\n<iframe width=50% height=\"534\" src=\"https:\/\/www.youtube.com\/embed\/Q3fAFcpupus\" title=\"ADVENTCALENDAR REVEALING 01.12.2022 STARDUST, BRAZIL\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<\/div>\n<\/div>\n\n<style>\n.i-container {\ndisplay: flex;\njustify-content: center;}\n\n::selection {\n\n    background-color: rgba(var(--color-foreground),.2);\n\n}\nelement {\n\n}\n:focus-visible {\n\n    outline: .2rem solid rgba(var(--color-foreground),.5);\n    outline-offset: .3rem;\n    box-shadow: 0 0 0 .3rem rgb(var(--color-background)),0 0 .5rem .4rem rgba(var(--color-foreground),.3);\n\n}\n:focus {\n\n    outline: 0;\n    box-shadow: none;\n\n}\n\n@media only screen and (max-width: 600px) {\niframe{\n\/*position: absolute;*\/\ntop:0;\nleft: 0;\n  width: 100%;\n  height: 32vh;\n}\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "d3677044-3934-4e0a-8083-f3bd974bf1f8": {
       "type": "Video-With-Text",
       "disabled": true,
@@ -155,45 +185,15 @@
         "padding_top": 60,
         "padding_bottom": 36
       }
-    },
-    "e59c0634-a9b3-479e-8411-5809cc40b72a": {
-      "type": "rich-text",
-      "blocks": {
-        "c1459525-6ee3-4d21-b7f7-6c1b95e53944": {
-          "type": "heading",
-          "settings": {
-            "heading": "Find out more and enjoy the video on how we brew this delicious coffee. ",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "c1459525-6ee3-4d21-b7f7-6c1b95e53944"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "8f1be29f-f14e-485c-a7df-94472a50cd9d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div=\"container\">\n<div class=\"i-container\">\n<iframe width=50% height=\"534\" src=\"https:\/\/www.youtube.com\/embed\/Q3fAFcpupus\" title=\"ADVENTCALENDAR REVEALING 01.12.2022 STARDUST, BRAZIL\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<\/div>\n<\/div>\n\n<style>\n.i-container {\ndisplay: flex;\njustify-content: center;}\n\n::selection {\n\n    background-color: rgba(var(--color-foreground),.2);\n\n}\nelement {\n\n}\n:focus-visible {\n\n    outline: .2rem solid rgba(var(--color-foreground),.5);\n    outline-offset: .3rem;\n    box-shadow: 0 0 0 .3rem rgb(var(--color-background)),0 0 .5rem .4rem rgba(var(--color-foreground),.3);\n\n}\n:focus {\n\n    outline: 0;\n    box-shadow: none;\n\n}\n\n@media only screen and (max-width: 600px) {\niframe{\n\/*position: absolute;*\/\ntop:0;\nleft: 0;\n  width: 100%;\n  height: 32vh;\n}\n}\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "253402cd-6aae-45df-8b59-88861dafe335",
     "8ea5eca9-dbf3-4398-ab19-d2240b0230dc",
-    "d3677044-3934-4e0a-8083-f3bd974bf1f8",
-    "f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4",
     "e59c0634-a9b3-479e-8411-5809cc40b72a",
-    "8f1be29f-f14e-485c-a7df-94472a50cd9d"
+    "8f1be29f-f14e-485c-a7df-94472a50cd9d",
+    "d3677044-3934-4e0a-8083-f3bd974bf1f8",
+    "f7e26bd2-5f7f-489b-b380-42b8c6f8e1f4"
   ]
 }
