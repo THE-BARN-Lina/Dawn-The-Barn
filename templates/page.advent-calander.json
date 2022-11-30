@@ -30,9 +30,9 @@
         "template--16216421400843__e4e851bf-e627-4ccf-83a5-203b2ffc9601-166937409999910c0c-0"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 80,
         "padding_bottom": 80
       }
     },
@@ -43,7 +43,7 @@
           "type": "heading",
           "settings": {
             "heading": "The Twelve Coffees of Christmas",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1": {
@@ -60,8 +60,8 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "165338928113f35a7d": {
