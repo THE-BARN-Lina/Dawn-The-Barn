@@ -17,7 +17,7 @@
             "text_style": "body"
           }
         },
-        "button": {
+        "37a278ca-83ba-47c2-9df7-d3fb30ab3569": {
           "type": "buttons",
           "settings": {
             "button_label_1": "SUBSCRIPTIONS",
@@ -32,7 +32,7 @@
       "block_order": [
         "heading",
         "text",
-        "button"
+        "37a278ca-83ba-47c2-9df7-d3fb30ab3569"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-03-24_um_18.02.50_e16b7422-ecff-4a06-8c2b-0e4378142bd5.png",
@@ -58,6 +58,50 @@
         "padding_bottom": 40
       }
     },
+    "16529435131152e250": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652943513cf238e66-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHRISTMAS GIFT SUBSCRIPTION",
+            "heading_size": "h2"
+          }
+        },
+        "1652943513cf238e66-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>THE BEST PRESENT EVER<br\/><\/strong><\/p><p>This is our most popular Christmas Box every year: A gift that continues to give. Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute mug and delicious coffee chocolate beans. <\/p><p>Hear it from our founder Ralf why he loves it: <a href=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\" title=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\">Video<\/a><\/p>",
+            "text_style": "body"
+          }
+        },
+        "1652943513cf238e66-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER HERE",
+            "button_link": "https:\/\/thebarn.de\/products\/christmas-3-months-gift-subscription"
+          }
+        }
+      },
+      "block_order": [
+        "1652943513cf238e66-0",
+        "1652943513cf238e66-1",
+        "1652943513cf238e66-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/85BBA4AA-DD5D-4B64-9F29-17202FCD1956_608ed5c8-a830-4b06-98c1-58c72f30617d.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
@@ -65,20 +109,22 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/1838D2E9-22DB-42AA-A85B-0772DC19307E_fcec143d-c457-4988-9c48-e85c29f3c33a.jpg",
-            "title": "CHRISTMAS COFFEE",
-            "text": "<p><strong>Merry Christmas<\/strong><\/p><p>It became our tradition to feature a Christmas Coffee for the festive season each year. What better than giving away a bag of amazing Single Origin Coffee.<\/p>",
-            "link_label": "ORDER NOW",
-            "link": "shopify:\/\/products\/christmas-coffee-2022"
+            "title": "YOUR CHRISTMAS COFFEE",
+            "text": "<p><strong>Cup of Excellence<\/strong><\/p><p>Huye Mountain from Rwanda is our Christmas Coffee. It is simply the best choice. With sweet flavours of chocolate, raisin and winter-spices, it tastes like a Christmas Cake. <\/p>",
+            "link_label": "LIMITED EDITION",
+            "link": "shopify:\/\/products\/christmas-coffee-2022",
+            "custom_liquid": ""
           }
         },
         "1652970717eaeb9726-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/503230FE-6E41-4601-9BDC-07D3B43A0BBA.jpg",
-            "title": "BLACK HONEY GUATEMALA",
-            "text": "<p><strong>Introducing: Finca Gascon <\/strong><\/p><p>We are thrilled to work with producer Felipe Contreras. At just 26 he is making waves already. His Black Honey stands out with amazing depth and texture. Microlot level.<\/p>",
-            "link_label": "ORDER GASCON",
-            "link": "https:\/\/thebarn.de\/products\/finca-gascon"
+            "image": "shopify:\/\/shop_images\/IMG_6270.jpg",
+            "title": "NEW BEANIE ARRIVED",
+            "text": "<p><strong>Just in time for the colder days <\/strong><\/p><p>Sipping a coffee outside this winter? Pull on the perfect black beanie to stay warm and cosy. With our cute logo. Made from organic peta vegan approved cotton. <\/p>",
+            "link_label": "GET YOURS",
+            "link": "https:\/\/thebarn.de\/products\/beanie",
+            "custom_liquid": ""
           }
         }
       },
@@ -107,53 +153,12 @@
     "88c54afd-6289-46f8-8ace-ea6a928b554f": {
       "type": "custom-liquid",
       "settings": {
+<<<<<<< HEAD
         "custom_liquid": "{% render | \"four-icons\" %}"
+=======
+        "custom_liquid": "{% render | \"four-icons\" %}",
+>>>>>>> origin/live
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "16529435131152e250": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1652943513cf238e66-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "OCTOBER SUBSCRIPTION SPECIAL",
-            "heading_size": "h2"
-          }
-        },
-        "1652943513cf238e66-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>RECEIVE A FREE V60 BREW SET<br\/><\/strong><\/p><p>In October, we want to highlight the beauty of handbrewed filter coffees. With autumn weather and more time at home, we recommend switching to our favourite brewing method: V60<\/p><p>If you sign up for our curated coffee subscription this month, your first delivery will come with a free Hario V60 brewer plus enough filter paper to keep you busy.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1652943513cf238e66-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SIGN UP NOW",
-            "button_link": "https:\/\/thebarn.de\/products\/subscription-october-special"
-          }
-        }
-      },
-      "block_order": [
-        "1652943513cf238e66-0",
-        "1652943513cf238e66-1",
-        "1652943513cf238e66-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/B4207B7E-0E82-44AE-BDBD-FCB26D135380_2.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -179,7 +184,7 @@
         "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>FELLOW ODE UPGRADED<\/strong><\/p><p>Perfectly designed, the Ode transforms a morning chore into a quieter and more enjoyable experience. <\/p><p>A variety of carefully engineered features set Ode apart from the pack. With a magnetically aligned catch for added cleanliness, a grinds knocker to reduce grind retention, and auto stop for one less step. Includes the new 1.1 burr version. <\/p><p><strong>Hurry: Only 10 units are available!<\/strong><\/p>",
+            "text": "<p><strong>FELLOW ODE UPGRADED<\/strong><\/p><p>Perfectly designed, the Ode transforms a morning chore into a quieter and more enjoyable experience. <\/p><p>A variety of carefully engineered features set Ode apart from the pack. With a magnetically aligned catch for added cleanliness, a grinds knocker to reduce grind retention, and auto stop for one less step. Includes the new 1.1 burr version. <\/p><p><strong>Hurry: Only 2 units are available!<\/strong><\/p>",
             "text_style": "body"
           }
         },
@@ -231,6 +236,7 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
+        "show_tastenotes": true,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
@@ -348,9 +354,9 @@
   "order": [
     "image_banner",
     "1653387743507b82e2",
+    "16529435131152e250",
     "1652970717af5972f9",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
-    "16529435131152e250",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "165339081846c57155",
     "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",

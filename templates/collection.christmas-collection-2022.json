@@ -1,45 +1,9 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
-    "4f1480d0-e188-4c1b-88a1-d0727494c927": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "CHRISTMAS",
-            "heading_size": "h2"
-          }
-        },
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-0",
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "7e63d166-e043-404d-836b-94a1f670b7c1": {
       "type": "image-banner",
       "blocks": {
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
         "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1": {
           "type": "text",
           "settings": {
@@ -49,7 +13,6 @@
         }
       },
       "block_order": [
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-0",
         "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1"
       ],
       "settings": {
@@ -65,6 +28,26 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "4f1480d0-e188-4c1b-88a1-d0727494c927": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>LIMITED EDITION<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 0
       }
     },
     "12c08833-363b-46d1-8516-2d25abd2136a": {
@@ -105,7 +88,6 @@
         },
         "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-4": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -146,8 +128,8 @@
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 52,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 80
       }
     },
     "3c745dad-598d-473f-8669-98ccee87e5f0": {
@@ -170,12 +152,13 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 80
       }
     },
     "banner": {
@@ -194,6 +177,7 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "quick_add_button_color": "#804d15",
@@ -214,8 +198,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "christmas-2022-add-ons",
-        "products_to_show": 3,
-        "columns_desktop": 3,
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
@@ -225,12 +209,42 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 20,
-        "padding_bottom": 0
+        "padding_bottom": 100
+      }
+    },
+    "95588731-6055-4a06-8105-e34d15b5db92": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Christmas Gifts for Book Lovers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gift-books",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
       }
     },
     "1662738554a4ae067d": {
@@ -262,7 +276,7 @@
           "type": "button",
           "settings": {
             "button_label": "SOLD OUT",
-            "button_link": ""
+            "button_link": "shopify:\/\/products\/advent-calendar-2022"
           }
         }
       },
@@ -288,13 +302,14 @@
     }
   },
   "order": [
-    "4f1480d0-e188-4c1b-88a1-d0727494c927",
     "7e63d166-e043-404d-836b-94a1f670b7c1",
+    "4f1480d0-e188-4c1b-88a1-d0727494c927",
     "12c08833-363b-46d1-8516-2d25abd2136a",
     "3c745dad-598d-473f-8669-98ccee87e5f0",
     "banner",
     "166186709197b72a8b",
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc",
+    "95588731-6055-4a06-8105-e34d15b5db92",
     "1662738554a4ae067d"
   ]
 }

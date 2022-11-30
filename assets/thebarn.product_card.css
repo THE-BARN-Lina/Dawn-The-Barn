@@ -4,25 +4,42 @@
       grid-template-columns: 48% 48%;
       row-gap: 1vh;
       column-gap: 1vh;
-     min-height :24px;
+      padding-bottom: 1vh;
+      min-height :24px;
       height: fit-content;
       grid-template-areas: 
                 "a b"
     }
 
     .card_tastnote_text{
-        background-color: #242424;
+        background-color: #24242400;
         text-transform: capitalize;
         text-align: center;
         font-size: 12px;
         width: 100%;
         padding: 3px  6px;
         min-height: 24px;
+
+        border: 1px #ddd solid;
+        border-radius: 2px;
       
         display: flex;
         justify-content:center;
         align-content:center;
-        align-items: center;   
+        align-items: center;
+        margin: 0px;   
+      }
+
+      .card_region_text{
+        text-transform: capitalize;
+        text-align: center;
+        background-color: #363636;
+        font-size: 12px;
+        width: 100%;
+        padding: 3px;
+        min-height: 24px; 
+        height:fit-content;
+        margin:0px; 
       }
 
       .card__heading {
@@ -34,3 +51,7 @@
         width: 100%;
         margin-bottom: 5px !important;
     }
+    .card__media{
+      background: linear-gradient(180deg, rgb(227, 226, 220) 0%, rgb(215, 208, 199) 60%, rgb(224, 224, 219) 71%, rgb(193, 183, 169) 85%);
+    }
+

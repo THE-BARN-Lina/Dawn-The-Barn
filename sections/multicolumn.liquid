@@ -100,6 +100,10 @@
                 {%- if block.settings.link_label != blank -%}
                   <a {% if section.settings.link_as_button ==  true %}class="button" {%else%}class="link animate-arrow" {%endif%}{% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
                 {%- endif -%}
+                {%- if block.settings.custom_liquid != blank -%}
+                 {{block.settings.custom_liquid}}
+                {%- endif -%}
+
               </div>
             </div>
           </li>
@@ -374,7 +378,13 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+        },
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label":"Custom liquid"
         }
+
       ]
     }
   ],

@@ -1,15 +1,20 @@
+{% comment %}
+    Displays Tastenotes Or Tagline depends on if coffee or not
 
+    Usage:
+    {%render 'thebarn.product_card.badge_tastenote' , card_product:card_product , show_tastenotesr:show_tastenotes %}
+{%endcomment%}
 
-{% if   card_product.metafields.custom.taste_notes and  show_vendor == false%}
-
+{% if show_tastenotes%}
     <div class="card__50_50__grid">
-    {% assign tastenotes = card_product.metafields.custom.taste_notes | split: "." %}
-     {% if tastenotes.size > 1 %}
+    {% case card_product.type %}
+       {% when "Espresso Coffee" or "Filter Coffee"%}
+        {% assign tastenotes = card_product.metafields.custom.taste_notes | split: "." %}
        <div class = "card_tastnote_text" style="grid-area: a;"> <p style= "height:fit-content; margin: 0px;"> {{ tastenotes.first |downcase}} </p> </div>
        <div class = "card_tastnote_text"  style="grid-area: b;"> <p style= "height:fit-content; margin: 0px;"> {{ tastenotes[1] |downcase}} </p> </div>
-     {% else %}
-      <p class="card_tastnote_text"style="text-transform: capitalize; grid-area: a; grid-column: span 2;"> {{ card_product.metafields.custom.taste_notes|escape |downcase }}</p>
-     {% endif %} 
+       {% else %}
+         <p class="card_tastnote_text"style="text-transform: capitalize; grid-area: a; grid-column: span 2;"> {{ card_product.metafields.custom.taste_notes|escape |downcase }}</p>
+     {%endcase%}
    </div>
    
 {% endif %}   

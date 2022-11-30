@@ -97,15 +97,15 @@
     "predictive_search_show_price": false,
     "favicon": "shopify:\/\/shop_images\/barn_logo_large_house_white.webp",
     "currency_code_enabled": true,
-    "color_profile_terroir": "#267632",
-    "color_profile_balanced": "#7e5d38",
-    "color_profile_exotic": "#ce5d03",
     "curated_filter_1": "Los Chorros, Honduras",
     "curated_filter_2": "Giakanya AA, Kenya",
     "curated_espresso_1": "Caballero Washed, Honduras",
     "curated_espresso_2": "Kiunyu AB, Kenya",
     "low_caf": "El Obraje Washed, Colombia",
     "espresso_of_the_month": "Caballero Washed, Honduras",
+    "color_profile_balanced": "#a48355",
+    "color_profile_terroir": "#13ab27",
+    "color_profile_exotic": "#ca6e1c",
     "checkout_logo_image": "shopify:\/\/shop_images\/barn_logo_large_house_white.webp",
     "checkout_logo_position": "center",
     "checkout_body_background_color": "#131313",
@@ -113,7 +113,7 @@
     "checkout_sidebar_background_color": "#212121",
     "checkout_accent_color": "#804d15",
     "checkout_button_color": "#68431b",
-    "color_profile_balance": "#0c9836",
+    "color_profile_terrior": "#178413",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -121,7 +121,7 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
             "settings": {
-              "text": "DONT MISS OUT: LIMITED CHRISTMAS GIFT SUBSCRIPTION 🌲📦",
+              "text": "THE BEST CHRISTMAS GIFT FOR A COFFEE LOVER",
               "color_scheme": "accent-1",
               "link": "https:\/\/thebarn.de\/products\/christmas-3-months-gift-subscription"
             }
@@ -220,6 +220,12 @@
       },
       "5389821579888176532": {
         "type": "shopify:\/\/apps\/geolocation-product-blocker\/blocks\/app-embed\/cebd97aa-ffad-40fc-90fb-b9ee6a39f8b6",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14429071373314833104": {
+        "type": "shopify:\/\/apps\/candy-rack-all-in-one-upsell\/blocks\/head\/cb9c657f-334f-4905-80c2-f69cca01460c",
         "disabled": false,
         "settings": {
         }

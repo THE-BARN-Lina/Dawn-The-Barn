@@ -24,7 +24,7 @@
         "16536485364024ce9d-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/82041b76-de41-47e5-bdd7-653d8b2d6c4c_6098e16f-b204-483b-b7bb-2d96331bfcac.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_6045.jpg",
         "image_overlay_opacity": 30,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -38,57 +38,6 @@
         "show_text_below": false
       }
     },
-    "165364865504f222aa": {
-      "type": "rich-text",
-      "blocks": {
-        "1653648655189455e5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "1653648655189455e5-0"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "1651573600c50faa59": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "16515736008aaacc61-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "SELECT YOUR SUBSCRIPTION",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "16515736008aaacc61-0"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -98,54 +47,89 @@
         "color_scheme": "background-2"
       }
     },
-    "16518336251bec1554": {
+    "1a713986-dc37-4b66-b5cf-0705458ba228": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
-        "165183362505911af8-1": {
+        "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our most popular Coffee Subscriptions are now tailormade for the USA & Canada. <\/p><p><\/p><p><strong>CHEAPER & FASTER<br\/><\/strong>We ship fresh roast to our warehouse in the US. From there we send it out with local mail to you. No more hassle with customs - shipping included.<\/p>"
+            "text": "<p>LET PROFILES BE YOUR GUIDE<\/p>"
+          }
+        },
+        "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Taste by Profiles",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "165183362505911af8-1"
+        "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-1",
+        "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-0"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 24
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "disabled": true,
+    "9aed932f-1130-4b01-8d78-81c28dfcac7f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-0": {
+          "type": "column",
+          "settings": {
+            "title": "Balanced",
+            "text": "<p>An entry style level Single Origin coffee with a balanced cup profile. Coffees in this category are typically sweet, round with a low to medium acidity. Easy drinking, all day coffees. Of course, they will have a minimum scoring of 86 points.<\/p>",
+            "link_label": "",
+            "link": "https:\/\/thebarn.de\/collections\/beans?filter.p.m.bean.profile=Balanced",
+            "custom_liquid": ""
+          }
+        },
+        "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-1": {
+          "type": "column",
+          "settings": {
+            "title": "Terroir",
+            "text": "<p>Our core strength are coffees with distinct notes of terroir and exciting cup profiles. Single farm partnership coffees offering a taste journey throughout the best coffee regions and some of the most skillful coffee producer on this planet.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-2": {
+          "type": "column",
+          "settings": {
+            "title": "Exotic",
+            "text": "<p>This advanced level of processing features more extreme taste profiles,  coming from fermentation and the processing of these super extra-ordinary coffees. You often find boozy, funky or cinnamon flavours, overripe fruits and an intense dry aroma.<\/p>",
+            "link_label": "",
+            "link": "https:\/\/thebarn.de\/collections\/beans?filter.p.m.bean.profile=Balanced",
+            "custom_liquid": "{%render 'thebarn.coffeebeanprofile'%}"
+          }
+        }
+      },
+      "block_order": [
+        "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-0",
+        "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-1",
+        "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-2"
+      ],
       "settings": {
-        "products_per_page": 16,
-        "columns_desktop": 2,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "quick_add_button_color": "",
-        "enable_filtering": false,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "2",
-        "padding_top": 100,
-        "padding_bottom": 36
-      }
-    },
-    "1651574465fc19c571": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
         "color_scheme": "background-1",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "16609093955d46716e": {
@@ -156,6 +140,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
+        "show_tastenotes": true,
         "show_rating": false,
         "enable_quick_add": true,
         "quick_add_button_color": "#804d15",
@@ -163,8 +148,8 @@
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "16609096892f959660": {
@@ -213,17 +198,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1651574465fc19c571": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}\n<style>\n.card__media{\n  background: linear-gradient(180deg, rgb(227, 226, 220) 0%, rgb(215, 208, 199) 60%, rgb(224, 224, 219) 71%, rgb(193, 183, 169) 85%);\n}\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "16536485367ff1191d",
-    "165364865504f222aa",
-    "1651573600c50faa59",
     "banner",
-    "16518336251bec1554",
-    "product-grid",
-    "1651574465fc19c571",
+    "1a713986-dc37-4b66-b5cf-0705458ba228",
+    "9aed932f-1130-4b01-8d78-81c28dfcac7f",
     "16609093955d46716e",
-    "16609096892f959660"
+    "16609096892f959660",
+    "1651574465fc19c571"
   ]
 }

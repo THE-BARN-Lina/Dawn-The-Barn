@@ -82,23 +82,21 @@
             "page": ""
           }
         },
-        "collapsible-row-2": {
+        "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
+            "heading": "Stay in Control",
+            "icon": "stopwatch",
+            "content": "<p>With our new online tool you can access your subscriber account and adjust as you like: Add more coffee beans to your next delivery (at 10% discount), skip a delivery or adjust the dispatch date. Change your address or simply opt out. <\/p>",
             "page": ""
           }
         },
-        "collapsible-row-3": {
+        "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "heading": "Shipping Information",
+            "icon": "truck",
+            "content": "<p><strong>Non-EU and all wordwide customers <br\/><\/strong>Shipping included – taxes and import fees not included.<\/p><p><\/p><p>Our international subscribers can now opt between Premium Tracked Service (Fast) or Eco Untracked Service (Cheaper).<\/p>",
             "page": ""
           }
         },
@@ -158,8 +156,8 @@
         "buy_buttons",
         "description",
         "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
+        "collapsible-row-2",
         "share",
         "6ca2dfaf-57f2-423e-a8df-929d589ab9da",
         "9b8f5bbf-0f5b-4ab9-8bdc-e4a03fe71793",
