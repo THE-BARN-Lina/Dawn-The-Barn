@@ -8,16 +8,10 @@
         "padding_bottom": 28
       }
     },
-    "e4e851bf-e627-4ccf-83a5-203b2ffc9601": {
-      "type": "rich-text",
+    "acb921d1-88a6-4f01-8554-ac07aa6069dd": {
+      "type": "image-banner",
       "blocks": {
-        "b5908932-d5b6-4b61-9ef8-cdf0486632fc": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>THE BARN SPECIALITY COFFEE<\/strong><\/p>"
-          }
-        },
-        "template--16216421400843__e4e851bf-e627-4ccf-83a5-203b2ffc9601-166937409999910c0c-0": {
+        "template--16379873853707__acb921d1-88a6-4f01-8554-ac07aa6069dd-16698923465caa37bf-0": {
           "type": "heading",
           "settings": {
             "heading": "ADVENT CALENDAR EXPERIENCE",
@@ -26,14 +20,21 @@
         }
       },
       "block_order": [
-        "b5908932-d5b6-4b61-9ef8-cdf0486632fc",
-        "template--16216421400843__e4e851bf-e627-4ccf-83a5-203b2ffc9601-166937409999910c0c-0"
+        "template--16379873853707__acb921d1-88a6-4f01-8554-ac07aa6069dd-16698923465caa37bf-0"
       ],
       "settings": {
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80
+        "image": "shopify:\/\/shop_images\/cca8fe96-bb92-41da-b9a4-473d80fe2500.webp",
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "transparent_block": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80": {
@@ -235,7 +236,7 @@
   },
   "order": [
     "main",
-    "e4e851bf-e627-4ccf-83a5-203b2ffc9601",
+    "acb921d1-88a6-4f01-8554-ac07aa6069dd",
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80",
     "165338928113f35a7d"
   ]
