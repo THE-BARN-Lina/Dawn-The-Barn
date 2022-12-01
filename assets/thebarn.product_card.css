@@ -51,7 +51,4 @@
         width: 100%;
         margin-bottom: 5px !important;
     }
-    .card__media{
-      background: linear-gradient(180deg, rgb(227, 226, 220) 0%, rgb(215, 208, 199) 60%, rgb(224, 224, 219) 71%, rgb(193, 183, 169) 85%);
-    }
 
