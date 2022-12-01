@@ -69,6 +69,12 @@
         "label": "t:settings_schema.colors.settings.colors_background_1.label"
       },
       {
+        "type": "color_background",
+        "id": "color_image_background",
+        "default": "#363636",
+        "label": "Image Background Color"
+      },
+      {
         "id": "gradient_background_1",
         "type": "color_background",
         "label": "t:settings_schema.colors.settings.gradient_background_1.label"
