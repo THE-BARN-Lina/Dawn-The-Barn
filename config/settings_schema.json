@@ -71,7 +71,7 @@
       {
         "type": "color_background",
         "id": "color_image_background",
-        "default": "#363636",
+        "default": "linear-gradient(#ffffff, #000000)",
         "label": "Image Background Color"
       },
       {
