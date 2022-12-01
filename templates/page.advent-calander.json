@@ -87,7 +87,7 @@
             "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<p>DEC 5TH<\/p>"
           }
         },
         "86a91959-faf0-4c55-8529-4f339a920933": {
@@ -98,7 +98,7 @@
             "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<body>"
           }
         },
         "93ede514-ef6e-476b-8aea-ef8cf37b5899": {
@@ -197,7 +197,7 @@
             "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<style>\n .multicolumn-card__image {\nfilter: blur(3px); !important;}\n<\/style>"
           }
         }
       },
