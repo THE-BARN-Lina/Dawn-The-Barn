@@ -14,7 +14,7 @@
         "template--16379897512203__253402cd-6aae-45df-8b59-88861dafe335-16698092439dafca36-0": {
           "type": "heading",
           "settings": {
-            "heading": "{{ page.title }}",
+            "heading": "Your coffee on {{ page.title }}",
             "heading_size": "h0"
           }
         }
