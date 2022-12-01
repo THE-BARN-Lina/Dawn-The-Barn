@@ -197,7 +197,7 @@
             "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": "<h3 class=overlay-text>DEC 24TH<\/h3>\n\n<style>\n .multicolumn-card__image {\nfilter: blur(3px); !important;}\n\n#Slide-template--16379873853707__165338928113f35a7d, .overlay-text{\ncolor: white;\nfont-weight: bold;\ntext-align: center;\nposition: absolute;\ntop: 27%;\nleft: 50%;\ntransform: translate(-50%, -50%);}\n<\/style>"
+            "custom_liquid": "<h3 class=overlay-text>DEC 24TH<\/h3>\n\n<style>\n \n\nmulticolumn-list__item grid__item .media media--transparent media--square .multicolumn-card__image, li:nth-child(n+2) {\nfilter: blur(3px); !important;}\n\n#Slide-template--16379873853707__165338928113f35a7d, .overlay-text{\ncolor: white;\nfont-weight: bold;\ntext-align: center;\nposition: absolute;\ntop: 27%;\nleft: 50%;\ntransform: translate(-50%, -50%);}\n<\/style>"
           }
         }
       },
