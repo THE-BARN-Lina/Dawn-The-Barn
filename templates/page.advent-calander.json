@@ -98,7 +98,7 @@
             "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": "<body>"
+            "custom_liquid": "<h3 class=overlay-text>DEC 6TH<\/h3>"
           }
         },
         "93ede514-ef6e-476b-8aea-ef8cf37b5899": {
@@ -197,7 +197,7 @@
             "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": "<style>\n .multicolumn-card__image {\nfilter: blur(3px); !important;}\n\n#Slide-template--16379873853707__165338928113f35a7d-2 .overlay-text{\ncolor: white;\nfont-weight: bold;\ntext-align: center;}\n<\/style>"
+            "custom_liquid": "<style>\n .multicolumn-card__image {\nfilter: blur(3px); !important;}\n\n#Slide-template--16379873853707__165338928113f35a7d, .overlay-text{\ncolor: white;\nfont-weight: bold;\ntext-align: center;}\n<\/style>"
           }
         }
       },
