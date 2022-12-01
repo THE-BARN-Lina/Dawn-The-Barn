@@ -178,6 +178,17 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
+        "27d8bd53-7629-4848-8a0e-e6df135662c1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EBC0FF2D-CCB2-4466-9BD0-60111442F322_cc40df82-f8da-4f43-a6c8-479b62c01d16.jpg",
+            "title": "December 2022",
+            "text": "<p>Yemen Alchemy - Yemen<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
         "28b0f08c-11fb-4359-b8a4-7d166ef1090c": {
           "type": "column",
           "settings": {
@@ -185,7 +196,8 @@
             "title": "November 2022",
             "text": "<p>Sudan Rume - Colombia<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "column-0": {
@@ -195,7 +207,8 @@
             "title": "October 2022",
             "text": "<p>Finca Auromar - Panama<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "column-1": {
@@ -205,7 +218,8 @@
             "title": "September 2022",
             "text": "<p>El Obraje Washed - Colombia<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "e3693e32-3e1d-4248-843b-3ea05fca3222": {
@@ -215,7 +229,8 @@
             "title": "August 2022",
             "text": "<p>El Burro Geisha - Panama<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "0448ab10-38ad-45f9-a478-170a5c1cc72d": {
@@ -225,7 +240,8 @@
             "title": "July 2022",
             "text": "<p>Yemen Alchemy - Yemen<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "93adf530-e26e-448b-a1aa-d3cdc4e15ddb": {
@@ -235,7 +251,8 @@
             "title": "June 2022",
             "text": "<p>Gesha Village Natural - Ethiopia<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "2d777bc0-ad0a-49be-9d6e-da413140cf58": {
@@ -245,7 +262,8 @@
             "title": "May 2022",
             "text": "<p>El Obraje Gesha. Nariño - Colombia<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "2142a6fb-61d3-4187-9c94-b81b11d42e7b": {
@@ -255,11 +273,13 @@
             "title": "April 2022",
             "text": "<p> Mokka. Finca Hawaii - Colombia<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         }
       },
       "block_order": [
+        "27d8bd53-7629-4848-8a0e-e6df135662c1",
         "28b0f08c-11fb-4359-b8a4-7d166ef1090c",
         "column-0",
         "column-1",
