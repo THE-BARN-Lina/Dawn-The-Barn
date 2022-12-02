@@ -109,15 +109,15 @@
         "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We take you through different coffee growing regions with a variation of processing and cultivar styles.<\/p><p>Two of our Masterpieces are part of your surprise bags. Each coffee bag contains 50g of coffee: Enough for 2 or 3 brews, depending on your brew size.<\/p>",
+            "text": "<p>We take you through different coffee growing regions with a variation of processing and cultivar styles.<\/p><p><strong>Two of our Masterpieces<\/strong> are part of your surprise bags. Each coffee bag contains 50g of coffee: Enough for 2 or 3 brews, depending on your brew size.<\/p><p>If you missed this years Advent Calendar, do sign up for the reservation list 2023<\/p>",
             "text_style": "body"
           }
         },
         "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "NOTIFY ME WHEN AVAILABLE",
+            "button_link": "shopify:\/\/products\/advent-calendar-2022"
           }
         }
       },
@@ -126,7 +126,8 @@
         "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-2"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/cca8fe96-bb92-41da-b9a4-473d80fe2500.webp",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
