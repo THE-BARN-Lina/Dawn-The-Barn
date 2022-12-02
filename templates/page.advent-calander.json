@@ -100,7 +100,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 40
       }
     },
     "5d823e76-b8cd-4a1f-8e13-d60e0d136a22": {
@@ -135,8 +135,8 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80": {
