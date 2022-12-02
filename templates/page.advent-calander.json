@@ -25,7 +25,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/cca8fe96-bb92-41da-b9a4-473d80fe2500.webp",
         "image_overlay_opacity": 60,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "transparent_block": true,
         "desktop_content_position": "middle-center",
@@ -50,7 +50,7 @@
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our first Advent Calendar has 24 surprises that take you on a fantastic flavour journey. <\/p><p>We have delicious teas and chocolate from our Berlin based partners and some essential brew (and steep) equipment. <\/p><p><\/p>",
+            "text": "<p>Our first Advent Calendar has 24 surprises that take you on a fantastic flavour journey. <\/p><p>We have delicious teas and chocolate from our Berlin based partners and some essential brew (and steep) equipment. <\/p><p>Most excited are we to share 1 of our Single Origin Coffees with you<\/p>",
             "text_style": "body"
           }
         },
