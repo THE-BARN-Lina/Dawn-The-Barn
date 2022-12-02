@@ -129,7 +129,7 @@
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 20,
-        "padding_bottom": 80
+        "padding_bottom": 40
       }
     },
     "1662738554a4ae067d": {
@@ -181,37 +181,8 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 64
-      }
-    },
-    "3c745dad-598d-473f-8669-98ccee87e5f0": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Gift Subscriptions",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "gift-subscriptions",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "show_vendor": true,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 80
+        "padding_bottom": 64
       }
     },
     "banner": {
@@ -299,6 +270,35 @@
         "padding_top": 20,
         "padding_bottom": 36
       }
+    },
+    "3c745dad-598d-473f-8669-98ccee87e5f0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Gift Subscriptions",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gift-subscriptions",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -306,10 +306,10 @@
     "4f1480d0-e188-4c1b-88a1-d0727494c927",
     "12c08833-363b-46d1-8516-2d25abd2136a",
     "1662738554a4ae067d",
-    "3c745dad-598d-473f-8669-98ccee87e5f0",
     "banner",
     "166186709197b72a8b",
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc",
-    "95588731-6055-4a06-8105-e34d15b5db92"
+    "95588731-6055-4a06-8105-e34d15b5db92",
+    "3c745dad-598d-473f-8669-98ccee87e5f0"
   ]
 }
