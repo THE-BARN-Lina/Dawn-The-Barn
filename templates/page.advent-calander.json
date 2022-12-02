@@ -336,6 +336,12 @@
           "settings": {
             "formId": ""
           }
+        },
+        "d718ea66-2ced-417f-a1e0-69fae0f69073": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<button id=\"BIS_trigger\" type=\"button\" class=\"button\" style=\"width: 100%; margin-top: 10px;\">NOTIFY ME WHEN AVAILABLE<\/button>"
+          }
         }
       },
       "block_order": [
@@ -347,7 +353,8 @@
         "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-5",
         "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-6",
         "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-7",
-        "9ed67853-547a-47bf-a907-e97ed79b4cf7"
+        "9ed67853-547a-47bf-a907-e97ed79b4cf7",
+        "d718ea66-2ced-417f-a1e0-69fae0f69073"
       ],
       "settings": {
         "product": "advent-calendar-2022",
