@@ -25,7 +25,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/cca8fe96-bb92-41da-b9a4-473d80fe2500.webp",
         "image_overlay_opacity": 60,
-        "image_height": "small",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "transparent_block": true,
         "desktop_content_position": "middle-center",
@@ -77,6 +77,7 @@
         },
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "NOTIFY ME WHEN AVAILABLE",
             "button_link": "shopify:\/\/products\/advent-calendar-2022"
