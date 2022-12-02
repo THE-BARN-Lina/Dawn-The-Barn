@@ -15,7 +15,7 @@
           "type": "heading",
           "settings": {
             "heading": "ADVENT CALENDAR EXPERIENCE",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         }
       },
@@ -37,13 +37,34 @@
         "show_text_below": true
       }
     },
+    "8fd28eac-b800-46cf-966a-781bdcccc447": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16379873853707__8fd28eac-b800-46cf-966a-781bdcccc447-16700147442e632ba2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BARN SPECIALTY COFFEE ADVENT CALENDAR",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16379873853707__8fd28eac-b800-46cf-966a-781bdcccc447-16700147442e632ba2-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
     "2178a1e0-fbe9-4b4f-8c5e-36afd31b043b": {
       "type": "image-with-text",
       "blocks": {
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-0": {
           "type": "heading",
           "settings": {
-            "heading": "THE BARN SPECIALTY COFFEE ADVENT CALENDAR",
+            "heading": "",
             "heading_size": "h2"
           }
         },
@@ -282,6 +303,7 @@
   "order": [
     "main",
     "acb921d1-88a6-4f01-8554-ac07aa6069dd",
+    "8fd28eac-b800-46cf-966a-781bdcccc447",
     "2178a1e0-fbe9-4b4f-8c5e-36afd31b043b",
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80",
     "165338928113f35a7d"
