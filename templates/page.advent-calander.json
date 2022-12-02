@@ -103,6 +103,41 @@
         "padding_bottom": 36
       }
     },
+    "5d823e76-b8cd-4a1f-8e13-d60e0d136a22": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We take you through different coffee growing regions with a variation of processing and cultivar styles.<\/p><p>Two of our Masterpieces are part of your surprise bags. Each coffee bag contains 50g of coffee: Enough for 2 or 3 brews, depending on your brew size.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-1",
+        "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80": {
       "type": "rich-text",
       "blocks": {
@@ -306,6 +341,7 @@
     "acb921d1-88a6-4f01-8554-ac07aa6069dd",
     "8fd28eac-b800-46cf-966a-781bdcccc447",
     "2178a1e0-fbe9-4b4f-8c5e-36afd31b043b",
+    "5d823e76-b8cd-4a1f-8e13-d60e0d136a22",
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80",
     "165338928113f35a7d"
   ]
