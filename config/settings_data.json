@@ -104,7 +104,7 @@
     "low_caf": "El Obraje Washed, Colombia",
     "espresso_of_the_month": "Caballero Washed, Honduras",
     "color_profile_balanced": "#a48355",
-    "color_profile_terroir": "#13ab27",
+    "color_profile_terrior": "#178413",
     "color_profile_exotic": "#ca6e1c",
     "checkout_logo_image": "shopify:\/\/shop_images\/barn_logo_large_house_white.webp",
     "checkout_logo_position": "center",
@@ -113,7 +113,7 @@
     "checkout_sidebar_background_color": "#212121",
     "checkout_accent_color": "#804d15",
     "checkout_button_color": "#68431b",
-    "color_profile_terrior": "#178413",
+    "color_profile_terroir": "#13ab27",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
