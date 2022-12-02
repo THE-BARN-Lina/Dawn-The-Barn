@@ -277,94 +277,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "eb7197ab-c873-45a9-aab8-5595e97e7a92": {
-      "type": "featured-product",
-      "blocks": {
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-4": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-7": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "9ed67853-547a-47bf-a907-e97ed79b4cf7": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": ""
-          }
-        },
-        "d718ea66-2ced-417f-a1e0-69fae0f69073": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<button id=\"BIS_trigger\" type=\"button\" class=\"button\" style=\"width: 100%; margin-top: 10px;\">NOTIFY ME WHEN AVAILABLE<\/button>\n\n<script>\nfunction() {\nBIS.popup.form.selectVariant(t)\n}\n<\/script>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-0",
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-1",
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-2",
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-3",
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-4",
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-5",
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-6",
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-7",
-        "9ed67853-547a-47bf-a907-e97ed79b4cf7",
-        "d718ea66-2ced-417f-a1e0-69fae0f69073"
-      ],
-      "settings": {
-        "product": "advent-calendar-2022",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -372,7 +284,6 @@
     "acb921d1-88a6-4f01-8554-ac07aa6069dd",
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80",
     "2178a1e0-fbe9-4b4f-8c5e-36afd31b043b",
-    "165338928113f35a7d",
-    "eb7197ab-c873-45a9-aab8-5595e97e7a92"
+    "165338928113f35a7d"
   ]
 }
