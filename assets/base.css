@@ -1203,7 +1203,8 @@ summary::-webkit-details-marker {
   object-fit: cover;
   object-position: center center;
   transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  background: linear-gradient(180deg, rgb(227, 226, 220) 0%, rgb(215, 208, 199) 60%, rgb(224, 224, 219) 71%, rgb(193, 183, 169) 85%) !important;
+  background: #363636;
+  
 }
 
 .media--square {
@@ -2817,7 +2818,7 @@ details-disclosure > details {
 .global-media-settings model-viewer,
 .global-media-settings video {
   border-radius: calc(var(--media-radius) - var(--media-border-width));
-  background: linear-gradient(180deg, rgb(227, 226, 220) 0%, rgb(215, 208, 199) 60%, rgb(224, 224, 219) 71%, rgb(193, 183, 169) 85%) !important;
+  background: red ;
 }
 
 .content-container--full-width,

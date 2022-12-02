@@ -202,7 +202,7 @@
     "1651574465fc19c571": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}\n<style>\n.card__media{\n  background: linear-gradient(180deg, rgb(227, 226, 220) 0%, rgb(215, 208, 199) 60%, rgb(224, 224, 219) 71%, rgb(193, 183, 169) 85%);\n}\n}\n<\/style>",
+        "custom_liquid": "{% render | \"four-icons\" %}",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
