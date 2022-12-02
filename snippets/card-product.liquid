@@ -48,6 +48,7 @@
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+            <a href="{{ product.url }}" class="full-unstyled-link">
               <img
                 srcset="{%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if card_product.featured_media.width >= 360 -%}{{ card_product.featured_media | image_url: width: 360 }} 360w,{%- endif -%}
@@ -83,9 +84,11 @@
                   width="{{ card_product.media.last.width }}"
                   height="{{ card_product.media.last.height }}"
                 >
+                </a>
               {%- endif -%}
             </div>
           </div>
+        
         {%- endif -%}
         <div class="card__content">
           <div class="card__information">
