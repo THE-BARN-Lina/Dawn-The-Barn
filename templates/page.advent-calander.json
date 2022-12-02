@@ -67,7 +67,6 @@
     },
     "2178a1e0-fbe9-4b4f-8c5e-36afd31b043b": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-0": {
           "type": "heading",
@@ -79,7 +78,7 @@
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Our first Advent Calendar has 24 surprises that take you on a fantastic flavour journey. <\/p><p>We have delicious teas and chocolate from our Berlin based partners and some essential brew (and steep) equipment. <\/p><p>Most excited are we to share 1 of our Single Origin Coffees with you: We take you through different coffee growing regions with a variation of processing and cultivar styles.<\/p><p> Two of our Masterpieces are part of your surprise bags. Each coffee bag contains 50g of coffee: Enough for 2 or3 brews, depending on your brew size.<\/p>",
             "text_style": "body"
           }
         },
