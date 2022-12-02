@@ -49,7 +49,6 @@
         },
         "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>For the first time this year we have created our very own Christmas Advent Calendar.<\/p><p>There is nothing quite like the <br\/>countdown to Christmas and our calendar will give you a different <br\/>flavour experience every day. With 12 unique coffees we will be taking <br\/>you around the world to experience terroir, varietal, and process.<\/p><p>For every coffee, we will be <br\/>releasing a video introduction and brew guide to tell you a little more <br\/>about the different flavours that await. So each time you find a new <br\/>coffee in your calendar, check in here and see the new videos.<\/p><p>Have an amazing festive season and Merry Christmas from everyone here at The Barn!<\/p><p>Spoiler alert! Each coffee is named below so if you want to keep each coffee as a surprise stop reading now.<\/p>"
           }
@@ -73,8 +72,8 @@
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "THE BARN SPECIALTY COFFEE ADVENT CALENDAR",
+            "heading_size": "h2"
           }
         },
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-1": {
@@ -87,8 +86,8 @@
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "NOTIFY ME WHEN AVAILABLE",
+            "button_link": "shopify:\/\/products\/advent-calendar-2022"
           }
         }
       },
@@ -98,83 +97,15 @@
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-2"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "image": "shopify:\/\/shop_images\/cca8fe96-bb92-41da-b9a4-473d80fe2500.webp",
+        "height": "small",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa": {
-      "type": "featured-product",
-      "blocks": {
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h2"
-          }
-        },
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "11f70a82-93bd-4614-b88f-95c12128c6c4": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-3": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-5": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-7": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-0",
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-1",
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-2",
-        "11f70a82-93bd-4614-b88f-95c12128c6c4",
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-3",
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-5",
-        "template--16379873853707__5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa-1669989047d6dda99a-7"
-      ],
-      "settings": {
-        "product": "advent-calendar-2022",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -330,7 +261,7 @@
         "65804a50-6f0c-49cb-bce9-bc64beacdf78"
       ],
       "settings": {
-        "title": "The Twelve Coffees of Christmas",
+        "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "square",
@@ -353,7 +284,6 @@
     "acb921d1-88a6-4f01-8554-ac07aa6069dd",
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80",
     "2178a1e0-fbe9-4b4f-8c5e-36afd31b043b",
-    "5ad5bc33-7dc0-4f6f-a206-bac1c8af18aa",
     "165338928113f35a7d"
   ]
 }
