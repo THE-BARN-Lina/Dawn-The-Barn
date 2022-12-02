@@ -142,24 +142,23 @@
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80": {
       "type": "rich-text",
       "blocks": {
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please find below our “Calendar doors” that reveal more detailed information on each coffee<br\/>with video brew tips. <strong>Spoiler alert:<\/strong> Don’t click before you open your<br\/>cotton bag on those particular days mentioned below. <\/p><p>Merry Christmas from everyone here at The Barn!<\/p>"
+          }
+        },
         "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-0": {
           "type": "heading",
           "settings": {
             "heading": "The Twelve Coffees of Christmas",
             "heading_size": "h1"
           }
-        },
-        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>For the first time this year we have created our very own Christmas Advent Calendar.<\/p><p>There is nothing quite like the <br\/>countdown to Christmas and our calendar will give you a different <br\/>flavour experience every day. With 12 unique coffees we will be taking <br\/>you around the world to experience terroir, varietal, and process.<\/p><p>For every coffee, we will be <br\/>releasing a video introduction and brew guide to tell you a little more <br\/>about the different flavours that await. So each time you find a new <br\/>coffee in your calendar, check in here and see the new videos.<\/p><p>Have an amazing festive season and Merry Christmas from everyone here at The Barn!<\/p><p>Spoiler alert! Each coffee is named below so if you want to keep each coffee as a surprise stop reading now.<\/p>"
-          }
         }
       },
       "block_order": [
-        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-0",
-        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1"
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1",
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-0"
       ],
       "settings": {
         "color_scheme": "background-1",
