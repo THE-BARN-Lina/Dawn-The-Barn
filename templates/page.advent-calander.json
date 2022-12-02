@@ -68,6 +68,7 @@
     },
     "2178a1e0-fbe9-4b4f-8c5e-36afd31b043b": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-0": {
           "type": "heading",
@@ -307,6 +308,7 @@
         },
         "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-4": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -319,13 +321,20 @@
         "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-6": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-7": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "9ed67853-547a-47bf-a907-e97ed79b4cf7": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
           }
         }
       },
@@ -337,7 +346,8 @@
         "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-4",
         "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-5",
         "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-6",
-        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-7"
+        "template--16379873853707__eb7197ab-c873-45a9-aab8-5595e97e7a92-1669989047d6dda99a-7",
+        "9ed67853-547a-47bf-a907-e97ed79b4cf7"
       ],
       "settings": {
         "product": "advent-calendar-2022",
