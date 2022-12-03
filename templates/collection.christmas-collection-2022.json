@@ -201,7 +201,7 @@
           "settings": {
             "button_label": "ORDER GIFT BOX",
             "button_link": "shopify:\/\/collections\/christmas-gift-boxes",
-            "button_style_secondary": true
+            "button_style_secondary": false
           }
         }
       },
@@ -209,10 +209,10 @@
         "template--16216422056203__48e1d4c7-dcb9-4432-98d1-302de97bce7c-16700559612f64825e-2"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "full_width": true,
-        "padding_top": 24,
-        "padding_bottom": 0
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
     "166186709197b72a8b": {
