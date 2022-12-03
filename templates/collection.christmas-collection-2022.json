@@ -193,6 +193,28 @@
         "color_scheme": "accent-2"
       }
     },
+    "48e1d4c7-dcb9-4432-98d1-302de97bce7c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16216422056203__48e1d4c7-dcb9-4432-98d1-302de97bce7c-16700559612f64825e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER GIFT BOX",
+            "button_link": "shopify:\/\/collections\/christmas-special-2022",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16216422056203__48e1d4c7-dcb9-4432-98d1-302de97bce7c-16700559612f64825e-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
     "166186709197b72a8b": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -307,6 +329,7 @@
     "12c08833-363b-46d1-8516-2d25abd2136a",
     "1662738554a4ae067d",
     "banner",
+    "48e1d4c7-dcb9-4432-98d1-302de97bce7c",
     "166186709197b72a8b",
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc",
     "95588731-6055-4a06-8105-e34d15b5db92",
