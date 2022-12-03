@@ -200,7 +200,7 @@
           "type": "button",
           "settings": {
             "button_label": "ORDER GIFT BOX",
-            "button_link": "shopify:\/\/collections\/christmas-special-2022",
+            "button_link": "shopify:\/\/collections\/christmas-gift-boxes",
             "button_style_secondary": true
           }
         }
