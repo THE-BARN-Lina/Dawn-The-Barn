@@ -130,13 +130,14 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "quick_add_button_color": "#68431b",
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "padding_top": 32,
         "padding_bottom": 36
       }
@@ -161,6 +162,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "1",
