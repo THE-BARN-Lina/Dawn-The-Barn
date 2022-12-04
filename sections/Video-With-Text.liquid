@@ -1,6 +1,6 @@
 {% schema %}
   {
-    "name": "Section name",
+    "name": "THE BARN VIDEO",
     "settings": [
          {
       "type": "text",
@@ -17,6 +17,22 @@
        {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "video_height",
+      "min": 30,
+      "max": 200,
+      "step": 5,
+      "unit": "vh",
+      "label": "Video Height",
+      "default": 70
+    },
+    {
+      "type": "checkbox",
+      "id": "video_autoplay",
+      "label": "Video Mute & Autoplay",
+      "default": true
     },
     {
       "type": "range",
@@ -46,9 +62,11 @@
   }
 {% endschema %}
 <div style="display:flex;   align-items: center;
-  justify-content: center;"><iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/{{ section.settings.video_id }}?playlist={{ section.settings.video_id }}&loop=1&controls=0&autoplay=1&mute=1&amp;start=5"title="YouTube video player" frameborder="0" allow="accelerometer; ; clipboard-write; encrypted-media;mute=1; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  justify-content: center;"><iframe width="700px" height="394" src="https://www.youtube-nocookie.com/embed/{{ section.settings.video_id }}?playlist={{ section.settings.video_id }}&loop=1{%if section.settings.video_autoplay == true%}&autoplay=1&controls=0&mute=1{% else %}&autoplay=0&controls=1&mute=0{%endif%}&amp;start=0"
+    title="THE BARN" frameborder="0" allow="accelerometer; ; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div id="text">
   <h3>{{section.settings.overlay}}</h3>
+
 </div>
 </div>
 <style>
@@ -56,6 +74,11 @@
   .section-{{ section.id }}-padding {
   padding-top: calc({{ section.settings.padding_top }}px * 0.75);
   padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+}
+
+iframe{
+  height: {{ section.settings.video_height}};
+  width: calc({{ section.settings.video_height}} * 16 /9)vh;
 }
 
 @media screen and (min-width: 750px) {
