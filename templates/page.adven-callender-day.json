@@ -89,6 +89,7 @@
     },
     "8f1be29f-f14e-485c-a7df-94472a50cd9d": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div=\"container\">\n<div class=\"i-container\">\n<iframe width=50% height=\"534\" src=\"https:\/\/www.youtube.com\/embed\/Q3fAFcpupus\" title=\"ADVENTCALENDAR REVEALING 01.12.2022 STARDUST, BRAZIL\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<\/div>\n<\/div>\n\n<style>\n.i-container {\ndisplay: flex;\njustify-content: center;}\n\n\n@media only screen and (max-width: 600px) {\niframe{\n\/*position: absolute;*\/\ntop:0;\nleft: 0;\n  width: 100%;\n  height: 32vh;\n}\n}\n<\/style>",
         "color_scheme": "background-1",
@@ -98,7 +99,6 @@
     },
     "d3677044-3934-4e0a-8083-f3bd974bf1f8": {
       "type": "Video-With-Text",
-      "disabled": true,
       "settings": {
         "video_id": "{{ page.metafields.cadvent_callender.Video.value }}",
         "overlay": "",
