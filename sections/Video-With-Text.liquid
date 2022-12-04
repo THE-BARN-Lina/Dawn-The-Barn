@@ -1,6 +1,6 @@
 {% schema %}
   {
-    "name": "Section name",
+    "name": "THE BARN VIDEO",
     "settings": [
          {
       "type": "text",
@@ -17,6 +17,15 @@
        {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "video_widht",
+      "min": 300,
+      "max": 1400,
+      "step": 50,
+      "label": "Video Width",
+      "default": 800
     },
     {
       "type": "range",
@@ -46,7 +55,7 @@
   }
 {% endschema %}
 <div style="display:flex;   align-items: center;
-  justify-content: center;"><iframe width="700" height="394" src="https://www.youtube-nocookie.com/embed/{{ section.settings.video_id }}?playlist={{ section.settings.video_id }}&loop=1&controls=0&autoplay=1&mute=1&amp;start=5"title="YouTube video player" frameborder="0" allow="accelerometer; ; clipboard-write; encrypted-media;mute=1; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  justify-content: center;"><iframe width="{{ section.settings.video_width }}" height="394" src="https://www.youtube-nocookie.com/embed/{{ section.settings.video_id }}?playlist={{ section.settings.video_id }}&loop=1&controls=0&autoplay=1&mute=1&amp;start=5"title="THE BARN" frameborder="0" allow="accelerometer; ; clipboard-write; encrypted-media;mute=1; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div id="text">
   <h3>{{section.settings.overlay}}</h3>
 </div>
