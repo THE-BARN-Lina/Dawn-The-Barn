@@ -102,6 +102,7 @@
       "settings": {
         "video_id": "{{ page.metafields.cadvent_callender.Video.value }}",
         "overlay": "",
+        "video_height": 125,
         "padding_top": 56,
         "padding_bottom": 84
       }
