@@ -188,8 +188,8 @@
             "title": "DEC 5th",
             "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
-            "link": "",
-            "custom_liquid": "<h3 class=overlay-text>DEC 5TH<\/h3>\n\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-2 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
+            "link": "shopify:\/\/pages\/5th-december",
+            "custom_liquid": ""
           }
         },
         "86a91959-faf0-4c55-8529-4f339a920933": {
