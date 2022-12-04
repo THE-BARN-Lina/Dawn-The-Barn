@@ -20,12 +20,13 @@
     },
     {
       "type": "range",
-      "id": "video_widht",
-      "min": 300,
-      "max": 1400,
-      "step": 50,
-      "label": "Video Width",
-      "default": 800
+      "id": "video_height",
+      "min": 30,
+      "max": 200,
+      "step": 5,
+      "unit": "vh",
+      "label": "Video Height",
+      "default": 70
     }
     {
       "type": "range",
@@ -68,8 +69,8 @@
 }
 
 iframe{
-  height: 80vh;
-  width: calc(80vh * 16 /9);
+  height: {{ section.settings.video_height}};
+  width: calc({{ section.settings.video_height}} * 16 /9)vh;
 }
 
 @media screen and (min-width: 750px) {
