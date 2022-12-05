@@ -157,7 +157,7 @@
       height="{{ 973 | divided_by: media.preview_image.aspect_ratio | ceil }}"
       alt="{{ media.preview_image.alt | escape }}"
     >
-      <div style="display: flex; justify-content: right; padding:1vh ">
+      <div style="display: flex; justify-content: right; padding:1vh display: -webkit-box;  display: -ms-flexbox;  display: -webkit-flex;">
         {% render 'primeb', product: product, hideAssets:'1', primebGroup:'2', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
         </div>
   </button>
