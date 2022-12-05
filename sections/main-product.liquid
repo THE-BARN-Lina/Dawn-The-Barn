@@ -86,9 +86,6 @@
               {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                 <li id="Slide-{{ section.id }}-{{ media.id }}" class="product__media-item grid__item slider__slide{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
                   {%- assign media_position = media_position | default: 0 | plus: 1 -%}
-                   <div style="display: flex; justify-content: right; padding:1vh ">
-                    {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-                    </div>
                   {% render 'product-thumbnail', media: media, position: media_position, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, lazy_load: true %}
                 </li>
               {%- endunless -%}
@@ -161,8 +158,6 @@
                       width="208"
                       loading="lazy"
                     >
-                      {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-                  
                   
                   </button>
                
@@ -214,9 +209,6 @@
                       >
                    
                     </button>
-                    <div style="display: flex; justify-content: right; padding:1vh ">
-                      {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-                      </div>
                   </li>
                 {%- endunless -%}
               {%- endfor -%}
@@ -244,9 +236,7 @@
                     {% for word in words %}
                       {{ word | capitalize }}
                     {% endfor %}{% endcapture %}
-        {%else%}
-        {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %} <p class="product__text">  {{titlecase}}</p>
-        
+        {%else%}   
             <p class="product__text{% if block.settings.text_style == 'uppercase' %} uppercase{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
               {{- block.settings.text -}}
             </p>
