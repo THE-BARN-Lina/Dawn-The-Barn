@@ -44,15 +44,11 @@
   
       <div class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
    
-       
-
+{% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
   {%- if card_product.featured_media -%}
           <div class="card__media">
-          
             <div class="media media--transparent media--hover-effect">
-          
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-             
               <img
                 srcset="{%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if card_product.featured_media.width >= 360 -%}{{ card_product.featured_media | image_url: width: 360 }} 360w,{%- endif -%}
@@ -69,7 +65,6 @@
                 width="{{ card_product.featured_media.width }}"
                 height="{{ card_product.featured_media.height }}"
               >
-              
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
               {%- if card_product.media.last != nil and show_secondary_image -%}
@@ -90,11 +85,6 @@
                   height="{{ card_product.media.last.height }}"
                 >
               {%- endif -%}
-              <div style="display: flex; justify-content: right; padding:1vh; display: -webkit-box !important;  display: -ms-flexbox;  display: -webkit-flex;">
-                <div style="width:50px">
-                {% render 'primeb', product: card_product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-                </div>
-              </div>
             </div>
           </div>
         {%- endif -%}
@@ -118,11 +108,12 @@
       <div class="card__content">
 
         <div class="card__information">
+      
           {% render 'thebarn.product_card.badge_region_profile' , card_product:card_product %}
           {%render 'thebarn.product_card.badge_tastenote' , card_product:card_product , show_tastenotes:show_tastenotes %}
           <h3 class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"{% if card_product.featured_media or settings.card_style == 'card' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
             <a href="{{ card_product.url }}" class="full-unstyled-link">
-             {{ card_product.title | escape }}
+              {{ card_product.title | escape }}
             </a>
           </h3>
    
@@ -248,7 +239,8 @@
       {% if extend_height %} card--extend-height{% endif %}
       {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
       {% if card_product.featured_media == nil and settings.card_style == 'card' %} ratio{% endif %}"
-      style="--ratio-percent: 100%;">
+      style="--ratio-percent: 100%;"
+    >
       <div class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if settings.card_style == 'standard' %} ratio{% endif %}" style="--ratio-percent: 100%;">
         <div class="card__content">
           <div class="card__information">
