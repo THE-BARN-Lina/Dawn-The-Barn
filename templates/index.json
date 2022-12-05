@@ -58,6 +58,15 @@
         "padding_bottom": 40
       }
     },
+    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "165339081846c57155": {
       "type": "featured-collection",
       "settings": {
@@ -177,15 +186,6 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 40
-      }
-    },
-    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc": {
@@ -350,10 +350,10 @@
   "order": [
     "image_banner",
     "1653387743507b82e2",
+    "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "165339081846c57155",
     "16529435131152e250",
     "1652970717af5972f9",
-    "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",
     "165900919845720bf8",
