@@ -235,7 +235,7 @@
                       {{ word | capitalize }}
                     {% endfor %}{% endcapture %}
         {%else%}
-        <p class="product__text">  {{titlecase}}</p>
+        {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %} <p class="product__text">  {{titlecase}}</p>
         
             <p class="product__text{% if block.settings.text_style == 'uppercase' %} uppercase{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
               {{- block.settings.text -}}
