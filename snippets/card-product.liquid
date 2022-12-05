@@ -48,13 +48,9 @@
 
   {%- if card_product.featured_media -%}
           <div class="card__media">
-            <div style="display: flex; justify-content: right; padding:1vh ">
-              {% render 'primeb', product: card_product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-              </div>
+          
             <div class="media media--transparent media--hover-effect">
-              <div style="display: flex; justify-content: right; padding:1vh ">
-                {% render 'primeb', product: card_product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-                </div>
+          
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
              
               <img
