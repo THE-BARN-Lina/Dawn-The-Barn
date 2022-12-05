@@ -195,6 +195,51 @@
 </div> 
 {% endif %}{% endif %}{% endif %}	{% endif %}
 	{% comment %} End Badge: 2 {% endcomment %}	
+	
+		
+  	{% comment %} Start Badge: 3 {% endcomment %}
+  	{% if primebBadgeCounter <= primebMaxDisplayBadge %}
+  	 {% assign isStartbShowBadge = false %} {% assign newstringproducttype0 = "Coffee" | downcase %} {% assign newstringvariantsku0 = "" | downcase %} {% assign newstringvariantoptionname0
+                    = "" | downcase %} {% assign finalvalue ="" | split : "" %}
+                                    {%- for option in product.options_with_values -%}
+                                    {% assign optionname = option.name |downcase %}
+                                    {%  if optionname == "" %}
+                                    {%- for value in option.values -%}
+                                    {% assign val = value | downcase %}
+                                    {% assign val =  val  |split: " " %}
+                                    {% assign finalvalue = finalvalue | concat : val  %}
+                                    {% endfor %}
+                                    {% endif %}
+                                    {% endfor %}{% assign newstringvariantoption0
+                    = "" | downcase %} {% assign valVariantOption00=false %}{% if product.metafields.prime.myordercount != blank %}
+							{% if product.metafields.prime.myordercount.value.ordercount %}
+							    {% assign OrderCount = product.metafields.prime.myordercount.value.ordercount | default: 0 %}
+							    {% assign RecentSoldCount = product.metafields.prime.myordercount.value.recentcount | default: 0 %}
+							{% else%}
+							    {% assign OrderCount = product.metafields.prime.myordercount.ordercount | default: 0 %}
+							    {% assign RecentSoldCount = product.metafields.prime.myordercount.recentcount | default: 0 %}
+							{% endif %}
+						{% else  %} 
+							{% assign OrderCount = product.metafields.prime.ordercount | default: 0 %}
+							{% assign RecentSoldCount = product.metafields.prime.recentcount | default: 0 %}
+						{% endif %}{% if  primebProductType contains newstringproducttype0 and  primebPublishDateDiff > 0 and primebPublishDateDiff <= 1814400 and true %}{% assign isStartbShowBadge = true %}{% endif %}{% assign primebUTC 		= "now" | date: "%s" %}
+			{% assign primebUTC 		= primebUTC | plus: 0 %}
+			{% assign primebStartTime = 633870000  %}
+			{% assign primebEndTime = 2053940400  %}
+			{% if primebStartTime <= primebUTC and primebEndTime >= primebUTC %}{% assign Image = 'prime_18045.png'  %}{% assign ImageHeight = 'x50' %}{% assign Imagesize = Image | asset_img_url: 'master' %}{% if isStartbShowBadge == true %} 
+				{% assign primebadgeGroup = '1' %} 
+				{% if primeGroup == primebadgeGroup %}
+				{% assign primebBadgeCounter = primebBadgeCounter | plus: 1 %}{% assign lastbstring = '' %}{% assign getlastbstring = 'NEW RELEASE' %}<div class="primebDesktop {{primebInnerClass}} primeb-18045  primebScreenSize "   data-countryselected= '' data-screensizeselected= '1,1,1,1'  countryrule=1 onclick="redirectLinkbadge('','0','18045','1');" style="{{ primebInnerStyle }} " >
+
+    <div style="; color: transparent; font-size: 14px; line-height: 0px; max-width: 100%; padding: 0px; opacity: 1; background-color: transparent;"  >      
+        <div  class="badgetitle prime-height-adjust" data-defaultheight= '50' data-mobileheight= '50' data-tabletheight= '50' style="white-space: normal; overflow: hidden; text-align: center;">
+            <img class="primebImage" src="{{Imagesize}}" alt="badge" style="max-height: 50px;height:unset;" >
+         
+        </div>	   
+    </div>
+</div> 
+{% endif %}{% endif %}{% endif %}	{% endif %}
+	{% comment %} End Badge: 3 {% endcomment %}	
 
 
     </div>
