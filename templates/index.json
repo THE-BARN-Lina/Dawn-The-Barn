@@ -58,15 +58,6 @@
         "padding_bottom": 40
       }
     },
-    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "165339081846c57155": {
       "type": "featured-collection",
       "settings": {
@@ -331,6 +322,15 @@
         "padding_bottom": 52
       }
     },
+    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16578991104d1ffac5": {
       "type": "popup-main",
       "disabled": true,
@@ -350,7 +350,6 @@
   "order": [
     "image_banner",
     "1653387743507b82e2",
-    "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "165339081846c57155",
     "16529435131152e250",
     "1652970717af5972f9",
@@ -358,6 +357,7 @@
     "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",
     "165900919845720bf8",
     "16515783060899e67e",
+    "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "16578991104d1ffac5",
     "1659955349273aa5dd"
   ]
