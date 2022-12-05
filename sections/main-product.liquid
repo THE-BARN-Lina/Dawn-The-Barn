@@ -57,7 +57,7 @@
             {{ "accessibility.skip_to_product_info" | t }}
           </a>
           <div style="display: flex; justify-content: right; padding:1vh ">
-            {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
+           
             </div>
           <ul id="Slider-Gallery-{{ section.id }}" class="product__media-list contains-media grid grid--peek list-unstyled slider slider--mobile" role="list">
             {%- liquid
@@ -86,6 +86,9 @@
               {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                 <li id="Slide-{{ section.id }}-{{ media.id }}" class="product__media-item grid__item slider__slide{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains media.src %} product__media-item--variant{% endif %}" data-media-id="{{ section.id }}-{{ media.id }}">
                   {%- assign media_position = media_position | default: 0 | plus: 1 -%}
+                   <div style="display: flex; justify-content: right; padding:1vh ">
+                    {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
+                    </div>
                   {% render 'product-thumbnail', media: media, position: media_position, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, lazy_load: true %}
                 </li>
               {%- endunless -%}
@@ -159,9 +162,7 @@
                       loading="lazy"
                     >
                       {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-                      <div style="display: flex; justify-content: right; padding:1vh ">
-                        {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-                        </div>
+                  
                   
                   </button>
                
