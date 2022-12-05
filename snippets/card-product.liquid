@@ -50,7 +50,7 @@
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-              {% render 'primeb', product: card_product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
+           
               <img
                 srcset="{%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if card_product.featured_media.width >= 360 -%}{{ card_product.featured_media | image_url: width: 360 }} 360w,{%- endif -%}
@@ -114,6 +114,7 @@
           {%render 'thebarn.product_card.badge_tastenote' , card_product:card_product , show_tastenotes:show_tastenotes %}
           <h3 class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"{% if card_product.featured_media or settings.card_style == 'card' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
             <a href="{{ card_product.url }}" class="full-unstyled-link">
+              {% render 'primeb', product: card_product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
               {{ card_product.title | escape }}
             </a>
           </h3>
