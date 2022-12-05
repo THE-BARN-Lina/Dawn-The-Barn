@@ -1,3 +1,149 @@
-<script type="text/javascript">
-		// console.log( 'user no highlights ');
-	</script>
+{% assign HideAssets = hideAssets | default: 0 %}{% if HideAssets != '1' %}{% render 'prime-css' %}{% endif %}
+			{% assign primehProduct = product %}
+			{% assign primehCustId = customer.id %}
+			{% assign primebGiftCard = product.gift_card? %}
+			{% assign primehVarient = product.variants.size %}
+			{%- assign primehmoneyformat = shop.money_format | split: "{{" | last | remove: "}}" | strip | strip_html -%}
+			{% if primehmoneyformat == "amount_with_comma_separator" or primehmoneyformat == "amount_no_decimals_with_comma_separator" %}
+				{% assign primehProdPrice = product.price | money_without_currency | remove: "." | replace: ",", "." %}
+				{% assign primehProdPriceCompare = product.compare_at_price | money_without_currency | remove: "." | replace: ",", "." | default: 0 %}
+			{% else %} 
+				{% assign primehProdPrice = product.price | money_without_currency | remove: "," %}
+				{% assign primehProdPriceCompare = product.compare_at_price | money_without_currency | remove: "," | default: 0 %}
+			{% endif %}
+			{% assign primehProdPrice = product.price | divided_by: 100.00 %}
+			{% assign primehCustomerTag = customer.tags | downcase %}
+			{% assign primehPublishedDate = product.published_at | date: "%s" %}
+			{% assign primehPublishDateDiff = "now" | date: "%s" | minus: primehPublishedDate %}
+			{% assign primehTemplate = template | downcase %}
+			{% assign primehLanguage = request.locale.iso_code %}
+			{% assign primemetafield = primehProduct.metafields %}
+			{% assign primehProductTitle = primehProduct.title | downcase %}
+			{% assign primehProductType = primehProduct.type | downcase %}
+			{% assign primehProductVendor = primehProduct.vendor | downcase %}
+			{% assign primehShopifyTags = primehProduct.tags | downcase %}
+			{% assign primehProductWeight = product.variants.first.weight %}
+			{% assign primehUTC = "now" | date: "%s" %}
+			{% assign primehstartTime = "633870000"  %}
+			{% assign primehEndTime = "2053940400"  %}
+			{% assign primehMaxDisplayHighlight = primehMaxDisplayHighlight | default: 10 %}	
+			{% assign primehCreatedDateSec = primehProduct.created_at | date: "%s" %}
+			{% assign primehDateDiff = "now" | date: "%s" | minus: primehCreatedDateSec %}
+			{% assign primehCollectionIds = primehProduct.collections | map: "id" | default: 0  %}			
+			{% assign primehHighlightCounter = 1 %}
+			{% assign SaleAmount    = 0 %}	
+			{% assign VariantCount = product.variants.size %}
+			{% assign SalePercent   = 0 %}
+			{% assign CustomerOrderCount = customer.orders_count | default: 0 %}
+			{% assign CustomerTotalSpent = customer.total_spent | divided_by: 100.00  | default: 0 %}
+			{% assign primehighlightLinks = primehLinks | default: 0 %} 
+			{% assign primeGroup = primehGroup | default: "1" %}
+			{% assign primehDesktop = primeGroup | append: "primehDesktop" %}
+			{% assign primeHighlights = primeGroup | append: "primeHighlights" %}
+			{% assign ProductSKU = product.selected_or_first_available_variant.sku | downcase | default: 0 %}
+			{% assign VariantSKU = product.selected_or_first_available_variant.sku | downcase | default: 0 %}
+            {% if primehProduct.price and primehProduct.compare_at_price %}
+				{% assign SaleAmount = primehProduct.compare_at_price | minus: primehProduct.price %}	
+				{% if SaleAmount > 0 %}
+					{% if primehmoneyformat == "amount_with_comma_separator" or primehmoneyformat == "amount_no_decimals_with_comma_separator" or  primehmoneyformat contains "amount_with_comma_separator" %}
+						{% assign SalePercent = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | money_without_currency | replace: ",", "." | times: 100 | remove: ".0" | plus: 0 %}
+					{% elsif primehmoneyformat contains "amount_no_decimals" %} 
+						{% assign divisor = product.compare_at_price  | times: 1.0 %}
+						{% assign SalePercent = product.compare_at_price | minus: product.price | divided_by: divisor  | times: 100.0 | round %}
+					{% else %} 
+						{% assign SalePercent = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | money_without_currency | times: 100 | remove: ".0" | plus: 0 %}
+					{% endif %}
+           		{% endif %}
+        	{% endif %}
+        	{% assign Inventory = 0 %}
+			{% assign Inventory2 = 0 %}
+			{% assign PrimehVariantInventory = 0 %}
+			{% assign PrimehVariantInventoryPolicy = "any" %}
+			{% if passvarianth.id %} 
+				{% assign PrimehVariantInventory = passvarianth.inventory_quantity %}	
+				{% assign PrimehVariantInventoryPolicy = passvarianth.inventory_policy %}
+				{% assign VariantSKU = passvarianth.sku | downcase %}
+			{% endif %}
+			{% assign SaleAmountVar  = 0 %}	
+			{% assign SalePercentVar = 0 %}
+			{% assign SalePercentMin = 0 %}
+			{% assign SalePercentMax = 0 %}
+			{% assign VariantSaleAmount = SaleAmountVar %}	
+			{% assign VariantSalePercent = SalePercentVar %}
+        	{% for productVariant in primehProduct.variants %}
+				{% assign Inventory2 = productVariant.inventory_quantity | at_least: 0 %}
+				{% assign Inventory = Inventory | plus: Inventory2 %}	
+				{% if productVariant.price and productVariant.compare_at_price %}
+					{% assign SaleAmountVar = productVariant.compare_at_price | minus: productVariant.price %}	
+					{% if SaleAmountVar > 0 %}
+						{% if primehmoneyformat == "amount_with_comma_separator" or primehmoneyformat == "amount_no_decimals_with_comma_separator" or  primehmoneyformat contains "amount_with_comma_separator" %}
+							{% assign SalePercentVar = productVariant.compare_at_price | minus: productVariant.price | times: 100.0 | divided_by: productVariant.compare_at_price | money_without_currency | replace: ",", "." | times: 100 | remove: ".0" | plus: 0 %}
+						{% elsif primehmoneyformat contains "amount_no_decimals" %} 
+							{% assign divisor = productVariant.compare_at_price  | times: 1.0 %}
+							{% assign SalePercentVar = productVariant.compare_at_price | minus: productVariant.price | divided_by: divisor  | times: 100.0 | round %}
+						{% else %} 
+							{% assign SalePercentVar = productVariant.compare_at_price | minus: productVariant.price | times: 100.0 | divided_by: productVariant.compare_at_price | money_without_currency | times: 100 | remove: ".0" | plus: 0 %}
+						{% endif %}
+						{% if SalePercentMin == 0 or SalePercentMin > SalePercentVar %}
+							{% assign SalePercentMin = SalePercentVar %}
+						{% endif %}
+						{% if SalePercentMax == 0 or SalePercentMax < SalePercentVar %}
+							{% assign SalePercentMax = SalePercentVar %}
+						{% endif %}
+						{% if passvarianth.id %} 
+							{% if passvarianth.id == productVariant.id %} 
+								{% assign VariantSaleAmount = SaleAmountVar %}	
+								{% assign VariantSalePercent = SalePercentVar %}
+							{% endif %}
+						{% endif %}
+					{% endif %}
+				{% endif %}			
+			{% endfor %}<div class="{{primeHighlights}} primeHighlights prime-container outerprimeh{{product.id}}-{{primeGroup}}  {{primehOuterClass}} primehVariantInventory" style="display:none;{{ primehOuterStyle }}box-sizing: border-box; color: rgb(102, 102, 102); position: relative; border-radius: 0.3em; box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 3px 1px -2px, rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;" data-primehOuterClass="{{primehOuterClass}}" data-primehOuterStyle="{{primehOuterStyle}}" data-primehInnerClass="{{primehInnerClass}}" data-primehInnerStyle="{{primehInnerStyle}}" data-primehImageClass="{{primehImageClass}}" data-primehImageStyle="{{primehImageStyle}}" data-primehTextClass="{{primehTextClass}}" data-primehTextStyle="{{primehTextStyle}}" data-primehGroup="{{primeGroup}}">
+				<div class="primehWrapper prime-pb-1 prime-row prime-pt-2 prime-pl-2 prime-pr-2"> 	
+		{% comment %} Start Highlight: 1 {% endcomment %}
+		{% if primehHighlightCounter <= primehMaxDisplayHighlight %}
+		 {% assign isStartbShowHighlight = false %} {% if product.metafields.prime.myordercount != blank %}
+							{% if product.metafields.prime.myordercount.value.ordercount %}
+								{% assign OrderCount = product.metafields.prime.myordercount.value.ordercount | default: 0 %}
+								{% assign RecentSoldCount = product.metafields.prime.myordercount.value.recentcount | default: 0 %}
+							{% else%}
+								{% assign OrderCount = product.metafields.prime.myordercount.ordercount | default: 0 %}
+								{% assign RecentSoldCount = product.metafields.prime.myordercount.recentcount | default: 0 %}
+							{% endif %}
+						{% else  %} 
+							{% assign OrderCount = product.metafields.prime.ordercount | default: 0 %}
+							{% assign RecentSoldCount = product.metafields.prime.recentcount | default: 0 %}
+						{% endif %}{% if true %}{% assign isStartbShowHighlight = true %}{% endif %}{% assign primehUTC 		= "now" | date: "%s" %}
+			{% assign primehUTC 		= primehUTC | plus: 0 %}
+			{% assign primehStartTime = 633870000  %}
+			{% assign primehEndTime = 2053940400  %}
+			{% if primehStartTime <= primehUTC and primehEndTime >= primehUTC %}{% if isStartbShowHighlight == true %} 
+				{% assign primehighlightGroup = '1' %} 
+				{% if primeGroup == primehighlightGroup %}
+				{% assign primehHighlightCounter = primehHighlightCounter | plus: 1 %}{% assign lasthstring = '' %}{% assign lasthstringsubtitle = '' %}<div  class="{{primehDesktop}} prime-px-0 prime-pb-2 prime-col-md-6 prime-col-sm-6 prime-col-12 {{primehInnerClass}} primeh-1202  primehScreenSize  "   data-countryselectedh= '' data-screensizeselectedh= '1,1,1,1'  countryrule=1 style="  {{primehInnerStyle}}  " onclick="redirectHighlightLink('','0','1202','1');">
+    <div class="primehImageOuter prime-px-2 prime-py-1  prime-d-table-cell prime-align-middle" style="padding-right: 15px" >  
+        <img class="primehImage prime-d-block prime-mx-auto {{primehImageClass}}" alt="free-shipping" src="https://img.icons8.com/color/48/000000/free-shipping.png" style="{{primehImageStyle}} height:30px; width:30px; max-height:30px; max-width:30px;">
+    </div>
+    <div class="primehText prime-d-table-cell prime-text-left prime-align-middle {{primehTextClass}}" data-primeproductid='{{product.id}}' style="{{primehTextStyle}} ">
+        <div class="primehSubTitle " style=" ">
+            {% if lasthstringsubtitle == '' %}
+                Test
+            {% else %}
+                {{lasthstringsubtitle}}
+            {% endif %}
+        </div>    
+        <div class="primehTitle " style="white-space: normal; overflow: hidden; font-size: 13px; ">
+            {% if lasthstring == '' %}
+                24-hour Fast Free Shipping
+            {% else %}
+                {{lasthstring}}
+            {% endif %}
+        </div>
+    </div>
+</div>                      {% endif %}{% endif %}{% endif %}		{% endif %}
+		{% comment %} End Highlight: 1 {% endcomment %}	
+		
+			</div></div> 
+			
+		{% if HideAssets != '1' %}{% render 'primeh-js' %}{% endif %}
+		
