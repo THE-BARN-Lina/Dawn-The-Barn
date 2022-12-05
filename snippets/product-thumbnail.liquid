@@ -70,9 +70,7 @@
         height="{{ 973 | divided_by: media.preview_image.aspect_ratio | ceil }}"
         alt="{{ media.preview_image.alt | escape }}"
       >
-        <div style="display: flex; justify-content: right; padding:1vh ">
-          {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-          </div>
+     
     </div>
   {%- endif -%}
 </noscript>
@@ -112,6 +110,9 @@
       height="{{ 973 | divided_by: media.preview_image.aspect_ratio | ceil }}"
       alt="{{ media.preview_image.alt | escape }}"
     >
+      <div style="display: flex; justify-content: right; padding:1vh ">
+        {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
+        </div>
   </div>
   <button class="product__media-toggle quick-add-hidden" type="button" aria-haspopup="dialog" data-media-id="{{ media.id }}">
     <span class="visually-hidden">
