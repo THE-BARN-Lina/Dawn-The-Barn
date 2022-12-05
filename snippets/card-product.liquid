@@ -86,10 +86,11 @@
                 >
                  
               {%- endif -%}
+              <div style="display: flex; justify-content: right; padding:1vh; display: -webkit-box;  display: -ms-flexbox;  display: -webkit-flex;">
+                {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
+                </div>
             </div>
-            <div style="display: flex; justify-content: right; padding:1vh; display: -webkit-box;  display: -ms-flexbox;  display: -webkit-flex;">
-              {% render 'primeb', product: product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
-              </div>
+            
           </div>
         {%- endif -%}
         <div class="card__content">
