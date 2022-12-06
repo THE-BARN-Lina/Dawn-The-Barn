@@ -15,7 +15,7 @@
           "type": "heading",
           "settings": {
             "heading": "ADVENT CALENDAR EXPERIENCE",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         }
       },
@@ -25,44 +25,146 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/cca8fe96-bb92-41da-b9a4-473d80fe2500.webp",
         "image_overlay_opacity": 60,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "transparent_block": true,
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "8fd28eac-b800-46cf-966a-781bdcccc447": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16379873853707__8fd28eac-b800-46cf-966a-781bdcccc447-16700147442e632ba2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BARN SPECIALTY COFFEE ADVENT CALENDAR",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--16379873853707__8fd28eac-b800-46cf-966a-781bdcccc447-16700147442e632ba2-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "2178a1e0-fbe9-4b4f-8c5e-36afd31b043b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        },
+        "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our first Advent Calendar has 24 surprises that take you on a fantastic flavour journey. <\/p><p>We have delicious teas and chocolate from our Berlin based partners and some essential brew (and steep) equipment. <\/p><p><strong>Most excited are we to share 1 of our Single Origin Coffees with you<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "NOTIFY ME WHEN AVAILABLE",
+            "button_link": "shopify:\/\/products\/advent-calendar-2022"
+          }
+        }
+      },
+      "block_order": [
+        "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-0",
+        "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-1",
+        "template--16379873853707__2178a1e0-fbe9-4b4f-8c5e-36afd31b043b-1669989047ec911251-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cca8fe96-bb92-41da-b9a4-473d80fe2500.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "5d823e76-b8cd-4a1f-8e13-d60e0d136a22": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We take you through different coffee growing regions with a variation of processing and cultivar styles.<\/p><p><strong>Two of our Masterpieces<\/strong> are part of your surprise bags. Each coffee bag contains 50g of coffee: Enough for 2 or 3 brews, depending on your brew size.<\/p><p>If you missed this years Advent Calendar, do sign up for the reservation list 2023<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "NOTIFY ME WHEN AVAILABLE",
+            "button_link": "shopify:\/\/products\/advent-calendar-2022"
+          }
+        }
+      },
+      "block_order": [
+        "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-1",
+        "template--16379873853707__5d823e76-b8cd-4a1f-8e13-d60e0d136a22-16700155502726d628-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cca8fe96-bb92-41da-b9a4-473d80fe2500.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80": {
       "type": "rich-text",
       "blocks": {
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please find below our “Calendar doors” that reveal more detailed information on each coffee with video brew tips. <strong>Spoiler alert:<\/strong> Don’t click before you open your cotton bag on those particular days mentioned below. <\/p><p>Merry Christmas from everyone here at The Barn!<\/p>"
+          }
+        },
         "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-0": {
           "type": "heading",
           "settings": {
             "heading": "The Twelve Coffees of Christmas",
             "heading_size": "h1"
           }
-        },
-        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For the first time this year we have created our very own Christmas Advent Calendar.<\/p><p>There is nothing quite like the <br\/>countdown to Christmas and our calendar will give you a different <br\/>flavour experience every day. With 12 unique coffees we will be taking <br\/>you around the world to experience terroir, varietal, and process.<\/p><p>For every coffee, we will be <br\/>releasing a video introduction and brew guide to tell you a little more <br\/>about the different flavours that await. So each time you find a new <br\/>coffee in your calendar, check in here and see the new videos.<\/p><p>Have an amazing festive season and Merry Christmas from everyone here at The Barn!<\/p><p>Spoiler alert! Each coffee is named below so if you want to keep each coffee as a surprise stop reading now.<\/p>"
-          }
         }
       },
       "block_order": [
-        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-0",
-        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1"
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-1",
+        "template--16379873853707__6ca8eaad-f9ab-4f52-a0e3-2960a8444e80-166981053722bf5106-0"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 48,
-        "padding_bottom": 48
+        "padding_top": 24,
+        "padding_bottom": 0
       }
     },
     "165338928113f35a7d": {
@@ -73,7 +175,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 1st",
-            "text": "<p>Stardust, Brazil<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "shopify:\/\/pages\/1st-december",
             "custom_liquid": ""
@@ -82,122 +184,122 @@
         "8db05c6b-e185-45ee-ab91-b8c5d2e41bc2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4590.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 5th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
-            "link": "",
+            "link": "shopify:\/\/pages\/5th-december",
             "custom_liquid": ""
           }
         },
         "86a91959-faf0-4c55-8529-4f339a920933": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4591.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 6th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
-            "link": "",
+            "link": "shopify:\/\/pages\/6th-december",
             "custom_liquid": ""
           }
         },
         "93ede514-ef6e-476b-8aea-ef8cf37b5899": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CA1BBDF9-D946-4023-B220-0D6EC7691406.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 9th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<h3 class=overlay-text>DEC 9TH<\/h3>\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-4 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
           }
         },
         "16533892817718819e-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EBC0FF2D-CCB2-4466-9BD0-60111442F322_cc40df82-f8da-4f43-a6c8-479b62c01d16.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 11th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<h3 class=overlay-text>DEC 11TH<\/h3>\n\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-5 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
           }
         },
         "6b207fa8-8c96-4ffe-9002-cfb7f8e165da": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4087.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 13th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<h3 class=overlay-text>DEC 13TH<\/h3>\n\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-6 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
           }
         },
         "16533892817718819e-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0031.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 15th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<h3 class=overlay-text>DEC 15TH<\/h3>\n\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-7 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
           }
         },
         "6a0c6934-49ad-4e5b-8d7a-3595f6467ab2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/19831B63-39EA-495D-A561-86D9C3618450.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 17th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<h3 class=overlay-text>DEC 17TH<\/h3>\n\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-8 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
           }
         },
         "ea05195e-8bc5-4336-89dc-9994519e0243": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D39517CE-4EF9-4E50-AE6B-707BF8B655DC.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 19th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<h3 class=overlay-text>DEC 19TH<\/h3>\n\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-9 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
           }
         },
         "81f8f5a5-f92f-46ba-aedd-f41d5b4794fd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5DCF9576-D96C-402D-8113-F5E32546674F.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 20th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<h3 class=overlay-text>DEC 20TH<\/h3>\n\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-10 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
           }
         },
         "d6244320-1121-4b86-831d-99c4406f719f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3883C08A-69A9-4F3B-B239-5A4660093890.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 22nd",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<h3 class=overlay-text>DEC 22ND<\/h3>\n\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-11 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
           }
         },
         "65804a50-6f0c-49cb-bce9-bc64beacdf78": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6C5FE47D-6127-4AF7-B8C1-B79CBC674D51.jpg",
+            "image": "shopify:\/\/shop_images\/F157B5F9-0485-4463-8600-32CB734849D1.jpg",
             "title": "DEC 24th",
-            "text": "<p>Coming soon<\/p>",
+            "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
             "link": "",
-            "custom_liquid": ""
+            "custom_liquid": "<h3 class=overlay-text>DEC 24TH<\/h3>\n\n<style>\n\n\n\/*.multicolumn-card__image{\nfilter: blur(3px)!important;}*\/\n\n#Slide-template--16379873853707__165338928113f35a7d, .overlay-text{\ncolor: white;\nfont-weight: bold;\ntext-align: center;\nposition: absolute;\ntop: 27%;\nleft: 50%;\ntransform: translate(-50%, -50%);}\n\n#Slide-template--16379873853707__165338928113f35a7d-12 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n\n<\/style>"
           }
         }
       },
@@ -216,12 +318,12 @@
         "65804a50-6f0c-49cb-bce9-bc64beacdf78"
       ],
       "settings": {
-        "title": "The Twelve Coffees of Christmas",
+        "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -237,6 +339,9 @@
   "order": [
     "main",
     "acb921d1-88a6-4f01-8554-ac07aa6069dd",
+    "8fd28eac-b800-46cf-966a-781bdcccc447",
+    "2178a1e0-fbe9-4b4f-8c5e-36afd31b043b",
+    "5d823e76-b8cd-4a1f-8e13-d60e0d136a22",
     "6ca8eaad-f9ab-4f52-a0e3-2960a8444e80",
     "165338928113f35a7d"
   ]

@@ -66,6 +66,7 @@
                 width="{{ card_product.featured_media.width }}"
                 height="{{ card_product.featured_media.height }}"
               >
+               
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
               {%- if card_product.media.last != nil and show_secondary_image -%}
@@ -85,9 +86,18 @@
                   width="{{ card_product.media.last.width }}"
                   height="{{ card_product.media.last.height }}"
                 >
+                 
               {%- endif -%}
+        
+              <div style="display: flex; justify-content: right; padding:1vh; display: -webkit-box;  display: -ms-flexbox;  display: -webkit-flex;">
+                {% render 'primeb', product: card_product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
+                </div>
             </div>
-          
+            <div class="primebStyler" style="display: flex; justify-content: right; padding:1vh; display: -webkit-box;  display: -ms-flexbox;  display: -webkit-flex;">
+        
+              {% render 'primeb', product: card_product, hideAssets:'1', primebGroup:'1', primebOuterClass:'', primebOuterStyle:'', primebInnerStyle:'', primebInnerClass: 'prime-d-inline-block prime-mb-1' %}
+      
+            </div>
           </div>
         
         {%- endif -%}
