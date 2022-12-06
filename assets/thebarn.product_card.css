@@ -52,3 +52,11 @@
         margin-bottom: 5px !important;
     }
 
+    .card-wrapper .underline-links-hover a::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+    }
