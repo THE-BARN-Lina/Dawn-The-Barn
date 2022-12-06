@@ -52,7 +52,7 @@
         margin-bottom: 5px !important;
     }
 
-    .card-wrapper .underline-links-hover a::before {
+    .card-wrapper a::before {
       content: "";
       position: absolute;
       top: 0px;
