@@ -33,7 +33,8 @@
     endif
   -%}
 
-  <div class="card-wrapper underline-links-hover">
+<div class="card-wrapper underline-links-hover">
+  <a href="{{ card_product.url }}" class="full-unstyled-link stBadgeLoaded">
     <div class="card
       card--{{ settings.card_style }}
       {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
@@ -99,7 +100,7 @@
       
             </div>
           </div>
-
+        </a>    
 
         {%- endif -%}
         <div class="card__content">
