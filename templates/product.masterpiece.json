@@ -76,7 +76,7 @@
           "settings": {
             "heading": "Your next Masterpieces",
             "icon": "none",
-            "content": "<p>{{ product.metafields.product.metafield | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.next.Masterpiece | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -171,6 +171,8 @@
       "settings": {
         "video_id": "VnAQDO-fg6M",
         "overlay": "",
+        "video_height": 70,
+        "video_autoplay": true,
         "padding_top": 56,
         "padding_bottom": 52
       }
