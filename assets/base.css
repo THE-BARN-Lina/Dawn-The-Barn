@@ -653,6 +653,7 @@ hr {
   text-decoration: none;
   color: currentColor;
   display: block;
+  z-index: 1;
 }
 
 .placeholder {
