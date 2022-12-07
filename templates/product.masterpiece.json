@@ -85,7 +85,7 @@
           "settings": {
             "heading": "The Best of The Best",
             "icon": "none",
-            "content": "<p>{{ product.metafields.subscription.masterpiece_thebestofthebest | metafield_tag }}<\/p>",
+            "content": "<p>We are working with the best coffee growers out there. They proudly produce very limited rarities: Their Masterpieces. For some unboxing footage of our most exclusive coffee follow Ertuğrul <a href=\"https:\/\/www.instagram.com\/reel\/Cj2VtEKjf6U\/?utm_source=ig_web_copy_link\"><strong>here<\/strong><\/a><strong>.<\/strong><\/p><p><\/p><p><strong>Stay in Control : <\/strong>With our new online tool you can access your subscriber account and adjust as you like: Add more coffee beans to your next delivery (<strong>at 10% discount<\/strong>), skip a delivery or adjust the dispatch date. Change your address or simply opt out.<\/p>",
             "page": ""
           }
         },
