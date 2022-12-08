@@ -60,6 +60,7 @@
     },
     "f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-0": {
           "type": "text",
@@ -183,7 +184,6 @@
     },
     "16529435131152e250": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1652943513cf238e66-0": {
           "type": "heading",
