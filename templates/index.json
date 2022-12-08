@@ -35,7 +35,7 @@
         "37a278ca-83ba-47c2-9df7-d3fb30ab3569"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-03-24_um_18.02.50_e16b7422-ecff-4a06-8c2b-0e4378142bd5.png",
+        "image": "shopify:\/\/shop_images\/Christmas_Coffee_Day_Banner.png",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -84,7 +84,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "christmas-ideas",
@@ -258,7 +258,7 @@
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "new-releases",
