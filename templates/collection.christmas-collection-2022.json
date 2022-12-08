@@ -85,6 +85,7 @@
         },
         "55485292-d9a1-4dd4-8c01-70307aa74748": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "We declare 8th of December our Christmas Coffee Day. It is 16 days before Christmas. The perfect time for our coffee to rest and enough time to reach you comfortably.",
             "text_style": "body"
