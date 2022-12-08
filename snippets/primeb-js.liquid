@@ -797,7 +797,7 @@
             xhr.open("GET", url, true);
             xhr.setRequestHeader("Cache-Control", "max-age=3600");
             xhr.onreadystatechange = function() {
-                if (this.readyState === XMLHttpRequest.DONE) {
+                if (this.readyState == 4) {
                     if (this.status === 200) {
                         document.getElementById('prime-modal-content').innerHTML = this.responseText;
                     } else {
