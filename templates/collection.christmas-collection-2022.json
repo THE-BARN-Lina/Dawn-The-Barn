@@ -135,7 +135,7 @@
         "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-7"
       ],
       "settings": {
-        "product": "christmas-coffee-2022",
+        "product": "christmas-coffee-day-special",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -252,7 +252,7 @@
       "settings": {
         "title": "Explore our Christmas Gifts",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "christmas-2022-add-ons",
@@ -281,7 +281,7 @@
       "settings": {
         "title": "Christmas Gifts for Book Lovers",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "gift-books",
@@ -310,7 +310,7 @@
       "settings": {
         "title": "Gift Subscriptions",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "gift-subscriptions",
