@@ -180,7 +180,11 @@
 						{% else  %} 
 							{% assign OrderCount = product.metafields.prime.ordercount | default: 0 %}
 							{% assign RecentSoldCount = product.metafields.prime.recentcount | default: 0 %}
-						{% endif %}{% if  primebProductType contains newstringproducttype0 and  primebPublishDateDiff > 0 and primebPublishDateDiff <= 1814400 and true %}{% assign isStartbShowBadge = true %}{% endif %}{% assign primebUTC 		= "now" | date: "%s" %}
+						{% endif %}{% if  primebProductType contains newstringproducttype0 and  primebPublishDateDiff > 0 and primebPublishDateDiff <= 1814400 and true %}{% assign isStartbShowBadge = true %}{% assign primebExProductIds = "8038728925451" | split: "," %}
+				{% assign primebExProductId = primebProduct.id | downcase %}
+				{% if primebExProductIds contains primebExProductId %}
+					{% assign isStartbShowBadge = false %}
+				{% endif %}{% endif %}{% assign primebUTC 		= "now" | date: "%s" %}
 			{% assign primebUTC 		= primebUTC | plus: 0 %}
 			{% assign primebStartTime = 633870000  %}
 			{% assign primebEndTime = 2053940400  %}
