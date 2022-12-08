@@ -35,7 +35,7 @@
         "37a278ca-83ba-47c2-9df7-d3fb30ab3569"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Christmas_Coffee_Day_Banner.png",
+        "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-03-24_um_18.02.50_b0f23822-e0df-40a0-94ee-9a676898a653.png",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -45,7 +45,7 @@
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
