@@ -221,8 +221,8 @@
             "title": "DEC 11th",
             "text": "<p>Spoiler Alert! <\/p>",
             "link_label": "LEARN MORE",
-            "link": "",
-            "custom_liquid": "<h3 class=overlay-text>DEC 11TH<\/h3>\n\n<style>\n#Slide-template--16379873853707__165338928113f35a7d-5 .multicolumn-card__image{\nfilter: blur(3px)!important; {\n}\n<\/style>"
+            "link": "shopify:\/\/pages\/11th-december",
+            "custom_liquid": ""
           }
         },
         "6b207fa8-8c96-4ffe-9002-cfb7f8e165da": {
