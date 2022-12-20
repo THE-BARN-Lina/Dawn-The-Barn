@@ -1,0 +1,39 @@
+{% layout none %}
+
+{% capture aod_cart %}
+{
+
+"aod_cart":[
+
+{%- for item in cart.items -%}
+{
+{%- if item.product.tags != blank -%}
+  	"aodProductTagList":{ "Tags": {{ item.product.tags | json }}, "id": {{ item.product.id }}},
+  {%- endif -%}
+  "aodCollectionData":{
+    "id": {{ item.product.id }},
+    "collections": {{ item.product.collections | json }}
+    },
+  {%- if item.product.metafields.AODLimit.AODLimit != blank -%}
+    {%- capture aodMinMaxLimit -%}{{ item.product.metafields.AODLimit.AODLimit | json}}{%- endcapture -%}
+    {% if aodMinMaxLimit contains 'json not allowed for this object' %}
+        "aodMinMaxLimit":{{ item.product.metafields.AODLimit.AODLimit  }},
+    {% else %}
+        "aodMinMaxLimit":{{ item.product.metafields.AODLimit.AODLimit | json }},
+    {% endif %}
+  {%- endif -%}
+  {%- if item.product.metafields.AODLimit.AODGlobalProductLimit != blank -%}
+    {%- capture aod_product_limit -%}{{ item.product.metafields.AODLimit.AODGlobalProductLimit | json}}{%- endcapture -%}
+    {% if aod_product_limit contains 'json not allowed for this object' %}
+        "aodGlobalProductMinMaxLimit":{{ item.product.metafields.AODLimit.AODGlobalProductLimit  }}
+    {% else %}
+        "aodGlobalProductMinMaxLimit":{{ item.product.metafields.AODLimit.AODGlobalProductLimit | json }}
+    {% endif %}
+  {%- endif -%}
+}
+{% unless forloop.last %}, {% endunless %}
+{%- endfor -%}
+]
+}
+{% endcapture %}
+{{ aod_cart | strip_newliness }}
