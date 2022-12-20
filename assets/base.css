@@ -7,6 +7,21 @@
   --gradient-background: var(--gradient-base-background-1);
 }
 
+.swal2-popup {
+  background: #363636 !important;
+    }
+
+  #swal2-title {
+  color: white;
+  text-transform: uppercase;
+}
+  #swal2-content {
+  color: white;
+}
+  .swal2-confirm{
+  background: #68431B !important;
+  }
+
 .color-background-2 {
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-2);
