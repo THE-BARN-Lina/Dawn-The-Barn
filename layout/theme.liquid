@@ -12,7 +12,13 @@
   
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     {% include "aodLimitValidator" %}
-    {%- if settings.favicon != blank -%}
+  <style>
+    .swal2-popup {
+  background: #363636 !important;
+}
+  
+  </syle>
+  {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
 
