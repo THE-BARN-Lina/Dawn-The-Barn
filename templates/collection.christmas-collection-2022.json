@@ -64,6 +64,7 @@
     },
     "12c08833-363b-46d1-8516-2d25abd2136a": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-1": {
           "type": "title",
