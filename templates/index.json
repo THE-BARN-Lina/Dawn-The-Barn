@@ -134,6 +134,7 @@
     },
     "5e773db8-fbbe-4b81-9412-64e6cc8154c2": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16216418910475__5e773db8-fbbe-4b81-9412-64e6cc8154c2-167023561620b2aba3-0": {
           "type": "heading",
@@ -155,10 +156,11 @@
     },
     "eab2749b-46e2-4f37-b260-8018bf172784": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "description": "<p><\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "christmas-ideas",
