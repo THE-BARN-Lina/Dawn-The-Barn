@@ -58,176 +58,6 @@
         "padding_bottom": 48
       }
     },
-    "f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-0": {
-          "type": "text",
-          "settings": {
-            "text": "Limited Edition",
-            "text_style": "uppercase"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h2"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-2": {
-          "type": "text",
-          "settings": {
-            "text": "We declare 8th of December our Christmas Coffee Day. It is 16 days before Christmas. The perfect time for our coffee to rest and enough time to reach you comfortably.",
-            "text_style": "body"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-7": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-0",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-1",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-3",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-2",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-4",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-5",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-6",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-7"
-      ],
-      "settings": {
-        "product": "christmas-coffee-day-special",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "5e773db8-fbbe-4b81-9412-64e6cc8154c2": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16216418910475__5e773db8-fbbe-4b81-9412-64e6cc8154c2-167023561620b2aba3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "🎁 CHRISTMAS WISHLIST",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16216418910475__5e773db8-fbbe-4b81-9412-64e6cc8154c2-167023561620b2aba3-0"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "eab2749b-46e2-4f37-b260-8018bf172784": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "christmas-ideas",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "view_all_label": "View All",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
-    "16529435131152e250": {
-      "type": "image-with-text",
-      "blocks": {
-        "1652943513cf238e66-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "CHRISTMAS GIFT SUBSCRIPTION",
-            "heading_size": "h2"
-          }
-        },
-        "1652943513cf238e66-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>THE BEST PRESENT EVER<br\/><\/strong><\/p><p>This is our most popular Christmas Box every year: A gift that continues to give. Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute mug and delicious coffee chocolate beans. <\/p><p>Hear it from our founder Ralf why he loves it: <a href=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\" title=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\">Video<\/a><\/p>",
-            "text_style": "body"
-          }
-        },
-        "1652943513cf238e66-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER HERE",
-            "button_link": "https:\/\/thebarn.de\/products\/christmas-3-months-gift-subscription"
-          }
-        }
-      },
-      "block_order": [
-        "1652943513cf238e66-0",
-        "1652943513cf238e66-1",
-        "1652943513cf238e66-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/thebarnchristmas2022.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
@@ -334,7 +164,7 @@
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
-        "description": "<p><\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "new-releases",
@@ -458,12 +288,6 @@
         "padding_bottom": 52
       }
     },
-    "16578991104d1ffac5": {
-      "type": "popup-main",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "1659955349273aa5dd": {
       "type": "custom-liquid",
       "settings": {
@@ -472,15 +296,130 @@
         "padding_top": 40,
         "padding_bottom": 0
       }
+    },
+    "16529435131152e250": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1652943513cf238e66-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHRISTMAS GIFT SUBSCRIPTION",
+            "heading_size": "h2"
+          }
+        },
+        "1652943513cf238e66-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>THE BEST PRESENT EVER<br\/><\/strong><\/p><p>This is our most popular Christmas Box every year: A gift that continues to give. Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute mug and delicious coffee chocolate beans. <\/p><p>Hear it from our founder Ralf why he loves it: <a href=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\" title=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\">Video<\/a><\/p>",
+            "text_style": "body"
+          }
+        },
+        "1652943513cf238e66-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER HERE",
+            "button_link": "https:\/\/thebarn.de\/products\/christmas-3-months-gift-subscription"
+          }
+        }
+      },
+      "block_order": [
+        "1652943513cf238e66-0",
+        "1652943513cf238e66-1",
+        "1652943513cf238e66-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/thebarnchristmas2022.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-0": {
+          "type": "text",
+          "settings": {
+            "text": "Limited Edition",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-2": {
+          "type": "text",
+          "settings": {
+            "text": "We declare 8th of December our Christmas Coffee Day. It is 16 days before Christmas. The perfect time for our coffee to rest and enough time to reach you comfortably.",
+            "text_style": "body"
+          }
+        },
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-0",
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-1",
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-3",
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-2",
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-4",
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-5",
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-6",
+        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-7"
+      ],
+      "settings": {
+        "product": "christmas-coffee-day-special",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "1653387743507b82e2",
-    "f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3",
-    "5e773db8-fbbe-4b81-9412-64e6cc8154c2",
-    "eab2749b-46e2-4f37-b260-8018bf172784",
-    "16529435131152e250",
     "1652970717af5972f9",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "165339081846c57155",
@@ -488,7 +427,8 @@
     "165900919845720bf8",
     "16515783060899e67e",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
-    "16578991104d1ffac5",
-    "1659955349273aa5dd"
+    "1659955349273aa5dd",
+    "16529435131152e250",
+    "f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3"
   ]
 }
