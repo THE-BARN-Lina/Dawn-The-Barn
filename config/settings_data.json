@@ -2,8 +2,8 @@
   "current": {
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#804d15",
-    "gradient_accent_1": "linear-gradient(182deg, rgba(128, 77, 21, 1), rgba(30, 80, 13, 1) 100%, rgba(30, 80, 13, 1) 100%)",
-    "colors_accent_2": "#112e07",
+    "gradient_accent_1": "linear-gradient(182deg, rgba(17, 46, 7, 1), rgba(30, 80, 13, 1) 100%, rgba(30, 80, 13, 1) 100%)",
+    "colors_accent_2": "#804d15",
     "gradient_accent_2": "",
     "colors_text": "#ffffff",
     "colors_outline_button_labels": "#ffffff",
@@ -122,7 +122,7 @@
             "type": "announcement",
             "settings": {
               "text": "Our coffee recommendation for your New Year Brunch ✨",
-              "color_scheme": "accent-1",
+              "color_scheme": "accent-2",
               "link": "shopify:\/\/products\/full-bloom"
             }
           }
