@@ -61,17 +61,6 @@
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
-        "1652970717eaeb9726-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RILEY2020-Kambumbu-highres-8145_06560174-68f3-437c-8aba-a521954961d5.webp",
-            "title": "FILTER DROP FROM KENYA",
-            "text": "<p>Giakanja AB has a bold and complex profile with the sweetness of ripe berries. A hint of orange zest and the sweet touch of vanilla round off a beautifully refined filter.<\/p>",
-            "link_label": "ORDER HERE",
-            "link": "shopify:\/\/products\/giakanja-ab",
-            "custom_liquid": ""
-          }
-        },
         "1652970717eaeb9726-0": {
           "type": "column",
           "settings": {
@@ -82,11 +71,22 @@
             "link": "https:\/\/thebarn.de\/products\/christmas-box",
             "custom_liquid": ""
           }
+        },
+        "1652970717eaeb9726-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RILEY2020-Kambumbu-highres-8145_06560174-68f3-437c-8aba-a521954961d5.webp",
+            "title": "NEW FILTER DROP FROM KENYA",
+            "text": "<p>Giakanja AB has a bold and complex profile with the sweetness of ripe berries. A hint of orange zest and the sweet touch of vanilla round off a beautifully refined filter.<\/p>",
+            "link_label": "ORDER HERE",
+            "link": "shopify:\/\/products\/giakanja-ab",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
-        "1652970717eaeb9726-1",
-        "1652970717eaeb9726-0"
+        "1652970717eaeb9726-0",
+        "1652970717eaeb9726-1"
       ],
       "settings": {
         "title": "",
