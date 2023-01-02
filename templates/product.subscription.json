@@ -87,7 +87,7 @@
           "settings": {
             "heading": "Stay in Control",
             "icon": "stopwatch",
-            "content": "<p>With our new online tool you can access your subscriber account and adjust as you like: Add more coffee beans to your next delivery (at 10% discount), skip a delivery or adjust the dispatch date. Change your address or simply opt out. <\/p>",
+            "content": "<p>{{ product.metafields.Subscription.Infomation | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -96,7 +96,7 @@
           "settings": {
             "heading": "Shipping Information",
             "icon": "truck",
-            "content": "<p><strong>Non-EU and all wordwide customers <br\/><\/strong>Shipping included – taxes and import fees not included.<\/p><p><\/p><p>Our international subscribers can now opt between Premium Tracked Service (Fast) or Eco Untracked Service (Cheaper).<\/p>",
+            "content": "<p>{{ product.metafields.Subscription.Shipping_Information | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -220,7 +220,8 @@
             "title": "Free Shipping",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "column-1": {
@@ -229,7 +230,8 @@
             "title": "Hassle-Free Exchanges",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         }
       },
