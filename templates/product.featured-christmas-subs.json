@@ -58,19 +58,12 @@
             "show_dynamic_checkout": false
           }
         },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "Choose your style",
-            "text_style": "body"
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Seasonal Mococa, Brazil",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.capsules.Variant1 | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -79,7 +72,7 @@
           "settings": {
             "heading": "Masterpiece - Elida Geisha, Panama",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.capsules.Varaint2 | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -153,7 +146,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "vendor",
         "collapsible-row-1",
         "collapsible-row-0",
         "description",
