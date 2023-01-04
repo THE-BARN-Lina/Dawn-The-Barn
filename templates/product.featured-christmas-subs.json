@@ -9,14 +9,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -66,6 +58,31 @@
             "show_dynamic_checkout": false
           }
         },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "Choose your style",
+            "text_style": "body"
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Seasonal Mococa, Brazil",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Masterpiece - Elida Geisha, Panama",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -73,28 +90,9 @@
         },
         "9996c297-90e6-481c-9c49-958df0b8ef3b": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<label for=\"personalised message\" class=\"form__label\" style=\"font-size: 16px;\">Include a Personalized  Christmas Card ...<\/label>\n<div class=\"field\">\n<textarea  placeholder=\"Personalised Message\" id=\"personalised message\" class=\"text-area field__input\" placeholder=\"Personalised Message\" name=\"properties[Personalised Message]\"form=\"product-form-{{section.id}}\"><\/textarea><\/div>"
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping",
-            "icon": "truck",
-            "content": "<p>Gift boxes ship the first week of December.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
           }
         },
         "collapsible-row-2": {
@@ -147,7 +145,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
         "774d434a-03b9-4a0f-865a-e14942643b32",
@@ -156,10 +153,11 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "vendor",
+        "collapsible-row-1",
+        "collapsible-row-0",
         "description",
         "9996c297-90e6-481c-9c49-958df0b8ef3b",
-        "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
@@ -186,7 +184,8 @@
             "title": "Free Shipping",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "column-1": {
@@ -195,7 +194,8 @@
             "title": "Hassle-Free Exchanges",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         }
       },
