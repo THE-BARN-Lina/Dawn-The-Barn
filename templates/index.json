@@ -196,7 +196,7 @@
         "show_vendor": false,
         "show_tastenotes": true,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 52,
