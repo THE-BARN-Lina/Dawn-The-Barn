@@ -119,60 +119,6 @@
         "padding_bottom": 40
       }
     },
-    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "25a5c07b-9386-4266-a2cf-aeac850247f2": {
-          "type": "caption",
-          "settings": {
-            "caption": "COFFEE SUBSCRIPTION",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "CURATED FILTER SUBSCRIPTION",
-            "heading_size": "h2"
-          }
-        },
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>WOW - HOW BEAUTIFUL<\/strong><\/p><p>The Christmas Red Origami version is a great addition to anybodys Brew Collection. Made from ancient minoware in Japan, every piece of this wonderful brewer is unique. <\/p><p>Use coneshaped or flat-bottomed filter paper to create different brew results. We find the Origami best when combined with the premium ring made from Acacia wood. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER ORIGAMI",
-            "button_link": "https:\/\/thebarn.de\/products\/origami-christmas-special"
-          }
-        }
-      },
-      "block_order": [
-        "25a5c07b-9386-4266-a2cf-aeac850247f2",
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0",
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1",
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_1363_f22e439b-b7b3-423f-9a81-93145243f122.jpg",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 64
-      }
-    },
     "165339081846c57155": {
       "type": "featured-collection",
       "settings": {
@@ -240,6 +186,59 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 100
+      }
+    },
+    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc": {
+      "type": "image-with-text",
+      "blocks": {
+        "25a5c07b-9386-4266-a2cf-aeac850247f2": {
+          "type": "caption",
+          "settings": {
+            "caption": "COFFEE SUBSCRIPTION",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CURATED FILTER SUBSCRIPTION",
+            "heading_size": "h2"
+          }
+        },
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With our curated subscription you receive two new coffees every month (2x 250g). This is the most popular subscription we offer.  <\/p><p>In January, you receive these coffees.<\/p><ul><li><a href=\"https:\/\/thebarn.de\/products\/mahembe\" target=\"_blank\" title=\"Mahembe | Freshly Roasted Rwanda Coffee Beans\">Mahembe<\/a>, Rwanda:<strong> Morello Cherry. Cocoa.<\/strong><\/li><li><a href=\"https:\/\/thebarn.de\/products\/jesus\" target=\"_blank\" title=\"Corazon de Jesus - Freshly Roasted Brazilian Coffee Beans\">Corazon de Jesus<\/a>, Costa Rica: <strong>Chocolate Ganache. Textured.<\/strong><br\/><br\/><\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SUBSCRIBE NOW",
+            "button_link": "shopify:\/\/products\/curated-subscription-monthly-1"
+          }
+        }
+      },
+      "block_order": [
+        "25a5c07b-9386-4266-a2cf-aeac850247f2",
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0",
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1",
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1401_1.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 64
       }
     },
     "165900919845720bf8": {
@@ -453,9 +452,9 @@
     "image_banner",
     "1653387743507b82e2",
     "1652970717af5972f9",
-    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "165339081846c57155",
     "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",
+    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "165900919845720bf8",
     "16515783060899e67e",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
