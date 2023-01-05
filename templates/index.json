@@ -280,7 +280,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_0100_2_720x_24c7d0ef-f25b-4bc9-9da7-f3e13cb6d797.webp",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
