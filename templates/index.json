@@ -69,7 +69,7 @@
             "text": "<p><a href=\"\/products\/full-bloom\" title=\"FULL BLOOM\"><strong>Full Bloom - Brazil <br\/><\/strong>A cup full of sweet and fruity flavours for a great start into the new year. Enjoy this filter coffee from our innovative partners Daterra from Brazil. <br\/><br\/><strong>Pecan. Caramel. Velvety.<\/strong><\/a><strong> <\/strong><\/p>",
             "link_label": "GET YOURS",
             "link": "shopify:\/\/products\/full-bloom",
-            "custom_liquid": "<style>.media--square {\n  padding-bottom: 72%;}\na {\ntext-decoration: none;}\n\n<\/style>"
+            "custom_liquid": "<style>.media--square {\n  padding-bottom: 72%;}\na {\ntext-decoration: none;\n  color: inherit;\n  text-decoration: inherit;\n  cursor: inherit;\n}\n\n<\/style>"
           }
         },
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
