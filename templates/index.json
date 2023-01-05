@@ -108,7 +108,7 @@
         "image_ratio": "square",
         "columns_desktop": 2,
         "column_alignment": "center",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "link_as_button": true,
