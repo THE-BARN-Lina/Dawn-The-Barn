@@ -693,26 +693,32 @@
             if(present > 0){
                 image[0].style.height = defaultHeight+'px';
                 image[0].style.maxHeight = defaultHeight+'px';
+                image[0].style.display = "block";
                 if (xsdevice.matches || smdevice.matches ){
                     if(mobileheight > 0){
                         image[0].style.height = mobileheight+'px';
                         image[0].style.maxHeight = mobileheight+'px';
+                        image[0].style.display = "block";
                     }
                 }else if(mddevice.matches){
                     if(tabletheight > 0){
                         image[0].style.height = tabletheight+'px';
                         image[0].style.maxHeight = tabletheight+'px';
+                        image[0].style.display = "block";
                     }
                 }
             }else{
                 image[0].style.maxHeight = defaultHeight+'px';
+                image[0].style.display = "block";
                 if (xsdevice.matches || smdevice.matches ){
                     if(mobileheight > 0){
                         image[0].style.maxHeight = mobileheight+'px';
+                        image[0].style.display = "block";
                     }
                 }else if(mddevice.matches){
                     if(tabletheight > 0){
                         image[0].style.maxHeight = tabletheight+'px';
+                        image[0].style.display = "block";
                         
                     }
                 }
