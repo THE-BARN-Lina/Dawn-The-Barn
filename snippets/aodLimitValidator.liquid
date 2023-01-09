@@ -18,7 +18,7 @@
             window.aodValidate(aodResponse, true, true);
         }  
       });
-    },1000);
+    },1500);
   {% endif %}
         clearInterval(aod_set_interval);
         window.aod_JQuery('.Cart__Checkout, .aod_drawer_checkout').click(function (e) {
@@ -100,7 +100,7 @@ xhttp.send();
             window.aod_JQuery(".shopify-payment-button").hide();
 
    	        e.preventDefault();  
-            setTimeout(function(){ window.aod_JQuery("form[action$='cart']").submit();},500);      
+            setTimeout(function(){ window.aod_JQuery("form[action$='cart']").submit();},1500);      
           });
   
         {% endif %}
