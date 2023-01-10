@@ -92,6 +92,66 @@
         "padding_bottom": 20
       }
     },
+    "d3361ba5-2a32-4913-8088-b2b735ad3f25": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/subBenefits_3.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/subBenefits_2.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/subBenefits_1.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-0",
+        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-1",
+        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3b0902d2-e018-4cad-989b-028a36cd0279": {
       "type": "rich-text",
       "blocks": {
@@ -428,66 +488,6 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
-    },
-    "d3361ba5-2a32-4913-8088-b2b735ad3f25": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/subBenefits_3.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
-            "custom_liquid": ""
-          }
-        },
-        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/subBenefits_2.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
-            "custom_liquid": ""
-          }
-        },
-        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/subBenefits_1.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
-            "custom_liquid": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-0",
-        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-1",
-        "template--16392669397259__d3361ba5-2a32-4913-8088-b2b735ad3f25-1673347501f45c1c8a-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "link_as_button": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -496,6 +496,7 @@
     "banner",
     "166298213040d91fb2",
     "166178416464969217",
+    "d3361ba5-2a32-4913-8088-b2b735ad3f25",
     "3b0902d2-e018-4cad-989b-028a36cd0279",
     "1662738554a4ae067d",
     "636edd10-9556-4424-add9-ef1faa9ebb3f",
@@ -505,7 +506,6 @@
     "16629804922d2a4cf0",
     "1662636697f92db74e",
     "166190609843a37cf1",
-    "16609096892f959660",
-    "d3361ba5-2a32-4913-8088-b2b735ad3f25"
+    "16609096892f959660"
   ]
 }
