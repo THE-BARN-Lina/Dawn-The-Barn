@@ -1,12 +1,20 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<h2>{{ section.settings.h2_Heading }}</h2>
+
+<style>
+  h2 {
+    font-size:1px;
   }
+</style>
+
+{% schema %}
+{
+  "name": "h2_Heading",
+  "settings": [
+                  {
+                    "type":"text",
+                    "label":"h2 Heading",
+                    "id":"h2_Heading"
+                  }
+              ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
