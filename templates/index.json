@@ -66,7 +66,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Los_Pirineos.webp",
             "title": "",
-            "text": "<p><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\"><strong>Los Pirineos Anaerobic - El savador<br\/><\/strong><\/a><br\/><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\">Our second release from Los Pirineos is another for lovers of our Exotic portfolio: Diego has harnessed the cleanest anaerobic processing to produce an exciting and dynamic coffee, with fruity weight and exceptional definition.<br\/><strong>Plum. Fig. Velvety. <\/strong><\/a><br\/><\/p>",
+            "text": "<p><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\"><strong>Los Pirineos Anaerobic - El savador<br\/><\/strong><\/a><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\">Our second release from Los Pirineos is another for lovers of our Exotic portfolio: Diego has harnessed the cleanest anaerobic processing to produce an exciting and dynamic coffee, with fruity weight and exceptional definition.<br\/><strong>Plum. Fig. Velvety. <\/strong><\/a><br\/><br\/><\/p>",
             "link_label": "GET YOURS",
             "link": "shopify:\/\/products\/full-bloom",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 72%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
