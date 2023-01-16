@@ -64,9 +64,9 @@
         "1652970717eaeb9726-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/D28CD395-43B2-4D84-B92E-B6397BF73202_1.jpg",
-            "title": "New Year Coffee Recommendation",
-            "text": "<p><a href=\"\/products\/full-bloom\" title=\"FULL BLOOM\"><strong>Full Bloom - Brazil <br\/><\/strong>A cup full of sweet and fruity flavours for a great start into the new year. Enjoy this filter coffee from our innovative partners Daterra from Brazil. <br\/><br\/><strong>Pecan. Caramel. Velvety.<\/strong><\/a><strong> <\/strong><\/p>",
+            "image": "shopify:\/\/shop_images\/Los_Pirineos.webp",
+            "title": "",
+            "text": "<p><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\"><strong>Los Pirineos Anaerobic - El Salvador<br\/><\/strong>Our second release from Los Pirineos is another for lovers of our Exotic portfolio: Diego has harnessed the cleanest anaerobic processing to produce an exciting and dynamic coffee, with fruity weight and exceptional definition.<\/a><\/p><p><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\"><br\/><strong>Plum. Fig. Velvety. <\/strong><\/a><br\/><br\/><\/p>",
             "link_label": "GET YOURS",
             "link": "shopify:\/\/products\/full-bloom",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 72%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
