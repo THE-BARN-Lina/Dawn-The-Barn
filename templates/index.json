@@ -75,9 +75,9 @@
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RILEY2020-Kambumbu-highres-8145_06560174-68f3-437c-8aba-a521954961d5.webp",
-            "title": "New Espresso Drop from Kenya",
-            "text": "<p><a href=\"\/products\/giakanja-ab-filter\" title=\"GIAKANJA AB\"><strong>Giakanja AB - Kenya<\/strong><br\/>For our third release from the Giakanja cooperative we are bringing you this elegant espresso: the depth of AB grade beans showing prominent fruit and delicious complexity.<br\/><br\/><strong>Blackberry. Vanilla. Bold.<\/strong><\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/Tabe_Burka.jpg",
+            "title": "",
+            "text": "<p><a href=\"\/products\/tabe-burka\" title=\"TABE BURKA\"><strong>Tabe Burka - Ethiopia<\/strong><br\/>Located on the border of Shakisso, near Dambi Uddo, where the coffee culture is as ancient as the land. Refined and fruity, the elegant character of this coffee will awaken the palate with bold notes of stone fruit.<br\/><br\/><strong>Peach. Jasmine. Juicy.<\/strong><\/a><\/p>",
             "link_label": "ORDER NOW",
             "link": "shopify:\/\/products\/giakanja-ab-filter",
             "custom_liquid": ""
