@@ -1,92 +1,104 @@
 <style>
-  .icons-container
-  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 36px;
-    flex-wrap: wrap;
-  }
-  
-  .icons-subcontainer
-  {
+body {
+  background-color: #121212;
+}
+
+.icons-title, .icons-desc {
+  color: #ffffff;
+}
+
+.small-icon-brew {
+  max-height: 176px;
+  min-width: 140px;
+  margin-bottom: -30px;
+  object-fit: cover;
+}
+
+.small-icon {
+  max-height: 176px;
+  min-width: 140px;
+  margin-bottom: -30px;
+  object-fit: contain;
+}
+
+.icons-container{
+  display:flex;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  align-content: center;
+  align-items: normal;
+  text-align: center;
+  gap: 36px;
+}
+
+.icons-title {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.icons-desc {
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 900px) 
+{
+  .icons-container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    flex: 50%;
-    max-width:308px;
   }
   
-  .small-icon
-  {
-    height: 226px;
-	object-fit: cover;
-    padding: 3%;
-    margin: 10px;
-    border: none !important;
-    margin-bottom: -10px;
-    margin-top: -40px;
+  .icons-subcontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
   }
   
-  .icons-title
-  {
-    text-transform: uppercase;
-    text-align: center;
-    padding:5px;
-    font-size: 1.7rem;
-    font-weight: 800;
-  }
-
-  .icons-desc{
-    text-align:center;
-    margin-top:-20px;
+  .small-icon {
+  max-height: 80px;
+  min-width: 80px;
+  object-fit: cover;
+}
+  
+  .small-icon-brew {
+  max-height: 100px;
+  min-width: 100px;
+  object-fit:contain;
+  margin-left: -10px;
+ 
+}
+  .icons-container {
+    text-align: left;
   }
   
-  .icons-subtitle
-  {
-    text-wrap: wrap;
-    text-align: center;
-    
-    font-size: 1.3rem;
-    letter-spacing: .13rem;
-    line-height: calc(1 + .2 / var(--font-body-scale));
-  }
-  .section-template--16083381879051__1651574465fc19c571-padding{
-  	padding:0 0 100px 0 !important;
-  }
-
-  @media screen and (max-width: 700px)
-    {
-      .icons-subcontainer
-      {
-        flex: 40%;
-      }
-    }
+}
 </style>
 
+<body>
 <div class="page-width">
 <div class="icons-container">
-  <div class="icons-subcontainer">
-    <h5 class="icons-title">Choose Your Style</h5>
-    <img  class="small-icon"src="https://cdn.shopify.com/s/files/1/0831/4141/files/Style_2_d5791f83-e531-4af3-8919-a7ca5442425c.gif?v=1667308038" height="100%"  >
-    <p class="icons-desc">Pick your preferred brew method and coffee style. Our coffees are seasonally rotating and single origin.</p>
-
-  </div>
+<div class="icons-subcontainer">
+<img class=" small-icon "src="https://cdn.shopify.com/s/files/1/0831/4141/files/Style_2_d5791f83-e531-4af3-8919-a7ca5442425c.gif?v=1667308038">
+<div class=txt-block>
+<p class="icons-title">Choose your style</p>
+<p class="icons-desc">Pick your preferred brew method and coffee style. Our coffees are seasonally rotating and single origin.</p>
+</div>
+</div>
   
-  <div class="icons-subcontainer">
-    <h5 class="icons-title"> Receive Fresh Roast At Home</h5>
-    <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/Receive_Fresh_2.gif?v=1667214440" class="small-icon">
-    <p class="icons-desc">We pack your beans fresh after roasting them carefully. Your box will arrive packed with delicious coffees.</p>
-
-  </div>
+<div class="icons-subcontainer">
+<img src="https://cdn.shopify.com/s/files/1/0831/4141/files/Receive_Fresh_2.gif?v=1667214440" class="small-icon">
+<div class=txt-block>
+<p class="icons-title"> Receive fresh roast at home</p>
+<p class="icons-desc">We pack your beans fresh after roasting them carefully. Your box will arrive packed with delicious coffees.</p>
+</div>
+</div>
     
-  <div class="icons-subcontainer">  
-    <h5 class="icons-title">Enjoy Delicious Coffee</h5>
-    <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/bezbg.gif?v=1664532097" class="small-icon">
-    <p class="icons-desc">No matter how you brew our beans, your taste buds will thank you. No sugar or additives needed.</p>
-
-  </div>  
+<div class="icons-subcontainer">  
+<img src="https://cdn.shopify.com/s/files/1/0831/4141/files/bezbg.gif?v=1664532097" class="small-icon-brew">
+<div class=txt-block>
+<p class="icons-title">Enjoy delicious coffee</p>
+<p class="icons-desc">No matter how you brew our beans, your taste buds will thank you. No sugar or additives needed.</p>
+</div>
+</div>  
 </div>
 </div>
+<body>
