@@ -331,7 +331,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "padding_top": 40,
         "padding_bottom": 40
       }
