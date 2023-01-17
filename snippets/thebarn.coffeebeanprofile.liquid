@@ -199,9 +199,9 @@
                 
 
     <script>
-var el1 = document.getElementById("Slide-{{ section.id }}-1");
-var el2 = document.getElementById("Slide-{{ section.id }}-2");
-var el3 = document.getElementById("Slide-{{ section.id }}-3");
+const el1 = document.getElementById("Slide-{{ section.id }}-1");
+const el2 = document.getElementById("Slide-{{ section.id }}-2");
+const el3 = document.getElementById("Slide-{{ section.id }}-3");
 
 
 
@@ -212,8 +212,8 @@ for(let i = 0; i < els.length; i++){
   let first_p =  els[i].getElementsByTagName("p")[0];
 
   first_p.classList.toggle("content");
-  els[i].addEventListener("click",function(t){
-    console.log(t)
+  els[i].addEventListener("click",function(){
+    console.log(el1)
 
     if(window.innerWidth < 600){
       els[i].classList.toggle("active");
