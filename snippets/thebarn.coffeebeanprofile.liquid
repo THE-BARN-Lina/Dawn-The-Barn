@@ -219,9 +219,9 @@ for(let i = 0; i < els.length; i++){
 
 for(let i = 0; i < els.length; i++){
 els[i].addEventListener("click",function(){
-    console.log(p1, p2, p3);
-
+    console.log(p1, p2, p3, window.innerWidth) ;
     if(window.innerWidth < 1200){
+
       els[i].classList.toggle("active");
       let first_p =  ps[i];
 
