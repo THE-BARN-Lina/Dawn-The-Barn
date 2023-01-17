@@ -216,7 +216,8 @@ var el3 = document.getElementById("Slide-{{ section.id }}-3");
 
 
   el3.addEventListener("click", function() {
-    var texts = el3.getElementsByTagName("p");
+    var texts = new Array;
+    texts.push(el3.getElementsByTagName("p"));
     texts.forEach(t => { t.classList.toggle("active")});
     this.classList.toggle("active");
     
