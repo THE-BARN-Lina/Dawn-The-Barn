@@ -219,7 +219,9 @@ var el3 = document.getElementById("Slide-{{ section.id }}-3");
     var texts = new Array;
     texts.push(el3.getElementsByTagName("p"));
     console.log(texts);
-     texts.forEach((t) => { t.classList.toggle("active")});    
+     texts.forEach((t) => { 
+      console.log(t);
+      t.classList.toggle("active")});    
     });
 console.log(el3);
 
