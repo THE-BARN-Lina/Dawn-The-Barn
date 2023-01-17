@@ -324,7 +324,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ralf_planting_trees.webp",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
