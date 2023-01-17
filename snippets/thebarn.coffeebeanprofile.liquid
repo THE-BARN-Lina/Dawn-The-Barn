@@ -203,11 +203,17 @@ var el1 = document.getElementById("Slide-{{ section.id }}-1");
 var el2 = document.getElementById("Slide-{{ section.id }}-2");
 var el3 = document.getElementById("Slide-{{ section.id }}-3");
 
+
+
 var els = [el1, el2, el3];
 
-els.forEach( (el) => {
-    let first_p =  el.getElementsByTagName("p");
-    first_p.classList.toggle("content");
+for(let i = 0; i < els.length; i++){
+  
+  let first_p =  els[i].getElementsByTagName("p");
+  first_p.classList.toggle("content");
+}
+
+
 
 });
 
