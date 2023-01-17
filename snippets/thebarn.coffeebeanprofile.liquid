@@ -13,7 +13,6 @@
 }
 
 .active, .collapsible:hover {
-  max-height: fit-content !important;
 
 }
 
@@ -219,7 +218,14 @@ texts[0].classList.toggle("content");
   
    var  texts = el3.getElementsByTagName("p");
     console.log(texts);
-     texts[0].style.maxHeight = "fitContent";
+    // texts[0].style.maxHeight = "fitContent";
+     el3.classList.toggle("active");
+     var content =  texts[0];
+     if (content.style.maxHeight){
+       content.style.maxHeight = null;
+     } else {
+       content.style.maxHeight = content.scrollHeight + "px";
+     } 
      //texts[0].classList.toggle("active");    
   });
 console.log(el3);
