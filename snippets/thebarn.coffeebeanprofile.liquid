@@ -215,17 +215,17 @@
 var coll = document.getElementById("Slide-{{ section.id }}-3");
 var i;
 
-for (i = 0; i < coll.length; i++) {
+
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     //var content = this.nextElementSibling;
-    var content = thi..getElementsByTagName("p")s;
+    var content = this.getElementsByTagName("p")[0];
     if (content.style.maxHeight){
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
     } 
-  });
+
 }
 </script>
 
