@@ -14,14 +14,14 @@
 
 .active, .collapsible:hover {
   max-height: fit-content !important;
-  transition: max-height 0.2s ease-out;
+
 }
 
 .content {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
- 
+  transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
     [id*="Slide-{{ section.id }}-1"]> * {
@@ -213,8 +213,8 @@
 
     <script>
 var el3 = document.getElementById("Slide-{{ section.id }}-3");
-
-
+var  texts = el3.getElementsByTagName("p");
+texts[0].classList.toggle("content");    
   el3.addEventListener("click", function() {
   
    var  texts = el3.getElementsByTagName("p");
