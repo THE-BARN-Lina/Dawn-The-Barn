@@ -215,7 +215,7 @@ for(let i = 0; i < els.length; i++){
 for(let i = 0; i < els.length; i++){
 els[i].addEventListener("click",function(){
     console.log(p1, p2, p3, window.innerWidth) ;
-    if(window.innerWidth < 900){
+    if(window.innerWidth < 990){
 
       els[i].classList.toggle("active");
       let first_p =  ps[i];
@@ -257,11 +257,12 @@ els[i].addEventListener("click",function(){
     console.log(window.innerWidth);
     if (window.innerWidth == 990)
     {
-      els[0].classList.remove("active");
-      els[1].classList.remove("active");
-      els[2].classList.remove("active");
+
+      
 
       for(let j = 0; j < ps.length; j++){
+        if(els[j].classList.contains("active")){
+        els[j].classList.toggle("active");
         let first_p =  ps[j];
 
    
@@ -270,9 +271,9 @@ els[i].addEventListener("click",function(){
         } else {
           first_p.style.maxHeight = first_p.scrollHeight + "px";
         } 
-        first_p.classList.remove("active");   
+        first_p.classList.toggle("active");   
         
-
+}
       }
     }
     
