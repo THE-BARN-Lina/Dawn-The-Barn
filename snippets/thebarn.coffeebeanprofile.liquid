@@ -212,19 +212,12 @@
                 
 
     <script>
-var coll = document.getElementById("Slide-{{ section.id }}-3");
-var i;
+var el3 = document.getElementById("Slide-{{ section.id }}-3");
 
 
-  coll.addEventListener("click", function() {
+  el3.addEventListener("click", function() {
     this.classList.toggle("active");
-    //var content = this.nextElementSibling;
-    var content = this.getElementsByTagName("p")[0];
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
+    console.log("test");
 
 }
 </script>
