@@ -212,18 +212,29 @@ for(let i = 0; i < els.length; i++){
   let first_p =  els[i].getElementsByTagName("p")[0];
 
   first_p.classList.toggle("content");
-  els[i].addEventListener("click",function(){
-    els[i].classList.toggle("active");
-    let first_p =  els[i].getElementsByTagName("p")[0];
+  els[i].addEventListener("click",function(t){
+
+
+    if(window.innerWidth < 600){
+      els[i].classList.toggle("active");
+      let first_p =  els[i].getElementsByTagName("p")[0];
 
    
-    if (first_p.style.maxHeight){
-       first_p.style.maxHeight = null;
-     } else {
-       first_p.style.maxHeight = first_p.scrollHeight + "px";
-     } 
-     first_p.classList.toggle("active");    
+        if (first_p.style.maxHeight){
+          first_p.style.maxHeight = null;
+        } else {
+          first_p.style.maxHeight = first_p.scrollHeight + "px";
+        } 
+        first_p.classList.toggle("active");   
+        
+        } 
+     else
+     {
+        console.log(t)
+     }
+
   });
+
 }
 
 
