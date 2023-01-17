@@ -26,8 +26,6 @@ body {
   height: auto;
   width: auto;
   margin: 0 auto;
-  align-content: center;
-  align-items: normal;
   text-align: center;
   gap: 88px;
 }
@@ -43,6 +41,33 @@ body {
   font-size: 1.1rem;
 }
 
+
+@media only screen and (max-width: 1000px) 
+{
+  .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: center;
+  }
+  
+  .small-icon {
+  min-width: 40%;
+  flex-basis: 50%
+}
+  
+  .small-icon-brew {
+  min-width: 40%;
+  flex-basis: 50%
+ 
+}
+  .icons-container {
+    text-align: left;
+  }
+  
+}
+
+  
 @media only screen and (max-width: 850px) 
 {
   .icons-container{
