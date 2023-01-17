@@ -209,6 +209,8 @@ const p1 = el1.getElementsByTagName("p")[0];
 const p2 = el2.getElementsByTagName("p")[0];
 const p3 = el3.getElementsByTagName("p")[0];
 
+const ps = [p1,p2,p3];
+
 for(let i = 0; i < els.length; i++){
 
   let first_p =  els[i].getElementsByTagName("p")[0];
@@ -221,7 +223,7 @@ els[i].addEventListener("click",function(){
 
     if(window.innerWidth < 600){
       els[i].classList.toggle("active");
-      let first_p =  els[i].getElementsByTagName("p")[0];
+      let first_p =  ps[i];
 
    
         if (first_p.style.maxHeight){
@@ -234,7 +236,23 @@ els[i].addEventListener("click",function(){
         } 
      else
      {
+      els[0].classList.toggle("active");
+      els[1].classList.toggle("active");
+      els[2].classList.toggle("active");
+
+      for(let j = 0; j < ps.length; j++){
+        let first_p =  ps[j];
+
    
+        if (first_p.style.maxHeight){
+          first_p.style.maxHeight = null;
+        } else {
+          first_p.style.maxHeight = first_p.scrollHeight + "px";
+        } 
+        first_p.classList.toggle("active");   
+        
+
+      }
      }
 
   });
