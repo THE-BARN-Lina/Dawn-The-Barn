@@ -64,18 +64,18 @@
         "1652970717eaeb9726-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Los_Pirineos.webp",
+            "image": "shopify:\/\/shop_images\/626B1AFB-EAD8-47E4-90C2-404907212D95.png",
             "title": "",
             "text": "<p><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\"><strong>Los Pirineos Anaerobic - El Salvador<br\/><\/strong>Our second release from Los Pirineos is another for lovers of our Exotic portfolio: Diego has harnessed the cleanest anaerobic processing to produce an exciting and dynamic coffee, with fruity weight and exceptional definition.<\/a><\/p><p><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\"><br\/><strong>Plum. Fig. Velvety. <\/strong><\/a><br\/><\/p>",
             "link_label": "GET YOURS",
             "link": "shopify:\/\/products\/los-pirineos-anaerobic-filter",
-            "custom_liquid": "<style>.media--square {\n  padding-bottom: 72%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+            "custom_liquid": ""
           }
         },
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tabe_Burka.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_5016.jpg",
             "title": "",
             "text": "<p><a href=\"\/products\/tabe-burka\" title=\"TABE BURKA\"><strong>Tabe Burka - Ethiopia<\/strong><br\/>Located on the border of Shakisso, near Dambi Uddo, where the coffee culture is as ancient as the land. Refined and fruity, the elegant character of this coffee will awaken the palate with bold notes of stone fruit.<br\/><br\/><strong>Peach. Jasmine. Juicy.<\/strong><\/a><\/p>",
             "link_label": "ORDER NOW",
