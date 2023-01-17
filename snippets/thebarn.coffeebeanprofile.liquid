@@ -210,27 +210,25 @@ var els = [el1, el2, el3];
 for(let i = 0; i < els.length; i++){
 
   let first_p =  els[i].getElementsByTagName("p")[0];
-  console.log(first_p);
+
   first_p.classList.toggle("content");
+  els[i].addEventListener("click",function{
+    els[i].classList.toggle("active");
+    let first_p =  els[i].getElementsByTagName("p")[0];
+
+   
+    if (first_p.style.maxHeight){
+       first_p.style.maxHeight = null;
+     } else {
+       first_p.style.maxHeight = first_p.scrollHeight + "px";
+     } 
+     first_p.classList.toggle("active");    
+  });
 }
 
 
 
-  el3.addEventListener("click", function() {
-  
-   var  texts = el3.getElementsByTagName("p");
-    console.log(texts);
-    // texts[0].style.maxHeight = "fitContent";
-     el3.classList.toggle("active");
-     var content =  texts[0];
-     if (content.style.maxHeight){
-       content.style.maxHeight = null;
-     } else {
-       content.style.maxHeight = content.scrollHeight + "px";
-     } 
-     texts[0].classList.toggle("active");    
-  });
-console.log(el3);
+
 
 </script>
 
