@@ -208,14 +208,12 @@ var el3 = document.getElementById("Slide-{{ section.id }}-3");
 var els = [el1, el2, el3];
 
 for(let i = 0; i < els.length; i++){
-  
+
   let first_p =  els[i].getElementsByTagName("p");
   first_p.classList.toggle("content");
 }
 
 
-
-});
 
   el3.addEventListener("click", function() {
   
