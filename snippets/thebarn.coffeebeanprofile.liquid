@@ -1,4 +1,11 @@
 <style>
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
     [id*="Slide-{{ section.id }}-1"]> * {
       border: 1px solid #947C5A;
       color: slate;
@@ -125,7 +132,7 @@
       color: slate;
       cursor: pointer;
       flex-basis: calc(33% - 40px);
-     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
       overflow: hidden;
       position: relative;
       transition: 0.5s ease all;
@@ -157,11 +164,14 @@
     [id*="Slide-{{ section.id }}-3"] > * p , h3{
       position: relative;
       z-index: 2;
+
     }
     
     [id*="Slide-{{ section.id }}-3"] > * p {
       font-size: 1.4rem;
       margin-top: 1.4rem;
+      max-height: 0;
+      overflow: hidden;
     }
     
     [id*="Slide-{{ section.id }}-3"] > *:hover {
@@ -169,7 +179,7 @@
       box-shadow: 0 8px 20px rgba(0,0,0,0.3);
       color: #fff;
       transform: scale(1.05);
-      z-index: 2;
+      z-index: 0;
     }
     
     [id*="Slide-{{ section.id }}-3"] > *:hover:before {
@@ -182,14 +192,98 @@
     </style>
       
                 
+
     <script>
+const el1 = document.getElementById("Slide-{{ section.id }}-1");
+const el2 = document.getElementById("Slide-{{ section.id }}-2");
+const el3 = document.getElementById("Slide-{{ section.id }}-3");
 
-        const el1 = document.getElementById("Slide-{{section.id}}-1");
-        const el2 = document.getElementById("Slide-{{ section.id}}-2");
-        const el3 = document.getElementById("Slide-{{section.id}}-3");
-     
-        el1.onclick = function(){window.location.href = "https://thebarn.de/collections/beans?filter.p.m.bean.profile=Balanced"};
-        el2.onclick = function(){window.location.href = "https://thebarn.de/collections/beans?filter.p.m.bean.profile=Terroir"};
-        el3.onclick = function(){window.location.href = "https://thebarn.de/collections/beans?filter.p.m.bean.profile=Exotic"};
+var els = [el1, el2, el3];
 
-    </script>
+const p1 = el1.getElementsByTagName("p")[0];
+const p2 = el2.getElementsByTagName("p")[0];
+const p3 = el3.getElementsByTagName("p")[0];
+
+const ps = [p1,p2,p3];
+
+for(let i = 0; i < els.length; i++){
+
+  let first_p =  els[i].getElementsByTagName("p")[0];
+  first_p.classList.toggle("content");
+}
+
+for(let i = 0; i < els.length; i++){
+els[i].addEventListener("click",function(){
+    console.log(p1, p2, p3, window.innerWidth) ;
+    if(window.innerWidth < 990){
+
+      els[i].classList.toggle("active");
+      let first_p =  ps[i];
+
+   
+        if (first_p.style.maxHeight){
+          first_p.style.maxHeight = null;
+        } else {
+          first_p.style.maxHeight = first_p.scrollHeight + "px";
+        } 
+        first_p.classList.toggle("active");   
+        
+        } 
+     else
+     {
+      els[0].classList.toggle("active");
+      els[1].classList.toggle("active");
+      els[2].classList.toggle("active");
+
+      for(let j = 0; j < ps.length; j++){
+        let first_p =  ps[j];
+
+   
+        if (first_p.style.maxHeight){
+          first_p.style.maxHeight = null;
+        } else {
+          first_p.style.maxHeight = first_p.scrollHeight + "px";
+        } 
+        first_p.classList.toggle("active");   
+        
+
+      }
+     }
+
+  });
+  }
+
+  window.addEventListener('resize', function(event) {
+    console.log(window.innerWidth);
+    if (window.innerWidth < 990)
+    {
+
+      
+
+      for(let j = 0; j < ps.length; j++){
+        if(els[j].classList.contains("active")){
+        els[j].classList.toggle("active");
+        let first_p =  ps[j];
+
+   
+        if (first_p.style.maxHeight){
+          first_p.style.maxHeight = null;
+        } else {
+          first_p.style.maxHeight = first_p.scrollHeight + "px";
+        } 
+        first_p.classList.toggle("active");   
+        
+}
+      }
+    }
+    
+}, true);
+
+
+
+
+</script>
+
+
+
+
