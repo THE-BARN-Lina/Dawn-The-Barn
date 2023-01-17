@@ -149,7 +149,7 @@
       color: slate;
       cursor: pointer;
       flex-basis: calc(33% - 40px);
-     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
       overflow: hidden;
       position: relative;
       transition: 0.5s ease all;
@@ -192,8 +192,8 @@
       border: 0;
       box-shadow: 0 8px 20px rgba(0,0,0,0.3);
       color: #fff;
-      transform: scale(1.05);
-      z-index: 2;
+      transform: scale(1.0);
+      z-index: 0;
     }
     
     [id*="Slide-{{ section.id }}-3"] > *:hover:before {
@@ -206,16 +206,6 @@
     </style>
       
                 
-    <script>
-
-        const el1 = document.getElementById("Slide-{{section.id}}-1");
-        const el2 = document.getElementById("Slide-{{ section.id}}-2");
-        const el3 = document.getElementById("Slide-{{section.id}}-3");
-     
-      
-
-    </script>
-
 
     <script>
 var coll = document.getElementsByClassName("collapsible");
