@@ -203,17 +203,21 @@ const el1 = document.getElementById("Slide-{{ section.id }}-1");
 const el2 = document.getElementById("Slide-{{ section.id }}-2");
 const el3 = document.getElementById("Slide-{{ section.id }}-3");
 
-
-
 var els = [el1, el2, el3];
+
+const p1 = el1.getElementsByTagName("p")[0];
+const p2 = el2.getElementsByTagName("p")[0];
+const p3 = el3.getElementsByTagName("p")[0];
 
 for(let i = 0; i < els.length; i++){
 
   let first_p =  els[i].getElementsByTagName("p")[0];
-
   first_p.classList.toggle("content");
-  els[i].addEventListener("click",function(){
-    console.log(el1)
+}
+
+for(let i = 0; i < els.length; i++){
+els[i].addEventListener("click",function(){
+    console.log(p1, p2, p3);
 
     if(window.innerWidth < 600){
       els[i].classList.toggle("active");
@@ -230,12 +234,11 @@ for(let i = 0; i < els.length; i++){
         } 
      else
      {
-        console.log(t)
+   
      }
 
   });
-
-}
+  }
 
 
 
