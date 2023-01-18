@@ -43,8 +43,8 @@
       "settings": {
         "custom_liquid": "{% render | \"perks.icons\" %}\n<style>\na:hover{\ncolor:white !important;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "636edd10-9556-4424-add9-ef1faa9ebb3f": {
@@ -64,7 +64,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
