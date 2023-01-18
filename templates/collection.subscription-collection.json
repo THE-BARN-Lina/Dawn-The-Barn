@@ -43,7 +43,7 @@
       "settings": {
         "custom_liquid": "{% render | \"perks.icons\" %}\n<style>\na:hover{\ncolor:white !important;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 40,
+        "padding_top": 20,
         "padding_bottom": 40
       }
     },
