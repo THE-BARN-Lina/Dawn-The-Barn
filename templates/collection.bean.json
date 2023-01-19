@@ -58,9 +58,10 @@
         },
         "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Taste by Profiles",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
