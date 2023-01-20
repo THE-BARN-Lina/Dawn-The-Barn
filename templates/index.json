@@ -400,87 +400,13 @@
         "padding_bottom": 40
       }
     },
-    "f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-0": {
-          "type": "text",
-          "settings": {
-            "text": "Limited Edition",
-            "text_style": "uppercase"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h2"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-2": {
-          "type": "text",
-          "settings": {
-            "text": "We declare 8th of December our Christmas Coffee Day. It is 16 days before Christmas. The perfect time for our coffee to rest and enough time to reach you comfortably.",
-            "text_style": "body"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-7": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-0",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-1",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-3",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-2",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-4",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-5",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-6",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-7"
-      ],
-      "settings": {
-        "product": "christmas-coffee-day-special",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "96f1e286-81c1-4272-a69e-9c8be69f9a59": {
       "type": "featured-blog",
       "disabled": true,
       "settings": {
         "heading": "OUR BLOG",
         "heading_size": "h2",
-        "blog": "the-barn-blog",
+        "blog": "coffee-wiki",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
@@ -489,6 +415,64 @@
         "show_author": false,
         "show_view_all": true,
         "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
+    "20d07d22-5246-491b-b6f2-edcabe969eef": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3264.jpg",
+            "title": "Column",
+            "text": "<p>The Hario V60 is one of the most iconic drip brewers. You’ll see our baristas brewing with the V60 throughout our cafes as it delivers incredibly clear flavours and aromas, bringing out the best of the coffee to get a full experience.<\/p>",
+            "link_label": "Learn More",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/v60-drip",
+            "custom_liquid": ""
+          }
+        },
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-0",
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-1",
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-2"
+      ],
+      "settings": {
+        "title": "Explore our brew guides",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "shopify:\/\/blogs\/the-barn-blog\/v60-drip",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -506,7 +490,7 @@
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "1659955349273aa5dd",
     "16529435131152e250",
-    "f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3",
-    "96f1e286-81c1-4272-a69e-9c8be69f9a59"
+    "96f1e286-81c1-4272-a69e-9c8be69f9a59",
+    "20d07d22-5246-491b-b6f2-edcabe969eef"
   ]
 }
