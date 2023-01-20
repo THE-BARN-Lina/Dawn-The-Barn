@@ -66,7 +66,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/DDC4328B-3696-493D-BBAA-FD4FFD329E1E_1.jpg",
             "title": "Volcan Azul Geisha -  Costa Rica",
-            "text": "<p><strong>Once brewed, this coffee explodes with ripe peach and blackberry flavour. <\/strong><br\/><br\/>Geisha… anaerobic… this coffee promises a lot. Luckily, Volcan Azul is a farm with over 100 years of coffee producing knowledge and you will find it all wrapped up in this expertly produced and exotically profiled coffee.<\/p>",
+            "text": "<p><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\"><strong>Once brewed, this coffee explodes with ripe peach and blackberry flavour. <\/strong><br\/><br\/>Geisha… anaerobic… this coffee promises a lot. Luckily, Volcan Azul is a farm with over 100 years of coffee producing knowledge and you will find it all wrapped up in this expertly produced and exotically profiled coffee.<\/a><\/p>",
             "link_label": "GET YOURS",
             "link": "shopify:\/\/products\/volcan-azul-geisha",
             "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
