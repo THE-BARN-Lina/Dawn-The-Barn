@@ -80,7 +80,7 @@
             "text": "<p><a href=\"\/products\/tabe-burka\" title=\"TABE BURKA\"><strong>Tabe Burka - Ethiopia<\/strong><br\/>Located on the border of Shakisso, near Dambi Uddo, where the coffee culture is as ancient as the land. Refined and fruity, the elegant character of this coffee will awaken the palate with bold notes of stone fruit.<br\/><br\/><strong>Peach. Jasmine. Juicy.<\/strong><\/a><\/p>",
             "link_label": "ORDER NOW",
             "link": "shopify:\/\/products\/tabe-burka",
-            "custom_liquid": "<style>.media--square {\n  padding-bottom: 72%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+            "custom_liquid": "<style>.media--square {\n  padding-bottom: 80%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1652970717eaeb9726-1": {
