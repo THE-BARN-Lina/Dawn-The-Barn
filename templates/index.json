@@ -426,9 +426,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_3264.jpg",
-            "title": "Column",
+            "title": "Hario V60",
             "text": "<p>The Hario V60 is one of the most iconic drip brewers. You’ll see our baristas brewing with the V60 throughout our cafes as it delivers incredibly clear flavours and aromas, bringing out the best of the coffee to get a full experience.<\/p>",
-            "link_label": "Learn More",
+            "link_label": "LEARN MORE",
             "link": "shopify:\/\/blogs\/the-barn-blog\/v60-drip",
             "custom_liquid": ""
           }
@@ -436,20 +436,20 @@
         "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
+            "title": "Chemex",
+            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/chemex",
             "custom_liquid": ""
           }
         },
         "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
+            "title": "Aeropress",
+            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee. The addition of paper filters and a rubber seal results in excellent extraction and a fantastic mouthfeel.<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/aeropress",
             "custom_liquid": ""
           }
         }
@@ -467,9 +467,9 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "shopify:\/\/blogs\/the-barn-blog\/v60-drip",
-        "link_as_button": true,
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
