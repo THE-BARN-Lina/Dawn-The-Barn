@@ -36,7 +36,7 @@
 }
 {% endschema %}
 
-<header class="subs-cont">
+<div class="subs-cont">
   <section class="subs-hero">
     <img
       class="subs-hero-img"
@@ -47,7 +47,7 @@
       <p class="hero-text-desc">The worlds best coffees on repeat</p>
     </section>
   </section>
-</header>
+</div>
 
 <style>
   /* Appoligies because shopify dawn theme does not have full width there are some forcefull styles here*/
@@ -74,17 +74,18 @@
   /*left: -1.5%;*/
   }
 
-  /*.subs-hero {
-  width: 100vw;
-  }*/
+  .subs-hero {
+  position: relative;
+  }
 
   .subs-hero-text {
   position: absolute;
   top: 0;
-  margin-left: 53%;
-  margin-top: 50%;
+  margin-left: 202px;
+  margin-top: calc(40% - 94px)
   display: grid;
   grid-gap: 1.0rem;
+  width: 70%;
   }
 
   .hero-text-heading {
