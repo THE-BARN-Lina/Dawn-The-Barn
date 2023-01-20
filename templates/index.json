@@ -66,7 +66,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/DDC4328B-3696-493D-BBAA-FD4FFD329E1E_1.jpg",
             "title": "Volcan Azul Geisha -  Costa Rica",
-            "text": "<p><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\"><strong>Once brewed, this coffee explodes with ripe peach and blackberry flavour. <\/strong><br\/><\/a><br\/><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\">Volcan Azul is a farm with over 100 years of coffee producing knowledge and you will find it all wrapped up in this expertly produced and exotically profiled coffee.<\/a><\/p>",
+            "text": "<p><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\"><strong>Once brewed, this coffee explodes with ripe peach and blackberry flavour. <\/strong><br\/><\/a><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\">Volcan Azul is a farm with over 100 years of coffee producing knowledge and you will find it all wrapped up in this expertly produced and exotically profiled coffee.<\/a><\/p>",
             "link_label": "GET YOURS",
             "link": "shopify:\/\/products\/volcan-azul-geisha",
             "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
@@ -77,7 +77,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/image_ada82474-b9b3-4ff1-b4a1-2ea024fe0658.webp",
             "title": "Hario V60 Special",
-            "text": "<p><a href=\"\/products\/hario-v60-special\" title=\"HARIO V60 SPECIAL\"><strong>Special Bundle: Get The Hario V60 with our wonderful Gedeb Chelchele Natural from Ethiopia.<br\/><\/strong><br\/>To truly experience the beautiful flavour and defined complexity of our single origin coffees, there is one brewer we recommend above all others: the Hario V60.<\/a><\/p>",
+            "text": "<p><a href=\"\/products\/hario-v60-special\" title=\"HARIO V60 SPECIAL\"><strong>Special Bundle: Get The Hario V60 with our wonderful Gedeb Chelchele Natural from Ethiopia.<br\/><\/strong>To truly experience the beautiful flavour and defined complexity of our single origin coffees, there is one brewer we recommend above all others: the Hario V60.<\/a><\/p>",
             "link_label": "ORDER NOW",
             "link": "shopify:\/\/products\/hario-v60-special",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: ;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
