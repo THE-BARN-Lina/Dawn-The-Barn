@@ -75,12 +75,12 @@
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/91BD3E20-ACB1-4738-A0E3-2E94EC782DD9_1_c73c3ab2-de07-40b3-8449-efa458b3d1af.jpg",
-            "title": "",
-            "text": "<p><a href=\"\/products\/tabe-burka\" title=\"TABE BURKA\"><strong>Tabe Burka - Ethiopia<\/strong><br\/>Located on the border of Shakisso, near Dambi Uddo, where the coffee culture is as ancient as the land. Refined and fruity, the elegant character of this coffee will awaken the palate with bold notes of stone fruit.<br\/><br\/><strong>Peach. Jasmine. Juicy.<\/strong><\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_ada82474-b9b3-4ff1-b4a1-2ea024fe0658.webp",
+            "title": "Hario V60 Special",
+            "text": "<p><a href=\"\/products\/hario-v60-special\" title=\"HARIO V60 SPECIAL\"><strong>Special Bundle: Get The Hario V60 with our wonderful Gedeb Chelchele Natural from Ethiopia.<\/strong><br\/>To truly experience the beautiful flavour and defined complexity of our single origin coffees, there is one brewer we recommend above all others: the Hario V60.<\/a><\/p>",
             "link_label": "ORDER NOW",
-            "link": "shopify:\/\/products\/tabe-burka",
-            "custom_liquid": "<style>.media--square {\n  padding-bottom: 80%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+            "link": "shopify:\/\/products\/hario-v60-special",
+            "custom_liquid": "<style>.media--square {\n  padding-bottom: ;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1652970717eaeb9726-1": {
