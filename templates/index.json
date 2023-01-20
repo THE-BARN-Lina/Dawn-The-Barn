@@ -469,7 +469,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "link_as_button": false,
+        "link_as_button": true,
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
