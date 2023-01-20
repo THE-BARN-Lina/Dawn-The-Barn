@@ -77,7 +77,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/image_ada82474-b9b3-4ff1-b4a1-2ea024fe0658.webp",
             "title": "Hario V60 Special",
-            "text": "<p><a href=\"\/products\/hario-v60-special\" title=\"HARIO V60 SPECIAL\"><strong>Special Bundle: Get The Hario V60 with our wonderful Gedeb Chelchele Natural from Ethiopia.<\/strong><br\/>To truly experience the beautiful flavour and defined complexity of our single origin coffees, there is one brewer we recommend above all others: the Hario V60.<\/a><\/p>",
+            "text": "<p><a href=\"\/products\/hario-v60-special\" title=\"HARIO V60 SPECIAL\"><strong>Special Bundle: Get The Hario V60 with our wonderful Gedeb Chelchele Natural from Ethiopia.<br\/><\/strong><br\/>To truly experience the beautiful flavour and defined complexity of our single origin coffees, there is one brewer we recommend above all others: the Hario V60.<\/a><\/p>",
             "link_label": "ORDER NOW",
             "link": "shopify:\/\/products\/hario-v60-special",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: ;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
