@@ -64,23 +64,23 @@
         "1652970717eaeb9726-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/A8BB0C5C-9C2B-44F2-815B-85F399025B01_1.jpg",
-            "title": "",
-            "text": "<p><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\"><strong>Los Pirineos Anaerobic - El Salvador<br\/><\/strong>Our second release from Los Pirineos is another for lovers of our Exotic portfolio: Diego has harnessed the cleanest anaerobic processing to produce an exciting and dynamic coffee, with fruity weight and exceptional definition.<\/a><\/p><p><a href=\"\/products\/los-pirineos-anaerobic-filter\" title=\"LOS PIRINEOS ANAEROBIC\"><br\/><strong>Plum. Fig. Velvety. <\/strong><\/a><br\/><\/p>",
+            "image": "shopify:\/\/shop_images\/DDC4328B-3696-493D-BBAA-FD4FFD329E1E_1.jpg",
+            "title": "Volcan Azul Anaerobic Geisha -  Costa Rica",
+            "text": "<p><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\"><strong>Ripe Peach. Blackberries. <\/strong><br\/>Volcan Azul is a farm with over 100 years of coffee producing knowledge and you will find it all wrapped up in this expertly produced and exotically profiled coffee.<\/a><\/p>",
             "link_label": "GET YOURS",
-            "link": "shopify:\/\/products\/los-pirineos-anaerobic-filter",
+            "link": "shopify:\/\/products\/volcan-azul-geisha",
             "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/91BD3E20-ACB1-4738-A0E3-2E94EC782DD9_1_c73c3ab2-de07-40b3-8449-efa458b3d1af.jpg",
-            "title": "",
-            "text": "<p><a href=\"\/products\/tabe-burka\" title=\"TABE BURKA\"><strong>Tabe Burka - Ethiopia<\/strong><br\/>Located on the border of Shakisso, near Dambi Uddo, where the coffee culture is as ancient as the land. Refined and fruity, the elegant character of this coffee will awaken the palate with bold notes of stone fruit.<br\/><br\/><strong>Peach. Jasmine. Juicy.<\/strong><\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/image_ada82474-b9b3-4ff1-b4a1-2ea024fe0658.webp",
+            "title": "Hario V60 Special",
+            "text": "<p><a href=\"\/products\/hario-v60-special\" title=\"HARIO V60 SPECIAL\"><strong>Special Bundle: V60 + Gedeb Chelchele<br\/><\/strong>To truly experience the beautiful flavour and defined complexity of our single origin coffees, there is one brewer we recommend above all others: the Hario V60.<\/a><\/p>",
             "link_label": "ORDER NOW",
-            "link": "shopify:\/\/products\/tabe-burka",
-            "custom_liquid": "<style>.media--square {\n  padding-bottom: 72%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+            "link": "shopify:\/\/products\/hario-v60-special",
+            "custom_liquid": "<style>.media--square {\n  padding-bottom: ;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1652970717eaeb9726-1": {
@@ -400,87 +400,13 @@
         "padding_bottom": 40
       }
     },
-    "f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-0": {
-          "type": "text",
-          "settings": {
-            "text": "Limited Edition",
-            "text_style": "uppercase"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h2"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-2": {
-          "type": "text",
-          "settings": {
-            "text": "We declare 8th of December our Christmas Coffee Day. It is 16 days before Christmas. The perfect time for our coffee to rest and enough time to reach you comfortably.",
-            "text_style": "body"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-7": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-0",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-1",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-3",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-2",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-4",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-5",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-6",
-        "template--16216418910475__f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3-1670506359df956862-7"
-      ],
-      "settings": {
-        "product": "christmas-coffee-day-special",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "96f1e286-81c1-4272-a69e-9c8be69f9a59": {
       "type": "featured-blog",
       "disabled": true,
       "settings": {
         "heading": "OUR BLOG",
         "heading_size": "h2",
-        "blog": "the-barn-blog",
+        "blog": "coffee-wiki",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
@@ -489,6 +415,65 @@
         "show_author": false,
         "show_view_all": true,
         "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
+    "20d07d22-5246-491b-b6f2-edcabe969eef": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3264.jpg",
+            "title": "Hario V60",
+            "text": "<p>The Hario V60 is one of the most iconic drip brewers. You’ll see our baristas brewing with the V60 throughout our cafes as it delivers incredibly clear flavours and aromas, bringing out the best of the coffee to get a full experience.<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/v60-drip",
+            "custom_liquid": ""
+          }
+        },
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-1": {
+          "type": "column",
+          "settings": {
+            "title": "Chemex",
+            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/chemex",
+            "custom_liquid": ""
+          }
+        },
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-2": {
+          "type": "column",
+          "settings": {
+            "title": "Aeropress",
+            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee. The addition of paper filters and a rubber seal results in excellent extraction and a fantastic mouthfeel.<\/p>",
+            "link_label": "LEARN MORE",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/aeropress",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-0",
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-1",
+        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-2"
+      ],
+      "settings": {
+        "title": "Explore our brew guides",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -506,7 +491,7 @@
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "1659955349273aa5dd",
     "16529435131152e250",
-    "f81fcf4e-0b07-4b5b-bcc8-d04335de3cb3",
-    "96f1e286-81c1-4272-a69e-9c8be69f9a59"
+    "96f1e286-81c1-4272-a69e-9c8be69f9a59",
+    "20d07d22-5246-491b-b6f2-edcabe969eef"
   ]
 }
