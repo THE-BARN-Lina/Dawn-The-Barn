@@ -53,8 +53,10 @@
   /* Appoligies because shopify dawn theme does not have full width there are some forcefull styles here*/
 
   /*main stylying*/
-  #shopify-section-template--16216423072011__61526f59-c5c6-4ec0-b13e-f55767a96db1 .subs-cont{
-  width: 100vw;}
+  
+  [id*="{{ section.id }}"]> *.subs-cont{
+  width: 100vw;
+  display: none;}
 
   #shopify-section-template--16216423072011__61526f59-c5c6-4ec0-b13e-f55767a96db1{
   margin-left: -210px;}
