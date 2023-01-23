@@ -420,7 +420,6 @@
     },
     "20d07d22-5246-491b-b6f2-edcabe969eef": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-0": {
           "type": "column",
@@ -436,6 +435,7 @@
         "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3361.jpg",
             "title": "Chemex",
             "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<\/p>",
             "link_label": "LEARN MORE",
@@ -446,8 +446,9 @@
         "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Aeropress_Image.jpg",
             "title": "Aeropress",
-            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee. The addition of paper filters and a rubber seal results in excellent extraction and a fantastic mouthfeel.<\/p>",
+            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee. The addition of paper filters and a rubber seal results in excellent extraction.<\/p>",
             "link_label": "LEARN MORE",
             "link": "shopify:\/\/blogs\/the-barn-blog\/aeropress",
             "custom_liquid": ""
