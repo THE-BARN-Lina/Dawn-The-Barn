@@ -400,7 +400,68 @@
     "685af0eb-16a3-450b-aee6-c2447cd7bbf5": {
       "type": "h2_heading",
       "settings": {
-        "h2_Heading": "111"
+        "h2_Heading": "111",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1d5d6f27-111c-4274-a262-2ae3b6c951ea": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16392660189451__1d5d6f27-111c-4274-a262-2ae3b6c951ea-1674463078fbe585e2-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3264.jpg",
+            "title": "Hario V60",
+            "text": "<p>The Hario V60 is one of the most iconic drip brewers. You’ll see our baristas brewing with the V60 throughout our cafes as it delivers incredibly clear flavours and aromas, bringing out the best of the coffee to get a full experience.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--16392660189451__1d5d6f27-111c-4274-a262-2ae3b6c951ea-1674463078fbe585e2-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3361.jpg",
+            "title": "Chemex",
+            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--16392660189451__1d5d6f27-111c-4274-a262-2ae3b6c951ea-1674463078fbe585e2-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16392660189451__1d5d6f27-111c-4274-a262-2ae3b6c951ea-1674463078fbe585e2-0",
+        "template--16392660189451__1d5d6f27-111c-4274-a262-2ae3b6c951ea-1674463078fbe585e2-1",
+        "template--16392660189451__1d5d6f27-111c-4274-a262-2ae3b6c951ea-1674463078fbe585e2-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -419,6 +480,7 @@
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "16578991104d1ffac5",
     "1659955349273aa5dd",
-    "685af0eb-16a3-450b-aee6-c2447cd7bbf5"
+    "685af0eb-16a3-450b-aee6-c2447cd7bbf5",
+    "1d5d6f27-111c-4274-a262-2ae3b6c951ea"
   ]
 }
