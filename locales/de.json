@@ -2116,5 +2116,10 @@
       "terms_of_sale": "Terms of sale",
       "terms_of_service": "Allgemeine Geschäftsbedingungen"
     }
+  },
+  "auction_pro_template": {
+    "js": {
+      "date": "Datum"
+    }
   }
 }
