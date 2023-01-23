@@ -53,14 +53,11 @@
   /* Appoligies because shopify dawn theme does not have full width there are some forcefull styles here*/
 
   /*main stylying*/
-  #shopify-section-template--16216424612107__7409db41-a69f-4be8-a75d-2a7d5c42b0fb .subs-cont{
+  [id*="{{ section.id }}"]> * .subs-cont{
   width: 100vw;}
 
-  #shopify-section-template--16216424612107__7409db41-a69f-4be8-a75d-2a7d5c42b0fb{
+  [id*="{{ section.id }}"]> *{
   margin-left: -210px;}
-
- /* .subs-hero{
-  position: relative;}*/
 
   .subs-hero-img {
   opacity: 0.6;
@@ -98,7 +95,7 @@
 
   /*MEDIA stylying 730px,750px,799px*/
   @media screen and (min-width: 750px) {
-  .section-template--16216424612107__7409db41-a69f-4be8-a75d-2a7d5c42b0fb-padding {
+    [id*="{{ section.id }}-padding"]> * {
     margin-left: -245px;
   }
     
@@ -117,7 +114,7 @@
 
   /*MEDIA stylying 800px,899px*/
   @media screen and (min-width: 800px) {
-  #shopify-section-template--16216424612107__7409db41-a69f-4be8-a75d-2a7d5c42b0fb{
+    [id*="{{ section.id }}"]> *{
   margin-left: -245px;}
   }
 
@@ -353,7 +350,7 @@
   .subs-hero-img {
    overflow: hidden;
   }
-  #shopify-section-template--16216424612107__7409db41-a69f-4be8-a75d-2a7d5c42b0fb .subs-cont{
+  [id*="{{ section.id }}"]> * .subs-cont{
   width: 100%;}
   }
 </style>
