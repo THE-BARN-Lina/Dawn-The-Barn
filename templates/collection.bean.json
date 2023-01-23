@@ -212,6 +212,7 @@
     },
     "7409db41-a69f-4be8-a75d-2a7d5c42b0fb": {
       "type": "bean-landing-image",
+      "disabled": true,
       "settings": {
         "padding_top": 40,
         "padding_bottom": 52
