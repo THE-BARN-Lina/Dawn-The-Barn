@@ -433,9 +433,10 @@
         "template--16392660189451__1d5d6f27-111c-4274-a262-2ae3b6c951ea-1674463078fbe585e2-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/Aeropress_Image.jpg",
+            "title": "Aeropress",
+            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee. The addition of paper filters and a rubber seal results in excellent extraction.<\/p>",
+            "link_label": "kk",
             "link": "",
             "custom_liquid": ""
           }
@@ -450,16 +451,16 @@
         "title": "Multicolumn",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "Button label",
         "button_link": "",
-        "link_as_button": false,
+        "link_as_button": true,
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
