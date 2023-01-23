@@ -10,7 +10,7 @@
     },
     "16536485367ff1191d": {
       "type": "image-banner",
-      "disabled": false,
+      "disabled": true,
       "blocks": {
         "16536485364024ce9d-0": {
           "type": "heading",
@@ -80,8 +80,8 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 24
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "9aed932f-1130-4b01-8d78-81c28dfcac7f": {
