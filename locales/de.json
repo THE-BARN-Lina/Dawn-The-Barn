@@ -2119,7 +2119,72 @@
   },
   "auction_pro_template": {
     "js": {
-      "date": "Datum"
+      "date": "Datum",
+      "amount": "Höhe",
+      "auction_end": "AUKTION IST BEENDET",
+      "automatic_bid_higher": "Der eingegebene Wert muss größer sein als das aktuelle Höchstgebot plus Mindestgebotsschritt, bitte geben Sie einen anderen Wert ein",
+      "automatic_bid_minimum": "Der eingegebene Wert ist niedriger als das aktuelle maximale automatische Gebot, bitte geben Sie einen anderen Wert ein",
+      "automatic_bid_success": "Automatisches Gebot erfolgreich abgegeben!",
+      "bid": "Gebot",
+      "bidder": "Bieter",
+      "bids": "Gebote",
+      "bid_empty": "Die Gebotseingabe darf nicht leer sein",
+      "bid_increment": "Gebotserhöhung",
+      "bid_minimum": "Gebotsbetrag muss mindestens sein",
+      "bid_success": "Gebot erfolgreich abgegeben!",
+      "end_date": "Endtermin",
+      "enter": "Eintreten",
+      "error": "Ein Fehler ist aufgetreten",
+      "error_bid_highest": "Sie haben bereits das Höchstgebot für diese Auktion abgegeben",
+      "error_maximum_bid_increment": "Der maximale Gebotsschritt für diese Auktion beträgt",
+      "error_maximum_bid_increment_after": "Sie können nicht mehr bieten als",
+      "item_already_added": "Sie haben diesen Artikel bereits zu Ihrem Warenkorb hinzugefügt",
+      "login_message": {
+        "you_must": "Du musst",
+        "login": "Anmeldung",
+        "or": "oder",
+        "create_account": "ein Konto erstellen",
+        "place_bid": "Gebote abzugeben"
+      },
+      "or_more": "oder mehr",
+      "outbid_automatic": "Jemand hat ein höheres automatisches Gebot abgegeben, bitte geben Sie ein höheres Gebot ab",
+      "outbid_regular": "Sie wurden überboten, bitte aktualisieren Sie die Seite, um den aktuellen Stand der Auktion zu sehen",
+      "reserve_price_met": "Reserve erfüllt"
+    },
+    "template": {
+      "automatic_bid_message": "Geben Sie den Höchstbetrag ein, den Sie zu zahlen bereit sind, und es werden automatisch Gebote bis zu dem angegebenen Betrag für Sie abgegeben. Wenn jemand ein höheres Höchstgebot abgegeben hat als Sie, wird Ihr Gebot nicht registriert.",
+      "automatic_bid_place": "Automatisches Gebot abgeben",
+      "automatic_bid_tooltip": "Geben Sie den Höchstbetrag ein, den Sie zu zahlen bereit sind, und es werden automatisch Gebote bis zu dem angegebenen Betrag für Sie abgegeben",
+      "bids": "Gebote",
+      "bid_amount": "Gebotsbetrag",
+      "bid_current": "Aktuelles Gebot",
+      "bid_enter": "Gebot eingeben",
+      "bid_starting": "Startgebot",
+      "bid_submit": "Gebot abgeben",
+      "bid_submitting": "Angebot abgeben ...",
+      "bid_submit_confirm": "Sind Sie sicher, dass Sie Ihr Gebot abgeben möchten?",
+      "bid_verb": "Gebot",
+      "bid_winning": "Gewinngebot",
+      "buy_it_now": "Kaufe es jetzt",
+      "buy_it_now_price": "Kauf es jetzt Preis",
+      "cancel": "Absagen",
+      "close": "Nah dran",
+      "confirm": "Bestätigen",
+      "reserve_price_not_met": "Reserve nicht erfüllt"
     }
+  },
+  "collection_auctions": {
+    "auction_title": "Auktionen",
+    "empty": "Keine Produkte gefunden",
+    "search": "Suche",
+    "search_no_results": "Keine Suchergebnisse",
+    "sort": "Sortieren",
+    "sort_bids_highest": "Gebote: höchste",
+    "sort_bids_lowest": "Gebote: niedrigste",
+    "sort_price_highest": "Preis: am höchsten",
+    "sort_price_lowest": "Preis: am niedrigsten",
+    "sort_time_ending_soonest": "Zeit endet baldig",
+    "sort_time_newly_listed": "Uhrzeit: neu gelistet",
+    "title": "Sammlung"
   }
 }
