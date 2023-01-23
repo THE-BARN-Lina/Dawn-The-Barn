@@ -1,6 +1,13 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
+    "7409db41-a69f-4be8-a75d-2a7d5c42b0fb": {
+      "type": "bean-landing-image",
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16536485367ff1191d": {
       "type": "image-banner",
       "disabled": true,
@@ -209,24 +216,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "7409db41-a69f-4be8-a75d-2a7d5c42b0fb": {
-      "type": "bean-landing-image",
-      "disabled": true,
-      "settings": {
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
+    "7409db41-a69f-4be8-a75d-2a7d5c42b0fb",
     "16536485367ff1191d",
     "banner",
     "1a713986-dc37-4b66-b5cf-0705458ba228",
     "9aed932f-1130-4b01-8d78-81c28dfcac7f",
     "16609093955d46716e",
     "1651574465fc19c571",
-    "16609096892f959660",
-    "7409db41-a69f-4be8-a75d-2a7d5c42b0fb"
+    "16609096892f959660"
   ]
 }
