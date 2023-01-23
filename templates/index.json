@@ -467,7 +467,7 @@
         "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "link_as_button": true,
