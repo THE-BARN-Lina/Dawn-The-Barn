@@ -53,11 +53,11 @@
   /* Appoligies because shopify dawn theme does not have full width there are some forcefull styles here*/
 
   /*main stylying*/
-  [id*="{{ section.id }}"]> *.subs-cont{
+  [id*="{{ section.id }}"] > *.subs-cont{
   width: 100vw;
   }
 
-  [id*="{{ section.id }}"]> *{
+  [id*="{{ section.id }}"]{
   margin-left: -210px;}
 
   .subs-hero-img {
@@ -96,7 +96,7 @@
 
   /*MEDIA stylying 730px,750px,799px*/
   @media screen and (min-width: 750px) {
-    [id*="{{ section.id }}-padding"]> * {
+    [id*="{{ section.id }}-padding"]{
     margin-left: -245px;
   }
     
@@ -115,8 +115,9 @@
 
   /*MEDIA stylying 800px,899px*/
   @media screen and (min-width: 800px) {
-    [id*="{{ section.id }}"]> *{
+    [id*="{{ section.id }}"]{
   margin-left: -245px;}
+  }
 
   .subs-hero-text{
     top: calc(60% - 40px);
@@ -363,7 +364,7 @@
   .subs-hero-img {
    overflow: hidden;
   }
-  [id*="{{ section.id }}"]> * .subs-cont{
+  [id*="{{ section.id }}"] > *.subs-cont{
   width: 100%;
   }
 
