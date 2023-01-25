@@ -52,7 +52,7 @@
     "1653387743507b82e2": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render | \"awards-snippet\" %}",
+        "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n.quick-add__submit{ background-color: red !important;\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 48,
         "padding_bottom": 48
@@ -275,7 +275,7 @@
         "show_vendor": false,
         "show_tastenotes": true,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 52,
