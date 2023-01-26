@@ -52,7 +52,7 @@
     "1653387743507b82e2": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render | \"awards-snippet\" %}",
+        "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 48,
         "padding_bottom": 48
