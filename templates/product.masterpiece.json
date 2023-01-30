@@ -180,6 +180,28 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
+        "676330e1-223b-47a5-b7d2-f75dbdc1e6d3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43444CDC-3FDC-4515-8F68-04E4C6BCA383_1.jpg",
+            "title": "February 2023",
+            "text": "<p>Cruz Loma - Ecuador <\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "d21fa9c0-3589-4b08-a2d6-0a9229c08f73": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A6A4BA27-8E26-4D30-A7AA-9A99E8489440.webp",
+            "title": "January 2023",
+            "text": "<p>Finca Santa Teresa - Panama<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
         "27d8bd53-7629-4848-8a0e-e6df135662c1": {
           "type": "column",
           "settings": {
@@ -281,6 +303,8 @@
         }
       },
       "block_order": [
+        "676330e1-223b-47a5-b7d2-f75dbdc1e6d3",
+        "d21fa9c0-3589-4b08-a2d6-0a9229c08f73",
         "27d8bd53-7629-4848-8a0e-e6df135662c1",
         "28b0f08c-11fb-4359-b8a4-7d166ef1090c",
         "column-0",
