@@ -80,7 +80,7 @@
         "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
           "type": "text",
           "settings": {
-            "text": "<p>Last days have started to get your hands on our next Masterpiece from Ecuador. Sign up now! <\/p><p>Cruz Loma, Ecuador: <strong>Cherry. Orange Blossom.<\/strong><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/Masterpiece_Cover_Letter_Feb_2023_Update_1__01.pdf?v=1674817044\" target=\"_blank\" title=\"Cruz Loma Sidra & Typica Masterpiece cover letter\">Read more about it.<\/a><\/p>",
+            "text": "<p>Last days have started to get your hands on our next Masterpiece from Ecuador. Sign up now! <\/p><p>Cruz Loma, Ecuador<br\/><strong>Cherry. Orange Blossom.<\/strong><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/Masterpiece_Cover_Letter_Feb_2023_Update_1__01.pdf?v=1674817044\" target=\"_blank\" title=\"Cruz Loma Sidra & Typica Masterpiece cover letter\">Read more about it.<\/a><\/p>",
             "text_style": "body"
           }
         },
@@ -120,10 +120,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/78EC8CE7-E707-4B80-9B7F-1788F16A0BA6.jpg",
             "title": "La Arada - Honduras",
-            "text": "<p><a href=\"\/products\/finca-cruz-loma-masterpiece\" title=\"LIMITED MASTERPIECE: CRUZ LOMA\"><strong>Berry. Dark Chocolate.<br\/><\/strong><\/a>La Arada has a satisfying profile that is light and almost tea-like: it is one of those coffees we could sip all day. The rich qualities of dark chocolate and brown sugar are pronounced but not overwhelming, with enough body to fill the palate.<\/p>",
+            "text": "<p><a href=\"\/products\/la-arada\" title=\"LA ARADA\"><strong>Berry. Dark Chocolate.<br\/><\/strong>La Arada has a satisfying profile that is light and almost tea-like: it is one of those coffees we could sip all day. The cup has rich qualities of dark chocolate and brown sugar.<\/a><\/p>",
             "link_label": "ORDER NOW",
-            "link": "shopify:\/\/products\/masterpieces",
-            "custom_liquid": "<style>.media--square {\n  padding-bottom: ;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+            "link": "shopify:\/\/products\/la-arada",
+            "custom_liquid": "<style>.media--square {\n  padding-bottom: 80%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1652970717eaeb9726-0": {
