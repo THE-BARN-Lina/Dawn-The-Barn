@@ -60,6 +60,7 @@
     },
     "550bad91-bd7c-428d-b01d-b1a12420b001": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "7c004cde-aa17-4fcc-9a10-f9ab83819e27": {
           "type": "caption",
@@ -117,9 +118,9 @@
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FB0A0A52-5C07-4360-8DB1-9304BD8FD2A0.jpg",
-            "title": "Limited Masterpiece: Cruz Loma - Ecuador",
-            "text": "<p><a href=\"\/products\/finca-cruz-loma-masterpiece\" title=\"LIMITED MASTERPIECE: CRUZ LOMA\"><strong>Cherry. Orange Blossom.<br\/><\/strong>Taste A Masterpiece Today. Working with the farm and our export partners, we have secured 65 bags of <strong>Cruz Loma Sidra & Typica. <\/strong><\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/78EC8CE7-E707-4B80-9B7F-1788F16A0BA6.jpg",
+            "title": "La Arada - Honduras",
+            "text": "<p><a href=\"\/products\/finca-cruz-loma-masterpiece\" title=\"LIMITED MASTERPIECE: CRUZ LOMA\"><strong>Berry. Dark Chocolate.<br\/><\/strong><\/a>La Arada has a satisfying profile that is light and almost tea-like: it is one of those coffees we could sip all day. The rich qualities of dark chocolate and brown sugar are pronounced but not overwhelming, with enough body to fill the palate.<\/p>",
             "link_label": "ORDER NOW",
             "link": "shopify:\/\/products\/masterpieces",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: ;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
