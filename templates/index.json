@@ -60,7 +60,6 @@
     },
     "550bad91-bd7c-428d-b01d-b1a12420b001": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "7c004cde-aa17-4fcc-9a10-f9ab83819e27": {
           "type": "caption",
@@ -129,7 +128,7 @@
         "1652970717eaeb9726-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DDC4328B-3696-493D-BBAA-FD4FFD329E1E_1.jpg",
+            "image": "shopify:\/\/shop_images\/DDC4328B-3696-493D-BBAA-FD4FFD329E1E_1_20f761f0-6a34-41bd-9f0b-f876c081938d.jpg",
             "title": "Volcan Azul Anaerobic Geisha -  Costa Rica",
             "text": "<p><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\"><strong>Ripe Peach. Blackberries. <\/strong><br\/>Volcan Azul is a farm with over 100 years of coffee producing knowledge and you will find it all wrapped up in this expertly produced and exotically profiled coffee.<\/a><\/p>",
             "link_label": "GET YOURS",
