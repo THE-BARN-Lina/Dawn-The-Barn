@@ -58,6 +58,60 @@
         "padding_bottom": 48
       }
     },
+    "550bad91-bd7c-428d-b01d-b1a12420b001": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "7c004cde-aa17-4fcc-9a10-f9ab83819e27": {
+          "type": "caption",
+          "settings": {
+            "caption": "MASTERPIECE SUBSCRIPTION",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "fc2067cd-78f5-4d98-8a27-55b990a12a38": {
+          "type": "heading",
+          "settings": {
+            "heading": "FEBRUARY MASTERPIECE",
+            "heading_size": "h2"
+          }
+        },
+        "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Last days have started to get your hands on our next Masterpiece from Ecuador. Sign up now! <\/p><p>Cruz Loma, Ecuador: <strong>Cherry. Orange Blossom.<\/strong><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/Masterpiece_Cover_Letter_Feb_2023_Update_1__01.pdf?v=1674817044\" target=\"_blank\" title=\"Cruz Loma Sidra & Typica Masterpiece cover letter\">Read more about it.<\/a><\/p>",
+            "text_style": "body"
+          }
+        },
+        "b40f8898-27e9-404c-9fd4-4c7ad623d92e": {
+          "type": "button",
+          "settings": {
+            "button_label": "SUBSCRIBE NOW",
+            "button_link": "shopify:\/\/products\/masterpieces"
+          }
+        }
+      },
+      "block_order": [
+        "7c004cde-aa17-4fcc-9a10-f9ab83819e27",
+        "fc2067cd-78f5-4d98-8a27-55b990a12a38",
+        "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51",
+        "b40f8898-27e9-404c-9fd4-4c7ad623d92e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1401_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
@@ -482,6 +536,7 @@
   "order": [
     "image_banner",
     "1653387743507b82e2",
+    "550bad91-bd7c-428d-b01d-b1a12420b001",
     "1652970717af5972f9",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "165339081846c57155",
