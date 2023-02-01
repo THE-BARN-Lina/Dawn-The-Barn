@@ -148,7 +148,7 @@
           "type": "button",
           "settings": {
             "button_label": "SUBSCRIBE NOW",
-            "button_link": "shopify:\/\/products\/curated-subscription-monthly-1"
+            "button_link": "shopify:\/\/products\/curated-subscription-monthly"
           }
         }
       },
