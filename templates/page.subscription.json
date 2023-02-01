@@ -58,7 +58,7 @@
           "settings": {
             "name": "curated",
             "title": "<p>CURATED FILTER OR ESPRESSO<\/p>",
-            "product": "curated-subscription-monthly",
+            "product": "curated-subscription-monthly-2",
             "img": "shopify:\/\/shop_images\/subscription_3_bags_1.jpg",
             "shortDescription": "Two new coffee experiences per month.",
             "longDescription": "<p>Receive two new coffees every month. Chose your roast style. Always get the latest releases.<br\/><strong>In {{ \"now\" | date: \"%B\"| prepend: \" \" }} we are sending out :<\/strong><\/p><p><strong>FILTER<br\/><\/strong>{{settings.curated_filter_1}}<br\/>{{settings.curated_filter_2}}<br\/><strong><br\/>ESPRESSO <\/strong><br\/>{{settings.curated_espresso_1}}<br\/>{{settings.curated_espresso_2}}<\/p>",
