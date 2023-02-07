@@ -119,8 +119,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/78EC8CE7-E707-4B80-9B7F-1788F16A0BA6_1_5064d87b-b936-4cc3-9c6e-857295301079.jpg",
-            "title": "La Arada - Honduras",
-            "text": "<p><a href=\"\/products\/la-arada\" title=\"LA ARADA\"><strong>Berry. Dark Chocolate.<br\/><\/strong>La Arada has a profile that is light and almost tea-like: it is one of those coffees we could sip all day. The cup has rich qualities of dark chocolate and brown sugar.<\/a><\/p>",
+            "title": "Organic Cotton Beanie",
+            "text": "<p><strong>Keeps you warm on cold days <\/strong><a href=\"\/products\/la-arada\" title=\"LA ARADA\"><strong><br\/><\/strong><\/a>A timeless design that makes sipping your coffee during the winter time even more enjoyable. One size fits all - our team loves it!<\/p>",
             "link_label": "ORDER NOW",
             "link": "shopify:\/\/products\/la-arada",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 80%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
