@@ -118,12 +118,12 @@
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/78EC8CE7-E707-4B80-9B7F-1788F16A0BA6_1_5064d87b-b936-4cc3-9c6e-857295301079.jpg",
+            "image": "shopify:\/\/shop_images\/f5a439dc-5671-4e1a-a264-79e7c65d1646.jpg",
             "title": "Organic Cotton Beanie",
-            "text": "<p><strong>Keeps you warm on cold days <\/strong><a href=\"\/products\/la-arada\" title=\"LA ARADA\"><strong><br\/><\/strong><\/a>A timeless design that makes sipping your coffee during the winter time even more enjoyable. One size fits all - our team loves it!<\/p>",
+            "text": "<p><a href=\"\/products\/beanie\" title=\"BEANIE\"><strong>Keeps you warm on cold days <br\/><\/strong>A timeless design that makes sipping your coffee during the winter time even more enjoyable. One size fits all - our team loves it!<\/a><\/p>",
             "link_label": "ORDER NOW",
             "link": "shopify:\/\/products\/la-arada",
-            "custom_liquid": "<style>.media--square {\n  padding-bottom: 80%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+            "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1652970717eaeb9726-0": {
