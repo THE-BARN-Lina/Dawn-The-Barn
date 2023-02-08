@@ -302,50 +302,6 @@
         "padding_bottom": 100
       }
     },
-    "16515783060899e67e": {
-      "type": "image-with-text",
-      "blocks": {
-        "1651578306681188a7-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "UNCOMPROMISED QUALITY",
-            "heading_size": "h2"
-          }
-        },
-        "1651578306681188a7-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Through personal farm relationships we build quality from the start. Our integrated approach connects all stages to create excellent coffee: sourcing, roasting and serving the perfect cup.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1651578306681188a7-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "OUR STORY",
-            "button_link": "shopify:\/\/pages\/aboutus"
-          }
-        }
-      },
-      "block_order": [
-        "1651578306681188a7-0",
-        "1651578306681188a7-1",
-        "1651578306681188a7-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_0100_2_720x_24c7d0ef-f25b-4bc9-9da7-f3e13cb6d797.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 40
-      }
-    },
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146": {
       "type": "image-with-text",
       "blocks": {
@@ -387,6 +343,50 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "16515783060899e67e": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651578306681188a7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "UNCOMPROMISED QUALITY",
+            "heading_size": "h2"
+          }
+        },
+        "1651578306681188a7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Through personal farm relationships we build quality from the start. Our integrated approach connects all stages to create excellent coffee: sourcing, roasting and serving the perfect cup.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1651578306681188a7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "OUR STORY",
+            "button_link": "shopify:\/\/pages\/aboutus"
+          }
+        }
+      },
+      "block_order": [
+        "1651578306681188a7-0",
+        "1651578306681188a7-1",
+        "1651578306681188a7-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_0100_2_720x_24c7d0ef-f25b-4bc9-9da7-f3e13cb6d797.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
         "padding_bottom": 40
       }
     },
@@ -542,8 +542,8 @@
     "165339081846c57155",
     "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",
     "165900919845720bf8",
-    "16515783060899e67e",
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
+    "16515783060899e67e",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "1659955349273aa5dd",
     "16529435131152e250",
