@@ -112,6 +112,59 @@
         "padding_bottom": 64
       }
     },
+    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc": {
+      "type": "image-with-text",
+      "blocks": {
+        "25a5c07b-9386-4266-a2cf-aeac850247f2": {
+          "type": "caption",
+          "settings": {
+            "caption": "COFFEE SUBSCRIPTION",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FILTER SUBSCRIPTION",
+            "heading_size": "h2"
+          }
+        },
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With our curated subscription you receive two new coffees every month (2x 250g). This is the most popular subscription we offer.  <\/p><p>In February, you receive these coffees:<\/p><ul><li>Radiophare, Indonesia: <strong>Passionfruit. Cinnamon.<\/strong><\/li><li><a href=\"\/products\/tabe-burka\" target=\"_blank\" title=\"TABE BURKA\">Tabe Burka<\/a>, Ethiopia: <strong>Peach. Jasmine.<\/strong><\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SUBSCRIBE NOW",
+            "button_link": "shopify:\/\/products\/curated-subscription-monthly"
+          }
+        }
+      },
+      "block_order": [
+        "25a5c07b-9386-4266-a2cf-aeac850247f2",
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0",
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1",
+        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1401_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
@@ -171,59 +224,6 @@
         "swipe_on_mobile": false,
         "padding_top": 40,
         "padding_bottom": 40
-      }
-    },
-    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc": {
-      "type": "image-with-text",
-      "blocks": {
-        "25a5c07b-9386-4266-a2cf-aeac850247f2": {
-          "type": "caption",
-          "settings": {
-            "caption": "COFFEE SUBSCRIPTION",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "FILTER SUBSCRIPTION",
-            "heading_size": "h2"
-          }
-        },
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>With our curated subscription you receive two new coffees every month (2x 250g). This is the most popular subscription we offer.  <\/p><p>In February, you receive these coffees:<\/p><ul><li>Radiophare, Indonesia: <strong>Passionfruit. Cinnamon.<\/strong><\/li><li><a href=\"\/products\/tabe-burka\" target=\"_blank\" title=\"TABE BURKA\">Tabe Burka<\/a>, Ethiopia: <strong>Peach. Jasmine.<\/strong><\/li><\/ul>",
-            "text_style": "body"
-          }
-        },
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SUBSCRIBE NOW",
-            "button_link": "shopify:\/\/products\/curated-subscription-monthly"
-          }
-        }
-      },
-      "block_order": [
-        "25a5c07b-9386-4266-a2cf-aeac850247f2",
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0",
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1",
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_1401_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 64
       }
     },
     "165339081846c57155": {
@@ -537,8 +537,8 @@
     "image_banner",
     "1653387743507b82e2",
     "550bad91-bd7c-428d-b01d-b1a12420b001",
-    "1652970717af5972f9",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
+    "1652970717af5972f9",
     "165339081846c57155",
     "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",
     "165900919845720bf8",
