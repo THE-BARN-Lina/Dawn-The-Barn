@@ -112,6 +112,67 @@
         "padding_bottom": 64
       }
     },
+    "1652970717af5972f9": {
+      "type": "multicolumn",
+      "blocks": {
+        "1652970717eaeb9726-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B6F69B4E-9303-471D-8D96-7E712171CB37.jpg",
+            "title": "Juan Martin Harrar -  Colombia",
+            "text": "<p><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\"><strong>Strawberries. Caramel. <\/strong><br\/><\/a>The complexity we love in  Finca Juan Martin is abundant in this release. Enjoy a new experience with this anaerobic washed coffee.<\/p>",
+            "link_label": "GET YOUR BAG",
+            "link": "https:\/\/thebarn.de\/products\/juan-martin-harrar",
+            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+          }
+        },
+        "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6270_776e0ab3-e812-49ac-88d3-6657bee07429.jpg",
+            "title": "Organic Cotton Beanie",
+            "text": "<p><a href=\"\/products\/beanie\" title=\"BEANIE\"><strong>Keeps you warm on cold days <br\/><\/strong>A timeless design that makes sipping your coffee during the winter time even more enjoyable. One size fits all - our team loves it!<\/a><\/p>",
+            "link_label": "ORDER NOW",
+            "link": "https:\/\/thebarn.de\/products\/beanie",
+            "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+          }
+        },
+        "1652970717eaeb9726-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RILEY2020-Kambumbu-highres-8145_06560174-68f3-437c-8aba-a521954961d5.webp",
+            "title": "NEW FILTER DROP FROM KENYA",
+            "text": "<p>Giakanja AB has a bold and complex profile with the sweetness of ripe berries. A hint of orange zest and the sweet touch of vanilla round off a beautifully refined filter.<\/p>",
+            "link_label": "ORDER HERE",
+            "link": "shopify:\/\/products\/giakanja-ab",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652970717eaeb9726-0",
+        "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
+        "1652970717eaeb9726-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "165339081846c57155": {
       "type": "featured-collection",
       "settings": {
@@ -192,67 +253,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 64
-      }
-    },
-    "1652970717af5972f9": {
-      "type": "multicolumn",
-      "blocks": {
-        "1652970717eaeb9726-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/B6F69B4E-9303-471D-8D96-7E712171CB37.jpg",
-            "title": "Juan Martin Harrar -  Colombia",
-            "text": "<p><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\"><strong>Strawberries. Caramel. <\/strong><br\/><\/a>The complexity we love in  Finca Juan Martin is abundant in this release. Enjoy a new experience with this anaerobic washed coffee.<\/p>",
-            "link_label": "GET YOUR BAG",
-            "link": "https:\/\/thebarn.de\/products\/juan-martin-harrar",
-            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
-          }
-        },
-        "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6270_776e0ab3-e812-49ac-88d3-6657bee07429.jpg",
-            "title": "Organic Cotton Beanie",
-            "text": "<p><a href=\"\/products\/beanie\" title=\"BEANIE\"><strong>Keeps you warm on cold days <br\/><\/strong>A timeless design that makes sipping your coffee during the winter time even more enjoyable. One size fits all - our team loves it!<\/a><\/p>",
-            "link_label": "ORDER NOW",
-            "link": "https:\/\/thebarn.de\/products\/beanie",
-            "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
-          }
-        },
-        "1652970717eaeb9726-1": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RILEY2020-Kambumbu-highres-8145_06560174-68f3-437c-8aba-a521954961d5.webp",
-            "title": "NEW FILTER DROP FROM KENYA",
-            "text": "<p>Giakanja AB has a bold and complex profile with the sweetness of ripe berries. A hint of orange zest and the sweet touch of vanilla round off a beautifully refined filter.<\/p>",
-            "link_label": "ORDER HERE",
-            "link": "shopify:\/\/products\/giakanja-ab",
-            "custom_liquid": ""
-          }
-        }
-      },
-      "block_order": [
-        "1652970717eaeb9726-0",
-        "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
-        "1652970717eaeb9726-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "link_as_button": true,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "534dac0d-13ae-4ca4-8a87-df64d29c7bf1": {
@@ -537,9 +537,9 @@
     "image_banner",
     "1653387743507b82e2",
     "550bad91-bd7c-428d-b01d-b1a12420b001",
+    "1652970717af5972f9",
     "165339081846c57155",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
-    "1652970717af5972f9",
     "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",
     "165900919845720bf8",
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
