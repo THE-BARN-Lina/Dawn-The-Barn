@@ -197,6 +197,17 @@
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
+        "1652970717eaeb9726-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B6F69B4E-9303-471D-8D96-7E712171CB37.jpg",
+            "title": "Juan Martin Harrar -  Colombia",
+            "text": "<p><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\"><strong>Strawberries. Caramel. <\/strong><br\/><\/a>The complexity we love in  Finca Juan Martin is abundant in this release. Enjoy a new experience with this anaerobic washed coffee.<\/p>",
+            "link_label": "GET YOUR BAG",
+            "link": "https:\/\/thebarn.de\/products\/juan-martin-harrar",
+            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+          }
+        },
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
@@ -206,17 +217,6 @@
             "link_label": "ORDER NOW",
             "link": "https:\/\/thebarn.de\/products\/beanie",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
-          }
-        },
-        "1652970717eaeb9726-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DDC4328B-3696-493D-BBAA-FD4FFD329E1E_1_20f761f0-6a34-41bd-9f0b-f876c081938d.jpg",
-            "title": "Volcan Azul Anaerobic Geisha -  Costa Rica",
-            "text": "<p><a href=\"\/products\/volcan-azul-geisha\" title=\"VOLCAN AZUL GEISHA\"><strong>Ripe Peach. Blackberries. <\/strong><br\/>Volcan Azul is a farm with over 100 years of coffee producing knowledge and you will find it all wrapped up in this expertly produced and exotically profiled coffee.<\/a><\/p>",
-            "link_label": "GET YOURS",
-            "link": "shopify:\/\/products\/volcan-azul-geisha",
-            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1652970717eaeb9726-1": {
@@ -233,8 +233,8 @@
         }
       },
       "block_order": [
-        "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
         "1652970717eaeb9726-0",
+        "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
         "1652970717eaeb9726-1"
       ],
       "settings": {
