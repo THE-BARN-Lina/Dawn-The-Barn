@@ -70,6 +70,9 @@
     },
     "166186709197b72a8b": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 3,
@@ -253,7 +256,7 @@
         "16609096892c11eee0-2"
       ],
       "settings": {
-        "title": "Discover More",
+        "title": "DISCOVER MORE",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
