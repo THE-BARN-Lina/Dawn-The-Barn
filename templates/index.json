@@ -481,7 +481,7 @@
             "image": "shopify:\/\/shop_images\/hario_drip_set_with_comandante_grinder.jpg",
             "title": "Hario V60",
             "text": "<p>The Hario V60 is one of the most iconic drip brewers. You’ll see our baristas brewing with the V60 throughout our cafes as it delivers incredibly clear flavours and aromas, bringing out the best of the coffee to get a full experience.<\/p>",
-            "link_label": "READ MORE",
+            "link_label": "V60 BREW GUIDE",
             "link": "shopify:\/\/blogs\/the-barn-blog\/v60-drip",
             "custom_liquid": ""
           }
@@ -492,7 +492,7 @@
             "image": "shopify:\/\/shop_images\/mug_chemex_filled_with_freshly_roasted_coffee.png",
             "title": "Chemex",
             "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<\/p>",
-            "link_label": "READ MORE",
+            "link_label": "CHEMEX BREW GUIDE",
             "link": "shopify:\/\/blogs\/the-barn-blog\/chemex",
             "custom_liquid": ""
           }
@@ -503,7 +503,7 @@
             "image": "shopify:\/\/shop_images\/Aeropress_extraction_process.jpg",
             "title": "Aeropress",
             "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee. The addition of paper filters and a rubber seal results in excellent extraction.<\/p>",
-            "link_label": "READ MORE",
+            "link_label": "AEROPRESS BREW GUIDE",
             "link": "shopify:\/\/blogs\/the-barn-blog\/aeropress",
             "custom_liquid": ""
           }
