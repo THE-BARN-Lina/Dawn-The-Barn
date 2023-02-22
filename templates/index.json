@@ -131,8 +131,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/B1B9D0EC-ADD3-4E97-8DB6-B0106AA3EBC2.jpg",
             "title": "Limited Release Yemen Alchemy",
-            "text": "<p><a href=\"\/products\/beanie\" title=\"BEANIE\"><strong>New Arrival <br\/><\/strong><\/a>Secure one of 65x bags à 150g of this extra-ordinary coffee from Yemen. Do not miss this unparalleled experience of complexity. Yemen at its best and fermented in 3 different ways. <\/p>",
-            "link_label": "ORDER NOW",
+            "text": "<p><a href=\"\/products\/beanie\" title=\"BEANIE\"><strong>Orange Liqueur. Pink Grapefruit. <br\/><\/strong><\/a>Secure one of 65x bags à 150g of this extra-ordinary coffee from Yemen. Do not miss this unparalleled experience of complexity. Yemen at its best and fermented in 3 different ways. <\/p>",
+            "link_label": "ORDER HERE",
             "link": "https:\/\/thebarn.de\/products\/beanie",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
