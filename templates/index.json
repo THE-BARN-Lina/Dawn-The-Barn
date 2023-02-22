@@ -115,17 +115,6 @@
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
-        "1652970717eaeb9726-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/B6F69B4E-9303-471D-8D96-7E712171CB37.jpg",
-            "title": "Juan Martin Harrar -  Colombia",
-            "text": "<p><a href=\"\/products\/juan-martin-harrar\" title=\"JUAN MARTIN HARRAR\"><strong>Strawberries. Caramel. <\/strong><\/a><br\/><a href=\"\/products\/juan-martin-harrar\" title=\"JUAN MARTIN HARRAR\">The complexity we love in  Finca Juan Martin is abundant in this release. Enjoy a new experience with this anaerobic washed coffee.<\/a><\/p>",
-            "link_label": "GET YOUR BAG",
-            "link": "https:\/\/thebarn.de\/products\/juan-martin-harrar",
-            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
-          }
-        },
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
@@ -135,6 +124,17 @@
             "link_label": "ORDER HERE",
             "link": "https:\/\/thebarn.de\/products\/beanie",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+          }
+        },
+        "1652970717eaeb9726-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B6F69B4E-9303-471D-8D96-7E712171CB37.jpg",
+            "title": "Juan Martin Harrar -  Colombia",
+            "text": "<p><a href=\"\/products\/juan-martin-harrar\" title=\"JUAN MARTIN HARRAR\"><strong>Strawberries. Caramel. <\/strong><\/a><br\/><a href=\"\/products\/juan-martin-harrar\" title=\"JUAN MARTIN HARRAR\">The complexity we love in  Finca Juan Martin is abundant in this release. Enjoy a new experience with this anaerobic washed coffee.<\/a><\/p>",
+            "link_label": "GET YOUR BAG",
+            "link": "https:\/\/thebarn.de\/products\/juan-martin-harrar",
+            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1652970717eaeb9726-1": {
@@ -151,8 +151,8 @@
         }
       },
       "block_order": [
-        "1652970717eaeb9726-0",
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
+        "1652970717eaeb9726-0",
         "1652970717eaeb9726-1"
       ],
       "settings": {
