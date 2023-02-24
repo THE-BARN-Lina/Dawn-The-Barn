@@ -1,27 +1,5 @@
 {
   "sections": {
-    "e153d836-6ad9-4677-a1cc-16cd175ee048": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get ready for our Black Friday specials",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "08cb4aae-e7ef-4359-b5e8-4cf50009ea97": {
       "type": "image-banner",
       "blocks": {
@@ -35,7 +13,7 @@
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-1": {
           "type": "text",
           "settings": {
-            "text": "Picking your next coffee? Tips and tricks for making the most of it? We have you covered!",
+            "text": "Join our coffee family and we will share exclusive stories from the roastery, our coffee shops, and farms we work with across the world.",
             "text_style": "subtitle"
           }
         },
@@ -56,9 +34,12 @@
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-1",
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-2"
       ],
+      "custom_css": [
+        ".banner__text {color: white;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Santa_Rosa_SM01.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 50,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "transparent_block": true,
@@ -95,14 +76,14 @@
         "template--16233837101323__b17055fe-a9ee-4338-a418-4942a4d8d6a6-1677244692784079d7-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "template--16233837101323__b17055fe-a9ee-4338-a418-4942a4d8d6a6-1677244692784079d7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Join our coffee family and we will share exclusive stories from the roastery, our coffee shops, and farms we work with across the world.<\/p>"
+            "text": "<p>Picking your next coffee? Tips and tricks for making the most of it? We have you covered!<\/p>"
           }
         }
       },
@@ -116,8 +97,8 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 12,
+        "padding_bottom": 40
       }
     },
     "c257b8f6-853e-4995-8f4a-646791f9e6b6": {
@@ -126,13 +107,44 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "e153d836-6ad9-4677-a1cc-16cd175ee048": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "a3b1a683-a087-4417-a51c-1943ab53d454": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sign up now and be first to hear about our newest coffees and rarest release: with 10% off your next coffee order!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16233837101323__e153d836-6ad9-4677-a1cc-16cd175ee048-16687863432d9014a2-0",
+        "a3b1a683-a087-4417-a51c-1943ab53d454"
+      ],
+      "custom_css": [
+        "p {color: white; font-size: 20px;}"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
-    "e153d836-6ad9-4677-a1cc-16cd175ee048",
     "08cb4aae-e7ef-4359-b5e8-4cf50009ea97",
     "1668784400ef2d08e9",
     "b17055fe-a9ee-4338-a418-4942a4d8d6a6",
-    "c257b8f6-853e-4995-8f4a-646791f9e6b6"
+    "c257b8f6-853e-4995-8f4a-646791f9e6b6",
+    "e153d836-6ad9-4677-a1cc-16cd175ee048"
   ]
 }
