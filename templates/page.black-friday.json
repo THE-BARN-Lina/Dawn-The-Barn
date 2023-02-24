@@ -13,7 +13,7 @@
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-1": {
           "type": "text",
           "settings": {
-            "text": "Join our coffee family and we will share exclusive stories from the roastery, our coffee shops, and farms we work with across the world.",
+            "text": "",
             "text_style": "subtitle"
           }
         },
@@ -83,7 +83,7 @@
         "template--16233837101323__b17055fe-a9ee-4338-a418-4942a4d8d6a6-1677244692784079d7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Picking your next coffee? Tips and tricks for making the most of it? We have you covered!<\/p>"
+            "text": "<p>Join our coffee family and we will share exclusive stories from the roastery, our coffee shops, and farms we work with across the world.<\/p>"
           }
         }
       },
