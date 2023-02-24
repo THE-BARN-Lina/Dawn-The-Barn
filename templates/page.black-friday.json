@@ -89,11 +89,42 @@
         "include_margins": true
       }
     },
+    "b17055fe-a9ee-4338-a418-4942a4d8d6a6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16233837101323__b17055fe-a9ee-4338-a418-4942a4d8d6a6-1677244692784079d7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--16233837101323__b17055fe-a9ee-4338-a418-4942a4d8d6a6-1677244692784079d7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join our coffee family and we will share exclusive stories from the roastery, our coffee shops, and farms we work with across the world.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16233837101323__b17055fe-a9ee-4338-a418-4942a4d8d6a6-1677244692784079d7-0",
+        "template--16233837101323__b17055fe-a9ee-4338-a418-4942a4d8d6a6-1677244692784079d7-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "c257b8f6-853e-4995-8f4a-646791f9e6b6": {
       "type": "newsletter-sign-up",
       "settings": {
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 40
       }
     }
   },
@@ -101,6 +132,7 @@
     "e153d836-6ad9-4677-a1cc-16cd175ee048",
     "08cb4aae-e7ef-4359-b5e8-4cf50009ea97",
     "1668784400ef2d08e9",
+    "b17055fe-a9ee-4338-a418-4942a4d8d6a6",
     "c257b8f6-853e-4995-8f4a-646791f9e6b6"
   ]
 }
