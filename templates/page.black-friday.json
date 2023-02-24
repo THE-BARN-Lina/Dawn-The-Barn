@@ -40,7 +40,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Santa_Rosa_SM01.jpg",
         "image_overlay_opacity": 50,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "transparent_block": false,
         "desktop_content_position": "middle-center",
