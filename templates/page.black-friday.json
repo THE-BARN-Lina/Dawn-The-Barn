@@ -28,24 +28,24 @@
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "THE BARN Newsletter",
             "heading_size": "h1"
           }
         },
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Picking your next coffee? Tips and tricks for making the most of it? We have you covered!",
+            "text_style": "subtitle"
           }
         },
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -57,10 +57,11 @@
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-2"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/Santa_Rosa_SM01.jpg",
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "transparent_block": false,
+        "transparent_block": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
