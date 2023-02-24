@@ -6,14 +6,14 @@
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-0": {
           "type": "heading",
           "settings": {
-            "heading": "THE BARN Newsletter",
+            "heading": "THE BARN",
             "heading_size": "h1"
           }
         },
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-1": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "NEWSLETTER",
             "text_style": "subtitle"
           }
         },
@@ -35,7 +35,7 @@
         "template--16233837101323__08cb4aae-e7ef-4359-b5e8-4cf50009ea97-16772435826bc8e457-2"
       ],
       "custom_css": [
-        ".banner__text {color: white;}"
+        ".banner__text {color: white; font-size: 2.5rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Santa_Rosa_SM01.jpg",
