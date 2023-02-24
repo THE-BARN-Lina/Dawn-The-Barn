@@ -1,11 +1,5 @@
 {
   "sections": {
-    "pf-592ad8c6": {
-      "type": "pf-592ad8c6",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "865e2ef5-ab91-4551-8206-c6f0bc152ac7": {
       "type": "image-banner",
       "disabled": true,
@@ -155,7 +149,6 @@
     }
   },
   "order": [
-    "pf-592ad8c6",
     "865e2ef5-ab91-4551-8206-c6f0bc152ac7",
     "e153d836-6ad9-4677-a1cc-16cd175ee048",
     "998f2603-49de-4008-9453-7c0a6101f94b",
