@@ -2,6 +2,7 @@
   "sections": {
     "pf-592ad8c6": {
       "type": "pf-592ad8c6",
+      "disabled": true,
       "settings": {
       }
     },
@@ -81,54 +82,6 @@
         "padding_bottom": 52
       }
     },
-    "faa63064-9d90-4487-991a-3ad14eb70922": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16233837101323__faa63064-9d90-4487-991a-3ad14eb70922-1677242655a42d30ef-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--16233837101323__faa63064-9d90-4487-991a-3ad14eb70922-1677242655a42d30ef-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16233837101323__faa63064-9d90-4487-991a-3ad14eb70922-1677242655a42d30ef-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16233837101323__faa63064-9d90-4487-991a-3ad14eb70922-1677242655a42d30ef-0",
-        "template--16233837101323__faa63064-9d90-4487-991a-3ad14eb70922-1677242655a42d30ef-1",
-        "template--16233837101323__faa63064-9d90-4487-991a-3ad14eb70922-1677242655a42d30ef-2"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "998f2603-49de-4008-9453-7c0a6101f94b": {
       "type": "image-with-text",
       "blocks": {
@@ -205,7 +158,6 @@
     "pf-592ad8c6",
     "865e2ef5-ab91-4551-8206-c6f0bc152ac7",
     "e153d836-6ad9-4677-a1cc-16cd175ee048",
-    "faa63064-9d90-4487-991a-3ad14eb70922",
     "998f2603-49de-4008-9453-7c0a6101f94b",
     "1668784400ef2d08e9"
   ]
