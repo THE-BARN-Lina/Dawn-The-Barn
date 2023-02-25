@@ -302,50 +302,6 @@
         "padding_bottom": 100
       }
     },
-    "21b96ab1-990f-49e3-b1bf-8e2ecc576146": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "WE ARE PLANTING 40,000 NATIVE TREES IN BRAZIL",
-            "heading_size": "h2"
-          }
-        },
-        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We are committed to plant 40,000 native trees over the next 5 years on a forest size of 25 hectares of land. Together with our partners from Daterra we are growing our <a href=\"\/blogs\/coffee-wiki\/sustainability\" target=\"_blank\" title=\"Sustainability\">THE BARN FOREST<\/a> on their estate. <\/p><p>Be part of this great opportunity and let us make a change together.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "PLANT A TREE TODAY",
-            "button_link": "shopify:\/\/products\/plant-a-tree"
-          }
-        }
-      },
-      "block_order": [
-        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-0",
-        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-1",
-        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Junko_Tree_d5947977-a4db-4cb4-8ddf-b23a3f6f1dbc.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "16515783060899e67e": {
       "type": "image-with-text",
       "blocks": {
@@ -387,6 +343,50 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 100,
+        "padding_bottom": 40
+      }
+    },
+    "21b96ab1-990f-49e3-b1bf-8e2ecc576146": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE ARE PLANTING 40,000 NATIVE TREES IN BRAZIL",
+            "heading_size": "h2"
+          }
+        },
+        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are committed to plant 40,000 native trees over the next 5 years on a forest size of 25 hectares of land. Together with our partners from Daterra we are growing our <a href=\"\/blogs\/coffee-wiki\/sustainability\" target=\"_blank\" title=\"Sustainability\">THE BARN FOREST<\/a> on their estate. <\/p><p>Be part of this great opportunity and let us make a change together.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "PLANT A TREE TODAY",
+            "button_link": "shopify:\/\/products\/plant-a-tree"
+          }
+        }
+      },
+      "block_order": [
+        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-0",
+        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-1",
+        "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Junko_Tree_d5947977-a4db-4cb4-8ddf-b23a3f6f1dbc.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
         "padding_bottom": 40
       }
     },
@@ -542,8 +542,8 @@
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",
     "165900919845720bf8",
-    "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
     "16515783060899e67e",
+    "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "1659955349273aa5dd",
     "16529435131152e250",
