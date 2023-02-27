@@ -118,11 +118,11 @@
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bait_Shubah_Alal_Masterpiece.jpg",
-            "title": "Limited Release Yemen Alchemy",
-            "text": "<p><a href=\"\/products\/yemen-bait-subaih\" title=\"YEMEN ALCHEMY BAIT SUBAIH\"><strong>Orange Liqueur. Pink Grapefruit. <br\/><\/strong>Secure one of 65x bags of this extra-ordinary coffee from Yemen. Do not miss this unparalleled complexity. Yemen at its best. Fresh as it gets.<\/a><\/p>",
-            "link_label": "ORDER HERE",
-            "link": "https:\/\/thebarn.de\/products\/yemen-bait-subaih",
+            "image": "shopify:\/\/shop_images\/6B8591EC-DADD-4F9C-A3A6-73454DFCBAFE.jpg",
+            "title": "La Palma & El Tucan, Colombia",
+            "text": "<p><a href=\"https:\/\/thebarn.de\/products\/masterpieces\" title=\"https:\/\/thebarn.de\/products\/masterpieces\"><strong>Lactic Geisha <br\/><\/strong><\/a>This is a one-off opportunity to experience an outstanding Geisha coffee. Exclusively for our Masterpiece Subscribers. Remember: No strings attached, you receive a guaranteed bag of „this one coffee you should not miss“. Blueberries. Lavendar. <\/p>",
+            "link_label": "SIGN UP NOW",
+            "link": "https:\/\/thebarn.de\/products\/masterpieces",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
