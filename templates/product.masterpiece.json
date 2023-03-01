@@ -113,27 +113,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da": {
-          "type": "shopify:\/\/apps\/auction-pro\/blocks\/product-template-auction\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
-          "disabled": true,
-          "settings": {
-            "timer_bold": false,
-            "timer_font_size": 18,
-            "timer_colour": "#212b36",
-            "end_date_font_size": 16,
-            "current_bid_font_size": 18,
-            "bid_link_colour": "#136af6",
-            "current_bid_btn_colour": "#0053a0",
-            "current_bid_input_size": 15,
-            "current_bid_border_radius": 3,
-            "buy_it_now_font_size": 16,
-            "buy_it_now_btn_colour": "#0053a0",
-            "buy_it_now_size": 15,
-            "buy_it_now_border_radius": 3,
-            "automatic_bid_font_size": 16,
-            "automatic_bid_colour": "#136af6"
-          }
         }
       },
       "block_order": [
@@ -151,8 +130,7 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "fbe59c11-1527-4d06-b7dd-3a419ee5cbbf",
-        "share",
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -180,6 +158,17 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
+        "a378e814-0e89-4f85-a5ba-5397948f3cf2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/La_Palma_El_Tucan.jpg",
+            "title": "March 2023",
+            "text": "<p>La Palma & El Tucan - Columbia<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
         "676330e1-223b-47a5-b7d2-f75dbdc1e6d3": {
           "type": "column",
           "settings": {
@@ -303,6 +292,7 @@
         }
       },
       "block_order": [
+        "a378e814-0e89-4f85-a5ba-5397948f3cf2",
         "676330e1-223b-47a5-b7d2-f75dbdc1e6d3",
         "d21fa9c0-3589-4b08-a2d6-0a9229c08f73",
         "27d8bd53-7629-4848-8a0e-e6df135662c1",
