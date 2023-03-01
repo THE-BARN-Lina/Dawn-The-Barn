@@ -118,10 +118,10 @@
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6B8591EC-DADD-4F9C-A3A6-73454DFCBAFE.jpg",
-            "title": "La Palma & El Tucan, Colombia",
-            "text": "<p><a href=\"https:\/\/thebarn.de\/products\/masterpieces\" title=\"https:\/\/thebarn.de\/products\/masterpieces\"><strong>Lactic Geisha <br\/><\/strong><\/a>This is a one-off opportunity to experience an outstanding Geisha coffee. Exclusively for our Masterpiece Subscribers. Remember: No strings attached, you receive „this one coffee you should not miss“. Blueberries. Lavendar. <\/p>",
-            "link_label": "SIGN UP NOW",
+            "image": "shopify:\/\/shop_images\/radiophare_1.jpg",
+            "title": "Radiophare, Indonesia",
+            "text": "<p><a href=\"https:\/\/thebarn.de\/products\/radiophare\" title=\"https:\/\/thebarn.de\/products\/radiophare\"><strong>Passionfruit + Cinnamon <br\/><\/strong><\/a>Finding clean naturals is still rare in Indonesia. When you find it, this country has an exciting profile to offer: Notes of passionfruit and cinnamon turn into sweet plum and raisin in the cooling. A subtle acidity balances out this coffee with a velvety mouthfeel and a lemon curd finish. <\/p>",
+            "link_label": "ORDER HERE",
             "link": "https:\/\/thebarn.de\/products\/masterpieces",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
