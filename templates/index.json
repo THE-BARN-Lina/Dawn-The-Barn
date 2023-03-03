@@ -256,46 +256,6 @@
         "padding_bottom": 64
       }
     },
-    "534dac0d-13ae-4ca4-8a87-df64d29c7bf1": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SEE FULL BEAN COLLECTION",
-            "button_link": "shopify:\/\/collections\/beans",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-0",
-        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-1",
-        "template--16083011076363__534dac0d-13ae-4ca4-8a87-df64d29c7bf1-166609573287cc1028-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
     "165900919845720bf8": {
       "type": "newsletter-sign-up",
       "settings": {
@@ -496,7 +456,6 @@
     "1652970717af5972f9",
     "165339081846c57155",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
-    "534dac0d-13ae-4ca4-8a87-df64d29c7bf1",
     "165900919845720bf8",
     "16515783060899e67e",
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
