@@ -410,51 +410,6 @@
         "padding_bottom": 0
       }
     },
-    "16529435131152e250": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1652943513cf238e66-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "CHRISTMAS GIFT SUBSCRIPTION",
-            "heading_size": "h2"
-          }
-        },
-        "1652943513cf238e66-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>THE BEST PRESENT EVER<br\/><\/strong><\/p><p>This is our most popular Christmas Box every year: A gift that continues to give. Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute mug and delicious coffee chocolate beans. <\/p><p>Hear it from our founder Ralf why he loves it: <a href=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\" title=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\">Video<\/a><\/p>",
-            "text_style": "body"
-          }
-        },
-        "1652943513cf238e66-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER HERE",
-            "button_link": "https:\/\/thebarn.de\/products\/christmas-3-months-gift-subscription"
-          }
-        }
-      },
-      "block_order": [
-        "1652943513cf238e66-0",
-        "1652943513cf238e66-1",
-        "1652943513cf238e66-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/thebarnchristmas2022.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "96f1e286-81c1-4272-a69e-9c8be69f9a59": {
       "type": "featured-blog",
       "disabled": true,
@@ -547,7 +502,6 @@
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "1659955349273aa5dd",
-    "16529435131152e250",
     "96f1e286-81c1-4272-a69e-9c8be69f9a59",
     "20d07d22-5246-491b-b6f2-edcabe969eef"
   ]
