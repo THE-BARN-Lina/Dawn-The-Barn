@@ -344,7 +344,7 @@
     {%- endif -%}
 
     {%- if request.page_type == 'index' -%}
-      <div class="header__heading">
+      <a class="header__heading">
     {%- endif -%}
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
           {%- if section.settings.logo != blank -%}
@@ -362,7 +362,7 @@
           {%- endif -%}
         </a>
     {%- if request.page_type == 'index' -%}
-      </div>
+      </a>
     {%- endif -%}
 
     {%- if section.settings.menu != blank -%}
