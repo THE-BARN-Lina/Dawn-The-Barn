@@ -60,12 +60,11 @@
     },
     "550bad91-bd7c-428d-b01d-b1a12420b001": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "7c004cde-aa17-4fcc-9a10-f9ab83819e27": {
           "type": "caption",
           "settings": {
-            "caption": "MASTERPIECE SUBSCRIPTION",
+            "caption": "",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -73,22 +72,22 @@
         "fc2067cd-78f5-4d98-8a27-55b990a12a38": {
           "type": "heading",
           "settings": {
-            "heading": "FEBRUARY MASTERPIECE",
+            "heading": "OUR PLOT DATERRA",
             "heading_size": "h2"
           }
         },
         "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
           "type": "text",
           "settings": {
-            "text": "<p>Last days have started to get your hands on our next Masterpiece from Ecuador. Sign up now! <\/p><p>Cruz Loma, Ecuador<br\/><strong>Cherry. Orange Blossom.<\/strong><\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/Masterpiece_Cover_Letter_Feb_2023_Update_1__01.pdf?v=1674817044\" target=\"_blank\" title=\"Cruz Loma Sidra & Typica Masterpiece cover letter\">Read more about it.<\/a><\/p>",
+            "text": "<p><strong>BLACK HONEY BRAZIL <\/strong><\/p><p>Four years ago, Daterra invited us to take ownership of 1 hectares of beautiful Aramosa coffee plants. Our project took us from yellow to black honey, with different fermentation times, layers, sugar levels. The profile is intensely sweet, like<br\/>a strawberry candy and frangipane.<\/p>",
             "text_style": "body"
           }
         },
         "b40f8898-27e9-404c-9fd4-4c7ad623d92e": {
           "type": "button",
           "settings": {
-            "button_label": "SUBSCRIBE NOW",
-            "button_link": "shopify:\/\/products\/masterpieces"
+            "button_label": "ORDER HERE",
+            "button_link": "https:\/\/thebarn.de\/products\/our-plot-daterra-black-honey"
           }
         }
       },
@@ -99,7 +98,7 @@
         "b40f8898-27e9-404c-9fd4-4c7ad623d92e"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FB0A0A52-5C07-4360-8DB1-9304BD8FD2A0.jpg",
+        "image": "shopify:\/\/shop_images\/Image09.03.23at09.49_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
