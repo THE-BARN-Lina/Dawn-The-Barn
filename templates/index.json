@@ -124,11 +124,11 @@
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/radiophare_1.jpg",
-            "title": "Radiophare, Indonesia",
-            "text": "<p><a href=\"https:\/\/thebarn.de\/products\/radiophare\" title=\"https:\/\/thebarn.de\/products\/radiophare\"><strong>Passionfruit + Cinnamon <br\/><\/strong>Clean naturals are rare in Indonesia. When you find them, this country has an exciting profile to offer: Notes of passionfruit and cinnamon turn into sweet plum and raisin in the cooling. Subtle acidity, a velvety mouthfeel with a lemon curd finish. <\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/THE_BARN_DATERRA_BRAZIL.jpg",
+            "title": "Our Plot Daterra, Brazil",
+            "text": "<p><a href=\"https:\/\/thebarn.de\/products\/our-plot-daterra-black-honey\" title=\"https:\/\/thebarn.de\/products\/our-plot-daterra-black-honey\"><strong>Black Honey Project <br\/><\/strong><\/a>Four years ago, Daterra gave us townership a field of beautiful Aramosa coffee plants. Our project took us from yellow to black honey, with different fermentations. The profile is intensely sweet, like a strawberry candy and frangipane.<\/p>",
             "link_label": "ORDER HERE",
-            "link": "shopify:\/\/products\/radiophare",
+            "link": "https:\/\/thebarn.de\/products\/our-plot-daterra-black-honey",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
