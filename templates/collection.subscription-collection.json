@@ -15,7 +15,7 @@
         "16629821308589b769-0": {
           "type": "heading",
           "settings": {
-            "heading": "YOUR SUBSCRIPTION PERKS",
+            "heading": "<p>YOUR SUBSCRIPTION PERKS<\/p>",
             "heading_size": "h2"
           }
         },
@@ -32,6 +32,8 @@
         "e04ad895-a511-49f5-928e-0b3e0c1ccb60"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 0,
@@ -53,7 +55,7 @@
         "template--16149468774667__636edd10-9556-4424-add9-ef1faa9ebb3f-1668503808fe4ddc54-0": {
           "type": "heading",
           "settings": {
-            "heading": "YOUR CHOICES",
+            "heading": "<p>YOUR CHOICES<\/p>",
             "heading_size": "h1"
           }
         }
@@ -62,6 +64,8 @@
         "template--16149468774667__636edd10-9556-4424-add9-ef1faa9ebb3f-1668503808fe4ddc54-0"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 24,
@@ -81,7 +85,7 @@
         "show_vendor": true,
         "show_tastenotes": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "quick_add_button_color": "#804d15",
         "enable_filtering": false,
         "filter_type": "horizontal",
@@ -97,7 +101,7 @@
         "template--16149468774667__d38cf404-aacf-4801-91d6-0f1e1abf762d-1668503808fe4ddc54-0": {
           "type": "heading",
           "settings": {
-            "heading": "GIFT CHOICES",
+            "heading": "<p>GIFT CHOICES<\/p>",
             "heading_size": "h1"
           }
         }
@@ -106,6 +110,8 @@
         "template--16149468774667__d38cf404-aacf-4801-91d6-0f1e1abf762d-1668503808fe4ddc54-0"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 36,
@@ -374,7 +380,7 @@
         "template--16149468774667__3b0902d2-e018-4cad-989b-028a36cd0279-16680858457392e0b5-0": {
           "type": "heading",
           "settings": {
-            "heading": "CHRISTMAS GIFT SUBSCRIPTION",
+            "heading": "<p>CHRISTMAS GIFT SUBSCRIPTION<\/p>",
             "heading_size": "h1"
           }
         }
@@ -383,6 +389,8 @@
         "template--16149468774667__3b0902d2-e018-4cad-989b-028a36cd0279-16680858457392e0b5-0"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 80,
