@@ -58,66 +58,6 @@
         "padding_bottom": 48
       }
     },
-    "550bad91-bd7c-428d-b01d-b1a12420b001": {
-      "type": "image-with-text",
-      "blocks": {
-        "7c004cde-aa17-4fcc-9a10-f9ab83819e27": {
-          "type": "caption",
-          "settings": {
-            "caption": "",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "fc2067cd-78f5-4d98-8a27-55b990a12a38": {
-          "type": "heading",
-          "settings": {
-            "heading": "TWIN BOX EASTER",
-            "heading_size": "h2"
-          }
-        },
-        "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>FOCUS ON INDONESIA <\/strong><\/p><p>Make this Easter special and give away a box with two bags of very interesting coffees from a region that we rarely feature: Indonesia. Paired  a delicious chocolate bar from the same terroir. Packed with our cute sandstone mug from Japan. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "b40f8898-27e9-404c-9fd4-4c7ad623d92e": {
-          "type": "button",
-          "settings": {
-            "button_label": "GET YOUR BOX",
-            "button_link": "https:\/\/thebarn.de\/products\/easter-twin-box"
-          }
-        }
-      },
-      "block_order": [
-        "7c004cde-aa17-4fcc-9a10-f9ab83819e27",
-        "fc2067cd-78f5-4d98-8a27-55b990a12a38",
-        "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51",
-        "b40f8898-27e9-404c-9fd4-4c7ad623d92e"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Easter_Twin_Box_2023_THE_BARN.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 64
-      }
-    },
-    "165900919845720bf8": {
-      "type": "newsletter-sign-up",
-      "settings": {
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
@@ -177,6 +117,66 @@
         "swipe_on_mobile": false,
         "padding_top": 40,
         "padding_bottom": 40
+      }
+    },
+    "550bad91-bd7c-428d-b01d-b1a12420b001": {
+      "type": "image-with-text",
+      "blocks": {
+        "7c004cde-aa17-4fcc-9a10-f9ab83819e27": {
+          "type": "caption",
+          "settings": {
+            "caption": "",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "fc2067cd-78f5-4d98-8a27-55b990a12a38": {
+          "type": "heading",
+          "settings": {
+            "heading": "TWIN BOX EASTER",
+            "heading_size": "h2"
+          }
+        },
+        "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>FOCUS ON INDONESIA <\/strong><\/p><p>Make this Easter special and give away a box with two bags of very interesting coffees from a region that we rarely feature: Indonesia. Paired  a delicious chocolate bar from the same terroir. Packed with our cute sandstone mug from Japan. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "b40f8898-27e9-404c-9fd4-4c7ad623d92e": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET YOUR BOX",
+            "button_link": "https:\/\/thebarn.de\/products\/easter-twin-box"
+          }
+        }
+      },
+      "block_order": [
+        "7c004cde-aa17-4fcc-9a10-f9ab83819e27",
+        "fc2067cd-78f5-4d98-8a27-55b990a12a38",
+        "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51",
+        "b40f8898-27e9-404c-9fd4-4c7ad623d92e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Easter_Twin_Box_2023_THE_BARN.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "165900919845720bf8": {
+      "type": "newsletter-sign-up",
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "165339081846c57155": {
@@ -450,9 +450,9 @@
   "order": [
     "image_banner",
     "1653387743507b82e2",
+    "1652970717af5972f9",
     "550bad91-bd7c-428d-b01d-b1a12420b001",
     "165900919845720bf8",
-    "1652970717af5972f9",
     "165339081846c57155",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "16515783060899e67e",
