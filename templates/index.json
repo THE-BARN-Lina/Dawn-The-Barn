@@ -117,11 +117,11 @@
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Daterra_Our_Plot_anaerobic.jpg",
-            "title": "Our Plot Daterra, Brazil",
-            "text": "<p><a href=\"https:\/\/thebarn.de\/products\/our-plot-daterra-anaerobic\" title=\"https:\/\/thebarn.de\/products\/our-plot-daterra-anaerobic\"><strong>Project Coffee <\/strong><\/a><\/p><p>Four years ago, Daterra gave us ownership a field of beautiful Aramosa coffee plants. Our project took us from yellow to black honey, and over to anaerobic fermentation. The profile is intensely sweet with notes of Vanilla and Fudge. <\/p>",
-            "link_label": "GET YOUR BAG",
-            "link": "https:\/\/thebarn.de\/products\/our-plot-daterra-anaerobic",
+            "image": "shopify:\/\/shop_images\/3ED9651E-8A68-4601-9B31-1068AC1442BF.jpg",
+            "title": "Earth Coffee",
+            "text": "<p><a href=\"https:\/\/thebarn.de\/products\/earth-coffee\" title=\"https:\/\/thebarn.de\/products\/earth-coffee\"><strong>Special Release April 2023<\/strong><\/a><\/p><p>Ninho da Águia is our Earth Coffee during Earth Month. Each bag of this coffee that you buy in April, will automatically plant a native tree in our forest in Brazil. Thank you for being part of this important project that helps mitigating climate change.<\/p>",
+            "link_label": "ORDER HERE",
+            "link": "https:\/\/thebarn.de\/products\/earth-coffee",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
