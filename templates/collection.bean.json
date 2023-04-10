@@ -49,6 +49,7 @@
     },
     "f1f91a99-9998-451e-8af1-938c3ccec34f": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "EASTER SPECIALS",
         "heading_size": "h1",
