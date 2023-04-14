@@ -132,7 +132,7 @@
             "title": "Juan Martin Sidra, Colombia",
             "text": "<p><a href=\"\/products\/juan-martin-sidra\" title=\"JUAN MARTIN SIDRA\"><strong>Lemon Candy. Butterscotch. <\/strong><br\/>Our second release from Finca Juan Martin is a beautiful Sidra lot. Often called the 'New Geisha', this hybrid of the Bourbon and Typica varietals has the potential to produce some sublime cup profiles. This lot has sweetness, acidity, and texture in abundance.<\/a><\/p>",
             "link_label": "GET YOUR BAG",
-            "link": "https:\/\/thebarn.de\/products\/juan-martin-harrar",
+            "link": "shopify:\/\/products\/juan-martin-sidra",
             "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
