@@ -127,6 +127,7 @@
         },
         "1652970717eaeb9726-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/B6F69B4E-9303-471D-8D96-7E712171CB37.jpg",
             "title": "Juan Martin Harrar, Colombia",
