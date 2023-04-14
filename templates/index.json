@@ -130,7 +130,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/B6F69B4E-9303-471D-8D96-7E712171CB37.jpg",
             "title": "Juan Martin Sidra, Colombia",
-            "text": "<p><a href=\"\/products\/juan-martin-sidra\" title=\"JUAN MARTIN SIDRA\"><strong>Lemon Candy. Butterscotch. <\/strong><br\/>Our second release from Finca Juan Martin is a beautiful Sidra lot. Often called the 'New Geisha', this hybrid of the Bourbon and Typica varietals has the potential to produce some sublime cup profiles. This lot has sweetness, acidity, and texture in abundance.<\/a><\/p>",
+            "text": "<p><a href=\"\/products\/juan-martin-sidra\" title=\"JUAN MARTIN SIDRA\"><strong>Lemon Candy. Butterscotch. <\/strong><br\/>Our second release from Finca Juan Martin is a beautiful Sidra lot. Often called the 'New Geisha', this varietal has the potential to produce some sublime cup profiles. This lot has sweetness, acidity, and texture in abundance.<\/a><\/p>",
             "link_label": "GET YOUR BAG",
             "link": "shopify:\/\/products\/juan-martin-sidra",
             "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
