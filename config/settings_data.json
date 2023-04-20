@@ -230,13 +230,13 @@
         "settings": {
           "color_brand": "#804d15",
           "contrast_color": "#ffffff",
-          "color_brand_secondary": "#4285f4",
+          "color_brand_secondary": "#ffffff",
           "corners": "8px",
           "app_background": "#141414",
           "app_container": 1200,
           "app_vertical_padding": 32,
           "images_aspect_ratio": "1",
-          "cards_background": "#9e9e9e",
+          "cards_background": "#808080",
           "cards_border_color": "rgba(0,0,0,0)"
         }
       }
