@@ -231,7 +231,7 @@
           "color_brand": "#804d15",
           "contrast_color": "#ffffff",
           "color_brand_secondary": "#0000ff",
-          "corners": "0px",
+          "corners": "8px",
           "app_background": "#141414",
           "app_container": 1200,
           "app_vertical_padding": 32,
