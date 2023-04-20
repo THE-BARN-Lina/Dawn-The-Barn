@@ -223,6 +223,22 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "17151115064775110295": {
+        "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/recharge-theme\/371eed76-0b44-4869-9813-730372ea378e",
+        "disabled": false,
+        "settings": {
+          "color_brand": "#804d15",
+          "contrast_color": "#ffffff",
+          "color_brand_secondary": "#0000ff",
+          "corners": "0px",
+          "app_background": "#ffffff",
+          "app_container": 1200,
+          "app_vertical_padding": 32,
+          "images_aspect_ratio": "1",
+          "cards_background": "#d2d2d2",
+          "cards_border_color": "rgba(0,0,0,0)"
+        }
       }
     }
   },
