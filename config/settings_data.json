@@ -232,11 +232,11 @@
           "contrast_color": "#ffffff",
           "color_brand_secondary": "#0000ff",
           "corners": "0px",
-          "app_background": "#ffffff",
+          "app_background": "#141414",
           "app_container": 1200,
           "app_vertical_padding": 32,
           "images_aspect_ratio": "1",
-          "cards_background": "#d2d2d2",
+          "cards_background": "#ffffff",
           "cards_border_color": "rgba(0,0,0,0)"
         }
       }
