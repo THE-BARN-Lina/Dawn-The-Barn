@@ -72,22 +72,22 @@
         "fc2067cd-78f5-4d98-8a27-55b990a12a38": {
           "type": "heading",
           "settings": {
-            "heading": "NEW KENYAN SEASON",
+            "heading": "ROCK BELIEVER",
             "heading_size": "h2"
           }
         },
         "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>GAKUYU-INI AA  <\/strong><\/p><p>We start our Kenyan season with an early arrival of Gakuyu-ini. This coffee has washed Kenya written all over it: <strong>Blackcurrant. Violet. Plum. <\/strong><\/p><p>With lively acidity and a beautiful body. <\/p>",
+            "text": "<p><strong>THE SCORPIONS<\/strong><\/p><p>The Scorpions wrote themselves into history with their song Wind of Change. It captured the spirit when the Berlin wall fell: the instant our amazing home was united. Today, we are roasting the bands very first coffee!<\/p>",
             "text_style": "body"
           }
         },
         "b40f8898-27e9-404c-9fd4-4c7ad623d92e": {
           "type": "button",
           "settings": {
-            "button_label": "READ MORE",
-            "button_link": "https:\/\/thebarn.de\/products\/gakuyu-ini"
+            "button_label": "ORDER HERE",
+            "button_link": "https:\/\/thebarn.de\/products\/rock-believer-by-the-scorpions"
           }
         }
       },
@@ -98,7 +98,7 @@
         "b40f8898-27e9-404c-9fd4-4c7ad623d92e"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/THE_BARN_Ralf_e1d970ae-1421-46b8-a280-17f4efd5c4dc.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_2560.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
