@@ -1,62 +1,11 @@
 {
   "sections": {
-    "1653508613176eef1e": {
-      "type": "image-banner",
+    "main": {
+      "type": "main-page",
       "disabled": true,
-      "blocks": {
-        "1653508613b6ce8078-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE BARN BERLIN",
-            "heading_size": "h2"
-          }
-        },
-        "1653508613b6ce8078-1": {
-          "type": "text",
-          "settings": {
-            "text": "BREW. SIP. REMEMBER.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "1653508613b6ce8078-0",
-        "1653508613b6ce8078-1"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-03-24_um_18.02.50_e16b7422-ecff-4a06-8c2b-0e4378142bd5.png",
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "16535086919ac74a95": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "1653508691527e35bd-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our philosophy is to source and roast some of the best coffees available. By paying premium prices we enable coffee farmers to create a sustainable business. All coffees are scoring 86 points and more; they are fresh in season and roasted to perfection.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1653508691527e35bd-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "16590189470dfa78be": {
@@ -66,14 +15,6 @@
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 12
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     },
     "1653508694fa6f7e80": {
@@ -99,10 +40,122 @@
         "165350875611e9ca12-1"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "97d15337-f658-4382-95d4-4265f611b1e9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16216418058507__97d15337-f658-4382-95d4-4265f611b1e9-168260576387f065f6-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_booklet_page_1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16216418058507__97d15337-f658-4382-95d4-4265f611b1e9-168260576387f065f6-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "6533ae62-3b98-420f-92b9-d9bfa0e5605f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_2.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "01d70a35-dcbc-4183-ad1a-4a15ffa84aa6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_3.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "d5e5e483-bfcf-47ce-b0af-3350ee7d0ce2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16216418058507__97d15337-f658-4382-95d4-4265f611b1e9-168260576387f065f6-1",
+        "template--16216418058507__97d15337-f658-4382-95d4-4265f611b1e9-168260576387f065f6-0",
+        "6533ae62-3b98-420f-92b9-d9bfa0e5605f",
+        "01d70a35-dcbc-4183-ad1a-4a15ffa84aa6",
+        "d5e5e483-bfcf-47ce-b0af-3350ee7d0ce2"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "165350883755001537": {
@@ -155,6 +208,8 @@
         "16535089409b33198c-1"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -163,12 +218,11 @@
     }
   },
   "order": [
-    "1653508613176eef1e",
-    "16535086919ac74a95",
-    "16590189470dfa78be",
     "main",
+    "16590189470dfa78be",
     "1653508694fa6f7e80",
     "16535087560770a397",
+    "97d15337-f658-4382-95d4-4265f611b1e9",
     "165350883755001537",
     "16535089403fff00a8"
   ]
