@@ -149,7 +149,7 @@
         "d5e5e483-bfcf-47ce-b0af-3350ee7d0ce2"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": false,
