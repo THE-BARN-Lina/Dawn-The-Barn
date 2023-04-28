@@ -120,7 +120,7 @@
         "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
           "type": "text",
           "settings": {
-            "text": "<p>With our Spring Subscriptions, explore the amazing world of Single Origin coffee beans. Your first delivery will include a beautiful Sandstone Mug - or two! - and our cute enamel House Pin. Subscribe now and let us take you on a journey through coffee: it’s what we do best.<\/p>",
+            "text": "<p>With our Spring Subscriptions, explore the amazing world of Single Origin coffee beans. Your first delivery will include : <\/p><ul><li>A beautiful Sandstone Mug - or two! <\/li><li>And our cute enamel House Pin. <\/li><\/ul><p>Subscribe now and let us take you on a journey through coffee: it’s what we do best.<\/p>",
             "text_style": "body"
           }
         },
