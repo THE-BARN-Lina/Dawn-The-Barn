@@ -1,13 +1,4 @@
 {{ 'component-video-with-text-side-by-side.css' | asset_url | stylesheet_tag }}
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
-{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
-{{ 'section-email-signup-banner.css' | asset_url | stylesheet_tag }}
-{{ 'component-rte.css' | asset_url | stylesheet_tag }}
-{{ 'section-rich-text.css' | asset_url }}"
-
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -140,7 +131,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
-      "default": 40
+      "default": 36
     },
     {
       "type": "range",
@@ -150,7 +141,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 52
+      "default": 36
     }
   ],
   "blocks": [
