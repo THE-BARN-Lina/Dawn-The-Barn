@@ -101,7 +101,6 @@
     },
     "550bad91-bd7c-428d-b01d-b1a12420b001": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "7c004cde-aa17-4fcc-9a10-f9ab83819e27": {
           "type": "caption",
@@ -114,14 +113,14 @@
         "fc2067cd-78f5-4d98-8a27-55b990a12a38": {
           "type": "heading",
           "settings": {
-            "heading": "ROCK BELIEVER",
+            "heading": "SPRING SPECIAL SUBSCRIPTION",
             "heading_size": "h2"
           }
         },
         "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>THE SCORPIONS<\/strong><\/p><p>The Scorpions wrote themselves into history with their song Wind of Change. It captured the spirit when the Berlin wall fell: the instant our amazing home was united. Today, we are roasting the bands very first coffee!<\/p>",
+            "text": "<p>With our Spring Subscriptions, explore the amazing world of Single Origin coffee beans. Your first delivery will include a beautiful Sandstone Mug - or two! - and our cute enamel House Pin. Subscribe now and let us take you on a journey through coffee: it’s what we do best.<\/p>",
             "text_style": "body"
           }
         },
@@ -140,10 +139,10 @@
         "b40f8898-27e9-404c-9fd4-4c7ad623d92e"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_2560.jpg",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/IMG_3284_3db89a44-8743-4a48-8797-de85944aea76.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
