@@ -89,7 +89,7 @@
       "settings": {
         "color_scheme": "background-1",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1de66faf0b424734be5e442d982acea8.mp4",
-        "height": "adapt",
+        "height": "small",
         "layout": "text_first"
       }
     },
