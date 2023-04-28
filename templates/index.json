@@ -128,11 +128,16 @@
         "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-1",
         "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-2"
       ],
+      "custom_css": [
+        ".video-with-text {margin-top: -3rem;"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1de66faf0b424734be5e442d982acea8.mp4",
         "height": "small",
-        "layout": "text_first"
+        "layout": "text_first",
+        "padding_top": 20,
+        "padding_bottom": 36
       }
     },
     "550bad91-bd7c-428d-b01d-b1a12420b001": {
