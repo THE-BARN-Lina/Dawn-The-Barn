@@ -54,7 +54,7 @@
     timezoneOffset: {{ shop.metafields.pagefly.timezoneOffset | default: 0 }}
   };
       if(typeof analyticsSrc === 'undefined'){
-      let analyticsSrc = "https://cdn.pagefly.io/pagefly/core/analytics.js";
+      let analyticsSrc = "https://cdn.pagefly.io/pagefly/core/analytics-legacy.js";
       const scriptPFAnalytic = document.createElement('script');
       scriptPFAnalytic.src = analyticsSrc;
       scriptPFAnalytic.async = true;
