@@ -128,7 +128,7 @@
           "type": "button",
           "settings": {
             "button_label": "ORDER HERE",
-            "button_link": "https:\/\/thebarn.de\/products\/rock-believer-by-the-scorpions"
+            "button_link": "shopify:\/\/products\/spring-subscription"
           }
         }
       },
