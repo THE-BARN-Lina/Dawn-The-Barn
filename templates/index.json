@@ -58,6 +58,48 @@
         "padding_bottom": 48
       }
     },
+    "e2cf58b1-3879-4cc3-887e-93b418b4a6ad": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16216418910475__e2cf58b1-3879-4cc3-887e-93b418b4a6ad-1682690266f13c528c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>ROCK BELIEVER<\/h1>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16216418910475__e2cf58b1-3879-4cc3-887e-93b418b4a6ad-1682690266f13c528c-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16216418910475__e2cf58b1-3879-4cc3-887e-93b418b4a6ad-1682690266f13c528c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16216418910475__e2cf58b1-3879-4cc3-887e-93b418b4a6ad-1682690266f13c528c-0",
+        "template--16216418910475__e2cf58b1-3879-4cc3-887e-93b418b4a6ad-1682690266f13c528c-1",
+        "template--16216418910475__e2cf58b1-3879-4cc3-887e-93b418b4a6ad-1682690266f13c528c-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2": {
       "type": "video-with-text",
       "blocks": {
@@ -469,6 +511,7 @@
   "order": [
     "image_banner",
     "1653387743507b82e2",
+    "e2cf58b1-3879-4cc3-887e-93b418b4a6ad",
     "d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2",
     "550bad91-bd7c-428d-b01d-b1a12420b001",
     "1652970717af5972f9",
