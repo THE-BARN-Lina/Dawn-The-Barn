@@ -87,7 +87,7 @@
           "type": "button",
           "settings": {
             "button_label": "ORDER HERE",
-            "button_link": "shopify:\/\/products\/spring-subscription"
+            "button_link": "shopify:\/\/collections\/spring-gift-specials"
           }
         }
       },
