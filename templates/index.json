@@ -159,10 +159,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Filter_coffee_made_from_origami_dripper.png",
-            "title": "Kabingara AA, Kenya",
-            "text": "<p><strong>Blackcurrant. Rosehip.<\/strong><br\/>Kabingara has everything we love about Kenyan coffee. Fruit-forward and fully washed, expect the juicy note of fresh blackcurrant and fragrant hibiscus. Clean and fresh, the acidity is prominent but well balanced by a sugary finish.<\/p>",
+            "title": "El Vergel Gesha, Colombia",
+            "text": "<p><strong>Mango. Rose.<br\/><\/strong>We are excited to bring you this coffee, the newest addition to our <strong>Rarity Line<\/strong>. This coffee shows pronounced sweetness and vibrant complexity. Expect intense ripe mango and stone fruit, while delicate rose adds floral character.<\/p>",
             "link_label": "ORDER HERE",
-            "link": "shopify:\/\/products\/kabingara-aa",
+            "link": "shopify:\/\/products\/el-vergel-gesha",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
