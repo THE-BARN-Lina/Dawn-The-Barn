@@ -49,11 +49,41 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "fb45a128-8d0e-46ed-8c5f-351202d24d7d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-releases",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "1659687875b9adbf7e",
-    "1657896229556540f3"
+    "1657896229556540f3",
+    "fb45a128-8d0e-46ed-8c5f-351202d24d7d"
   ]
 }
