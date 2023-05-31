@@ -127,13 +127,12 @@
         },
         "1652970717eaeb9726-0": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/B6F69B4E-9303-471D-8D96-7E712171CB37.jpg",
-            "title": "Juan Martin Gesha, Colombia",
-            "text": "<p><strong>Strawberry. Black Tea.<\/strong><a href=\"\/products\/juan-martin-sidra\" title=\"JUAN MARTIN SIDRA\"><br\/><\/a>Our final Lot from Finca Juan Martin is a Gesha! In this release the beautiful Gesha varietal is matched with washed-anaerobic fermentation for a cup with the sweet fragrance of ripe summer berries.<\/p>",
+            "image": "shopify:\/\/shop_images\/E7970D1F-E32F-4EFD-A125-B853CF2C8A89.jpg",
+            "title": "Gesha Twin Box",
+            "text": "<p><strong>Panama + Colombia<\/strong><br\/>We release a limited Twin Box with two strong contenders: Our Masterpiece Finca Fatima from Panama, next to El Vergel in Colombia. This is an exciting pair. We offer 50x limited twin boxes. Roasted at the start of next week. <\/p>",
             "link_label": "GET YOUR BAG",
-            "link": "shopify:\/\/products\/juan-martin-gesha",
+            "link": "shopify:\/\/products\/gesha-twin-box",
             "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
