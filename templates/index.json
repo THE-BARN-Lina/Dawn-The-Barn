@@ -130,7 +130,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/E7970D1F-E32F-4EFD-A125-B853CF2C8A89.jpg",
             "title": "Gesha Twin Box",
-            "text": "<p><strong>Panama + Colombia<\/strong><br\/>We release a limited Twin Box with two strong contenders: Our Masterpiece Finca Fatima from Panama, next to El Vergel in Colombia. This is an exciting pair. We offer 50x limited twin boxes. Roasted at the start of next week. <\/p>",
+            "text": "<p><strong>Panama + Colombia<\/strong><br\/>We released a limited Twin Box with two strong contenders: Our Masterpiece Finca Fatima from Panama, next to El Vergel in Colombia. This is an exciting pair. We offer 50x limited twin boxes. Roasted at the start of next week. <\/p>",
             "link_label": "GET YOUR BAG",
             "link": "shopify:\/\/products\/gesha-twin-box",
             "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
