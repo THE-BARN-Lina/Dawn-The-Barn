@@ -183,50 +183,6 @@
         "padding_bottom": 40
       }
     },
-    "166190609843a37cf1": {
-      "type": "image-with-text",
-      "blocks": {
-        "16619060981986615d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "USA & CANADA",
-            "heading_size": "h2"
-          }
-        },
-        "16619060981986615d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our most popular subscriptions are now tailormade for North America: Cheaper & Faster. We ship fresh from our warehouse in the USA. Like a local. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "16619060981986615d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "GO  TO USA PAGE",
-            "button_link": "https:\/\/thebarnberlin.com\/"
-          }
-        }
-      },
-      "block_order": [
-        "16619060981986615d-0",
-        "16619060981986615d-1",
-        "16619060981986615d-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_7351.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "16609096892f959660": {
       "type": "collection-list",
       "blocks": {
@@ -453,7 +409,6 @@
     "d38cf404-aacf-4801-91d6-0f1e1abf762d",
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5",
     "1662636697f92db74e",
-    "166190609843a37cf1",
     "16609096892f959660",
     "16629804922d2a4cf0",
     "1662738554a4ae067d",
