@@ -60,6 +60,7 @@
     },
     "550bad91-bd7c-428d-b01d-b1a12420b001": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "7c004cde-aa17-4fcc-9a10-f9ab83819e27": {
           "type": "caption",
