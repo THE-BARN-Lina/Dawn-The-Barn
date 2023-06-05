@@ -130,10 +130,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/E7970D1F-E32F-4EFD-A125-B853CF2C8A89.jpg",
-            "title": "Gesha Twin Box",
-            "text": "<p><strong>Panama + Colombia<\/strong><br\/>We released a limited Twin Box with two strong contenders: Our Masterpiece Finca Fatima from Panama, next to El Vergel in Colombia. This is an exciting pair. We offer 50x limited twin boxes. Roasted at the start of next week. <\/p>",
+            "title": "El Marcelo, Colombia",
+            "text": "<p><strong>Colombia that takes like Kenya.<\/strong><br\/>El Marcelo is back with crisp clarity. At over 2150 metres, high up on the Colombian Massif, Armel Moncayo makes the most of conditions where cherries slowly ripen. With delicious sweetness and clean acidity, its all about the altitude!<\/p>",
             "link_label": "GET YOUR BAG",
-            "link": "shopify:\/\/products\/gesha-twin-box",
+            "link": "https:\/\/thebarn.de\/products\/el-marcelo",
             "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
