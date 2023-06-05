@@ -173,48 +173,6 @@
         "padding_bottom": 44
       }
     },
-    "d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2": {
-      "type": "video-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "ROCK BELIEVER",
-            "heading_size": "h2"
-          }
-        },
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>THE SCORPIONS<\/strong><\/p><p>The Scorpions wrote themselves into history with their song Wind of Change.<\/p><p>It captured the spirit when the Berlin wall fell: the instant our amazing home was united. Today, we are roasting the bands very first coffee!<\/p>"
-          }
-        },
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER HERE",
-            "button_link": "shopify:\/\/products\/rock-believer-by-the-scorpions"
-          }
-        }
-      },
-      "block_order": [
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-0",
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-1",
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-2"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1de66faf0b424734be5e442d982acea8.mp4",
-        "height": "small",
-        "layout": "text_first",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "165900919845720bf8": {
       "type": "newsletter-sign-up",
       "settings": {
@@ -402,16 +360,6 @@
         "padding_bottom": 80
       }
     },
-    "1659955349273aa5dd": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "20d07d22-5246-491b-b6f2-edcabe969eef": {
       "type": "multicolumn",
       "blocks": {
@@ -478,14 +426,12 @@
     "1653387743507b82e2",
     "550bad91-bd7c-428d-b01d-b1a12420b001",
     "1652970717af5972f9",
-    "d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2",
     "165900919845720bf8",
     "165339081846c57155",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "16515783060899e67e",
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
-    "1659955349273aa5dd",
     "20d07d22-5246-491b-b6f2-edcabe969eef"
   ]
 }
