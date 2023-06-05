@@ -115,6 +115,17 @@
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
+        "1652970717eaeb9726-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-06-05_um_10.24.06.png",
+            "title": "El Marcelo, Colombia",
+            "text": "<p><strong>Colombia that takes like Kenya.<\/strong><br\/>El Marcelo is back with crisp clarity. At over 2150 metres, high up on the Colombian Massif, Armel Moncayo makes the most of conditions where cherries slowly ripen. With delicious sweetness and clean acidity, its all about the altitude!<\/p>",
+            "link_label": "GET YOUR BAG",
+            "link": "https:\/\/thebarn.de\/products\/el-marcelo",
+            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+          }
+        },
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
@@ -124,17 +135,6 @@
             "link_label": "ORDER HERE",
             "link": "shopify:\/\/products\/el-vergel-gesha",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
-          }
-        },
-        "1652970717eaeb9726-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/E7970D1F-E32F-4EFD-A125-B853CF2C8A89.jpg",
-            "title": "El Marcelo, Colombia",
-            "text": "<p><strong>Colombia that takes like Kenya.<\/strong><br\/>El Marcelo is back with crisp clarity. At over 2150 metres, high up on the Colombian Massif, Armel Moncayo makes the most of conditions where cherries slowly ripen. With delicious sweetness and clean acidity, its all about the altitude!<\/p>",
-            "link_label": "GET YOUR BAG",
-            "link": "https:\/\/thebarn.de\/products\/el-marcelo",
-            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1652970717eaeb9726-1": {
@@ -151,8 +151,8 @@
         }
       },
       "block_order": [
-        "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
         "1652970717eaeb9726-0",
+        "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
         "1652970717eaeb9726-1"
       ],
       "settings": {
