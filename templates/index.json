@@ -308,6 +308,7 @@
     },
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-0": {
           "type": "heading",
@@ -361,6 +362,7 @@
     },
     "20d07d22-5246-491b-b6f2-edcabe969eef": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-0": {
           "type": "column",
