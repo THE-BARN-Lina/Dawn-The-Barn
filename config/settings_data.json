@@ -156,57 +156,57 @@
           "8df4c85d-d9a2-4f99-bf0e-74b5f9578dd9": {
             "type": "text",
             "settings": {
-              "heading": "",
-              "subtext": "<h5><strong>SUBSCRIPTIONS<\/strong><br\/><a href=\"https:\/\/thebarn.de\/collections\/subscriptions\" title=\"https:\/\/thebarn.de\/collections\/subscriptions\">Your Choices<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/subscriptions\" title=\"https:\/\/thebarn.de\/collections\/subscriptions\">Gift Choices<\/a><\/h5>"
+              "heading": "SUBSCRIPTIONS",
+              "subtext": "<h5><a href=\"https:\/\/thebarn.de\/collections\/subscriptions\" title=\"https:\/\/thebarn.de\/collections\/subscriptions\">Your Choices<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/subscriptions\" title=\"https:\/\/thebarn.de\/collections\/subscriptions\">Gift Choices<\/a><\/h5>"
             }
           },
           "c75a1e9a-7872-4221-bedc-9fb59a8601e6": {
             "type": "text",
             "settings": {
-              "heading": "",
-              "subtext": "<h5><strong>SHOP<\/strong><br\/><a href=\"https:\/\/thebarn.de\/collections\/beans\" title=\"https:\/\/thebarn.de\/collections\/beans\">Beans<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/instant-drip\" title=\"https:\/\/thebarn.de\/collections\/instant-drip\">Instant & Drip Bags<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/capsules\" title=\"https:\/\/thebarn.de\/collections\/capsules\">Capsules <\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/equipment\" title=\"https:\/\/thebarn.de\/collections\/equipment\">Equipment <br\/><\/a><a href=\"https:\/\/thebarn.de\/collections\/merchandise\" title=\"https:\/\/thebarn.de\/collections\/merchandise\">Merchandise<\/a> <br\/><a href=\"https:\/\/thebarn.de\/collections\/vouchers\" title=\"https:\/\/thebarn.de\/collections\/vouchers\">Vouchers<\/a><\/h5>"
+              "heading": "SHOP",
+              "subtext": "<h5><a href=\"https:\/\/thebarn.de\/collections\/beans\" title=\"https:\/\/thebarn.de\/collections\/beans\">Beans<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/instant-drip\" title=\"https:\/\/thebarn.de\/collections\/instant-drip\">Instant & Drip Bags<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/capsules\" title=\"https:\/\/thebarn.de\/collections\/capsules\">Capsules <\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/equipment\" title=\"https:\/\/thebarn.de\/collections\/equipment\">Equipment <br\/><\/a><a href=\"https:\/\/thebarn.de\/collections\/merchandise\" title=\"https:\/\/thebarn.de\/collections\/merchandise\">Merchandise<\/a> <br\/><a href=\"https:\/\/thebarn.de\/collections\/vouchers\" title=\"https:\/\/thebarn.de\/collections\/vouchers\">Vouchers<\/a><\/h5>"
             }
           },
           "33c97cbe-0f9e-4981-998f-81e7ff9b9679": {
             "type": "text",
             "settings": {
-              "heading": "",
-              "subtext": "<h5><strong>ABOUT<\/strong> <br\/><a href=\"https:\/\/thebarn.de\/pages\/aboutus\" title=\"https:\/\/thebarn.de\/pages\/aboutus\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team <\/a><br\/><a href=\"https:\/\/thebarn.de\/pages\/locations\" title=\"https:\/\/thebarn.de\/pages\/locations\">Locations<br\/><\/a><a href=\"https:\/\/thebarn.de\/pages\/careers\" title=\"https:\/\/thebarn.de\/pages\/careers\">Careers<\/a><\/h5>"
+              "heading": "ABOUT",
+              "subtext": "<h5> <a href=\"https:\/\/thebarn.de\/pages\/aboutus\" title=\"https:\/\/thebarn.de\/pages\/aboutus\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team <\/a><br\/><a href=\"https:\/\/thebarn.de\/pages\/locations\" title=\"https:\/\/thebarn.de\/pages\/locations\">Locations<br\/><\/a><a href=\"https:\/\/thebarn.de\/pages\/careers\" title=\"https:\/\/thebarn.de\/pages\/careers\">Careers<\/a><\/h5>"
             }
           },
           "705afaa5-785a-40f3-9e83-5c853fe5b6aa": {
             "type": "text",
             "settings": {
-              "heading": "",
-              "subtext": "<h5><strong>SUSTAINABILITY<br\/><\/strong><a href=\"https:\/\/thebarn.de\/blogs\/coffee-wiki\/sustainability\" title=\"https:\/\/thebarn.de\/blogs\/coffee-wiki\/sustainability\">Donate Trees<\/a><\/h5>"
+              "heading": "SUSTAINABILITY",
+              "subtext": "<h5><a href=\"https:\/\/thebarn.de\/blogs\/coffee-wiki\/sustainability\" title=\"https:\/\/thebarn.de\/blogs\/coffee-wiki\/sustainability\">Donate Trees<\/a><\/h5>"
             }
           },
           "54146417-e198-4a25-a221-4be456299d47": {
             "type": "text",
             "settings": {
-              "heading": "",
-              "subtext": "<h5><strong>WHOLESALE<\/strong><br\/><a href=\"https:\/\/thebarn.de\/pages\/wholesale-application\" title=\"https:\/\/thebarn.de\/pages\/wholesale-application\">Contact Form<\/a><br\/><\/h5>"
+              "heading": "WHOLESALE",
+              "subtext": "<h5><a href=\"https:\/\/thebarn.de\/pages\/wholesale-application\" title=\"https:\/\/thebarn.de\/pages\/wholesale-application\">Contact Form<\/a><br\/><\/h5>"
             }
           },
           "3b9c4772-8f19-4d4c-9fca-70c19c452223": {
             "type": "text",
             "settings": {
-              "heading": "",
-              "subtext": "<h5><strong>BLOG<\/strong><br\/><a href=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\" title=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\">Articles & Education <br\/><\/a><a href=\"https:\/\/thebarn.de\/pages\/brew-guides\" title=\"https:\/\/thebarn.de\/pages\/brew-guides\">Brew Guides<br\/>Signature Drinks<\/a><\/h5>"
+              "heading": "BLOG",
+              "subtext": "<h5><a href=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\" title=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\">Articles & Education <br\/><\/a><a href=\"https:\/\/thebarn.de\/pages\/brew-guides\" title=\"https:\/\/thebarn.de\/pages\/brew-guides\">Brew Guides<br\/>Signature Drinks<\/a><\/h5>"
             }
           },
           "780a470e-2fa4-4e1a-9954-6422d2b44db5": {
             "type": "text",
             "settings": {
-              "heading": "",
-              "subtext": "<h5><strong>QUICK LINKS<br\/><\/strong><a href=\"\/pages\/faq-help-center\" title=\"FAQ & Help Center\">FAQ<\/a><br\/><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<br\/><\/a><a href=\"\/pages\/contact\" title=\"CONTACT\">Contact<\/a><br\/><a href=\"\/pages\/press\" title=\"Press\">Press<br\/><\/a><\/h5>"
+              "heading": "QUICK LINKS",
+              "subtext": "<h5><a href=\"\/pages\/faq-help-center\" title=\"FAQ & Help Center\">FAQ<\/a><br\/><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<br\/><\/a><a href=\"\/pages\/contact\" title=\"CONTACT\">Contact<\/a><br\/><a href=\"\/pages\/press\" title=\"Press\">Press<br\/><\/a><\/h5>"
             }
           },
           "ae726a0a-e0a3-4e61-a76e-66d8d817def1": {
             "type": "text",
             "settings": {
-              "heading": "",
-              "subtext": "<h5><strong>LEGAL<\/strong><br\/><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h5>"
+              "heading": "LEGAL",
+              "subtext": "<h5><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h5>"
             }
           }
         },
@@ -221,7 +221,7 @@
           "ae726a0a-e0a3-4e61-a76e-66d8d817def1"
         ],
         "custom_css": [
-          "h2 {margin-top: 12rem;}"
+          "h2 {}"
         ],
         "settings": {
           "color_scheme": "background-1",
@@ -486,7 +486,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#Subscribe {background-color:transparent;}"
+      "#Subscribe {background-color: transparent;}"
     ]
   }
 }
