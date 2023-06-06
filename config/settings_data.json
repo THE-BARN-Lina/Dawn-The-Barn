@@ -162,7 +162,7 @@
           "54146417-e198-4a25-a221-4be456299d47"
         ],
         "custom_css": [
-          "h2 {font-size: 13px;}"
+          "h5 {font-size: 13px;}"
         ],
         "settings": {
           "color_scheme": "background-2",
