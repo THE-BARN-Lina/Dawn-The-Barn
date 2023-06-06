@@ -221,7 +221,7 @@
           "ae726a0a-e0a3-4e61-a76e-66d8d817def1"
         ],
         "custom_css": [
-          "h2 {font-size:16px;}"
+          "h5 {font-size: 13px;}"
         ],
         "settings": {
           "color_scheme": "background-1",
