@@ -486,7 +486,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#Subscribe {background-color: #68431b; }"
+      "#Subscribe {background-color: none;}"
     ]
   }
 }
