@@ -117,7 +117,7 @@
     "165900919845720bf8": {
       "type": "newsletter-sign-up",
       "custom_css": [
-        ".newsletter-form {padding: 32px;}"
+
       ],
       "settings": {
         "padding_top": 16,
