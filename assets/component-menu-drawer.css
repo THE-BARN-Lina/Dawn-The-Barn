@@ -95,9 +95,8 @@ details[open].menu-opening > .menu-drawer__submenu {
   align-content: space-between;
   overflow-y: auto;
 }
-.ly-custom-dropdown-current{
-  margin-top: 2rem;
-
+.list-social {
+  margin-bottom: 2rem;
 }
 
 .menu-drawer__navigation {
