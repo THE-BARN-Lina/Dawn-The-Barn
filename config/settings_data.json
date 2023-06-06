@@ -483,5 +483,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#Subscribe {background-color: #68431b; }"
+    ]
   }
 }
