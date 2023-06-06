@@ -110,7 +110,7 @@
             <div class="menu-drawer__inner-container">
               <div class="menu-drawer__navigation-container">
                 <nav class="menu-drawer__navigation"> 
- <div class="transcy-switcher-manual transcy-mobile hidden mobile-nav__item"></div>
+                <div class="transcy-switcher-manual transcy-mobile hidden mobile-nav__item"></div>
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
                     {%- for link in section.settings.menu.links -%}
                       <li>
@@ -171,9 +171,10 @@
                         {%- endif -%}
                       </li>
                     {%- endfor -%}
-                  </ul>
-                </nav>
-                <div class="menu-drawer__utility-links">
+                    </ul>
+                    </nav>
+                    <div class="menu-drawer__utility-links">
+                  <span class="ly-custom-0"></span>
                   {%- if shop.customer_accounts_enabled -%}
                     <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="menu-drawer__account link focus-inset h5">
                       {% render 'icon-account' %}
