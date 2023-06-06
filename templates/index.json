@@ -54,8 +54,8 @@
       "settings": {
         "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 48,
-        "padding_bottom": 48
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "550bad91-bd7c-428d-b01d-b1a12420b001": {
@@ -107,18 +107,18 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 0
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "165900919845720bf8": {
       "type": "newsletter-sign-up",
       "custom_css": [
-
+        ".newsletter-form {padding: 32px;}"
       ],
       "settings": {
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "1652970717af5972f9": {
@@ -178,8 +178,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 44
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "165339081846c57155": {
@@ -210,8 +210,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 52,
-        "padding_bottom": 12
+        "padding_top": 32,
+        "padding_bottom": 16
       }
     },
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc": {
@@ -308,8 +308,8 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 40
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146": {
@@ -362,8 +362,8 @@
       "settings": {
         "custom_liquid": "{% render | \"four-icons\" %}",
         "color_scheme": "background-1",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "20d07d22-5246-491b-b6f2-edcabe969eef": {
