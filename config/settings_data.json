@@ -222,7 +222,7 @@
         ],
         "custom_css": [
           "h5 {font-size: 14px;}",
-          ".footer-block--newsletter{margin-top:16rem;}"
+          ".footer-block--newsletter {margin-top: 8rem;}"
         ],
         "settings": {
           "color_scheme": "background-2",
