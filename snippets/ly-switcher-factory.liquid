@@ -178,7 +178,7 @@
                     {%- endif -%}
                     {%- if show_name or show_custom_name or show_iso_code -%}
                       <span class="ly-custom-dropdown-list-element-right">
-                        {%- if show_name %}{{ language.name }}{%- endif -%}
+                        {%- if show_name %}Deutsch{%- endif -%}
                         {%- if show_custom_name -%}{% for lang in switcherSettings.languages %}{% if lang.iso_code == language.iso_code %}{% if lang.custom_name != false and lang.custom_name != '' %}{{ lang.custom_name }}{% else %}{{ language.name }}{% endif %}{% endif %}{% endfor %}{%- endif -%}
                         {%- if show_iso_code %}{{ language.iso_code | upcase }}{%- endif -%}
                       </span>
