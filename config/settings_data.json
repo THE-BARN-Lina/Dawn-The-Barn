@@ -169,7 +169,7 @@
           "newsletter_enable": true,
           "newsletter_heading": "Stay connected through our newsletter",
           "show_social": true,
-          "enable_country_selector": true,
+          "enable_country_selector": false,
           "enable_language_selector": true,
           "payment_enable": true,
           "margin_top": 0,
