@@ -1,4 +1,4 @@
-{%- comment -%}Version 4.1.0{%- endcomment -%}
+{%- comment -%}Version 4.1.1{%- endcomment -%}
 {%- comment -%}
   !!! IMPORTANT !!!
   This file has been automatically created by Langify.
@@ -97,7 +97,7 @@
       {%- assign scalefactor = arrow_size | times: 0.01 -%}
       {%- assign realsize = fontsize | times: scalefactor -%}
       {%- assign quarter = realsize | divided_by: 4 -%}
-      <div class="ly-arrow {% if is_dark %}ly-arrow-white{% else %}ly-arrow-black{% endif %} {% if arrow_filled %}caret{% else %}stroke{% endif %}" style="vertical-align: middle; width: {{ realsize }}px; height: {{ realsize }}px;">
+      <div aria-hidden="true" class="ly-arrow {% if is_dark %}ly-arrow-white{% else %}ly-arrow-black{% endif %} {% if arrow_filled %}caret{% else %}stroke{% endif %}" style="vertical-align: middle; width: {{ realsize }}px; height: {{ realsize }}px;">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{ realsize }} {{ realsize }}" height="{{ realsize }}px" width="{{ realsize }}px" style="position: absolute;">
           <path d="M{{ arrow_width | plus: 0 }} {{ arrow_width | plus: quarter }} L{{ realsize | divided_by: 2 }} {{ realsize | divided_by: 2 | plus: quarter }} L{{ realsize | minus: arrow_width }} {{ arrow_width | plus: quarter }}" fill="{% if arrow_filled %}{{ text_color }}{% else %}transparent{% endif -%}" stroke="{% if arrow_filled %}transparent{% else %}{{ text_color }}{% endif -%}" stroke-width="{% if arrow_filled %}0{% else %}{{ arrow_width }}px{% endif -%}"/>
         </svg>
@@ -105,7 +105,7 @@
       {%- if recommendation_enabled and breakpoint.key == recommendation_switcher_key -%}
         {%- assign realsize = recommendation.recommendation_fontsize -%}
         {%- assign quarter = realsize | divided_by: 4 -%}        
-        <div class="ly-arrow recommendation {% if is_dark %}ly-arrow-white{% else %}ly-arrow-black{% endif %} {% if arrow_filled %}caret{% else %}stroke{% endif %}" style="vertical-align: middle; width: {{ realsize }}px; height: {{ realsize }}px;">
+        <div aria-hidden="true" class="ly-arrow recommendation {% if is_dark %}ly-arrow-white{% else %}ly-arrow-black{% endif %} {% if arrow_filled %}caret{% else %}stroke{% endif %}" style="vertical-align: middle; width: {{ realsize }}px; height: {{ realsize }}px;">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{ realsize }} {{ realsize }}" height="{{ realsize }}px" width="{{ realsize }}px" style="position: absolute;">
             <path d="M{{ arrow_width | plus: 0 }} {{ arrow_width | plus: quarter }} L{{ realsize | divided_by: 2 }} {{ realsize | divided_by: 2 | plus: quarter }} L{{ realsize | minus: arrow_width }} {{ arrow_width | plus: quarter }}" fill="{% if arrow_filled %}{{ text_color }}{% else %}transparent{% endif -%}" stroke="{% if arrow_filled %}transparent{% else %}{{ text_color }}{% endif -%}" stroke-width="{% if arrow_filled %}0{% else %}{{ arrow_width }}px{% endif -%}"/>
           </svg>
@@ -122,7 +122,7 @@
 
       {%- if country_switcher_enabled and type != 'none' -%}
         {%- if type == 'native_select' -%}
-          <select aria-label="Selected country: {{ localization.country.name }}" aria-description="Country selector" name="country_code" class="ly-country-switcher ly-native-select" style="{{ item_spacing_style }} {{ item_padding_style }} {{ border_style }}">
+          <select tabindex="0" aria-label="Selected country: {{ localization.country.name }}" name="country_code" class="ly-country-switcher ly-native-select" style="{{ item_spacing_style }} {{ item_padding_style }} {{ border_style }}">
             {% for country in localization.available_countries %}
               <option data-currency-code="{{ country.currency.iso_code }}" data-country-code="{{ country.iso_code }}" value="{{ country.iso_code }}"{% if country == localization.country %} selected="selected"{% endif %}>
                 {{ country.name }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})
@@ -130,8 +130,8 @@
             {% endfor %}
           </select>
         {%- else -%}
-          <div aria-label="Selected country: {{ localization.country.name }}" aria-description="Country selector" data-dropup="{% if is_dropup %}true{% else %}false{% endif %}" onclick="langify.switcher.toggleSwitcherOpen(this)" class="ly-country-switcher ly-custom-dropdown-switcher{% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}{% if is_dropup %} ly-is-dropup{% endif %}" style="{{ item_spacing_style }}">
-            <span role="button" aria-expanded="false" aria-controls="countrySwitcherList-{{ forloop.index }}" class="ly-custom-dropdown-current" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ item_padding_style }} {{ border_style }}">
+          <div data-dropup="{% if is_dropup %}true{% else %}false{% endif %}" onclick="langify.switcher.toggleSwitcherOpen(this)" class="ly-country-switcher ly-custom-dropdown-switcher{% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}{% if is_dropup %} ly-is-dropup{% endif %}" style="{{ item_spacing_style }}">
+            <span role="button" tabindex="0" aria-label="Selected country: {{ localization.country.name }}" aria-expanded="false" aria-controls="countrySwitcherList-{{ forloop.index }}" class="ly-custom-dropdown-current" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ item_padding_style }} {{ border_style }}">
               <span class="ly-custom-dropdown-current-inner ly-custom-dropdown-current-inner-text">
                 {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})
               </span>
@@ -151,19 +151,37 @@
       
       {%- case type -%}
       {%- when 'custom' -%}
-        <div aria-label="Selected language: {{ request.locale.name }}" aria-description="Language selector" data-dropup="{% if is_dropup %}true{% else %}false{% endif %}" onclick="langify.switcher.toggleSwitcherOpen(this)" class="ly-languages-switcher ly-custom-dropdown-switcher{% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}{% if is_dropup %} ly-is-dropup{% endif %}" style="{{ item_spacing_style }}">
-          <span role="button" aria-expanded="false" aria-controls="languagesSwitcherList-{{ forloop.index }}" class="ly-custom-dropdown-current" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ border_style }} {{ item_padding_style }}">
+
+        <div data-dropup="{% if is_dropup %}true{% else %}false{% endif %}" onclick="langify.switcher.toggleSwitcherOpen(this)" class="ly-languages-switcher ly-custom-dropdown-switcher{% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}{% if is_dropup %} ly-is-dropup{% endif %}" style="{{ item_spacing_style }}">
+          <span role="button" tabindex="0" aria-label="Selected language: {{ request.locale.name }}" aria-expanded="false" aria-controls="languagesSwitcherList-{{ forloop.index }}" class="ly-custom-dropdown-current" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ border_style }} {{ item_padding_style }}">
             {%- if rectangle_icons or square_icons or round_icons -%}
-              <i class="ly-icon ly-flag-icon ly-flag-icon-{{ localization.language.iso_code }}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>
+
+              {%- capture iconCode -%}
+                {{- localization.language.iso_code -}}
+                {%- assign curLanguageCountryCode = localization.language.iso_code | append: localization.country.iso_code | downcase -%}
+                {%- for lang in switcherSettings.languages -%}
+                  {%- assign tmpLanguageCountryCode = lang.iso_code | append: lang.country_code | downcase -%}
+                  {%- if tmpLanguageCountryCode == curLanguageCountryCode -%}
+                    -{{ lang.country_code }}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endcapture -%}
+              <i class="ly-icon ly-flag-icon ly-flag-icon-{{ iconCode }} {% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>
+            
             {%- endif -%}
             {%- if show_name or show_custom_name or show_iso_code -%}
               <span class="ly-custom-dropdown-current-inner ly-custom-dropdown-current-inner-text">
                 {%- if show_name %}{{ localization.language.name }}{% endif -%}
-                {%- if show_custom_name -%}{% for lang in switcherSettings.languages %}{% if lang.iso_code == localization.language.iso_code %}{% if lang.custom_name != false and lang.custom_name != '' %}{{ lang.custom_name }}{% else %}{{ localization.language.name }}{% endif %}{% endif %}{% endfor %}{%- endif -%}
+                {%- if show_custom_name -%}
+                  {% assign curLanguageCountryCode = localization.language.iso_code | append: localization.country.iso_code | downcase %}
+                  {% for lang in switcherSettings.languages %}
+                    {% assign tmpLanguageCountryCode = lang.iso_code | append: lang.country_code | downcase %}
+                    {% if tmpLanguageCountryCode == curLanguageCountryCode or lang.iso_code == localization.language.iso_code and lang.country_code == blank %}{% if lang.custom_name != false and lang.custom_name != '' %}{{ lang.custom_name }}{% else %}{{ localization.language.name }}{% endif %}{% endif %}
+                  {% endfor %}
+                {%- endif -%}
                 {%- if show_iso_code %}{{ localization.language.iso_code | upcase }}{% endif -%}
               </span>
             {%- endif -%}
-
             {{ arrow }}
           </span>
           <ul id="languagesSwitcherList-{{ forloop.index }}" role="list" class="ly-custom-dropdown-list ly-is-open {% unless is_dark %}ly-bright-theme{% endunless %}" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ border_style }}">
@@ -171,15 +189,30 @@
             {%- for language in flippedLanguages -%}
               {%- unless language.published == 'false' -%}
                 {%- assign current_root_url = request.locale.root_url | downcase | append: '/' -%}{%- assign path = request.path | split: "'" -%}{%- assign unlocalized_path = path[0] | downcase | replace_first: current_root_url, '/' -%}{%- if unlocalized_path == request.locale.root_url -%}{%- assign unlocalized_path = '' -%}{%- endif -%}
-                <li key="{{language.iso_code}}" {% if language.iso_code == localization.language.iso_code %}class="current"{% endif %} style="color: {{ text_color }}; {{ item_spacing_style }}{{ item_padding_style }}" tabindex="-1">
-                  <a class="ly-custom-dropdown-list-element ly-languages-switcher-link{% unless is_dark %} ly-bright-theme{% endunless %}{% if request.locale.iso_code == language.iso_code %} current_lang{% endif %}" href="{% if language.domain %}{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}{% else %}#{% endif %}" data-language-code="{{language.iso_code}}" data-ly-locked="true">
+                <li key="{{language.iso_code}}{% if language.country_code %}-{{language.country_code}}{% endif %}" {% if language.iso_code == localization.language.iso_code %}class="current"{% endif %} style="color: {{ text_color }}; {{ item_spacing_style }}{{ item_padding_style }}" tabindex="-1">
+                  <a class="ly-custom-dropdown-list-element ly-languages-switcher-link{% unless is_dark %} ly-bright-theme{% endunless %}{% if request.locale.iso_code == language.iso_code %} current_lang{% endif %}"
+                    href="{% if language.domain %}{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}{% else %}#{% endif %}" 
+                    {%- if shop.metafields.langify_v2.cross_domain_links %}
+                      data-language-code="{% if language.language_code %}{{language.language_code}}{% else %}{{language.iso_code}}{% endif %}" 
+                      {%- if language.country_code %} data-country-code="{{language.country_code}}"{% endif %}
+                      {%- if language.currency_code %} data-currency-code="{{language.currency_code}}"{% endif %}
+                    {% else %}
+                      data-language-code="{{language.iso_code}}" 
+                    {% endif %}
+                    data-ly-locked="true">
                     {%- if rectangle_icons or square_icons or round_icons -%}
-                      <i class="ly-icon ly-flag-icon ly-flag-icon-{{ language.iso_code }}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>
+                      <i class="ly-icon ly-flag-icon ly-flag-icon-{{ language.iso_code }}{% if language.country_code %}-{{language.country_code}}{% endif %}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>
                     {%- endif -%}
                     {%- if show_name or show_custom_name or show_iso_code -%}
                       <span class="ly-custom-dropdown-list-element-right">
                         {%- if show_name %}{{ language.name }}{%- endif -%}
-                        {%- if show_custom_name -%}{% for lang in switcherSettings.languages %}{% if lang.iso_code == language.iso_code %}{% if lang.custom_name != false and lang.custom_name != '' %}{{ lang.custom_name }}{% else %}{{ language.name }}{% endif %}{% endif %}{% endfor %}{%- endif -%}
+                        {%- if show_custom_name -%}
+                          {% assign curLanguageCountryCode = language.iso_code | append: language.country_code | downcase %}
+                          {% for lang in switcherSettings.languages %}
+                            {% assign tmpLanguageCountryCode = lang.iso_code | append: lang.country_code | downcase %}
+                            {% if tmpLanguageCountryCode == curLanguageCountryCode %}{% if lang.custom_name != false and lang.custom_name != '' %}{{ lang.custom_name }}{% else %}{{ language.name }}{% endif %}{% endif %}
+                          {% endfor %}
+                        {%- endif -%}
                         {%- if show_iso_code %}{{ language.iso_code | upcase }}{%- endif -%}
                       </span>
                     {%- endif -%}
@@ -189,12 +222,17 @@
             {%- endfor -%}
           </ul>
         </div>
+
       {%- when 'native_select' -%}
-        <select aria-label="Selected language: {{ request.locale.name }}" aria-description="Language selector" data-breakpoint="{{ breakpoint.key }}" class="ly-languages-switcher ly-native-select {% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ item_spacing_style }} {{ item_padding_style }} {{ border_style }}">
+
+        <select tabindex="0" aria-label="Selected language: {{ request.locale.name }}" data-breakpoint="{{ breakpoint.key }}" class="ly-languages-switcher ly-native-select {% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ item_spacing_style }} {{ item_padding_style }} {{ border_style }}">
           {%- for language in languages -%}
             {%- unless language.published == 'false' -%}
               {%- assign current_root_url = request.locale.root_url | downcase | append: '/' -%}{%- assign path = request.path | split: "'" -%}{%- assign unlocalized_path = path[0] | downcase | replace_first: current_root_url, '/' -%}{%- if unlocalized_path == request.locale.root_url -%}{%- assign unlocalized_path = '' -%}{%- endif -%}
-              <option data-language-code="{{language.iso_code}}"{% if language.domain %} data-domain="{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}"{% endif %}{% if request.locale.iso_code == language.iso_code %} selected="selected"{% endif %} class="{% if request.locale.iso_code == language.iso_code %}current_lang{% endif %}" value="{{language.iso_code}}" style="{{ item_padding_style }}">
+              <option 
+                  {%- if language.country_code %} data-country-code="{{language.country_code}}"{% endif %}
+                  {%- if language.currency_code %} data-currency-code="{{language.currency_code}}"{% endif %}
+                  data-language-code="{{language.iso_code}}"{% if language.domain %} data-domain="{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}"{% endif %}{% if request.locale.iso_code == language.iso_code %} selected="selected"{% endif %} class="{% if request.locale.iso_code == language.iso_code %}current_lang{% endif %}" value="{{language.iso_code}}" style="{{ item_padding_style }}">
                 {%- if show_name %}{{ language.name }}{% endif -%}
                 {%- if show_custom_name -%}{% for lang in switcherSettings.languages %}{% if lang.iso_code == language.iso_code %}{% if lang.custom_name != false and lang.custom_name != '' %}{{ lang.custom_name }}{% else %}{{ language.name }}{% endif %}{% endif %}{% endfor %}{%- endif -%}
                 {%- if show_iso_code %}{{ language.iso_code | upcase }}{% endif -%}
@@ -202,9 +240,11 @@
             {%- endunless -%}
           {%- endfor -%}
         </select>
+
       {%- when 'popup' -%}
-        <div aria-label="Selected language: {{ request.locale.name }}" aria-description="Language selector" data-breakpoint="{{ breakpoint.key }}" class="ly-languages-switcher ly-popup-switcher{% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}" style="font-size: {{ fontsize }}px; color: {{ text_color }};">
-          <div class="ly-popup-current" onclick="langify.switcher.togglePopupOpen(this)" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %} {{ item_padding_style }}{{ border_style }}">
+
+        <div data-breakpoint="{{ breakpoint.key }}" class="ly-languages-switcher ly-popup-switcher{% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}" style="font-size: {{ fontsize }}px; color: {{ text_color }};">
+          <div class="ly-popup-current" tabindex="0" aria-label="Selected language: {{ request.locale.name }}" onclick="langify.switcher.togglePopupOpen(this)" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %} {{ item_padding_style }}{{ border_style }}">
             {%- if rectangle_icons or square_icons or round_icons -%}
               <i class="ly-icon ly-flag-icon ly-flag-icon-{{ localization.language.iso_code }}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>
             {%- endif -%}
@@ -228,8 +268,12 @@
                 {%- unless language.published == 'false' -%}
                   {%- assign current_root_url = request.locale.root_url | downcase | append: '/' -%}{%- assign path = request.path | split: "'" -%}{%- assign unlocalized_path = path[0] | downcase | replace_first: current_root_url, '/' -%}{%- if unlocalized_path == request.locale.root_url -%}{%- assign unlocalized_path = '' -%}{%- endif -%}
                   <li key="{{language.iso_code}}" style="{{ item_spacing_style }} {{ item_padding_style }}" tabindex="-1">
-                    <a href="{% if language.domain %}{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}{% else %}#{% endif %}" data-language-code="{{language.iso_code}}" data-ly-locked="true" class="ly-languages-switcher-link{% if used_request_locale_iso_code == language.iso_code %} current_lang{% endif %}" style=" {% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }};">
-                      {%- if rectangle_icons or square_icons or round_icons -%}<i class="ly-icon ly-flag-icon ly-flag-icon-{{ language.iso_code }}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>{% endif -%}
+                    <a href="{% if language.domain %}{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}{% else %}#{% endif %}" 
+                      {%- if language.country_code %} data-country-code="{{language.country_code}}"{% endif %}
+                      {%- if language.currency_code %} data-currency-code="{{language.currency_code}}"{% endif %}
+                      data-language-code="{{language.iso_code}}" data-ly-locked="true" class="ly-languages-switcher-link{% if request.locale.iso_code == language.iso_code %} current_lang{% endif %}" style=" {% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }};"
+                    >
+                      {%- if rectangle_icons or square_icons or round_icons -%}<i class="ly-icon ly-flag-icon ly-flag-icon-{{ language.iso_code }}{% if language.country_code %}-{{language.country_code}}{% endif %}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>{% endif -%}
                       {%- if show_name %}{{ language.name }}{% endif -%}
                       {%- if show_custom_name -%}{% for lang in switcherSettings.languages %}{% if lang.iso_code == language.iso_code %}{% if lang.custom_name != false and lang.custom_name != '' %}{{ lang.custom_name }}{% else %}{{ language.name }}{% endif %}{% endif %}{% endfor %}{%- endif -%}
                       {%- if show_iso_code %}{{ language.iso_code | upcase }}{% endif -%}
@@ -241,14 +285,20 @@
             </div>		  
           </div>
         </div>
+
       {%- when 'links_list' -%}
-        <ul aria-label="Selected language: {{ request.locale.name }}" aria-description="Language selector" role="list" data-breakpoint="{{ breakpoint.key }}" class="ly-languages-switcher ly-list {% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ border_style }}">
+
+        <ul tabindex="0" role="list" aria-label="Selected language: {{ request.locale.name }}" data-breakpoint="{{ breakpoint.key }}" class="ly-languages-switcher ly-list {% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ border_style }}">
           {%- for language in languages -%}
             {%- unless language.published == 'false' -%}
               {%- assign current_root_url = request.locale.root_url | downcase | append: '/' -%}{%- assign path = request.path | split: "'" -%}{%- assign unlocalized_path = path[0] | downcase | replace_first: current_root_url, '/' -%}{%- if unlocalized_path == request.locale.root_url -%}{%- assign unlocalized_path = '' -%}{%- endif -%}
-              <li key="{{language.iso_code}}" style="{{ item_spacing_style }} {{ item_padding_style }}" tabindex="-1">
-                <a href="{% if language.domain %}{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}{% else %}#{% endif %}" data-language-code="{{language.iso_code}}" data-ly-locked="true" class="ly-languages-switcher-link{% if used_request_locale_iso_code == language.iso_code %} current_lang{% endif %}" style=" {% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }};">
-                  {%- if rectangle_icons or square_icons or round_icons -%}<i class="ly-icon ly-flag-icon ly-flag-icon-{{ language.iso_code }}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>{%- endif -%}
+              <li role="none" key="{{language.iso_code}}" style="{{ item_spacing_style }} {{ item_padding_style }}" tabindex="-1">
+                <a role="menuitem" tabindex="-1" href="{% if language.domain %}{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}{% else %}#{% endif %}" 
+                  {%- if language.country_code %} data-country-code="{{language.country_code}}"{% endif %}
+                  {%- if language.currency_code %} data-currency-code="{{language.currency_code}}"{% endif %}
+                  data-language-code="{{language.iso_code}}" data-ly-locked="true" class="ly-languages-switcher-link{% if request.locale.iso_code == language.iso_code %} current_lang{% endif %}" style=" {% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }};"
+                >
+                  {%- if rectangle_icons or square_icons or round_icons -%}<i class="ly-icon ly-flag-icon ly-flag-icon-{{ language.iso_code }}{% if language.country_code %}-{{language.country_code}}{% endif %}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>{%- endif -%}
                   {%- if show_name -%}<span class="ly-inner-text">{{ language.name }}</span>{%- endif -%}
                   {%- if show_custom_name -%}<span class="ly-inner-text">{% for lang in switcherSettings.languages %}{% if lang.iso_code == language.iso_code %}{% if lang.custom_name != false and lang.custom_name != '' %}{{ lang.custom_name }}{% else %}{{ language.name }}{% endif %}{% endif %}{% endfor %}</span>{%- endif -%}
                   {%- if show_iso_code -%}<span class="ly-inner-text">{{ language.iso_code | upcase }}</span>{%- endif -%}
@@ -257,13 +307,19 @@
             {%- endunless -%}
           {%- endfor -%}
         </ul>
+
       {%- when 'links' -%}
-        <div aria-label="Selected language: {{ request.locale.name }}" aria-description="Language selector" data-breakpoint="{{ breakpoint.key }}" class="ly-languages-switcher ly-links {% unless is_dark %} ly-bright-theme{% endunless %}" style="color: {{ text_color }};">
+
+        <div tabindex="0" role="menu" aria-haspopup="true" aria-label="Selected language: {{ request.locale.name }}" data-breakpoint="{{ breakpoint.key }}" class="ly-languages-switcher ly-links {% unless is_dark %} ly-bright-theme{% endunless %}" style="color: {{ text_color }};">
           {%- for language in languages -%}
             {%- unless language.published == 'false' -%}
               {%- assign current_root_url = request.locale.root_url | downcase | append: '/' -%}{%- assign path = request.path | split: "'" -%}{%- assign unlocalized_path = path[0] | downcase | replace_first: current_root_url, '/' -%}{%- if unlocalized_path == request.locale.root_url -%}{%- assign unlocalized_path = '' -%}{%- endif -%}
-              <a href="{% if language.domain %}{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}{% else %}#{% endif %}" data-language-code="{{ language.iso_code }}" data-ly-locked="true" class="ly-languages-switcher-link{% if language.iso_code == localization.language.iso_code %} current_lang{% endif %}" style=" {% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ item_spacing_style }} {{ item_padding_style }} {{ border_style }}" tabindex="-1">
-                {%- if rectangle_icons or square_icons or round_icons -%}<i class="ly-icon ly-flag-icon ly-flag-icon-{{ language.iso_code }}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>{%- endif -%}
+              <a role="menuitem" href="{% if language.domain %}{{ 'https://' | append: language.domain }}{% unless language.iso_code contains '__custom' %}{{ unlocalized_path }}{% endunless %}{% else %}#{% endif %}" 
+                {%- if language.country_code %} data-country-code="{{language.country_code}}"{% endif %}
+                {%- if language.currency_code %} data-currency-code="{{language.currency_code}}"{% endif %}
+                data-language-code="{{ language.iso_code }}" data-ly-locked="true" class="ly-languages-switcher-link{% if language.iso_code == localization.language.iso_code %} current_lang{% endif %}" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ item_spacing_style }} {{ item_padding_style }} {{ border_style }}"
+              >
+                {%- if rectangle_icons or square_icons or round_icons -%}<i class="ly-icon ly-flag-icon ly-flag-icon-{{ language.iso_code }}{% if language.country_code %}-{{language.country_code}}{% endif %}{% if square_icons %} ly-flag-squared{% endif %}{% if round_icons %} ly-flag-rounded{% endif %}"></i>{%- endif -%}
                 {%- if show_name -%}<span class="ly-inner-text">{{ language.name }}</span>{%- endif -%}
                 {%- if show_custom_name -%}<span class="ly-inner-text">{% for lang in switcherSettings.languages %}{% if lang.iso_code == language.iso_code %}{% if lang.custom_name != false and lang.custom_name != '' %}{{ lang.custom_name }}{% else %}{{ language.name }}{% endif %}{% endif %}{% endfor %}</span>{%- endif -%}
                 {%- if show_iso_code -%}<span class="ly-inner-text">{{ language.iso_code | upcase }}</span>{%- endif -%}
@@ -271,12 +327,12 @@
             {%- endunless -%}
           {%- endfor -%}
         </div>
-      {%- else -%}
+
       {%- endcase -%}
 
       {%- if currency_switcher_enabled and type != 'none' -%}
         {%- if type == 'native_select' -%}
-          <select aria-label="Selected currency: {{ cart.currency.iso_code }}" aria-description="Currency selector" name="currency_code" class="ly-currency-switcher ly-native-select" style="{{ item_spacing_style }} {{ item_padding_style }} {{ border_style }}">
+          <select tabindex="0" aria-label="Selected currency: {{ cart.currency.iso_code }}" name="currency_code" class="ly-currency-switcher ly-native-select" style="{{ item_spacing_style }} {{ item_padding_style }} {{ border_style }}">
             {% for currency in shop.enabled_currencies %}
               {% if currency == cart.currency %}
                 <option selected="true" data-currency-code="{{currency.iso_code}}" style="{{ item_padding_style }}">{{currency.iso_code}} {{currency.symbol}}</option>
@@ -286,8 +342,8 @@
             {% endfor %}
           </select>
         {%- else -%}
-          <div aria-label="Selected currency: {{ cart.currency.iso_code }}" aria-description="Currency selector" data-dropup="{% if is_dropup %}true{% else %}false{% endif %}" onclick="langify.switcher.toggleSwitcherOpen(this)" class="ly-currency-switcher ly-custom-dropdown-switcher{% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}{% if is_dropup %} ly-is-dropup{% endif %}" style="{{ item_spacing_style }}">
-            <span role="button" aria-expanded="false" aria-controls="currencySwitcherList-{{ forloop.index }}" class="ly-custom-dropdown-current" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ item_padding_style }} {{ border_style }}">
+          <div data-dropup="{% if is_dropup %}true{% else %}false{% endif %}" onclick="langify.switcher.toggleSwitcherOpen(this)" class="ly-currency-switcher ly-custom-dropdown-switcher{% unless is_dark %} ly-bright-theme{% endunless %}{% if is_transparent %} ly-is-transparent{% endif %}{% if is_dropup %} ly-is-dropup{% endif %}" style="{{ item_spacing_style }}">
+            <span role="button" tabindex="0" aria-label="Selected currency: {{ cart.currency.iso_code }}" aria-expanded="false" aria-controls="currencySwitcherList-{{ forloop.index }}" class="ly-custom-dropdown-current" style="{% unless is_transparent %}background: {{ bg_color }}; {% endunless %}color: {{ text_color }}; {{ item_padding_style }} {{ border_style }}">
               <span class="ly-custom-dropdown-current-inner ly-custom-dropdown-current-inner-text">
                 <span class="ly-iso-code">{{cart.currency.iso_code}}</span> <span class="ly-symbol">{{cart.currency.symbol}}</span>
               </span>
@@ -311,7 +367,7 @@
 
   {%- if recommendation_enabled and breakpoint.key == recommendation_switcher_key or recommendation_switcher == nil and recommendation_switcher_key == -1 -%}
     {%- capture recommendation_switcher -%}
-      <form class="ly-recommendation-form" action="" method="GET" data-ly-locked="true">
+      <form class="ly-recommendation-form" action="" method="GET" data-ly-locked="true" aria-hidden="true">
         <span {% if recommendation_switcher_key == -1 %}style="display: none;"{% endif %}>{{- switcher -}}</span>
         <button type="submit" style="font-size: {{ recommendation.recommendation_fontsize }}px; background-color: {{ recommendation.recommendation_button_bg_color }}; color: {{ recommendation.recommendation_button_text_color }}; border: none; padding: 0.2em 0.5em;">
           [[button]]
@@ -374,8 +430,10 @@
   {%- endif -%}
 
   {%- for language in languages -%}
-    {%- assign iconPath = 'ly-icon-' | append: language.iso_code | append: '.svg' %}
-    .ly-flag-icon-{{ language.iso_code }} { background-image: url('{{ iconPath | asset_url }}'); }
+    {%- assign iconPath = 'ly-icon-' | append: language.iso_code %}
+    {%- if language.country_code %}{% assign iconPath = iconPath | append: '-' | append: language.country_code %}{% endif %}
+    {%- assign iconPath = iconPath | append: '.svg' %}
+    .ly-flag-icon-{{ language.iso_code }}{% if language.country_code %}-{{language.country_code}}{% endif %} { background-image: url('{{ iconPath | asset_url }}'); }
   {%- endfor -%}
 
   {%- if switcherSettings -%}
@@ -409,11 +467,13 @@
       {% assign parent_loopindex = forloop.index -%}
       {%- assign parent_loopindex0 = forloop.index0 -%}
       {%- for language in languages -%}
-        {%- assign iconPath = 'ly-icon-' | append: language.iso_code | append: '.svg' -%}
+        {%- assign iconPath = 'ly-icon-' | append: language.iso_code %}
+        {%- if language.country_code %}{% assign iconPath = iconPath | append: '-' | append: language.country_code %}{% endif %}
+        {%- assign iconPath = iconPath | append: '.svg' %}
         {%- if switcherSettings.breakpoints[parent_loopindex0].config.square_icons or switcherSettings.breakpoints[parent_loopindex0].config.round_icons -%}
           {%- assign iconPath = iconPath | replace: '.svg', '_1x1.svg' -%}
         {%- endif %}
-        .ly-breakpoint-{{ parent_loopindex }} .ly-flag-icon-{{ language.iso_code }} { background-image: url('{{ iconPath | asset_url }}') !important; }
+        .ly-breakpoint-{{ parent_loopindex }} .ly-flag-icon-{{ language.iso_code }}{% if language.country_code %}-{{language.country_code}}{% endif %} { background-image: url('{{ iconPath | asset_url }}') !important; }
       {%- endfor -%}
     {%- endfor -%}
   {%- endif %}

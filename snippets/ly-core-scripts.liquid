@@ -1,4 +1,4 @@
-{%- comment -%}Version 4.0.4{%- endcomment -%}
+{%- comment -%}Version 4.1.0{%- endcomment -%}
 {%- comment -%}
   !!! IMPORTANT !!!
   This file has been automatically created by Langify.
@@ -354,7 +354,12 @@
           observer: {
             start: langifyObserver.init,
             stop: langifyObserver.stopObserver,
-            trigger: langifyObserver.triggerCustomContents
+            trigger: langifyObserver.triggerCustomContents,
+            translateLink: langifyObserver.translateLink,
+            translateTextNode: langifyObserver.translateTextNode,
+            translateNodeAttrs: langifyObserver.translateNodeAttrs,
+            translateImage: langifyObserver.translateImage,
+            translateCssImage: langifyObserver.translateCssImage
           }
         };
       }
@@ -556,7 +561,11 @@
         if(langify.settings.observeCustomContents === false || !node.textContent || node.textContent.trim().length === 0) {
           return;
         }
-        var src = node.textContent.trim().replace(/(\r\n|\n|\r)/gim,"").replace(/\s+/g," ").toLowerCase();
+        var oldSrc = node.textContent.trim().replace(/(\r\n|\n|\r)/gim,"").replace(/\s+/g," ").toLowerCase();
+        var src = node.textContent.trim().replace(/(\r\n|\n|\r)/gim," ").replace(/\s+/g," ").toLowerCase();
+        if(customContents_text[oldSrc]) {
+          src = oldSrc;
+        }
         if(customContents_text[src] && node.textContent !== customContents_text[src]) {
           var newContent = node.textContent.replace(node.textContent.trim(), customContents_text[src]);
           if (newContent != node.textContent) {
@@ -587,7 +596,7 @@
         }
       }
     
-      function translateLink(url, node) {
+      function translateLink(url, node, force) {
         if(langify.settings.observeLinks === false || isLocalizationForm(node) || node.hasAttribute('data-ly-locked') || !url || (url.indexOf('mailto:') !== -1 || url.indexOf('javascript:') !== -1 || url.indexOf('tel:') !== -1 || url.indexOf('file:') !== -1 || url.indexOf('ftp:') !== -1 || url.indexOf('sms:') !== -1 || url.indexOf('market:') !== -1 || url.indexOf('fax:') !== -1 || url.indexOf('callto:') !== -1 || url.indexOf('ts3server:') !== -1)) {
           return;
         }
@@ -595,7 +604,8 @@
           url.indexOf('/'+ langify.locale.iso_code +'/') === 0 || url === '/'+ langify.locale.iso_code || 
           url.indexOf('/'+ langify.locale.iso_code.toLowerCase() +'/') === 0 || url === '/'+ langify.locale.iso_code.toLowerCase() ||          
           url.indexOf('/'+ langify.locale.iso_code.toLowerCase().substring(0,2) +'/') === 0 || url === '/'+ langify.locale.iso_code.toLowerCase().substring(0,2) ||
-          url.indexOf(langify.locale.root_url + '/') === 0 || url === langify.locale.root_url
+          url.indexOf(langify.locale.root_url + '/') === 0 || url === langify.locale.root_url || 
+          url.indexOf(langify.locale.shop_url + langify.locale.root_url) === 0 || url === langify.locale.shop_url + langify.locale.root_url
         );
         var cleanUrl = url.replace(langify.locale.shop_url, '');
         var re = new RegExp(`\/\\b${langify.locale.iso_code.replace('-', '\-')}\\b\/`, 'gi');
@@ -603,7 +613,7 @@
         var isUrlAbsolute = (link.indexOf('://') > 0 || link.indexOf('//') === 0);
         var blacklist = ['#', '/'+ langify.locale.iso_code +'#'].concat(langify.settings.linksBlacklist);
         var isUrlBlacklisted = blacklist.find(x => url.indexOf(x) === 0);
-        if(!isLocalized && !isUrlAbsolute && !isUrlBlacklisted && langify.locale.root_url != '/') {
+        if(!isLocalized && !isUrlAbsolute && !isUrlBlacklisted && langify.locale.root_url != '/' || force) {
           if(node.hasAttribute('href')) var attrName = 'href'; else var attrName = 'action';
           if(link === '/' || link == langify.locale.root_url) link = '';
           var newLink = langify.locale.root_url + link;
@@ -807,6 +817,11 @@
         init: init,
         triggerCustomContents: triggerCustomContents,
         stopObserver: stopObserver,
+        translateLink: translateLink,
+        translateTextNode: translateTextNode,
+        translateNodeAttrs: translateNodeAttrs,
+        translateImage: translateImage,
+        translateCssImage: translateCssImage
       }
     };
   }
@@ -886,13 +901,14 @@
       var root = this;
       var links = document.getElementsByClassName('ly-languages-switcher-link');
       for(var l = 0; l < links.length; l++) {
+        
         links[l].addEventListener('click', function(event) {
           event.preventDefault();
-          if(LyHelper.isDomainFeatureEnabled() && this.getAttribute('href') !== '#') {
+          if(LyHelper.isDomainFeatureEnabled() && this.getAttribute('href') !== '#' && !this.getAttribute('data-country-code')) {
           	var domain = this.getAttribute('href');
           }
           LyHelper.setCookie('ly-lang-selected', this.getAttribute('data-language-code'), 365);
-          LyHelper.localizationRedirect('language_code', this.getAttribute('data-language-code'), null, null, domain);
+          LyHelper.localizationRedirect('language_code', this.getAttribute('data-language-code'), root._dataAttrToAdditionalFields(this), null, domain);
         });
       }
 
@@ -901,11 +917,11 @@
       for(var i = 0; i < nativeLangifySelects.length; i++) {
         nativeLangifySelects[i].onchange = function() {
           event.preventDefault();
-          if(LyHelper.isDomainFeatureEnabled() && this[this.selectedIndex].getAttribute('data-domain') !== '#') {
+          if(LyHelper.isDomainFeatureEnabled() && this[this.selectedIndex].getAttribute('data-domain') !== '#' && this[this.selectedIndex].getAttribute('data-country-code')) {
             var domain = this[this.selectedIndex].getAttribute('data-domain');
           }
           LyHelper.setCookie('ly-lang-selected', this[this.selectedIndex].getAttribute('data-language-code'), 365);
-          LyHelper.localizationRedirect('language_code', this[this.selectedIndex].getAttribute('data-language-code'), null, null, domain);
+          LyHelper.localizationRedirect('language_code', this[this.selectedIndex].getAttribute('data-language-code'), root._dataAttrToAdditionalFields(this), null, domain);
         };
       }
     }
@@ -954,6 +970,7 @@
           if(target) targets.push(target);
           for(var c = 0; c < targets.length; c++) {
             var clone = this.switcherElements[i].cloneNode(true);
+            this.switcherElements[i].remove();
             targets[c].innerHTML = clone.outerHTML;
           }
           this.switcherElements[i].classList.add('ly-hide');
@@ -1006,6 +1023,23 @@
       }
       return countryCode;
     }
+
+    _dataAttrToAdditionalFields(elem) {
+      var additionalFields = [];
+      if(elem.hasAttribute('data-country-code')) {
+        additionalFields.push({
+          name: 'country_code',
+          value: elem.getAttribute('data-country-code')
+        });
+      }
+      if(elem.hasAttribute('data-currency-code')) {
+        additionalFields.push({
+          name: 'currency_code',
+          value: elem.getAttribute('data-currency-code')
+        });
+      }
+      return additionalFields;
+    }
   }
 
 
@@ -1022,7 +1056,11 @@
     }
 
     init() {
-      if(LyHelper.inIframe()) return null;
+      if(LyHelper.inIframe()
+      || window.location.pathname.indexOf('preview_key=') > 0) {
+        return null;
+      }
+
       var currentLang = langify.locale.iso_code.toLowerCase();
       //var localizationData = this.getLocalizationData();
       this.hreflangList = this.getHreflangList();
@@ -1119,8 +1157,14 @@
       // Cross Domain Links option
       if(LyHelper.isDomainFeatureEnabled()) {
         for(var i = 0; i < langify.locale.languages.length; i++) {
+          let newHref = 'https://' + langify.locale.languages[i].domain + window.location.pathname + window.location.search + window.location.hash;
+          // When cross-domain link is pointing to the same domain with subfolders, window.location.pathname would have to be unlocalized before it can be merged into the url
+          if(new String(langify.locale.languages[i].domain).indexOf(window.location.hostname) === 0) {
+            let unlocalizedPathname = langify.locale.root_url !== '/' ? window.location.pathname.replace(langify.locale.root_url, '') : window.location.pathname;
+            newHref = 'https://' + langify.locale.languages[i].domain + unlocalizedPathname + window.location.search + window.location.hash
+          }
           hreflangList.push({
-            href: 'https://' + langify.locale.languages[i].domain + window.location.pathname + window.location.search + window.location.hash,
+            href: newHref,
             lang: langify.locale.languages[i].iso_code,
           });
         }
@@ -1523,7 +1567,7 @@
     {%- assign src = used_custom | first -%}
     {%- assign dst = used_custom | last -%}
     {%- if dst -%}
-    customContents[{{ src | downcase | json }}.trim().replace(/(\r\n|\n|\r)/gim,"").replace(/\s+/g," ")] = '{{ dst | replace: "\", "\\\" |  replace: "'", "\\'" }}';
+    customContents[{{ src | json }}.toLowerCase().trim().replace(/(\r\n|\n|\r)/gim," ").replace(/\s+/g," ")] = '{{ dst | replace: "\", "\\\" |  replace: "'", "\\'" }}';
     {%- endif -%}
     {% endfor %}
 
@@ -1536,7 +1580,7 @@
     {%- assign translation_key = "id" | append: key -%}
     {%- if shop.metafields[translation_namespace][translation_key] -%}
     {%- assign translation = shop.metafields[translation_namespace][translation_key] %}
-    customContents_image[langify.helper.extractImageObject({{ src | downcase | json }}).file] = langify.helper.extractImageObject({{ translation | replace: "\", "\\\" |  replace: "'", "\\'"  | json}});
+    customContents_image[langify.helper.extractImageObject({{ src | append: '' | json }}.toLowerCase()).file] = langify.helper.extractImageObject({{ translation | replace: "\", "\\\" |  replace: "'", "\\'"  | json}});
     {%- endif %}
     {% endfor %}
 
