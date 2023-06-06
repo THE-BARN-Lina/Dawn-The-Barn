@@ -138,12 +138,12 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/barn_logo_large_house_white.webp",
-          "logo_width": 50,
+          "logo_width": 200,
           "logo_position": "middle-left",
           "menu": "new-menu-dawn",
           "menu_type_desktop": "mega",
           "show_line_separator": true,
-          "enable_sticky_header": false,
+          "enable_sticky_header": true,
           "margin_bottom": 0
         }
       },
