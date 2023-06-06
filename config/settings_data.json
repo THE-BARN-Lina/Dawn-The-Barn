@@ -161,6 +161,9 @@
         "block_order": [
           "54146417-e198-4a25-a221-4be456299d47"
         ],
+        "custom_css": [
+          "h2 {font-size: 13px;}"
+        ],
         "settings": {
           "color_scheme": "background-2",
           "newsletter_enable": true,
@@ -169,9 +172,9 @@
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": true,
-          "margin_top": 48,
-          "padding_top": 40,
-          "padding_bottom": 36
+          "margin_top": 0,
+          "padding_top": 0,
+          "padding_bottom": 0
         }
       },
       "main-password-header": {
