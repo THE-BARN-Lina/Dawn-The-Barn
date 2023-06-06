@@ -97,7 +97,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 .ly-custom-dropdown-current{
   margin-top: 2rem;
-  margin-bottom: 2rem;
+
 }
 
 .menu-drawer__navigation {
@@ -220,6 +220,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__utility-links {
   padding: 2rem;
   background-color: rgba(var(--color-foreground), 0.03);
+  height: 25rem;
 }
 
 .menu-drawer__account {
