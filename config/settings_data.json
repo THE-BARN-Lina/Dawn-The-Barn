@@ -226,7 +226,7 @@
           "newsletter_heading": "Stay connected through our newsletter",
           "show_social": true,
           "enable_country_selector": false,
-          "enable_language_selector": true,
+          "enable_language_selector": false,
           "payment_enable": true,
           "margin_top": 0,
           "padding_top": 100,
