@@ -150,24 +150,16 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
+          "54146417-e198-4a25-a221-4be456299d47": {
+            "type": "text",
             "settings": {
-              "heading": "QUICK LINKS",
-              "menu": "newfootermenu"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "LEGAL",
-              "menu": "newabout"
+              "heading": "",
+              "subtext": "<h5><strong>SUBSCRIPTIONS<\/strong><br\/>Your Choices<br\/>Gift Choices<br\/><br\/><strong>SHOP<\/strong><br\/>Beans<br\/>Instant & Drip Bags<br\/>Capsules <br\/>Equipment <br\/>Merchandise <br\/>Vouchers<br\/><br\/><strong>ABOUT<\/strong> <br\/>About Us<br\/>Team <br\/>Locations<br\/>Careers<br\/><br\/><strong>BLOG<\/strong><br\/>Articles & Education <br\/>Brew Guides<br\/>Signature Drinks<br\/><br\/><strong>SUSTAINABILITY<br\/><\/strong>Donate Trees<br\/><br\/><strong>WHOLESALE<\/strong><br\/>Contact Form<br\/><br\/><strong>QUICK LINKS<br\/><\/strong>FAQ<br\/>Shipping<br\/>Contact<br\/>Press<br\/><br\/><strong>LEGAL<\/strong><br\/>Imprint<br\/>Privacy Policy<br\/>Terms & Conditions<br\/>Right of Revocation<\/h5>"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1"
+          "54146417-e198-4a25-a221-4be456299d47"
         ],
         "settings": {
           "color_scheme": "background-2",
