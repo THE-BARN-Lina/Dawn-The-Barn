@@ -150,6 +150,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "8df4c85d-d9a2-4f99-bf0e-74b5f9578dd9": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<h5><strong>SUBSCRIPTIONS<\/strong><br\/><a href=\"https:\/\/thebarn.de\/collections\/subscriptions\" title=\"https:\/\/thebarn.de\/collections\/subscriptions\">Your Choices<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/subscriptions\" title=\"https:\/\/thebarn.de\/collections\/subscriptions\">Gift Choices<\/a><\/h5>"
+            }
+          },
           "54146417-e198-4a25-a221-4be456299d47": {
             "type": "text",
             "settings": {
@@ -159,6 +166,7 @@
           }
         },
         "block_order": [
+          "8df4c85d-d9a2-4f99-bf0e-74b5f9578dd9",
           "54146417-e198-4a25-a221-4be456299d47"
         ],
         "custom_css": [
