@@ -366,7 +366,7 @@
         "custom_liquid": "{% render | \"four-icons\" %}",
         "color_scheme": "background-1",
         "padding_top": 32,
-        "padding_bottom": 32
+        "padding_bottom": 64
       }
     },
     "20d07d22-5246-491b-b6f2-edcabe969eef": {
