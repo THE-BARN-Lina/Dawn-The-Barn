@@ -157,6 +157,13 @@
               "subtext": "<h5><strong>ABOUT<\/strong> <br\/><a href=\"https:\/\/thebarn.de\/pages\/aboutus\" title=\"https:\/\/thebarn.de\/pages\/aboutus\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team <\/a><br\/><a href=\"https:\/\/thebarn.de\/pages\/locations\" title=\"https:\/\/thebarn.de\/pages\/locations\">Locations<br\/><\/a><a href=\"https:\/\/thebarn.de\/pages\/careers\" title=\"https:\/\/thebarn.de\/pages\/careers\">Careers<\/a><\/h5>"
             }
           },
+          "3b9c4772-8f19-4d4c-9fca-70c19c452223": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<h5><strong>BLOG<\/strong><br\/><a href=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\" title=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\">Articles & Education <br\/><\/a><a href=\"https:\/\/thebarn.de\/pages\/brew-guides\" title=\"https:\/\/thebarn.de\/pages\/brew-guides\">Brew Guides<br\/>Signature Drinks<\/a><\/h5>"
+            }
+          },
           "8df4c85d-d9a2-4f99-bf0e-74b5f9578dd9": {
             "type": "text",
             "settings": {
@@ -175,12 +182,13 @@
             "type": "text",
             "settings": {
               "heading": "",
-              "subtext": "<h5><strong>SHOP<\/strong><br\/><a href=\"https:\/\/thebarn.de\/collections\/beans\" title=\"https:\/\/thebarn.de\/collections\/beans\">Beans<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/instant-drip\" title=\"https:\/\/thebarn.de\/collections\/instant-drip\">Instant & Drip Bags<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/capsules\" title=\"https:\/\/thebarn.de\/collections\/capsules\">Capsules <\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/equipment\" title=\"https:\/\/thebarn.de\/collections\/equipment\">Equipment <br\/><\/a><a href=\"https:\/\/thebarn.de\/collections\/merchandise\" title=\"https:\/\/thebarn.de\/collections\/merchandise\">Merchandise<\/a> <br\/><a href=\"https:\/\/thebarn.de\/collections\/vouchers\" title=\"https:\/\/thebarn.de\/collections\/vouchers\">Vouchers<\/a><br\/><br\/><strong>BLOG<\/strong><br\/><a href=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\" title=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\">Articles & Education <br\/><\/a><a href=\"https:\/\/thebarn.de\/pages\/brew-guides\" title=\"https:\/\/thebarn.de\/pages\/brew-guides\">Brew Guides<br\/>Signature Drinks<br\/><\/a><br\/><strong>WHOLESALE<\/strong><br\/><a href=\"https:\/\/thebarn.de\/pages\/wholesale-application\" title=\"https:\/\/thebarn.de\/pages\/wholesale-application\">Contact Form<br\/><\/a><br\/><strong>QUICK LINKS<br\/><\/strong><a href=\"\/pages\/faq-help-center\" title=\"FAQ & Help Center\">FAQ<\/a><br\/><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<br\/><\/a><a href=\"\/pages\/contact\" title=\"CONTACT\">Contact<\/a><br\/><a href=\"\/pages\/press\" title=\"Press\">Press<br\/><\/a><br\/><strong>LEGAL<\/strong><br\/><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h5>"
+              "subtext": "<h5><strong>SHOP<\/strong><br\/><a href=\"https:\/\/thebarn.de\/collections\/beans\" title=\"https:\/\/thebarn.de\/collections\/beans\">Beans<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/instant-drip\" title=\"https:\/\/thebarn.de\/collections\/instant-drip\">Instant & Drip Bags<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/capsules\" title=\"https:\/\/thebarn.de\/collections\/capsules\">Capsules <\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/equipment\" title=\"https:\/\/thebarn.de\/collections\/equipment\">Equipment <br\/><\/a><a href=\"https:\/\/thebarn.de\/collections\/merchandise\" title=\"https:\/\/thebarn.de\/collections\/merchandise\">Merchandise<\/a> <br\/><a href=\"https:\/\/thebarn.de\/collections\/vouchers\" title=\"https:\/\/thebarn.de\/collections\/vouchers\">Vouchers<\/a><br\/><br\/><strong>WHOLESALE<\/strong><br\/><a href=\"https:\/\/thebarn.de\/pages\/wholesale-application\" title=\"https:\/\/thebarn.de\/pages\/wholesale-application\">Contact Form<br\/><\/a><br\/><strong>QUICK LINKS<br\/><\/strong><a href=\"\/pages\/faq-help-center\" title=\"FAQ & Help Center\">FAQ<\/a><br\/><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<br\/><\/a><a href=\"\/pages\/contact\" title=\"CONTACT\">Contact<\/a><br\/><a href=\"\/pages\/press\" title=\"Press\">Press<br\/><\/a><br\/><strong>LEGAL<\/strong><br\/><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h5>"
             }
           }
         },
         "block_order": [
           "33c97cbe-0f9e-4981-998f-81e7ff9b9679",
+          "3b9c4772-8f19-4d4c-9fca-70c19c452223",
           "8df4c85d-d9a2-4f99-bf0e-74b5f9578dd9",
           "705afaa5-785a-40f3-9e83-5c853fe5b6aa",
           "54146417-e198-4a25-a221-4be456299d47"
