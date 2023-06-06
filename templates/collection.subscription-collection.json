@@ -8,38 +8,6 @@
         "padding_bottom": 0
       }
     },
-    "166298213040d91fb2": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16629821308589b769-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>YOUR SUBSCRIPTION PERKS<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "e04ad895-a511-49f5-928e-0b3e0c1ccb60": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16629821308589b769-0",
-        "e04ad895-a511-49f5-928e-0b3e0c1ccb60"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "166178416464969217": {
       "type": "custom-liquid",
       "settings": {
@@ -275,134 +243,18 @@
         "padding_bottom": 40
       }
     },
-    "1662738554a4ae067d": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "16627385548857c752-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE BEST GIFT EVER",
-            "heading_size": "h2"
-          }
-        },
-        "f4ad95fc-a4f3-4f09-92f0-8089324985ec": {
-          "type": "caption",
-          "settings": {
-            "caption": "First delivery is wrapped in our Craft Box",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "16627385548857c752-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This one keeps on giving for several months in the New Year! First delivery is packed with a cute Mug and Chocolate from Berlin. Boxed to be put straight under the tree.  <\/p><p>You can buy this gift subscription with a term of 3 or 6 months.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16627385548857c752-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER HERE",
-            "button_link": "shopify:\/\/products\/christmas-3-months-gift-subscription"
-          }
-        }
-      },
-      "block_order": [
-        "16627385548857c752-0",
-        "f4ad95fc-a4f3-4f09-92f0-8089324985ec",
-        "16627385548857c752-1",
-        "16627385548857c752-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/85BBA4AA-DD5D-4B64-9F29-17202FCD1956.webp",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 48
-      }
-    },
-    "3b0902d2-e018-4cad-989b-028a36cd0279": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--16149468774667__3b0902d2-e018-4cad-989b-028a36cd0279-16680858457392e0b5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>CHRISTMAS GIFT SUBSCRIPTION<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149468774667__3b0902d2-e018-4cad-989b-028a36cd0279-16680858457392e0b5-0"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 20
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
       "settings": {
-        "show_collection_description": true,
-        "show_collection_image": true,
+        "show_collection_description": false,
+        "show_collection_image": false,
         "color_scheme": "background-2"
-      }
-    },
-    "16626372939107f99e": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1662637293b23a5bbc-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE WORLDS BEST COFFEES ON REPEAT",
-            "heading_size": "h2"
-          }
-        },
-        "1662637293b23a5bbc-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We are sending out the most amazing Single Origin Coffees every day. Simply pick your style: From rotating Microlots to Masterpiece Coffees. <br\/><br\/><strong>NEWS:<\/strong> New eco-price shipment now available for our customers outside of Germany!<br\/><br\/>Ralf Rueller, Founder<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "1662637293b23a5bbc-0",
-        "1662637293b23a5bbc-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Ralf_BCN.jpg",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 36
       }
     }
   },
   "order": [
     "61526f59-c5c6-4ec0-b13e-f55767a96db1",
-    "166298213040d91fb2",
     "166178416464969217",
     "636edd10-9556-4424-add9-ef1faa9ebb3f",
     "166186709197b72a8b",
@@ -411,9 +263,6 @@
     "1662636697f92db74e",
     "16609096892f959660",
     "16629804922d2a4cf0",
-    "1662738554a4ae067d",
-    "3b0902d2-e018-4cad-989b-028a36cd0279",
-    "banner",
-    "16626372939107f99e"
+    "banner"
   ]
 }
