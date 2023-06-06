@@ -221,7 +221,7 @@
           "h5 {font-size: 13px;}"
         ],
         "settings": {
-          "color_scheme": "background-2",
+          "color_scheme": "inverse",
           "newsletter_enable": true,
           "newsletter_heading": "Stay connected through our newsletter",
           "show_social": true,
@@ -229,8 +229,8 @@
           "enable_language_selector": true,
           "payment_enable": true,
           "margin_top": 0,
-          "padding_top": 0,
-          "padding_bottom": 16
+          "padding_top": 100,
+          "padding_bottom": 100
         }
       },
       "main-password-header": {
