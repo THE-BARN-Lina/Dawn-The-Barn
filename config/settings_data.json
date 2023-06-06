@@ -136,7 +136,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "header{position: fixed; width:100%; background-color: black;}"
+          "header {width: 100%; background-color: black;}"
         ],
         "settings": {
           "color_scheme": "background-1",
