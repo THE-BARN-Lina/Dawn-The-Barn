@@ -181,6 +181,9 @@
     },
     "165339081846c57155": {
       "type": "featured-collection",
+      "custom_css": [
+        "button{background-color: #68431B;}"
+      ],
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
