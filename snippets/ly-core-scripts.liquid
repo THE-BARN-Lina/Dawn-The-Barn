@@ -1,4 +1,4 @@
-{%- comment -%}Version 4.1.0{%- endcomment -%}
+{%- comment -%}Version 4.1.1{%- endcomment -%}
 {%- comment -%}
   !!! IMPORTANT !!!
   This file has been automatically created by Langify.
@@ -613,6 +613,7 @@
         var isUrlAbsolute = (link.indexOf('://') > 0 || link.indexOf('//') === 0);
         var blacklist = ['#', '/'+ langify.locale.iso_code +'#'].concat(langify.settings.linksBlacklist);
         var isUrlBlacklisted = blacklist.find(x => url.indexOf(x) === 0);
+        if (!isUrlAbsolute && !isUrlBlacklisted && link.indexOf('/') != 0) {link = '/' + link;}
         if(!isLocalized && !isUrlAbsolute && !isUrlBlacklisted && langify.locale.root_url != '/' || force) {
           if(node.hasAttribute('href')) var attrName = 'href'; else var attrName = 'action';
           if(link === '/' || link == langify.locale.root_url) link = '';
