@@ -5,75 +5,75 @@
 
   p {
     color: white;
-    font-size: 18px;
+    font-size: 1px;
   }
 
-  .new404redirect{
-    position:absolute;
+  .new404redirect {
+    position: absolute;
     position: relative;
     background-color: rgba(28, 29, 28, 1)
   }
 
   .textbox {
     margin-left: 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 
-   .textbox .error_404 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  .textbox .error_404 {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 10px;
   }
-  
+
   .textbox .title {
     margin-top: 10px;
     margin-bottom: 10px;
-    width:88%;
+    width: 88%;
   }
 
   .textbox .button_404 {
     margin-top: 32px;
   }
 
-  .textbox_wrapper{
-    display:flex;
-    gap:8%;
+  .textbox_wrapper {
+    display: flex;
+    gap: 8%;
   }
-  
+
   img {
     width: 100%;
     height: 100%;
   }
-  
-  .imgbox{
-    width:100%;
+
+  .imgbox {
+    width: 100%;
     flex-basis: 50%;
   }
 
-  .button_404{
-	color: #000000;
-	border-color: transparent;
-	background-color: #ffffff;
+  .button_404 {
+    color: #000000;
+    border-color: transparent;
+    background-color: #ffffff;
     background-size: 0 100%;
     background-image: linear-gradient(to left, #68431B, #68431B);
     background-repeat: no-repeat;
     transition: all 0.5s;
-    outline:none;
+    outline: none;
     border: none;
     cursor: pointer;
     font-weight: 500;
     font-size: 18px;
     text-align: center;
     padding: 16px 64px;
-    letter-spacing: .0625rem;
+    letter-spacing: 0.0625rem;
     text-decoration: none;
   }
 
-	.button_404:focus,
-	.button_404:active {
+  .button_404:focus,
+  .button_404:active {
     color: #ffffff;
     background-image: linear-gradient(to right, #68431B, #68431B);
     border-color: #68431B;
@@ -86,35 +86,32 @@
     font-size: 18px;
     text-align: center;
     padding: 16px 64px;
-    letter-spacing: .0625rem;
-	}
+    letter-spacing: 0.0625rem;
+  }
 
 
-    
-    @media (hover: hover){
-    
-    .button_404:hover{
-        color: #ffffff;
-    background-image: linear-gradient(to right, #68431B, #68431B);
-    border-color: #68431B;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    transition: all 0.5s;
-    border: none;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 18px;
-    text-align: center;
-    padding: 16px 64px;
-    letter-spacing: .0625rem;  
+
+  @media(hover: hover) {
+
+    .button_404:hover {
+      color: #ffffff;
+      background-image: linear-gradient(to right, #68431B, #68431B);
+      border-color: #68431B;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      transition: all 0.5s;
+      border: none;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 18px;
+      text-align: center;
+      padding: 16px 64px;
+      letter-spacing: 0.0625rem;
     }
-    
-    }
-  
+
+  }
 
 
- 
-  
 
   @media screen and (min-width: 750px) {
     .template-404 .title + * {
@@ -122,10 +119,9 @@
     }
   }
 
-  
 
-  .icons-container 
-  {
+
+  .icons-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -134,53 +130,47 @@
     flex-wrap: wrap;
     margin-top: 100px;
   }
-  
-  .icons-subcontainer
-  {
+
+  .icons-subcontainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     flex: 10%;
-    max-width:135px;
+    max-width: 135px;
   }
-  
-  .small-icon
-  {
+
+  .small-icon {
     height: 80px;
-	object-fit: contain;
+    object-fit: contain;
     padding: 3%;
     margin: 10px;
     border: none !important;
   }
-  
-  .icons-title
-  {
+
+  .icons-title {
     text-transform: uppercase;
     text-align: center;
-    padding:5px;
-  }
-  
-  .icons-subtitle
-  {
-    text-wrap: wrap;
-    text-align: center;
-    
-    font-size: 1.3rem;
-    letter-spacing: .13rem;
-    line-height: calc(1 + .2 / var(--font-body-scale));
-  }
-  .section-template--16083381879051__1651574465fc19c571-padding{
-  	padding:0 0 100px 0 !important;
+    padding: 5px;
   }
 
-  @media screen and (max-width: 800px)
-    {
-      .icons-subcontainer
-      {
-        flex: 40%;
-      }
+  .icons-subtitle {
+    text-wrap: wrap;
+    text-align: center;
+
+    font-size: 1.3rem;
+    letter-spacing: 0.13rem;
+    line-height: calc(1 + 0.2 / var(--font-body-scale));
+  }
+  .section-template--16083381879051__1651574465fc19c571-padding {
+    padding: 0 0 100px !important;
+  }
+
+  @media screen and (max-width: 800px) {
+    .icons-subcontainer {
+      flex: 40%;
     }
+  }
 
   @media screen and (max-width: 1280px) {
 
@@ -193,109 +183,107 @@
       padding-bottom: 16px;
     }
 
-    p{
+    p {
       font-size: 16px;
     }
 
-   .button_404{
+    .button_404 {
       font-size: 16px;
     }
 
     .button_404:hover,
-	.button_404:focus,
-	.button_404:active {
+    .button_404:focus,
+    .button_404:active {
 
       font-size: 16px;
     }
 
-     @media screen and (max-width: 988px) {
+    @media screen and (max-width: 988px) {
 
-    .imgbox {
-      display: none;
+      .imgbox {
+        display: none;
+      }
+
+      .textbox {
+        display: flex;
+        flex-basis: 100%;
+        margin-left: 0;
+        padding: 20px;
+      }
+
+      .icons-container {
+        gap: 100px;
+      }
+
     }
 
-    .textbox {
-      display:flex;
-      flex-basis: 100%;
-      margin-left: 0%;
-      padding: 20px;
+    @media screen and (max-width: 420px) {
+
+      .imgbox {
+        display: none;
+      }
+
+      .textbox {
+        display: flex;
+        flex-basis: 100%;
+        margin-left: 0;
+        padding: 20px;
+      }
+
+      .icons-container {
+        display: none;
+      }
+
     }
 
-       .icons-container {
-      gap: 100px;
-    }
-    
-  }
 
-     @media screen and (max-width: 420px) {
+  </style>
 
-    .imgbox {
-      display: none;
-    }
+  <div>
+    class="template-404 center"<div>
+      class="new404redirect"<div>
+        class="textbox_wrapper"<div>
+          class="textbox"<p>
+            class="error_404"{{ 'templates.404.subtext' | t }}</p>
 
-    .textbox {
-      display:flex;
-      flex-basis: 100%;
-      margin-left: 0%;
-      padding: 20px;
-    }
+          <h1>
+            class="title"{{ 'templates.404.title' | t }}
+          </h1>
 
-    .icons-container {
-      display: none;
-    }
-    
-  }
+          <p>
+            Perhaps some delicious single origin coffee beans fresh out of our roaster in Berlin can help cheer you up.</p>
 
-  
-</style>
+          <a>
+            href="{{ routes.all_products_collection_url }}"class="button_404"TAKE ME TO THE BEANS</a>
+        </div>
 
-<div class="template-404 center">
-  
-   <div class="new404redirect">
-       
-       <div class="textbox_wrapper">   
-        
-             <div class="textbox">
-                    
-                    <p class="error_404">{{ 'templates.404.subtext' | t }} </p>
-            
-                    <h1 class="title"> {{ 'templates.404.title' | t }} </h1>
-  
-                    <p>Perhaps some delicious single origin coffee beans fresh out of our roaster in Berlin can help cheer you up.</p>
-        
-                    <a href="{{ routes.all_products_collection_url }}" class="button_404"> TAKE ME TO THE BEANS </a>
-             </div>   
-     
-      <div class="imgbox">
-            
-        <a href="{{ routes.all_products_collection_url }}">
-          <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/404_img.jpg?v=1663516865">
-        </a>
+        <div>
+          class="imgbox"<a>
+            href="{{ routes.all_products_collection_url }}"<img>src="https://cdn.shopify.com/s/files/1/0831/4141/files/404_img.jpg?v=1663516865"</a>
+        </div>
+
       </div>
-   
-  </div>  
-
-      
-</div>
 
 
-<div class="icons-container">
-  
-  <div class="icons-subcontainer">
-   <img  class="small-icon"src="https://cdn.shopify.com/s/files/1/0831/4141/files/Flower.gif?v=1653644994" height="100%"  >
-    <h5 class="icons-title">seasonal quality</h5>
+    </div>
+
+
+    <div>
+      class="icons-container"<div>
+        class="icons-subcontainer"<img>class="small-icon"src="https://cdn.shopify.com/s/files/1/0831/4141/files/Flower.gif?v=1653644994"height="100%"<h5>
+          class="icons-title"seasonal quality</h5>
+      </div>
+
+      <div>
+        class="icons-subcontainer"<img>src="https://cdn.shopify.com/s/files/1/0831/4141/files/v60_gif_animated.gif?v=1663516425"class="small-icon"<h5>
+          class="icons-title"carefully curated</h5>
+      </div>
+
+      <div>
+        class="icons-subcontainer"<img>src="https://cdn.shopify.com/s/files/1/0831/4141/files/drum_wheel_animated.gif?v=1663516425"class="small-icon"<h5>
+          class="icons-title"roasted in berlin</h5>
+      </div>
+
+    </div>
+
   </div>
-    
-  <div class="icons-subcontainer">  
-    <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/v60_gif_animated.gif?v=1663516425" class="small-icon">
-    <h5 class="icons-title">carefully curated</h5>
-  </div>
-    
-  <div class="icons-subcontainer">  
-    <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/drum_wheel_animated.gif?v=1663516425" class="small-icon">
-    <h5 class="icons-title">roasted in berlin</h5>
-  </div>  
-
-</div>
-
-</div>
