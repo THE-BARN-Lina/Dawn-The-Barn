@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "BREW. SIP. REMEMBER.",
+            "heading": "BREW · SIP · REMEMBER",
             "heading_size": "h1"
           }
         },
@@ -34,6 +34,9 @@
         "text",
         "37a278ca-83ba-47c2-9df7-d3fb30ab3569"
       ],
+      "custom_css": [
+        "h1 {width: 100%; font-size: 32px; padding: 0; margin: 0;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hero_landing_page_THE_BARN_Specialty_coffee_roasters_619ae834-de2c-4c40-bd81-80bc1c03065a.png",
         "image_overlay_opacity": 40,
@@ -54,8 +57,8 @@
       "settings": {
         "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 48,
-        "padding_bottom": 48
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "550bad91-bd7c-428d-b01d-b1a12420b001": {
@@ -79,7 +82,7 @@
         "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
           "type": "text",
           "settings": {
-            "text": "<p>With our Spring Subscriptions, explore the amazing world of Single Origin coffee beans. Your first delivery will include : <\/p><ul><li>A beautiful Sandstone Mug - or two! <\/li><li>And our cute enamel House Pin. <\/li><\/ul><p>Subscribe now and let us take you on a journey through coffee: it’s what we do best.<\/p>",
+            "text": "<p>With our Spring Subscriptions, explore the amazing world of Single Origin coffee beans. Your first delivery will include : <\/p><ul><li>A beautiful Sandstone Mug - or two! <\/li><li>And our cute enamel House Pin. <\/li><\/ul>",
             "text_style": "body"
           }
         },
@@ -101,19 +104,40 @@
         "image": "shopify:\/\/shop_images\/IMG_3284_3db89a44-8743-4a48-8797-de85944aea76.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "165900919845720bf8": {
+      "type": "newsletter-sign-up",
+      "custom_css": [
+
+      ],
+      "settings": {
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "1652970717af5972f9": {
       "type": "multicolumn",
       "blocks": {
+        "1652970717eaeb9726-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-06-05_um_10.24.06.png",
+            "title": "El Marcelo, Colombia",
+            "text": "<p><strong>Colombia that takes like Kenya.<\/strong><br\/>El Marcelo is back with crisp clarity. At over 2150 metres, high up on the Colombian Massif, Armel Moncayo makes the most of conditions where cherries slowly ripen. With delicious sweetness and clean acidity, its all about the altitude!<\/p>",
+            "link_label": "GET YOUR BAG",
+            "link": "https:\/\/thebarn.de\/products\/el-marcelo",
+            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
+          }
+        },
         "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
           "type": "column",
           "settings": {
@@ -123,17 +147,6 @@
             "link_label": "ORDER HERE",
             "link": "shopify:\/\/products\/el-vergel-gesha",
             "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
-          }
-        },
-        "1652970717eaeb9726-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/B6F69B4E-9303-471D-8D96-7E712171CB37.jpg",
-            "title": "Juan Martin Gesha, Colombia",
-            "text": "<p><strong>Strawberry. Black Tea.<\/strong><a href=\"\/products\/juan-martin-sidra\" title=\"JUAN MARTIN SIDRA\"><br\/><\/a>Our final Lot from Finca Juan Martin is a Gesha! In this release the beautiful Gesha varietal is matched with washed-anaerobic fermentation for a cup with the sweet fragrance of ripe summer berries.<\/p>",
-            "link_label": "GET YOUR BAG",
-            "link": "shopify:\/\/products\/juan-martin-gesha",
-            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
           }
         },
         "1652970717eaeb9726-1": {
@@ -150,8 +163,8 @@
         }
       },
       "block_order": [
-        "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
         "1652970717eaeb9726-0",
+        "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
         "1652970717eaeb9726-1"
       ],
       "settings": {
@@ -168,60 +181,15 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2": {
-      "type": "video-with-text",
-      "blocks": {
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "ROCK BELIEVER",
-            "heading_size": "h2"
-          }
-        },
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>THE SCORPIONS<\/strong><\/p><p>The Scorpions wrote themselves into history with their song Wind of Change.<\/p><p>It captured the spirit when the Berlin wall fell: the instant our amazing home was united. Today, we are roasting the bands very first coffee!<\/p>"
-          }
-        },
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER HERE",
-            "button_link": "shopify:\/\/products\/rock-believer-by-the-scorpions"
-          }
-        }
-      },
-      "block_order": [
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-0",
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-1",
-        "template--16216418910475__d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2-168268931797f6eb56-2"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1de66faf0b424734be5e442d982acea8.mp4",
-        "height": "small",
-        "layout": "text_first",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "165900919845720bf8": {
-      "type": "newsletter-sign-up",
-      "settings": {
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "165339081846c57155": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
@@ -245,8 +213,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 52,
-        "padding_bottom": 12
+        "padding_top": 32,
+        "padding_bottom": 16
       }
     },
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc": {
@@ -343,12 +311,13 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 40
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16216418910475__21b96ab1-990f-49e3-b1bf-8e2ecc576146-16739486677f056d81-0": {
           "type": "heading",
@@ -396,22 +365,13 @@
       "settings": {
         "custom_liquid": "{% render | \"four-icons\" %}",
         "color_scheme": "background-1",
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
-    "1659955349273aa5dd": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div class=\"container\"> \n<div class=\"iframe-container\">\n<iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/USDQHnyNHVA?controls=0?loop=1&autoplay=1&mute=1\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n\n    <style>\n .container {\ndisplay: flex;\njustify-content: center;\nmargin-right: 5%;\nmargin-left: 5%;\n}\n\n.iframe-container{\n  \/*position: relative;*\/\n  width: 1092px; \n  height: 640px;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  object-fit: cover;\n \n}\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n@media only screen and (max-width: 600px) {\n.iframe-container{\nheight:30vh;\n}\n\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "20d07d22-5246-491b-b6f2-edcabe969eef": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-0": {
           "type": "column",
@@ -469,21 +429,75 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3b51e4e7-a8b7-4805-bbbe-703728f837cf": {
+      "type": "multirow",
+      "blocks": {
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-1": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0",
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-1",
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "1653387743507b82e2",
     "550bad91-bd7c-428d-b01d-b1a12420b001",
-    "1652970717af5972f9",
-    "d8e5e39e-a9a6-4dc6-91e8-2a73686afcb2",
     "165900919845720bf8",
+    "1652970717af5972f9",
     "165339081846c57155",
     "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "16515783060899e67e",
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
-    "1659955349273aa5dd",
-    "20d07d22-5246-491b-b6f2-edcabe969eef"
+    "20d07d22-5246-491b-b6f2-edcabe969eef",
+    "3b51e4e7-a8b7-4805-bbbe-703728f837cf"
   ]
 }

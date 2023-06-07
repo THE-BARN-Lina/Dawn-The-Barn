@@ -6,7 +6,7 @@
         "16648774498992d6ee-0": {
           "type": "heading",
           "settings": {
-            "heading": "Our Locations",
+            "heading": "<p>OUR LOCATIONS<\/p>",
             "heading_size": "h1"
           }
         },
@@ -23,7 +23,10 @@
           "settings": {
             "button_label": "Button label",
             "button_link": "",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -33,6 +36,8 @@
         "16648774498992d6ee-2"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,

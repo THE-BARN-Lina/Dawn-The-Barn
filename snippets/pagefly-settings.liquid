@@ -54,7 +54,7 @@
     timezoneOffset: {{ shop.metafields.pagefly.timezoneOffset | default: 0 }}
   };
       if(typeof analyticsSrc === 'undefined'){
-      let analyticsSrc = "https://cdn.pagefly.io/pagefly/core/analytics-legacy.js";
+      let analyticsSrc = "https://cdn.pagefly.io/pagefly/core/analytics.js";
       const scriptPFAnalytic = document.createElement('script');
       scriptPFAnalytic.src = analyticsSrc;
       scriptPFAnalytic.async = true;
@@ -70,13 +70,14 @@
   </script>
   {% endif %}
   <script>
-  // fallback for gtag on undefined
-  if(!window.gtag) {
-    window.gtag = (str1, str2, obj) => {
-
-    }
-  }
-</script>
+    window.addEventListener('load', () => {
+      // fallback for gtag when not initialized
+      if(typeof window.gtag !== 'function') {
+        window.gtag = (str1, str2, obj) => {
+        }
+      }
+    }) 
+  </script>
   
 {% if shop.metafields.pagefly.globalSetting %}{{ shop.metafields.pagefly.globalSetting }}{% endif %}
 {{ 'pagefly-main.css' | asset_url | stylesheet_tag: preload: true }}
