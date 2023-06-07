@@ -432,6 +432,7 @@
     },
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf": {
       "type": "multirow",
+      "disabled": true,
       "blocks": {
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0": {
           "type": "row",
