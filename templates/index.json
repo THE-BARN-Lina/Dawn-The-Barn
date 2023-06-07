@@ -259,7 +259,7 @@
         "collection": "new-releases",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "view_all_label": "SEE FULL BEAN COLLECTION",
