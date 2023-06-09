@@ -63,7 +63,8 @@
                                         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
                                         data-aspectratio="{{ product.featured_image.aspect_ratio }}"
                                         data-sizes="auto"
-                                        data-image /> 
+                                        data-image 
+                                        width="" height="" loading="lazy"/> 
                             {% else %}
                                 <div class="_a-grid-img-div">
                                     <svg class="_a-grid-icon icon-image">
@@ -149,8 +150,8 @@
     {%- endpaginate -%}
 </div>
 <script id="_a-language-data" type="application/json">{"auction_end": "{{ 'auction_pro_template.js.auction_end' | t }}","bid": "{{ 'auction_pro_template.js.bid' | t }}","bids": "{{ 'auction_pro_template.js.bids' | t }}","buy_it_now": "{{ 'auction_pro_template.template.buy_it_now' | t }}","days": "{{ 'auction_pro_template.js.timer.days' | t }}","hours": "{{ 'auction_pro_template.js.timer.hours' | t }}","minutes": "{{ 'auction_pro_template.js.timer.minutes' | t }}"}</script>
-<script src="{{ '_lazysizes.min.js' | asset_url }}"></script>
-<script src="{{ '_auction-collection.js' | asset_url }}"></script>
+<script src="{{ '_lazysizes.min.js' | asset_url }}" defer></script>
+<script src="{{ '_auction-collection.js' | asset_url }}" defer></script>
 {% schema %}
 {
   "name": "Auction Collection",

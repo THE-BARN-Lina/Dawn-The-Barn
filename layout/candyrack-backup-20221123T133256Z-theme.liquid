@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     
   
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -221,7 +221,7 @@
   
 
   <body class="gradient" >
-    <script src="https://consent.cookiefirst.com/sites/thebarn.de-97206b1a-ef3d-4acf-bc10-6d2eb2f11e59/consent.js"></script>
+    <script src="https://consent.cookiefirst.com/sites/thebarn.de-97206b1a-ef3d-4acf-bc10-6d2eb2f11e59/consent.js" defer></script>
    
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
