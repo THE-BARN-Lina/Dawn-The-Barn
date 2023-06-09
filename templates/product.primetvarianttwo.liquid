@@ -20,13 +20,13 @@
                 {% for variant in product.variants %}
 					{%- assign finaltitle = variant.title | remove: '"' -%}
                     {% if finaltitle == param_page %}{%- assign checkcon = 1 -%}
-						{% render 'primet',passvariantt: variant,product: product,hideAssets:'1',primetGroup:group %}
+						{% render 'primet', passvariantt: variant, product: product, hideAssets: '1', primetGroup : group %}
 					{% endif %}
                 {% endfor %}
-			{% endif%}
+			{% endif %}
 		{%- endif -%}
 	{%- endfor -%}
 {%- endfor -%}
 {%- if checkcon == 0 -%}
-    {{0}}
+    {{ 0 }}
 {%- endif -%}
