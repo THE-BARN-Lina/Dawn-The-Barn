@@ -2,9 +2,6 @@
 						.lcHmGL { word-break: break-word; }
 .lcHmGL span { font-weight: inherit; text-decoration: inherit; }
 .lcHmGL i { margin-right: 0.3em; }
-.fLDHlO { position: relative; overflow: hidden; display: inline-flex; justify-content: flex-start; align-items: flex-start; max-width: 100%; vertical-align: middle; }
-.fLDHlO img { display: inline-block; object-fit: cover; height: auto; width: 100%; }
-.bgMQOP { position: relative; }
 .jklmHY { padding: var(--pf-s-lg); }
 @media (max-width: 1199px) and (min-width: 992px) {
   .jklmHY { padding: var(--pf-s-md); }
@@ -46,73 +43,24 @@
 						/* PageFly Styles */
 						
 @media all {
-	.__pf .pf-8739a7bb {
-		color: rgb(255, 255, 255);
-	}
-	.__pf .pf-851e779a {
-		text-align: justify;
-		 text-align-last: center;
-		 margin-top: 30px;
-	}
-	.__pf .pf-903296de {
+	.__pf .pf-ac5e83cc {
 		text-align: center;
-		 color: rgb(188, 132, 85);
-		 margin-bottom: 10px;
-		 margin-top: 30px;
 	}
-	.__pf .pf-fa8410ba {
+	.__pf .pf-a61c377f {
 		text-align: center;
-		 text-align-last: center;
-		 margin-top: 0px;
+		 border-style: solid;
+		 border-width: 1px;
+		 border-color: rgb(104, 67, 27);
+		 padding-top: 30px;
+		 padding-bottom: 30px;
 	}
-	.__pf .pf-f8a86170 {
+	.__pf .pf-9bbfa9e8 {
 		text-align: center;
-		 text-align-last: center;
-		 margin-top: 0px;
-	}
-	.__pf .pf-6ac494ad {
-		text-align: center;
-		 color: rgb(188, 132, 85);
-		 margin-bottom: 10px;
-		 margin-top: 20px;
-	}
-	.__pf .pf-8d802f9d {
-		text-align: justify;
-		 text-align-last: center;
-		 margin-top: 0px;
-	}
-	.__pf .pf-2f9de600 {
-		display: flex;
-		 flex-direction: column;
-		 place-content: center;
-		 align-items: center;
-		 margin-left: auto;
-		 margin-right: auto;
-	}
-	.__pf .pf-54e50e96 {
-		width: 450px;
-	}
-	.__pf .pf-0e96ca38 {
-		display: flex;
-		 align-items: center;
-		 place-content: center;
-	}
-	.__pf .pf-ca380085 {
-		width: 450px;
-		 justify-content: flex-start;
-		 align-items: center;
-	}
-	.__pf .pf-0085a847 {
-		display: flex;
-		 justify-content: center;
-	}
-	.__pf .pf-a847067e {
-		display: flex;
-		 place-content: center;
-		 align-items: center;
-		 margin-left: auto;
-		 margin-right: auto;
-		 margin-top: 50px;
+		 border-style: solid;
+		 border-width: 1px;
+		 border-color: rgb(104, 67, 27);
+		 padding-top: 30px;
+		 padding-bottom: 30px;
 	}
 }
 						
