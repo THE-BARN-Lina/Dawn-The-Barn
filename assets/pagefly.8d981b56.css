@@ -51,19 +51,19 @@
 					/* PageFly Styles */
 					
 @media all {
-	[data-pf-type="Section"].pf-396e1369 {
+	[data-pf-type="Section"].pf-fc83b17c {
 		min-height: 500px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/Feature-Espresso.jpg?20318");
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/a583.jpg?20318");
 		 background-position: 50% 50%;
 		 background-size: cover;
 	}
-	[data-pf-type="Heading"].pf-467c50c1 {
+	[data-pf-type="Heading"].pf-04af67f7 {
 		text-align: center;
 	}
-	[data-pf-type="Paragraph"].pf-858aa51b {
+	[data-pf-type="Paragraph"].pf-30a57e9d {
 		text-align: center;
 	}
-	[data-pf-type="Block"].pf-9b0cbb16 {
+	[data-pf-type="Block"].pf-f8b9020b {
 		display: flex;
 		 flex-direction: column;
 		 align-items: center;
@@ -71,17 +71,17 @@
 	}
 }
 @media only screen and (max-width: 767px) {
-	[data-pf-type="Section"].pf-396e1369 {
-		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/Feature-Espresso.jpg?20318");
+	[data-pf-type="Section"].pf-fc83b17c {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/a583.jpg?20318");
 	}
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	[data-pf-type="Section"].pf-396e1369 {
-		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/Feature-Espresso.jpg?20318");
+	[data-pf-type="Section"].pf-fc83b17c {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/a583.jpg?20318");
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	[data-pf-type="Section"].pf-396e1369 {
-		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/Feature-Espresso.jpg?20318");
+	[data-pf-type="Section"].pf-fc83b17c {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/a583.jpg?20318");
 	}
 }
