@@ -46,17 +46,17 @@
 					/* PageFly Styles */
 					
 @media all {
-	[data-pf-type="Heading"].pf-1bb4ae67 {
+	[data-pf-type="Heading"].pf-68ee5b2d {
 		margin: 0px;
 		 font-size: 40px;
 	}
-	[data-pf-type="Paragraph"].pf-85596da6 {
+	[data-pf-type="Paragraph"].pf-7b370c50 {
 		font-size: 26px;
 	}
-	[data-pf-type="Block"].pf-f61e127b {
+	[data-pf-type="Block"].pf-f2f49daf {
 		text-align: center;
 	}
-	[data-pf-type="Image"].pf-9f13afdc {
+	[data-pf-type="Image"].pf-b57bfa97 {
 		border-style: solid;
 		 border-width: 3px;
 		 border-color: rgb(104, 67, 27);
@@ -67,17 +67,17 @@
 		 width: 80px;
 		 margin: 10px;
 	}
-	[data-pf-type="Paragraph"].pf-50ee2aca {
+	[data-pf-type="Paragraph"].pf-e2112e46 {
 		text-align: center;
 	}
-	[data-pf-type="Column"].pf-9480c83e {
+	[data-pf-type="Column"].pf-eb719570 {
 		min-height: 100px;
 		 display: flex;
 		 flex-direction: column;
 		 align-items: center;
 		 place-content: center;
 	}
-	[data-pf-type="Image"].pf-6fbbc8e8 {
+	[data-pf-type="Image"].pf-2f0d8306 {
 		border-style: solid;
 		 border-width: 3px;
 		 border-color: rgb(104, 67, 27);
@@ -88,17 +88,17 @@
 		 width: 80px;
 		 margin: 10px;
 	}
-	[data-pf-type="Paragraph"].pf-2e22fc2d {
+	[data-pf-type="Paragraph"].pf-a6e309a0 {
 		text-align: center;
 	}
-	[data-pf-type="Column"].pf-659ec828 {
+	[data-pf-type="Column"].pf-7790f8d1 {
 		min-height: 100px;
 		 display: flex;
 		 flex-direction: column;
 		 align-items: center;
 		 place-content: center;
 	}
-	[data-pf-type="Image"].pf-ff904c6e {
+	[data-pf-type="Image"].pf-bcdaa895 {
 		border-style: solid;
 		 border-width: 3px;
 		 border-color: rgb(104, 67, 27);
@@ -109,17 +109,17 @@
 		 width: 80px;
 		 margin: 10px;
 	}
-	[data-pf-type="Paragraph"].pf-3b8df84f {
+	[data-pf-type="Paragraph"].pf-bb359efa {
 		text-align: center;
 	}
-	[data-pf-type="Column"].pf-187e29dc {
+	[data-pf-type="Column"].pf-1f73f02d {
 		min-height: 100px;
 		 display: flex;
 		 flex-direction: column;
 		 align-items: center;
 		 place-content: center;
 	}
-	[data-pf-type="Image"].pf-212b6d35 {
+	[data-pf-type="Image"].pf-c191d194 {
 		border-style: solid;
 		 border-width: 3px;
 		 border-color: rgb(104, 67, 27);
@@ -130,278 +130,145 @@
 		 width: 80px;
 		 margin: 10px;
 	}
-	[data-pf-type="Paragraph"].pf-95752482 {
+	[data-pf-type="Paragraph"].pf-6e2958b2 {
 		text-align: center;
 	}
-	[data-pf-type="Column"].pf-13909ae9 {
+	[data-pf-type="Column"].pf-5dd3662b {
 		min-height: 100px;
 		 display: flex;
 		 flex-direction: column;
 		 align-items: center;
 		 place-content: center;
 	}
-	[data-pf-type="Column"].pf-d450c168 {
+	[data-pf-type="Column"].pf-659ebd7f {
 		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/Header.jpg?1023");
-		 background-position: 50% 50%;
-		 background-size: contain;
-		 background-repeat: no-repeat;
-		 display: flex;
-	}
-	[data-pf-type="Heading"].pf-2df31a1c {
-		text-align: center;
-		 color: rgb(152, 104, 48);
-	}
-	[data-pf-type="Paragraph"].pf-1cf540bd {
-		text-align: justify;
-		 width: 80%;
-	}
-	[data-pf-type="Column"].pf-ce202f4d {
-		display: flex;
-		 flex-direction: column;
-		 align-items: center;
-		 place-content: center;
-		 margin-left: 0px;
-	}
-	[data-pf-type="Row"].pf-083e6aec {
-		display: flex;
-	}
-	[data-pf-type="Heading"].pf-e1b319ec {
-		text-align: center;
-		 color: rgb(152, 104, 48);
-	}
-	[data-pf-type="Paragraph"].pf-19c83941 {
-		text-align: justify;
-		 width: 80%;
-	}
-	[data-pf-type="Column"].pf-48016cae {
-		display: flex;
-		 flex-direction: column;
-		 align-items: center;
-		 place-content: center;
-		 margin-right: 0px;
-	}
-	[data-pf-type="Column"].pf-42cf04bd {
-		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/filter-nassen.jpg?1427");
-		 background-position: 50% 50%;
-		 background-size: contain;
-		 background-repeat: no-repeat;
-		 display: flex;
-	}
-	[data-pf-type="Row"].pf-f34172bc {
-		display: flex;
-	}
-	[data-pf-type="Column"].pf-a7a85458 {
-		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/kaffee.jpg?1027");
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/fill2.jpg?1003");
 		 background-position: 50% 50%;
 		 background-size: contain;
 		 background-repeat: no-repeat;
 	}
-	[data-pf-type="Heading"].pf-08baa277 {
+	[data-pf-type="Heading"].pf-39ca7c01 {
 		text-align: center;
 		 color: rgb(152, 104, 48);
 	}
-	[data-pf-type="Paragraph"].pf-197b8cfb {
+	[data-pf-type="Paragraph"].pf-ebf9025e {
 		text-align: justify;
 		 width: 80%;
 	}
-	[data-pf-type="Column"].pf-eeea0873 {
+	[data-pf-type="Column"].pf-dbf1908d {
 		display: flex;
 		 flex-direction: column;
 		 align-items: center;
 		 place-content: center;
-		 margin-left: 0px;
 	}
-	[data-pf-type="Row"].pf-b4d385d1 {
-		margin-bottom: 15px;
-	}
-	[data-pf-type="Heading"].pf-787dab29 {
+	[data-pf-type="Heading"].pf-955fc776 {
 		text-align: center;
 		 color: rgb(152, 104, 48);
 	}
-	[data-pf-type="Paragraph"].pf-6bcf510b {
+	[data-pf-type="Paragraph"].pf-43e18190 {
 		text-align: justify;
 		 width: 80%;
 	}
-	[data-pf-type="Column"].pf-fe823992 {
+	[data-pf-type="Column"].pf-ca13ba30 {
 		display: flex;
 		 flex-direction: column;
 		 align-items: center;
 		 place-content: center;
-		 margin-right: 0px;
 	}
-	[data-pf-type="Column"].pf-a4340980 {
+	[data-pf-type="Column"].pf-916f745f {
 		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/bruhen.jpg?1429");
-		 background-position: 50% 50%;
-		 background-size: contain;
-		 background-repeat: no-repeat;
-		 display: flex;
-	}
-	[data-pf-type="Row"].pf-57504af0 {
-		display: flex;
-		 margin-bottom: 15px;
-	}
-	[data-pf-type="Column"].pf-24b39e25 {
-		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/ruhren.jpg?1439");
-		 background-position: 50% 0%;
-		 background-size: contain;
-		 background-repeat: no-repeat;
-	}
-	[data-pf-type="Heading"].pf-b05ce381 {
-		text-align: center;
-		 color: rgb(152, 104, 48);
-	}
-	[data-pf-type="Paragraph"].pf-755f9422 {
-		text-align: justify;
-		 width: 80%;
-	}
-	[data-pf-type="Column"].pf-a0277dea {
-		display: flex;
-		 flex-direction: column;
-		 align-items: center;
-		 place-content: center;
-		 margin-left: 0px;
-	}
-	[data-pf-type="Row"].pf-e969f730 {
-		margin-bottom: 15px;
-	}
-	[data-pf-type="Heading"].pf-0ef767de {
-		text-align: center;
-		 color: rgb(152, 104, 48);
-	}
-	[data-pf-type="Paragraph"].pf-54c4f141 {
-		text-align: justify;
-		 width: 80%;
-	}
-	[data-pf-type="Column"].pf-fa37f610 {
-		display: flex;
-		 flex-direction: column;
-		 align-items: center;
-		 place-content: center;
-		 margin-right: 0px;
-	}
-	[data-pf-type="Column"].pf-4cf86775 {
-		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/vacuum.jpg?1431");
-		 background-position: 50% 50%;
-		 background-size: contain;
-		 background-repeat: no-repeat;
-		 display: flex;
-	}
-	[data-pf-type="Row"].pf-e417a8ef {
-		display: flex;
-		 margin-bottom: 15px;
-	}
-	[data-pf-type="Column"].pf-3d8699c4 {
-		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/ruhren.jpg?1439");
-		 background-position: 50% 0%;
-		 background-size: contain;
-		 background-repeat: no-repeat;
-	}
-	[data-pf-type="Heading"].pf-58e2550d {
-		text-align: center;
-		 color: rgb(152, 104, 48);
-	}
-	[data-pf-type="Paragraph"].pf-df2eeeca {
-		text-align: justify;
-		 width: 80%;
-	}
-	[data-pf-type="Column"].pf-efc9026c {
-		display: flex;
-		 flex-direction: column;
-		 align-items: center;
-		 place-content: center;
-		 margin-left: 0px;
-	}
-	[data-pf-type="Row"].pf-75094dc4 {
-		margin-bottom: 15px;
-	}
-	[data-pf-type="Heading"].pf-1e6ae17e {
-		text-align: center;
-		 color: rgb(152, 104, 48);
-	}
-	[data-pf-type="Paragraph"].pf-1b532941 {
-		text-align: justify;
-		 width: 80%;
-	}
-	[data-pf-type="Column"].pf-7f30ae70 {
-		display: flex;
-		 flex-direction: column;
-		 align-items: center;
-		 place-content: center;
-		 margin-right: 0px;
-	}
-	[data-pf-type="Column"].pf-047dff63 {
-		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/ruhren--1-.jpg?1433");
-		 background-position: 50% 50%;
-		 background-size: contain;
-		 background-repeat: no-repeat;
-		 display: flex;
-	}
-	[data-pf-type="Row"].pf-587f22a5 {
-		display: flex;
-		 margin-bottom: 15px;
-	}
-	[data-pf-type="Column"].pf-11ac5e2c {
-		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/abfall.jpg?1443");
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/fill3.jpg?1471");
 		 background-position: 50% 50%;
 		 background-size: contain;
 		 background-repeat: no-repeat;
 	}
-	[data-pf-type="Heading"].pf-e964b7b7 {
-		text-align: center;
-		 color: rgb(152, 104, 48);
-	}
-	[data-pf-type="Paragraph"].pf-f96c3c57 {
-		text-align: justify;
-		 width: 80%;
-	}
-	[data-pf-type="Column"].pf-7465c371 {
-		display: flex;
-		 flex-direction: column;
-		 align-items: center;
-		 place-content: center;
-		 margin-left: 0px;
-	}
-	[data-pf-type="Row"].pf-c658bca6 {
-		margin-bottom: 15px;
-	}
-	[data-pf-type="Heading"].pf-54a141fd {
-		text-align: center;
-		 color: rgb(152, 104, 48);
-	}
-	[data-pf-type="Paragraph"].pf-8c04a0e1 {
-		text-align: justify;
-		 width: 80%;
-	}
-	[data-pf-type="Column"].pf-9069bdb0 {
-		display: flex;
-		 flex-direction: column;
-		 align-items: center;
-		 place-content: center;
-		 margin-right: 0px;
-	}
-	[data-pf-type="Column"].pf-1006c0fe {
-		min-height: 400px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/geniessen.jpg?1445");
-		 background-position: 50% 50%;
-		 background-size: contain;
-		 background-repeat: no-repeat;
-		 display: flex;
-	}
-	[data-pf-type="Row"].pf-89f0eb19 {
-		display: flex;
-		 margin-bottom: 15px;
-	}
-	[data-pf-type="Section"].pf-e3fd0cf2 {
+	[data-pf-type="Section"].pf-29274192 {
 		padding-bottom: 0px;
-		 padding-top: 0px;
+	}
+	[data-pf-type="Column"].pf-964fe860 {
+		min-height: 400px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/bloom4.jpg?1005");
+		 background-position: 50% 50%;
+		 background-size: contain;
+		 background-repeat: no-repeat;
+	}
+	[data-pf-type="Heading"].pf-c4d0025e {
+		text-align: center;
+		 color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-84ae05dd {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Column"].pf-cb54d5a7 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Heading"].pf-556c202c {
+		text-align: center;
+		 color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-0af00416 {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Column"].pf-cfbca76c {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Column"].pf-283d9d8a {
+		min-height: 400px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/finish5.jpg?1473");
+		 background-position: 50% 50%;
+		 background-size: contain;
+		 background-repeat: no-repeat;
+	}
+	[data-pf-type="Column"].pf-4396cff9 {
+		min-height: 400px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/release6.jpg?1011");
+		 background-position: 50% 50%;
+		 background-size: contain;
+		 background-repeat: no-repeat;
+	}
+	[data-pf-type="Heading"].pf-575efd28 {
+		text-align: center;
+		 color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-64628170 {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Column"].pf-d0413399 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Heading"].pf-07393868 {
+		color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-b7e62273 {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Column"].pf-23dcd050 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Column"].pf-1975f98f {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/check7.jpg?1012");
+		 min-height: 400px;
+		 background-position: 50% 50%;
+		 background-size: contain;
+		 background-repeat: no-repeat;
+	}
+	[data-pf-type="Section"].pf-eb6466cd {
+		padding-top: 0px;
 	}
 }
