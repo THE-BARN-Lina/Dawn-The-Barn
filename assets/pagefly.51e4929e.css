@@ -41,35 +41,35 @@
 					/* PageFly Styles */
 					
 @media all {
-	[data-pf-type="Paragraph"].pf-556ac971 {
+	[data-pf-type="Paragraph"].pf-ef0e2d88 {
 		text-align: center;
 	}
-	[data-pf-type="Heading"].pf-392a221d {
+	[data-pf-type="Heading"].pf-b4ae7a48 {
 		text-align: center;
 	}
-	[data-pf-type="Paragraph"].pf-aeeb6c2e {
+	[data-pf-type="Paragraph"].pf-eb79040f {
 		text-align: center;
 	}
-	[data-pf-type="Paragraph"].pf-ba70ba1d {
+	[data-pf-type="Paragraph"].pf-1f7a5ef6 {
 		text-align: justify;
 		 margin-left: 20px;
 		 margin-right: 20px;
 	}
-	[data-pf-type="Block"].pf-281beede {
+	[data-pf-type="Block"].pf-a4933bfa {
 		display: flex;
 		 flex-direction: row;
 		 align-items: center;
 		 place-content: center;
 		 width: 50%;
 	}
-	[data-pf-type="Paragraph"].pf-43e5cf27 {
+	[data-pf-type="Paragraph"].pf-165b37a0 {
 		font-size: 10px;
 	}
-	[data-pf-type="Block"].pf-636ef467 {
+	[data-pf-type="Block"].pf-b666acc2 {
 		display: flex;
 		 flex-direction: row;
 		 align-items: flex-end;
-		 place-content: center flex-start;
+		 place-content: flex-start;
 		 width: 50%;
 		 margin-left: 20px;
 		 margin-right: 20px;
@@ -77,42 +77,42 @@
 		 background-position: 50% 0%;
 		 background-repeat: no-repeat;
 		 background-size: contain;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-3bf3c13f-4754-42db-9154-c7e2709a4b8c--double-wall-drum.jpg?58540");
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-48fdd0a7-03c5-4efd-bf69-2b0bdbad8327--drum-roaster.jpg?28929");
 	}
-	[data-pf-type="Block"].pf-dc7006b1 {
+	[data-pf-type="Block"].pf-6f48e046 {
 		display: flex;
 		 flex-direction: row;
 		 align-items: center;
 		 place-content: center;
 	}
-	[data-pf-type="Button"].pf-d302550f {
+	[data-pf-type="Button"].pf-2c76643b {
 		border: 2px solid rgb(145, 157, 169);
 	}
-	[data-pf-type="Column"].pf-f5ffe39d {
+	[data-pf-type="Column"].pf-5586df53 {
 		display: flex;
 		 justify-content: center;
 		 margin-top: 20px;
 	}
 }
 @media only screen and (max-width: 767px) {
-	[data-pf-type="Section"].pf-8d4937ca {
+	[data-pf-type="Section"].pf-625d7b9f {
 		padding-top: 0px;
 		 padding-bottom: 0px;
 	}
-	[data-pf-type="Paragraph"].pf-ba70ba1d {
+	[data-pf-type="Paragraph"].pf-1f7a5ef6 {
 		margin-left: 0px;
 		 margin-right: 0px;
 	}
-	[data-pf-type="Block"].pf-281beede {
+	[data-pf-type="Block"].pf-a4933bfa {
 		width: 90%;
 	}
-	[data-pf-type="Block"].pf-636ef467 {
+	[data-pf-type="Block"].pf-b666acc2 {
 		width: 100%;
 		 margin-top: 50px;
 		 height: 260px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-3bf3c13f-4754-42db-9154-c7e2709a4b8c--double-wall-drum.jpg?58540");
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-48fdd0a7-03c5-4efd-bf69-2b0bdbad8327--drum-roaster_400x400.jpg?28929");
 	}
-	[data-pf-type="Block"].pf-dc7006b1 {
+	[data-pf-type="Block"].pf-6f48e046 {
 		display: flex;
 		 flex-direction: column;
 		 align-items: center;
@@ -120,38 +120,38 @@
 	}
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	[data-pf-type="Block"].pf-636ef467 {
-		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-3bf3c13f-4754-42db-9154-c7e2709a4b8c--double-wall-drum.jpg?58540");
+	[data-pf-type="Block"].pf-b666acc2 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-48fdd0a7-03c5-4efd-bf69-2b0bdbad8327--drum-roaster.jpg?28929");
 	}
-	[data-pf-type="Column"].pf-f5ffe39d {
+	[data-pf-type="Column"].pf-5586df53 {
 		margin-top: 20px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	[data-pf-type="Block"].pf-281beede {
+	[data-pf-type="Block"].pf-a4933bfa {
 		width: 80%;
 	}
-	[data-pf-type="Block"].pf-636ef467 {
+	[data-pf-type="Block"].pf-b666acc2 {
 		width: 75%;
 		 margin-top: 50px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-3bf3c13f-4754-42db-9154-c7e2709a4b8c--double-wall-drum.jpg?58540");
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-48fdd0a7-03c5-4efd-bf69-2b0bdbad8327--drum-roaster_800x800.jpg?28929");
 	}
-	[data-pf-type="Block"].pf-dc7006b1 {
+	[data-pf-type="Block"].pf-6f48e046 {
 		display: flex;
 		 flex-direction: column;
 	}
-	[data-pf-type="Row"].pf-43fc97f1 {
+	[data-pf-type="Row"].pf-590a423d {
 		display: flex;
 		 flex-direction: column;
 		 place-content: center;
 	}
-	[data-pf-type="Column"].pf-f5ffe39d {
+	[data-pf-type="Column"].pf-5586df53 {
 		margin-top: 0px;
 	}
-	[data-pf-type="Row"].pf-ed4c9a8f {
+	[data-pf-type="Row"].pf-c210bd16 {
 		margin-top: 40px;
 	}
-	[data-pf-type="Section"].pf-44a716fa {
+	[data-pf-type="Section"].pf-d6b5516d {
 		display: flex;
 		 align-items: center;
 		 place-content: center;
