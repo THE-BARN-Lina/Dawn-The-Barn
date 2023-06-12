@@ -47,37 +47,37 @@
 					/* PageFly Styles */
 					
 @media all {
-	[data-pf-type="Heading"].pf-a8b47c71 {
+	[data-pf-type="Heading"].pf-ccc592db {
 		color: rgb(255, 255, 255);
 	}
-	[data-pf-type="Paragraph"].pf-7704a592 {
+	[data-pf-type="Paragraph"].pf-40aca08e {
 		text-align: justify;
 		 text-align-last: center;
 		 margin-top: 30px;
 	}
-	[data-pf-type="Heading"].pf-ffb943ce {
+	[data-pf-type="Heading"].pf-6e619e0e {
 		text-align: center;
 		 color: rgb(188, 132, 85);
 		 margin-bottom: 10px;
 		 margin-top: 30px;
 	}
-	[data-pf-type="Paragraph"].pf-c7369a8b {
+	[data-pf-type="Paragraph"].pf-6f27b616 {
 		text-align: center;
 		 text-align-last: center;
 		 margin-top: 0px;
 	}
-	[data-pf-type="Heading"].pf-efb357a3 {
+	[data-pf-type="Heading"].pf-898f46f3 {
 		text-align: center;
 		 color: rgb(188, 132, 85);
 		 margin-bottom: 10px;
 		 margin-top: 20px;
 	}
-	[data-pf-type="Paragraph"].pf-0f8287b4 {
+	[data-pf-type="Paragraph"].pf-6bf38eb4 {
 		text-align: justify;
 		 text-align-last: center;
 		 margin-top: 0px;
 	}
-	[data-pf-type="Block"].pf-b9f6f7ba {
+	[data-pf-type="Block"].pf-baec8b51 {
 		display: flex;
 		 flex-direction: column;
 		 place-content: center;
@@ -85,24 +85,24 @@
 		 margin-left: auto;
 		 margin-right: auto;
 	}
-	[data-pf-type="Image"].pf-ff8b535b {
+	[data-pf-type="Image"].pf-9042a11e {
 		width: 450px;
 	}
-	[data-pf-type="Column"].pf-49b1a913 {
+	[data-pf-type="Column"].pf-c536f37b {
 		display: flex;
 		 align-items: center;
 		 place-content: center;
 	}
-	[data-pf-type="Image"].pf-76ac16a5 {
+	[data-pf-type="Image"].pf-56de0ca2 {
 		width: 450px;
 		 justify-content: flex-start;
 		 align-items: center;
 	}
-	[data-pf-type="Column"].pf-97e74490 {
+	[data-pf-type="Column"].pf-8d7bdfc0 {
 		display: flex;
 		 justify-content: center;
 	}
-	[data-pf-type="Row"].pf-e9b7ffe0 {
+	[data-pf-type="Row"].pf-0abf6b9f {
 		display: flex;
 		 place-content: center;
 		 align-items: center;
@@ -110,24 +110,24 @@
 		 margin-right: auto;
 		 margin-top: 50px;
 	}
-	[data-pf-type="Image"].pf-3978626f {
+	[data-pf-type="Image"].pf-d13b5785 {
 		width: 450px;
 	}
-	[data-pf-type="Column"].pf-bd1a3269 {
+	[data-pf-type="Column"].pf-1dc40694 {
 		display: flex;
 		 align-items: center;
 		 place-content: center;
 	}
-	[data-pf-type="Image"].pf-9359985e {
+	[data-pf-type="Image"].pf-43baedd5 {
 		width: 450px;
 		 justify-content: flex-start;
 		 align-items: center;
 	}
-	[data-pf-type="Column"].pf-4bd54c98 {
+	[data-pf-type="Column"].pf-437dc429 {
 		display: flex;
 		 justify-content: center;
 	}
-	[data-pf-type="Row"].pf-220c448b {
+	[data-pf-type="Row"].pf-3f4e6c33 {
 		display: flex;
 		 place-content: center;
 		 align-items: center;
