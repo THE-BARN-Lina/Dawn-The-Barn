@@ -1,0 +1,1196 @@
+/* PageFly Element Styles */
+					.lgZhBD.pf-editor-section::before, .lgZhBD.pf-editor-section::after { content: ""; display: block; position: absolute; left: 0px; right: 0px; width: 100%; height: 10px; }
+.lgZhBD.pf-editor-section::before { top: -10px; }
+.lgZhBD.pf-editor-section::after { bottom: -10px; }
+.lgZhBD__parallax { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; }
+.lgZhBD { padding: 15px 0px; position: relative; }
+.lgZhBD .sc-dliRfk { position: relative; }
+.lgZhBD[data-container="true"] .sc-dliRfk { padding: 0px 15px; width: 100%; margin: auto; }
+.lgZhBD .pf-parallax__img { text-indent: -10000px; position: absolute; object-fit: cover; top: 0px; left: 0px; width: 100%; height: 100%; }
+.ciNxzc { margin: 0px -15px; }
+.BcUQo { position: relative; }
+.BcUQo.pf-editor-col::before, .BcUQo.pf-editor-col::after { content: ""; display: block; position: absolute; top: 0px; bottom: 0px; width: 10px; }
+.BcUQo.pf-editor-col::before { left: -10px; }
+.BcUQo.pf-editor-col::after { right: -10px; }
+.gJXqlU { position: relative; }
+.OoUPE { margin: 0px 0px 15px; }
+.OoUPE > a { color: inherit !important; }
+.OoUPE > span { font-weight: inherit; text-decoration: inherit; }
+.OoUPE { word-break: break-word; }
+.OoUPE.pf-i--left i { margin-right: 0.3em; }
+.OoUPE.pf-i--right i { margin-left: 0.3em; }
+.OoUPE.pf-i--top i { margin-bottom: 0.5em; }
+.OoUPE.pf-i--top > span, .OoUPE.pf-i--top > a { display: block; }
+.OoUPE.pf-i--top > span[data-empty][contenteditable] { display: block !important; }
+.OoUPE [class*="--diamond"] { margin-right: 1em; }
+.uIbp { display: inline-block; }
+.uIbp { vertical-align: baseline; word-break: break-word; }
+.uIbp:focus { outline: none; }
+.RVbtq { margin: 0px 0px 15px; }
+.RVbtq > a { color: inherit !important; }
+.RVbtq > span { font-weight: inherit; text-decoration: inherit; }
+.RVbtq { word-break: break-word; }
+.RVbtq.pf-i--left i { margin-right: 0.3em; }
+.RVbtq.pf-i--right i { margin-left: 0.3em; }
+.RVbtq.pf-i--top i { margin-bottom: 0.5em; }
+.RVbtq.pf-i--top > span, .RVbtq.pf-i--top > a { display: block; }
+.RVbtq.pf-i--top > span[data-empty][contenteditable] { display: block !important; }
+.RVbtq [class*="--diamond"] { margin-right: 1em; }
+.bLbPLR > span:last-child { line-height: inherit; display: block; }
+.bLbPLR[class*="dropcap--"] > span:first-child { display: block; margin-right: 10px; float: left; width: 50px; height: 50px; line-height: 50px; }
+.bLbPLR[class*="dropcap--"]:not(.dropcap--none) > span:first-child { margin-right: 20px; text-align: center; }
+.bLbPLR.dropcap--none > span:first-child { text-align: inherit; border-radius: 0px; line-height: 1 !important; width: auto !important; height: auto !important; background: none !important; }
+.bLbPLR.dropcap--circle > span:first-child { border-radius: 100%; }
+.bLbPLR:not([class*="dropcap--"]) > span { margin-right: 0px !important; }
+.bLbPLR ol, .bLbPLR ul { list-style-position: inside; }
+.bLbPLR blockquote { font-size: inherit; }
+.yecUC { position: relative; overflow: hidden; display: inline-flex; -webkit-box-pack: start; justify-content: flex-start; align-items: flex-start; vertical-align: middle; max-width: 100%; }
+.yecUC img { display: inline-block; object-fit: cover; max-width: 100%; max-height: 100%; height: auto; text-align: center; width: 100%; vertical-align: middle; position: unset; }
+.dOgkyj { display: inline-block; line-height: 1; padding: 0.7em 1.2em; box-sizing: border-box; cursor: pointer; text-align: center; border: none; border-radius: 0px; text-decoration: none; position: relative; max-width: 100%; outline: none; vertical-align: middle; }
+.dOgkyj:hover, .dOgkyj:active, .dOgkyj:focus { color: inherit; text-decoration: none; }
+.dOgkyj > span { text-decoration: inherit; line-height: inherit; display: inline-block; max-width: 100%; }
+.dOgkyj[data-active="true"] { background: black; color: white; }
+.dOgkyj.pf-i--left i { margin-right: 0.3em; }
+.dOgkyj + .sc-kPVwWT, .dOgkyj.pf-i--right i { margin-left: 0.3em; }
+.dOgkyj.pf-i--top i { margin-bottom: 0.5em; display: block; }
+					/* PageFly Styles */
+					
+@media all {
+	[data-pf-type="Heading"].pf-d75237f5 {
+		text-align: center;
+	}
+	[data-pf-type="Block"].pf-e207619e {
+		display: flex;
+		 align-items: center;
+		 place-content: center;
+		 flex-direction: column;
+	}
+	[data-pf-type="Section"].pf-9055bc13 {
+		padding-top: 0px;
+		 padding-bottom: 0px;
+	}
+	[data-pf-type="Paragraph"].pf-fa6342a5 {
+		text-align: justify;
+		 display: flex;
+		 flex-direction: column;
+	}
+	[data-pf-type="Paragraph"].pf-f7abfedc {
+		width: 80%;
+		 text-align: justify;
+		 text-align-last: center;
+	}
+	[data-pf-type="Paragraph"].pf-55f229d2 {
+		width: 80%;
+		 text-align: justify;
+		 text-align-last: center;
+	}
+	[data-pf-type="Image"].pf-e6b38e30 {
+		justify-content: center;
+		 align-items: center;
+		 width: 250px;
+		 display: flex;
+		 margin-top: 20px;
+		 margin-bottom: 30px;
+	}
+	[data-pf-type="Paragraph"].pf-93626f4a {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Heading"].pf-325e1ce9 {
+		text-align: center;
+		 margin-top: 30px;
+		 color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-043f0d17 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 10px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Paragraph"].pf-58c26607 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 12px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Block"].pf-1c6b0bf9 {
+		width: 50%;
+		 height: 700px;
+		 background-position: 50% 0%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-1.jpg?12651");
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-start;
+		 place-content: center flex-end;
+	}
+	[data-pf-type="Paragraph"].pf-2a766faf {
+		text-align: justify;
+		 width: 80%;
+		 margin-top: 20px;
+	}
+	[data-pf-type="Block"].pf-c96fe72f {
+		display: flex;
+		 align-items: center;
+		 place-content: center;
+		 flex-direction: column;
+		 background-image: url("");
+	}
+	[data-pf-type="Paragraph"].pf-fccb9fbe {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 10px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Heading"].pf-6d2cfe7b {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-4dcb395d {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Column"].pf-96f2ad66 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 justify-content: flex-start;
+	}
+	[data-pf-type="Heading"].pf-d83f972e {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-448345c3 {
+		text-align: justify;
+		 width: 80%;
+		 text-align-last: center;
+	}
+	[data-pf-type="Column"].pf-3872466a {
+		flex-direction: column;
+		 place-content: flex-start;
+		 align-items: center;
+		 display: flex;
+	}
+	[data-pf-type="Row"].pf-37325a29 {
+		width: 90%;
+		 margin-top: 20px;
+	}
+	[data-pf-type="Column"].pf-333c35f7 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+	}
+	[data-pf-type="Paragraph"].pf-e7d8d339 {
+		text-align: justify;
+		 display: flex;
+		 flex-direction: column;
+	}
+	[data-pf-type="Paragraph"].pf-8fe16d58 {
+		width: 80%;
+		 text-align: justify;
+		 text-align-last: center;
+	}
+	[data-pf-type="Paragraph"].pf-3b466a6d {
+		width: 80%;
+		 text-align: justify;
+		 text-align-last: center;
+	}
+	[data-pf-type="Image"].pf-19bbeeda {
+		justify-content: center;
+		 align-items: center;
+		 width: 250px;
+		 display: flex;
+		 margin-top: 20px;
+		 margin-bottom: 30px;
+	}
+	[data-pf-type="Paragraph"].pf-8739337f {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Heading"].pf-06c6b7ea {
+		text-align: center;
+		 margin-top: 30px;
+		 color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-d8879201 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 10px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Block"].pf-3eb7f5bc {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7a081def-62cf-49e8-a4a4-6b015517fc5d--pic-2-1.jpg?49509");
+		 width: 50%;
+		 height: 500px;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 margin-right: 20px;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-end;
+		 place-content: flex-end;
+	}
+	[data-pf-type="Paragraph"].pf-762fe55c {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 10px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Block"].pf-48abbce2 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-0649c281-52ac-4c2f-8d0b-16ee6302a921--little-waterfall.JPG?49513");
+		 width: 50%;
+		 height: 500px;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 margin-right: 0px;
+		 margin-left: 20px;
+		 display: flex;
+		 align-items: flex-end;
+	}
+	[data-pf-type="Block"].pf-1daa8500 {
+		width: 80%;
+		 height: auto;
+		 background-position: 50% 0%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 display: flex;
+		 flex-direction: row;
+		 align-items: flex-start;
+		 place-content: center;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Block"].pf-91b0e679 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-1.jpg?6175");
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 height: 350px;
+		 width: 100%;
+	}
+	[data-pf-type="Paragraph"].pf-4d0d0801 {
+		text-align: justify;
+		 width: 80%;
+		 margin-top: 30px;
+	}
+	[data-pf-type="Block"].pf-eb64a283 {
+		display: flex;
+		 align-items: center;
+		 place-content: center;
+		 flex-direction: column;
+		 background-image: url("");
+	}
+	[data-pf-type="Heading"].pf-4bf38a38 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-0c75cb7a {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Column"].pf-9509b47b {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 justify-content: flex-start;
+	}
+	[data-pf-type="Heading"].pf-5987e7ee {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-80bec44a {
+		text-align: justify;
+		 width: 80%;
+		 text-align-last: center;
+	}
+	[data-pf-type="Column"].pf-bdaeecfe {
+		flex-direction: column;
+		 place-content: flex-start;
+		 align-items: center;
+		 display: flex;
+	}
+	[data-pf-type="Row"].pf-46e03d54 {
+		width: 90%;
+		 margin-top: 20px;
+	}
+	[data-pf-type="Column"].pf-55595684 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+	}
+	[data-pf-type="Paragraph"].pf-bbd1e7f9 {
+		text-align: justify;
+		 display: flex;
+		 flex-direction: column;
+	}
+	[data-pf-type="Paragraph"].pf-e85c4f93 {
+		width: 80%;
+		 text-align: justify;
+		 text-align-last: center;
+	}
+	[data-pf-type="Paragraph"].pf-c04fc982 {
+		width: 80%;
+		 text-align: justify;
+		 text-align-last: center;
+	}
+	[data-pf-type="Image"].pf-88dcbd35 {
+		justify-content: center;
+		 align-items: center;
+		 width: 250px;
+		 display: flex;
+		 margin-top: 20px;
+		 margin-bottom: 30px;
+	}
+	[data-pf-type="Paragraph"].pf-3163581c {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Heading"].pf-89490607 {
+		text-align: center;
+		 margin-top: 30px;
+		 color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-98e79758 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 10px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Block"].pf-6cca9f53 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7a081def-62cf-49e8-a4a4-6b015517fc5d--pic-2-1.jpg?49509");
+		 width: 50%;
+		 height: 500px;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 margin-right: 20px;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-end;
+		 place-content: flex-end;
+	}
+	[data-pf-type="Paragraph"].pf-a9d44f51 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 10px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Block"].pf-8dc2d8f1 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-0649c281-52ac-4c2f-8d0b-16ee6302a921--little-waterfall.JPG?49513");
+		 width: 50%;
+		 height: 500px;
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 margin-right: 0px;
+		 margin-left: 20px;
+		 display: flex;
+		 align-items: flex-end;
+	}
+	[data-pf-type="Block"].pf-dea42afd {
+		width: 80%;
+		 height: auto;
+		 background-position: 50% 0%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 display: flex;
+		 flex-direction: row;
+		 align-items: flex-start;
+		 place-content: center;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Block"].pf-d25eb423 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-1.jpg?6175");
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 height: 350px;
+		 width: 100%;
+	}
+	[data-pf-type="Paragraph"].pf-d69fdbdf {
+		text-align: justify;
+		 width: 80%;
+		 margin-top: 30px;
+	}
+	[data-pf-type="Block"].pf-a8e1e6b2 {
+		display: flex;
+		 align-items: center;
+		 place-content: center;
+		 flex-direction: column;
+		 background-image: url("");
+	}
+	[data-pf-type="Heading"].pf-ac6120a3 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-2fd0ef8e {
+		text-align: justify;
+		 width: 80%;
+	}
+	[data-pf-type="Column"].pf-7d125ad3 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 justify-content: flex-start;
+	}
+	[data-pf-type="Heading"].pf-295b859b {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-4f13b244 {
+		text-align: justify;
+		 width: 80%;
+		 text-align-last: center;
+	}
+	[data-pf-type="Column"].pf-e1dd39b0 {
+		flex-direction: column;
+		 place-content: flex-start;
+		 align-items: center;
+		 display: flex;
+	}
+	[data-pf-type="Row"].pf-2457bbfb {
+		width: 90%;
+		 margin-top: 20px;
+	}
+	[data-pf-type="Column"].pf-5c1f908e {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+	}
+	[data-pf-type="Row"].pf-e8e60932 {
+		display: flex;
+		 place-content: center;
+		 align-items: center;
+	}
+	[data-pf-type="Section"].pf-f0383450 {
+		padding-top: 0px;
+	}
+	[data-pf-type="Heading"].pf-f504669e {
+		text-align: center;
+		 margin-top: 30px;
+		 color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-acb30552 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 12px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Block"].pf-d21aa8cc {
+		width: 50%;
+		 height: 400px;
+		 background-position: 50% 0%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-start;
+		 place-content: center flex-end;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-2.jpg?12653");
+	}
+	[data-pf-type="Paragraph"].pf-650fdceb {
+		text-align: justify;
+		 margin-top: 20px;
+		 padding-bottom: 0px;
+		 margin-bottom: 0px;
+		 width: 80%;
+	}
+	[data-pf-type="Block"].pf-20e44fdd {
+		display: flex;
+		 flex-direction: column;
+		 place-content: center;
+		 align-items: center;
+		 margin-left: auto;
+		 margin-right: auto;
+	}
+	[data-pf-type="Column"].pf-846bccc0 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+	}
+	[data-pf-type="Section"].pf-65210710 {
+		display: flex;
+		 flex-direction: column;
+		 place-content: center;
+		 align-items: center;
+		 padding-top: 0px;
+		 padding-bottom: 0px;
+	}
+	[data-pf-type="Heading"].pf-913d5bf3 {
+		text-align: center;
+		 margin-top: 30px;
+		 color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-1174c379 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 12px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Block"].pf-70167eac {
+		width: 50%;
+		 height: 400px;
+		 background-position: 50% 0%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-start;
+		 place-content: center flex-end;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-2.jpg?12653");
+	}
+	[data-pf-type="Paragraph"].pf-97c2b7a8 {
+		text-align: justify;
+		 margin-top: 20px;
+		 padding-bottom: 0px;
+		 margin-bottom: 0px;
+		 width: 80%;
+	}
+	[data-pf-type="Block"].pf-3a4124bc {
+		display: flex;
+		 flex-direction: column;
+		 place-content: center;
+		 align-items: center;
+		 margin-left: auto;
+		 margin-right: auto;
+	}
+	[data-pf-type="Paragraph"].pf-a02d50bb {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 12px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+		 align-items: flex-end;
+	}
+	[data-pf-type="Block"].pf-deead856 {
+		height: 310px;
+		 background-repeat: no-repeat;
+		 background-position: 50% 0%;
+		 background-size: contain;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-4.png?12785");
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-end;
+		 place-content: flex-end;
+	}
+	[data-pf-type="Heading"].pf-9e00c476 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-57730a13 {
+		text-align: justify;
+	}
+	[data-pf-type="Row"].pf-f8cbf91b {
+		display: flex;
+		 align-items: center;
+		 flex-direction: row;
+		 place-content: center;
+		 margin-top: 2px;
+	}
+	[data-pf-type="Heading"].pf-872875f4 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-2a67a797 {
+		text-align: justify;
+	}
+	[data-pf-type="Paragraph"].pf-2e5be5ea {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 12px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+		 align-items: flex-end;
+	}
+	[data-pf-type="Block"].pf-f906449e {
+		background-repeat: no-repeat;
+		 background-size: cover;
+		 height: 400px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pigeon-pea.jpg?12789");
+		 display: flex;
+		 flex-direction: column;
+		 justify-content: flex-end;
+	}
+	[data-pf-type="Row"].pf-0eec38ab {
+		display: flex;
+		 align-items: center;
+		 margin-top: 20px;
+	}
+	[data-pf-type="Column"].pf-43e0c7cc {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+	}
+	[data-pf-type="Heading"].pf-8c30a9bd {
+		text-align: center;
+		 margin-top: 30px;
+		 color: rgb(152, 104, 48);
+	}
+	[data-pf-type="Paragraph"].pf-a54dbccf {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 10px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+	}
+	[data-pf-type="Block"].pf-3382e98d {
+		width: 50%;
+		 height: 400px;
+		 background-position: 50% 0%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-start;
+		 place-content: center flex-end;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-2.jpg?12653");
+	}
+	[data-pf-type="Paragraph"].pf-4d3d7112 {
+		text-align: justify;
+		 margin-top: 30px;
+		 padding-bottom: 0px;
+		 margin-bottom: 0px;
+		 width: 80%;
+	}
+	[data-pf-type="Block"].pf-d6da2aa9 {
+		display: flex;
+		 flex-direction: column;
+		 place-content: center;
+		 align-items: center;
+		 margin-left: auto;
+		 margin-right: auto;
+	}
+	[data-pf-type="Paragraph"].pf-ad9bdab7 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 10px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+		 align-items: flex-end;
+	}
+	[data-pf-type="Block"].pf-4d159dca {
+		height: 250px;
+		 background-repeat: no-repeat;
+		 background-position: 50% 0%;
+		 background-size: contain;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-4.png?12785");
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-end;
+		 place-content: flex-end;
+	}
+	[data-pf-type="Heading"].pf-7a10f496 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-bed73178 {
+		text-align: justify;
+	}
+	[data-pf-type="Row"].pf-ba4d6838 {
+		display: flex;
+		 align-items: center;
+		 flex-direction: row;
+		 place-content: center;
+		 margin-top: 20px;
+		 width: 85%;
+	}
+	[data-pf-type="Heading"].pf-fbc80745 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-870e26c9 {
+		text-align: justify;
+	}
+	[data-pf-type="Paragraph"].pf-a975d3cc {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 10px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+		 align-items: flex-end;
+	}
+	[data-pf-type="Block"].pf-4a998267 {
+		background-repeat: no-repeat;
+		 background-size: cover;
+		 height: 300px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pigeon-pea.jpg?12789");
+		 display: flex;
+		 flex-direction: column;
+		 justify-content: flex-end;
+	}
+	[data-pf-type="Row"].pf-d9ab6bdd {
+		display: flex;
+		 align-items: center;
+		 margin-top: 20px;
+		 width: 85%;
+	}
+	[data-pf-type="Column"].pf-2a1b1a6d {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+	}
+	[data-pf-type="Section"].pf-09652051 {
+		display: flex;
+		 flex-direction: column;
+		 place-content: center;
+		 align-items: center;
+		 padding-top: 0px;
+		 padding-bottom: 0px;
+	}
+	[data-pf-type="Paragraph"].pf-7f0f5ca2 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 12px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+		 align-items: flex-end;
+	}
+	[data-pf-type="Block"].pf-9094885d {
+		height: 310px;
+		 background-repeat: no-repeat;
+		 background-position: 50% 0%;
+		 background-size: contain;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-4.png?12785");
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-end;
+		 place-content: flex-end;
+	}
+	[data-pf-type="Heading"].pf-2843918e {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-a04130f8 {
+		text-align: justify;
+	}
+	[data-pf-type="Row"].pf-3dd9165f {
+		display: flex;
+		 align-items: center;
+		 flex-direction: row;
+		 place-content: center;
+		 margin-top: 2px;
+	}
+	[data-pf-type="Section"].pf-56a94498 {
+		padding-top: 0px;
+		 padding-bottom: 0px;
+		 display: flex;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Paragraph"].pf-494484d8 {
+		text-align: justify;
+		 display: flex;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+		 font-size: 12px;
+		 color: rgb(255, 255, 255);
+		 background-color: rgb(19, 18, 18);
+		 width: 100%;
+		 align-items: flex-end;
+	}
+	[data-pf-type="Block"].pf-14f843ef {
+		height: 310px;
+		 background-repeat: no-repeat;
+		 background-position: 50% 0%;
+		 background-size: contain;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-4.png?12785");
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-end;
+		 place-content: flex-end;
+	}
+	[data-pf-type="Heading"].pf-1c617770 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-e2018964 {
+		text-align: justify;
+	}
+	[data-pf-type="Row"].pf-6736ecc9 {
+		display: flex;
+		 align-items: center;
+		 flex-direction: row;
+		 place-content: center;
+		 margin-top: 2px;
+	}
+	[data-pf-type="Section"].pf-a9c7b42a {
+		padding-top: 0px;
+		 padding-bottom: 0px;
+		 display: flex;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Heading"].pf-5531cb62 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-1cf719cc {
+		text-align: justify;
+	}
+	[data-pf-type="Block"].pf-2e2ce79e {
+		background-repeat: no-repeat;
+		 background-size: cover;
+		 height: 400px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pigeon-pea.jpg?12789");
+	}
+	[data-pf-type="Row"].pf-9a79bc25 {
+		display: flex;
+		 align-items: center;
+		 margin-top: 20px;
+	}
+	[data-pf-type="Section"].pf-8145706c {
+		padding-top: 0px;
+		 padding-bottom: 0px;
+		 display: flex;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Heading"].pf-77207533 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-284a6ecb {
+		text-align: justify;
+	}
+	[data-pf-type="Block"].pf-7d03b9dc {
+		background-repeat: no-repeat;
+		 background-size: cover;
+		 height: 400px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pigeon-pea.jpg?12789");
+	}
+	[data-pf-type="Row"].pf-dd4cce90 {
+		display: flex;
+		 align-items: center;
+		 margin-top: 20px;
+	}
+	[data-pf-type="Section"].pf-4f4efdeb {
+		padding-top: 0px;
+		 padding-bottom: 0px;
+		 display: flex;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Heading"].pf-abe605ac {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-a62844ec {
+		text-align: justify;
+		 margin-top: 20px;
+		 padding-bottom: 0px;
+		 margin-bottom: 0px;
+		 width: 80%;
+	}
+	[data-pf-type="Paragraph"].pf-6cbf6c6b {
+		text-align: justify;
+		 margin-top: 20px;
+		 padding-bottom: 0px;
+		 margin-bottom: 0px;
+		 width: 80%;
+	}
+	[data-pf-type="Heading"].pf-93a72387 {
+		text-align: center;
+		 margin-bottom: 10px;
+		 padding-bottom: 0px;
+		 margin-top: 10px;
+	}
+	[data-pf-type="Paragraph"].pf-e978dd62 {
+		text-align: justify;
+	}
+	[data-pf-type="Paragraph"].pf-f4381b0d {
+		text-align: justify;
+		 margin-top: 20px;
+		 padding-bottom: 0px;
+		 margin-bottom: 0px;
+		 width: 80%;
+	}
+	[data-pf-type="Paragraph"].pf-96b09445 {
+		width: 80%;
+		 text-align: justify;
+		 text-align-last: center;
+	}
+	[data-pf-type="Column"].pf-7fcb2d21 {
+		display: flex;
+		 align-items: center;
+		 justify-content: center;
+	}
+	[data-pf-type="Row"].pf-62264049 {
+		display: flex;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Column"].pf-4896c876 {
+		display: flex;
+		 flex-direction: row;
+		 align-items: center;
+		 place-content: center;
+	}
+	[data-pf-type="Row"].pf-5947c3c3 {
+		margin-top: 1px;
+		 display: flex;
+		 place-content: center;
+		 flex-direction: column;
+		 align-items: center;
+	}
+	[data-pf-type="Section"].pf-43fb4b72 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+	}
+}
+@media only screen and (max-width: 767px) {
+	[data-pf-type="Block"].pf-1bcb1863 {
+		width: 100%;
+		 height: 400px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-a705502e-74c5-4d8a-8501-75b4e640a16d--pic-2-1.jpg?50134&selected");
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 display: flex;
+		 align-items: flex-end;
+	}
+	[data-pf-type="Paragraph"].pf-2a766faf {
+		margin-top: 30px;
+	}
+	[data-pf-type="Block"].pf-5a800f56 {
+		width: 100%;
+		 height: 400px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-d4c42ae2-63e3-4f28-86ba-0f25b8e94158--little-waterfall.JPG?50344&selected");
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 display: flex;
+		 align-items: flex-end;
+		 margin-top: 30px;
+	}
+	[data-pf-type="Paragraph"].pf-4dcb395d {
+		width: 100%;
+	}
+	[data-pf-type="Paragraph"].pf-448345c3 {
+		width: 100%;
+	}
+	[data-pf-type="Row"].pf-37325a29 {
+		margin-top: 10px;
+	}
+	[data-pf-type="Block"].pf-3eb7f5bc {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7a081def-62cf-49e8-a4a4-6b015517fc5d--pic-2-1.jpg?49509");
+	}
+	[data-pf-type="Block"].pf-48abbce2 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-0649c281-52ac-4c2f-8d0b-16ee6302a921--little-waterfall.JPG?49513");
+	}
+	[data-pf-type="Block"].pf-6cca9f53 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7a081def-62cf-49e8-a4a4-6b015517fc5d--pic-2-1.jpg?49509");
+	}
+	[data-pf-type="Block"].pf-8dc2d8f1 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-0649c281-52ac-4c2f-8d0b-16ee6302a921--little-waterfall.JPG?49513");
+	}
+	[data-pf-type="Paragraph"].pf-0aec5562 {
+		background-color: rgb(19, 18, 18);
+		 font-size: 12px;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: flex-end;
+		 place-content: flex-end;
+	}
+	[data-pf-type="Block"].pf-f74fd263 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-2.jpg?12793");
+		 width: 100%;
+		 height: 300px;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 display: flex;
+		 flex-direction: column;
+		 justify-content: flex-end;
+	}
+	[data-pf-type="Paragraph"].pf-650fdceb {
+		display: flex;
+		 flex-wrap: wrap;
+	}
+	[data-pf-type="Paragraph"].pf-97c2b7a8 {
+		display: flex;
+		 flex-wrap: wrap;
+	}
+	[data-pf-type="Paragraph"].pf-4d3d7112 {
+		display: flex;
+		 flex-wrap: wrap;
+	}
+	[data-pf-type="Paragraph"].pf-a62844ec {
+		display: flex;
+		 flex-wrap: wrap;
+	}
+	[data-pf-type="Block"].pf-62713501 {
+		width: 100%;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/weeds.png?12795");
+		 height: 400px;
+		 background-repeat: no-repeat;
+		 background-size: contain;
+		 background-position: 50% 50%;
+	}
+	[data-pf-type="Paragraph"].pf-6cbf6c6b {
+		display: flex;
+		 flex-wrap: wrap;
+	}
+	[data-pf-type="Paragraph"].pf-79c36c53 {
+		background-color: rgb(19, 18, 18);
+		 font-size: 12px;
+	}
+	[data-pf-type="Block"].pf-7a9949b6 {
+		width: 100%;
+		 height: 260px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pic-2-4.jpg?12797");
+		 background-position: 50% 50%;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 margin-top: 20px;
+		 display: flex;
+		 flex-direction: column;
+		 place-content: flex-end;
+	}
+	[data-pf-type="Column"].pf-eda5b149 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+	}
+	[data-pf-type="Block"].pf-c458a5c9 {
+		width: 100%;
+		 height: 280px;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 background-position: 50% 50%;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pigeon-pea.jpg?12799");
+	}
+	[data-pf-type="Paragraph"].pf-f4381b0d {
+		display: flex;
+		 flex-wrap: wrap;
+	}
+	[data-pf-type="Column"].pf-de1ef9a8 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+	}
+	[data-pf-type="Row"].pf-7d4f9df7 {
+		display: flex;
+		 flex-direction: column;
+		 align-items: center;
+		 place-content: center;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	[data-pf-type="Block"].pf-3eb7f5bc {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7a081def-62cf-49e8-a4a4-6b015517fc5d--pic-2-1.jpg?49509");
+	}
+	[data-pf-type="Block"].pf-48abbce2 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-0649c281-52ac-4c2f-8d0b-16ee6302a921--little-waterfall.JPG?49513");
+	}
+	[data-pf-type="Block"].pf-6cca9f53 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7a081def-62cf-49e8-a4a4-6b015517fc5d--pic-2-1.jpg?49509");
+	}
+	[data-pf-type="Block"].pf-8dc2d8f1 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-0649c281-52ac-4c2f-8d0b-16ee6302a921--little-waterfall.JPG?49513");
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	[data-pf-type="Block"].pf-3eb7f5bc {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7a081def-62cf-49e8-a4a4-6b015517fc5d--pic-2-1.jpg?49509");
+	}
+	[data-pf-type="Block"].pf-48abbce2 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-0649c281-52ac-4c2f-8d0b-16ee6302a921--little-waterfall.JPG?49513");
+	}
+	[data-pf-type="Block"].pf-6cca9f53 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-7a081def-62cf-49e8-a4a4-6b015517fc5d--pic-2-1.jpg?49509");
+	}
+	[data-pf-type="Block"].pf-8dc2d8f1 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-0649c281-52ac-4c2f-8d0b-16ee6302a921--little-waterfall.JPG?49513");
+	}
+}
