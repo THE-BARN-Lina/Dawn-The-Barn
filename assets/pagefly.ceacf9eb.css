@@ -41,31 +41,31 @@
 					/* PageFly Styles */
 					
 @media all {
-	[data-pf-type="Paragraph"].pf-1652ad0f {
+	[data-pf-type="Paragraph"].pf-b29d0ae3 {
 		text-align: center;
 	}
-	[data-pf-type="Heading"].pf-eee9be22 {
+	[data-pf-type="Heading"].pf-6918e14f {
 		text-align: center;
 	}
-	[data-pf-type="Paragraph"].pf-d6988f5a {
+	[data-pf-type="Paragraph"].pf-b89f0123 {
 		text-align: center;
 	}
-	[data-pf-type="Paragraph"].pf-38cc4fc9 {
+	[data-pf-type="Paragraph"].pf-54a557c4 {
 		text-align: justify;
 		 margin-left: 20px;
 		 margin-right: 20px;
 	}
-	[data-pf-type="Block"].pf-c872a5e5 {
+	[data-pf-type="Block"].pf-13ef125e {
 		display: flex;
 		 flex-direction: row;
 		 align-items: center;
 		 place-content: center;
 		 width: 50%;
 	}
-	[data-pf-type="Paragraph"].pf-ed4603c3 {
+	[data-pf-type="Paragraph"].pf-9c87665a {
 		font-size: 10px;
 	}
-	[data-pf-type="Block"].pf-66eb245b {
+	[data-pf-type="Block"].pf-6cc80fbe {
 		display: flex;
 		 flex-direction: row;
 		 align-items: flex-end;
@@ -77,42 +77,42 @@
 		 background-position: 50% 0%;
 		 background-repeat: no-repeat;
 		 background-size: contain;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-f257be87-03dd-4aab-9486-bbecc710aef5--baked-coffee.jpg?129108");
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-225d16cc-bd30-4ffc-8d6b-309d932bfe4f--browning.jpg?46482");
 	}
-	[data-pf-type="Block"].pf-c8546678 {
+	[data-pf-type="Block"].pf-8d298aed {
 		display: flex;
 		 flex-direction: row;
 		 align-items: center;
 		 place-content: center;
 	}
-	[data-pf-type="Button"].pf-639a2463 {
+	[data-pf-type="Button"].pf-6d1c4b89 {
 		border: 2px solid rgb(145, 157, 169);
 	}
-	[data-pf-type="Column"].pf-a579acb1 {
+	[data-pf-type="Column"].pf-3d867fc8 {
 		display: flex;
 		 justify-content: center;
 		 margin-top: 20px;
 	}
 }
 @media only screen and (max-width: 767px) {
-	[data-pf-type="Section"].pf-3ebdc107 {
+	[data-pf-type="Section"].pf-e9cdcdd3 {
 		padding-top: 0px;
 		 padding-bottom: 0px;
 	}
-	[data-pf-type="Paragraph"].pf-38cc4fc9 {
+	[data-pf-type="Paragraph"].pf-54a557c4 {
 		margin-left: 0px;
 		 margin-right: 0px;
 	}
-	[data-pf-type="Block"].pf-c872a5e5 {
+	[data-pf-type="Block"].pf-13ef125e {
 		width: 90%;
 	}
-	[data-pf-type="Block"].pf-66eb245b {
+	[data-pf-type="Block"].pf-6cc80fbe {
 		width: 100%;
 		 margin-top: 50px;
 		 height: 260px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-f257be87-03dd-4aab-9486-bbecc710aef5--baked-coffee.jpg?129108");
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-225d16cc-bd30-4ffc-8d6b-309d932bfe4f--browning.jpg?46482");
 	}
-	[data-pf-type="Block"].pf-c8546678 {
+	[data-pf-type="Block"].pf-8d298aed {
 		display: flex;
 		 flex-direction: column;
 		 align-items: center;
@@ -120,38 +120,38 @@
 	}
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	[data-pf-type="Block"].pf-66eb245b {
-		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-f257be87-03dd-4aab-9486-bbecc710aef5--baked-coffee.jpg?129108");
+	[data-pf-type="Block"].pf-6cc80fbe {
+		background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-225d16cc-bd30-4ffc-8d6b-309d932bfe4f--browning.jpg?46482");
 	}
-	[data-pf-type="Column"].pf-a579acb1 {
+	[data-pf-type="Column"].pf-3d867fc8 {
 		margin-top: 20px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	[data-pf-type="Block"].pf-c872a5e5 {
+	[data-pf-type="Block"].pf-13ef125e {
 		width: 80%;
 	}
-	[data-pf-type="Block"].pf-66eb245b {
+	[data-pf-type="Block"].pf-6cc80fbe {
 		width: 75%;
 		 margin-top: 50px;
-		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-f257be87-03dd-4aab-9486-bbecc710aef5--baked-coffee.jpg?129108");
+		 background-image: url("https://cdn.shopify.com/s/files/1/0831/4141/t/144/assets/pf-225d16cc-bd30-4ffc-8d6b-309d932bfe4f--browning.jpg?46482");
 	}
-	[data-pf-type="Block"].pf-c8546678 {
+	[data-pf-type="Block"].pf-8d298aed {
 		display: flex;
 		 flex-direction: column;
 	}
-	[data-pf-type="Row"].pf-5f540ebe {
+	[data-pf-type="Row"].pf-38aee82e {
 		display: flex;
 		 flex-direction: column;
 		 place-content: center;
 	}
-	[data-pf-type="Column"].pf-a579acb1 {
+	[data-pf-type="Column"].pf-3d867fc8 {
 		margin-top: 0px;
 	}
-	[data-pf-type="Row"].pf-aa8c56e2 {
+	[data-pf-type="Row"].pf-7d59ebdc {
 		margin-top: 40px;
 	}
-	[data-pf-type="Section"].pf-46c3f7ea {
+	[data-pf-type="Section"].pf-8d932e7f {
 		display: flex;
 		 align-items: center;
 		 place-content: center;
