@@ -3,6 +3,7 @@
   "sections": {
     "16536485367ff1191d": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "16536485364024ce9d-0": {
           "type": "heading",
@@ -45,36 +46,6 @@
         "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "background-2"
-      }
-    },
-    "f1f91a99-9998-451e-8af1-938c3ccec34f": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "EASTER SPECIALS",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "spring-gift-specials",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "1a713986-dc37-4b66-b5cf-0705458ba228": {
@@ -253,7 +224,6 @@
   "order": [
     "16536485367ff1191d",
     "banner",
-    "f1f91a99-9998-451e-8af1-938c3ccec34f",
     "1a713986-dc37-4b66-b5cf-0705458ba228",
     "9aed932f-1130-4b01-8d78-81c28dfcac7f",
     "16609093955d46716e",
