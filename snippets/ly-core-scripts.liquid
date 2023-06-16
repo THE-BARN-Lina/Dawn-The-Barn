@@ -284,6 +284,15 @@
       form.submit();
     }
     static changeCurrency(code) {
+      let returnToUrl = window.location.pathname + window.location.search;
+      if(window.location.search.indexOf('?') >= 0) {
+        returnToUrl += '&currency=';
+      } else {
+        returnToUrl += '?currency=';
+      }
+      returnToUrl += code;
+      returnToUrl += window.location.hash;
+
       const params = [
         {
           name: 'currency_code',
@@ -291,7 +300,7 @@
         },
         {
           name: 'return_to',
-          value: window.location.pathname + window.location.search + window.location.hash
+          value: returnToUrl
         },
         {
           name: 'form_type',
