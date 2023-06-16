@@ -49,101 +49,6 @@
         "color_scheme": "accent-2"
       }
     },
-    "a7448949-597c-4acf-9228-f4b0aaaa634b": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Cyber Monday Special",
-            "heading_size": "h1"
-          }
-        },
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-1": {
-          "type": "text",
-          "settings": {
-            "text": "A rare opportunity to order one of our Masterpiece Coffees at a steal.",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-0",
-        "template--16299050041611__a7448949-597c-4acf-9228-f4b0aaaa634b-166921747003b1be11-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_5612.jpg",
-        "image_overlay_opacity": 60,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "4c42d88f-ef9a-4728-8982-3784d5c84fd0": {
-      "type": "featured-product",
-      "blocks": {
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "638d817d-56eb-4af8-9eae-72659de0952e": {
-          "type": "text",
-          "settings": {
-            "text": "Cyber Monday Special | Buy 100g of one of the most Exclusive Coffees we have: YEMEN ALCHEMY MASTERPIECE at an unbeatable price.",
-            "text_style": "body"
-          }
-        },
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-1",
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-2",
-        "638d817d-56eb-4af8-9eae-72659de0952e",
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-3",
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-5",
-        "template--16299050041611__4c42d88f-ef9a-4728-8982-3784d5c84fd0-1669216753b9134692-6"
-      ],
-      "settings": {
-        "product": "yemen-alchemy",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "8359b937-cd3a-4efc-8fa4-9e68c2500ceb": {
       "type": "featured-product",
       "blocks": {
@@ -219,50 +124,6 @@
         "padding_bottom": 36
       }
     },
-    "380b3502-1601-49fc-8ce5-83906ed3323d": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "COMANDANTE MASTERPIECE SPECIAL",
-            "heading_size": "h1"
-          }
-        },
-        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Buy your Comandante Grinder <br\/>today and receive for free 100g of one of the most Exclusive Coffees we <br\/>have: YEMEN ALCHEMY MASTERPIECE <\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "BUY NOW",
-            "button_link": "shopify:\/\/products\/comandante-masterpiece-special-black-friday"
-          }
-        }
-      },
-      "block_order": [
-        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-0",
-        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-1",
-        "template--16299050041611__380b3502-1601-49fc-8ce5-83906ed3323d-1669218995a4d665d7-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/EBC0FF2D-CCB2-4466-9BD0-60111442F322.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "80cf5954-02d1-44dc-b539-2235803e8a4b": {
       "type": "featured-product",
       "blocks": {
@@ -328,60 +189,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "7556fcc9-040c-42e9-aca6-03430bfa8971": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "KINTO TUMBLER  BUNDLE",
-            "heading_size": "h1"
-          }
-        },
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Order our practical black Kinto tumbler from Japan: <strong>And get 1x 250g of freshly roasted filter coffee for free.<\/strong> Select from our most favourite coffees. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "BUY NOW",
-            "button_link": "shopify:\/\/products\/kinto-tumbler-bundle"
-          }
-        }
-      },
-      "block_order": [
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-0",
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-1",
-        "template--16299050041611__7556fcc9-040c-42e9-aca6-03430bfa8971-166938651784b75f68-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/e9cfc453-5fd8-40e2-8fa4-b5ab5857d336_f32a5cfc-5ffd-4299-9e0f-1bce28ebdcb1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "7e63d166-e043-404d-836b-94a1f670b7c1",
     "banner",
-    "a7448949-597c-4acf-9228-f4b0aaaa634b",
-    "4c42d88f-ef9a-4728-8982-3784d5c84fd0",
     "8359b937-cd3a-4efc-8fa4-9e68c2500ceb",
-    "380b3502-1601-49fc-8ce5-83906ed3323d",
-    "80cf5954-02d1-44dc-b539-2235803e8a4b",
-    "7556fcc9-040c-42e9-aca6-03430bfa8971"
+    "80cf5954-02d1-44dc-b539-2235803e8a4b"
   ]
 }

@@ -1,36 +1,6 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
-    "1654097575f0867be6": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "1007c9b7-36cd-444b-b54c-c21721e06210": {
-          "type": "heading",
-          "settings": {
-            "heading": "Office Subscriptions",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "1007c9b7-36cd-444b-b54c-c21721e06210"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_8231.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "16618500908bb9c917": {
       "type": "rich-text",
       "blocks": {
@@ -54,36 +24,6 @@
         "padding_bottom": 24
       }
     },
-    "1651573600c50faa59": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "16515736008aaacc61-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "SELECT YOUR SUBSCRIPTION",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "16515736008aaacc61-0"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -91,29 +31,6 @@
         "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "background-2"
-      }
-    },
-    "16518336251bec1554": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "165183362505911af8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our most popular Coffee Subscriptions are now tailormade for the USA & Canada. <\/p><p><\/p><p><strong>CHEAPER & FASTER<br\/><\/strong>We ship fresh roast to our warehouse in the US. From there we send it out with local mail to you. No more hassle with customs - shipping included.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "165183362505911af8-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "1651574465fc19c571": {
@@ -224,11 +141,8 @@
     }
   },
   "order": [
-    "1654097575f0867be6",
     "16618500908bb9c917",
-    "1651573600c50faa59",
     "banner",
-    "16518336251bec1554",
     "1651574465fc19c571",
     "product-grid",
     "1661760318e2b0a378",
