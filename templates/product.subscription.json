@@ -67,6 +67,13 @@
             "show_dynamic_checkout": false
           }
         },
+        "c4426925-3b53-42b1-89ca-7b13ffb86d19": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{{product.metafields.custom.video.value}}"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -107,27 +114,6 @@
             "share_label": "Share"
           }
         },
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da": {
-          "type": "shopify:\/\/apps\/auction-pro\/blocks\/product-template-auction\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
-          "disabled": true,
-          "settings": {
-            "timer_bold": false,
-            "timer_font_size": 18,
-            "timer_colour": "#212b36",
-            "end_date_font_size": 16,
-            "current_bid_font_size": 18,
-            "bid_link_colour": "#136af6",
-            "current_bid_btn_colour": "#0053a0",
-            "current_bid_input_size": 15,
-            "current_bid_border_radius": 3,
-            "buy_it_now_font_size": 16,
-            "buy_it_now_btn_colour": "#0053a0",
-            "buy_it_now_size": 15,
-            "buy_it_now_border_radius": 3,
-            "automatic_bid_font_size": 16,
-            "automatic_bid_colour": "#136af6"
-          }
-        },
         "9b8f5bbf-0f5b-4ab9-8bdc-e4a03fe71793": {
           "type": "custom_liquid",
           "disabled": true,
@@ -154,12 +140,12 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "c4426925-3b53-42b1-89ca-7b13ffb86d19",
         "description",
         "collapsible-row-1",
         "collapsible-row-3",
         "collapsible-row-2",
         "share",
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da",
         "9b8f5bbf-0f5b-4ab9-8bdc-e4a03fe71793",
         "ca1cede1-3c87-47fe-a667-0fd458f832c9"
       ],
