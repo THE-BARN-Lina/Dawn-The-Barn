@@ -267,6 +267,54 @@
         "padding_bottom": 36
       }
     },
+    "6b5aef89-dfb6-44a7-929d-8e65b13ec372": {
+      "type": "multicolumn",
+      "blocks": {
+        "1cf57fc3-7c58-4618-bd6c-6a1792cff6de": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Beetroot_Flat_White.jpg",
+            "title": "Beetroot Flat White",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "shopify:\/\/pages\/signature-drink-april-beetroot-flatwhite",
+            "custom_liquid": ""
+          }
+        },
+        "07a08e63-3b2c-48b4-8231-4ec52a4cd31f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Russian_Flat_White_d2b567c1-f865-4156-8b03-e61c4e2ba0e8.jpg",
+            "title": "Rose Brew",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "shopify:\/\/pages\/russian-flat-white",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "1cf57fc3-7c58-4618-bd6c-6a1792cff6de",
+        "07a08e63-3b2c-48b4-8231-4ec52a4cd31f"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -281,6 +329,7 @@
     "ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce",
     "d95783bf-69f0-4b1e-a19b-30c0f10418d6",
     "20c0b28a-f333-4a9e-a0bb-11f832d4947f",
+    "6b5aef89-dfb6-44a7-929d-8e65b13ec372",
     "main"
   ]
 }
