@@ -207,6 +207,66 @@
         "padding_bottom": 36
       }
     },
+    "20c0b28a-f333-4a9e-a0bb-11f832d4947f": {
+      "type": "multicolumn",
+      "blocks": {
+        "d0acbbb7-8612-43ae-bfab-c98a4d079555": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Espresso_Lemonade.jpg",
+            "title": "Espresso Lemonade",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "shopify:\/\/pages\/dambi-uddo-espresso-lemonade",
+            "custom_liquid": ""
+          }
+        },
+        "1fca3ed7-5a07-4356-82f7-033dc040fb1b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rose_Brew_a51f4f60-2628-49e1-b5fd-c796f5d72615.jpg",
+            "title": "Rose Brew",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "shopify:\/\/pages\/rose-brew",
+            "custom_liquid": ""
+          }
+        },
+        "0da61da0-da92-4230-bbfa-2ba4a59fa18d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Caffe_Crudo.jpg",
+            "title": "Caffe Crudo",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "shopify:\/\/pages\/agua-del-caffe-crudo",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "d0acbbb7-8612-43ae-bfab-c98a4d079555",
+        "1fca3ed7-5a07-4356-82f7-033dc040fb1b",
+        "0da61da0-da92-4230-bbfa-2ba4a59fa18d"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -220,6 +280,7 @@
     "5a7d0b39-edcf-4004-b7a8-e06c98bf8264",
     "ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce",
     "d95783bf-69f0-4b1e-a19b-30c0f10418d6",
+    "20c0b28a-f333-4a9e-a0bb-11f832d4947f",
     "main"
   ]
 }
