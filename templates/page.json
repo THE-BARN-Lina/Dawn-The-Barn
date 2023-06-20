@@ -35,12 +35,24 @@
             "link": "https:\/\/thebarn.de\/pages\/yuzu-shake-tonic",
             "custom_liquid": ""
           }
+        },
+        "e2267534-8e31-42e8-99ed-a84c455758f5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mococa_Granada.jpg",
+            "title": "Mococa Granada",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "https:\/\/thebarn.de\/pages\/mococa-granada",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
         "template--17938059854091__5a7d0b39-edcf-4004-b7a8-e06c98bf8264-168726508135c8b7d9-0",
         "f1c5680b-c00c-429c-b608-6f68ebcd68e8",
-        "template--17938059854091__5a7d0b39-edcf-4004-b7a8-e06c98bf8264-168726508135c8b7d9-1"
+        "template--17938059854091__5a7d0b39-edcf-4004-b7a8-e06c98bf8264-168726508135c8b7d9-1",
+        "e2267534-8e31-42e8-99ed-a84c455758f5"
       ],
       "custom_css": [
         ".multicolumn .title-wrapper-with-link {display: flex; flex-direction: column; align-items: center;}"
@@ -50,7 +62,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
