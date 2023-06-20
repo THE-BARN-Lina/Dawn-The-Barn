@@ -49,7 +49,7 @@
         "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-2"
       ],
       "custom_css": [
-        ".multicolumn .title-wrapper-with-link{display: flex; flex-direction: column;}"
+        ".multicolumn .title-wrapper-with-link {display: flex; flex-direction: column;}"
       ],
       "settings": {
         "title": "BREW GUIDES",
@@ -68,10 +68,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "899fa13f-008e-4807-a140-49a99843c9be": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You might like",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "brew-guide",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "pf-127bafe4",
-    "d0063155-43ed-4395-9fe4-244577feb9b4"
+    "d0063155-43ed-4395-9fe4-244577feb9b4",
+    "899fa13f-008e-4807-a140-49a99843c9be"
   ]
 }
