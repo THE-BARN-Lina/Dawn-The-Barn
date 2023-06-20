@@ -44,7 +44,6 @@
           </a>
         {%- endif -%}
       </div>
-              <h2> I love coffee</h2>
     {%- endunless -%}
     {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
       <slider-component class="slider-mobile-gutter">
@@ -71,6 +70,7 @@
           </div>
         {%- endif -%}
       </slider-component>
+              <h2> I love coffee</h2>
 
       {%- if section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
         <div class="blog__view-all center small-hide medium-hide">
