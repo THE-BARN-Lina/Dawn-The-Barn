@@ -75,6 +75,66 @@
         "padding_bottom": 36
       }
     },
+    "ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17938059854091__ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce-168726508135c8b7d9-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coffee_Paloma.jpg",
+            "title": "Coffee Paloma",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "https:\/\/thebarn.de\/pages\/coffee-paloma",
+            "custom_liquid": ""
+          }
+        },
+        "template--17938059854091__ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce-168726508135c8b7d9-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Winter_Flat_White.jpg",
+            "title": "Winter Flat White",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "https:\/\/thebarn.de\/pages\/winter-flat-white-rooibos-style",
+            "custom_liquid": ""
+          }
+        },
+        "template--17938059854091__ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce-168726508135c8b7d9-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Freimeister_Drinks.jpg",
+            "title": "Freimeister Drinks",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "https:\/\/thebarn.de\/pages\/winter-flat-white-rooibos-style",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17938059854091__ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce-168726508135c8b7d9-0",
+        "template--17938059854091__ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce-168726508135c8b7d9-1",
+        "template--17938059854091__ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce-168726508135c8b7d9-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -86,6 +146,7 @@
   },
   "order": [
     "5a7d0b39-edcf-4004-b7a8-e06c98bf8264",
+    "ac49f71f-b4a3-4874-bbe7-8ef354b8b0ce",
     "main"
   ]
 }
