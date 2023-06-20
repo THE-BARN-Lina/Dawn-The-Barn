@@ -2,11 +2,70 @@
   "sections": {
     "pf-127bafe4": {
       "type": "pf-127bafe4",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "d0063155-43ed-4395-9fe4-244577feb9b4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-0": {
+          "type": "column",
+          "settings": {
+            "title": "Hario V60",
+            "text": "<p>The Hario V60 is one of the most iconic drip brewers. The V60 is named after the angle that form its V-shape. The grooves on the inside the dripper support extraction along the side of the filter.<br\/><br\/>This full filtration creates extremely clean flavours while the paper filter also allows some of the coffee oils to pass through.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Chemex",
+            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<br\/><br\/>The paper used for Chemex filters is slightly thicker than most, which creates incredibly clean brews.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-0",
+        "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-1",
+        "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-2"
+      ],
+      "settings": {
+        "title": "BREW GUIDES",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "pf-127bafe4"
+    "pf-127bafe4",
+    "d0063155-43ed-4395-9fe4-244577feb9b4"
   ]
 }
