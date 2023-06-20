@@ -1,34 +1,79 @@
 {
   "sections": {
+    "5a7d0b39-edcf-4004-b7a8-e06c98bf8264": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17938059854091__5a7d0b39-edcf-4004-b7a8-e06c98bf8264-168726508135c8b7d9-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jasminefw_d716d85a-0cfd-4e1c-a049-e83ae1ddc7b9.jpg",
+            "title": "Jasmine Flat White",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "https:\/\/thebarn.de\/pages\/jasmine-flat-white",
+            "custom_liquid": ""
+          }
+        },
+        "f1c5680b-c00c-429c-b608-6f68ebcd68e8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SAKERATO_80279c60-aeb8-4eff-8f0d-0052d1cb82db.jpg",
+            "title": "Sakerato",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "https:\/\/thebarn.de\/pages\/sakerato",
+            "custom_liquid": ""
+          }
+        },
+        "template--17938059854091__5a7d0b39-edcf-4004-b7a8-e06c98bf8264-168726508135c8b7d9-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yuzu_Shake_Tonic.jpg",
+            "title": "Yuzu Shake Tonic",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "https:\/\/thebarn.de\/pages\/yuzu-shake-tonic",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17938059854091__5a7d0b39-edcf-4004-b7a8-e06c98bf8264-168726508135c8b7d9-0",
+        "f1c5680b-c00c-429c-b608-6f68ebcd68e8",
+        "template--17938059854091__5a7d0b39-edcf-4004-b7a8-e06c98bf8264-168726508135c8b7d9-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "SIGNATURE DRINKS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 32
       }
-    },
-    "1659101550da353959": {
-      "type": "newsletter-sign-up",
-      "settings": {
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "31033833-9178-488e-970f-116ecc17b10a": {
-      "type": "Video-With-Text",
-      "settings": {
-        "video_id": "VnAQDO-fg6M",
-        "overlay": "",
-        "video_height": 70,
-        "video_autoplay": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "main",
-    "1659101550da353959",
-    "31033833-9178-488e-970f-116ecc17b10a"
+    "5a7d0b39-edcf-4004-b7a8-e06c98bf8264",
+    "main"
   ]
 }
