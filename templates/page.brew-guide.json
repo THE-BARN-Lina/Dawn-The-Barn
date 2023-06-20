@@ -49,7 +49,7 @@
         "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-2"
       ],
       "custom_css": [
-        ".multicolumn h2{display: flex; flex-direction: row; align-items: center; justify-content: center;}"
+        ".multicolumn .title-wrapper-with-link{display: flex; flex-direction: column;}"
       ],
       "settings": {
         "title": "BREW GUIDES",
