@@ -153,21 +153,32 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shakerato_e44e5c4a-0590-420f-bd54-46fc6e0a14b8.jpg",
-            "title": "Shakerato",
+            "title": "Iced Shakerato",
             "text": "",
             "link_label": "Recipe",
-            "link": "https:\/\/thebarn.de\/pages\/winter-signature-drinks",
+            "link": "shopify:\/\/pages\/shakerato",
             "custom_liquid": ""
           }
         },
         "ee5ae48b-c0af-4f1f-a60d-ecd962996657": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Freimeister_Drinks.jpg",
-            "title": "Freimeister Drinks",
+            "image": "shopify:\/\/shop_images\/Aeropress_Goji.jpg",
+            "title": "Aeropress Goji",
             "text": "",
             "link_label": "Recipe",
             "link": "https:\/\/thebarn.de\/pages\/freimeisteskollektiv-drinks",
+            "custom_liquid": ""
+          }
+        },
+        "39187344-3eda-470e-aaa2-5663992f1103": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sherbet_75f2c522-e436-4635-b4f9-455ccc7d4fe0.jpg",
+            "title": "Sherbet",
+            "text": "",
+            "link_label": "Recipe",
+            "link": "shopify:\/\/pages\/sherbet-mohammed-ali",
             "custom_liquid": ""
           }
         }
@@ -175,14 +186,15 @@
       "block_order": [
         "c5dd88e7-e0fe-418d-be6f-0cdd4cd954ad",
         "33bf5b81-3d03-46dd-b927-18efb1df8d73",
-        "ee5ae48b-c0af-4f1f-a60d-ecd962996657"
+        "ee5ae48b-c0af-4f1f-a60d-ecd962996657",
+        "39187344-3eda-470e-aaa2-5663992f1103"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "image_ratio": "square",
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
