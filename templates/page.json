@@ -43,7 +43,7 @@
         "template--17938059854091__5a7d0b39-edcf-4004-b7a8-e06c98bf8264-168726508135c8b7d9-1"
       ],
       "custom_css": [
-
+        ".multicolumn .title-wrapper-with-link {display: flex; flex-direction: column; align-items: center;}"
       ],
       "settings": {
         "title": "SIGNATURE DRINKS",
