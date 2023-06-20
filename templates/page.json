@@ -21,7 +21,7 @@
             "title": "Sakerato",
             "text": "",
             "link_label": "Recipe",
-            "link": "https:\/\/thebarn.de\/pages\/sakerato",
+            "link": "shopify:\/\/pages\/sakerato",
             "custom_liquid": ""
           }
         },
