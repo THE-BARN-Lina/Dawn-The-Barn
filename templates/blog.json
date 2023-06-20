@@ -14,6 +14,7 @@
     },
     "db92d7ab-3ef5-4851-8620-59957c34e35a": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
