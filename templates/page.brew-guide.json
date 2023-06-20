@@ -48,6 +48,9 @@
         "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-1",
         "template--17938053136651__d0063155-43ed-4395-9fe4-244577feb9b4-168725645051573d3a-2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "BREW GUIDES",
         "heading_size": "h1",
@@ -58,8 +61,8 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "link_as_button": false,
-        "color_scheme": "background-2",
+        "link_as_button": true,
+        "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
