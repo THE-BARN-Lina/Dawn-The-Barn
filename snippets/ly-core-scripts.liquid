@@ -1,4 +1,4 @@
-{%- comment -%}Version 4.1.1{%- endcomment -%}
+{%- comment -%}Version 4.1.3{%- endcomment -%}
 {%- comment -%}
   !!! IMPORTANT !!!
   This file has been automatically created by Langify.
@@ -237,15 +237,24 @@
       document.getElementsByTagName('head')[0].appendChild(script);
     }
     static localizationRedirect(type, code, additionalFields, additionalParams, domain) {
+      if(domain) {
+        var newDomain = domain;
+        if(domain.indexOf('redirected=true') === -1 && type === 'language_code') {
+          if(domain.indexOf('?') >= 0) {
+            newDomain += '&redirected=true';
+          } else {
+            newDomain += '?redirected=true';
+          }
+        }
+        window.location.href = newDomain;
+        return true;
+      }
+
       if(type !== 'country_code' && type !== 'language_code') { 
         return false; 
       }
       if(!additionalParams) {
         var additionalParams = '';
-      }
-      if(domain) {
-        window.location.href = domain;
-        return true;
       }
       var params = [
         {
@@ -286,9 +295,9 @@
     static changeCurrency(code) {
       let returnToUrl = window.location.pathname + window.location.search;
       if(window.location.search.indexOf('?') >= 0) {
-        returnToUrl += '&currency=';
+        returnToUrl += '&currency_code=';
       } else {
-        returnToUrl += '?currency=';
+        returnToUrl += '?currency_code=';
       }
       returnToUrl += code;
       returnToUrl += window.location.hash;
@@ -533,9 +542,10 @@
           translateNodeAttrs(node);
         }
         // Links-Hook
-        if (node.nodeName  === 'A' || node.nodeName  === 'FORM') {
-          if(node.hasAttribute('href')) var attrName = 'href';
-          else var attrName = 'action';
+        if (node.nodeName  === 'A' || node.nodeName  === 'FORM' || node.nodeName  === 'IMG') {
+          if(node.hasAttribute('href')) {var attrName = 'href';}
+          else if(node.hasAttribute('data-href')) {var attrName = 'data-href';}
+          else {var attrName = 'action';}
           var url = node.getAttribute(attrName);
           translateLink(url, node);
         }
@@ -624,7 +634,9 @@
         var isUrlBlacklisted = blacklist.find(x => url.indexOf(x) === 0);
         if (!isUrlAbsolute && !isUrlBlacklisted && link.indexOf('/') != 0) {link = '/' + link;}
         if(!isLocalized && !isUrlAbsolute && !isUrlBlacklisted && langify.locale.root_url != '/' || force) {
-          if(node.hasAttribute('href')) var attrName = 'href'; else var attrName = 'action';
+          if(node.hasAttribute('href')) {var attrName = 'href';}
+          else if(node.hasAttribute('data-href')) {var attrName = 'data-href';}
+          else {var attrName = 'action';}
           if(link === '/' || link == langify.locale.root_url) link = '';
           var newLink = langify.locale.root_url + link;
           var timeStamp = Math.floor(Date.now());
@@ -980,7 +992,9 @@
           if(target) targets.push(target);
           for(var c = 0; c < targets.length; c++) {
             var clone = this.switcherElements[i].cloneNode(true);
-            this.switcherElements[i].remove();
+            if(this.switcherElements[i].parentNode) {
+              this.switcherElements[i].remove();
+            }
             targets[c].innerHTML = clone.outerHTML;
           }
           this.switcherElements[i].classList.add('ly-hide');
