@@ -119,60 +119,6 @@
         "padding_bottom": 64
       }
     },
-    "550bad91-bd7c-428d-b01d-b1a12420b001": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "7c004cde-aa17-4fcc-9a10-f9ab83819e27": {
-          "type": "caption",
-          "settings": {
-            "caption": "",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "fc2067cd-78f5-4d98-8a27-55b990a12a38": {
-          "type": "heading",
-          "settings": {
-            "heading": "SUMMER SUBSCRIPTION",
-            "heading_size": "h2"
-          }
-        },
-        "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Explore the amazing world of Single Origin coffee beans. Your first delivery will include : <\/p><ul><li>A beautiful Sandstone Mug - or two! <\/li><li>And our cute enamel House Pin. <\/li><\/ul>",
-            "text_style": "body"
-          }
-        },
-        "b40f8898-27e9-404c-9fd4-4c7ad623d92e": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER HERE",
-            "button_link": "shopify:\/\/collections\/spring-gift-specials"
-          }
-        }
-      },
-      "block_order": [
-        "7c004cde-aa17-4fcc-9a10-f9ab83819e27",
-        "fc2067cd-78f5-4d98-8a27-55b990a12a38",
-        "9d0ecc79-ff98-4c5a-b3b4-af432ebdaf51",
-        "b40f8898-27e9-404c-9fd4-4c7ad623d92e"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_3284_3db89a44-8743-4a48-8797-de85944aea76.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
     "165900919845720bf8": {
       "type": "newsletter-sign-up",
       "custom_css": [
@@ -181,68 +127,6 @@
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1652970717af5972f9": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "1652970717eaeb9726-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-06-05_um_10.24.06.png",
-            "title": "El Marcelo, Colombia",
-            "text": "<p><strong>Colombia that takes like Kenya.<\/strong><br\/>El Marcelo is back with crisp clarity. At over 2150 metres, high up on the Colombian Massif, Armel Moncayo makes the most of conditions where cherries slowly ripen. With delicious sweetness and clean acidity, its all about the altitude!<\/p>",
-            "link_label": "GET YOUR BAG",
-            "link": "https:\/\/thebarn.de\/products\/el-marcelo",
-            "custom_liquid": "<style>\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
-          }
-        },
-        "1c72e7b1-7525-4448-9224-c7e5ed0db70b": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/El_Vergel_Gesha.jpg",
-            "title": "El Vergel Gesha, Colombia",
-            "text": "<p><strong>Mango. Rose.<br\/><\/strong>We are excited to bring you this coffee, the newest addition to our <strong>Rarity Line<\/strong>. This coffee shows pronounced sweetness and vibrant complexity. Expect intense ripe mango and stone fruit, while delicate rose adds floral character.<\/p>",
-            "link_label": "ORDER HERE",
-            "link": "shopify:\/\/products\/el-vergel-gesha",
-            "custom_liquid": "<style>.media--square {\n  padding-bottom: 99%;}\n.multicolumn-card__info a {\ntext-decoration: none;\n  text-decoration: inherit; \n}\n\n<\/style>"
-          }
-        },
-        "1652970717eaeb9726-1": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/RILEY2020-Kambumbu-highres-8145_06560174-68f3-437c-8aba-a521954961d5.webp",
-            "title": "NEW FILTER DROP FROM KENYA",
-            "text": "<p>Giakanja AB has a bold and complex profile with the sweetness of ripe berries. A hint of orange zest and the sweet touch of vanilla round off a beautifully refined filter.<\/p>",
-            "link_label": "ORDER HERE",
-            "link": "shopify:\/\/products\/giakanja-ab",
-            "custom_liquid": ""
-          }
-        }
-      },
-      "block_order": [
-        "1652970717eaeb9726-0",
-        "1c72e7b1-7525-4448-9224-c7e5ed0db70b",
-        "1652970717eaeb9726-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "link_as_button": true,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 16,
-        "padding_bottom": 16
       }
     },
     "165339081846c57155": {
@@ -275,60 +159,6 @@
         "swipe_on_mobile": false,
         "padding_top": 32,
         "padding_bottom": 16
-      }
-    },
-    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "25a5c07b-9386-4266-a2cf-aeac850247f2": {
-          "type": "caption",
-          "settings": {
-            "caption": "COFFEE SUBSCRIPTION",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "FILTER SUBSCRIPTION",
-            "heading_size": "h2"
-          }
-        },
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>With our curated subscription you receive two new coffees every month (2x 250g). This is the most popular subscription we offer.  <\/p><p>In March, you receive these coffees:<\/p><ul><li><a href=\"\/products\/bumba-hill\" target=\"_blank\" title=\"BUMBA HILL\">Bumba Hill, Burundi<\/a>: <strong>Tangerine. Rose.<\/strong><\/li><li><a href=\"\/products\/sundrop\" target=\"_blank\" title=\"SUNDROP\">Sundrop, Brazil<\/a>: <strong>Caramel. Prune.<\/strong><\/li><\/ul>",
-            "text_style": "body"
-          }
-        },
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SUBSCRIBE NOW",
-            "button_link": "shopify:\/\/products\/curated-subscription-monthly"
-          }
-        }
-      },
-      "block_order": [
-        "25a5c07b-9386-4266-a2cf-aeac850247f2",
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-0",
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-1",
-        "template--16083011076363__ccb4fcd6-64bb-45af-a673-75d70cac4dfc-1666342277de8daea6-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Filter_coffee_made_from_origami_dripper.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 64
       }
     },
     "16515783060899e67e": {
@@ -495,11 +325,8 @@
     "image_banner",
     "1653387743507b82e2",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
-    "550bad91-bd7c-428d-b01d-b1a12420b001",
     "165900919845720bf8",
-    "1652970717af5972f9",
     "165339081846c57155",
-    "ccb4fcd6-64bb-45af-a673-75d70cac4dfc",
     "16515783060899e67e",
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
