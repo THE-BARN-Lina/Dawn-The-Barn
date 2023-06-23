@@ -157,21 +157,21 @@
             "type": "text",
             "settings": {
               "heading": "SUBSCRIPTIONS",
-              "subtext": "<h5><a href=\"https:\/\/thebarn.de\/collections\/subscriptions\" title=\"https:\/\/thebarn.de\/collections\/subscriptions\">Your Choices<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/subscriptions\" title=\"https:\/\/thebarn.de\/collections\/subscriptions\">Gift Choices<\/a><\/h5>"
+              "subtext": "<h5><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">Your Choices<\/a><br\/><a href=\"\/collections\/subscription-gifts\" title=\"Subscription Gifts\">Gift Choices<\/a><\/h5>"
             }
           },
           "c75a1e9a-7872-4221-bedc-9fb59a8601e6": {
             "type": "text",
             "settings": {
               "heading": "SHOP",
-              "subtext": "<h5><a href=\"https:\/\/thebarn.de\/collections\/beans\" title=\"https:\/\/thebarn.de\/collections\/beans\">Beans<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/instant-drip\" title=\"https:\/\/thebarn.de\/collections\/instant-drip\">Instant & Drip Bags<\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/capsules\" title=\"https:\/\/thebarn.de\/collections\/capsules\">Capsules <\/a><br\/><a href=\"https:\/\/thebarn.de\/collections\/equipment\" title=\"https:\/\/thebarn.de\/collections\/equipment\">Equipment <br\/><\/a><a href=\"https:\/\/thebarn.de\/collections\/merchandise\" title=\"https:\/\/thebarn.de\/collections\/merchandise\">Merchandise<\/a> <br\/><a href=\"https:\/\/thebarn.de\/collections\/vouchers\" title=\"https:\/\/thebarn.de\/collections\/vouchers\">Vouchers<\/a><\/h5>"
+              "subtext": "<h5><a href=\"\/collections\/beans\" title=\"COFFEE BEANS\">Beans<\/a><br\/><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<\/a><br\/><a href=\"\/collections\/capsules\" title=\"CAPSULES\">Capsules <\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment <br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a> <br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h5>"
             }
           },
           "33c97cbe-0f9e-4981-998f-81e7ff9b9679": {
             "type": "text",
             "settings": {
               "heading": "ABOUT",
-              "subtext": "<h5> <a href=\"https:\/\/thebarn.de\/pages\/aboutus\" title=\"https:\/\/thebarn.de\/pages\/aboutus\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team <\/a><br\/><a href=\"https:\/\/thebarn.de\/pages\/locations\" title=\"https:\/\/thebarn.de\/pages\/locations\">Locations<br\/><\/a><a href=\"https:\/\/thebarn.de\/pages\/careers\" title=\"https:\/\/thebarn.de\/pages\/careers\">Careers<\/a><\/h5>"
+              "subtext": "<h5> <a href=\"\/pages\/aboutus\" title=\"About Us\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team <\/a><br\/><a href=\"\/pages\/locations\" title=\"Locations\">Locations<br\/><\/a><a href=\"\/pages\/careers\" title=\"Careers\">Careers<\/a><\/h5>"
             }
           },
           "705afaa5-785a-40f3-9e83-5c853fe5b6aa": {
