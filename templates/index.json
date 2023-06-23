@@ -52,7 +52,7 @@
       ],
       "custom_css": [
         ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem;}",
-        ".slideshow__controls {display: none;}"
+        ".slideshow__controls {}"
       ],
       "settings": {
         "layout": "full_bleed",
