@@ -51,14 +51,15 @@
         "template--17938053923083__e9a827fe-3878-46b4-b6e7-281e5b824144-1687534740ca5061fe-1"
       ],
       "custom_css": [
-        ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem;}"
+        ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem;}",
+        ".slideshow__controls {display: none;}"
       ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 7,
+        "change_slides_speed": 9,
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
