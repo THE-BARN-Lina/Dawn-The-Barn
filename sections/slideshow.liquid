@@ -114,8 +114,8 @@
           {%- endif -%}
         </div>
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
-          <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
-            {%- if block.settings.heading != blank -%}
+          <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }} {% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}">
+            {%- if block.settings.heading != blank -%} 
               <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
@@ -123,9 +123,12 @@
                 <span>{{ block.settings.subheading | escape }}</span>
               </div>
             {%- endif -%}
-            {%- if block.settings.button_label != blank -%}
               <div class="banner__buttons">
-                <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+              {%- if block.settings.button_label_1 != blank -%}
+                <a{% if block.settings.link_1 %} href="{{ block.settings.link_1 }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary_1 %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</a>
+            {%- endif -%}
+            {%- if block.settings.button_label_2 != blank -%}
+                <a{% if block.settings.link_2 %} href="{{ block.settings.link_2 }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary_2 %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</a>
               </div>
             {%- endif -%}
           </div>
@@ -329,19 +332,37 @@
         },
         {
           "type": "text",
-          "id": "button_label",
+          "id": "button_label_1",
           "default": "Button label",
           "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
           "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
         },
         {
           "type": "url",
-          "id": "link",
+          "id": "link_1",
           "label": "t:sections.slideshow.blocks.slide.settings.link.label"
         },
         {
           "type": "checkbox",
-          "id": "button_style_secondary",
+          "id": "button_style_secondary_1",
+          "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "default": "Button label",
+          "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
+          "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "link_2",
+          "label": "t:sections.slideshow.blocks.slide.settings.link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
           "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
           "default": false
         },
