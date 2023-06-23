@@ -200,8 +200,6 @@ a{
   <header class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
-      {% comment %} Language Switcher in Menu Mobile {% endcomment %}
-      <span class="ly-custom-0"></span> 
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
             <span>
@@ -370,6 +368,8 @@ a{
         </details>
       </header-drawer>
     {%- endif -%}
+     {% comment %} Language Switcher in Menu Mobile {% endcomment %}
+      <span class="ly-custom-0"></span> 
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
       <details-modal class="header__search">
