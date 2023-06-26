@@ -137,7 +137,6 @@
         "type": "header",
         "custom_css": [
           ".container-right-mega-menu {background-color: #ffffff; height: 260px; padding: 1rem; display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;}",
-          ".container-right-mega-menu-item {height: 220px; width: 220px; background-color: grey; display: flex; flex-direction: column; align-items: center; justify-content: center;}",
           ".li-mega-menu {display: flex; flex-direction: row; width: 260px;}",
           ".mega-menu__list {padding: 0px;}",
           ".list-menu__item {color: black; font-weight: bold;}"
