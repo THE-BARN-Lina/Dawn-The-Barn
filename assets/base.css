@@ -2158,7 +2158,6 @@ input[type='checkbox'] {
 
 .announcement-bar__link {
   display: flex;
-  align-self: center;
   width: 100%;
   align-items: center;
   padding: 1.6rem 2rem;
