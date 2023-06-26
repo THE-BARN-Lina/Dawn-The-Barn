@@ -2157,11 +2157,20 @@ input[type='checkbox'] {
 }
 
 .announcement-bar__link {
-  display: block;
+  display: flex;
+  align-self: center;
+  width: 100%;
+  align-items: center;
+  padding: 1.6rem 2rem;
+  text-decoration: none;
+  justify-content: space-around;
+  
+  /*this code below is the original*/
+  /*display: block;
   width: 100%;
   height: 42.18px;
   padding: 1.3rem 2rem;
-  text-decoration: none;
+  text-decoration: none;*/
 }
 
 .announcement-bar__link:hover {
