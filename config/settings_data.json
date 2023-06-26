@@ -140,7 +140,8 @@
           ".container-right-mega-menu-item {height: 220px; width: 220px; background-color: grey; display: flex; flex-direction: column; align-items: center; justify-content: center;}",
           ".li-mega-menu {display: flex; flex-direction: row; width: 260px;}",
           ".mega-menu__list {padding: 0px;}",
-          ".list-menu__item {color: black;}"
+          ".list-menu__item {color: black;}",
+          "header{border-bottom: none !important;}"
         ],
         "settings": {
           "color_scheme": "background-1",
