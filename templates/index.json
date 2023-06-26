@@ -1,5 +1,65 @@
 {
   "sections": {
+    "4bba18e4-5ffc-416a-8ec1-b2ff90cefec1": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero_landing_page_THE_BARN_Specialty_coffee_roasters_619ae834-de2c-4c40-bd81-80bc1c03065a.png",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label_1": "Button label",
+            "link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/82041b76-de41-47e5-bdd7-653d8b2d6c4c.jpg",
+            "heading": "FRESH ARRIVAL",
+            "heading_size": "h1",
+            "subheading": "JUANACHUTE ANAEROBIC - COSTA RICA",
+            "button_label_1": "ORDER HERE",
+            "link_1": "shopify:\/\/products\/juanachute",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-0",
+        "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -322,6 +382,7 @@
     }
   },
   "order": [
+    "4bba18e4-5ffc-416a-8ec1-b2ff90cefec1",
     "image_banner",
     "1653387743507b82e2",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
