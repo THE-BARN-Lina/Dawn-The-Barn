@@ -872,23 +872,30 @@ onScroll() {
   
 //////////////// open maxi nav box when hover /////////////////////////////
   
-// Get all the menu items
+// Get all the menu items and menu item headers
 const menuItems = document.querySelectorAll('.mega-menu');
+const menuItemHeaders = document.querySelectorAll('.header__menu-item');
 
-// Attach event listeners to each menu item
-  
-menuItems.forEach((menuItem) => {
-  // Show the mega menu when hovering over the parent menu item
-  menuItem.addEventListener('mouseenter', function () {
-    this.setAttribute('open', 'open');
-  });
+// Attach event listeners to each menu item header to open the menu
+menuItemHeaders.forEach((menuItemHeader) => {
+  // Get the parent .mega-menu of this .header__menu-item
+  const menuItem = menuItemHeader.closest('.mega-menu');
 
-  // Hide the mega menu when moving the mouse away from the parent menu item
-  
-  menuItem.addEventListener('mouseleave', function () {
-    this.removeAttribute('open');
+  // Show the mega menu when hovering over the header
+  menuItemHeader.addEventListener('mouseenter', function () {
+    menuItem.setAttribute('open', 'open');
   });
 });
+
+// Attach event listeners to each menu item to close the menu
+menuItems.forEach((menuItem) => {
+  // Hide the mega menu when moving the mouse away from the menu item
+  menuItem.addEventListener('mouseleave', function () {
+    menuItem.removeAttribute('open');
+  });
+});
+
+
 
 ////////////////////////////////////////////////////////////////////////
 
