@@ -117,15 +117,19 @@
 .mega-menu__link{
   color: white !important;
 }
-.mega-menu__content {
-  opacity: 0 ;
-  visibility: hidden ;
-  transition: opacity 1s ease, visibility 1s ease ;
+
+
+.mega-menu > .mega-menu__content {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
-.mega-menu[open] .mega-menu__content {
-  opacity: 1 ;
-  visibility: visible  ;
+
+.mega-menu[open] > .mega-menu__content {
+  opacity: 1;
+  visibility: visible;
 }
+
 
 
 .container-right-mega-menu {
@@ -871,7 +875,6 @@ onScroll() {
 
   
 //////////////// open maxi nav box when hover /////////////////////////////
-  
 // Get all the menu items and menu item headers
 const menuItems = document.querySelectorAll('.mega-menu');
 const menuItemHeaders = document.querySelectorAll('.header__menu-item');
@@ -883,6 +886,8 @@ menuItemHeaders.forEach((menuItemHeader) => {
 
   // Show the mega menu when hovering over the header
   menuItemHeader.addEventListener('mouseenter', function () {
+    // Clear any existing removal delay
+    clearTimeout(menuItem.getAttribute('data-remove-delay'));
     menuItem.setAttribute('open', 'open');
   });
 });
@@ -891,9 +896,15 @@ menuItemHeaders.forEach((menuItemHeader) => {
 menuItems.forEach((menuItem) => {
   // Hide the mega menu when moving the mouse away from the menu item
   menuItem.addEventListener('mouseleave', function () {
-    menuItem.removeAttribute('open');
+    // Delay the removal of the open attribute by 0.5s (half the previous delay)
+    const removeDelay = setTimeout(() => {
+      menuItem.removeAttribute('open');
+    }, 500);
+    menuItem.setAttribute('data-remove-delay', removeDelay);
   });
 });
+
+
 
 
 
