@@ -1,50 +1,7 @@
 {
   "sections": {
-    "e9a827fe-3878-46b4-b6e7-281e5b824144": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17938053923083__e9a827fe-3878-46b4-b6e7-281e5b824144-1687534740ca5061fe-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Hero_landing_page_THE_BARN_Specialty_coffee_roasters_619ae834-de2c-4c40-bd81-80bc1c03065a.png",
-            "heading": "BREW · SIP · REMEMBER",
-            "heading_size": "h1",
-            "subheading": "THE BARN IS A DIFFERENT COFFEE EXPERIENCE",
-            "button_label_1": "SUBSCRIPTIONS",
-            "link_1": "shopify:\/\/collections\/subscriptions",
-            "button_style_secondary_1": false,
-            "button_label_2": "BUY BEANS",
-            "link_2": "shopify:\/\/collections\/beans",
-            "button_style_secondary_2": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 40,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17938053923083__e9a827fe-3878-46b4-b6e7-281e5b824144-1687534740ca5061fe-0"
-      ],
-      "custom_css": [
-        ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem;}",
-        ".slideshow__controls {}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -365,7 +322,6 @@
     }
   },
   "order": [
-    "e9a827fe-3878-46b4-b6e7-281e5b824144",
     "image_banner",
     "1653387743507b82e2",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",

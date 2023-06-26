@@ -121,9 +121,9 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
             "settings": {
-              "text": "FRESH ARRIVAL: JUANACHUTE ANAEROBIC - COSTA RICA",
+              "text": "ANAEROBIC TWIN BOX: COSTA RICA VS ETHIOPIA",
               "color_scheme": "accent-2",
-              "link": "shopify:\/\/products\/juanachute"
+              "link": "https:\/\/thebarn.de\/products\/twin-box-anaerobic"
             }
           }
         },
@@ -136,9 +136,11 @@
       "header": {
         "type": "header",
         "custom_css": [
+          ".container-right-mega-menu {background-color: #ffffff; height: 260px; padding: 1rem; display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;}",
+          ".container-right-mega-menu-item {height: 220px; width: 220px; background-color: grey; display: flex; flex-direction: column; align-items: center; justify-content: center;}",
           ".li-mega-menu {display: flex; flex-direction: row; width: 260px;}",
           ".mega-menu__list {padding: 0px;}",
-          ".list-menu__item {color: black; font-weight: bold;}"
+          ".list-menu__item {color: black;}"
         ],
         "settings": {
           "color_scheme": "background-1",
@@ -147,7 +149,7 @@
           "logo_position": "top-center",
           "menu": "navigation_v2",
           "menu_type_desktop": "mega",
-          "show_line_separator": false,
+          "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0
         }
