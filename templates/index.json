@@ -50,6 +50,9 @@
         "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-0",
         "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-1"
       ],
+      "custom_css": [
+        ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
