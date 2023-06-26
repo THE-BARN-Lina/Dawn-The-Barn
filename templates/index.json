@@ -23,32 +23,10 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "template--17938053923083__e9a827fe-3878-46b4-b6e7-281e5b824144-1687534740ca5061fe-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/82041b76-de41-47e5-bdd7-653d8b2d6c4c.jpg",
-            "heading": "ANAEROBIC TWIN BOX",
-            "heading_size": "h1",
-            "subheading": "COSTA RICA VS ETHIOPIA",
-            "button_label_1": "ORDER HERE",
-            "link_1": "shopify:\/\/products\/twin-box-anaerobic",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary_2": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 40,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "template--17938053923083__e9a827fe-3878-46b4-b6e7-281e5b824144-1687534740ca5061fe-0",
-        "template--17938053923083__e9a827fe-3878-46b4-b6e7-281e5b824144-1687534740ca5061fe-1"
+        "template--17938053923083__e9a827fe-3878-46b4-b6e7-281e5b824144-1687534740ca5061fe-0"
       ],
       "custom_css": [
         ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem;}",
