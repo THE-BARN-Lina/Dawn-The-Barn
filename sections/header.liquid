@@ -208,7 +208,7 @@ a{
   flex-direction: row;
   align-items: center;
 
-  width: 100px;
+  min-width: 100px !important;
   margin-left: 2rem;
 }
 
@@ -402,7 +402,7 @@ a{
                     {%- endif -%}
                   </ul>
                   {% comment %} Language Switcher in Menu Mobile {% endcomment %}
-                  <span class="ly-custom-0"></span>
+                  {% comment %} <span class="ly-custom-0"></span> {% endcomment %}
                 </div>
               </div>
             </div>
