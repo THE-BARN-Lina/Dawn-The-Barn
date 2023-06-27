@@ -171,7 +171,7 @@
             "type": "text",
             "settings": {
               "heading": "SHOP",
-              "subtext": "<h5><a href=\"\/collections\/beans\" title=\"COFFEE BEANS\">Beans<\/a><br\/><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<\/a><br\/><a href=\"\/products\/specialty-coffee-capsules\" title=\"COFFEE CAPSULES\">Capsules <\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment <br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a> <br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h5>"
+              "subtext": "<h5><a href=\"\/collections\/beans\" title=\"COFFEE BEANS\">Beans<\/a><br\/><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<\/a><br\/><a href=\"\/products\/specialty-coffee-capsules\" target=\"_blank\" title=\"COFFEE CAPSULES\">Capsules <\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment <br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a> <br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h5>"
             }
           },
           "33c97cbe-0f9e-4981-998f-81e7ff9b9679": {
