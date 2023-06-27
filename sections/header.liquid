@@ -229,10 +229,14 @@ a{
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
+            
             <span>
               {% render 'icon-hamburger' %}
               {% render 'icon-close' %}
+              <span class="ly-custom-0"></span>
             </span>
+
+
           </summary>
           <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
             <div class="menu-drawer__inner-container">
@@ -409,7 +413,6 @@ a{
               <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-close">
               </svg>
-              <span class="ly-custom-0"></span>
 
             </span>
           </summary>
