@@ -239,15 +239,13 @@ a{
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
-          <div class="burger_switcher_container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
               <span>
               {% render 'icon-hamburger' %}
               {% render 'icon-close' %}
               </span>
               </summary>
-              <span class="ly-custom-0"></span>
-              </div>
+          
           <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
             <div class="menu-drawer__inner-container">
               <div class="menu-drawer__navigation-container">
