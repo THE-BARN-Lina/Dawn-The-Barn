@@ -199,7 +199,7 @@
             "type": "text",
             "settings": {
               "heading": "BLOG",
-              "subtext": "<h5><a href=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\" title=\"https:\/\/thebarn.de\/blogs\/the-barn-blog\">Articles & Education <br\/><\/a><a href=\"\/pages\/brew-guides\" title=\"Brew Guides\">Brew Guides<\/a><a href=\"\/pages\/signature-drinks\" title=\"SIGNATURE DRINKS\"><br\/>Signature Drinks<\/a><\/h5>"
+              "subtext": "<h5><a href=\"\/blogs\/the-barn-blog\" title=\"BLOG\">Articles & Education <br\/><\/a><a href=\"\/pages\/brew-guides\" title=\"Brew Guides\">Brew Guides<\/a><a href=\"\/pages\/signature-drinks\" title=\"SIGNATURE DRINKS\"><br\/>Signature Drinks<\/a><\/h5>"
             }
           },
           "780a470e-2fa4-4e1a-9954-6422d2b44db5": {
