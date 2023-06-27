@@ -51,6 +51,13 @@
     "1a713986-dc37-4b66-b5cf-0705458ba228": {
       "type": "rich-text",
       "blocks": {
+        "7e367069-124c-4280-bd07-dbad26e1b657": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>CHOOSE YOUR FAVORITE COFFEE<\/p>",
+            "heading_size": "h1"
+          }
+        },
         "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-1": {
           "type": "text",
           "settings": {
@@ -67,6 +74,7 @@
         }
       },
       "block_order": [
+        "7e367069-124c-4280-bd07-dbad26e1b657",
         "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-1",
         "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-0"
       ],
