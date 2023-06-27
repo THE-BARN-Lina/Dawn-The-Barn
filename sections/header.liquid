@@ -203,6 +203,10 @@ a{
   color: rgb(128, 77, 21) !important;
 }
 
+.burger_switcher_container{
+  display:flex;
+  flex-direction: row;
+}
 
 ///////////////////////////////////////////
 
@@ -229,7 +233,7 @@ a{
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
-            <div style="display: flex;">
+            <div class="burger_switcher_container">
               <span>
               {% render 'icon-hamburger' %}
               {% render 'icon-close' %}
