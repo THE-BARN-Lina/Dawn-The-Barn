@@ -130,8 +130,6 @@
   visibility: visible;
 }
 
-
-
 .container-right-mega-menu {
   background-color: rgb(28,28,28) !important;
   height: 360px !important ;
@@ -161,10 +159,6 @@
   justify-content: center !important;
 }
 
-
-
-
-
 .li-mega-menu {
   display: flex;
   flex-direction: row;
@@ -190,7 +184,6 @@
   display:flex;
   flex-direction: row;
   justify-content: center;
-
 }
 a{
   color: white;
@@ -202,7 +195,6 @@ a{
 .header__active-menu-item{
   color: rgb(128, 77, 21) !important;
 }
-
 .burger_switcher_container{
   display:flex;
   flex-direction: row;
@@ -215,6 +207,7 @@ a{
 .ly-languages-switcher-link{
   display:flex;
 }
+
 ///////////////////////////////////////////
 
 
@@ -890,41 +883,20 @@ onScroll() {
 
   
 //////////////// open maxi nav box when hover /////////////////////////////
-
 document.addEventListener('DOMContentLoaded', function() {
-  // Get all the menu items and menu item headers
   const menuItems = document.querySelectorAll('.mega-menu');
   const menuItemHeaders = document.querySelectorAll('.header__menu-item');
 
-  // Attach event listeners to each menu item header to open the menu
+  // Attach event listeners to each menu item header to open/close the menu on click
   menuItemHeaders.forEach((menuItemHeader) => {
-    // Get the parent .mega-menu of this .header__menu-item
     const menuItem = menuItemHeader.closest('.mega-menu');
+    const summaryElement = menuItem.querySelector('summary');
 
-    // Show the mega menu when hovering over the header
-    menuItemHeader.addEventListener('mouseenter', function () {
-      // Clear any existing removal delay
-      clearTimeout(menuItem.getAttribute('data-remove-delay'));
-      menuItem.setAttribute('open', 'open');
-    });
-  });
-
-  // Attach event listeners to each menu item to close the menu
-  menuItems.forEach((menuItem) => {
-    // Hide the mega menu when moving the mouse away from the menu item
-    menuItem.addEventListener('mouseleave', function () {
-      // Delay the removal of the open attribute by 0.5s (half the previous delay)
-      const removeDelay = setTimeout(() => {
-        menuItem.removeAttribute('open');
-      }, 200);
-      menuItem.setAttribute('data-remove-delay', removeDelay);
+    menuItemHeader.addEventListener('click', function () {
+      summaryElement.click();
     });
   });
 });
-
-
-
-
 
 
 ////////////////////////////////////////////////////////////////////////
