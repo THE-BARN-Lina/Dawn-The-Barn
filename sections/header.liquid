@@ -881,9 +881,9 @@ onScroll() {
   }
 
   customElements.define('sticky-header', StickyHeader);
-
+////////////////////////////////////////////////////////////////////////////////////////
   
-  document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   const menuItems = document.querySelectorAll('.mega-menu');
   const menuItemHeaders = document.querySelectorAll('.header__menu-item');
 
@@ -892,21 +892,18 @@ onScroll() {
     const menuItem = menuItemHeader.closest('.mega-menu');
     const detailsElement = menuItem.querySelector('details');
 
-    menuItemHeader.addEventListener('click', function () {
-      const isOpen = detailsElement.getAttribute('data-open');
+    menuItemHeader.addEventListener('focus', function () {
+      detailsElement.setAttribute('open', 'open');
+    });
 
-      if (isOpen === 'true') {
-        detailsElement.removeAttribute('data-open');
-      } else {
-        detailsElement.setAttribute('data-open', 'true');
-      }
+    menuItemHeader.addEventListener('blur', function () {
+      detailsElement.removeAttribute('open');
     });
   });
-
-  // Simulate a scroll event immediately after page load to trigger the mega-menu
-  window.scrollTo(0, 1);
-  window.scrollTo(0, 0);
 });
+
+
+
 
 
 
