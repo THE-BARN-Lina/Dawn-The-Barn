@@ -104,27 +104,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da": {
-          "type": "shopify:\/\/apps\/auction-pro\/blocks\/product-template-auction\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
-          "disabled": true,
-          "settings": {
-            "timer_bold": false,
-            "timer_font_size": 18,
-            "timer_colour": "#212b36",
-            "end_date_font_size": 16,
-            "current_bid_font_size": 18,
-            "bid_link_colour": "#136af6",
-            "current_bid_btn_colour": "#0053a0",
-            "current_bid_input_size": 15,
-            "current_bid_border_radius": 3,
-            "buy_it_now_font_size": 16,
-            "buy_it_now_btn_colour": "#0053a0",
-            "buy_it_now_size": 15,
-            "buy_it_now_border_radius": 3,
-            "automatic_bid_font_size": 16,
-            "automatic_bid_colour": "#136af6"
-          }
         }
       },
       "block_order": [
@@ -141,8 +120,7 @@
         "collapsible-row-3",
         "collapsible-row-0",
         "collapsible-row-1",
-        "share",
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -201,7 +179,8 @@
             "title": "Free Shipping",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         },
         "column-1": {
@@ -210,7 +189,8 @@
             "title": "Hassle-Free Exchanges",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "custom_liquid": ""
           }
         }
       },
