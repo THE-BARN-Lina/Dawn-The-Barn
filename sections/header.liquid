@@ -890,34 +890,38 @@ onScroll() {
 
   
 //////////////// open maxi nav box when hover /////////////////////////////
-// Get all the menu items and menu item headers
-const menuItems = document.querySelectorAll('.mega-menu');
-const menuItemHeaders = document.querySelectorAll('.header__menu-item');
 
-// Attach event listeners to each menu item header to open the menu
-menuItemHeaders.forEach((menuItemHeader) => {
-  // Get the parent .mega-menu of this .header__menu-item
-  const menuItem = menuItemHeader.closest('.mega-menu');
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all the menu items and menu item headers
+  const menuItems = document.querySelectorAll('.mega-menu');
+  const menuItemHeaders = document.querySelectorAll('.header__menu-item');
 
-  // Show the mega menu when hovering over the header
-  menuItemHeader.addEventListener('mouseenter', function () {
-    // Clear any existing removal delay
-    clearTimeout(menuItem.getAttribute('data-remove-delay'));
-    menuItem.setAttribute('open', 'open');
+  // Attach event listeners to each menu item header to open the menu
+  menuItemHeaders.forEach((menuItemHeader) => {
+    // Get the parent .mega-menu of this .header__menu-item
+    const menuItem = menuItemHeader.closest('.mega-menu');
+
+    // Show the mega menu when hovering over the header
+    menuItemHeader.addEventListener('mouseenter', function () {
+      // Clear any existing removal delay
+      clearTimeout(menuItem.getAttribute('data-remove-delay'));
+      menuItem.setAttribute('open', 'open');
+    });
+  });
+
+  // Attach event listeners to each menu item to close the menu
+  menuItems.forEach((menuItem) => {
+    // Hide the mega menu when moving the mouse away from the menu item
+    menuItem.addEventListener('mouseleave', function () {
+      // Delay the removal of the open attribute by 0.5s (half the previous delay)
+      const removeDelay = setTimeout(() => {
+        menuItem.removeAttribute('open');
+      }, 200);
+      menuItem.setAttribute('data-remove-delay', removeDelay);
+    });
   });
 });
 
-// Attach event listeners to each menu item to close the menu
-menuItems.forEach((menuItem) => {
-  // Hide the mega menu when moving the mouse away from the menu item
-  menuItem.addEventListener('mouseleave', function () {
-    // Delay the removal of the open attribute by 0.5s (half the previous delay)
-    const removeDelay = setTimeout(() => {
-      menuItem.removeAttribute('open');
-    }, 200);
-    menuItem.setAttribute('data-remove-delay', removeDelay);
-  });
-});
 
 
 
