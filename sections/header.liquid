@@ -563,7 +563,8 @@ a{
             <li>
               {%- if link.links != blank -%}
                 <header-menu>
-                  <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
+                  <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu" data-open="false">
+
                     <summary class="header__menu-item list-menu__item link focus-inset">
                       <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                       {% render 'icon-caret' %}
@@ -893,14 +894,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const detailsElement = menuItem.querySelector('details');
 
     menuItemHeader.addEventListener('click', function () {
-      if (detailsElement.hasAttribute('open')) {
-        detailsElement.removeAttribute('open');
+      const isOpen = detailsElement.getAttribute('data-open');
+
+      if (isOpen === 'true') {
+        detailsElement.removeAttribute('data-open');
       } else {
-        detailsElement.setAttribute('open', 'open');
+        detailsElement.setAttribute('data-open', 'true');
       }
     });
   });
 });
+
 
 
 
