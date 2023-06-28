@@ -208,6 +208,35 @@ a{
   display:flex;
 }
 
+.mega-menu__content {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.9s ease, visibility 0.9s ease;
+}
+
+.mega-menu[open] .mega-menu__content {
+  opacity: 1;
+  visibility: visible;
+}
+
+@keyframes fake-scroll {
+  from {
+    margin-top: 1px;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+
+.container-right-mega-menu {
+  /* Existing styles for the mega-menu container */
+  /* ... */
+  /* Add the following animation properties */
+  animation: fake-scroll 0.1s forwards;
+  animation-delay: 0.1s;
+}
+
+
 ///////////////////////////////////////////
 
 
@@ -881,7 +910,9 @@ onScroll() {
   }
 
   customElements.define('sticky-header', StickyHeader);
-////////////////////////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////Mega menu //////////////////////////////////////////////////
   
 document.addEventListener('DOMContentLoaded', function() {
   const menuItems = document.querySelectorAll('.mega-menu');
