@@ -890,13 +890,18 @@ document.addEventListener('DOMContentLoaded', function() {
   // Attach event listeners to each menu item header to open/close the menu on click
   menuItemHeaders.forEach((menuItemHeader) => {
     const menuItem = menuItemHeader.closest('.mega-menu');
-    const summaryElement = menuItem.querySelector('summary');
+    const detailsElement = menuItem.querySelector('details');
 
     menuItemHeader.addEventListener('click', function () {
-      summaryElement.click();
+      if (detailsElement.hasAttribute('open')) {
+        detailsElement.removeAttribute('open');
+      } else {
+        detailsElement.setAttribute('open', 'open');
+      }
     });
   });
 });
+
 
 
 ////////////////////////////////////////////////////////////////////////
