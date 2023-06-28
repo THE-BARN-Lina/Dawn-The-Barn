@@ -883,8 +883,7 @@ onScroll() {
   customElements.define('sticky-header', StickyHeader);
 
   
-//////////////// open maxi nav box when hover /////////////////////////////
-document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function() {
   const menuItems = document.querySelectorAll('.mega-menu');
   const menuItemHeaders = document.querySelectorAll('.header__menu-item');
 
@@ -903,7 +902,12 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+  // Simulate a scroll event immediately after page load to trigger the mega-menu
+  window.scrollTo(0, 1);
+  window.scrollTo(0, 0);
 });
+
 
 
 
