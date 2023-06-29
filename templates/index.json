@@ -484,6 +484,9 @@
         "9442c649-557b-41d3-a18d-6c43a935876b",
         "2e0d7f69-2a26-46cf-9e7e-a17b7053ecc1"
       ],
+      "custom_css": [
+        "p{font-size: 16px;}"
+      ],
       "settings": {
         "caption": "THE BARN AROUND THE WORLD",
         "heading": "HOLA",
