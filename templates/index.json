@@ -485,7 +485,7 @@
         "2e0d7f69-2a26-46cf-9e7e-a17b7053ecc1"
       ],
       "custom_css": [
-        ".collapsible-section-layout {padding-top: 0rem;}",
+        ".collapsible-section-layout {padding-top: 0.3rem;}",
         "p {font-size: 16px;}"
       ],
       "settings": {
