@@ -430,6 +430,7 @@
         "30b7b181-b377-49d2-96f2-c85f5ef67768"
       ],
       "custom_css": [
+        ".collapsible-section-layout {padding-top: 0rem;}",
         "p {font-size: 16px;}"
       ],
       "settings": {
