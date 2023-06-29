@@ -430,7 +430,6 @@
         "30b7b181-b377-49d2-96f2-c85f5ef67768"
       ],
       "custom_css": [
-        ".collapsible-section-layout {padding-top: 0rem;}",
         "p {font-size: 16px;}"
       ],
       "settings": {
@@ -486,7 +485,7 @@
         "2e0d7f69-2a26-46cf-9e7e-a17b7053ecc1"
       ],
       "custom_css": [
-        ".collapsible-section-layout {padding-bottom: 0rem; padding-top: 0rem;}",
+        ".collapsible-section-layout {padding-top: 0rem;}",
         "p {font-size: 16px;}"
       ],
       "settings": {
