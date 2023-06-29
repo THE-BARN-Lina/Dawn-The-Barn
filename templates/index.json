@@ -340,7 +340,7 @@
           "settings": {
             "heading": "SCHÖNHAUSER ALLEE",
             "icon": "map_pin",
-            "row_content": "",
+            "row_content": "<p><strong>Monday-Friday 08:00–18:00<br\/>Saturday-Sunday 10:00–18:00<br\/><\/strong><br\/><strong>Schönhauser Allee 8, 10119 Berlin<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/K6vJ6xd2hx6k9is47\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
             "page": "s8"
           }
         },
