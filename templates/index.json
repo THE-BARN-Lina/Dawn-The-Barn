@@ -504,65 +504,49 @@
         "padding_bottom": 36
       }
     },
-    "20d07d22-5246-491b-b6f2-edcabe969eef": {
-      "type": "multicolumn",
-      "disabled": true,
+    "c6587723-b5e9-4ec2-8118-ff9d1fdd1e58": {
+      "type": "rich-text",
       "blocks": {
-        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-0": {
-          "type": "column",
+        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/v60_brew_01e352cf-4ee4-40ec-b4f6-425ae15a33cc.jpg",
-            "title": "Hario V60",
-            "text": "<p>The Hario V60 is one of the most iconic drip brewers. You’ll see our baristas brewing with the V60 throughout our cafes as it delivers incredibly clear flavours and aromas, bringing out the best of the coffee to get a full experience.<\/p>",
-            "link_label": "V60 BREW GUIDE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/v60-drip",
-            "custom_liquid": ""
+            "heading": "<p>BREW · SIP · REMEMBER<\/p>",
+            "heading_size": "h1"
           }
         },
-        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-1": {
-          "type": "column",
+        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Chemex_with_mug.jpg",
-            "title": "Chemex",
-            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<\/p>",
-            "link_label": "CHEMEX BREW GUIDE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/chemex",
-            "custom_liquid": ""
+            "text": ""
           }
         },
-        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-2": {
-          "type": "column",
+        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-2": {
+          "type": "button",
           "settings": {
-            "image": "shopify:\/\/shop_images\/aeropress_e96a31c5-a789-47e6-8ee9-f2fa1189d19e.jpg",
-            "title": "Aeropress",
-            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee. The addition of paper filters and a rubber seal results in excellent extraction.<\/p>",
-            "link_label": "AEROPRESS BREW GUIDE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/aeropress",
-            "custom_liquid": ""
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-0",
-        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-1",
-        "template--16216418910475__20d07d22-5246-491b-b6f2-edcabe969eef-16742110704f1b8e3d-2"
+        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-0",
+        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-1",
+        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-2"
+      ],
+      "custom_css": [
+        ".rich-text {border-bottom: 15px solid #804d15;}"
       ],
       "settings": {
-        "title": "Explore our brew guides",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "link_as_button": true,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 20
       }
     }
   },
@@ -578,6 +562,6 @@
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "9548d051-e9a3-422f-91dd-584c92a394fd",
-    "20d07d22-5246-491b-b6f2-edcabe969eef"
+    "c6587723-b5e9-4ec2-8118-ff9d1fdd1e58"
   ]
 }
