@@ -349,7 +349,7 @@
           "settings": {
             "heading": "ROSENTHALER PLATZ",
             "icon": "map_pin",
-            "row_content": "<p><strong>Monday-Friday 08:00–18:00<br\/>Saturday-Sunday 10:00–18:00<br\/><\/strong><br\/><strong>Weinbergsweg 1, 10119 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/JWbQeNypciH6u6yk7\" target=\"_blank\">View on Map<\/a><br\/>-<\/p>",
+            "row_content": "<p>Monday-Friday 08:00 – 18:00<br\/>Saturday-Sunday 10:00 – 18:00<strong><br\/><\/strong><br\/><strong>Weinbergsweg 1, 10119 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/JWbQeNypciH6u6yk7\" target=\"_blank\">View on Map<\/a><br\/>-<\/p>",
             "page": "rosenthaler-platz"
           }
         },
