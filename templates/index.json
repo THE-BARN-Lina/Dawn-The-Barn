@@ -323,6 +323,131 @@
         "padding_bottom": 64
       }
     },
+    "8c6b0def-3ad0-4049-ba71-a895f22aa6a2": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "MITTE",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "a58"
+          }
+        },
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SCHÖNHAUSER ALLEE",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "s8"
+          }
+        },
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "ROSENTHALER PLATZ",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "NEUKÖLLN",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "55555408-61be-4324-b240-07c475c6ca2d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "NORDBAHNHOF",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "cafe-nordbahnhof"
+          }
+        },
+        "118f220b-c742-4e34-a94a-da6d7a562dfb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HACKESCHER MARKT",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "s12"
+          }
+        },
+        "5903806a-eb63-4b0c-bd6f-27e5064c5b98": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SONY CENTER",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "the-barn-sony-center"
+          }
+        },
+        "44f43363-7757-49fc-a950-71f0029d8c41": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "POTSDAMER PLATZ",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "p5"
+          }
+        },
+        "2e44d085-a58b-4f9d-ac1c-ca13ba2aadbe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CAFÉ KRANZLER",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "k18"
+          }
+        },
+        "30b7b181-b377-49d2-96f2-c85f5ef67768": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "ROASTERY & CAFÉ",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "k18"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-0",
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-1",
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-2",
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-3",
+        "55555408-61be-4324-b240-07c475c6ca2d",
+        "118f220b-c742-4e34-a94a-da6d7a562dfb",
+        "5903806a-eb63-4b0c-bd6f-27e5064c5b98",
+        "44f43363-7757-49fc-a950-71f0029d8c41",
+        "2e44d085-a58b-4f9d-ac1c-ca13ba2aadbe",
+        "30b7b181-b377-49d2-96f2-c85f5ef67768"
+      ],
+      "custom_css": [
+        "p {font-size: 16px;}"
+      ],
+      "settings": {
+        "caption": "THE BARN IN BERLIN",
+        "heading": "OPENING HOURS",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "inverse",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/Chemex_Berlin_877ce3a4-95d1-46f5-8586-a068781d7067.jpg",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "20d07d22-5246-491b-b6f2-edcabe969eef": {
       "type": "multicolumn",
       "disabled": true,
@@ -395,6 +520,7 @@
     "16515783060899e67e",
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
+    "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "20d07d22-5246-491b-b6f2-edcabe969eef"
   ]
 }
