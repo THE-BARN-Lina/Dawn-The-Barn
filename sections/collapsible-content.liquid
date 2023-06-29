@@ -17,6 +17,10 @@
       px;
     }
   }
+  .collapsible-content__wrapper {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
   .text-animation .word {
     display: inline-block;
     opacity: 0;
@@ -39,17 +43,17 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="collapsible-content collapsible-{{ section.settings.layout }}-layout isolate{% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %}">
     <div class="collapsible-content__wrapper section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}">
-      <div
-        class="{% if section.settings.image == blank %}collapsible-content-wrapper-narrow{% else %}page-width{% endif %}">
-        <div class="collapsible-content__header" style="text-align: {{ section.settings.heading_alignment }};">
+      <div class="{% if section.settings.image == blank %}collapsible-content-wrapper-narrow{% else %}page-width{% endif %}">
+        <div
+          class="collapsible-content__header"
+          style="text-align: {{ section.settings.heading_alignment }};">
           {%- if section.settings.caption != blank -%}
             <p class="caption-with-letter-spacing">
               {{ section.settings.caption | escape }}</p>
           {% endif %}
           {% comment %} animation from here {% endcomment %}
           {%- if section.settings.heading != blank -%}
-            <h2
-              class="collapsible-content__heading {{ section.settings.heading_size }} animated-heading">
+            <h2 class="collapsible-content__heading {{ section.settings.heading_size }} animated-heading">
               <span>{{ section.settings.heading | escape }}</span>
             </h2>
 
@@ -58,7 +62,8 @@
           {%- endif %}
           {% comment %} until here {% endcomment %}
         </div>
-        <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}">
+        <div
+          class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}">
           {%- if section.settings.image != blank -%}
             <div class="grid__item collapsible-content__grid-item">
               <div
