@@ -448,6 +448,58 @@
         "padding_bottom": 36
       }
     },
+    "9548d051-e9a3-422f-91dd-584c92a394fd": {
+      "type": "collapsible-content",
+      "blocks": {
+        "48cb4836-1525-4156-b967-1160cb2b2bb7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "PALMA DE MALLORCA",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "the-barn-mallorca"
+          }
+        },
+        "9442c649-557b-41d3-a18d-6c43a935876b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DUBAI",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "the-barn-dubai"
+          }
+        },
+        "2e0d7f69-2a26-46cf-9e7e-a17b7053ecc1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SEOUL",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": "the-barn-kr"
+          }
+        }
+      },
+      "block_order": [
+        "48cb4836-1525-4156-b967-1160cb2b2bb7",
+        "9442c649-557b-41d3-a18d-6c43a935876b",
+        "2e0d7f69-2a26-46cf-9e7e-a17b7053ecc1"
+      ],
+      "settings": {
+        "caption": "THE BARN AROUND THE WORLD",
+        "heading": "HOLA",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "inverse",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/LaEsperanzaFloraandFauna.jpg",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "20d07d22-5246-491b-b6f2-edcabe969eef": {
       "type": "multicolumn",
       "disabled": true,
@@ -521,6 +573,7 @@
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
+    "9548d051-e9a3-422f-91dd-584c92a394fd",
     "20d07d22-5246-491b-b6f2-edcabe969eef"
   ]
 }
