@@ -55,7 +55,7 @@
         ".content-container:after {background-color: #1c1d1c; font-weight: bold;}",
         "h2 {font-size: 25px;}",
         ".button--primary {background-color: #804d15; color: white; --border-offset: none;}",
-        "@media (max-width: 750px) {.banner__heading h2{font-size:24px; }}"
+        "@media (max-width: 750px) {.banner__heading h2 {font-size: 32px; }}"
       ],
       "settings": {
         "layout": "full_bleed",
