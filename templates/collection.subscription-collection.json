@@ -105,6 +105,53 @@
         "padding_bottom": 16
       }
     },
+    "ea1f5825-3f49-4ba7-a90d-c93558fb19ab": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "TRIAL COFFEE SUBSCRIPTION",
+            "heading_size": "h1"
+          }
+        },
+        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Receive two samples of our current subscription coffees, on the house: choose <strong>Filter <\/strong>or <strong>Espresso<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER NOW",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-0",
+        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-1",
+        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-2"
+      ],
+      "custom_css": [
+        ".button {background-color: rgb(128, 77, 21); color: white; font-weight: bold; --border-offset: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/custom_resized_4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "d38cf404-aacf-4801-91d6-0f1e1abf762d": {
       "type": "rich-text",
       "blocks": {
@@ -293,53 +340,6 @@
         "show_collection_image": false,
         "color_scheme": "background-2"
       }
-    },
-    "ea1f5825-3f49-4ba7-a90d-c93558fb19ab": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "TRIAL COFFEE SUBSCRIPTION",
-            "heading_size": "h1"
-          }
-        },
-        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Receive two samples of our current subscription coffees, on the house: choose <strong>Filter <\/strong>or <strong>Espresso<\/strong><\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER NOW",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-0",
-        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-1",
-        "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-2"
-      ],
-      "custom_css": [
-        ".button {background-color: rgb(128, 77,21); color:white; font-weight:bold; --border-offset: none;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/custom_resized_4.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -348,12 +348,12 @@
     "636edd10-9556-4424-add9-ef1faa9ebb3f",
     "166186709197b72a8b",
     "2347bfb2-680b-4076-a095-36cb1508a4dc",
+    "ea1f5825-3f49-4ba7-a90d-c93558fb19ab",
     "d38cf404-aacf-4801-91d6-0f1e1abf762d",
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5",
     "1662636697f92db74e",
     "16609096892f959660",
     "16629804922d2a4cf0",
-    "banner",
-    "ea1f5825-3f49-4ba7-a90d-c93558fb19ab"
+    "banner"
   ]
 }
