@@ -432,7 +432,7 @@
       "custom_css": [
         "p {font-size: 16px;}",
         ".collapsible-content {min-width: 100vw;}",
-        ".collapsible-content__wrapper{padding-bottom:10rem;}"
+        ".collapsible-content__wrapper {padding-bottom: 10rem;}"
       ],
       "settings": {
         "caption": "THE BARN IN BERLIN",
@@ -489,7 +489,8 @@
       "custom_css": [
         ".collapsible-section-layout {padding-top: 0.3rem;}",
         "p {font-size: 16px;}",
-        ".collapsible-content {min-width: 100vw;}"
+        ".collapsible-content {min-width: 100vw;}",
+        ".collapsible-content__wrapper {padding-bottom: 10rem;}"
       ],
       "settings": {
         "caption": "THE BARN AROUND THE WORLD",
