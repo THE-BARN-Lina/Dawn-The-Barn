@@ -154,7 +154,7 @@
         "template--17938052284683__88057129-a018-448f-a23c-c1234570c4de-16881261060c67fffe-7"
       ],
       "custom_css": [
-
+        "button {background-color:rgb(128, 77, 21); color: white;}"
       ],
       "settings": {
         "product": "trial-subscription",
