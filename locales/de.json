@@ -560,7 +560,7 @@
         "shipping_method": "Dein Warenkorb wurde aktualisiert und der vorherige Versandtarif ist nicht gültig. Wähle einen neuen Tarif aus.",
         "shipping_method_not_available": "Dein Warenkorb wurde aktualisiert und die von dir hinzugefügten Artikel können nicht an deine Adresse geliefert werden. Entferne die Artikel, um deine Bestellung abzuschließen.",
         "shipping_method_not_available_generic": {
-          "one": "Diese Bestellung kann nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut.",
+          "one": "Da deine Bestellung mehrere Einheiten enthält, können wir leider nicht an die angegebene Adresse liefern.",
           "other": "Einige Artikel in deinem Warenkorb können nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig eingegeben wurden, und versuche es erneut."
         },
         "shipping_method_not_available_updated": {
