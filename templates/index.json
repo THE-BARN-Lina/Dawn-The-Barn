@@ -27,7 +27,7 @@
         "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/custom_resized_1.jpg",
+            "image": "shopify:\/\/shop_images\/abo_coffe.png",
             "heading": "TRAIL SUBSCRIPTION",
             "heading_size": "h1",
             "subheading": "Receive two samples of our current subscription coffees, on the house: choose Filter or Espresso",
@@ -40,8 +40,8 @@
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
-            "image_overlay_opacity": 40,
-            "color_scheme": "background-1",
+            "image_overlay_opacity": 20,
+            "color_scheme": "background-2",
             "text_alignment_mobile": "center"
           }
         }
