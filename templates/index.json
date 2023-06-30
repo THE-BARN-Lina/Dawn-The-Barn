@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Hero_landing_page_THE_BARN_Specialty_coffee_roasters_619ae834-de2c-4c40-bd81-80bc1c03065a.png",
             "heading": "BREW · SIP · REMEMBER",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "THE BARN IS A DIFFERENT COFFEE EXPERIENCE",
             "button_label_1": "SUBSCRIPTIONS",
             "link_1": "shopify:\/\/collections\/subscriptions",
@@ -51,8 +51,9 @@
         "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-1"
       ],
       "custom_css": [
-        ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem; font-weight:bold;}",
-        ".content-container:after {background-color: #1c1d1c; font-weight: bold;}"
+        ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem; font-weight: bold;}",
+        ".content-container:after {background-color: #1c1d1c; font-weight: bold;}",
+        "h2{font-size:25px;}"
       ],
       "settings": {
         "layout": "full_bleed",
