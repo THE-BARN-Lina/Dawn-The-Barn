@@ -76,7 +76,7 @@
         "template--17938052284683__2347bfb2-680b-4076-a095-36cb1508a4dc-1688126633169e929d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Receive two samples of our current subscription coffees, on the house: choose <strong>Filter <\/strong>or <strong>Espresso<\/strong><\/p>"
+            "text": ""
           }
         },
         "template--17938052284683__2347bfb2-680b-4076-a095-36cb1508a4dc-1688126633169e929d-2": {
@@ -126,7 +126,7 @@
           "type": "button",
           "settings": {
             "button_label": "ORDER NOW",
-            "button_link": ""
+            "button_link": "shopify:\/\/products\/trial-subscription"
           }
         }
       },
