@@ -430,7 +430,8 @@
         "30b7b181-b377-49d2-96f2-c85f5ef67768"
       ],
       "custom_css": [
-        "p {font-size: 16px;}"
+        "p {font-size: 16px;}",
+        ".collapsible-content {min-width: 100vw;}"
       ],
       "settings": {
         "caption": "THE BARN IN BERLIN",
