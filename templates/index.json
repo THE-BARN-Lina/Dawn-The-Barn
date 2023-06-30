@@ -431,7 +431,7 @@
         "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-7"
       ],
       "custom_css": [
-        ".product__title{margin-top:1.4rem;}"
+        ".product__title {margin-top: 1.6rem;}"
       ],
       "settings": {
         "product": "trial-subscription",
