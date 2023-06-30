@@ -63,6 +63,48 @@
         "padding_bottom": 0
       }
     },
+    "2347bfb2-680b-4076-a095-36cb1508a4dc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938052284683__2347bfb2-680b-4076-a095-36cb1508a4dc-1688126633169e929d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>TRIAL SUBSCRIPTION<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17938052284683__2347bfb2-680b-4076-a095-36cb1508a4dc-1688126633169e929d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Receive two free samples of our current Subscription Coffees: Choose Filter or Espresso<\/p>"
+          }
+        },
+        "template--17938052284683__2347bfb2-680b-4076-a095-36cb1508a4dc-1688126633169e929d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17938052284683__2347bfb2-680b-4076-a095-36cb1508a4dc-1688126633169e929d-0",
+        "template--17938052284683__2347bfb2-680b-4076-a095-36cb1508a4dc-1688126633169e929d-1",
+        "template--17938052284683__2347bfb2-680b-4076-a095-36cb1508a4dc-1688126633169e929d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "88057129-a018-448f-a23c-c1234570c4de": {
       "type": "featured-product",
       "blocks": {
@@ -324,6 +366,7 @@
     "166178416464969217",
     "636edd10-9556-4424-add9-ef1faa9ebb3f",
     "166186709197b72a8b",
+    "2347bfb2-680b-4076-a095-36cb1508a4dc",
     "88057129-a018-448f-a23c-c1234570c4de",
     "d38cf404-aacf-4801-91d6-0f1e1abf762d",
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5",
