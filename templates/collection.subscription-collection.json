@@ -161,9 +161,12 @@
         "template--17938052284683__88057129-a018-448f-a23c-c1234570c4de-16881261060c67fffe-6",
         "template--17938052284683__88057129-a018-448f-a23c-c1234570c4de-16881261060c67fffe-7"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "product": "trial-subscription",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false,
