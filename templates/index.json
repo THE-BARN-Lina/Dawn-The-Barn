@@ -445,8 +445,8 @@
         "image": "shopify:\/\/shop_images\/Chemex_Berlin_877ce3a4-95d1-46f5-8586-a068781d7067.jpg",
         "image_ratio": "adapt",
         "desktop_layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 0
       }
     },
     "9548d051-e9a3-422f-91dd-584c92a394fd": {
