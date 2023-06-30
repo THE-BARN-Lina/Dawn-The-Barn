@@ -431,7 +431,8 @@
       ],
       "custom_css": [
         "p {font-size: 16px;}",
-        ".collapsible-content {min-width: 100vw;}"
+        ".collapsible-content {min-width: 100vw;}",
+        ".collapsible-content__wrapper{padding-bottom:10rem;}"
       ],
       "settings": {
         "caption": "THE BARN IN BERLIN",
