@@ -54,7 +54,7 @@
         ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem; font-weight: bold;}",
         ".content-container:after {background-color: #1c1d1c; font-weight: bold;}",
         "h2 {font-size: 25px;}",
-        "button {background-color: ;}"
+        ".button--primary {background-color: #804d15; color: white; --border-offset: none;}"
       ],
       "settings": {
         "layout": "full_bleed",
