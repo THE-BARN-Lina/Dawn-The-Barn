@@ -108,13 +108,6 @@
     "88057129-a018-448f-a23c-c1234570c4de": {
       "type": "featured-product",
       "blocks": {
-        "template--17938052284683__88057129-a018-448f-a23c-c1234570c4de-16881261060c67fffe-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "template--17938052284683__88057129-a018-448f-a23c-c1234570c4de-16881261060c67fffe-1": {
           "type": "title",
           "settings": {
@@ -153,7 +146,6 @@
         }
       },
       "block_order": [
-        "template--17938052284683__88057129-a018-448f-a23c-c1234570c4de-16881261060c67fffe-0",
         "template--17938052284683__88057129-a018-448f-a23c-c1234570c4de-16881261060c67fffe-1",
         "template--17938052284683__88057129-a018-448f-a23c-c1234570c4de-16881261060c67fffe-2",
         "template--17938052284683__88057129-a018-448f-a23c-c1234570c4de-16881261060c67fffe-3",
