@@ -329,8 +329,8 @@
         "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>TRIAL COFFEE SUBSCRIPTION<\/h2>",
-            "heading_size": "h1"
+            "heading": "<h1>TRIAL COFFEE SUBSCRIPTION<\/h1>",
+            "heading_size": "h0"
           }
         },
         "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-1": {
@@ -355,6 +355,9 @@
         "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-0",
         "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-1",
         "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-2"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "desktop_content_position": "left",
