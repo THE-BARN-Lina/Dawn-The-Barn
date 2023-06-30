@@ -112,7 +112,7 @@
           "type": "heading",
           "settings": {
             "heading": "TRIAL COFFEE SUBSCRIPTION",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-1": {
@@ -143,7 +143,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-2",
