@@ -486,7 +486,8 @@
       ],
       "custom_css": [
         ".collapsible-section-layout {padding-top: 0.3rem;}",
-        "p {font-size: 16px;}"
+        "p {font-size: 16px;}",
+        ".collapsible-content{width:100vw;}"
       ],
       "settings": {
         "caption": "THE BARN AROUND THE WORLD",
