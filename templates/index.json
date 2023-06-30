@@ -323,122 +323,46 @@
         "padding_bottom": 64
       }
     },
-    "3e7738df-e569-44f8-8584-8d1790e52b32": {
-      "type": "rich-text",
+    "7dad6c30-c93c-4504-a5b5-e50da37b85e1": {
+      "type": "image-with-text",
       "blocks": {
-        "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-0": {
+        "template--17938053923083__7dad6c30-c93c-4504-a5b5-e50da37b85e1-1688143301974a93c7-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>TRIAL COFFEE SUBSCRIPTION<\/h2>",
-            "heading_size": "h0"
-          }
-        },
-        "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Receive two samples of our current subscription coffees, on the house: choose <strong>Filter <\/strong>or <strong>Espresso<\/strong><\/p>"
-          }
-        },
-        "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-0",
-        "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-1",
-        "template--17938053923083__3e7738df-e569-44f8-8584-8d1790e52b32-1688139253b195699a-2"
-      ],
-      "custom_css": [
-        ".rich-text {background-color: rgb(28, 28, 28);}"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "f33f428f-b3d6-49f7-9669-65100050f2a6": {
-      "type": "featured-product",
-      "blocks": {
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-0": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "uppercase"
-          }
-        },
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-1": {
-          "type": "title",
-          "settings": {
+            "heading": "TRIAL COFFEE SUBSCRIPTION",
             "heading_size": "h2"
           }
         },
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-2": {
+        "template--17938053923083__7dad6c30-c93c-4504-a5b5-e50da37b85e1-1688143301974a93c7-1": {
           "type": "text",
           "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text": "<p>Receive two samples of our current subscription coffees, on the house: choose <strong>Filter <\/strong>or <strong>Espresso<\/strong><\/p>",
+            "text_style": "body"
           }
         },
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-3": {
-          "type": "price",
+        "template--17938053923083__7dad6c30-c93c-4504-a5b5-e50da37b85e1-1688143301974a93c7-2": {
+          "type": "button",
           "settings": {
-          }
-        },
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown"
-          }
-        },
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "button_label": "ORDER NOW",
+            "button_link": "shopify:\/\/products\/trial-subscription"
           }
         }
       },
       "block_order": [
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-0",
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-1",
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-2",
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-3",
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-4",
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-5",
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-6",
-        "template--17938053923083__f33f428f-b3d6-49f7-9669-65100050f2a6-1688139208e74984ee-7"
-      ],
-      "custom_css": [
-        ".product__title {margin-top: 1.6rem;}"
+        "template--17938053923083__7dad6c30-c93c-4504-a5b5-e50da37b85e1-1688143301974a93c7-0",
+        "template--17938053923083__7dad6c30-c93c-4504-a5b5-e50da37b85e1-1688143301974a93c7-1",
+        "template--17938053923083__7dad6c30-c93c-4504-a5b5-e50da37b85e1-1688143301974a93c7-2"
       ],
       "settings": {
-        "product": "trial-subscription",
+        "image": "shopify:\/\/shop_images\/custom_resized_5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "secondary_background": true,
-        "hide_variants": false,
-        "enable_video_looping": false,
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -684,8 +608,7 @@
     "16515783060899e67e",
     "21b96ab1-990f-49e3-b1bf-8e2ecc576146",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
-    "3e7738df-e569-44f8-8584-8d1790e52b32",
-    "f33f428f-b3d6-49f7-9669-65100050f2a6",
+    "7dad6c30-c93c-4504-a5b5-e50da37b85e1",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "9548d051-e9a3-422f-91dd-584c92a394fd",
     "c6587723-b5e9-4ec2-8118-ff9d1fdd1e58"
