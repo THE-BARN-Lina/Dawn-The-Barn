@@ -544,5 +544,14 @@
     "sort_time_ending_soonest": "Time: ending soonest",
     "sort_time_newly_listed": "Time: newly listed",
     "title": "Collection"
+  },
+  "shopify": {
+    "checkout": {
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "one": "Unfortunately, due to the inclusion of multiple units in your order, we are unable to proceed with shipping to the specified address. "
+        }
+      }
+    }
   }
 }
