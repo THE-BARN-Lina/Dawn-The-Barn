@@ -41,7 +41,7 @@
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 20,
-            "color_scheme": "background-2",
+            "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         }
