@@ -21,12 +21,14 @@
         },
         "template--17938053103883__48dde52f-03f9-4d3a-8a96-c949ed4d8173-1688642035a77268cd-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": ""
           }
         },
         "template--17938053103883__48dde52f-03f9-4d3a-8a96-c949ed4d8173-1688642035a77268cd-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "",
             "button_link": "",
@@ -51,6 +53,50 @@
         "padding_bottom": 52
       }
     },
+    "550c6182-1ce6-4be9-931d-7983282f67e6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938053103883__550c6182-1ce6-4be9-931d-7983282f67e6-1688642787361821bc-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--17938053103883__550c6182-1ce6-4be9-931d-7983282f67e6-1688642787361821bc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From the start we have seen our role as a quality leader and game changer in Specialty Coffee. With a full focus on product quality and sustainability, we work closely with our partner farms to make our coffees better and better. We are now hiring motivated people to join our mission and to make a change to the Value Chain of Coffee.<br\/><br\/><strong>Be part of our team! <\/strong><\/p>"
+          }
+        },
+        "template--17938053103883__550c6182-1ce6-4be9-931d-7983282f67e6-1688642787361821bc-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053103883__550c6182-1ce6-4be9-931d-7983282f67e6-1688642787361821bc-0",
+        "template--17938053103883__550c6182-1ce6-4be9-931d-7983282f67e6-1688642787361821bc-1",
+        "template--17938053103883__550c6182-1ce6-4be9-931d-7983282f67e6-1688642787361821bc-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "pf-635d8333": {
       "type": "pf-635d8333",
       "settings": {
@@ -60,6 +106,7 @@
   "order": [
     "16577906429738c545",
     "48dde52f-03f9-4d3a-8a96-c949ed4d8173",
+    "550c6182-1ce6-4be9-931d-7983282f67e6",
     "pf-635d8333"
   ]
 }
