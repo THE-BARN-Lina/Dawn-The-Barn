@@ -101,12 +101,22 @@
       "type": "pf-635d8333",
       "settings": {
       }
+    },
+    "0e936520-477e-47ff-8648-117c65ab7acf": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class='container'> \n\n<div\/>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "16577906429738c545",
     "48dde52f-03f9-4d3a-8a96-c949ed4d8173",
     "550c6182-1ce6-4be9-931d-7983282f67e6",
-    "pf-635d8333"
+    "pf-635d8333",
+    "0e936520-477e-47ff-8648-117c65ab7acf"
   ]
 }
