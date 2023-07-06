@@ -10,7 +10,7 @@
     "e6cd3f69-15cb-4f35-b539-3ce46cd0c0ee": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<div class='container-careers'> \n\n<div\/>",
         "color_scheme": "inverse",
         "padding_top": 40,
         "padding_bottom": 52
