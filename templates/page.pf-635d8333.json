@@ -9,6 +9,48 @@
         "padding_bottom": 52
       }
     },
+    "48dde52f-03f9-4d3a-8a96-c949ed4d8173": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938053103883__48dde52f-03f9-4d3a-8a96-c949ed4d8173-1688642035a77268cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>COMMITTED TO TOTAL QUALITY & SUSTAINABILITY<\/h1>",
+            "heading_size": "h2"
+          }
+        },
+        "template--17938053103883__48dde52f-03f9-4d3a-8a96-c949ed4d8173-1688642035a77268cd-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--17938053103883__48dde52f-03f9-4d3a-8a96-c949ed4d8173-1688642035a77268cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053103883__48dde52f-03f9-4d3a-8a96-c949ed4d8173-1688642035a77268cd-0",
+        "template--17938053103883__48dde52f-03f9-4d3a-8a96-c949ed4d8173-1688642035a77268cd-1",
+        "template--17938053103883__48dde52f-03f9-4d3a-8a96-c949ed4d8173-1688642035a77268cd-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "pf-635d8333": {
       "type": "pf-635d8333",
       "settings": {
@@ -17,6 +59,7 @@
   },
   "order": [
     "16577906429738c545",
+    "48dde52f-03f9-4d3a-8a96-c949ed4d8173",
     "pf-635d8333"
   ]
 }
