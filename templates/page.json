@@ -1,67 +1,23 @@
 {
   "sections": {
-    "10d0fa2c-36a2-45f1-8714-17a9f40ddb37": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17938059854091__10d0fa2c-36a2-45f1-8714-17a9f40ddb37-16886528864d8fb7e6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h1>COMMITTED TO TOTAL QUALITY & SUSTAINABILITY<\/h1>",
-            "heading_size": "h1"
-          }
-        },
-        "template--17938059854091__10d0fa2c-36a2-45f1-8714-17a9f40ddb37-16886528864d8fb7e6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>From the start we have seen our role as a quality leader and game changer in Specialty Coffee. With a full focus on product quality and sustainability, we work closely with our partner farms to make our coffees better and better. We are now hiring motivated people to join our mission and to make a change to the Value Chain of Coffee.<br\/><br\/><strong>Be part of our team! <\/strong><\/p>"
-          }
-        },
-        "template--17938059854091__10d0fa2c-36a2-45f1-8714-17a9f40ddb37-16886528864d8fb7e6-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17938059854091__10d0fa2c-36a2-45f1-8714-17a9f40ddb37-16886528864d8fb7e6-0",
-        "template--17938059854091__10d0fa2c-36a2-45f1-8714-17a9f40ddb37-16886528864d8fb7e6-1",
-        "template--17938059854091__10d0fa2c-36a2-45f1-8714-17a9f40ddb37-16886528864d8fb7e6-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
-        "padding_top": 0,
+        "padding_top": 28,
         "padding_bottom": 28
       }
     },
     "e6cd3f69-15cb-4f35-b539-3ce46cd0c0ee": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
+        "custom_liquid": "<div class='container-careers'> \n\n<div\/>",
+        "color_scheme": "inverse",
         "padding_top": 40,
         "padding_bottom": 52
       }
     }
   },
   "order": [
-    "10d0fa2c-36a2-45f1-8714-17a9f40ddb37",
     "main",
     "e6cd3f69-15cb-4f35-b539-3ce46cd0c0ee"
   ]
