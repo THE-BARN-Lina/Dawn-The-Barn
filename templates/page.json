@@ -11,6 +11,9 @@
     },
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "h1{text-align:center;}"
+      ],
       "settings": {
         "padding_top": 0,
         "padding_bottom": 28
