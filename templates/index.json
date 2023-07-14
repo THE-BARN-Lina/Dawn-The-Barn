@@ -460,9 +460,18 @@
         "30b7b181-b377-49d2-96f2-c85f5ef67768": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "ROASTERY & CAFÉ",
+            "heading": "ANNEX CAFÉ",
             "icon": "map_pin",
-            "row_content": "<p>Monday - Friday 09:00–15:00<br\/>Saturday - Sunday Closed<strong><br\/><br\/>Voltastraße 28, 13355 Berlin, Germany<\/strong><a href=\"https:\/\/goo.gl\/maps\/pW4vMh6fPr5cEkAE9\" target=\"_blank\"><br\/><br\/>View on Map<\/a><br\/>-<\/p>",
+            "row_content": "<p>Monday - Friday 09:00–15:00<br\/>Saturday - Sunday Closed<strong><br\/><br\/>Wattstraße 10-13<br\/>Berlin, Germany<\/strong><a href=\"https:\/\/goo.gl\/maps\/pW4vMh6fPr5cEkAE9\" target=\"_blank\"><br\/><br\/>View on Map<\/a><br\/>-<\/p>",
+            "page": ""
+          }
+        },
+        "ebcf916f-48b7-4d4a-94fc-dc5e453dd19d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "ROASTERY",
+            "icon": "map_pin",
+            "row_content": "<p><strong>Wattstraße 10-13<br\/>Berlin, Germany<\/strong><a href=\"https:\/\/goo.gl\/maps\/pW4vMh6fPr5cEkAE9\" target=\"_blank\"><br\/><br\/>View on Map<\/a><br\/>-<\/p>",
             "page": ""
           }
         }
@@ -477,7 +486,8 @@
         "5903806a-eb63-4b0c-bd6f-27e5064c5b98",
         "44f43363-7757-49fc-a950-71f0029d8c41",
         "2e44d085-a58b-4f9d-ac1c-ca13ba2aadbe",
-        "30b7b181-b377-49d2-96f2-c85f5ef67768"
+        "30b7b181-b377-49d2-96f2-c85f5ef67768",
+        "ebcf916f-48b7-4d4a-94fc-dc5e453dd19d"
       ],
       "custom_css": [
         "p {font-size: 16px;}",
