@@ -471,7 +471,7 @@
           "settings": {
             "heading": "ROASTERY",
             "icon": "map_pin",
-            "row_content": "<p><strong>Wattstraße 10-13<br\/>Berlin, Germany<\/strong><a href=\"https:\/\/goo.gl\/maps\/pW4vMh6fPr5cEkAE9\" target=\"_blank\"><br\/><br\/>View on Map<\/a><br\/>-<\/p>",
+            "row_content": "<p><\/p><p><strong>Wattstraße 10-13<br\/>Berlin, Germany<\/strong><a href=\"https:\/\/goo.gl\/maps\/pW4vMh6fPr5cEkAE9\" target=\"_blank\"><br\/><br\/>View on Map<\/a><br\/>-<\/p>",
             "page": ""
           }
         }
