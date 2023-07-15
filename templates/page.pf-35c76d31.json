@@ -2,12 +2,56 @@
   "sections": {
     "pf-35c76d31": {
       "type": "pf-35c76d31",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "17eb472b-b8fe-4572-a9ad-cc38fbd65355": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938057986315__17eb472b-b8fe-4572-a9ad-cc38fbd65355-16894528931681b40f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>OUR TEAM<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17938057986315__17eb472b-b8fe-4572-a9ad-cc38fbd65355-16894528931681b40f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17938057986315__17eb472b-b8fe-4572-a9ad-cc38fbd65355-16894528931681b40f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17938057986315__17eb472b-b8fe-4572-a9ad-cc38fbd65355-16894528931681b40f-0",
+        "template--17938057986315__17eb472b-b8fe-4572-a9ad-cc38fbd65355-16894528931681b40f-1",
+        "template--17938057986315__17eb472b-b8fe-4572-a9ad-cc38fbd65355-16894528931681b40f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "cb142375-b77d-4726-a350-2dc1c77676ab": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--17938057986315__cb142375-b77d-4726-a350-2dc1c77676ab-1689451639f52bd9ab-0": {
           "type": "column",
@@ -165,6 +209,7 @@
   },
   "order": [
     "pf-35c76d31",
+    "17eb472b-b8fe-4572-a9ad-cc38fbd65355",
     "cb142375-b77d-4726-a350-2dc1c77676ab"
   ]
 }
