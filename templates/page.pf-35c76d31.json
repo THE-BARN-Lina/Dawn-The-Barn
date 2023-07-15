@@ -2,6 +2,7 @@
   "sections": {
     "pf-35c76d31": {
       "type": "pf-35c76d31",
+      "disabled": true,
       "settings": {
       }
     },
@@ -189,7 +190,7 @@
       ],
       "custom_css": [
         "h3 {color: #804d15; font-size: 2rem;}",
-        "h4 {margin-top:-0.6rem; color: #804d15;}"
+        "h4 {margin-top: -0.6rem; color: #804d15;}"
       ],
       "settings": {
         "title": "",
