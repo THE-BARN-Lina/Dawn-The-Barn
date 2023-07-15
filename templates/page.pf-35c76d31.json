@@ -102,7 +102,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TEAM_PIA.webp",
             "title": "PIA",
-            "text": "<p>Pia has a background in business administration. She was running her own business for 10 years before joining our team. Pia is a real Berliner from hat to toe and she loves soccer.  She is the backbone of our office crew. Her main tasks are the accounting and finance duties at our company. <\/p>",
+            "text": "<h4>Office<\/h4><p>Pia has a background in business administration. She was running her own business for 10 years before joining our team. Pia is a real Berliner from hat to toe and she loves soccer.  She is the backbone of our office crew. Her main tasks are the accounting and finance duties at our company. <\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
