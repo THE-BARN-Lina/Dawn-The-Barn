@@ -188,6 +188,9 @@
         "f8ae1088-3af9-4f9d-a14e-7b0e79229518",
         "2de6c097-2a8f-47e7-98d3-a81c6526acf8"
       ],
+      "custom_css": [
+        "h3 {color: #804d15;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
