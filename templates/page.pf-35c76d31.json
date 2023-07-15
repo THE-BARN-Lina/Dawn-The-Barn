@@ -190,8 +190,7 @@
       ],
       "custom_css": [
         "h3 {color: #804d15; font-size: 2rem;}",
-        "h4 {margin-top: -0.6rem; color: #804d15;}",
-        ".multicolumn-card {background-color: #141414;}"
+        "h4 {margin-top: -0.6rem; color: #804d15;}"
       ],
       "settings": {
         "title": "",
