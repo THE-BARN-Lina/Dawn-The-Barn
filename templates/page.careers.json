@@ -75,6 +75,17 @@
             "link": "",
             "custom_liquid": ""
           }
+        },
+        "86352873-eda7-4862-ab6d-7b12658e09c4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_BARISTA.webp",
+            "title": "",
+            "text": "<h3>BARISTA<br\/>(m|w|d)<\/h3><p>As a barista you should not compromise on which coffees you are using. Join us on our journey to make a difference in coffee!<\/p>",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/barista-m-w-d-1",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -82,7 +93,8 @@
         "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-1",
         "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-2",
         "ed46748d-1d16-47ef-be7c-c7d6213f5324",
-        "716da5d5-9b97-46e9-ac21-2f84dc18825f"
+        "716da5d5-9b97-46e9-ac21-2f84dc18825f",
+        "86352873-eda7-4862-ab6d-7b12658e09c4"
       ],
       "custom_css": [
         "h3 {color: red; margin-bottom: 3rem;}"
