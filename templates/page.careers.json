@@ -112,9 +112,10 @@
         "bbbebbc6-3079-4d8e-a85d-4101c4094942": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_SHOPIFY_DEV.webp",
             "title": "",
-            "text": "<p>You are a Shopify allrounder, from coding to maintaining of our website. Its a plus to be good at data analytics and producing reports. <\/p>",
-            "link_label": "",
+            "text": "<h3>SHOPIFY (m|w|d)<\/h3><p>You are a Shopify allrounder, from coding to maintaining of our website. Its a plus to be good at data analytics and producing reports. <\/p>",
+            "link_label": "READ MORE",
             "link": "",
             "custom_liquid": ""
           }
@@ -142,7 +143,7 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "link_as_button": false,
         "color_scheme": "background-1",
