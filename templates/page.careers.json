@@ -18,6 +18,36 @@
         "padding_bottom": 12
       }
     },
+    "ee726731-2031-45f7-9ce0-f499382f1afb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17981405495563__ee726731-2031-45f7-9ce0-f499382f1afb-168960182067a94b8b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>COMMITTED TO TOTAL QUALITY & SUSTAINABILITY<\/h1>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17981405495563__ee726731-2031-45f7-9ce0-f499382f1afb-168960182067a94b8b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From the start we have seen our role as a quality leader and game changer in Specialty Coffee. With a full focus on product quality and sustainability, we work closely with our partner farms to make our coffees better and better. We are now hiring motivated people to join our mission and to make a change to the Value Chain of Coffee.<br\/><\/p><p><strong>Be part of our team! <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17981405495563__ee726731-2031-45f7-9ce0-f499382f1afb-168960182067a94b8b-0",
+        "template--17981405495563__ee726731-2031-45f7-9ce0-f499382f1afb-168960182067a94b8b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "6187381e-dd8e-4108-91c5-f42321bbe773": {
       "type": "multicolumn",
       "blocks": {
@@ -160,6 +190,7 @@
   "order": [
     "main",
     "16590189470dfa78be",
+    "ee726731-2031-45f7-9ce0-f499382f1afb",
     "6187381e-dd8e-4108-91c5-f42321bbe773"
   ]
 }
