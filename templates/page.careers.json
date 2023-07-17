@@ -89,6 +89,7 @@
         },
         "d5cf7499-a608-4d77-8e39-a31777ded614": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CAREERS_BURO_MITARBEITER.webp",
             "title": "",
@@ -100,6 +101,7 @@
         },
         "4ecbfc32-5070-4801-b921-2bbcc6c88c00": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CAREERS_ROASTING_OPERATIONS_MANAGER.webp",
             "title": "",
@@ -111,6 +113,7 @@
         },
         "bbbebbc6-3079-4d8e-a85d-4101c4094942": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CAREERS_SHOPIFY_DEV.webp",
             "title": "",
