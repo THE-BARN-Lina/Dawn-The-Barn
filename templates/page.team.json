@@ -109,6 +109,28 @@
             "link": "",
             "custom_liquid": ""
           }
+        },
+        "3ebe8446-f0a2-41b9-a793-5ee2cb2a216f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEAM_RALF.webp",
+            "title": "RALF",
+            "text": "<h4>Founder<\/h4><p>Ralf founded THE BARN in 2010. He pioneered Specialty Coffee in an uncompromising way in Germany. By focusing on our product, farm relationships, roasting and sharing knowledge, he is key to our growing international reputation. Ralf is involved in all areas of the company to ensure their strength.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "adaf8faa-fb2d-449e-bc44-79229783ebf1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TEAM_SYLWIA.webp",
+            "title": "SYLWIA",
+            "text": "<h4>Food<\/h4><p>All our handmade sweet and savoury snacks you enjoy at our cafés are made by Sylwia and her team. „Baking cakes and cookies with the best ingredients is so enjoyable. We were voted best carrot cake in town which makes me extremely proud.“<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -120,7 +142,9 @@
         "e3f98a11-e0c3-4152-b682-d00b5c5fdd2c",
         "9b7a7908-a284-45e9-8e47-e940c2049354",
         "14e43e3f-faa8-4f14-9645-1676cfd103ff",
-        "b815c089-2ab6-4520-bfd6-2b59a08f13f1"
+        "b815c089-2ab6-4520-bfd6-2b59a08f13f1",
+        "3ebe8446-f0a2-41b9-a793-5ee2cb2a216f",
+        "adaf8faa-fb2d-449e-bc44-79229783ebf1"
       ],
       "settings": {
         "title": "",
