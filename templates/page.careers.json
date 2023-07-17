@@ -49,8 +49,8 @@
             "image": "shopify:\/\/shop_images\/CAREERS_SALES.webp",
             "title": "",
             "text": "<h3>SALES<br\/>(m|w|d)<\/h3><p>When it comes to strong customer relationships, building the foundation and being a reliable partner is key in the premium sector.<\/p>",
-            "link_label": "",
-            "link": "",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/international-b2b-sales-m-w-d",
             "custom_liquid": ""
           }
         },
