@@ -31,14 +31,14 @@
         "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>BARISTA (m|w|d)<\/p>",
+            "heading": "<p>CUSTOMER SERVICE (m|w|d)<\/p>",
             "heading_size": "h1"
           }
         },
         "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our mission is to create the best coffee experience for our customers and to achieve the best value for our farmers. We source, roast, prepare delicious coffee, bake cookies and connect people by delivering an outstanding coffee experience.<\/p><p>Our baristas work with some of the best coffees out there. They love hospitality and serving our customers. We offer training so our people can grow their coffee knowledge and they can be confident to share our farm stories.<\/p>"
+            "text": "<p>We want our webshop customers to have a great experience during their journey with us: from ordering to enjoying our coffee beans. <\/p><p>Our customers celebrate our coffees and they have probably been to one of our cafés in Berlin before. We treat them as friendly and fast as if they were standing in front of us, in our café. Your job is to be responsive, friendly and you find quick solutions. <\/p>"
           }
         },
         "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-2": {
@@ -55,7 +55,7 @@
         "cebe4c72-04ba-40d7-95f4-742803f1e19d": {
           "type": "heading",
           "settings": {
-            "heading": "<h3><strong>YOUR PROFILE<\/strong><\/h3><p>- You have experience working as a barista in Specialty Coffee<br\/>- Hospitality skills: You enjoy working in a high pace café environment<br\/>- Communicative, friendly and customer-oriented<br\/>- Clean, fast, organized<br\/>- Self-motivated, reliable and on time.<br\/>- Fluent in English. Speaking German is a plus.<\/p>",
+            "heading": "<p>F<\/p>",
             "heading_size": "h1"
           }
         },
