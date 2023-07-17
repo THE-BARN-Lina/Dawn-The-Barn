@@ -92,7 +92,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/CAREERS_BURO_MITARBEITER.webp",
             "title": "",
-            "text": "<h3>BÜRO MITARBEITER:IN (m|w|d)<\/h3><p>Ideal für diejenigen, die in Teilzeit einen tollen Office-Job mit internationalen Mitarbeitern und dem tollsten Kaffee der Hauptstadt suchen. Wichtig: Gute Orga!<\/p>",
+            "text": "<h3>BÜRO MITARBEITER:<br\/>IN (m|w|d)<\/h3><p>Ideal für diejenigen, die in Teilzeit einen tollen Office-Job mit internationalen Mitarbeitern und dem tollsten Kaffee der Hauptstadt suchen. Wichtig: Gute Orga!<\/p>",
             "link_label": "READ MORE",
             "link": "",
             "custom_liquid": ""
