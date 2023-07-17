@@ -108,6 +108,16 @@
             "link": "",
             "custom_liquid": ""
           }
+        },
+        "bbbebbc6-3079-4d8e-a85d-4101c4094942": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>You are a Shopify allrounder, from coding to maintaining of our website. Its a plus to be good at data analytics and producing reports. <\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -118,7 +128,8 @@
         "716da5d5-9b97-46e9-ac21-2f84dc18825f",
         "86352873-eda7-4862-ab6d-7b12658e09c4",
         "d5cf7499-a608-4d77-8e39-a31777ded614",
-        "4ecbfc32-5070-4801-b921-2bbcc6c88c00"
+        "4ecbfc32-5070-4801-b921-2bbcc6c88c00",
+        "bbbebbc6-3079-4d8e-a85d-4101c4094942"
       ],
       "custom_css": [
         "h3 {color: red; margin-bottom: 3rem;}"
