@@ -99,7 +99,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/CAREERS_COSTUMER_SERVICE.webp",
             "title": "",
-            "text": "<h3>CUSTOMER SERVICE<br\/>(m|w|d)<\/h3><p>We treat our online customers as if they stand in front of us: in our café. Your job is to be responsive and to find quick solutions.<\/p>",
+            "text": "<h3>CUSTOMER SERVICE<br\/>(m|w|d)<\/h3><p>We treat our online customers as if they stand in front of us: in our café. Your job is to be responsive and to find quick solutions. join us!<\/p>",
             "link_label": "READ MORE",
             "link": "shopify:\/\/pages\/jobs-customer-care-webshop",
             "custom_liquid": ""
@@ -166,7 +166,7 @@
       ],
       "custom_css": [
         "h3 {margin-bottom: 3rem;}",
-        ".button{margin-top:2rem; margin-bottom:2rem;}"
+        ".button {margin-top: 2rem; margin-bottom: 2rem;}"
       ],
       "settings": {
         "title": "",
