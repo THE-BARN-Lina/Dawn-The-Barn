@@ -97,6 +97,17 @@
             "link": "",
             "custom_liquid": ""
           }
+        },
+        "4ecbfc32-5070-4801-b921-2bbcc6c88c00": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_ROASTING_OPERATIONS_MANAGER.webp",
+            "title": "",
+            "text": "<h3>ROASTING OPERATIONS MANAGER (m|w|d)<\/h3><p>This is an exciting hands-on role to manage all aspects of the daily operations in our Coffee Roastery. Working with an international team and the best coffees out there.<\/p>",
+            "link_label": "READ MORE",
+            "link": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -106,7 +117,8 @@
         "ed46748d-1d16-47ef-be7c-c7d6213f5324",
         "716da5d5-9b97-46e9-ac21-2f84dc18825f",
         "86352873-eda7-4862-ab6d-7b12658e09c4",
-        "d5cf7499-a608-4d77-8e39-a31777ded614"
+        "d5cf7499-a608-4d77-8e39-a31777ded614",
+        "4ecbfc32-5070-4801-b921-2bbcc6c88c00"
       ],
       "custom_css": [
         "h3 {color: red; margin-bottom: 3rem;}"
