@@ -133,7 +133,8 @@
         "bbbebbc6-3079-4d8e-a85d-4101c4094942"
       ],
       "custom_css": [
-        "h3 {color: red; margin-bottom: 3rem;}"
+        "h3 {color: #804d15; margin-bottom: 3rem;}",
+        ".link {background-color: #804d15; padding: 1rem; width: 170px; color: white;}"
       ],
       "settings": {
         "title": "",
