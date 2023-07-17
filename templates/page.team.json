@@ -146,6 +146,10 @@
         "3ebe8446-f0a2-41b9-a793-5ee2cb2a216f",
         "adaf8faa-fb2d-449e-bc44-79229783ebf1"
       ],
+      "custom_css": [
+        "h3 {color: #804d15; font-size: 2rem;}",
+        "h4 {margin-top: -0.6rem; color: #804d15;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
