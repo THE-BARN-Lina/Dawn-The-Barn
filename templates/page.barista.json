@@ -45,7 +45,7 @@
           "type": "button",
           "settings": {
             "button_label": "APPLY HERE",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/application-form",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -75,7 +75,7 @@
           "type": "button",
           "settings": {
             "button_label": "APPLY HERE",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/application-form",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -93,7 +93,7 @@
         "8eb38eb7-b1b5-4ce5-8997-2f94d6da668e"
       ],
       "custom_css": [
-        ".button{margin-top:3rem; margin-bottom:3rem;}"
+        ".button {margin-top: 3rem; margin-bottom: 3rem;}"
       ],
       "settings": {
         "desktop_content_position": "left",
