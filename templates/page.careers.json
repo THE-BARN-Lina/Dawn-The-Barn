@@ -71,8 +71,8 @@
             "image": "shopify:\/\/shop_images\/CAREERS_COSTUMER_SERVICE.webp",
             "title": "",
             "text": "<h3>CUSTOMER SERVICE<br\/>(m|w|d)<\/h3><p>We treat our online customers as if they stand in front of us: in our café. Your job is to be responsive and to find quick solutions.<\/p>",
-            "link_label": "",
-            "link": "",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/jobs-customer-care-webshop",
             "custom_liquid": ""
           }
         },
