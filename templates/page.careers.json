@@ -86,6 +86,17 @@
             "link": "shopify:\/\/pages\/barista-m-w-d-1",
             "custom_liquid": ""
           }
+        },
+        "d5cf7499-a608-4d77-8e39-a31777ded614": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_BURO_MITARBEITER.webp",
+            "title": "",
+            "text": "<h3>BÜRO MITARBEITER:IN (m|w|d)<\/h3><p>Ideal für diejenigen, die in Teilzeit einen tollen Office-Job mit internationalen Mitarbeitern und dem tollsten Kaffee der Hauptstadt suchen. Wichtig: Gute Orga!<\/p>",
+            "link_label": "READ MORE",
+            "link": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -94,7 +105,8 @@
         "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-2",
         "ed46748d-1d16-47ef-be7c-c7d6213f5324",
         "716da5d5-9b97-46e9-ac21-2f84dc18825f",
-        "86352873-eda7-4862-ab6d-7b12658e09c4"
+        "86352873-eda7-4862-ab6d-7b12658e09c4",
+        "d5cf7499-a608-4d77-8e39-a31777ded614"
       ],
       "custom_css": [
         "h3 {color: red; margin-bottom: 3rem;}"
