@@ -136,8 +136,7 @@
         "bbbebbc6-3079-4d8e-a85d-4101c4094942"
       ],
       "custom_css": [
-        "h3 {margin-bottom: 3rem;}",
-        ".link {background-color: #804d15; padding: 1rem; width: 170px; color: white; margin-top:4rem;}"
+        "h3 {margin-bottom: 3rem;}"
       ],
       "settings": {
         "title": "",
@@ -146,10 +145,10 @@
         "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "link_as_button": false,
+        "link_as_button": true,
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
