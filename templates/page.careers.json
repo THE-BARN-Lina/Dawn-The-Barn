@@ -38,8 +38,8 @@
             "image": "shopify:\/\/shop_images\/CAREERS_LOGISTICS.webp",
             "title": "",
             "text": "<h3>LOGISTICS <br\/>(m|w|d)<\/h3><p>Our beans have to reach our customers quickly. You are the interface between sales, production, freight, suppliers. Working hands-on is required.<\/p>",
-            "link_label": "",
-            "link": "",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/logistics",
             "custom_liquid": ""
           }
         },
