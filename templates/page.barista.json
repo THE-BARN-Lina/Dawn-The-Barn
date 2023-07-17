@@ -92,6 +92,9 @@
         "4f86a542-01ae-45e9-9c83-e2f86e444f4a",
         "8eb38eb7-b1b5-4ce5-8997-2f94d6da668e"
       ],
+      "custom_css": [
+        ".button{margin-top:3rem; margin-bottom:3rem;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
