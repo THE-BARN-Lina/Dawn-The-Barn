@@ -11,7 +11,6 @@
     "66b17626-90aa-4e7e-b0e4-6bfbb7e0b69a": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/CAREERS_BARISTA_BANNER.webp",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -55,20 +54,14 @@
         "cebe4c72-04ba-40d7-95f4-742803f1e19d": {
           "type": "heading",
           "settings": {
-            "heading": "<p>F<\/p>",
-            "heading_size": "h1"
+            "heading": "",
+            "heading_size": "h2"
           }
         },
-        "2a3d0909-871a-4259-8f31-5af4d09001cd": {
+        "a0077bd1-2f33-404e-a883-968f201d3a5a": {
           "type": "text",
           "settings": {
-            "text": "<h3><strong>WHAT YOU CAN EXPECT FROM US<\/strong><\/h3><p>- Great working environment with international staff<br\/>- Fantastic customers that celebrate our product<br\/>- Professional equipment. Training Facility<br\/>- Fair payment, holidays and social & health insurance<br\/>- A chance to grow and evolve within our company<br\/><br\/>You will be part of a team that is on a mission to change the Value Chain in Coffee. Our product is based on a concept of full quality and sustainability improvements.<\/p>"
-          }
-        },
-        "4f86a542-01ae-45e9-9c83-e2f86e444f4a": {
-          "type": "text",
-          "settings": {
-            "text": "<h3><strong>CONTRACT<\/strong><\/h3><p>- Part-time or full-time<br\/>- Work hours: Rolling schedule (4-5 days per week)<br\/>- Payment: Hourly, payroll: monthly<br\/>- Term: 1 year. Extension possible<\/p><p><strong>Important Notes<br\/><\/strong>You do need an EU passport and work permit for Germany. Unfortunately we cannot sponsor any Visas.<\/p>"
+            "text": "<p><strong>You will:<\/strong><\/p><ul><li>Be the first contact for our online customers<\/li><li>Timely answer all inquiries via e-mail<\/li><li>Work in close cooperation with our logistics team <br\/><br\/><br\/><br\/><\/li><\/ul>"
           }
         },
         "8eb38eb7-b1b5-4ce5-8997-2f94d6da668e": {
@@ -81,6 +74,12 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "f5ad94a5-9990-4bb9-8431-db42cc85ed0d": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/><\/p><p><\/p>"
+          }
         }
       },
       "block_order": [
@@ -88,9 +87,9 @@
         "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-1",
         "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-2",
         "cebe4c72-04ba-40d7-95f4-742803f1e19d",
-        "2a3d0909-871a-4259-8f31-5af4d09001cd",
-        "4f86a542-01ae-45e9-9c83-e2f86e444f4a",
-        "8eb38eb7-b1b5-4ce5-8997-2f94d6da668e"
+        "a0077bd1-2f33-404e-a883-968f201d3a5a",
+        "8eb38eb7-b1b5-4ce5-8997-2f94d6da668e",
+        "f5ad94a5-9990-4bb9-8431-db42cc85ed0d"
       ],
       "custom_css": [
         ".button {margin-top: 3rem; margin-bottom: 3rem;}"
