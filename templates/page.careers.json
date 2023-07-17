@@ -53,12 +53,36 @@
             "link": "",
             "custom_liquid": ""
           }
+        },
+        "ed46748d-1d16-47ef-be7c-c7d6213f5324": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_MARKETING.webp",
+            "title": "",
+            "text": "<h3>MARKETING<br\/>(m|w|d)<\/h3><p>This is an exciting role covering many aspects of our business. We are looking for a motivated allrounder and team player.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "716da5d5-9b97-46e9-ac21-2f84dc18825f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_COSTUMER_SERVICE.webp",
+            "title": "",
+            "text": "<h3>CUSTOMER SERVICE<br\/>(m|w|d)<\/h3><p>We treat our online customers as if they stand in front of us: in our café. Your job is to be responsive and to find quick solutions.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
         "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-0",
         "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-1",
-        "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-2"
+        "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-2",
+        "ed46748d-1d16-47ef-be7c-c7d6213f5324",
+        "716da5d5-9b97-46e9-ac21-2f84dc18825f"
       ],
       "custom_css": [
         "h3 {color: red; margin-bottom: 3rem;}"
