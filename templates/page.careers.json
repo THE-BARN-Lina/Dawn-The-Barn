@@ -60,8 +60,8 @@
             "image": "shopify:\/\/shop_images\/CAREERS_MARKETING.webp",
             "title": "",
             "text": "<h3>MARKETING<br\/>(m|w|d)<\/h3><p>This is an exciting role covering many aspects of our business. We are looking for a motivated allrounder and team player.<\/p>",
-            "link_label": "",
-            "link": "",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/marketing-assistant-manager",
             "custom_liquid": ""
           }
         },
