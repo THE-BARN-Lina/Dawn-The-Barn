@@ -1,44 +1,6 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
-    "16536485367ff1191d": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "16536485364024ce9d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ collection.title }}",
-            "heading_size": "h1"
-          }
-        },
-        "16536485364024ce9d-1": {
-          "type": "text",
-          "settings": {
-            "text": "We celebrate seasonality.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "16536485364024ce9d-0",
-        "16536485364024ce9d-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_5612_3403d952-6305-40fb-ac2c-02113b1adec2.jpg",
-        "image_overlay_opacity": 30,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -219,24 +181,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "7409db41-a69f-4be8-a75d-2a7d5c42b0fb": {
-      "type": "bean-landing-image",
-      "disabled": true,
-      "settings": {
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "16536485367ff1191d",
     "banner",
     "1a713986-dc37-4b66-b5cf-0705458ba228",
     "9aed932f-1130-4b01-8d78-81c28dfcac7f",
     "16609093955d46716e",
     "1651574465fc19c571",
-    "16609096892f959660",
-    "7409db41-a69f-4be8-a75d-2a7d5c42b0fb"
+    "16609096892f959660"
   ]
 }
