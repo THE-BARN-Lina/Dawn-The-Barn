@@ -159,7 +159,7 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 40,
         "padding_bottom": 40
       }
