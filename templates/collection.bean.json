@@ -104,7 +104,7 @@
           "type": "column",
           "settings": {
             "title": "Terroir",
-            "text": "<p>Our core strength are coffees with distinct notes of terroir and exciting cup profiles. Single farm partnership coffees offering a taste journey throughout the best coffee regions and some of the most skillful coffee producer on this planet.<\/p>",
+            "text": "<p><a href=\"https:\/\/thebarn.de\/collections\/beans?filter.p.m.bean.profile=Terrior\" title=\"https:\/\/thebarn.de\/collections\/beans?filter.p.m.bean.profile=Terrior\">Our core strength are coffees with distinct notes of terroir and exciting cup profiles. Single farm partnership coffees offering a taste journey throughout the best coffee regions and some of the most skillful coffee producer on this planet.<\/a><\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
@@ -114,7 +114,7 @@
           "type": "column",
           "settings": {
             "title": "Exotic",
-            "text": "<p>This advanced level of processing features more extreme taste profiles,  coming from fermentation and the processing of these super extra-ordinary coffees. You often find boozy, funky or cinnamon flavours, overripe fruits and an intense dry aroma.<\/p>",
+            "text": "<p><a href=\"https:\/\/thebarn.de\/collections\/beans?filter.p.m.bean.profile=Exotic\" title=\"https:\/\/thebarn.de\/collections\/beans?filter.p.m.bean.profile=Exotic\">This advanced level of processing features more extreme taste profiles,  coming from fermentation and the processing of these super extra-ordinary coffees. You often find boozy, funky or cinnamon flavours, overripe fruits and an intense dry aroma.<\/a><\/p>",
             "link_label": "",
             "link": "https:\/\/thebarn.de\/collections\/beans?filter.p.m.bean.profile=Balanced",
             "custom_liquid": "{%render 'thebarn.coffeebeanprofile'%}"
