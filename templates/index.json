@@ -140,7 +140,7 @@
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
+            "button_label_1": "ORDER HERE",
             "button_link_1": "shopify:\/\/products\/ivan-dos-santos-espresso",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -160,7 +160,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_142.png",
-        "image_2": "shopify:\/\/shop_images\/Frame_6_1.png",
+        "image_2": "shopify:\/\/shop_images\/Frame_6_2.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
