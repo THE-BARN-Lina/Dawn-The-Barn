@@ -119,30 +119,30 @@
         "show_text_below": false
       }
     },
-    "3f2515eb-4dad-448b-9290-9368462ad494": {
+    "befa68a6-1035-4cea-bf06-95f308026d4b": {
       "type": "image-banner",
       "disabled": true,
       "blocks": {
-        "2cbdb7db-3fff-493c-93ba-e0865a5d2014": {
+        "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
           "type": "heading",
           "settings": {
             "heading": "SILKY SUMMER",
             "heading_size": "h1"
           }
         },
-        "74852180-0144-45b8-9180-f2ddfd7c5c48": {
+        "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
           "type": "text",
           "settings": {
             "text": "Experience the rich heritage of the dos Santos family. Enjoy chocolate and pecan pie profiles.",
             "text_style": "body"
           }
         },
-        "c4d46b98-e52e-4668-9c81-259b777d5a9f": {
+        "ac4d0274-97bf-4716-b80b-36375fc2ffa7": {
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
             "button_link_1": "shopify:\/\/products\/ivan-dos-santos-espresso",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "shopify:\/\/collections\/beans",
             "button_style_secondary_2": false
@@ -150,23 +150,23 @@
         }
       },
       "block_order": [
-        "2cbdb7db-3fff-493c-93ba-e0865a5d2014",
-        "74852180-0144-45b8-9180-f2ddfd7c5c48",
-        "c4d46b98-e52e-4668-9c81-259b777d5a9f"
+        "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e",
+        "6d07b71a-f24b-406e-9ab1-3f723717bc8a",
+        "ac4d0274-97bf-4716-b80b-36375fc2ffa7"
       ],
       "custom_css": [
         "@media only screen and (min-width: 750px) {.banner__box {max-width: 45%; }}",
-        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; }}"
+        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } h1 {margin-top: -6rem; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_137.png",
-        "image_2": "shopify:\/\/shop_images\/Group_67.png",
+        "image": "shopify:\/\/shop_images\/Rectangle_142.png",
+        "image_2": "shopify:\/\/shop_images\/Frame_6.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "transparent_block": false,
         "desktop_content_position": "middle-left",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "background-2",
         "mobile_content_alignment": "center",
@@ -672,7 +672,7 @@
   "order": [
     "4bba18e4-5ffc-416a-8ec1-b2ff90cefec1",
     "image_banner",
-    "3f2515eb-4dad-448b-9290-9368462ad494",
+    "befa68a6-1035-4cea-bf06-95f308026d4b",
     "1653387743507b82e2",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "165900919845720bf8",
