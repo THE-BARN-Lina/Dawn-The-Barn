@@ -133,7 +133,7 @@
         "74852180-0144-45b8-9180-f2ddfd7c5c48": {
           "type": "text",
           "settings": {
-            "text": "Experience the rich heritage of the dos Santos family, enjoy chocolate, pecan pie profiles",
+            "text": "Experience the rich heritage of the dos Santos family. Enjoy chocolate and pecan pie profiles.",
             "text_style": "body"
           }
         },
@@ -154,6 +154,10 @@
         "74852180-0144-45b8-9180-f2ddfd7c5c48",
         "c4d46b98-e52e-4668-9c81-259b777d5a9f"
       ],
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {.banner__box {max-width: 45%; }}",
+        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_137.png",
         "image_2": "shopify:\/\/shop_images\/Group_67.png",
@@ -166,7 +170,7 @@
         "desktop_content_alignment": "left",
         "color_scheme": "background-2",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "show_text_below": false
       }
     },
