@@ -119,6 +119,57 @@
         "show_text_below": false
       }
     },
+    "3f2515eb-4dad-448b-9290-9368462ad494": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "2cbdb7db-3fff-493c-93ba-e0865a5d2014": {
+          "type": "heading",
+          "settings": {
+            "heading": "SILKY SUMMER",
+            "heading_size": "h1"
+          }
+        },
+        "74852180-0144-45b8-9180-f2ddfd7c5c48": {
+          "type": "text",
+          "settings": {
+            "text": "Experience the rich heritage of the dos Santos family, enjoy chocolate, pecan pie profiles",
+            "text_style": "body"
+          }
+        },
+        "c4d46b98-e52e-4668-9c81-259b777d5a9f": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/products\/ivan-dos-santos-espresso",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "shopify:\/\/collections\/beans",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "2cbdb7db-3fff-493c-93ba-e0865a5d2014",
+        "74852180-0144-45b8-9180-f2ddfd7c5c48",
+        "c4d46b98-e52e-4668-9c81-259b777d5a9f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_137.png",
+        "image_2": "shopify:\/\/shop_images\/Group_67.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "1653387743507b82e2": {
       "type": "custom-liquid",
       "settings": {
@@ -617,6 +668,7 @@
   "order": [
     "4bba18e4-5ffc-416a-8ec1-b2ff90cefec1",
     "image_banner",
+    "3f2515eb-4dad-448b-9290-9368462ad494",
     "1653387743507b82e2",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "165900919845720bf8",
