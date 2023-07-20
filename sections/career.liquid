@@ -72,11 +72,6 @@
   }
 </style>
 
-{% assign language = "en" %} <!-- Default language (English) -->
-{% if shop.locale == "de_DE" %}
-  {% assign language = "de" %} <!-- Language set to German if the locale is "de_DE" -->
-{% endif %}
-
 <div class="careers-container">
   {% for career in shop.metaobjects.career.values %}
     <div class="career-container">
@@ -86,16 +81,11 @@
       <div class="career-body">
         <h2 class="career-name">{{ career.name }}</h2>
         <p class="career-text">{{ career.description }}</p>
-        {% if language == "de" %}
-          <a href="{{ career.button_de }}" class="button button--primary">Read More</a>
-        {% else %}
-          <a href="{{ career.button }}" class="button button--primary">Read More</a>
-        {% endif %}
+        <a href="{{ career.button }}" class="button button--primary">Read More</a>
       </div>
     </div>
   {% endfor %}
 </div>
-
 
 
 {% schema %}
