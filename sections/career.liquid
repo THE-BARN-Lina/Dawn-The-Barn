@@ -2,7 +2,6 @@
 .careers-container{
   display: flex;
   flex-direction: row;
-  background-color: red;
   padding: 3rem;
 }
 .career-container{
@@ -57,9 +56,16 @@ img{
 
 }
 @media only screen and (min-width: 990px) {
-    .career-container{
+    .careers-container{
+  display: flex;
+      background-color:red;
+  flex-direction: row;
+  padding: 3rem;
+}
+  .career-container{
         flex-direction: column;
     }
+  
   }
 </style>
 {%for career in shop.metaobjects.career.values  %}
