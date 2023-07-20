@@ -81,24 +81,37 @@
       <div class="career-body">
         <h2 class="career-name">{{ career.name }}</h2>
         <p class="career-text">{{ career.description }}</p>
-        <a href="{{ career.button_english }}" class="button primary--button">Read More</a>
-        <a href="{{ career.button_german }}" class="button primary--button">Read More</a>
+        <a href="{{ career.button_english }}" class="button primary--button english-button">Read More</a>
+        <a href="{{ career.button_german }}" class="button primary--button german-button">Read More</a>
+
 
       </div>
     </div>
   {% endfor %}
 </div>
 <script>
-    document.addEventListener('DOMContentLoaded', function(){
-        var lang = window.location.pathname.split('/')[1];
-        var container = document.querySelector('.careers-container');
-        if (lang === 'de') {
-            container.style.backgroundColor = 'red';
-        } else {
-            container.style.backgroundColor = 'blue';
-        }
-    });
+document.addEventListener('DOMContentLoaded', function(){
+    var lang = window.location.pathname.split('/')[1];
+    var englishButtons = document.querySelectorAll('.english-button');
+    var germanButtons = document.querySelectorAll('.german-button');
+    if (lang === 'de') {
+        englishButtons.forEach(function(button) {
+            button.style.display = 'none';
+        });
+        germanButtons.forEach(function(button) {
+            button.style.display = 'block';
+        });
+    } else {
+        englishButtons.forEach(function(button) {
+            button.style.display = 'block';
+        });
+        germanButtons.forEach(function(button) {
+            button.style.display = 'none';
+        });
+    }
+});
 </script>
+
 
 
 {% schema %}
