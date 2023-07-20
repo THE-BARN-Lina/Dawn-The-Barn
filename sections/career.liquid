@@ -1,4 +1,10 @@
 <style>
+.careers-container{
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  padding: 3rem;
+}
 .career-container{
   display: flex;
   flex-direction: column;
@@ -52,11 +58,13 @@ img{
 }
 @media only screen and (min-width: 990px) {
     .career-container{
-        flex-direction: row;
+        flex-direction: column;
     }
   }
 </style>
 {%for career in shop.metaobjects.career.values  %}
+  <div class="careers-container">
+    
   <div class="career-container">
     <div class="img">
         <img src="{{career.photo |img_url:'500x' }}" alt="career" loading='lazy' height= '' width=''>
@@ -66,6 +74,7 @@ img{
         <p class="career-text">{{ career.description }}</p>
         <a href="{{ career.collection_link }}" class="button button--primary">Apply Here</a>
     </div>
+  </div>
   </div>
 {% endfor %}
 {% schema %}
