@@ -86,6 +86,17 @@
     </div>
   {% endfor %}
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        var lang = window.location.pathname.split('/')[1];
+        var container = document.querySelector('.careers-container');
+        if (lang === 'de') {
+            container.style.backgroundColor = 'red';
+        } else {
+            container.style.backgroundColor = 'blue';
+        }
+    });
+</script>
 
 
 {% schema %}
