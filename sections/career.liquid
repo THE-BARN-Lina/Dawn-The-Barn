@@ -65,6 +65,15 @@
   text-align: center;
 
 }
+  .career-m_w_d{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color:white;
+  text-align: center;
+    margin-top:-2rem;
+
+}
 @media only screen and (min-width: 990px) {
 
   .career-container{
@@ -82,7 +91,7 @@
       </div>
       <div class="career-body">
         <h2 class="career-name">{{ career.name }}</h2>
-        <h2 class="career-name">{{ career.m_w_d }}</h2>
+        <h2 class="career-m_w_d">{{ career.m_w_d }}</h2>
 
         <p class="career-text">{{ career.description }}</p>
         <a href="{{ career.button_english }}" class="button primary--button english-button">Read More</a>
