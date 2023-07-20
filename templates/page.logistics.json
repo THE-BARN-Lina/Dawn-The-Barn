@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "66b17626-90aa-4e7e-b0e4-6bfbb7e0b69a": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CAREERS_BARISTA_BANNER.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "03c1c5f1-2afa-4e70-aef8-48cfcb44f61b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>BARISTA (m|w|d)<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our mission is to create the best coffee experience for our customers and to achieve the best value for our farmers. We source, roast, prepare delicious coffee, bake cookies and connect people by delivering an outstanding coffee experience.<\/p><p>Our baristas work with some of the best coffees out there. They love hospitality and serving our customers. We offer training so our people can grow their coffee knowledge and they can be confident to share our farm stories.<\/p>"
+          }
+        },
+        "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "APPLY HERE",
+            "button_link": "shopify:\/\/pages\/application-form",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "cebe4c72-04ba-40d7-95f4-742803f1e19d": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3><strong>YOUR PROFILE<\/strong><\/h3><p><br\/>- You have experience working as a barista in Specialty Coffee<br\/>- Hospitality skills: You enjoy working in a high pace café environment<br\/>- Communicative, friendly and customer-oriented<br\/>- Clean, fast, organized<br\/>- Self-motivated, reliable and on time.<br\/>- Fluent in English. Speaking German is a plus.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "2a3d0909-871a-4259-8f31-5af4d09001cd": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>WHAT YOU CAN EXPECT FROM US<\/strong><\/h3><p>- Great working environment with international staff<br\/>- Fantastic customers that celebrate our product<br\/>- Professional equipment. Training Facility<br\/>- Fair payment, holidays and social & health insurance<br\/>- A chance to grow and evolve within our company<br\/><br\/>You will be part of a team that is on a mission to change the Value Chain in Coffee. Our product is based on a concept of full quality and sustainability improvements.<\/p>"
+          }
+        },
+        "4f86a542-01ae-45e9-9c83-e2f86e444f4a": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>CONTRACT<\/strong><\/h3><p>- Part-time or full-time<br\/>- Work hours: Rolling schedule (4-5 days per week)<br\/>- Payment: Hourly, payroll: monthly<br\/>- Term: 1 year. Extension possible<\/p><p><strong>Important Notes<br\/><\/strong>You do need an EU passport and work permit for Germany. Unfortunately we cannot sponsor any Visas.<\/p>"
+          }
+        },
+        "8eb38eb7-b1b5-4ce5-8997-2f94d6da668e": {
+          "type": "button",
+          "settings": {
+            "button_label": "APPLY HERE",
+            "button_link": "shopify:\/\/pages\/application-form",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-0",
+        "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-1",
+        "template--17981481615627__03c1c5f1-2afa-4e70-aef8-48cfcb44f61b-168960584111dbaa92-2",
+        "cebe4c72-04ba-40d7-95f4-742803f1e19d",
+        "2a3d0909-871a-4259-8f31-5af4d09001cd",
+        "4f86a542-01ae-45e9-9c83-e2f86e444f4a",
+        "8eb38eb7-b1b5-4ce5-8997-2f94d6da668e"
+      ],
+      "custom_css": [
+        ".button {margin-top: 3rem; margin-bottom: 3rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "66b17626-90aa-4e7e-b0e4-6bfbb7e0b69a",
+    "03c1c5f1-2afa-4e70-aef8-48cfcb44f61b"
+  ]
+}
