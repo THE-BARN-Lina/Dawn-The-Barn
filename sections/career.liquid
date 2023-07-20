@@ -41,16 +41,18 @@ h2{
     }
   }
 </style>
-<div class="career-container">
-  <div class="img">
-      <img src="{{career.photo |img_url:'500x' }}" alt="career" loading='lazy' height= '' width=''>
+{%for career in shop.metaobjects  %}
+  <div class="career-container">
+    <div class="img">
+        <img src="{{career.photo |img_url:'500x' }}" alt="career" loading='lazy' height= '' width=''>
+    </div>
+    <div class="career-body">
+        <h2 class="h1">{{ career.name }}</h2>
+        <p class="career-text">{{ career.description }}</p>
+        <a href="{{ career.collection_link }}" class="button button--primary">Apply Here</a>
+    </div>
   </div>
-  <div class="career-body">
-      <h2 class="h1">{{ career.name }}</h2>
-      <p class="career-text">{{ career.description }}</p>
-      <a href="{{ career.collection_link }}" class="button button--primary">Apply Here</a>
-  </div>
-</div>
+{% endfor %}
 {% schema %}
   {
     "name": "Career",
