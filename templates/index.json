@@ -1,72 +1,5 @@
 {
   "sections": {
-    "4bba18e4-5ffc-416a-8ec1-b2ff90cefec1": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/beanstray.jpg",
-            "heading": "BREW · SIP · REMEMBER",
-            "heading_size": "h2",
-            "subheading": "THE BARN IS A DIFFERENT COFFEE EXPERIENCE",
-            "button_label_1": "SUBSCRIPTIONS",
-            "link_1": "shopify:\/\/collections\/subscriptions",
-            "button_style_secondary_1": false,
-            "button_label_2": "BUY BEANS",
-            "link_2": "shopify:\/\/collections\/beans",
-            "button_style_secondary_2": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 50,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/abo_coffe.png",
-            "heading": "TRIAL SUBSCRIPTION",
-            "heading_size": "h1",
-            "subheading": "Receive two samples of our current subscription coffees, on the house: choose Filter or Espresso",
-            "button_label_1": "ORDER HERE",
-            "link_1": "shopify:\/\/products\/trial-subscription",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary_2": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 30,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-0",
-        "template--17938053923083__4bba18e4-5ffc-416a-8ec1-b2ff90cefec1-168779555934f99674-1"
-      ],
-      "custom_css": [
-        ".banner__buttons a {padding: 0 3rem !important; flex-grow: 1; min-width: 22rem; font-weight: bold;}",
-        ".content-container:after {background-color: #1c1d1c; font-weight: bold;}",
-        "h2 {font-size: 25px;}",
-        ".button--primary {background-color: #804d15; color: white; --border-offset: none;}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 9,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -716,7 +649,6 @@
     }
   },
   "order": [
-    "4bba18e4-5ffc-416a-8ec1-b2ff90cefec1",
     "image_banner",
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "7dad6c30-c93c-4504-a5b5-e50da37b85e1",
