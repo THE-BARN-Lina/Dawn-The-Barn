@@ -26,12 +26,19 @@ img{
     margin-bottom: 0;
 }
 
-.career-container .img{
-  width: 100%;
-}
-    .career-container img {
-      min-width:400px;
-    height: auto;
+ .career-container .img {
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
+    position: relative;
+    overflow: hidden;
+  }
+  .career-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: auto;
     object-fit: contain;
   }
 .career-body{
