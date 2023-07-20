@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16590189470dfa78be": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"display:flex;   align-items: center;\n  justify-content: center;\"><iframe width=\"700\" height=\"394\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/VnAQDO-fg6M?playlist=VnAQDO-fg6M&loop=1&controls=0&autoplay=1&mute=1&amp;start=5\"title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; ; clipboard-write; encrypted-media;mute=1; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<div id=\"text\">\n  <h3>Our exciting journey continues.<br> Join our crew and grow with us! <\/h3>\n<\/div>\n<\/div>\n<style>\n\n\nh3{\n  background: rgba(0,0,0,0);\n  padding: 10px;\n}\n\n#text{\n  position: absolute;\n  color: #FFFFFF;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n @media only screen and (max-width: 600px) {\niframe{\nheight:30vh;\n}\n#text{\ndisplay:none}\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 32,
+        "padding_bottom": 12
+      }
+    },
+    "ee726731-2031-45f7-9ce0-f499382f1afb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17981405495563__ee726731-2031-45f7-9ce0-f499382f1afb-168960182067a94b8b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>COMMITTED TO TOTAL QUALITY & SUSTAINABILITY<\/h1>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17981405495563__ee726731-2031-45f7-9ce0-f499382f1afb-168960182067a94b8b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From the start we have seen our role as a quality leader and game changer in Specialty Coffee. With a full focus on product quality and sustainability, we work closely with our partner farms to make our coffees better and better. We are now hiring motivated people to join our mission and to make a change to the Value Chain of Coffee.<br\/><\/p><p><strong>Be part of our team! <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17981405495563__ee726731-2031-45f7-9ce0-f499382f1afb-168960182067a94b8b-0",
+        "template--17981405495563__ee726731-2031-45f7-9ce0-f499382f1afb-168960182067a94b8b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "6187381e-dd8e-4108-91c5-f42321bbe773": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_ACCOUNTING.webp",
+            "title": "",
+            "text": "<h3>ACCOUNTING<br\/>(m|w|d)<\/h3><p>This is the ideal part-time job for an experienced person who enjoys working as part of a team to process our accounting, join us!<\/p>",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/buchhaltung",
+            "custom_liquid": ""
+          }
+        },
+        "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_LOGISTICS.webp",
+            "title": "",
+            "text": "<h3>LOGISTICS <br\/>(m|w|d)<\/h3><p>Our beans have to reach our customers quickly. You are the interface between sales, production, freight, suppliers. Working hands-on is required.<\/p>",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/logistics",
+            "custom_liquid": ""
+          }
+        },
+        "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_SALES.webp",
+            "title": "",
+            "text": "<h3>SALES<br\/>(m|w|d)<\/h3><p>When it comes to strong customer relationships, building the foundation and being a reliable partner is key in the premium sector.<\/p>",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/international-b2b-sales-m-w-d",
+            "custom_liquid": ""
+          }
+        },
+        "ed46748d-1d16-47ef-be7c-c7d6213f5324": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/538dbc07-7668-496c-bf68-71097caf9a84.jpg",
+            "title": "",
+            "text": "<h3>MARKETING<br\/>(m|w|d)<\/h3><p>This is an exciting role covering many aspects of our business. We are looking for a motivated allrounder and team player.<\/p>",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/marketing-assistant-manager",
+            "custom_liquid": ""
+          }
+        },
+        "716da5d5-9b97-46e9-ac21-2f84dc18825f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_COSTUMER_SERVICE.webp",
+            "title": "",
+            "text": "<h3>CUSTOMER SERVICE<br\/>(m|w|d)<\/h3><p>We treat our online customers as if they stand in front of us: in our café. Your job is to be responsive and to find quick solutions. join us!<\/p>",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/jobs-customer-care-webshop",
+            "custom_liquid": ""
+          }
+        },
+        "86352873-eda7-4862-ab6d-7b12658e09c4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6290.jpg",
+            "title": "",
+            "text": "<h3>BARISTA <br\/>(m|w|d)<\/h3><p>As a barista you should not compromise on which coffees you are using. Join us on our journey to make a difference in coffee!<\/p>",
+            "link_label": "READ MORE",
+            "link": "shopify:\/\/pages\/barista",
+            "custom_liquid": ""
+          }
+        },
+        "d5cf7499-a608-4d77-8e39-a31777ded614": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_BURO_MITARBEITER.webp",
+            "title": "",
+            "text": "<h3>BÜRO MITARBEITER:<br\/>IN (m|w|d)<\/h3><p>Ideal für diejenigen, die in Teilzeit einen tollen Office-Job mit internationalen Mitarbeitern und dem tollsten Kaffee der Hauptstadt suchen. Wichtig: Gute Orga!<\/p>",
+            "link_label": "READ MORE",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "4ecbfc32-5070-4801-b921-2bbcc6c88c00": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_ROASTING_OPERATIONS_MANAGER.webp",
+            "title": "",
+            "text": "<h3>ROASTING OPERATIONS MANAGER (m|w|d)<\/h3><p>This is an exciting hands-on role to manage all aspects of the daily operations in our Coffee Roastery. Working with an international team and the best coffees out there.<\/p>",
+            "link_label": "READ MORE",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "bbbebbc6-3079-4d8e-a85d-4101c4094942": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CAREERS_SHOPIFY_DEV.webp",
+            "title": "",
+            "text": "<h3>SHOPIFY (m|w|d)<\/h3><p>You are a Shopify allrounder, from coding to maintaining of our website. Its a plus to be good at data analytics and producing reports. <\/p>",
+            "link_label": "READ MORE",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-0",
+        "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-1",
+        "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-2",
+        "ed46748d-1d16-47ef-be7c-c7d6213f5324",
+        "716da5d5-9b97-46e9-ac21-2f84dc18825f",
+        "86352873-eda7-4862-ab6d-7b12658e09c4",
+        "d5cf7499-a608-4d77-8e39-a31777ded614",
+        "4ecbfc32-5070-4801-b921-2bbcc6c88c00",
+        "bbbebbc6-3079-4d8e-a85d-4101c4094942"
+      ],
+      "custom_css": [
+        "h3 {margin-bottom: 3rem;}",
+        ".button {margin-top: 2rem; margin-bottom: 2rem;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16590189470dfa78be",
+    "ee726731-2031-45f7-9ce0-f499382f1afb",
+    "6187381e-dd8e-4108-91c5-f42321bbe773"
+  ]
+}
