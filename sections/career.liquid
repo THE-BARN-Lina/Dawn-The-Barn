@@ -41,7 +41,7 @@ h2{
     }
   }
 </style>
-{%for career in shop.metaobjects  %}
+{%for career in shop.metaobjects.career.values  %}
   <div class="career-container">
     <div class="img">
         <img src="{{career.photo |img_url:'500x' }}" alt="career" loading='lazy' height= '' width=''>
