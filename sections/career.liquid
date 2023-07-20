@@ -1,22 +1,20 @@
 <style>
-.careers-container{
-  display: flex;
-  flex-direction: row;
-  padding: 3rem;
-}
-.career-container{
-  display: flex;
-  flex-direction: column;
-  background-color: #f6f6f;
-  padding: 3rem;
-  margin-top: 5rem;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  line-height: 1.5;
-  border-radius: 0.2rem;
-}
+  .careers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  .career-container {
+    flex-basis: 100%;
+    max-width: calc(33.33% - 2rem);
+    background-color: #f6f6f;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+  }
 img{
     max-width: 100%;
     height: auto;
@@ -57,10 +55,10 @@ img{
 }
 @media only screen and (min-width: 990px) {
     .careers-container{
-  display: flex;
-      background-color:red;
-  flex-direction: row;
-  padding: 3rem;
+        display: flex;
+        background-color:red;
+        flex-direction: row;
+        padding: 3rem;
 }
   .career-container{
         flex-direction: column;
@@ -68,21 +66,23 @@ img{
   
   }
 </style>
-{%for career in shop.metaobjects.career.values  %}
-  <div class="careers-container">
-    
-  <div class="career-container">
-    <div class="img">
-        <img src="{{career.photo |img_url:'500x' }}" alt="career" loading='lazy' height= '' width=''>
-    </div>
-    <div class="career-body">
+
+<div class="careers-container">
+  {% for career in shop.metaobjects.career.values %}
+    <div class="career-container">
+      <div class="img">
+        <img src="{{ career.photo | img_url:'500x' }}" alt="career" loading="lazy" height="" width="">
+      </div>
+      <div class="career-body">
         <h2 class="career-name">{{ career.name }}</h2>
         <p class="career-text">{{ career.description }}</p>
         <a href="{{ career.collection_link }}" class="button button--primary">Apply Here</a>
+      </div>
     </div>
-  </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>
+
+
 {% schema %}
   {
     "name": "Career",
