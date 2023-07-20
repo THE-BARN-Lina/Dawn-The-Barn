@@ -72,6 +72,14 @@
   }
 </style>
 
+{% assign language = "en" %} <!-- Default language (English) -->
+{% if shop.locale == "de_DE" %}
+  {% assign language = "de" %} <!-- Language set to German if the locale is "de_DE" -->
+{% endif %}
+
+{% assign careerButtonLink = "https://thebarn.de/pages/barista" %}
+{% assign germanCareerButtonLink = "https://thebarn.de/de/pages/barista" %}
+
 <div class="careers-container">
   {% for career in shop.metaobjects.career.values %}
     <div class="career-container">
@@ -81,11 +89,15 @@
       <div class="career-body">
         <h2 class="career-name">{{ career.name }}</h2>
         <p class="career-text">{{ career.description }}</p>
-        <a href="{{ career.button }}" class="button button--primary">Read More</a>
+        {% if language == "de" %}
+          {% assign careerButtonLink = germanCareerButtonLink %}
+        {% endif %}
+        <a href="{{ careerButtonLink }}" class="button button--primary">Read More</a>
       </div>
     </div>
   {% endfor %}
 </div>
+
 
 
 {% schema %}
