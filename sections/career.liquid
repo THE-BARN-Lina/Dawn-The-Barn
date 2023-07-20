@@ -43,10 +43,10 @@ h2{
 </style>
 <div class="career-container">
   <div class="img">
-      <img src="{{career.picture |img_url:'500x' }}" alt="career" loading='lazy' height= '' width=''>
+      <img src="{{career.photo |img_url:'500x' }}" alt="career" loading='lazy' height= '' width=''>
   </div>
   <div class="career-body">
-      <h2 class="h1">{{ career.headline }}</h2>
+      <h2 class="h1">{{ career.name }}</h2>
       <p class="career-text">{{ career.description }}</p>
       <a href="{{ career.collection_link }}" class="button button--primary">See all their products</a>
   </div>
