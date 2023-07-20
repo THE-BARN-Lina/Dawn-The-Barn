@@ -46,11 +46,17 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "0030e623-a291-41d2-9950-e0b9f81345e0": {
+      "type": "career",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "16590189470dfa78be",
-    "ee726731-2031-45f7-9ce0-f499382f1afb"
+    "ee726731-2031-45f7-9ce0-f499382f1afb",
+    "0030e623-a291-41d2-9950-e0b9f81345e0"
   ]
 }
