@@ -10,8 +10,11 @@
     },
     "66b17626-90aa-4e7e-b0e4-6bfbb7e0b69a": {
       "type": "image-banner",
+      "custom_css": [
+        "img{max-width: 100%; margin-left: auto; margin-right: auto; height: auto;}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/CAREERS_BARISTA_BANNER.webp",
+        "image": "shopify:\/\/shop_images\/CAREERS_LOGISTICS.webp",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
