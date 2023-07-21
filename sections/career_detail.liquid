@@ -5,34 +5,36 @@
 }
 
 </style>
-<div class="careers-detail-container">
-  {% assign currentPageHandle = page.handle %}
-  {% for career_detail in shop.metaobjects.career_detail.values %}
-    {% if career_detail.handle == currentPageHandle %}
-      <div class="career-detail-container">
-        <div class="img">
-          <img src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
-        </div>
-        <div class="career-detail-body">
-          <h2 class="career-detail-name">{{ career_detail.job_title }}</h2>
-          <h3 class="career-detail-m_w_d">{{ career_detail.job_description }}</h3>
 
-          <p class="career-text">{{ career_detail.description }}</p>
-        </div>
+<div class="careers-detail-container">
+  {% for career_detail in shop.metaobjects.career_detail.values %}
+    <div class="career-detail-container">
+      <div class="img">
+        <img src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
       </div>
-    {% endif %}
+      <div class="career-detail-body">
+        <h2 class="career-detail-name">{{ career_detail.job_title }}</h2>
+        <h3 class="career-detail-m_w_d">{{ career_detail.job_description }}</h3>
+
+        <p class="career-text">{{ career.description }}</p>
+        <a href="{{ career_detail.button_1 }}" class="button primary--button">APPLY HERE !</a>
+
+
+      </div>
+    </div>
   {% endfor %}
 </div>
 
+
+
+
 {% schema %}
-{
-  "name": "Career Detail",
-  "settings": [],
-  "presets": [
-    {
-      "name": "Career Detail",
-      "category": "Text"
-    }
-  ]
-}
+  {
+    "name": "Career Detail",
+    "settings": [],
+    "presets": [{
+        "name": "Career Detail",
+        "category": "Text"
+  }]
+  }
 {% endschema %}
