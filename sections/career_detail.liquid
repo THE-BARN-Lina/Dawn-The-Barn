@@ -8,7 +8,6 @@
 
 <div class="careers-detail-container">
   {% for career_detail in shop.metaobjects.career_detail.values %}
-    {% if career_detail.page_handle == page.handle %} {# Filter based on current page's handle #}
       <div class="career-detail-container">
         <div class="img">
           <img src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
@@ -21,7 +20,6 @@
           <a href="" class="button primary--button">APPLY HERE!</a>
         </div>
       </div>
-    {% endif %}
   {% endfor %}
 </div>
 
