@@ -2,6 +2,13 @@
 .careers-detail-container{
   padding:4rem;
 }
+  .image_container{
+    max-height: 300px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  }
+  
 img{
   width:100%;
   max-height: 400px;
@@ -17,7 +24,7 @@ img{
   {% for career_detail in shop.metaobjects.career_detail.values %}
     {% if career_detail.page_handle_hardcoded == page.handle %}
       <div class="career-detail-container">
-        <div class="img">
+        <div class="img_container">
           <img src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
         </div>
         <div class="career-detail-body">
