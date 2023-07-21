@@ -5,10 +5,10 @@
 }
 
 </style>
-
 <div class="careers-detail-container">
+  {% assign currentPageHandle = page.handle %}
   {% for career_detail in shop.metaobjects.career_detail.values %}
-    {% if career_detail.handle == pageHandle %}
+    {% if career_detail.handle == currentPageHandle %}
       <div class="career-detail-container">
         <div class="img">
           <img src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
@@ -24,32 +24,15 @@
   {% endfor %}
 </div>
 
-
-
-
 {% schema %}
-  {
-    "name": "Career Detail",
-    "settings": [],
-    "presets": [{
-        "name": "Career Detail",
-        "category": "Text"
-  }]
-  }
+{
+  "name": "Career Detail",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Career Detail",
+      "category": "Text"
+    }
+  ]
+}
 {% endschema %}
-
-<script>
-document.addEventListener('DOMContentLoaded', function(){
-    var pageHandle = window.location.pathname.split('/')[2];
-    var careerDetailContainers = document.querySelectorAll('.career-detail-container');
-    
-    careerDetailContainers.forEach(function(container) {
-        var careerHandle = container.querySelector('.career-detail-name').textContent;
-        if (careerHandle === pageHandle) {
-            container.style.display = 'block';
-        } else {
-            container.style.display = 'none';
-        }
-    });
-});
-</script>
