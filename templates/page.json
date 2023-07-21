@@ -1,27 +1,24 @@
 {
   "sections": {
-    "e6cd3f69-15cb-4f35-b539-3ce46cd0c0ee": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 56,
-        "padding_bottom": 52
-      }
-    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
-        "h1{text-align:center;}"
+        "h1 {text-align: center;}"
       ],
       "settings": {
         "padding_top": 0,
         "padding_bottom": 28
       }
+    },
+    "5c173c56-bcec-499e-ba96-cd616b55efc1": {
+      "type": "career_detail",
+      "settings": {
+      }
     }
   },
   "order": [
-    "e6cd3f69-15cb-4f35-b539-3ce46cd0c0ee",
-    "main"
+    "main",
+    "5c173c56-bcec-499e-ba96-cd616b55efc1"
   ]
 }
