@@ -34,7 +34,7 @@
           <p class="career-detail-m_w_d">{{ career_detail.job_description }}</p>
           <p class="career-detail-m_w_d">{{ career_detail.job_description_2 }}</p>
           <a href="{{ career_detail.button_1 }}" class="button primary--button">APPLY HERE !</a>
-          <h2 class="career-detail-m_w_d">{{ career_detail.title_1 }}</h2>
+          <h2 class="career-detail_description_1">{{ career_detail.title_1 }}</h2>
           <p class="career-detail-m_w_d">{{ career_detail.description_1 }}</p>
           <h2 class="career-detail-m_w_d">{{ career_detail.title_2 }}</h2>
           <p class="career-detail-m_w_d">{{ career_detail.description_2 }}</p>
@@ -63,7 +63,15 @@
   {% endfor %}
 </div>
 <!-- End Debug -->
-
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const descriptionElement = document.querySelector('.career-detail_description_1');
+    const description = descriptionElement.textContent;
+    const lines = description.split('\n');
+    const listItems = lines.map(line => `<li>${line.trim()}</li>`).join('');
+    descriptionElement.innerHTML = `<ul>${listItems}</ul>`;
+  });
+</script>
 
 
 {% schema %}
