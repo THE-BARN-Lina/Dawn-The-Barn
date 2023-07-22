@@ -10,8 +10,12 @@
   .image_container{
    
     width: 100%;
-    background-size: cover;
 
+  }
+  .image-banner-career{
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   }
 
   .button_container{
@@ -40,7 +44,7 @@
     {% if career_detail.page_handle_hardcoded == page.handle %}
       <div class="career-detail-container">
         <div class="img_container">
-          <img src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail"  height="300px" width="1480px">
+          <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail"  height="300px" width="1480px">
         </div>
         <div class="career-detail-body">
           <h1 class="career-detail-name">{{ career_detail.job_title }}</h1>
