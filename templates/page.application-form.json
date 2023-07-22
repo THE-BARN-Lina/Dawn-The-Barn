@@ -8,7 +8,7 @@
         "padding_bottom": 28
       }
     },
-    "b68e0bfa-9f9c-4de9-8235-f28b1067cfcd": {
+    "d49c4775-c243-437e-b92e-76e5e0549920": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"powr-form-builder\" id=\"26862820_1550568370\"><\/div><script src=\"https:\/\/www.powr.io\/powr.js?platform=shopify\"><\/script>",
@@ -20,6 +20,6 @@
   },
   "order": [
     "main",
-    "b68e0bfa-9f9c-4de9-8235-f28b1067cfcd"
+    "d49c4775-c243-437e-b92e-76e5e0549920"
   ]
 }
