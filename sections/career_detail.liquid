@@ -65,13 +65,16 @@
 <!-- End Debug -->
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const descriptionElement = document.querySelectorAll('.career-detail_description_1, .career-detail_description_3' );
+ document.addEventListener("DOMContentLoaded", function() {
+  const descriptionElements = document.querySelectorAll('.career-detail_description_1, .career-detail_description_3');
+
+  descriptionElements.forEach(descriptionElement => {
     const description = descriptionElement.textContent;
     const lines = description.split('\n');
     const listItems = lines.map(line => `<li>${line.trim()}</li>`).join('');
     descriptionElement.innerHTML = `<ul>${listItems}</ul>`;
   });
+});
 </script>
 
 
