@@ -1,22 +1,20 @@
 <style>
-.careers-detail-container{
-  padding:4rem;
-}
-.image_container{
-  max-height: 300px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-  
- img{
+  .careers-detail-container{
+    padding:4rem;
+  }
+  .image_container{
+    max-height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  img{
   width:100%;
   max-height: 400px;
   object-fit: cover;
   object-position: center; /* Center the image within the container */
-
-}
-@media only screen and (min-width: 990px) {
+  }
+@media only screen and (min-width: 750px) {
   
 }
 
@@ -53,20 +51,12 @@
   {% endfor %}
 </div>
 
-<!-- Debug -->
-<div>
-  Page handle: {{ page.handle }}
-  {% for career_detail in shop.metaobjects.career_detail.values %}
-    <div>
-  Page hardcoded handle: {{ career_detail.page_handle_hardcoded }}
-    </div>
-  {% endfor %}
-</div>
-<!-- End Debug -->
-
+<!-- This Scrip allow us to have a bullet points -->
 <script>
  document.addEventListener("DOMContentLoaded", function() {
-  const descriptionElements = document.querySelectorAll('.career-detail_description_1, .career-detail_description_3, .career-detail_description_5, .career-detail_description_6');
+  const descriptionElements = document.querySelectorAll(
+    '.career-detail_description_1, .career-detail_description_3, .career-detail_description_5, .career-detail_description_6'
+  );
 
   descriptionElements.forEach(descriptionElement => {
     const description = descriptionElement.textContent;
@@ -76,6 +66,18 @@
   });
 });
 </script>
+<!-- This Scrip allow us to have a bullet points -->
+
+<!-- Debug to check the handle of the page and of the hardcoded metaobject :) -->
+<div>
+  Page handle: {{ page.handle }}
+  {% for career_detail in shop.metaobjects.career_detail.values %}
+    <div>
+  Page hardcoded handle: {{ career_detail.page_handle_hardcoded }}
+    </div>
+  {% endfor %}
+</div>
+<!-- End Debug -->
 
 
 {% schema %}
