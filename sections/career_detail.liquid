@@ -63,9 +63,10 @@
   {% endfor %}
 </div>
 <!-- End Debug -->
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const descriptionElement = document.querySelector('.career-detail_description_1');
+    const descriptionElement = document.querySelector('.career-detail_description_1','.career-detail_description_3' );
     const description = descriptionElement.textContent;
     const lines = description.split('\n');
     const listItems = lines.map(line => `<li>${line.trim()}</li>`).join('');
