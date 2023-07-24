@@ -33,6 +33,7 @@
 
   @media only screen and (min-width: 990px) {}
 
+
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -50,7 +51,7 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -118,10 +119,10 @@
      
       </div>
 
-      <div class="flip-card">
+<div class="flip-card" id="flipCard">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-<h2>hello</h2>
+      <h2>image</h2>
     </div>
     <div class="flip-card-back">
       <h1>John Doe</h1> 
@@ -130,6 +131,9 @@
     </div>
   </div>
 </div>
+
+<button onclick="flipCard()">Flip</button>
+
 
 
     </div>
@@ -150,6 +154,14 @@
     descriptionElement.innerHTML = `<ul>${listItems}</ul>`;
   });
 });
+</script>
+  <!-- This Scrip allow us to toggle the cards -->
+
+<script>
+  function flipCard() {
+    const flipCard = document.getElementById('flipCard');
+    flipCard.classList.toggle('flipped');
+  }
 </script>
 
 
