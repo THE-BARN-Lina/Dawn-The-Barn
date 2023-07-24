@@ -125,12 +125,22 @@
 <!-- This Scrip allow us to have a bullet points -->
 <!-- This Scrip allow us to flip the container -->
 <script>
-  const flipButton = document.getElementById('flip-button');
-  const container = document.getElementById('container');
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const flipButton = document.getElementById('flip-button');
+    const container = document.getElementById('container');
+    let isFlipped = false;
 
-  flipButton.addEventListener('click', () => {
-    container.classList.toggle('flipped');
+    flipButton.addEventListener('click', function () {
+      if (isFlipped) {
+        container.classList.remove('flipped');
+      } else {
+        container.classList.add('flipped');
+      }
+      isFlipped = !isFlipped;
+    });
   });
+</script>
 </script>
 <!-- This Scrip allow us to flip the container -->
 
