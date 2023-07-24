@@ -102,7 +102,12 @@
   height: 100%; /* Set the grid item height to fill the grid container */
   border:1px solid grey;
 }
-
+.button-card{
+  width:300px;
+  height:3rem;
+  background-color:transparent;
+  color:grey;
+}
     @media only screen and (min-width: 990px) {
         .kranzler_events-container_main {
         max-width:900px;
@@ -126,6 +131,7 @@
   perspective: 1000px;
 }
     }
+  
 
 </style>
 
@@ -207,7 +213,7 @@
           </div>
         </div>
         <div class="button-container">
-          <button onclick="flipCard()">Read More</button>
+          <button class="button-card" onclick="flipCard()">Read More</button>
         </div>
       </div>
     </div>
