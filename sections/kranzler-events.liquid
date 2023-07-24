@@ -8,13 +8,22 @@
 </style>
 
   {% for kranzler_events in shop.metaobjects.kranzler_events.values %}
-    <div class="career-container">
-        <h1 class="kranzler_events-title_1">{{ kranzler_events.title }}</h1>
+    <div class="kranzler_events-container_1">
+      <h1 class="kranzler_events-title_1">{{ kranzler_events.title }}</h1>
       <div class="img">
         <img src="{{ kranzler_events.image_1 | img_url:'500x' }}" alt="career" loading="lazy" height="" width="">
       </div>
       <div class="kranzler_events-body">
         <p class="kranzler_events-description-1">{{ kranzler_events.description_1 }}</p>
+      </div>
+    </div>
+    <div class="kranzler_events-container_2">
+      <h1 class="kranzler_events-title_2">{{ kranzler_events.title }}</h1>
+      <div class="img">
+        <img src="{{ kranzler_events.image_2 | img_url:'500x' }}" alt="career" loading="lazy" height="" width="">
+      </div>
+      <div class="kranzler_events-body">
+        <p class="kranzler_events-description-2">{{ kranzler_events.description_1 }}</p>
       </div>
     </div>
   {% endfor %}
