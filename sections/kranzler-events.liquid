@@ -114,6 +114,8 @@
   color:grey;
   cursor: pointer;
   border: 1px solid;
+
+  display:flex;
 }
     @media only screen and (min-width: 990px) {
         .kranzler_events-container_main {
@@ -221,7 +223,8 @@
         </div>
         <div class="button-container">
           <button class="button-card" onclick="flipCard()">
-            <img src="{{ 'read.svg' | asset_url }}" alt="Icon 4" loading="lazy" height="40" width="40">
+            <img src="{{ 'read.svg' | asset_url }}" alt="Icon 4" loading="lazy" height="32" width="32">
+            Read More
           </button>
         </div>
       </div>
