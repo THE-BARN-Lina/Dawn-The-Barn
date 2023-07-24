@@ -65,8 +65,24 @@
   </div>
   {% endfor %}
   
+  <!-- This Scrip allow us to have a bullet points -->
+<script>
+ document.addEventListener("DOMContentLoaded", function() {
+  const descriptionElements = document.querySelectorAll(
+    'kranzler_events-description'
+  );
 
+  descriptionElements.forEach(descriptionElement => {
+    const description = descriptionElement.textContent;
+    const lines = description.split('\n');
+    const listItems = lines.map(line => `<li>${line.trim()}</li>`).join('');
+    descriptionElement.innerHTML = `<ul>${listItems}</ul>`;
+  });
+});
+</script>
+<!-- This Scrip allow us to have a bullet points -->
 
+  
 {% schema %}
   {
     "name": "Kranzler_Events",
