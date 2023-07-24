@@ -52,6 +52,27 @@
   }
 
   @media only screen and (min-width: 990px) {}
+
+  /* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Adjust the gap between grid items as needed */
+}
+
+/* Each grid item */
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Add a background color or remove it if you don't need it */
+  /* Adjust the width, height, and other styles of grid items as needed */
+}
+
+/* The centered word within each grid item */
+.centered-word {
+  font-size: 24px; /* Adjust the font size as needed */
+}
 </style>
 
   {% for kranzler_events in shop.metaobjects.kranzler_events.values %}
@@ -95,7 +116,20 @@
           <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_2 }}</p>
         </div>
         <div class="back-content">
-          <p>This is the back content.</p>
+        <div class="grid-container">
+          <div class="grid-item">
+            <div class="centered-word">Word 1</div>
+          </div>
+          <div class="grid-item">
+            <div class="centered-word">Word 2</div>
+          </div>
+          <div class="grid-item">
+            <div class="centered-word">Word 3</div>
+          </div>
+          <div class="grid-item">
+            <div class="centered-word">Word 4</div>
+          </div>
+        </div>
         </div>
       </div>
       <button id="flip-button">Flip</button>
