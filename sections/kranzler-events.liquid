@@ -22,7 +22,19 @@
     flex-direction:column;
     align-items:center;
     text-align: center;
+  
+    position: relative;
+    perspective: 1000px; /* Creates a 3D perspective for flipping effect */
   }
+  .front-content, .back-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Ensures the back content is not visible initially */
+}
+.back-content {
+  transform: rotateY(180deg); /* Flips the back content, initially hidden */
+}
 .kranzler_events-title{
   text-align: center;
 }
@@ -100,6 +112,16 @@
 });
 </script>
 <!-- This Scrip allow us to have a bullet points -->
+<!-- This Scrip allow us to flip the container -->
+<script>
+  const flipButton = document.getElementById('flip-button');
+  const container = document.getElementById('container');
+
+  flipButton.addEventListener('click', () => {
+    container.classList.toggle('flipped');
+  });
+</script>
+<!-- This Scrip allow us to flip the container -->
 
   
 {% schema %}
