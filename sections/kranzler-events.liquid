@@ -82,16 +82,21 @@
   display:flex;
   justify-content:flex-end;
 }
-  .card-container-back{
-    height: 100%
-  }
-  .card-block{
-    widtht: cal(100% / 2);
-    height: 50%;
-    border: 1px solid grey;
-    background-color: red;
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Adjust the gap between grid items as needed */
+}
 
-  }
+/* Each grid item */
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Add a background color or remove it if you don't need it */
+  /* Adjust the width, height, and other styles of grid items as needed */
+}
 
 </style>
 
@@ -143,14 +148,29 @@
      
       </div>
     </div>
-    <div class="flip-card-back">
-     <div class="card-container-back">
-        <div class="card-block">h</div>
-        <div class="card-block">ee</div>
-        <div class="card-block">f</div>
-        <div class="card-block">r</div>
-     </div>
+<div class="flip-card-back">
+  <div class="card-container-back">
+    <div class="grid-container">
+      <div class="grid-item">
+        <!-- Icon 1 goes here -->
+        <img src="path_to_icon_1.png" alt="Icon 1">
+      </div>
+      <div class="grid-item">
+        <!-- Icon 2 goes here -->
+        <img src="path_to_icon_2.png" alt="Icon 2">
+      </div>
+      <div class="grid-item">
+        <!-- Icon 3 goes here -->
+        <img src="path_to_icon_3.png" alt="Icon 3">
+      </div>
+      <div class="grid-item">
+        <!-- Icon 4 goes here -->
+        <img src="path_to_icon_4.png" alt="Icon 4">
+      </div>
     </div>
+  </div>
+</div>
+
   </div>
 </div>
 <div class="button-container">
