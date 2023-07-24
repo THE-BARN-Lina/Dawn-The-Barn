@@ -1,47 +1,60 @@
 <style>
-.kranzler_events-container_main{
-  margin:2rem;
-  padding: 0rem;
-}
-.img-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
+<style>
+  .kranzler_events-container_main {
+    margin: 2rem;
+    padding: 0rem;
+  }
 
-.kranzler_events-img {
-  width: 100vw;
-  height: 100%;
-  object-fit: cover;
-}
-.kranzler_events-catering-container{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+  .img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .kranzler_events-img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .kranzler_events-catering-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-  
     perspective: 1000px; /* Creates a 3D perspective for flipping effect */
   }
-  .front-content, .back-content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden; /* Ensures the back content is not visible initially */
-}
-.back-content {
-  transform: rotateY(180deg); /* Flips the back content, initially hidden */
-}
-.kranzler_events-title{
-  text-align: center;
-}
-@media only screen and (min-width: 990px) {
 
- 
-  
+  .front-content,
+  .back-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Ensures the back content is not visible initially */
   }
+
+  .back-content {
+    transform: rotateY(180deg); /* Flips the back content, initially hidden */
+  }
+
+  /* Define the .flipped class for flipping effect */
+  .kranzler_events-catering-container.flipped .front-content {
+    transform: rotateY(180deg);
+  }
+
+  .kranzler_events-catering-container.flipped .back-content {
+    transform: rotateY(0); /* Reset rotation for back content when flipped */
+  }
+
+  .kranzler_events-title {
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 990px) {}
+</style>
 </style>
 
   {% for kranzler_events in shop.metaobjects.kranzler_events.values %}
