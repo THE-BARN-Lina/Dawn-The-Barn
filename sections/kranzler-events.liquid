@@ -86,7 +86,9 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); /* Set the grid rows to 2 equal fractions */
   gap: 10px; /* Adjust the gap between grid items as needed */
+  height: 100%; /* Set the grid container height to fill its parent */
 }
 
 /* Each grid item */
@@ -96,6 +98,8 @@
   align-items: center;
   background-color: #f0f0f0; /* Add a background color or remove it if you don't need it */
   /* Adjust the width, height, and other styles of grid items as needed */
+  width: 100%; /* Set the grid item width to fill the grid container */
+  height: 100%; /* Set the grid item height to fill the grid container */
 }
 
 </style>
