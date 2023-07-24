@@ -9,11 +9,11 @@
 
   {% for kranzler_events in shop.metaobjects.kranzler_events.values %}
     <div class="career-container">
+        <h1 class="kranzler_events-title">{{ kranzler_events.title }}</h1>
       <div class="img">
-        <img src="{{ kranzler_events.image | img_url:'500x' }}" alt="career" loading="lazy" height="" width="">
+        <img src="{{ kranzler_events.image_1 | img_url:'500x' }}" alt="career" loading="lazy" height="" width="">
       </div>
       <div class="kranzler_events-body">
-        <h1 class="kranzler_events-title">{{ kranzler_events.title_1 }}</h1>
         <p class="kranzler_events-description-1">{{ kranzler_events.description_1 }}</p>
       </div>
     </div>
