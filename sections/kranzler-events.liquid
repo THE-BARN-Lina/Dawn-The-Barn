@@ -17,6 +17,11 @@
   height: 100%;
   object-fit: cover;
 }
+.kranzler_events-catering-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
 @media only screen and (min-width: 990px) {
 
  
@@ -58,7 +63,7 @@
       <div class="img-container">
         <img src="{{ kranzler_events.image_4 | img_url:'500x' }}" class="kranzler_events-img" alt="career" loading="lazy" height="" width="">
       </div>
-      <div class="kranzler_events-body">
+      <div class="kranzler_events-catering-container">
         <p class="kranzler_events-description-catering">{{ kranzler_events.description_4 }}</p>
         <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_1 }}</p>
         <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_2 }}</p>
