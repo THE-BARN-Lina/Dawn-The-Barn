@@ -10,19 +10,15 @@
   {% for kranzler_events in shop.metaobjects.kranzler_events.values %}
     <div class="career-container">
       <div class="img">
-        <img src="{{ career.photo | img_url:'500x' }}" alt="career" loading="lazy" height="" width="">
+        <img src="{{ kranzler_events.image | img_url:'500x' }}" alt="career" loading="lazy" height="" width="">
       </div>
-      <div class="career-body">
-        <h2 class="career-name">{{ career.name }}</h2>
-        <h3 class="career-m_w_d">{{ career.m_w_d }}</h3>
-        <p class="career-text">{{ career.description }}</p>
+      <div class="kranzler_events-body">
+        <h1 class="kranzler_events-title">{{ kranzler_events.title_1 }}</h1>
+        <p class="kranzler_events-description-1">{{ kranzler_events.description_1 }}</p>
       </div>
     </div>
   {% endfor %}
-<script>
-
-</script>
-
+  
 
 
 {% schema %}
