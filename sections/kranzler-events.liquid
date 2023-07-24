@@ -27,10 +27,10 @@
   {% for kranzler_events in shop.metaobjects.kranzler_events.values %}
   <div class="kranzler_events-container_main">
     <div class="kranzler_events-container_1">
-      <h1 class="kranzler_events-title">{{ kranzler_events.title_1 }}</h1>
       <div class="img-container">
         <img src="{{ kranzler_events.image_1 | img_url:'500x' }}" class="kranzler_events-img" alt="career" loading="lazy" height="" width="">
       </div>
+      <h1 class="kranzler_events-title">{{ kranzler_events.title_1 }}</h1>
       <div class="kranzler_events-body">
         <p class="kranzler_events-description">{{ kranzler_events.description_1 }}</p>
       </div>
