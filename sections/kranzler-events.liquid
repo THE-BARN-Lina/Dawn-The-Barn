@@ -1,12 +1,37 @@
+<style>
+
+@media only screen and (min-width: 990px) {
+
+ 
+  
+  }
+</style>
+
+  {% for kranzler_events in shop.metaobjects.kranzler_events.values %}
+    <div class="career-container">
+      <div class="img">
+        <img src="{{ career.photo | img_url:'500x' }}" alt="career" loading="lazy" height="" width="">
+      </div>
+      <div class="career-body">
+        <h2 class="career-name">{{ career.name }}</h2>
+        <h3 class="career-m_w_d">{{ career.m_w_d }}</h3>
+        <p class="career-text">{{ career.description }}</p>
+      </div>
+    </div>
+  {% endfor %}
+<script>
+
+</script>
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Kranzler_Events",
+    "settings": [],
+    "presets": [{
+        "name": "Kranzler_Events",
+        "category": "Text"
+  }]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
