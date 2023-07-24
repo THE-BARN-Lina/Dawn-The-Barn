@@ -27,60 +27,14 @@
     perspective: 1000px; /* Creates a 3D perspective for flipping effect */
   }
 
-  .front-content,
-  .back-content {
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden; /* Ensures the back content is not visible initially */
-  }
-
-  .back-content {
-    position: relative; /* Add relative positioning to the back content */
-    transform: rotateY(180deg); /* Flips the back content, initially hidden */
-        margin-top: -200px;
-    padding-bottom: 28rem;
-  }
-
-  /* Define the .flipped class for flipping effect */
-  .kranzler_events-catering-container.flipped .front-content {
-    transform: rotateY(180deg);
-  }
-
-  .kranzler_events-catering-container.flipped .back-content {
-    transform: rotateY(0); /* Reset rotation for back content when flipped */
-  }
-
   .kranzler_events-title {
     text-align: center;
   }
 
   @media only screen and (min-width: 990px) {}
 
-  /* The grid container */
-  .grid-container {
-    position: absolute; /* Add absolute positioning */
-    top: 0; /* Position at the top */
-    left: 0; /* Position at the left */
-    width: 100%; /* Cover the entire width of the container */
-    height: 100%; /* Cover the entire height of the container */
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px; /* Adjust the gap between grid items as needed */
-  }
 
-  /* Each grid item */
-  .grid-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0; /* Add a background color or remove it if you don't need it */
-    /* Adjust the width, height, and other styles of grid items as needed */
-  }
 
-  /* The centered word within each grid item */
-  .centered-word {
-    font-size: 24px; /* Adjust the font size as needed */
-  }
 </style>
 
   {% for kranzler_events in shop.metaobjects.kranzler_events.values %}
@@ -123,24 +77,9 @@
           <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_1 }}</p>
           <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_2 }}</p>
         </div>
-        <div class="back-content">
-        <div class="grid-container">
-          <div class="grid-item">
-            <div class="centered-word">Word 1</div>
-          </div>
-          <div class="grid-item">
-            <div class="centered-word">Word 2</div>
-          </div>
-          <div class="grid-item">
-            <div class="centered-word">Word 3</div>
-          </div>
-          <div class="grid-item">
-            <div class="centered-word">Word 4</div>
-          </div>
-        </div>
-        </div>
+     
       </div>
-      <button id="flip-button">Flip</button>
+
 
     </div>
   </div>
@@ -161,24 +100,6 @@
   });
 });
 </script>
-<!-- This Script allows us to flip the container -->
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const flipButton = document.getElementById('flip-button');
-    const container = document.getElementById('container');
-    let isFlipped = false;
-
-    flipButton.addEventListener('click', function () {
-      if (isFlipped) {
-        container.classList.remove('flipped');
-      } else {
-        container.classList.add('flipped');
-      }
-      isFlipped = !isFlipped;
-    });
-  });
-</script>
-<!-- This Script allows us to flip the container -->
 
 
   
