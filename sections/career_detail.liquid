@@ -14,6 +14,7 @@
     align-items:center;
     max-height:270px;
     width: 100%;
+    overflow:hidden;
 
   }
   .image-banner-career{
@@ -48,9 +49,9 @@
     {% if career_detail.page_handle_hardcoded == page.handle %}
       <div class="career-detail-container">
         <div class="img_container">
-           <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
           <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
-        <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
+          <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
+          <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
           <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
           <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
         </div>
