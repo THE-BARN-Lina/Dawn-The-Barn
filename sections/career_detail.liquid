@@ -7,16 +7,19 @@
     padding-left:27rem;
   padding-right:27rem;
 }
-  .img_container{
-    max-height:200px;
-    width: 100%;
+.img_container {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
 
-  }
-  .image-banner-career{
-    height: 200px;
-    width: 100vw;
-    object-fit: cover;
-  }
+.image-banner-career {
+  height: 100%; /* Will take the height of the .img_container */
+  width: 100vw; /* Will take the full width of the screen */
+  background-repeat: repeat-x;
+  background-size: 200px auto; /* Set the height to 200px and let the width adjust automatically */
+  background-position: center; /* Ensures the center of the image is always visible */
+}
 
   .button_container{
     display:flex;
