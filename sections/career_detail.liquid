@@ -7,26 +7,16 @@
     padding-left:27rem;
   padding-right:27rem;
 }
-.img_container {
-  height: 200px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
+  .img_container{
+    max-height:200px;
+    width: 100%;
 
-.image-banner-career {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-}
-
-/* Ensure the image scales proportionally and covers the width */
-.image-banner-career[src] {
-  min-width: 100%;
-  min-height: 100%;
-}
+  }
+  .image-banner-career{
+    height: 200px;
+    width: 100vw;
+    object-fit: cover;
+  }
 
   .button_container{
     display:flex;
