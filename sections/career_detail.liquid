@@ -42,7 +42,7 @@
     {% if career_detail.page_handle_hardcoded == page.handle %}
       <div class="career-detail-container">
         <div class="img_container">
-          <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail"  height="" width="">
+          <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
         </div>
         <div class="career-detail-body">
           <h1 class="career-detail-name">{{ career_detail.job_title }}</h1>
