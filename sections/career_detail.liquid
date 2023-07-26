@@ -82,7 +82,7 @@
   {% endfor %}
 <!-- This Scrip allow us to have a bullet points -->
 <script>
- document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
   const descriptionElements = document.querySelectorAll(
     '.career-detail_description_1,.career-detail_description_2, .career-detail_description_3, .career-detail_description_5, .career-detail_description_6'
   );
@@ -90,8 +90,15 @@
   descriptionElements.forEach(descriptionElement => {
     const description = descriptionElement.textContent;
     const lines = description.split('\n');
-    const listItems = lines.map(line => `<li>${line.trim()}</li>`).join('');
-    descriptionElement.innerHTML = `<ul>${listItems}</ul>`;
+    const listItems = lines
+      .filter(line => line.trim() !== '') // filter out empty or whitespace-only lines
+      .map(line => `<li>${line.trim()}</li>`)
+      .join('');
+    if (listItems) { // check if there are any list items before adding <ul> tags
+      descriptionElement.innerHTML = `<ul>${listItems}</ul>`;
+    } else {
+      descriptionElement.innerHTML = ''; // clear the element if there are no list items
+    }
   });
 });
 </script>
