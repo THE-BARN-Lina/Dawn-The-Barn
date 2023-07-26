@@ -37,7 +37,6 @@
 
 </style>
 
-<div class="careers-detail-container">
   {% for career_detail in shop.metaobjects.career_detail.values %}
     {% if career_detail.page_handle_hardcoded == page.handle %}
       <div class="career-detail-container">
@@ -68,8 +67,6 @@
       </div>
     {% endif %}
   {% endfor %}
-</div>
-
 <!-- This Scrip allow us to have a bullet points -->
 <script>
  document.addEventListener("DOMContentLoaded", function() {
