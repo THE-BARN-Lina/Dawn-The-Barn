@@ -11,14 +11,21 @@
   height: 200px;
   width: 100%;
   overflow: hidden;
+  position: relative;
 }
 
 .image-banner-career {
-  height: 100%; /* Will take the height of the .img_container */
-  width: 100vw; /* Will take the full width of the screen */
-  background-repeat: repeat-x;
-  background-size: 200px auto; /* Set the height to 200px and let the width adjust automatically */
-  background-position: center; /* Ensures the center of the image is always visible */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Ensure the image scales proportionally and covers the width */
+.image-banner-career[src] {
+  min-width: 100%;
+  min-height: 100%;
 }
 
   .button_container{
@@ -46,7 +53,7 @@
     {% if career_detail.page_handle_hardcoded == page.handle %}
       <div class="career-detail-container">
         <div class="img_container">
-          <div class="image-banner-career" style="background-image: url('{{ career_detail.photo | img_url: '500x' }}');"></div>
+          <img class='image-banner-career' src="{{ career_detail.photo | img_url:'500x' }}" alt="career_detail" loading="lazy" height="" width="">
         </div>
         <div class="career-detail-body">
           <h1 class="career-detail-name">{{ career_detail.job_title }}</h1>
