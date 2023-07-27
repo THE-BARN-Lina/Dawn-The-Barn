@@ -1,451 +1,495 @@
-<style>
+<style > :root
+{
+  --primary-color: #007bff19; /* Blue */
+  --secondary-color: #6c757d34; /* Gray */
+  --accent-color: #28A745; /* Green */
+}
+.kranzler_events-container_main {
+  margin: 2rem;
+  padding: 0;
+}
+.kranzler_events-container_1 {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img-container-top {
+  width: 50%;
+  position: relative; /* Set the container as a positioning context for the text overlay */
+}
+
+.kranzler_events-image-top {
+  width: 100%;
+}
+.kranzler_events-title-top {
+  text-align: center;
+  width: 600px;
+}
+
+.text-overlay {
+  position: absolute; /* Position the text overlay relative to the image container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Adjust the padding as per your requirement */
+  color: #fff; /* Set the text color for better visibility on the image */
+}
+
+
+.kranzler_events-body {
+  display: flex;
+  max-width: 100%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.kranzler_events-description {
+
+  color: black;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 345px;
+}
+
+.kranzler_events-img {
+  height: 345px;
+  width: 215px;
+  object-fit: cover;
+}
+
+
+.kranzler_events-catering-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  perspective: 1000px; /* Creates a 3D perspective for flipping effect */
+}
+.kranzler_events-container_4 {
+
+  background-color: var(--primary-color);
+
+}
+
+.kranzler_events-title {
+  text-align: center;
+  background-color: var(--secondary-color);
+
+}
+
+.flip-card {
+  width: 500px;
+  height: 345px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  border: 1px solid grey;
+  background-color: transparent;
+  color: grey;
+
+}
+
+.flip-card-back {
+  background-color: transparent;
+  color: white;
+  transform: rotateY(180deg);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0;
+  height: 100%;
+}
+
+/* Each grid item */
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+
+  width: 100%;
+  height: 100%;
+  border: 1px solid grey;
+}
+.button-card {
+  width: 50%;
+  height: 6rem;
+  background-color: transparent;
+  color: grey;
+  cursor: pointer;
+  border: 1px solid grey;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+@media only screen and (min-width: 990px) {
   .kranzler_events-container_main {
-    margin: 2rem;
+
     padding: 0;
   }
-  .kranzler_events-body {
-    display: flex;
-    max-width: 100%;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .kranzler_events-description {
-    max-width: 900px;
-  }
-  .img-container {
-    height: 345px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-
-  .kranzler_events-img {
-    width: 900px;
-    height: 345px;
-    object-fit: cover;
-  }
-
-  .kranzler_events-catering-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    perspective: 1000px; /* Creates a 3D perspective for flipping effect */
-  }
-
-  .kranzler_events-title {
-    text-align: center;
-  }
-
-  .flip-card {
-    background-color: transparent;
-    width: 100%;
-    height: 345px;
-    perspective: 1000px;
-  }
-
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  .flip-card.flipped .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-
-  .flip-card-front,
-  .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-
-  .flip-card-front {
-    border: 1px solid grey;
-    background-color: transparent;
-    color: grey;
-
-  }
-
-  .flip-card-back {
-    background-color: transparent;
-    color: white;
-    transform: rotateY(180deg);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-
-  }
-
-  .button-container {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-  }
-  /* The grid container */
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0;
-    height: 100%;
-  }
-
-  /* Each grid item */
-  .grid-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-
-    width: 100%;
-    height: 100%;
-    border: 1px solid grey;
-  }
-  .button-card {
-    width: 50%;
-    height: 6rem;
-    background-color: transparent;
-    color: grey;
-    cursor: pointer;
-    border: 1px solid grey;
-
+  .kranzler_events-container_4 {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    padding: 1rem;
-  }
-  @media only screen and (min-width: 990px) {
-    .kranzler_events-container_main {
 
-      padding: 0;
-    }
-    .kranzler_events-container_4 {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    .kranzler_events-img {
-      width: 300px;
-      height: 100%;
-      object-fit: cover;
-    }
-    .flip-card {
-      background-color: transparent;
-      width: 600px;
-      perspective: 1000px;
-    }
   }
-</style>
-
-{% for kranzler_events in shop.metaobjects.kranzler_events.values %}
-  <div class="kranzler_events-container_main">
-    <div class="kranzler_events-container_1">
-      <div>
-        <div class="img-container">
-          <img
-            src="{{ kranzler_events.image_1 | img_url:'500x' }}"
-            class="kranzler_events-image-top"
-            alt="career"
-            loading="lazy"
-            height=""
-            width="">
+  .kranzler_events-img {
+    width: 215px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 500px;
+    perspective: 1000px;
+  }
+}
+</style>{% for kranzler_events in shop.metaobjects.kranzler_events.values %}
+<div class="kranzler_events-container_main">
+  <div class="kranzler_events-container_1">
+    <div class="img-container-top">
+      <img
+        src="{{ kranzler_events.image_1 | img_url:'500x' }}"
+        class="kranzler_events-image-top"
+        alt="career"
+        loading="lazy"
+        height=""
+        width="">
+      <div class="text-overlay">
+        <h1 class="kranzler_events-title-top">{{ kranzler_events.title_1 }}</h1>
+        <div class="kranzler_events-body">
+          <p class="kranzler_events-description">{{ kranzler_events.description_1 }}</p>
         </div>
       </div>
-      <h1 class="kranzler_events-title">{{ kranzler_events.title_1 }}</h1>
-      <div class="kranzler_events-body">
-        <p class="kranzler_events-description">{{ kranzler_events.description_1 }}</p>
+    </div>
+  </div>
+
+  <!-- IN THE CAFE START -->
+  <h1 class="kranzler_events-title">{{ kranzler_events.title_2 }}</h1>
+  <div class="kranzler_events-container_4">
+    <div class="img-container">
+      <img
+        src="{{ kranzler_events.image_2 | img_url:'500x' }}"
+        class="kranzler_events-img"
+        alt="career"
+        loading="lazy"
+        height=""
+        width="">
+    </div>
+    <div>
+      <div class="flip-card" id="flipCard3">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="grid-container">
+              <div class="grid-item">
+                <!-- Icon 1 goes here -->
+                <img
+                  src="{{ 'maxcapacity.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>Up to 180 seats</h3>
+              </div>
+              <div class="grid-item">
+                <!-- Icon 2 goes here -->
+                <img
+                  src="{{ '360view.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>360° Panoramic</h3>
+              </div>
+              <div class="grid-item">
+                <!-- Icon 3 goes here -->
+                <img
+                  src="{{ 'internet.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>WLAN</h3>
+
+              </div>
+              <div class="grid-item">
+                <!-- Icon 4 goes here -->
+                <img
+                  src="{{ 'southface.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>South-facing Terrace</h3>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <div class="kranzler_events-catering-container">
+              <div class="front-content">
+                <p class="kranzler_events-description-catering">{{ kranzler_events.description_2 }}</p>
+                <p class="kranzler_events-description-catering">{{ kranzler_events.description_2_1 }}</p>
+                <p class="kranzler_events-description-catering">{{ kranzler_events.description_2_2 }}</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="button-container">
+          <button class="button-card" onclick="flipCard('flipCard3')">
+            Read More
+          </button>
+        </div>
       </div>
     </div>
-    <!-- IN THE CAFE START -->
-    <h1 class="kranzler_events-title">{{ kranzler_events.title_2 }}</h1>
-    <div class="kranzler_events-container_4">
+  </div>
+  <!-- IN THE CAFE ENDS -->
+  <br/>
+  <br/>
+  <br/>
+  <!-- ON THE TERRACE START -->
+  <h1 class="kranzler_events-title">{{ kranzler_events.title_3 }}</h1>
+  <div class="kranzler_events-container_4">
+    <div>
       <div class="img-container">
         <img
-          src="{{ kranzler_events.image_2 | img_url:'500x' }}"
+          src="{{ kranzler_events.image_3 | img_url:'500x' }}"
           class="kranzler_events-img"
           alt="career"
           loading="lazy"
           height=""
           width="">
       </div>
-      <div>
-        <div class="flip-card" id="flipCard3">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="grid-container">
-                <div class="grid-item">
-                  <!-- Icon 1 goes here -->
-                  <img
-                    src="{{ 'terrace.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Roof Terrace</h3>
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 2 goes here -->
-                  <img
-                    src="{{ 'discoball.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Parties & Events</h3>
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 3 goes here -->
-                  <img
-                    src="{{ 'bbq.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>BBQ Station</h3>
+    </div>
 
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 4 goes here -->
-                  <img
-                    src="{{ 'speaker.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Music System</h3>
-                </div>
+    <div>
+      <div class="flip-card" id="flipCard2">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="grid-container">
+              <div class="grid-item">
+                <!-- Icon 1 goes here -->
+                <img
+                  src="{{ 'terrace.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>Roof Terrace</h3>
               </div>
-            </div>
-            <div class="flip-card-back">
-              <div class="kranzler_events-catering-container">
-                <div class="front-content">
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_2 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_2_1 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_2_2 }}</p>
-                </div>
+              <div class="grid-item">
+                <!-- Icon 2 goes here -->
+                <img
+                  src="{{ 'discoball.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>Parties & Events</h3>
+              </div>
+              <div class="grid-item">
+                <!-- Icon 3 goes here -->
+                <img
+                  src="{{ 'bbq.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>BBQ Station</h3>
 
+              </div>
+              <div class="grid-item">
+                <!-- Icon 4 goes here -->
+                <img
+                  src="{{ 'speaker.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>Music System</h3>
               </div>
             </div>
           </div>
-          <div class="button-container">
-            <button class="button-card" onclick="flipCard('flipCard3')">
-              Read More
-            </button>
+          <div class="flip-card-back">
+            <div class="kranzler_events-catering-container">
+              <div class="front-content">
+                <p class="kranzler_events-description-catering">{{ kranzler_events.description_3 }}</p>
+                <p class="kranzler_events-description-catering">{{ kranzler_events.description_3_1 }}</p>
+                <p class="kranzler_events-description-catering">{{ kranzler_events.description_3_2 }}</p>
+              </div>
+
+            </div>
           </div>
+        </div>
+        <div class="button-container">
+          <button class="button-card" onclick="flipCard('flipCard2')">
+            Read More
+          </button>
         </div>
       </div>
     </div>
-    <!-- IN THE CAFE ENDS -->
-    <br/>
-    <br/>
-    <br/>
-    <!-- ON THE TERRACE START -->
-    <h1 class="kranzler_events-title">{{ kranzler_events.title_3 }}</h1>
-    <div class="kranzler_events-container_4">
-      <div>
-        <div class="img-container">
-          <img
-            src="{{ kranzler_events.image_3 | img_url:'500x' }}"
-            class="kranzler_events-img"
-            alt="career"
-            loading="lazy"
-            height=""
-            width="">
-        </div>
-      </div>
-
-      <div>
-        <div class="flip-card" id="flipCard2">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="grid-container">
-                <div class="grid-item">
-                  <!-- Icon 1 goes here -->
-                  <img
-                    src="{{ 'terrace.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Roof Terrace</h3>
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 2 goes here -->
-                  <img
-                    src="{{ 'discoball.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Parties & Events</h3>
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 3 goes here -->
-                  <img
-                    src="{{ 'bbq.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>BBQ Station</h3>
-
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 4 goes here -->
-                  <img
-                    src="{{ 'speaker.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Music System</h3>
-                </div>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <div class="kranzler_events-catering-container">
-                <div class="front-content">
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_3 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_3_1 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_3_2 }}</p>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="button-container">
-            <button class="button-card" onclick="flipCard('flipCard2')">
-              Read More
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ON THE TERRACE ENDS -->
-    <br/>
-    <br/>
-    <br/>
-    <!-- CATERING START -->
-    <h1 class="kranzler_events-title">{{ kranzler_events.title_4 }}</h1>
-    <div class="kranzler_events-container_4">
-      <div>
-        <div class="img-container">
-          <img
-            src="{{ kranzler_events.image_4 | img_url:'500x' }}"
-            class="kranzler_events-img"
-            alt="career"
-            loading="lazy"
-            height="345"
-            width="">
-        </div>
-      </div>
-      <div>
-        <div class="flip-card" id="flipCard">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="grid-container">
-                <div class="grid-item">
-                  <!-- Icon 1 goes here -->
-                  <img
-                    src="{{ 'beer.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Craft Beer</h3>
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 2 goes here -->
-                  <img
-                    src="{{ 'cake.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Homemade Cakes</h3>
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 3 goes here -->
-                  <img
-                    src="{{ 'cocktail.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Cocktails</h3>
-
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 4 goes here -->
-                  <img
-                    src="{{ 'wine.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Natural Wines</h3>
-                </div>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <div class="kranzler_events-catering-container">
-                <div class="front-content">
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_4 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_1 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_2 }}</p>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="button-container">
-            <button class="button-card" onclick="flipCard('flipCard')">
-              Read More
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- CATERING ENDS -->
-
   </div>
-{% endfor %}
+  <!-- ON THE TERRACE ENDS -->
+  <br/>
+  <br/>
+  <br/>
+  <!-- CATERING START -->
+  <h1 class="kranzler_events-title">{{ kranzler_events.title_4 }}</h1>
+  <div class="kranzler_events-container_4">
+    <div>
+      <div class="img-container">
+        <img
+          src="{{ kranzler_events.image_4 | img_url:'500x' }}"
+          class="kranzler_events-img"
+          alt="career"
+          loading="lazy"
+          height="345"
+          width="">
+      </div>
+    </div>
+    <div>
+      <div class="flip-card" id="flipCard">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="grid-container">
+              <div class="grid-item">
+                <!-- Icon 1 goes here -->
+                <img
+                  src="{{ 'beer.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>Craft Beer</h3>
+              </div>
+              <div class="grid-item">
+                <!-- Icon 2 goes here -->
+                <img
+                  src="{{ 'cake.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>Homemade Cakes</h3>
+              </div>
+              <div class="grid-item">
+                <!-- Icon 3 goes here -->
+                <img
+                  src="{{ 'cocktail.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>Cocktails</h3>
 
-<script>
-  function flipCard(id) {
-    const flipCard = document.getElementById(id);
+              </div>
+              <div class="grid-item">
+                <!-- Icon 4 goes here -->
+                <img
+                  src="{{ 'wine.svg' | asset_url }}"
+                  alt="Icon 4"
+                  loading="lazy"
+                  height="50"
+                  width="50">
+                <h3>Natural Wines</h3>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <div class="kranzler_events-catering-container">
+              <div class="front-content">
+                <p class="kranzler_events-description-catering">{{ kranzler_events.description_4 }}</p>
+                <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_1 }}</p>
+                <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_2 }}</p>
+              </div>
 
-    if (flipCard) {
-      flipCard.classList.toggle('flipped');
+            </div>
+          </div>
+        </div>
+        <div class="button-container">
+          <button class="button-card" onclick="flipCard('flipCard')">
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- CATERING ENDS -->
+
+</div>{% endfor %}<script>
+function flipCard(id) {
+  const flipCard = document.getElementById(id);
+
+  if (flipCard) {
+    flipCard.classList.toggle('flipped');
+  }
+}
+</script>{% schema %}
+{
+  "name": "Kranzler_Events",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Kranzler_Events",
+      "category": "Text"
     }
-  }
-</script>
-
-
-{% schema %}
-  {
-    "name": "Kranzler_Events",
-    "settings": [],
-    "presets": [
-      {
-        "name": "Kranzler_Events",
-        "category": "Text"
-      }
-    ]
-  }
+  ]
+}
 {% endschema %}
