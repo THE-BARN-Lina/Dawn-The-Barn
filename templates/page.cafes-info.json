@@ -10,16 +10,9 @@
         "padding_top": 0,
         "padding_bottom": 28
       }
-    },
-    "5c173c56-bcec-499e-ba96-cd616b55efc1": {
-      "type": "career_detail",
-      "disabled": true,
-      "settings": {
-      }
     }
   },
   "order": [
-    "main",
-    "5c173c56-bcec-499e-ba96-cd616b55efc1"
+    "main"
   ]
 }
