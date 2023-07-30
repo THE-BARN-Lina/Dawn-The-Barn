@@ -1,6 +1,6 @@
 <style > :root
 {
-  --primary-color: #007bff19; /* Blue */
+  --primary-color: #0e1620c7; /* Blue */
   --secondary-color: #d9200b27; /* Red */
   --accent-color: #f6d99f95; /* Yellow */
 }
@@ -44,8 +44,10 @@
   text-align: center;
   width: 100%;
   margin: 0;
-  font-size: 32px;
+  font-size: 24px;
   color: black;
+  font-family: 'Times New Roman', Times, serif;
+
 
 }
 .kranzler_events-description {
@@ -105,10 +107,9 @@
 
 .kranzler_events-title {
   text-align: center;
-  background-color: var(--secondary-color);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 32px;
-  font-style: italic;
+  background-color: var(--primary-color);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
   color: var(--accent-color);
 
 }
@@ -117,6 +118,11 @@
   height: 345px;
   perspective: 1000px;
   border-radius: 16px;
+
+}
+.flip-card h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: var(--accent-color)
 }
 
 .flip-card-inner {
@@ -165,6 +171,8 @@
 }
 .front-content {
   font-style: italic;
+  color: var(--accent-color);
+
 }
 
 .button-container {
@@ -203,7 +211,9 @@
   width: 50%;
   height: 6rem;
   background-color: transparent;
-  color: grey;
+  color: var(--accent-color);
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
   cursor: pointer;
   border: 1px solid var(--accent-color);
 
@@ -214,7 +224,25 @@
   padding: 1rem;
 
 }
-@media only screen and (min-width: 990px) {}
+@media only screen and (min-width: 990px) {
+  .kranzler_events-container_main {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .kranzler_events-container_1 {
+    max-width: 700px;
+
+  }
+  .kranzler_events-container_4 {
+    max-width: 700px;
+
+  }
+
+
+}
 </style>{% for kranzler_events in shop.metaobjects.kranzler_events.values %}
 <div class="kranzler_events-container_main">
   <div class="kranzler_events-container_1">
@@ -511,4 +539,17 @@ function flipCard(id) {
     }
   ]
 }
-{% endschema %}
+{% endschema %}<!-- Add this script at the end of your HTML file, just before the closing </body> tag --><script>
+// Get the current URL
+var currentURL = window.location.href;
+
+// Check if the current URL matches the target page URL
+if (currentURL === 'http://127.0.0.1:9292/pages/kranzler-events-1' || 'https://thebarn.de/pages/kranzler-events-1') { // Get the element you want to hide
+  var elementToHide = document.querySelector('.announcement-bar ');
+
+// Hide the element
+  if (elementToHide) {
+    elementToHide.style.display = 'none';
+  }
+}
+</script>
