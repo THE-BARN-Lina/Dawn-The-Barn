@@ -621,10 +621,11 @@ a{
 
                           {%- if link.title == 'SUBSCRIPTIONS' -%}
 
-                            <a href="https://thebarn.de/products/trial-subscription/" class="container-right-mega-menu-item">
-                              <img src="{{ 'PROBE_ABO.webp' | asset_url }}" width="230" height="230" alt="Trial Coffee Subscription" loading="lazy">
-                              <p>TRIAL SUBSCRIPTION</p>
-                            </a>
+                          <a href="https://thebarn.de/products/trial-subscription/" id="subscription-link" class="container-right-mega-menu-item">
+                            <img src="{{ 'PROBE_ABO.webp' | asset_url }}" width="230" height="230" alt="Trial Coffee Subscription" loading="lazy">
+                            <p>TRIAL SUBSCRIPTION</p>
+                          </a>
+
                           
                             <a href="https://thebarn.de/de/products/spring-subscription/" class="container-right-mega-menu-item">
                               <img src="{{ 'SpringSubscription.webp' | asset_url }}" width="230" height="230" alt="Special Summer" loading="lazy">
@@ -938,6 +939,17 @@ document.addEventListener('DOMContentLoaded', function() {
       detailsElement.removeAttribute('open');
     });
   });
+});
+
+document.addEventListener('DOMContentLoaded', function(){
+    var lang = window.location.pathname.split('/')[1];
+    var subscriptionLink = document.getElementById('subscription-link');
+    
+    if (lang === 'de') {
+        subscriptionLink.href = "https://thebarn.de/de/products/trial-subscription/";
+    } else {
+        subscriptionLink.href = "https://thebarn.de/products/trial-subscription/";
+    }
 });
 
 
