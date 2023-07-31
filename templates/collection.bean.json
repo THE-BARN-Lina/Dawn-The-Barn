@@ -22,6 +22,7 @@
         },
         "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>LET PROFILES BE YOUR GUIDE<\/p>"
           }
@@ -47,6 +48,26 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 24
+      }
+    },
+    "16609093955d46716e": {
+      "type": "bean-collection-product-grid",
+      "settings": {
+        "products_per_page": 64,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "quick_add_button_color": "#804d15",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "9aed932f-1130-4b01-8d78-81c28dfcac7f": {
@@ -102,37 +123,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "16609093955d46716e": {
-      "type": "bean-collection-product-grid",
-      "settings": {
-        "products_per_page": 64,
-        "columns_desktop": 4,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": true,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "quick_add_button_color": "#804d15",
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "1",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "1651574465fc19c571": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "16609096892f959660": {
@@ -181,14 +173,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1651574465fc19c571": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "banner",
     "1a713986-dc37-4b66-b5cf-0705458ba228",
-    "9aed932f-1130-4b01-8d78-81c28dfcac7f",
     "16609093955d46716e",
-    "1651574465fc19c571",
-    "16609096892f959660"
+    "9aed932f-1130-4b01-8d78-81c28dfcac7f",
+    "16609096892f959660",
+    "1651574465fc19c571"
   ]
 }
