@@ -11,15 +11,66 @@
         "padding_bottom": 28
       }
     },
-    "5c173c56-bcec-499e-ba96-cd616b55efc1": {
-      "type": "career_detail",
-      "disabled": true,
+    "627261d0-f622-4103-857b-5628ed0cb8c6": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-1",
+        "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-2",
+        "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-3"
+      ],
       "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "5c173c56-bcec-499e-ba96-cd616b55efc1"
+    "627261d0-f622-4103-857b-5628ed0cb8c6"
   ]
 }
