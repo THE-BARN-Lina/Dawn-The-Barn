@@ -108,6 +108,15 @@
             "page": ""
           }
         },
+        "92b5c479-eb8a-48ff-8b0c-69bba503a7cf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Contact",
+            "icon": "chat_bubble",
+            "content": "{{ block.settings.page.metafields.locations.cafe_contact | metafield_tag }}",
+            "page": ""
+          }
+        },
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-button-1": {
           "type": "button",
           "settings": {
@@ -120,6 +129,7 @@
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-heading-1",
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-text-1",
         "a8e5304b-e699-4c52-a3f7-9287be0aa13c",
+        "92b5c479-eb8a-48ff-8b0c-69bba503a7cf",
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-button-1"
       ],
       "settings": {
