@@ -95,7 +95,7 @@
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-text-1": {
           "type": "text",
           "settings": {
-            "text": "{{ page.metafields.locations.cafe_info | metafield_tag }}",
+            "text": "<p>{{ page.metafields.locations.cafe_info | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         },
@@ -123,7 +123,7 @@
         "a8e5304b-e699-4c52-a3f7-9287be0aa13c"
       ],
       "settings": {
-        "map_embed": "",
+        "map_embed": "{{ page.metafields.location.google_maps_link.value }}",
         "heading_text": "",
         "padding_top": 44,
         "padding_bottom": 44
