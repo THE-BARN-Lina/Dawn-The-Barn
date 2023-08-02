@@ -99,28 +99,28 @@
             "text_style": "body"
           }
         },
+        "a8e5304b-e699-4c52-a3f7-9287be0aa13c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "stopwatch",
+            "content": "{{ block.settings.page.metafields.locations.cafe_opening_times | metafield_tag }}",
+            "page": ""
+          }
+        },
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-button-1": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
             "button_link": ""
           }
-        },
-        "a8e5304b-e699-4c52-a3f7-9287be0aa13c": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-heading-1",
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-text-1",
-        "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-button-1",
-        "a8e5304b-e699-4c52-a3f7-9287be0aa13c"
+        "a8e5304b-e699-4c52-a3f7-9287be0aa13c",
+        "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-button-1"
       ],
       "settings": {
         "map_embed": "{{ page.metafields.location.google_maps_link.value }}",
