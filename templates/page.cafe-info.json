@@ -50,6 +50,7 @@
         "3c80a0f3-9a36-4d8d-8c38-a008c209ed64": {
           "type": "column",
           "settings": {
+            "image": "{{ page.metafields.locations.cafe_images_d.value }}",
             "title": "",
             "text": "",
             "link_label": "",
@@ -69,7 +70,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
