@@ -102,7 +102,7 @@
         "a8e5304b-e699-4c52-a3f7-9287be0aa13c": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Opening Times",
             "icon": "stopwatch",
             "content": "{{ block.settings.page.metafields.locations.cafe_opening_times | metafield_tag }}",
             "page": ""
