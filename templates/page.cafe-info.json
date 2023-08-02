@@ -17,6 +17,7 @@
         "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-1": {
           "type": "column",
           "settings": {
+            "image": "{{ page.metafields.locations.cafe_images_a.value }}",
             "title": "",
             "text": "",
             "link_label": "",
@@ -27,6 +28,7 @@
         "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-2": {
           "type": "column",
           "settings": {
+            "image": "{{ page.metafields.locations.cafe_images_b.value }}",
             "title": "",
             "text": "",
             "link_label": "",
@@ -43,12 +45,23 @@
             "link": "",
             "custom_liquid": ""
           }
+        },
+        "3c80a0f3-9a36-4d8d-8c38-a008c209ed64": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
         "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-1",
         "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-2",
-        "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-3"
+        "template--17999525183755__627261d0-f622-4103-857b-5628ed0cb8c6-column-3",
+        "3c80a0f3-9a36-4d8d-8c38-a008c209ed64"
       ],
       "settings": {
         "title": "",
