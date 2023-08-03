@@ -114,7 +114,7 @@
           "settings": {
             "heading": "Contact Us",
             "icon": "chat_bubble",
-            "content": "<p>If you would like to contact us, <a href=\"\/pages\/contact\" target=\"_blank\" title=\"CONTACT\">please send us a message<\/a>.<br\/><\/p>{{ page.metafields.locations.cafe_contact | metafield_tag }}",
+            "content": "<p>If you would like to contact us, <a href=\"\/pages\/contact\" target=\"_blank\" title=\"CONTACT\">please send us a message<\/a>.<br\/><\/p><p>{{ page.metafields.locations.cafe_contact | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -123,7 +123,7 @@
           "settings": {
             "heading": "Important Note",
             "icon": "clipboard",
-            "content": "",
+            "content": "<p>{{ block.settings.page.metafields.cadvent_callender.Video.value }}<\/p>",
             "page": ""
           }
         },
