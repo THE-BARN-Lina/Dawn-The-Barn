@@ -1,5 +1,24 @@
 <style>
 
+.location-item .image-container-location {
+  position: relative; /* Makes the text positioning relative to this container */
+  display: inline-block; /* Wraps the container around the image */
+}
+
+.location-item .text-overlay {
+  position: absolute; /* Positions the text relative to the nearest positioned ancestor */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the text exactly in the middle */
+  color: #fff; /* Sets the text color to white (you can choose another color) */
+  text-align: center;
+}
+
+/* Optional: Add a background to the text to make it more readable */
+.location-item .text-overlay {
+  background-color: rgba(0, 0, 0, 0.3); /* Black background with 30% opacity */
+  padding: 10px; /* Add some space around the text */
+}
 
   
   @media only screen and (min-width: 990px) {
@@ -8,17 +27,18 @@
 </style>
 
 <div class="location-container">
-  {% for location in shop.metaobjects.location.values %}
-    <div class="">
-      <div class="">
-        <img src="{{ location.image | img_url:'500x' }}" alt="location" loading="lazy" height="" width="">
-      </div>
-      <div class="location-body">
+ {% for location in shop.metaobjects.location.values %}
+  <div class="location-item">
+    <div class="image-container-location">
+      <img src="{{ location.image | img_url:'500x' }}" alt="location" loading="lazy" width='' height=''>
+      <div class="text-overlay">
         <h2 class="location-name">{{ location.name }}</h2>
         <p class="location-address">{{ location.address }}</p>
       </div>
     </div>
-  {% endfor %}
+  </div>
+{% endfor %}
+
 </div>
 <script>
 
