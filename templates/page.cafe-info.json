@@ -135,7 +135,7 @@
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-button-1"
       ],
       "custom_css": [
-        ".image-with-text__heading h1{margin-bottom: 20px;}"
+        ".image-with-text__heading ,h1 {margin-bottom: 2rem;}"
       ],
       "settings": {
         "map_embed": "{{ page.metafields.location.google_maps_link.value }}",
