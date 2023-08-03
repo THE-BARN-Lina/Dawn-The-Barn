@@ -120,10 +120,11 @@
         },
         "b7577657-f584-449a-88a7-0a8d3d4f5dbd": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Important Note",
             "icon": "clipboard",
-            "content": "<p>{{ block.settings.page.metafields.cadvent_callender.Video.value }}<\/p>",
+            "content": "<p>{{ block.settings.page.metafields.advent_callender.recipe | metafield_tag }}<\/p>",
             "page": ""
           }
         },
