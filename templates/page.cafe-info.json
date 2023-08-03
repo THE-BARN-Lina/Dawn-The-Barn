@@ -137,7 +137,7 @@
       "settings": {
         "map_embed": "{{ page.metafields.location.google_maps_link.value }}",
         "heading_text": "",
-        "padding_top": 44,
+        "padding_top": 0,
         "padding_bottom": 44
       }
     }
