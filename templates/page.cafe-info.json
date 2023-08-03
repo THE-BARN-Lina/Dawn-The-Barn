@@ -114,7 +114,7 @@
           "settings": {
             "heading": "Contact",
             "icon": "chat_bubble",
-            "content": "{{ block.settings.page.metafields.locations.cafe_contact | metafield_tag }}",
+            "content": "{{ page.metafields.locations.cafe_contact | metafield_tag }}",
             "page": ""
           }
         },
