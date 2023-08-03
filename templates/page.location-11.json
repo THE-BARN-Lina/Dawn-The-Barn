@@ -11,6 +11,36 @@
         "padding_bottom": 28
       }
     },
+    "02e46978-4d35-46a1-abcf-dc43ebba00ad": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18000227959051__02e46978-4d35-46a1-abcf-dc43ebba00ad-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>LOCATIONS<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18000227959051__02e46978-4d35-46a1-abcf-dc43ebba00ad-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We love operating unique cafés for our coffee communities in Berlin and beyond.<br\/><br\/>All our locations have a different look that is inspired by the architecture or history of each building. They are hubs in your neighborhoods with the intention to bring our coffee closer to your homes and work spaces.<br\/><br\/>Our minimalistic approach offers an atmosphere to slow down, relax and to enjoy your coffee. Awards: \"Best Independent Coffee Shop in Europe 2018\" & \"Best Specialty Coffee Roaster in Europe & Middle East 2019\".<\/p><p>We are hiring: Trained Baristas | Check out our <a href=\"https:\/\/thebarn.de\/de\/pages\/karrieren\" target=\"_self\">careers page.<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18000227959051__02e46978-4d35-46a1-abcf-dc43ebba00ad-heading-1",
+        "template--18000227959051__02e46978-4d35-46a1-abcf-dc43ebba00ad-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "69307bd8-c0a6-4c69-bad4-4e54e640b138": {
       "type": "location",
       "settings": {
@@ -19,6 +49,7 @@
   },
   "order": [
     "main",
+    "02e46978-4d35-46a1-abcf-dc43ebba00ad",
     "69307bd8-c0a6-4c69-bad4-4e54e640b138"
   ]
 }
