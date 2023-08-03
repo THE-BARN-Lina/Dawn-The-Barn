@@ -79,7 +79,7 @@
   
   }
 </style>
-{% assign sorted_locations = shop.metaobjects.location.values | map: 'order' | sort %}
+{% assign sorted_locations = shop.metaobjects.location.values | sort: 'order' %}
 <div class="location-container">
   {% for location in sorted_locations %}
     <a  href="{{ location.link }}" class="location-item"> 
