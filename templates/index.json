@@ -146,6 +146,9 @@
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0",
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.image-with-text__content {padding: 4rem calc(0rem \/ var(--font-body-scale)) 5rem; }}"
+      ],
       "settings": {
         "image_height": "adapt",
         "desktop_image_width": "medium",
