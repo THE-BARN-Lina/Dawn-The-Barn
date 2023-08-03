@@ -66,12 +66,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  .video-with-text__content_CUSTOM {
-    padding: 0rem !important;
-    margin-top: 2rem;
-  }
-}
+
 
 .video-with-text__media--placeholder > svg {
   position: absolute;
