@@ -82,6 +82,7 @@
 
 <div class="location-container">
   {% for location in shop.metaobjects.location.values %}
+    <a  href="{{ location.link }}" class="location-link"> 
     <div class="location-item">
       <div class="image-container-location">
         <img src="{{ location.image | img_url:'500x' }}" alt="location" loading="lazy" width='' height=''>
@@ -91,6 +92,7 @@
         </div>
       </div>
     </div>
+    </a>
   {% endfor %}
 </div>
 
