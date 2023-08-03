@@ -11,15 +11,14 @@
         "padding_bottom": 28
       }
     },
-    "5c173c56-bcec-499e-ba96-cd616b55efc1": {
-      "type": "career_detail",
-      "disabled": true,
+    "69307bd8-c0a6-4c69-bad4-4e54e640b138": {
+      "type": "location",
       "settings": {
       }
     }
   },
   "order": [
     "main",
-    "5c173c56-bcec-499e-ba96-cd616b55efc1"
+    "69307bd8-c0a6-4c69-bad4-4e54e640b138"
   ]
 }
