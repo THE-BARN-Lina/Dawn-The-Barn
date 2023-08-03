@@ -56,7 +56,7 @@
                   </div>
                 </details>
               </div>
-            {%- endif -%}
+              {%- endif -%}
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" style="margin-top: 2.5rem;" {{ block.shopify_attributes }}>
