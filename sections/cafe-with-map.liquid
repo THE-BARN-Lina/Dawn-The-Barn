@@ -21,7 +21,7 @@
   <div style="column-gap:15px;" class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__text-item grid__item">
       <div id="ImageWithText--{{ section.id }}" class="image-with-text__content_CUSTOM image-with-text__content_CUSTOM--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-CUSTOM{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-CUSTOM{{ section.settings.mobile_content_alignment }} image-with-text__content--CUSTOM{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container">
-        <div style="display:flex; gap: 2rem; flex-direction: column;">
+        <div >
           {%- for block in section.blocks -%}
             {% case block.type %}
               {%- when 'heading' -%}
