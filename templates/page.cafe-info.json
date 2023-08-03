@@ -112,9 +112,9 @@
         "92b5c479-eb8a-48ff-8b0c-69bba503a7cf": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Contact",
+            "heading": "Contact Us",
             "icon": "chat_bubble",
-            "content": "{{ page.metafields.locations.cafe_contact | metafield_tag }}",
+            "content": "<p>If you would like to contact us, <a href=\"\/pages\/contact\" target=\"_blank\" title=\"CONTACT\">please send us a message<\/a>.<br\/><br\/><\/p>{{ block.settings.page.metafields.locations.cafe_contact | metafield_tag }}",
             "page": ""
           }
         },
