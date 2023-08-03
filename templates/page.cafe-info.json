@@ -134,6 +134,9 @@
         "92b5c479-eb8a-48ff-8b0c-69bba503a7cf",
         "template--17999525183755__280cf51b-46df-4c48-839d-ceb4131ba4e0-button-1"
       ],
+      "custom_css": [
+        "h1{}"
+      ],
       "settings": {
         "map_embed": "{{ page.metafields.location.google_maps_link.value }}",
         "heading_text": "",
