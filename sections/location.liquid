@@ -15,6 +15,11 @@
 .location-item {
   flex-basis: calc(100% - 20px); /* Full width minus a bit of margin */
   margin: 10px; /* Add some space around each item */
+  transition: transform 0.3s ease; /* Adds a smooth transition effect */
+
+}
+.location-item:hover {
+  transform: translateY(-10px); /* Moves the item up by 10 pixels when hovered */
 }
 
 .location-item .image-container-location {
