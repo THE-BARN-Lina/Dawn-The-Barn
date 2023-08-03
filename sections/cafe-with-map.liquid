@@ -18,7 +18,61 @@
 {%- endstyle -%}
 
 
-
+<div class="image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
+  <div style="column-gap:15px;" class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+    <div class="image-with-text__text-item grid__item">
+      <div id="ImageWithText--{{ section.id }}" class="image-with-text__content_CUSTOM image-with-text__content_CUSTOM--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-CUSTOM{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-CUSTOM{{ section.settings.mobile_content_alignment }} image-with-text__content--CUSTOM{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container">
+        <div >
+          {%- for block in section.blocks -%}
+            {% case block.type %}
+              {%- when 'heading' -%}
+                <h1 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                  {{ block.settings.heading | escape }}
+                </h1>
+              {%- when 'caption' -%}
+                <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
+              {%- when 'text' -%}
+                <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              {%- endcase -%}
+          {%- endfor -%}
+        </div>
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {%- when 'collapsible_tab' -%}
+              <div class="product__accordion accordion quick-add-hidden " style="width:100%;" {{ block.shopify_attributes }}>
+                <details id="Details-{{ block.id }}-{{ section.id }}">
+                  <summary>
+                    <div class="summary__title">
+                      {% render 'icon-accordion', icon: block.settings.icon %}
+                      <h2 class="h4 accordion__title">
+                        {{ block.settings.heading | default: block.settings.page.title }}
+                      </h2>
+                    </div>
+                    {% render 'icon-caret' %}
+                  </summary>
+                  <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                    {{ block.settings.content }}
+                    {{ block.settings.page.content }}
+                  </div>
+                </details>
+              </div>
+            {%- when 'button' -%}
+              {%- if block.settings.button_label != blank -%}
+                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" style="margin-top: 2.5rem;" {{ block.shopify_attributes }}>
+                  {{ block.settings.button_label | escape }}
+                </a>
+              {%- endif -%}
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+    <div class="grid__item">
+      <div class="video-with-text__content_CUSTOM video-with-text__content--adapt">
+        <iframe width="100%" height="450px" src="{{ section.settings.map_embed }}" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 {% schema %}
