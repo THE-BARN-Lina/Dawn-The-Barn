@@ -50,16 +50,7 @@
   object-fit: cover;
   object-position: center; 
 }
-.location-link {
-  text-decoration: none; /* Removes underline */
-  color: inherit; /* Inherits color from parent */
-  display: block; /* Makes the entire area clickable */
-}
 
-.location-link:hover {
-  cursor: pointer; /* Changes the cursor to a pointer on hover */
-}
-  
 /* Set the basis to 48% for screens larger than 990px, meaning two items per row */
 @media only screen and (min-width: 990px) {
   .location-item {
@@ -74,20 +65,17 @@
 
 <div class="location-container">
   {% for location in shop.metaobjects.location.values %}
-    <a href="{{ location.details_url }}" class="location-link"> <!-- Adjust the href attribute as needed -->
-      <div class="location-item">
-        <div class="image-container-location">
-          <img src="{{ location.image | img_url:'500x' }}" alt="location" loading="lazy">
-          <div class="text-overlay">
-            <h2 class="location-name">{{ location.name }}</h2>
-            <p class="location-address">{{ location.address }}</p>
-          </div>
+    <div class="location-item">
+      <div class="image-container-location">
+        <img src="{{ location.image | img_url:'500x' }}" alt="location" loading="lazy" width='' height=''>
+        <div class="text-overlay">
+          <h2 class="location-name">{{ location.name }}</h2>
+          <p class="location-address">{{ location.address }}</p>
         </div>
       </div>
-    </a>
+    </div>
   {% endfor %}
 </div>
-
 
 <script>
 
