@@ -1,7 +1,12 @@
 {
   "sections": {
+    "f1333b82-84b7-41ef-8e88-20c2158562c1": {
+      "type": "location",
+      "settings": {
+      }
+    }
   },
   "order": [
-
+    "f1333b82-84b7-41ef-8e88-20c2158562c1"
   ]
 }
