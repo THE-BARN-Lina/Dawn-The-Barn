@@ -11,7 +11,7 @@
   {% for location in shop.metaobjects.location.values %}
     <div class="">
       <div class="">
-        <img src="{{ location.photo | img_url:'500x' }}" alt="location" loading="lazy" height="" width="">
+        <img src="{{ location.image | img_url:'500x' }}" alt="location" loading="lazy" height="" width="">
       </div>
       <div class="location-body">
         <h2 class="location-name">{{ location.name }}</h2>
