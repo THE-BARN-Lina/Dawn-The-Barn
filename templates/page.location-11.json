@@ -149,6 +149,78 @@
         "padding_bottom": 0
       }
     },
+    "b909ee06-b94b-426a-9e07-2de624b473f3": {
+      "type": "image-with-text",
+      "blocks": {
+        "d26086e3-c37d-4b94-9e5f-8a0c084c42e3": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BARN HACKESCHER MARKT",
+            "heading_size": "h2"
+          }
+        },
+        "580f8699-b8a7-4eae-b21d-ac260f1e095e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Neue Schönhauser Straße 12,<br\/>10178 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "d26086e3-c37d-4b94-9e5f-8a0c084c42e3",
+        "580f8699-b8a7-4eae-b21d-ac260f1e095e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_HACKESCHERMARKT.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bb7d7f66-097c-4d29-8a8f-f5e9ff4aa938": {
+      "type": "image-with-text",
+      "blocks": {
+        "b356cf48-27ed-47b5-aa22-38c939c1111a": {
+          "type": "heading",
+          "settings": {
+            "heading": "CAFÉ KRANZLER",
+            "heading_size": "h2"
+          }
+        },
+        "7273a828-8a43-4da3-a7ce-d2b614f4eaef": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kurfürstendamm 18, 10719 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "b356cf48-27ed-47b5-aa22-38c939c1111a",
+        "7273a828-8a43-4da3-a7ce-d2b614f4eaef"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_KRANZLER.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "69307bd8-c0a6-4c69-bad4-4e54e640b138": {
       "type": "location",
       "disabled": true,
@@ -203,6 +275,8 @@
     "62c54617-4731-4509-89b0-1ec00d3279c2",
     "d9265cc3-7bb0-4cdc-a71b-ba8081ebadde",
     "5691f852-8916-4aed-a29d-9ecf58be5df6",
+    "b909ee06-b94b-426a-9e07-2de624b473f3",
+    "bb7d7f66-097c-4d29-8a8f-f5e9ff4aa938",
     "69307bd8-c0a6-4c69-bad4-4e54e640b138",
     "8c8cb2bf-16c2-430e-af65-5e39e5de0621"
   ]
