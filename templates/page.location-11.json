@@ -221,6 +221,42 @@
         "padding_bottom": 0
       }
     },
+    "764eb09d-b56c-43a8-b4ae-f74b1a33b327": {
+      "type": "image-with-text",
+      "blocks": {
+        "d800395a-1309-4fad-a148-41396babd7a0": {
+          "type": "heading",
+          "settings": {
+            "heading": "POTSDAMER PLATZ",
+            "heading_size": "h2"
+          }
+        },
+        "3e043f0a-07e0-4400-8b11-794f208f5118": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alte Potsdamer Straße 5, 10785 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "d800395a-1309-4fad-a148-41396babd7a0",
+        "3e043f0a-07e0-4400-8b11-794f208f5118"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_POSTDAMERPLATZ_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "69307bd8-c0a6-4c69-bad4-4e54e640b138": {
       "type": "location",
       "disabled": true,
@@ -277,6 +313,7 @@
     "5691f852-8916-4aed-a29d-9ecf58be5df6",
     "b909ee06-b94b-426a-9e07-2de624b473f3",
     "bb7d7f66-097c-4d29-8a8f-f5e9ff4aa938",
+    "764eb09d-b56c-43a8-b4ae-f74b1a33b327",
     "69307bd8-c0a6-4c69-bad4-4e54e640b138",
     "8c8cb2bf-16c2-430e-af65-5e39e5de0621"
   ]
