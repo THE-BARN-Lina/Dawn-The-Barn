@@ -151,11 +151,13 @@
     },
     "69307bd8-c0a6-4c69-bad4-4e54e640b138": {
       "type": "location",
+      "disabled": true,
       "settings": {
       }
     },
     "8c8cb2bf-16c2-430e-af65-5e39e5de0621": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--18000227959051__8c8cb2bf-16c2-430e-af65-5e39e5de0621-video-1": {
           "type": "video",
