@@ -47,11 +47,47 @@
         "e6361139-23cb-4fc6-87da-9d8372b54ee9": {
           "type": "heading",
           "settings": {
-            "heading": "SCHÖNHAUSER ALLEE",
-            "heading_size": "h1"
+            "heading": "NEUKÖLLN",
+            "heading_size": "h2"
           }
         },
         "ee4dc44c-579f-4283-b52a-a08d73caaa39": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Friedelstraße 27,<br\/>12047 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "e6361139-23cb-4fc6-87da-9d8372b54ee9",
+        "ee4dc44c-579f-4283-b52a-a08d73caaa39"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_NEUKOLLN.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d9265cc3-7bb0-4cdc-a71b-ba8081ebadde": {
+      "type": "image-with-text",
+      "blocks": {
+        "131a41cd-cc57-49f9-b59e-b0a1cab43730": {
+          "type": "heading",
+          "settings": {
+            "heading": "SCHÖNHAUSER ALLEE",
+            "heading_size": "h2"
+          }
+        },
+        "4f494a06-7838-4f01-9084-60b4ad3ad5e1": {
           "type": "text",
           "settings": {
             "text": "<p>Schönhauser Allee 8, 10119 Berlin<\/p>",
@@ -60,8 +96,8 @@
         }
       },
       "block_order": [
-        "e6361139-23cb-4fc6-87da-9d8372b54ee9",
-        "ee4dc44c-579f-4283-b52a-a08d73caaa39"
+        "131a41cd-cc57-49f9-b59e-b0a1cab43730",
+        "4f494a06-7838-4f01-9084-60b4ad3ad5e1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SCHONHAUSERALLE_0_507a6584-2a40-4bce-805a-63a80884a1a0.jpg",
@@ -84,7 +120,7 @@
           "type": "heading",
           "settings": {
             "heading": "ROASTERY",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "5992b455-b92d-4b14-95ec-9ee4652d1f8b": {
@@ -163,6 +199,7 @@
     "main",
     "02e46978-4d35-46a1-abcf-dc43ebba00ad",
     "62c54617-4731-4509-89b0-1ec00d3279c2",
+    "d9265cc3-7bb0-4cdc-a71b-ba8081ebadde",
     "5691f852-8916-4aed-a29d-9ecf58be5df6",
     "69307bd8-c0a6-4c69-bad4-4e54e640b138",
     "8c8cb2bf-16c2-430e-af65-5e39e5de0621"
