@@ -258,6 +258,9 @@
         "0b31c348-d5ea-491b-8001-5bc6fd6f4806",
         "6b79d5e5-393f-4c8e-9385-8c3d1502ccce"
       ],
+      "custom_css": [
+        ".image-with-text__media {max-height: 50vh;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER.jpg",
         "height": "small",
@@ -299,7 +302,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ANNEX_14287475-8a70-4ab3-aeb8-97d41292be7c.webp",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -338,7 +341,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
