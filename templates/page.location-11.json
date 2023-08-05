@@ -64,17 +64,17 @@
         "ee4dc44c-579f-4283-b52a-a08d73caaa39"
       ],
       "custom_css": [
-        ".image-with-text {height: 40px;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_NEUKOLLN.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 0
@@ -212,9 +212,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_KRANZLER.webp",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -253,8 +253,8 @@
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "content_layout": "overlap",
-        "color_scheme": "background-1",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
         "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 0
@@ -286,10 +286,10 @@
         "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 0,
