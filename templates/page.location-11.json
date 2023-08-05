@@ -102,9 +102,12 @@
         "d26086e3-c37d-4b94-9e5f-8a0c084c42e3",
         "580f8699-b8a7-4eae-b21d-ac260f1e095e"
       ],
+      "custom_css": [
+        ".image-with-text__media {height: 50vh;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_HACKESCHERMARKT.webp",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -138,51 +141,18 @@
         "131a41cd-cc57-49f9-b59e-b0a1cab43730",
         "4f494a06-7838-4f01-9084-60b4ad3ad5e1"
       ],
+      "custom_css": [
+        ".image-with-text__media {height: 50vh;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SCHONHAUSERALLE_0_507a6584-2a40-4bce-805a-63a80884a1a0.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "overlap",
         "color_scheme": "inverse",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "5691f852-8916-4aed-a29d-9ecf58be5df6": {
-      "type": "image-with-text",
-      "blocks": {
-        "cbe4b34f-90c1-4436-9884-e8cc3584ac97": {
-          "type": "heading",
-          "settings": {
-            "heading": "ROASTERY",
-            "heading_size": "h2"
-          }
-        },
-        "5992b455-b92d-4b14-95ec-9ee4652d1f8b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wattstrasse 10-13 13355 Berlin<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "cbe4b34f-90c1-4436-9884-e8cc3584ac97",
-        "5992b455-b92d-4b14-95ec-9ee4652d1f8b"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 0
@@ -210,9 +180,12 @@
         "b356cf48-27ed-47b5-aa22-38c939c1111a",
         "7273a828-8a43-4da3-a7ce-d2b614f4eaef"
       ],
+      "custom_css": [
+        ".image-with-text__media {height: 50vh;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_KRANZLER.webp",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -246,9 +219,12 @@
         "d800395a-1309-4fad-a148-41396babd7a0",
         "3e043f0a-07e0-4400-8b11-794f208f5118"
       ],
+      "custom_css": [
+        ".image-with-text__media {height: 50vh;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_POTSDAMERPLATZ_7.jpg",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -284,9 +260,84 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5691f852-8916-4aed-a29d-9ecf58be5df6": {
+      "type": "image-with-text",
+      "blocks": {
+        "cbe4b34f-90c1-4436-9884-e8cc3584ac97": {
+          "type": "heading",
+          "settings": {
+            "heading": "ANNEX CAFÉ",
+            "heading_size": "h2"
+          }
+        },
+        "5992b455-b92d-4b14-95ec-9ee4652d1f8b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Voltastraße 28, 13355 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "cbe4b34f-90c1-4436-9884-e8cc3584ac97",
+        "5992b455-b92d-4b14-95ec-9ee4652d1f8b"
+      ],
+      "custom_css": [
+        ".image-with-text__media {height: 50vh;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_ANNEX_14287475-8a70-4ab3-aeb8-97d41292be7c.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e4eab953-645c-430a-ba97-291001c70641": {
+      "type": "image-with-text",
+      "blocks": {
+        "f20df030-2f47-4279-8bc7-acc874ceb77c": {
+          "type": "heading",
+          "settings": {
+            "heading": "ROASTERY",
+            "heading_size": "h2"
+          }
+        },
+        "6cf1997a-57fc-4008-aa4b-df9ff2900768": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wattstrasse 10-13 13355 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "f20df030-2f47-4279-8bc7-acc874ceb77c",
+        "6cf1997a-57fc-4008-aa4b-df9ff2900768"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -350,10 +401,11 @@
     "62c54617-4731-4509-89b0-1ec00d3279c2",
     "b909ee06-b94b-426a-9e07-2de624b473f3",
     "d9265cc3-7bb0-4cdc-a71b-ba8081ebadde",
-    "5691f852-8916-4aed-a29d-9ecf58be5df6",
     "bb7d7f66-097c-4d29-8a8f-f5e9ff4aa938",
     "764eb09d-b56c-43a8-b4ae-f74b1a33b327",
     "6492639d-6b70-412b-a9c2-b19c9a2dec02",
+    "5691f852-8916-4aed-a29d-9ecf58be5df6",
+    "e4eab953-645c-430a-ba97-291001c70641",
     "69307bd8-c0a6-4c69-bad4-4e54e640b138",
     "8c8cb2bf-16c2-430e-af65-5e39e5de0621"
   ]
