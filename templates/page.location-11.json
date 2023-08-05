@@ -43,16 +43,72 @@
     },
     "62c54617-4731-4509-89b0-1ec00d3279c2": {
       "type": "image-with-text",
+      "blocks": {
+        "e6361139-23cb-4fc6-87da-9d8372b54ee9": {
+          "type": "heading",
+          "settings": {
+            "heading": "SCHÖNHAUSER ALLEE",
+            "heading_size": "h1"
+          }
+        },
+        "ee4dc44c-579f-4283-b52a-a08d73caaa39": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schönhauser Allee 8, 10119 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "e6361139-23cb-4fc6-87da-9d8372b54ee9",
+        "ee4dc44c-579f-4283-b52a-a08d73caaa39"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_SCHONHAUSERALLE_0_507a6584-2a40-4bce-805a-63a80884a1a0.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5691f852-8916-4aed-a29d-9ecf58be5df6": {
+      "type": "image-with-text",
+      "blocks": {
+        "cbe4b34f-90c1-4436-9884-e8cc3584ac97": {
+          "type": "heading",
+          "settings": {
+            "heading": "ROASTERY",
+            "heading_size": "h1"
+          }
+        },
+        "5992b455-b92d-4b14-95ec-9ee4652d1f8b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wattstrasse 10-13 13355 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "cbe4b34f-90c1-4436-9884-e8cc3584ac97",
+        "5992b455-b92d-4b14-95ec-9ee4652d1f8b"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -107,6 +163,7 @@
     "main",
     "02e46978-4d35-46a1-abcf-dc43ebba00ad",
     "62c54617-4731-4509-89b0-1ec00d3279c2",
+    "5691f852-8916-4aed-a29d-9ecf58be5df6",
     "69307bd8-c0a6-4c69-bad4-4e54e640b138",
     "8c8cb2bf-16c2-430e-af65-5e39e5de0621"
   ]
