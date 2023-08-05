@@ -1,5 +1,5 @@
 <style>
-  .location-container {
+  .location-container-1 {
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
@@ -80,7 +80,7 @@
   }
 </style>
 {% assign sorted_locations = shop.metaobjects.location.values | sort: 'order' %}
-<div class="location-container">
+<div class="location-container-1">
   {% for location in sorted_locations %}
     <a  href="{{ location.link }}" class="location-item"> 
       <div class="image-container-location">
