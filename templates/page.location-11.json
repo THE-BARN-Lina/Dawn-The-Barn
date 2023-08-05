@@ -257,6 +257,42 @@
         "padding_bottom": 0
       }
     },
+    "6492639d-6b70-412b-a9c2-b19c9a2dec02": {
+      "type": "image-with-text",
+      "blocks": {
+        "0b31c348-d5ea-491b-8001-5bc6fd6f4806": {
+          "type": "heading",
+          "settings": {
+            "heading": "SONY CENTER",
+            "heading_size": "h2"
+          }
+        },
+        "6b79d5e5-393f-4c8e-9385-8c3d1502ccce": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bellevuestraße 1, 10785 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "0b31c348-d5ea-491b-8001-5bc6fd6f4806",
+        "6b79d5e5-393f-4c8e-9385-8c3d1502ccce"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "69307bd8-c0a6-4c69-bad4-4e54e640b138": {
       "type": "location",
       "disabled": true,
@@ -314,6 +350,7 @@
     "b909ee06-b94b-426a-9e07-2de624b473f3",
     "bb7d7f66-097c-4d29-8a8f-f5e9ff4aa938",
     "764eb09d-b56c-43a8-b4ae-f74b1a33b327",
+    "6492639d-6b70-412b-a9c2-b19c9a2dec02",
     "69307bd8-c0a6-4c69-bad4-4e54e640b138",
     "8c8cb2bf-16c2-430e-af65-5e39e5de0621"
   ]
