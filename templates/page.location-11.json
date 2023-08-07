@@ -198,7 +198,8 @@
         "af0a4cf1-16be-4152-ade9-65239f8dc66e"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left:0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SCHONHAUSERALLE_43.jpg",
@@ -237,7 +238,8 @@
         "7ef0a667-2495-4e5c-ad4b-fdc696eb7666"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MITTE_33.jpg",
@@ -276,7 +278,8 @@
         "7e35a737-caad-42c5-b642-bdcc286b41e0"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROSENTHALERPLATZ_55.jpg",
@@ -315,7 +318,8 @@
         "b8026a0b-feb4-42f8-82a4-768bc5569255"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_NEUKOLLN.jpg",
@@ -354,7 +358,8 @@
         "9bd4032a-0272-4b5a-96e8-a9f46c5d895d"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_NORDBAHNHOF.jpg",
@@ -393,7 +398,8 @@
         "580f8699-b8a7-4eae-b21d-ac260f1e095e"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_HACKESCHERMARKT_009.jpg",
@@ -433,7 +439,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left:0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER_4.webp",
