@@ -432,7 +432,8 @@
         "6b79d5e5-393f-4c8e-9385-8c3d1502ccce"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left:0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER_4.webp",
@@ -472,7 +473,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left:0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_POTSDAMERPLATZ_7.jpg",
@@ -511,7 +512,8 @@
         "7273a828-8a43-4da3-a7ce-d2b614f4eaef"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_KRANZLER.webp",
@@ -550,7 +552,8 @@
         "5992b455-b92d-4b14-95ec-9ee4652d1f8b"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/cafes_THE_BARN_Annex_Cafe_1.webp",
@@ -590,7 +593,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        ".button--primary {background-color: transparent; color: white; max-height: 1rem; box-shadow: none; border-bottom: 2px solid red;}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
