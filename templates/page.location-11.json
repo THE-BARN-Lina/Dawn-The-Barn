@@ -95,7 +95,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -135,7 +135,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -175,7 +175,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -215,7 +215,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -255,7 +255,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 16
@@ -295,7 +295,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -325,7 +325,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_NEUKOLLN.jpg",
@@ -335,7 +335,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -375,7 +375,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -415,7 +415,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -455,7 +455,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -495,7 +495,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -535,7 +535,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -575,7 +575,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 32
@@ -615,7 +615,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
