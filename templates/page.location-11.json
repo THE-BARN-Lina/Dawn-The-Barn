@@ -85,7 +85,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left:0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MALLORCA_42_3b7ce8c7-49c9-4b59-8209-ad975813752a.jpg",
@@ -125,7 +125,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_DUBAI_34.jpg",
@@ -165,7 +165,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SEOUL.jpg",
@@ -205,7 +205,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SCHONHAUSERALLE_43.jpg",
@@ -245,7 +245,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MITTE_33.jpg",
@@ -285,7 +285,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROSENTHALERPLATZ_55.jpg",
@@ -365,7 +365,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_NORDBAHNHOF.jpg",
@@ -405,7 +405,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_HACKESCHERMARKT_009.jpg",
@@ -445,7 +445,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER_4.webp",
@@ -485,7 +485,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_POTSDAMERPLATZ_7.jpg",
@@ -525,7 +525,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_KRANZLER.webp",
@@ -565,7 +565,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/cafes_THE_BARN_Annex_Cafe_1.webp",
@@ -605,7 +605,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
