@@ -85,6 +85,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
@@ -125,6 +126,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
@@ -165,6 +167,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
@@ -205,6 +208,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
@@ -245,6 +249,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
@@ -285,6 +290,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
@@ -325,6 +331,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
@@ -365,6 +372,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
@@ -405,6 +413,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
@@ -445,6 +454,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
+        ".image-with-text__content {border-bottom: 2px solid #804d15;}",
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
