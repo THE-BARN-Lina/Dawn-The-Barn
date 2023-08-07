@@ -324,12 +324,12 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_HACKESCHERMARKT.webp",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "color_scheme": "inverse",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 16
@@ -363,7 +363,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER.jpg",
         "height": "small",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
@@ -397,17 +397,17 @@
         "3e043f0a-07e0-4400-8b11-794f208f5118"
       ],
       "custom_css": [
-        ".image-with-text__media {height: 50vh;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_POTSDAMERPLATZ_7.jpg",
-        "height": "large",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 16
@@ -478,7 +478,7 @@
         ".image-with-text__media {height: 50vh;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LOCATIONS_ANNEX_14287475-8a70-4ab3-aeb8-97d41292be7c.webp",
+        "image": "shopify:\/\/shop_images\/LOCATIONS_ANNEX.webp",
         "height": "large",
         "desktop_image_width": "large",
         "layout": "image_first",
