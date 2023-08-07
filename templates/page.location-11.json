@@ -260,6 +260,42 @@
         "padding_bottom": 16
       }
     },
+    "8521a229-2e3c-4b5d-92f7-b8e314c198fa": {
+      "type": "image-with-text",
+      "blocks": {
+        "0f79fa2f-d5b2-43f2-a0da-4a2e68abb708": {
+          "type": "heading",
+          "settings": {
+            "heading": "NORDBAHNHOF",
+            "heading_size": "h2"
+          }
+        },
+        "9bd4032a-0272-4b5a-96e8-a9f46c5d895d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Invalidenstraße 112, 10115 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "0f79fa2f-d5b2-43f2-a0da-4a2e68abb708",
+        "9bd4032a-0272-4b5a-96e8-a9f46c5d895d"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_NORDBAHNHOF.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
     "b909ee06-b94b-426a-9e07-2de624b473f3": {
       "type": "image-with-text",
       "blocks": {
@@ -551,6 +587,7 @@
     "74400d3f-8c2a-49a7-813d-7d7b0a3e52a4",
     "8ae3191f-5806-44b7-911b-a58b25e136d5",
     "4ad63dc1-68bf-496b-887e-a666d61bf9ce",
+    "8521a229-2e3c-4b5d-92f7-b8e314c198fa",
     "b909ee06-b94b-426a-9e07-2de624b473f3",
     "6492639d-6b70-412b-a9c2-b19c9a2dec02",
     "764eb09d-b56c-43a8-b4ae-f74b1a33b327",
