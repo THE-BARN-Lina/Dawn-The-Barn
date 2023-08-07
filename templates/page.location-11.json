@@ -84,7 +84,8 @@
         "ee4dc44c-579f-4283-b52a-a08d73caaa39"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left:0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MALLORCA_42_3b7ce8c7-49c9-4b59-8209-ad975813752a.jpg",
@@ -123,7 +124,8 @@
         "5a482a0d-d833-4ca5-8d2a-338dc86ab796"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_DUBAI_34.jpg",
@@ -160,6 +162,10 @@
       "block_order": [
         "0aea1ecb-77ec-44bf-abe6-b0b4c5240509",
         "71b2213c-171f-43cd-82a9-61ad20cd5a18"
+      ],
+      "custom_css": [
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SEOUL.jpg",
@@ -199,7 +205,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left:0px; }}"
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SCHONHAUSERALLE_43.jpg",
