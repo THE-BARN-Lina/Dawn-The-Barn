@@ -106,6 +106,114 @@
         "image": "shopify:\/\/shop_images\/LOCATIONS_DUBAI_00_1_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "7e205ee5-56e5-46a9-a453-b3bcf7eeca1f": {
+      "type": "image-with-text",
+      "blocks": {
+        "05d679ff-b752-4dc9-b223-94849fbc91c5": {
+          "type": "heading",
+          "settings": {
+            "heading": "SCHÖNHAUSER ALLEE",
+            "heading_size": "h2"
+          }
+        },
+        "af0a4cf1-16be-4152-ade9-65239f8dc66e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schönhauser Allee 8, 10119 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "05d679ff-b752-4dc9-b223-94849fbc91c5",
+        "af0a4cf1-16be-4152-ade9-65239f8dc66e"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_SCHONHAUSERALLE_0.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "74400d3f-8c2a-49a7-813d-7d7b0a3e52a4": {
+      "type": "image-with-text",
+      "blocks": {
+        "26037ea5-ebdf-4184-88a7-ee6f615e7c39": {
+          "type": "heading",
+          "settings": {
+            "heading": "MITTE",
+            "heading_size": "h2"
+          }
+        },
+        "7ef0a667-2495-4e5c-ad4b-fdc696eb7666": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Auguststraße 58, 10119 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "26037ea5-ebdf-4184-88a7-ee6f615e7c39",
+        "7ef0a667-2495-4e5c-ad4b-fdc696eb7666"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_MITTE.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "8ae3191f-5806-44b7-911b-a58b25e136d5": {
+      "type": "image-with-text",
+      "blocks": {
+        "a385b6dc-48d7-42ef-a167-f7765d5eed64": {
+          "type": "heading",
+          "settings": {
+            "heading": "ROSENTHALER PLATZ",
+            "heading_size": "h2"
+          }
+        },
+        "7e35a737-caad-42c5-b642-bdcc286b41e0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Weinbergsweg 1, 10119 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "a385b6dc-48d7-42ef-a167-f7765d5eed64",
+        "7e35a737-caad-42c5-b642-bdcc286b41e0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_ROSENTHALERPLATZ.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
@@ -140,7 +248,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_NEUKOLLN.jpg",
-        "height": "large",
+        "height": "adapt",
         "desktop_image_width": "large",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -185,45 +293,6 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "color_scheme": "inverse",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 16
-      }
-    },
-    "d9265cc3-7bb0-4cdc-a71b-ba8081ebadde": {
-      "type": "image-with-text",
-      "blocks": {
-        "131a41cd-cc57-49f9-b59e-b0a1cab43730": {
-          "type": "heading",
-          "settings": {
-            "heading": "SCHÖNHAUSER ALLEE",
-            "heading_size": "h2"
-          }
-        },
-        "4f494a06-7838-4f01-9084-60b4ad3ad5e1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Schönhauser Allee 8, 10119 Berlin<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "131a41cd-cc57-49f9-b59e-b0a1cab43730",
-        "4f494a06-7838-4f01-9084-60b4ad3ad5e1"
-      ],
-      "custom_css": [
-        ".image-with-text__media {height: 50vh;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LOCATIONS_SCHONHAUSERALLE_0_507a6584-2a40-4bce-805a-63a80884a1a0.jpg",
-        "height": "small",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "overlap",
         "color_scheme": "inverse",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -478,9 +547,11 @@
     "02e46978-4d35-46a1-abcf-dc43ebba00ad",
     "62c54617-4731-4509-89b0-1ec00d3279c2",
     "5e27c052-f44f-44cc-a6eb-6587c7fa9fa3",
+    "7e205ee5-56e5-46a9-a453-b3bcf7eeca1f",
+    "74400d3f-8c2a-49a7-813d-7d7b0a3e52a4",
+    "8ae3191f-5806-44b7-911b-a58b25e136d5",
     "4ad63dc1-68bf-496b-887e-a666d61bf9ce",
     "b909ee06-b94b-426a-9e07-2de624b473f3",
-    "d9265cc3-7bb0-4cdc-a71b-ba8081ebadde",
     "6492639d-6b70-412b-a9c2-b19c9a2dec02",
     "764eb09d-b56c-43a8-b4ae-f74b1a33b327",
     "bb7d7f66-097c-4d29-8a8f-f5e9ff4aa938",
