@@ -47,14 +47,14 @@
         "e6361139-23cb-4fc6-87da-9d8372b54ee9": {
           "type": "heading",
           "settings": {
-            "heading": "NEUKÖLLN",
+            "heading": "THE BARN MALLORCA",
             "heading_size": "h2"
           }
         },
         "ee4dc44c-579f-4283-b52a-a08d73caaa39": {
           "type": "text",
           "settings": {
-            "text": "<p>Friedelstraße 27, 12047 Berlin<\/p>",
+            "text": "<p>Costa D´en Brossa 5 - Palma, Balears<\/p>",
             "text_style": "body"
           }
         }
@@ -65,6 +65,42 @@
       ],
       "custom_css": [
         ".image-with-text__media {height: 50vh;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_MALLORCA.webp",
+        "height": "large",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "4ad63dc1-68bf-496b-887e-a666d61bf9ce": {
+      "type": "image-with-text",
+      "blocks": {
+        "94e04d52-f7da-4c0a-ac05-79d1a2292248": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEUKÖLLN",
+            "heading_size": "h2"
+          }
+        },
+        "b8026a0b-feb4-42f8-82a4-768bc5569255": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Friedelstraße 27, 12047 Berlin<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "94e04d52-f7da-4c0a-ac05-79d1a2292248",
+        "b8026a0b-feb4-42f8-82a4-768bc5569255"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_NEUKOLLN.jpg",
@@ -405,6 +441,7 @@
     "main",
     "02e46978-4d35-46a1-abcf-dc43ebba00ad",
     "62c54617-4731-4509-89b0-1ec00d3279c2",
+    "4ad63dc1-68bf-496b-887e-a666d61bf9ce",
     "b909ee06-b94b-426a-9e07-2de624b473f3",
     "d9265cc3-7bb0-4cdc-a71b-ba8081ebadde",
     "6492639d-6b70-412b-a9c2-b19c9a2dec02",
