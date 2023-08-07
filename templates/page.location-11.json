@@ -136,6 +136,42 @@
         "padding_bottom": 32
       }
     },
+    "11d57508-ace5-4199-a246-6692fb5277bd": {
+      "type": "image-with-text",
+      "blocks": {
+        "0aea1ecb-77ec-44bf-abe6-b0b4c5240509": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BARN SEOUL",
+            "heading_size": "h2"
+          }
+        },
+        "71b2213c-171f-43cd-82a9-61ad20cd5a18": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>South Korea, Seoul, Seongdong-gu, Ttukseom-ro 17-gil, 31-22더반 베를린 코리아 성수점<\/strong><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "0aea1ecb-77ec-44bf-abe6-b0b4c5240509",
+        "71b2213c-171f-43cd-82a9-61ad20cd5a18"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_SEOUL.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
     "7e205ee5-56e5-46a9-a453-b3bcf7eeca1f": {
       "type": "image-with-text",
       "blocks": {
@@ -620,6 +656,7 @@
     "0381f1f2-72a5-4e29-9f41-01e253d35e1f",
     "62c54617-4731-4509-89b0-1ec00d3279c2",
     "5e27c052-f44f-44cc-a6eb-6587c7fa9fa3",
+    "11d57508-ace5-4199-a246-6692fb5277bd",
     "7e205ee5-56e5-46a9-a453-b3bcf7eeca1f",
     "74400d3f-8c2a-49a7-813d-7d7b0a3e52a4",
     "8ae3191f-5806-44b7-911b-a58b25e136d5",
