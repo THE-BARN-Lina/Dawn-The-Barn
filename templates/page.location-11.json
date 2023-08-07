@@ -90,7 +90,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MALLORCA_42_3b7ce8c7-49c9-4b59-8209-ad975813752a.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -131,7 +131,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_DUBAI_34.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -172,7 +172,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SEOUL.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -254,7 +254,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MITTE_33.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -295,7 +295,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROSENTHALERPLATZ_55.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -336,7 +336,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_NEUKOLLN.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -377,7 +377,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_NORDBAHNHOF.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -418,7 +418,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_HACKESCHERMARKT_009.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -459,7 +459,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER_4.webp",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -500,7 +500,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_POTSDAMERPLATZ_7.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -541,7 +541,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_KRANZLER.webp",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -582,7 +582,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATION_ANNEX_0088.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -623,7 +623,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
