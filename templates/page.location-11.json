@@ -558,7 +558,7 @@
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        ".button--primary {background-color: transparent; color:white; max-height:1rem; }"
+        ".button--primary {background-color: transparent; color: white; max-height: 1rem;box-shadow:none; border-bottom: 2px solid red;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
