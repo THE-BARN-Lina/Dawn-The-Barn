@@ -44,6 +44,9 @@
         "template--18000227959051__0381f1f2-72a5-4e29-9f41-01e253d35e1f-heading-1",
         "template--18000227959051__0381f1f2-72a5-4e29-9f41-01e253d35e1f-text-1"
       ],
+      "custom_css": [
+        ".image-with-text__content{background-color:red; padding:0px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MITTE.png",
         "height": "adapt",
