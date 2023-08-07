@@ -542,23 +542,15 @@
             "text": "<p>Wattstrasse 10-13 13355 Berlin<\/p>",
             "text_style": "body"
           }
-        },
-        "39e66e82-4bdc-4006-9f3f-77cf7553e4f8": {
-          "type": "button",
-          "settings": {
-            "button_label": "More Info",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "f20df030-2f47-4279-8bc7-acc874ceb77c",
-        "6cf1997a-57fc-4008-aa4b-df9ff2900768",
-        "39e66e82-4bdc-4006-9f3f-77cf7553e4f8"
+        "6cf1997a-57fc-4008-aa4b-df9ff2900768"
       ],
       "custom_css": [
         "p {margin-top: -1.8rem;}",
-        ".button--primary {background-color: transparent; color: white; max-height: 1rem;box-shadow:none; border-bottom: 2px solid red;}"
+        ".button--primary {background-color: transparent; color: white; max-height: 1rem; box-shadow: none; border-bottom: 2px solid red;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
