@@ -471,7 +471,8 @@
         "3e043f0a-07e0-4400-8b11-794f208f5118"
       ],
       "custom_css": [
-        "p {margin-top: -1.8rem;}"
+        "p {margin-top: -1.8rem;}",
+        "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left:0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_POTSDAMERPLATZ_7.jpg",
