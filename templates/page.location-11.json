@@ -69,7 +69,43 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MALLORCA.webp",
         "height": "large",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "5e27c052-f44f-44cc-a6eb-6587c7fa9fa3": {
+      "type": "image-with-text",
+      "blocks": {
+        "166b456c-3976-485f-93be-c4807b71f2b4": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BARN DUBAI",
+            "heading_size": "h2"
+          }
+        },
+        "5a482a0d-d833-4ca5-8d2a-338dc86ab796": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Al Khazzan Park - Dubai, UAE<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "166b456c-3976-485f-93be-c4807b71f2b4",
+        "5a482a0d-d833-4ca5-8d2a-338dc86ab796"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_DUBAI_00_1_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
@@ -441,6 +477,7 @@
     "main",
     "02e46978-4d35-46a1-abcf-dc43ebba00ad",
     "62c54617-4731-4509-89b0-1ec00d3279c2",
+    "5e27c052-f44f-44cc-a6eb-6587c7fa9fa3",
     "4ad63dc1-68bf-496b-887e-a666d61bf9ce",
     "b909ee06-b94b-426a-9e07-2de624b473f3",
     "d9265cc3-7bb0-4cdc-a71b-ba8081ebadde",
