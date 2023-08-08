@@ -173,15 +173,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1651574465fc19c571": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -189,7 +180,6 @@
     "1a713986-dc37-4b66-b5cf-0705458ba228",
     "16609093955d46716e",
     "9aed932f-1130-4b01-8d78-81c28dfcac7f",
-    "16609096892f959660",
-    "1651574465fc19c571"
+    "16609096892f959660"
   ]
 }
