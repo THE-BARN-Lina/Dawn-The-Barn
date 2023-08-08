@@ -151,7 +151,7 @@
     "165339081846c57155": {
       "type": "featured-collection",
       "custom_css": [
-
+        ".collection__title {text-align: center;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",
