@@ -462,7 +462,7 @@
       ],
       "custom_css": [
         "p {font-size: 16px;}",
-        ".collapsible-content {min-width: 100vw; background-color: black;}",
+        ".collapsible-content {min-width: 100vw; background-color: black; border-bottom: 2px solid #804d15;}",
         ".collapsible-content__wrapper {padding-bottom: 10rem;}"
       ],
       "settings": {
@@ -472,7 +472,7 @@
         "heading_alignment": "center",
         "layout": "section",
         "color_scheme": "inverse",
-        "container_color_scheme": "background-2",
+        "container_color_scheme": "background-1",
         "open_first_collapsible_row": false,
         "image": "shopify:\/\/shop_images\/Chemex_Berlin_877ce3a4-95d1-46f5-8586-a068781d7067.jpg",
         "image_ratio": "adapt",
