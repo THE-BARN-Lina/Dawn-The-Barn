@@ -118,17 +118,19 @@
     },
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
-      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Coffee Subscription Plans",
         "heading_size": "h1",
         "description": "<p>The worlds best coffees on repeat<\/p>",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "subtitle",
         "collection": "subscriptions",
         "products_to_show": 12,
         "columns_desktop": 3,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": false,
         "view_all_style": "link",
         "view_all_label": "",
@@ -139,11 +141,11 @@
         "show_vendor": true,
         "show_tastenotes": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "165339081846c57155": {
