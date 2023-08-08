@@ -481,6 +481,13 @@
         "padding_bottom": 16
       }
     },
+    "75eff281-de2b-40c2-ad6c-15f07b99126c": {
+      "type": "newsletter-sign-up",
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "9548d051-e9a3-422f-91dd-584c92a394fd": {
       "type": "collapsible-content",
       "disabled": true,
@@ -599,6 +606,7 @@
     "16515783060899e67e",
     "2305f7a5-5440-4421-9cde-52a2ea77bf67",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
+    "75eff281-de2b-40c2-ad6c-15f07b99126c",
     "9548d051-e9a3-422f-91dd-584c92a394fd",
     "c6587723-b5e9-4ec2-8118-ff9d1fdd1e58"
   ]
