@@ -116,6 +116,47 @@
         "padding_bottom": 48
       }
     },
+    "165339081846c57155": {
+      "type": "featured-collection",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "LATEST RELEASES",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-releases",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "view_all_label": "SEE FULL BEAN COLLECTION",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 16
+      }
+    },
+    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf": {
       "type": "multirow",
       "blocks": {
@@ -175,40 +216,9 @@
         "padding_bottom": 36
       }
     },
-    "165339081846c57155": {
-      "type": "featured-collection",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "LATEST RELEASES",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "new-releases",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "view_all_label": "SEE FULL BEAN COLLECTION",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": true,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 16
-      }
-    },
     "16515783060899e67e": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1651578306681188a7-0": {
           "type": "heading",
@@ -251,17 +261,9 @@
         "padding_bottom": 32
       }
     },
-    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
     "2305f7a5-5440-4421-9cde-52a2ea77bf67": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "b8ce0f87-8c5c-4a58-bc11-90a85a92166b": {
           "type": "heading",
@@ -443,6 +445,7 @@
     },
     "9548d051-e9a3-422f-91dd-584c92a394fd": {
       "type": "collapsible-content",
+      "disabled": true,
       "blocks": {
         "48cb4836-1525-4156-b967-1160cb2b2bb7": {
           "type": "collapsible_row",
@@ -501,6 +504,7 @@
     },
     "c6587723-b5e9-4ec2-8118-ff9d1fdd1e58": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-0": {
           "type": "heading",
@@ -549,11 +553,11 @@
     "image_banner",
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "1653387743507b82e2",
+    "165339081846c57155",
+    "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "165900919845720bf8",
-    "165339081846c57155",
     "16515783060899e67e",
-    "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "2305f7a5-5440-4421-9cde-52a2ea77bf67",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "9548d051-e9a3-422f-91dd-584c92a394fd",
