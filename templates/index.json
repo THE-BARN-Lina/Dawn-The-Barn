@@ -112,7 +112,7 @@
       "settings": {
         "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 32,
+        "padding_top": 0,
         "padding_bottom": 96
       }
     },
@@ -122,11 +122,11 @@
         ".collection__title {text-align: center;}"
       ],
       "settings": {
-        "title": "Coffee Subscription Plans",
-        "heading_size": "h1",
+        "title": "COFFEE SUBSCRIPTION PLANS",
+        "heading_size": "h2",
         "description": "<p>The worlds best coffees on repeat<\/p>",
         "show_description": false,
-        "description_style": "subtitle",
+        "description_style": "body",
         "collection": "subscriptions",
         "products_to_show": 12,
         "columns_desktop": 4,
@@ -151,7 +151,7 @@
     "165339081846c57155": {
       "type": "featured-collection",
       "custom_css": [
-
+        ".collection__title {text-align: center;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",
@@ -162,7 +162,7 @@
         "collection": "new-releases",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
         "view_all_label": "SEE FULL BEAN COLLECTION",
