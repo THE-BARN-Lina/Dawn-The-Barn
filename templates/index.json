@@ -109,6 +109,7 @@
     },
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".collection__title {text-align: center;}"
       ],
@@ -151,7 +152,7 @@
     "165339081846c57155": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center;}"
+
       ],
       "settings": {
         "title": "LATEST RELEASES",
@@ -162,7 +163,7 @@
         "collection": "new-releases",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "view_all_label": "SEE FULL BEAN COLLECTION",
