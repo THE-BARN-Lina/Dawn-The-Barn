@@ -130,7 +130,7 @@
         "collection": "subscriptions",
         "products_to_show": 12,
         "columns_desktop": 3,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": false,
         "view_all_style": "link",
         "view_all_label": "",
