@@ -119,7 +119,7 @@
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
       "custom_css": [
-
+        ".collection__title{text-align:center;}"
       ],
       "settings": {
         "title": "Coffee Subscription Plans",
