@@ -208,6 +208,7 @@
     },
     "165900919845720bf8": {
       "type": "newsletter-sign-up",
+      "disabled": true,
       "custom_css": [
 
       ],
