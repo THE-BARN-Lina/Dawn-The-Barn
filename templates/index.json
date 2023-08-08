@@ -155,7 +155,8 @@
     "165339081846c57155": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center; border-top: 2px solid #804d15; padding-top: 3rem;}"
+        ".collection__title {text-align: center; padding-top: 3rem;}",
+        ".collection {border-top: 2px solid #804d15;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",
