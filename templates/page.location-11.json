@@ -11,17 +11,6 @@
         "padding_bottom": 28
       }
     },
-    "02e46978-4d35-46a1-abcf-dc43ebba00ad": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "0381f1f2-72a5-4e29-9f41-01e253d35e1f": {
       "type": "image-with-text",
       "blocks": {
@@ -45,7 +34,7 @@
         "template--18000227959051__0381f1f2-72a5-4e29-9f41-01e253d35e1f-text-1"
       ],
       "custom_css": [
-        ".image-with-text__content {padding-left: 0px; padding-top: 0px; border-bottom: 2px solid #804d15;}"
+        ".image-with-text__content {padding-left: 0px; padding-top: 0px; border-bottom: 2px solid #804d15; margin-top: 3rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MITTE.png",
@@ -56,7 +45,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -664,7 +653,6 @@
   },
   "order": [
     "main",
-    "02e46978-4d35-46a1-abcf-dc43ebba00ad",
     "0381f1f2-72a5-4e29-9f41-01e253d35e1f",
     "62c54617-4731-4509-89b0-1ec00d3279c2",
     "5e27c052-f44f-44cc-a6eb-6587c7fa9fa3",
