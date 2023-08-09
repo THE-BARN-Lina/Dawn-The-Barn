@@ -212,7 +212,7 @@
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mitte.png",
+        "image": "shopify:\/\/shop_images\/cafes_THE_BARN_Schonhauser_Allee_3.webp",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
