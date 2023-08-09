@@ -483,6 +483,7 @@
     },
     "75eff281-de2b-40c2-ad6c-15f07b99126c": {
       "type": "newsletter-sign-up",
+      "disabled": true,
       "settings": {
         "padding_top": 40,
         "padding_bottom": 52
@@ -549,7 +550,6 @@
     },
     "c6587723-b5e9-4ec2-8118-ff9d1fdd1e58": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-0": {
           "type": "heading",
@@ -582,12 +582,12 @@
         "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-2"
       ],
       "custom_css": [
-        ".rich-text {border-bottom: 15px solid #804d15;}"
+
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "inverse",
         "full_width": true,
         "padding_top": 48,
         "padding_bottom": 20
