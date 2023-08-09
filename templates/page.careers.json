@@ -63,6 +63,7 @@
         },
         "template--17981405495563__6187381e-dd8e-4108-91c5-f42321bbe773-1689598972404d6858-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CAREERS_LOGISTICS.webp",
             "title": "",
@@ -142,6 +143,7 @@
         },
         "bbbebbc6-3079-4d8e-a85d-4101c4094942": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CAREERS_SHOPIFY_DEV.webp",
             "title": "",
