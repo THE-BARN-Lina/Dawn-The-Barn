@@ -571,7 +571,7 @@
         "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-2"
       ],
       "custom_css": [
-        ".rich-text {border-bottom: 4px solid #804d15;}"
+        ".rich-text {border-bottom: 4px solid #804d15; font-weight:bold;}"
       ],
       "settings": {
         "desktop_content_position": "center",
