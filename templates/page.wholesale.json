@@ -2,23 +2,23 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
-        "h1 {text-align: center;}"
+
       ],
       "settings": {
         "padding_top": 0,
         "padding_bottom": 28
       }
     },
-    "5c173c56-bcec-499e-ba96-cd616b55efc1": {
-      "type": "career_detail",
-      "disabled": true,
+    "47d75ab6-0790-4850-880c-0ee781610fba": {
+      "type": "wholesale",
       "settings": {
       }
     }
   },
   "order": [
     "main",
-    "5c173c56-bcec-499e-ba96-cd616b55efc1"
+    "47d75ab6-0790-4850-880c-0ee781610fba"
   ]
 }
