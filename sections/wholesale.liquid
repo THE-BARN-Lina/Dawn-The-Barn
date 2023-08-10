@@ -1,12 +1,62 @@
+<style>
+
+@media only screen and (min-width: 990px) {
+
+
+</style>
+
+<div class="wholesale-container">
+  {% for career in wholesale.metaobjects.wholesale.values %}
+    <div class="wholesale-container">
+      
+      <div class="wholesale-banner-text">
+        <img src="{{ wholesale.image_banner | img_url:'500x' }}" alt="wholesale" loading="lazy" height="" width="">
+        <h1 class="wholesale-title">{{ wholesale.title }}</h1>
+        <h2 class="wholesale-subtitle">{{ wholesale.subtitle }}</h2>
+      </div>
+      
+      <div class="wholesale-body">
+        <div>
+          <h3 class="wholesale-line">{{ wholesale.line_1 }}</h3>
+          <h3 class="wholesale-line">{{ wholesale.line_2 }}</h3>
+          <h3 class="wholesale-line">{{ wholesale.line_3 }}</h3>
+        </div>
+    
+        <div>
+         <img class="wholesale-icon" src="{{ wholesale.icon_1 | img_url:'500x' }}" alt="wholesale-icon" loading="lazy" height="" width="">
+         <h2 class="wholesale-title-icon">{{ wholesale.title_icon_1 }}</h2>
+         <h2 class="wholesale-description-icon">{{ wholesale.description_1 }}</h2>
+        </div>
+
+        <div>
+         <img class="wholesale-icon" src="{{ wholesale.icon_2 | img_url:'500x' }}" alt="wholesale-icon" loading="lazy" height="" width="">
+         <h2 class="wholesale-title-icon">{{ wholesale.title_icon_2 }}</h2>
+         <h2 class="wholesale-description-icon">{{ wholesale.description_2 }}</h2>
+        </div>
+        
+        <div>
+         <img class="wholesale-icon" src="{{ wholesale.icon_3 | img_url:'500x' }}" alt="wholesale-icon" loading="lazy" height="" width="">
+         <h2 class="wholesale-title-icon">{{ wholesale.title_icon_3 }}</h2>
+         <h2 class="wholesale-description-icon">{{ wholesale.description_3 }}</h2>
+        </div>
+    
+        <div>
+         <img class="wholesale-icon" src="{{ wholesale.icon_4 | img_url:'500x' }}" alt="wholesale-icon" loading="lazy" height="" width="">
+         <h2 class="wholesale-title-icon">{{ wholesale.title_icon_4 }}</h2>
+         <h2 class="wholesale-description-icon">{{ wholesale.description_4 }}</h2>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Wholesale",
+    "settings": [],
+    "presets": [{
+        "name": "Wholesale",
+        "category": "Text"
+  }]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
