@@ -10,15 +10,38 @@
         "padding_bottom": 28
       }
     },
-    "5c173c56-bcec-499e-ba96-cd616b55efc1": {
-      "type": "career_detail",
-      "disabled": true,
+    "55f064d0-f6b5-44ff-a674-dbb0ab8e2f15": {
+      "type": "featured-collection",
       "settings": {
+        "title": "Subscription Test Filter",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "subscriptions",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "5c173c56-bcec-499e-ba96-cd616b55efc1"
+    "55f064d0-f6b5-44ff-a674-dbb0ab8e2f15"
   ]
 }
