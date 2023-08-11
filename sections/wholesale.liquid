@@ -1,50 +1,134 @@
 <style>
-
-@media only screen and (min-width: 990px) {
-
-
+  .wholesale-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: beige;
+  }
+  .wholesale-banner-text {
+    padding: 2rem;
+    background-color: rgb(147, 175, 166);
+  }
+  .wholesale-image {
+    width: 70vw;
+    object-fit: cover;
+  }
+  .wholesale-text {
+    color: black;
+  }
+  .wholesale-image {
+    height: 80vh;
+    object-fit: cover;
+  }
+  .wholesale-icon {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 300px;
+    height: 300px;
+  }
+  .wholesale-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+  }
+  .wholesale-block-text {
+    background-color: aquamarine;
+    padding: 1rem;
+    width: 50%;
+  }
+  @media only screen and (max-width: 800px) {
+    .wholesale-banner {
+      display: flex;
+      flex-direction: column;
+      background-color: beige;
+    }
+    .wholesale-image {
+      height: 45vh;
+      object-fit: cover;
+    }
+    .wholesale-banner-text {}
+  }
 </style>
 
 <div class="wholesale-container">
   {% for wholesale in shop.metaobjects.wholesale.values %}
     <div class="wholesale-container">
-      
-      <div class="wholesale-banner-text">
-        <img src="{{ wholesale.image_banner | img_url:'500x' }}" alt="wholesale" loading="lazy" height="" width="">
-        <h1 class="wholesale-title">{{ wholesale.title }}</h1>
-        <h2 class="wholesale-subtitle">{{ wholesale.subtitle }}</h2>
-      </div>
-      
-      <div class="wholesale-body">
-        <div>
-          <h3 class="wholesale-line">{{ wholesale.line_1 }}</h3>
-          <h3 class="wholesale-line">{{ wholesale.line_2 }}</h3>
-          <h3 class="wholesale-line">{{ wholesale.line_3 }}</h3>
+
+      <div class="wholesale-banner">
+        <img
+          src="{{ wholesale.image_banner | img_url:'500x' }}"
+          class="wholesale-image"
+          alt="wholesale"
+          loading="lazy"
+          height=""
+          width="">
+        <div class="wholesale-banner-text">
+          <h1 class="wholesale-text">{{ wholesale.title }}</h1>
+          <h2 class="wholesale-text">{{ wholesale.subtitle }}</h2>
+          <h3 class="wholesale-text">{{ wholesale.line_1 }}</h3>
+          <h3 class="wholesale-text">{{ wholesale.line_2 }}</h3>
+          <h3 class="wholesale-text">{{ wholesale.line_3 }}</h3>
         </div>
-    
-        <div>
-         <img class="wholesale-icon" src="{{ wholesale.icon_1 | img_url:'500x' }}" alt="wholesale-icon" loading="lazy" height="" width="">
-         <h2 class="wholesale-title-icon">{{ wholesale.title_icon_1 }}</h2>
-         <h2 class="wholesale-description-icon">{{ wholesale.description_1 }}</h2>
+      </div>
+
+      <div class="wholesale-body">
+
+        <div class="wholesale-block">
+          <img
+            class="wholesale-icon"
+            src="{{ wholesale.icon_1 | img_url:'500x' }}"
+            alt="wholesale-icon"
+            loading="lazy"
+            height=""
+            width="">
+          <div class="wholesale-block-text">
+            <h2 class="wholesale-title-icon">{{ wholesale.title_icon_1 }}</h2>
+            <h2 class="wholesale-description-icon">{{ wholesale.description_1 }}</h2>
+          </div>
+        </div>
+        <div class="wholesale-block">
+          <img
+            class="wholesale-icon"
+            src="{{ wholesale.icon_2 | img_url:'500x' }}"
+            alt="wholesale-icon"
+            loading="lazy"
+            height=""
+            width="">
+          <div class="wholesale-block-text">
+            <h2 class="wholesale-title-icon">{{ wholesale.title_icon_2 }}</h2>
+            <h2 class="wholesale-description-icon">{{ wholesale.description_2 }}</h2>
+          </div>
+        </div>
+        <div class="wholesale-block">
+          <img
+            class="wholesale-icon"
+            src="{{ wholesale.icon_3 | img_url:'500x' }}"
+            alt="wholesale-icon"
+            loading="lazy"
+            height=""
+            width="">
+          <div class="wholesale-block-text">
+            <h2 class="wholesale-title-icon">{{ wholesale.title_icon_3 }}</h2>
+            <h2 class="wholesale-description-icon">{{ wholesale.description_3 }}</h2>
+          </div>
+        </div>
+        <div class="wholesale-block">
+          <img
+            class="wholesale-icon"
+            src="{{ wholesale.icon_4 | img_url:'500x' }}"
+            alt="wholesale-icon"
+            loading="lazy"
+            height=""
+            width="">
+          <div class="wholesale-block-text">
+            <h2 class="wholesale-title-icon">{{ wholesale.title_icon_4 }}</h2>
+            <h2 class="wholesale-description-icon">{{ wholesale.description_4 }}</h2>
+          </div>
         </div>
 
-        <div>
-         <img class="wholesale-icon" src="{{ wholesale.icon_2 | img_url:'500x' }}" alt="wholesale-icon" loading="lazy" height="" width="">
-         <h2 class="wholesale-title-icon">{{ wholesale.title_icon_2 }}</h2>
-         <h2 class="wholesale-description-icon">{{ wholesale.description_2 }}</h2>
-        </div>
-        
-        <div>
-         <img class="wholesale-icon" src="{{ wholesale.icon_3 | img_url:'500x' }}" alt="wholesale-icon" loading="lazy" height="" width="">
-         <h2 class="wholesale-title-icon">{{ wholesale.title_icon_3 }}</h2>
-         <h2 class="wholesale-description-icon">{{ wholesale.description_3 }}</h2>
-        </div>
-    
-        <div>
-         <img class="wholesale-icon" src="{{ wholesale.icon_4 | img_url:'500x' }}" alt="wholesale-icon" loading="lazy" height="" width="">
-         <h2 class="wholesale-title-icon">{{ wholesale.title_icon_4 }}</h2>
-         <h2 class="wholesale-description-icon">{{ wholesale.description_4 }}</h2>
-        </div>
+
+
       </div>
     </div>
   {% endfor %}
@@ -54,9 +138,11 @@
   {
     "name": "Wholesale",
     "settings": [],
-    "presets": [{
+    "presets": [
+      {
         "name": "Wholesale",
         "category": "Text"
-  }]
+      }
+    ]
   }
 {% endschema %}
