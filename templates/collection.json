@@ -54,7 +54,7 @@
         "show_tastenotes": true,
         "show_rating": false,
         "enable_quick_add": true,
-        "quick_add_button_color": "#68431b",
+        "quick_add_button_color": "#804d15",
         "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": false,
