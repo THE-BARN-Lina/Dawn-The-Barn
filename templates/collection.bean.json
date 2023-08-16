@@ -57,7 +57,7 @@
         "columns_desktop": 4,
         "image_ratio": "adapt",
         "show_secondary_image": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_tastenotes": true,
         "show_rating": false,
         "enable_quick_add": true,
@@ -72,7 +72,6 @@
     },
     "9aed932f-1130-4b01-8d78-81c28dfcac7f": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-0": {
           "type": "column",
@@ -110,6 +109,7 @@
         "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-1",
         "template--16319953862923__9aed932f-1130-4b01-8d78-81c28dfcac7f-1669376778172978e9-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
