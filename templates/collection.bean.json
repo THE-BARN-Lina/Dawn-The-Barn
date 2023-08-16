@@ -52,6 +52,9 @@
     },
     "16609093955d46716e": {
       "type": "bean-collection-product-grid",
+      "custom_css": [
+        "@media screen and (max-width: 784px) {.card_tastnote_text{display: none; } .card__50_50__grid {padding-bottom: 0; min-height: 0px; }"
+      ],
       "settings": {
         "products_per_page": 64,
         "columns_desktop": 4,
@@ -65,7 +68,7 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "padding_top": 40,
         "padding_bottom": 40
       }
