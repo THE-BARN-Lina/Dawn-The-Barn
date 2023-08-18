@@ -1,22 +1,435 @@
-<style>
-  h4 {
-    color: white;
-  }
-</style>
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
 
-<div class="Subscription-Test-Filter">
-  <h4>he</h4>
+{%- if section.settings.enable_quick_add -%}
+  <link
+    rel="stylesheet"
+    href="{{ 'quick-add.css' | asset_url }}"
+    media="print"
+    onload="this.media='all'">
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+  :root  {
+    --brown: #804d15;
+    --white: #ffffff;
+    --black: #000000;
+  }
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
+    px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
+    px;
+  }
+
+  .section-category-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    /* background-color: purple; */
+    margin-top: -10px;
+  }
+
+  .scroll-wrapper {
+    overflow: hidden; /* Hide any horizontal overflow */
+    height: 100px;
+    margin-bottom: -15px;
+  }
+
+  .scroll-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: -16px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+
+  .filter-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 100px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    /* background-color: yellow; */
+  }
+
+  /* Additional styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .scroll-container {
+      flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
+    }
+    .filter-buttons {
+      justify-content: flex-start; /* Align items to the start (left) */
+    }
+    .section-category-container {
+      height: 50px;
+    }
+  }
+  .button-container {
+    border: 2px solid red;
+    padding: 3px; /* Add padding to create separation between border and content */
+    border-radius: 6px;
+    min-width: 16.2%;
+  }
+  .filter-button {
+    min-width: 180px;
+    max-width: 180px;
+    font-size: 16px;
+    padding: 1rem;
+    background-color: var(--black);
+    border-radius: 6px;
+    color: var(--white);
+    cursor: pointer;
+    margin: 0.5rem;
+    border: 2px solid var(--white)
+  }
+
+  .filter-button:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--brown);
+  }
+  .filter-button.active {
+    border: 2px solid var(--brown);
+    background-color: var(--white);
+    color: var(--black);
+  }
+
+  /* Styles for sections */
+  .section-collection {
+    display: none;
+  }
+  .section-collection.visible {
+    display: block;
+  }
+{%- endstyle -%}
+
+<section class="section-category-container">
+  <h2>Subscriptions by Category</h2>
+</section>
+
+<div class="scroll-wrapper">
+  <div class="scroll-container">
+    <div class="filter-buttons">
+      <button
+        onclick="toggleSection('best-seller')"
+        class="filter-button active"
+        data-section="best-seller">Best Seller</button>
+      <button
+        onclick="toggleSection('your-choices')"
+        class="filter-button"
+        data-section="your-choices">Your Choices</button>
+      <button
+        onclick="toggleSection('gift')"
+        class="filter-button"
+        data-section="gift">Gift</button>
+      <button
+        onclick="toggleSection('specials')"
+        class="filter-button"
+        data-section="specials">Specials</button>
+    </div>
+  </div>
 </div>
+
+<div class="section-{{ section.id }}-padding">
+  <div class="product-grid-container" id="ProductGridContainer">
+    {%- paginate collection.products by section.settings.products_per_page -%}
+      <div class="sections-container">
+
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="best-seller">
+          <h3 class="product-type-header"></h3>
+          <ul
+            id="product-grid"
+            data-id="{{ section.id }}"
+            class="
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        grid--{{ section.settings.columns_desktop }}-col-desktop">
+            {%- for product in collection.products -%}
+              {% if product.tags contains "Best Seller" %}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                <li class="grid__item">
+                  {% render 'card-product'
+                   , card_product: product,
+                   media_aspect_ratio: section.settings.image_ratio,
+                   show_secondary_image: section.settings.show_secondary_image,
+                   show_vendor: section.settings.show_vendor,
+                   show_rating: section.settings.show_rating,
+                   lazy_load: lazy_load,
+                   show_quick_add: section.settings.enable_quick_add,
+                   section_id: section.id,
+                   show_tastenotes: section.settings.show_tastenotes %}
+                </li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+        </section>
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="your-choices">
+          <h3 class="product-type-header"></h3>
+          <ul
+            id="product-grid"
+            data-id="{{ section.id }}"
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      grid--{{ section.settings.columns_desktop }}-col-desktop">
+            {%- for product in collection.products -%}
+              {% if product.tags contains "Your Choices" %}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                <li class="grid__item">
+                  {% render 'card-product'
+                   , card_product: product,
+                   media_aspect_ratio: section.settings.image_ratio,
+                   show_secondary_image: section.settings.show_secondary_image,
+                   show_vendor: section.settings.show_vendor,
+                   show_rating: section.settings.show_rating,
+                   lazy_load: lazy_load,
+                   show_quick_add: section.settings.enable_quick_add,
+                   section_id: section.id,
+                   show_tastenotes: section.settings.show_tastenotes %}
+                </li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+        </section>
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="gift">
+          <h3 class="product-type-header"></h3>
+          <ul
+            id="product-grid"
+            data-id="{{ section.id }}"
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      grid--{{ section.settings.columns_desktop }}-col-desktop">
+            {%- for product in collection.products -%}
+              {% if product.tags contains "Gift" %}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                <li class="grid__item">
+                  {% render 'card-product'
+                   , card_product: product,
+                   media_aspect_ratio: section.settings.image_ratio,
+                   show_secondary_image: section.settings.show_secondary_image,
+                   show_vendor: section.settings.show_vendor,
+                   show_rating: section.settings.show_rating,
+                   lazy_load: lazy_load,
+                   show_quick_add: section.settings.enable_quick_add,
+                   section_id: section.id,
+                   show_tastenotes: section.settings.show_tastenotes %}
+                </li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+        </section>
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="specials">
+          <h3 class="product-type-header"></h3>
+          <ul
+            id="product-grid"
+            data-id="{{ section.id }}"
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      grid--{{ section.settings.columns_desktop }}-col-desktop">
+            {%- for product in collection.products -%}
+              {% if product.tags contains "Specials" %}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                <li class="grid__item">
+                  {% render 'card-product'
+                   , card_product: product,
+                   media_aspect_ratio: section.settings.image_ratio,
+                   show_secondary_image: section.settings.show_secondary_image,
+                   show_vendor: section.settings.show_vendor,
+                   show_rating: section.settings.show_rating,
+                   lazy_load: lazy_load,
+                   show_quick_add: section.settings.enable_quick_add,
+                   section_id: section.id,
+                   show_tastenotes: section.settings.show_tastenotes %}
+                </li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+        </section>
+
+      </div>
+    {%- endpaginate -%}
+  </div>
+</div>
+
+<script>
+  // This part at the beginning of the script to set the default filter
+  window.addEventListener('DOMContentLoaded', (event) => {
+    toggleSection('best-seller'); // Set the default active filter (e.g., 'best-seller')
+  });
+
+  function toggleSection(sectionId) {
+    const buttons = document.querySelectorAll('.filter-button');
+    const sections = document.querySelectorAll('.section-collection');
+
+    buttons.forEach(btn => {
+      if (btn.getAttribute('data-section') !== sectionId) {
+        btn.classList.remove('active'); // Remove the active class from buttons that are not clicked
+      }
+    });
+
+    sections.forEach(section => {
+      if (section.id === sectionId) {
+        section.classList.add('visible');
+      } else {
+        section.classList.remove('visible');
+      }
+    });
+
+// Add the active class to the clicked button
+    const activeButton = document.querySelector(`.filter-button[data-section="${sectionId}"]`);
+    if (activeButton) {
+      activeButton.classList.add('active');
+    }
+  }
+</script>
 
 {% schema %}
   {
-    "name": "Subscription-Test-Filter",
-    "settings": [],
+    "name": "t:sections.main-collection-product-grid.name",
+    "class": "section",
+    "settings": [
+      {
+        "type": "range",
+        "id": "products_per_page",
+        "min": 8,
+        "max": 64,
+        "step": 4,
+        "default": 16,
+        "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
+      },
+      {
+        "type": "range",
+        "id": "columns_desktop",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "default": 4,
+        "label": "t:sections.main-collection-product-grid.settings.columns_desktop.label"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.main-collection-product-grid.settings.header__3.content"
+      },
+      {
+        "type": "select",
+        "id": "image_ratio",
+        "options": [
+          {
+            "value": "adapt",
+            "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__1.label"
+          }, {
+            "value": "portrait",
+            "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__2.label"
+          }, {
+            "value": "square",
+            "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__3.label"
+          }
+        ],
+        "default": "adapt",
+        "label": "t:sections.main-collection-product-grid.settings.image_ratio.label"
+      }, {
+        "type": "checkbox",
+        "id": "show_secondary_image",
+        "default": false,
+        "label": "t:sections.main-collection-product-grid.settings.show_secondary_image.label"
+      }, {
+        "type": "checkbox",
+        "id": "show_vendor",
+        "default": false,
+        "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
+      }, {
+        "type": "checkbox",
+        "id": "show_tastenotes",
+        "default": false,
+        "label": "Show Tastenote or Tagline"
+      }, {
+        "type": "checkbox",
+        "id": "show_rating",
+        "default": false,
+        "label": "t:sections.main-collection-product-grid.settings.show_rating.label",
+        "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
+      }, {
+        "type": "checkbox",
+        "id": "enable_quick_add",
+        "default": false,
+        "label": "t:sections.main-collection-product-grid.settings.enable_quick_buy.label"
+      }, {
+        "type": "color",
+        "id": "quick_add_button_color",
+        "label": "Quick Add Button Color"
+      }, {
+        "type": "header",
+        "content": "t:sections.main-collection-product-grid.settings.header__1.content"
+      }, {
+        "type": "header",
+        "content": "t:sections.main-collection-product-grid.settings.header_mobile.content"
+      }, {
+        "type": "select",
+        "id": "columns_mobile",
+        "default": "2",
+        "label": "t:sections.main-collection-product-grid.settings.columns_mobile.label",
+        "options": [
+          {
+            "value": "1",
+            "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__1.label"
+          }, {
+            "value": "2",
+            "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__2.label"
+          }
+        ]
+      }, {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ],
     "presets": [
       {
-        "name": "Subscription-Test-Filter",
-        "category": "Text"
+        "name": "Subscription Collection With Filter",
+        "category": "Custom"
       }
-    ]
+
+    ],
+    "templates": ["collection"]
   }
 {% endschema %}
