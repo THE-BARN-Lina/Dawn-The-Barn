@@ -8,15 +8,6 @@
         "padding_bottom": 0
       }
     },
-    "166178416464969217": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render | \"perks.icons\" %}\n<style>\na:hover{\ncolor:white !important;\n}\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 40
-      }
-    },
     "636edd10-9556-4424-add9-ef1faa9ebb3f": {
       "type": "rich-text",
       "blocks": {
@@ -61,6 +52,15 @@
         "columns_mobile": "2",
         "padding_top": 8,
         "padding_bottom": 16
+      }
+    },
+    "166178416464969217": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"perks.icons\" %}\n<style>\na:hover{\ncolor:white !important;\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 40
       }
     },
     "2347bfb2-680b-4076-a095-36cb1508a4dc": {
@@ -287,51 +287,6 @@
         "padding_bottom": 40
       }
     },
-    "16629804922d2a4cf0": {
-      "type": "image-with-text",
-      "blocks": {
-        "16629804927de1b9fd-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "PERKS",
-            "heading_size": "h1"
-          }
-        },
-        "16629804927de1b9fd-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>All our coffee subscribers benefit from some cool perks. For instance:<\/p><p>☕ Add more beans at 10% discount to your next deliver<\/p><p>☕ Stay in Control with your online management tool<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16629804927de1b9fd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "OUR FAVOURITE SUBSCRIPTION",
-            "button_link": "https:\/\/thebarn.de\/products\/curated-subscription-monthly"
-          }
-        }
-      },
-      "block_order": [
-        "16629804927de1b9fd-0",
-        "16629804927de1b9fd-1",
-        "16629804927de1b9fd-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Bild_14.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 72,
-        "padding_bottom": 40
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -344,16 +299,15 @@
   },
   "order": [
     "61526f59-c5c6-4ec0-b13e-f55767a96db1",
-    "166178416464969217",
     "636edd10-9556-4424-add9-ef1faa9ebb3f",
     "166186709197b72a8b",
+    "166178416464969217",
     "2347bfb2-680b-4076-a095-36cb1508a4dc",
     "ea1f5825-3f49-4ba7-a90d-c93558fb19ab",
     "d38cf404-aacf-4801-91d6-0f1e1abf762d",
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5",
     "1662636697f92db74e",
     "16609096892f959660",
-    "16629804922d2a4cf0",
     "banner"
   ]
 }
