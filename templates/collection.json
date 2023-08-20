@@ -7,8 +7,8 @@
         "1661850090c55b6adb-0": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>{{ collection.title }}<\/h1>",
-            "heading_size": "h1"
+            "heading": "<p>SUBSCRIPTION GIFT<\/p>",
+            "heading_size": "h2"
           }
         }
       },
