@@ -69,7 +69,7 @@
         "quick_add_button_color": "",
         "columns_mobile": "2",
         "padding_top": 36,
-        "padding_bottom": 64
+        "padding_bottom": 100
       }
     },
     "166178416464969217": {
@@ -77,8 +77,8 @@
       "settings": {
         "custom_liquid": "{% render | \"perks.icons\" %}\n<style>\na:hover{\ncolor:white !important;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 40
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "2347bfb2-680b-4076-a095-36cb1508a4dc": {
