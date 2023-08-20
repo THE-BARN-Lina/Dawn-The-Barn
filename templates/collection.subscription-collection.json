@@ -170,30 +170,6 @@
         "padding_bottom": 36
       }
     },
-    "d38cf404-aacf-4801-91d6-0f1e1abf762d": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16149468774667__d38cf404-aacf-4801-91d6-0f1e1abf762d-1668503808fe4ddc54-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>GIFT CHOICES<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149468774667__d38cf404-aacf-4801-91d6-0f1e1abf762d-1668503808fe4ddc54-0"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5": {
       "type": "featured-collection",
       "disabled": true,
@@ -325,7 +301,6 @@
     "166178416464969217",
     "2347bfb2-680b-4076-a095-36cb1508a4dc",
     "ea1f5825-3f49-4ba7-a90d-c93558fb19ab",
-    "d38cf404-aacf-4801-91d6-0f1e1abf762d",
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5",
     "1662636697f92db74e",
     "16609096892f959660",
