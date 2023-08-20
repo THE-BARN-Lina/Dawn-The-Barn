@@ -63,7 +63,7 @@
         "columns_desktop": 4,
         "image_ratio": "adapt",
         "show_secondary_image": false,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": false,
