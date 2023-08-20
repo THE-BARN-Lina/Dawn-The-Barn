@@ -62,7 +62,7 @@
         "products_per_page": 16,
         "columns_desktop": 3,
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": true,
         "show_tastenotes": false,
         "show_rating": false,
