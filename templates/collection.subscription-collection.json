@@ -86,6 +86,7 @@
       "blocks": {
         "template--17938052284683__2347bfb2-680b-4076-a095-36cb1508a4dc-1688126633169e929d-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p>TRIAL COFFEE SUBSCRIPTION<\/p>",
             "heading_size": "h1"
@@ -153,6 +154,7 @@
         "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-1",
         "template--17938052284683__ea1f5825-3f49-4ba7-a90d-c93558fb19ab-1688143301974a93c7-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: rgb(128, 77, 21); color: white; font-weight: bold; --border-offset: none;}"
       ],
@@ -230,7 +232,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
+        "color_scheme": "inverse",
         "mobile_content_alignment": "left",
         "padding_top": 40,
         "padding_bottom": 40
