@@ -59,22 +59,22 @@
         "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
           "type": "heading",
           "settings": {
-            "heading": "FRUIT BOMB",
+            "heading": "GESHA VILLAGE",
             "heading_size": "h1"
           }
         },
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
           "type": "text",
           "settings": {
-            "text": "Caballero is back with a refreshing tropical fruit cocktail. Enjoy Honduras all summer!",
-            "text_style": "body"
+            "text": "Explore the origin of the worlds most famous coffee",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7": {
           "type": "buttons",
           "settings": {
             "button_label_1": "ORDER HERE",
-            "button_link_1": "shopify:\/\/products\/caballero-confite",
+            "button_link_1": "shopify:\/\/products\/gesha-village",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "shopify:\/\/collections\/beans",
@@ -92,8 +92,8 @@
         "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } h1 {margin-top: -6rem; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LANDING-PAGE-GRADIENT-CABALLERO.png",
-        "image_2": "shopify:\/\/shop_images\/Frame_2.png",
+        "image": "shopify:\/\/shop_images\/LANDING-GESHA-VILLAGE-GRADIENT.png",
+        "image_2": "shopify:\/\/shop_images\/LANDING-GESHA-VILLAGE.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -396,7 +396,7 @@
             "heading": "SONY CENTER",
             "icon": "map_pin",
             "row_content": "<p>Monday - Friday 10:00 – 18:00<br\/>Saturday - Sunday 11:00 – 18:00<br\/><br\/><strong>Bellevuestraße 1, 10785 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/sbcqQZ64gBfY7AfLA\" target=\"_blank\">View on Map<\/a><br\/>-<\/p>",
-            "page": "sony-center-cafe"
+            "page": "the-barn-sony-center"
           }
         },
         "44f43363-7757-49fc-a950-71f0029d8c41": {
