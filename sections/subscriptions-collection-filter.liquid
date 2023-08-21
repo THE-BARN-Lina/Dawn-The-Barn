@@ -125,7 +125,7 @@
 
 
 
-<div class="scroll-wrapper">
+<div class="scroll-wrapper english-set">
   <div class="scroll-container">
     <div class="filter-buttons">
       <button
@@ -136,6 +136,24 @@
         onclick="toggleSection('gift')"
         class="filter-button"
         data-section="gift">Gift</button>
+      <button
+        onclick="toggleSection('specials')"
+        class="filter-button"
+        data-section="specials">Specials</button>
+    </div>
+  </div>
+</div>
+<div class="scroll-wrapper german-set">
+  <div class="scroll-container">
+    <div class="filter-buttons">
+      <button
+        onclick="toggleSection('favoritos')"
+        class="filter-button active"
+        data-section="favoritos">Favoriten</button>
+      <button
+        onclick="toggleSection('gift')"
+        class="filter-button"
+        data-section="gift">Geschenk</button>
       <button
         onclick="toggleSection('specials')"
         class="filter-button"
@@ -245,6 +263,22 @@
     {%- endpaginate -%}
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    var lang = window.location.pathname.split('/')[1];
+    var englishSet = document.querySelector('.english-set');
+    var germanSet = document.querySelector('.german-set');
+    
+    if (lang === 'de') {
+        englishSet.style.display = 'none';
+        germanSet.style.display = '';
+    } else {
+        englishSet.style.display = '';
+        germanSet.style.display = 'none';
+    }
+});
+</script>
 
 <script>
   // This part at the beginning of the script to set the default filter
