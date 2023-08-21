@@ -128,13 +128,9 @@
   <div class="scroll-container">
     <div class="filter-buttons">
       <button
-        onclick="toggleSection('best-seller')"
+        onclick="toggleSection('favoritos')"
         class="filter-button active"
-        data-section="best-seller">Best Seller</button>
-      <button
-        onclick="toggleSection('your-choices')"
-        class="filter-button"
-        data-section="your-choices">Your Choices</button>
+        data-section="favoritos">Favourites</button>
       <button
         onclick="toggleSection('gift')"
         class="filter-button"
@@ -153,7 +149,7 @@
       <div class="sections-container">
 
         {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
-        <section class="section-collection visible" id="best-seller">
+        <section class="section-collection visible" id="favoritos">
           <h3 class="product-type-header"></h3>
           <ul
             id="product-grid"
@@ -162,37 +158,7 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     grid--{{ section.settings.columns_desktop }}-col-desktop">
             {%- for product in collection.products -%}
-              {% if product.tags contains "Best Seller" %}
-                {% assign lazy_load = false %}
-                {%- if forloop.index > 2 -%}
-                  {%- assign lazy_load = true -%}
-                {%- endif -%}
-                <li class="grid__item">
-                  {% render 'card-product'
-                   , card_product: product,
-                   media_aspect_ratio: section.settings.image_ratio,
-                   show_secondary_image: section.settings.show_secondary_image,
-                   show_vendor: section.settings.show_vendor,
-                   show_rating: section.settings.show_rating,
-                   lazy_load: lazy_load,
-                   show_quick_add: section.settings.enable_quick_add,
-                   section_id: section.id,
-                   show_tastenotes: section.settings.show_tastenotes %}
-                </li>
-              {% endif %}
-            {%- endfor -%}
-          </ul>
-        </section>
-        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
-        <section class="section-collection visible" id="your-choices">
-          <h3 class="product-type-header"></h3>
-          <ul
-            id="product-grid"
-            data-id="{{ section.id }}"
-            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  grid--{{ section.settings.columns_desktop }}-col-desktop">
-            {%- for product in collection.products -%}
-              {% if product.tags contains "Your Choices" %}
+              {% if product.tags contains "Favoritos" %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
@@ -282,7 +248,7 @@
 <script>
   // This part at the beginning of the script to set the default filter
   window.addEventListener('DOMContentLoaded', (event) => {
-    toggleSection('best-seller'); // Set the default active filter (e.g., 'best-seller')
+    toggleSection('favoritos'); // Set the default active filter (e.g., 'favoritos')
   });
 
   function toggleSection(sectionId) {
