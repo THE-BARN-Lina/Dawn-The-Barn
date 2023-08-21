@@ -624,32 +624,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "1ba429e7-dd74-4509-91f6-478b7c9ac2f5": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18000227959051__1ba429e7-dd74-4509-91f6-478b7c9ac2f5-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h2>BREW · SIP · REMEMBER<\/h2>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--18000227959051__1ba429e7-dd74-4509-91f6-478b7c9ac2f5-heading-1"
-      ],
-      "custom_css": [
-        ".rich-text {margin-top: 3rem; border-bottom: 4px solid #804d15;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "inverse",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -668,7 +642,6 @@
     "764eb09d-b56c-43a8-b4ae-f74b1a33b327",
     "bb7d7f66-097c-4d29-8a8f-f5e9ff4aa938",
     "5691f852-8916-4aed-a29d-9ecf58be5df6",
-    "e4eab953-645c-430a-ba97-291001c70641",
-    "1ba429e7-dd74-4509-91f6-478b7c9ac2f5"
+    "e4eab953-645c-430a-ba97-291001c70641"
   ]
 }
