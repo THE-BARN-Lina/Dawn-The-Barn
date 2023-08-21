@@ -622,7 +622,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 64
       }
     }
   },
