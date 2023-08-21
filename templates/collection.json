@@ -15,6 +15,7 @@
       "block_order": [
         "1661850090c55b6adb-0"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -138,6 +139,29 @@
         "padding_top": 48,
         "padding_bottom": 36
       }
+    },
+    "c4cf0478-637f-49e4-8248-32d4c2ac89d0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938055299339__c4cf0478-637f-49e4-8248-32d4c2ac89d0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>EQUIPMENT<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938055299339__c4cf0478-637f-49e4-8248-32d4c2ac89d0-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -146,6 +170,7 @@
     "1651574465fc19c571",
     "product-grid",
     "1661760318e2b0a378",
-    "166185182978c04b4e"
+    "166185182978c04b4e",
+    "c4cf0478-637f-49e4-8248-32d4c2ac89d0"
   ]
 }
