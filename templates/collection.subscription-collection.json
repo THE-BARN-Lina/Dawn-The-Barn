@@ -228,11 +228,11 @@
         "image": "shopify:\/\/shop_images\/3805e00f-a9f0-4368-93fe-8f2c7fd0ca59.jpg",
         "height": "small",
         "desktop_image_width": "small",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "inverse",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "left",
         "padding_top": 40,
         "padding_bottom": 40
