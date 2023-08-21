@@ -224,6 +224,7 @@
         "16626366978b64385c-0",
         "16626366978b64385c-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/3805e00f-a9f0-4368-93fe-8f2c7fd0ca59.jpg",
         "height": "small",
