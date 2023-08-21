@@ -536,52 +536,6 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
-    },
-    "c6587723-b5e9-4ec2-8118-ff9d1fdd1e58": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>BREW · SIP · REMEMBER<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-0",
-        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-1",
-        "template--17938053923083__c6587723-b5e9-4ec2-8118-ff9d1fdd1e58-1688033047685ab953-2"
-      ],
-      "custom_css": [
-        ".rich-text {border-bottom: 4px solid #804d15;}",
-        ".rich-text__heading {font-weight: 500;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "inverse",
-        "full_width": true,
-        "padding_top": 48,
-        "padding_bottom": 20
-      }
     }
   },
   "order": [
@@ -596,7 +550,6 @@
     "2305f7a5-5440-4421-9cde-52a2ea77bf67",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "75eff281-de2b-40c2-ad6c-15f07b99126c",
-    "9548d051-e9a3-422f-91dd-584c92a394fd",
-    "c6587723-b5e9-4ec2-8118-ff9d1fdd1e58"
+    "9548d051-e9a3-422f-91dd-584c92a394fd"
   ]
 }
