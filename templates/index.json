@@ -91,8 +91,8 @@
         ".banner--medium.banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt) > .banner__media {height: 60rem;}",
         "@media only screen and (min-width: 750px) {.banner__box {max-width: 40%; } .button {margin-top: 3rem; }}",
         "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } h1 {margin-top: -6rem; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: 28rem; }}",
-        "h1{margin-top:1.6rem;}",
-        ".banner__text {font-size:16px; }"
+        "h1 {margin-top: 1.6rem;}",
+        ".banner__text {font-size: 16px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LANDING-GESHA-VILLAGE-GRADIENT.png",
@@ -114,11 +114,13 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection__title {text-align: center;}",
-        ".collection {border-bottom: 2px solid #804d15;}"
+        ".collection {border-bottom: 2px solid #804d15;}",
+        "a{text-decoration:none;}"
       ],
       "settings": {
-        "title": "COFFEE SUBSCRIPTION PLANS",
+        "title": "",
         "heading_size": "h2",
+        "description_heading_2": "<h2><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">COFFEE SUBSCRIPTION PLANS<\/a><\/h2>",
         "description": "<p>The worlds best coffees on repeat<\/p>",
         "show_description": false,
         "description_style": "body",
@@ -164,6 +166,7 @@
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
+        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
