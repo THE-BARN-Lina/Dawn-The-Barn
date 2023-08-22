@@ -153,6 +153,9 @@
         "template--18007205282059__c72429bc-d276-4dff-957f-6a8a84cc462b-row-3",
         "04090b5f-7b03-4d35-ba9c-855f5fd5bdd2"
       ],
+      "custom_css": [
+        "img {height: 300px; width: 300px;}"
+      ],
       "settings": {
         "image_height": "small",
         "desktop_image_width": "small",
