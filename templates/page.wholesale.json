@@ -25,7 +25,6 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mountain.jpg",
-        "image_2": "shopify:\/\/shop_images\/IMG_2359_05681ae4-a6ec-4e5c-925c-0b4f25def96f.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
