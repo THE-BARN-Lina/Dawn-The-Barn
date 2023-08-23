@@ -495,13 +495,23 @@
             "row_content": "<p>Our specialty is seasonality, small estates and microlots. All coffees are available for limited times but they come back every year. <\/p>",
             "page": ""
           }
+        },
+        "8fd4a9f8-7d18-46f9-a197-9836bc041a02": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why don't you offer blends?",
+            "icon": "plant",
+            "row_content": "<p>We are specialized on specific terroir and flavour profiles. Each coffee has its own personality and we want you to experience that. Our coffees are so good, we don't have to blend them to taste better. <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "7640a2ac-62d1-4c0c-bd6f-8ec221fc8ed1",
         "54b079b1-039c-4693-be98-c1f093eab9f1",
         "d0a442f1-47e9-4757-97b1-b942e5a66e12",
-        "bbccf48c-da86-409f-a7f5-6d86740a9ba5"
+        "bbccf48c-da86-409f-a7f5-6d86740a9ba5",
+        "8fd4a9f8-7d18-46f9-a197-9836bc041a02"
       ],
       "settings": {
         "caption": "The Barn",
