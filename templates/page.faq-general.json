@@ -102,10 +102,20 @@
             "row_content": "<p>At starting point, we send out your coffees always on the date that you signed up your subscription in the first place.<\/p>",
             "page": ""
           }
+        },
+        "17b98038-f21a-499d-a0b9-3f7489b03c26": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which coffees will I be receiving?",
+            "icon": "box",
+            "row_content": "<p>Our roast team selects the subscriber coffees every month. They are typically our latest releases and often microlots. When you are starting your subscription you can chose between espresso and filter roasts.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "faf3b96a-b033-4635-a9b8-78e75185c201"
+        "faf3b96a-b033-4635-a9b8-78e75185c201",
+        "17b98038-f21a-499d-a0b9-3f7489b03c26"
       ],
       "settings": {
         "caption": "The Barn",
