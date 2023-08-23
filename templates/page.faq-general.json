@@ -249,9 +249,9 @@
         "6668b136-be3b-41c9-9bc5-5c2ebea75e9b": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How do I register my account?",
-            "icon": "question_mark",
-            "row_content": "<p>At starting point, we send out your coffees always on the date that you signed up your subscription in the first place.<\/p>",
+            "heading": "How do you roast your coffee beans?",
+            "icon": "fire",
+            "row_content": "<p>We roast all our coffees by hand and in small batches. Our roast style is light to showcase clean flavours and individual terroir. Depending on origin, processing or coffee varietal, you will experience different levels of acidity. <\/p>",
             "page": ""
           }
         },
