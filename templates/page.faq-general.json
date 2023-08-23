@@ -215,9 +215,9 @@
         "c747a189-dd8d-42ee-a127-0dc63a2a8a95": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "I have just signed up for a subscription. When will it start?",
-            "icon": "box",
-            "row_content": "<p>Your subscription starts immediately.<\/p>",
+            "heading": "What does “default address” mean?",
+            "icon": "question_mark",
+            "row_content": "<p>Your default address is your main shipping address.<\/p>",
             "page": ""
           }
         },
