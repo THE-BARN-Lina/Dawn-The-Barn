@@ -394,13 +394,23 @@
             "row_content": "<p>We have a selection of brew equipment that we also use on our own bars. Check out our \"Equipment\" Section?<\/p>",
             "page": ""
           }
+        },
+        "260d6d98-b5c5-46ab-b99a-023ddeb9dcbd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where do I find your brew guides?",
+            "icon": "question_mark",
+            "row_content": "<p>You can download our brew guides from the \"learn\"-section of our website.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "9deee4da-5587-45f0-bacd-7adcc13c42e7",
         "b455c8fc-b0ef-4d4f-802d-d95015a21eb9",
         "af29a8e8-b4a8-438c-8a77-f14d6ac550f1",
-        "7259a88e-7dae-4243-bb79-65bf745374f2"
+        "7259a88e-7dae-4243-bb79-65bf745374f2",
+        "260d6d98-b5c5-46ab-b99a-023ddeb9dcbd"
       ],
       "settings": {
         "caption": "The Barn",
