@@ -115,7 +115,7 @@
       "custom_css": [
         ".collection__title {text-align: center;}",
         ".collection {border-bottom: 2px solid #804d15;}",
-        "a{text-decoration:none;}"
+        "a {text-decoration: none;}"
       ],
       "settings": {
         "title": "",
@@ -410,7 +410,7 @@
           "settings": {
             "heading": "POTSDAMER PLATZ",
             "icon": "map_pin",
-            "row_content": "<p>Monday - Friday 08:30 – 21:00<br\/>Saturday 09:00 – 21:00<br\/>Sunday 09:00 – 18:00<strong><br\/><\/strong><br\/><strong>Alte Potsdamer Str. 5, 10785 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/iy47GVofLoViCeUa6\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
+            "row_content": "<p>Monday - Friday 08:30 – 19:00<br\/>Saturday 09:00 – 19:00<br\/>Sunday 09:00 – 18:00<strong><br\/><\/strong><br\/><strong>Alte Potsdamer Str. 5, 10785 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/iy47GVofLoViCeUa6\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
             "page": "p5"
           }
         },
