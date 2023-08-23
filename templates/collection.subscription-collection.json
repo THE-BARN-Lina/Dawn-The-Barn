@@ -178,6 +178,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
+        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -237,6 +238,67 @@
         "mobile_content_alignment": "left",
         "padding_top": 40,
         "padding_bottom": 40
+      }
+    },
+    "8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When are we sending out your subscription coffees?",
+            "icon": "box",
+            "row_content": "<p>At starting point, we send out your coffees always on the date that you signed up your subscription in the first place.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which coffees will I be receiving?",
+            "icon": "box",
+            "row_content": "<p>Our roast team selects the subscriber coffees every month. They are typically our latest releases and often microlots. When you are starting your subscription you can chose between espresso and filter roasts.<\/p>",
+            "page": ""
+          }
+        },
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-1",
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-2",
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-3",
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "SUBSCRIPTIONS",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16609096892f959660": {
@@ -306,6 +368,7 @@
     "ea1f5825-3f49-4ba7-a90d-c93558fb19ab",
     "7b4af3b1-5feb-4b9a-86c7-595b61db1bc5",
     "1662636697f92db74e",
+    "8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd",
     "16609096892f959660",
     "banner"
   ]
