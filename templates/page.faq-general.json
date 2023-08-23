@@ -412,6 +412,15 @@
             "row_content": "<p>We offer a selection of filter coffees as Drip Bag coffees, which are pre-ground and perfect for on-the-go. All you need is hot water. The rest of our coffees are available as whole beans. We recommend that you grind the beans fresh just before brewing.<\/p>",
             "page": ""
           }
+        },
+        "100e3b07-3235-45b4-8bfd-4e86d9f495d5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you sell Instant coffee?",
+            "icon": "question_mark",
+            "row_content": "<p>Our Specialty Instant Coffee is a great option for travellers and those without grinders at home. We pack it in compostable pouches.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -420,7 +429,8 @@
         "af29a8e8-b4a8-438c-8a77-f14d6ac550f1",
         "7259a88e-7dae-4243-bb79-65bf745374f2",
         "260d6d98-b5c5-46ab-b99a-023ddeb9dcbd",
-        "94b46eb8-823a-4ad9-91b9-8ab70da4b2d8"
+        "94b46eb8-823a-4ad9-91b9-8ab70da4b2d8",
+        "100e3b07-3235-45b4-8bfd-4e86d9f495d5"
       ],
       "settings": {
         "caption": "The Barn",
