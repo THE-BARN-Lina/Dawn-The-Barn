@@ -421,6 +421,15 @@
             "row_content": "<p>Our Specialty Instant Coffee is a great option for travellers and those without grinders at home. We pack it in compostable pouches.<\/p>",
             "page": ""
           }
+        },
+        "ce5b6804-7e80-43e2-977d-d138c8d129a6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer Decaf?",
+            "icon": "question_mark",
+            "row_content": "<p>We have discovered two coffee varietals with naturally low caffeine content: Aramosa and Laurina. You can find them in our bean section.  <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -430,7 +439,8 @@
         "7259a88e-7dae-4243-bb79-65bf745374f2",
         "260d6d98-b5c5-46ab-b99a-023ddeb9dcbd",
         "94b46eb8-823a-4ad9-91b9-8ab70da4b2d8",
-        "100e3b07-3235-45b4-8bfd-4e86d9f495d5"
+        "100e3b07-3235-45b4-8bfd-4e86d9f495d5",
+        "ce5b6804-7e80-43e2-977d-d138c8d129a6"
       ],
       "settings": {
         "caption": "The Barn",
