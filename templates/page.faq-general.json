@@ -37,7 +37,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 24,
         "padding_bottom": 52
@@ -552,58 +552,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "11afc7bc-b0d7-4d4b-8809-bbf40c615c19": {
-      "type": "image-banner",
-      "blocks": {
-        "template--18018884911371__11afc7bc-b0d7-4d4b-8809-bbf40c615c19-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--18018884911371__11afc7bc-b0d7-4d4b-8809-bbf40c615c19-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--18018884911371__11afc7bc-b0d7-4d4b-8809-bbf40c615c19-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18018884911371__11afc7bc-b0d7-4d4b-8809-bbf40c615c19-heading-1",
-        "template--18018884911371__11afc7bc-b0d7-4d4b-8809-bbf40c615c19-text-1",
-        "template--18018884911371__11afc7bc-b0d7-4d4b-8809-bbf40c615c19-buttons-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Shantawenedriedcherries.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -617,7 +565,6 @@
     "0a067272-863f-41e1-a4a3-8308a9d90f21",
     "30aa97d4-35ef-4486-bb60-9817c5efdef1",
     "de0ba34a-afbc-4382-9866-14afbf57bf98",
-    "c097822b-487e-4113-afd9-7fc501da79e5",
-    "11afc7bc-b0d7-4d4b-8809-bbf40c615c19"
+    "c097822b-487e-4113-afd9-7fc501da79e5"
   ]
 }
