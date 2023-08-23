@@ -120,7 +120,7 @@
           "settings": {
             "heading": "I have just signed up for a subscription. When will it start?",
             "icon": "box",
-            "row_content": "<p>Your subscription starts immediately.<\/p>",
+            "row_content": "<p>Your subscription starts immediately. Please note that for the Masterpieces subscription, deliveries take place at the beginning of each month.<\/p>",
             "page": ""
           }
         },
