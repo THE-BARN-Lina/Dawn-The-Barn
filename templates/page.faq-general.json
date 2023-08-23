@@ -129,7 +129,7 @@
           "settings": {
             "heading": "How can I adjust my coffee subscription?",
             "icon": "box",
-            "row_content": "<p>Go to \"menu\" and \"login\" to enter your account details. Click on \"subscription manager\" on the left to edit your data. You can change your address, pause and resume your coffee subscription.<\/p>",
+            "row_content": "<p>Navigate to the \"menu\" and select \"login\" to access your account information. On the left, choose \"manage subscription\" to make any necessary edits. If you'd like to avoid waiting, you can utilize the Send Now feature. Additionally, you have the flexibility to reschedule or skip a delivery according to your preferences<\/p>",
             "page": ""
           }
         },
