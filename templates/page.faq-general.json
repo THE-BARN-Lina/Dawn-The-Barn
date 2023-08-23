@@ -147,7 +147,7 @@
           "settings": {
             "heading": "Can I select subscription coffees by myself?",
             "icon": "box",
-            "row_content": "<p>Our coffee subscription is curated by our roast team. We don't offer individual coffee choices. Our seasonal subscription and low-caffeine subscription are two options on our menu.<\/p>",
+            "row_content": "<p>Our coffee subscription is curated by our roast team. We don't offer individual coffee choices.<\/p>",
             "page": ""
           }
         }
