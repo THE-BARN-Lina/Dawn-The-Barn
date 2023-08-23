@@ -188,8 +188,8 @@
         "656d452f-0c6e-4b7d-8740-6bedb61c92fa": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "When are we sending out your subscription coffees?",
-            "icon": "box",
+            "heading": "How do I register my account?",
+            "icon": "question_mark",
             "row_content": "<p>At starting point, we send out your coffees always on the date that you signed up your subscription in the first place.<\/p>",
             "page": ""
           }
@@ -260,7 +260,7 @@
       ],
       "settings": {
         "caption": "The Barn",
-        "heading": "SUBSCRIPTIONS",
+        "heading": "WEBSHOP",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "section",
