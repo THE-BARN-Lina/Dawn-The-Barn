@@ -67,7 +67,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How long does it take for my order to arrive?",
-            "icon": "box",
+            "icon": "truck",
             "row_content": "<p>Depending on your shipping address the duration can be anything from two days up to a few weeks. For exact durations visit <a href=\"https:\/\/thebarn.de\/policies\/shipping-policy\" target=\"_blank\">our shipping policies page<\/a>.<\/p>",
             "page": ""
           }
