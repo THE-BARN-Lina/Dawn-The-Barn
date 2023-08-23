@@ -477,11 +477,21 @@
             "row_content": "<p>All our farm relationships are personal and we visit most of them every year. Working in a sustainable way is our priority. This includes sustainability, no negative environmental impact, preserving pristine forests and wildlife, water recycling, fair treatment of labour, ethical rules and, most of all, high cup quality. Most farms are small estates with no financial means to certify. They have one thing in common: Their land is all they have and they treat it well for future generations to come. <\/p>",
             "page": ""
           }
+        },
+        "d0a442f1-47e9-4757-97b1-b942e5a66e12": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your coffees Fair Trade?",
+            "icon": "plant",
+            "row_content": "<p>We believe in relationships and fair pricing. We pay for quality: all our coffee prices are far higher than Fair Trade Pricing. <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "7640a2ac-62d1-4c0c-bd6f-8ec221fc8ed1",
-        "54b079b1-039c-4693-be98-c1f093eab9f1"
+        "54b079b1-039c-4693-be98-c1f093eab9f1",
+        "d0a442f1-47e9-4757-97b1-b942e5a66e12"
       ],
       "settings": {
         "caption": "The Barn",
