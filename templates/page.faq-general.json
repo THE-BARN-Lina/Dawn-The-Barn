@@ -120,12 +120,22 @@
             "row_content": "<p>The price advantages of our subscription vary. The average minimum price advantage is 25% compared to single web orders. The highest discount can be achieved by booking a pre-paid term subscription.<\/p>",
             "page": ""
           }
+        },
+        "4c2db494-6857-416c-8d0a-f20f875df268": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I have just signed up for a subscription. When will it start?",
+            "icon": "box",
+            "row_content": "<p>Your subscription starts immediately.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "faf3b96a-b033-4635-a9b8-78e75185c201",
         "17b98038-f21a-499d-a0b9-3f7489b03c26",
-        "eac0bbf3-6808-4207-900b-c3ab26af0a9a"
+        "eac0bbf3-6808-4207-900b-c3ab26af0a9a",
+        "4c2db494-6857-416c-8d0a-f20f875df268"
       ],
       "settings": {
         "caption": "The Barn",
