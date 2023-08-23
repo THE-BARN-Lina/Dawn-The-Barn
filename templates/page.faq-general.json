@@ -147,6 +147,15 @@
             "row_content": "<p>You can pause and resume your subscription at any point. Go to \"menu\" and \"login\" to enter your account details. Click on \"subscription manager\" on the left to edit your data. <\/p>",
             "page": ""
           }
+        },
+        "033452c6-6473-4dfd-8f29-4f0c1702b04e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I select subscription coffees by myself?",
+            "icon": "box",
+            "row_content": "<p>Our coffee subscription is curated by our roast team. We don't offer individual coffee choices. Our seasonal subscription and low-caffeine subscription are two options on our menu.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -155,7 +164,8 @@
         "eac0bbf3-6808-4207-900b-c3ab26af0a9a",
         "4c2db494-6857-416c-8d0a-f20f875df268",
         "b3dfad4b-1d8c-443d-a3fa-3a1ea1377113",
-        "d9edbc6d-c4f4-4980-922c-3325e7f286fd"
+        "d9edbc6d-c4f4-4980-922c-3325e7f286fd",
+        "033452c6-6473-4dfd-8f29-4f0c1702b04e"
       ],
       "settings": {
         "caption": "The Barn",
