@@ -258,9 +258,9 @@
         "dd9273d6-157b-426d-8cb1-b0c152eb4a9b": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "I forgot my password. What do I do?",
-            "icon": "question_mark",
-            "row_content": "<p>Go to “Login” and click on “Forgot your password”. We will send you an email with instructions. <\/p>",
+            "heading": "Do you have different roast profiles for filter and espresso coffees?",
+            "icon": "fire",
+            "row_content": "<p>All our roasts are light with fully developed flavours and sweetness. Our espresso roasts have slightly more body to enjoy them on all types of espresso machines. Our filter roast bring out more delicate flavour notes which can be best experienced on handbrewed methods.<\/p>",
             "page": ""
           }
         },
