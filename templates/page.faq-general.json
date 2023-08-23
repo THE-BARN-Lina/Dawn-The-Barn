@@ -159,6 +159,15 @@
             "row_content": "<p>If you're looking to modify your subscription, you'll need to cancel your current one and then make a new purchase.<\/p>",
             "page": ""
           }
+        },
+        "84e1dc44-3836-4ead-98a2-0e87bc015015": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does the 10% discount function?",
+            "icon": "box",
+            "row_content": "<p>Upon subscribing, you'll instantly enjoy a 10% discount on all our coffee beans (excluding rare coffee varieties).<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -169,7 +178,8 @@
         "b3dfad4b-1d8c-443d-a3fa-3a1ea1377113",
         "d9edbc6d-c4f4-4980-922c-3325e7f286fd",
         "033452c6-6473-4dfd-8f29-4f0c1702b04e",
-        "6a44ac18-8055-49df-9570-ada88b31af61"
+        "6a44ac18-8055-49df-9570-ada88b31af61",
+        "84e1dc44-3836-4ead-98a2-0e87bc015015"
       ],
       "settings": {
         "caption": "The Barn",
