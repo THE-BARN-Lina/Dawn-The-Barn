@@ -206,9 +206,9 @@
         "430c4a4d-5298-4a1e-8288-64ef066c7a40": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is the price advantage compared to single web orders?",
-            "icon": "box",
-            "row_content": "<p>The price advantages of our subscription vary. The average minimum price advantage is 25% compared to single web orders. The highest discount can be achieved by booking a pre-paid term subscription.<\/p>",
+            "heading": "How can I change my shipping address?",
+            "icon": "question_mark",
+            "row_content": "<p>Log in with your email and password. You can adjust your shipping address by clicking on “View addresses”.<\/p>",
             "page": ""
           }
         },
