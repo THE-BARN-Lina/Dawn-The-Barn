@@ -197,9 +197,9 @@
         "2b0af693-9072-4c3c-8d44-4bac51c57442": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Which coffees will I be receiving?",
-            "icon": "box",
-            "row_content": "<p>Our roast team selects the subscriber coffees every month. They are typically our latest releases and often microlots. When you are starting your subscription you can chose between espresso and filter roasts.<\/p>",
+            "heading": "I forgot my password. What do I do?",
+            "icon": "question_mark",
+            "row_content": "<p>Go to “Login” and click on “Forgot your password”. We will send you an email with instructions. <\/p>",
             "page": ""
           }
         },
