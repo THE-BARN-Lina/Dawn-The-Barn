@@ -326,10 +326,20 @@
             "row_content": "<p>Free Wi-Fi is available. In our smaller cafés we do operate with laptop free zones. <br\/><\/p>",
             "page": ""
           }
+        },
+        "e7eba2d1-738b-4d35-a5a3-4c4d37bec066": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I enjoy your coffee outside of Berlin?",
+            "icon": "map_pin",
+            "row_content": "<p>Drop us an email and we guide you to one of our wholesale partners near you. <br\/><\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "1b043186-07eb-4cca-85cb-ff31b0ab9ac4"
+        "1b043186-07eb-4cca-85cb-ff31b0ab9ac4",
+        "e7eba2d1-738b-4d35-a5a3-4c4d37bec066"
       ],
       "settings": {
         "caption": "The Barn",
