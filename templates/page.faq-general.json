@@ -54,12 +54,6 @@
         "padding_bottom": 28
       }
     },
-    "47d75ab6-0790-4850-880c-0ee781610fba": {
-      "type": "wholesale",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "fa29034e-e21c-4c62-b3ad-96ec207e66c1": {
       "type": "collapsible-content",
       "blocks": {
@@ -615,7 +609,6 @@
   "order": [
     "ba62e33d-ca63-44ce-8178-6a02ba887c7e",
     "main",
-    "47d75ab6-0790-4850-880c-0ee781610fba",
     "fa29034e-e21c-4c62-b3ad-96ec207e66c1",
     "9f1ea5db-bebc-4e56-9c6e-b082aebd7ec8",
     "ede6b8db-f768-4934-a26c-5289ed94821b",
