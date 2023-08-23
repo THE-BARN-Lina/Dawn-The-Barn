@@ -295,24 +295,45 @@
             "row_content": "<p>You can use Apple Pay, PayPal and most Credit Cards. In Germany, we also offer direct bank transfer (Sofort Banking).<\/p>",
             "page": ""
           }
-        },
-        "db8ead12-c895-41f3-a572-d865c514027e": {
+        }
+      },
+      "block_order": [
+        "3bb826fc-fd61-40d0-92c5-39b14f34c1f4"
+      ],
+      "settings": {
+        "caption": "The Barn",
+        "heading": "PAYMENT",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "inverse",
+        "container_color_scheme": "inverse",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0a067272-863f-41e1-a4a3-8308a9d90f21": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1b043186-07eb-4cca-85cb-ff31b0ab9ac4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do you have different roast profiles for filter and espresso coffees?",
-            "icon": "fire",
-            "row_content": "<p>All our roasts are light with fully developed flavours and sweetness. Our espresso roasts have slightly more body to enjoy them on all types of espresso machines. Our filter roast bring out more delicate flavour notes which can be best experienced on handbrewed methods.<\/p>",
+            "heading": "Do you offer free Wi-Fi in your cafés?",
+            "icon": "map_pin",
+            "row_content": "<p>Free Wi-Fi is available. In our smaller cafés we do operate with laptop free zones. <br\/><\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "3bb826fc-fd61-40d0-92c5-39b14f34c1f4",
-        "db8ead12-c895-41f3-a572-d865c514027e"
+        "1b043186-07eb-4cca-85cb-ff31b0ab9ac4"
       ],
       "settings": {
         "caption": "The Barn",
-        "heading": "PAYMENT",
+        "heading": "LOCATIONS",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "section",
@@ -334,6 +355,7 @@
     "9f1ea5db-bebc-4e56-9c6e-b082aebd7ec8",
     "ede6b8db-f768-4934-a26c-5289ed94821b",
     "37e990b1-d8de-4310-81a6-d929e8f17dec",
-    "0899905b-48b2-4489-bbb4-6324dd1e0015"
+    "0899905b-48b2-4489-bbb4-6324dd1e0015",
+    "0a067272-863f-41e1-a4a3-8308a9d90f21"
   ]
 }
