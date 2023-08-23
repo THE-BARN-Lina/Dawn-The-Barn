@@ -264,18 +264,9 @@
         "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What is the price advantage compared to single web orders?",
+            "icon": "box",
+            "row_content": "<p>The price advantages of our subscription vary. The average minimum price advantage is 25% compared to single web orders. The highest discount can be achieved by booking a pre-paid term subscription.<\/p>",
             "page": ""
           }
         }
@@ -283,8 +274,7 @@
       "block_order": [
         "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-1",
         "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-2",
-        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-3",
-        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-4"
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-3"
       ],
       "settings": {
         "caption": "SUBSCRIPTIONS",
