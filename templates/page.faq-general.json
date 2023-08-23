@@ -111,11 +111,21 @@
             "row_content": "<p>Our roast team selects the subscriber coffees every month. They are typically our latest releases and often microlots. When you are starting your subscription you can chose between espresso and filter roasts.<\/p>",
             "page": ""
           }
+        },
+        "eac0bbf3-6808-4207-900b-c3ab26af0a9a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the price advantage compared to single web orders?",
+            "icon": "box",
+            "row_content": "<p>The price advantages of our subscription vary. The average minimum price advantage is 25% compared to single web orders. The highest discount can be achieved by booking a pre-paid term subscription.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "faf3b96a-b033-4635-a9b8-78e75185c201",
-        "17b98038-f21a-499d-a0b9-3f7489b03c26"
+        "17b98038-f21a-499d-a0b9-3f7489b03c26",
+        "eac0bbf3-6808-4207-900b-c3ab26af0a9a"
       ],
       "settings": {
         "caption": "The Barn",
