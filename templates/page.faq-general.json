@@ -97,9 +97,9 @@
         "faf3b96a-b033-4635-a9b8-78e75185c201": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "When are we sending out your subscription coffees?",
-            "icon": "box",
-            "row_content": "<p>At starting point, we send out your coffees always on the date that you signed up your subscription in the first place.<\/p>",
+            "heading": "How do I register my account?",
+            "icon": "question_mark",
+            "row_content": "<p>You create your account during the checkout procedure. <\/p>",
             "page": ""
           }
         },
@@ -169,6 +169,97 @@
       ],
       "settings": {
         "caption": "The Barn",
+        "heading": "WEBSHOP",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "inverse",
+        "container_color_scheme": "inverse",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ede6b8db-f768-4934-a26c-5289ed94821b": {
+      "type": "collapsible-content",
+      "blocks": {
+        "656d452f-0c6e-4b7d-8740-6bedb61c92fa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When are we sending out your subscription coffees?",
+            "icon": "box",
+            "row_content": "<p>At starting point, we send out your coffees always on the date that you signed up your subscription in the first place.<\/p>",
+            "page": ""
+          }
+        },
+        "2b0af693-9072-4c3c-8d44-4bac51c57442": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which coffees will I be receiving?",
+            "icon": "box",
+            "row_content": "<p>Our roast team selects the subscriber coffees every month. They are typically our latest releases and often microlots. When you are starting your subscription you can chose between espresso and filter roasts.<\/p>",
+            "page": ""
+          }
+        },
+        "430c4a4d-5298-4a1e-8288-64ef066c7a40": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the price advantage compared to single web orders?",
+            "icon": "box",
+            "row_content": "<p>The price advantages of our subscription vary. The average minimum price advantage is 25% compared to single web orders. The highest discount can be achieved by booking a pre-paid term subscription.<\/p>",
+            "page": ""
+          }
+        },
+        "c747a189-dd8d-42ee-a127-0dc63a2a8a95": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I have just signed up for a subscription. When will it start?",
+            "icon": "box",
+            "row_content": "<p>Your subscription starts immediately.<\/p>",
+            "page": ""
+          }
+        },
+        "446753a4-9214-441d-8f85-ba72785d2ef1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I adjust my coffee subscription?",
+            "icon": "box",
+            "row_content": "<p>Go to \"menu\" and \"login\" to enter your account details. Click on \"subscription manager\" on the left to edit your data. You can change your address, pause and resume your coffee subscription.<\/p>",
+            "page": ""
+          }
+        },
+        "512c1692-0fe1-44e7-aefe-5608c458cf38": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I pause my subscription?",
+            "icon": "box",
+            "row_content": "<p>You can pause and resume your subscription at any point. Go to \"menu\" and \"login\" to enter your account details. Click on \"subscription manager\" on the left to edit your data. <\/p>",
+            "page": ""
+          }
+        },
+        "f4ebfae1-cc3c-4291-b02e-f46fc373af22": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I select subscription coffees by myself?",
+            "icon": "box",
+            "row_content": "<p>Our coffee subscription is curated by our roast team. We don't offer individual coffee choices. Our seasonal subscription and low-caffeine subscription are two options on our menu.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "656d452f-0c6e-4b7d-8740-6bedb61c92fa",
+        "2b0af693-9072-4c3c-8d44-4bac51c57442",
+        "430c4a4d-5298-4a1e-8288-64ef066c7a40",
+        "c747a189-dd8d-42ee-a127-0dc63a2a8a95",
+        "446753a4-9214-441d-8f85-ba72785d2ef1",
+        "512c1692-0fe1-44e7-aefe-5608c458cf38",
+        "f4ebfae1-cc3c-4291-b02e-f46fc373af22"
+      ],
+      "settings": {
+        "caption": "The Barn",
         "heading": "SUBSCRIPTIONS",
         "heading_size": "h2",
         "heading_alignment": "left",
@@ -188,6 +279,7 @@
     "main",
     "47d75ab6-0790-4850-880c-0ee781610fba",
     "fa29034e-e21c-4c62-b3ad-96ec207e66c1",
-    "9f1ea5db-bebc-4e56-9c6e-b082aebd7ec8"
+    "9f1ea5db-bebc-4e56-9c6e-b082aebd7ec8",
+    "ede6b8db-f768-4934-a26c-5289ed94821b"
   ]
 }
