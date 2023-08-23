@@ -6,14 +6,14 @@
         "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>FREQUENTLY ASKED QUESTIONS<\/h1>",
-            "heading_size": "h1"
+            "heading": "<h2>FREQUENTLY ASKED QUESTIONS<\/h2>",
+            "heading_size": "h2"
           }
         },
         "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Shipping<br\/>Coffee Subscription<br\/>Webshop<br\/>Roasting<br\/>Payment<br\/>Locations<br\/>Brewing<br\/>Sourcing<br\/>Wholesale<\/p>"
+            "text": ""
           }
         },
         "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-button-1": {
@@ -76,8 +76,8 @@
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "section",
-        "color_scheme": "inverse",
-        "container_color_scheme": "inverse",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-1",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
