@@ -138,7 +138,7 @@
           "settings": {
             "heading": "Can I pause my subscription?",
             "icon": "box",
-            "row_content": "<p>You can pause and resume your subscription at any point. Go to \"menu\" and \"login\" to enter your account details. Click on \"subscription manager\" on the left to edit your data. <\/p>",
+            "row_content": "<p>You can pause and resume your subscription at any point. Go to \"menu\" and \"login\" to enter your account details. Click on \"manage subscriptions\" on the left to edit your data. <\/p>",
             "page": ""
           }
         },
