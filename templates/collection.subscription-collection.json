@@ -269,13 +269,24 @@
             "row_content": "<p>The price advantages of our subscription vary. The average minimum price advantage is 25% compared to single web orders. The highest discount can be achieved by booking a pre-paid term subscription.<\/p>",
             "page": ""
           }
+        },
+        "4cb6fbf9-5dfa-4f5f-a83d-fdb577867f98": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the price advantage compared to single web orders?",
+            "icon": "box",
+            "row_content": "<p>The price advantages of our subscription vary. The average minimum price advantage is 25% compared to single web orders. The highest discount can be achieved by booking a pre-paid term subscription.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-1",
         "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-2",
-        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-3"
+        "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-3",
+        "4cb6fbf9-5dfa-4f5f-a83d-fdb577867f98"
       ],
+      "disabled": true,
       "settings": {
         "caption": "SUBSCRIPTIONS",
         "heading": "Frequently Asked Questions",
