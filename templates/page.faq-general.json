@@ -486,12 +486,22 @@
             "row_content": "<p>We believe in relationships and fair pricing. We pay for quality: all our coffee prices are far higher than Fair Trade Pricing. <\/p>",
             "page": ""
           }
+        },
+        "bbccf48c-da86-409f-a7f5-6d86740a9ba5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer all coffees all year around?",
+            "icon": "plant",
+            "row_content": "<p>Our specialty is seasonality, small estates and microlots. All coffees are available for limited times but they come back every year. <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "7640a2ac-62d1-4c0c-bd6f-8ec221fc8ed1",
         "54b079b1-039c-4693-be98-c1f093eab9f1",
-        "d0a442f1-47e9-4757-97b1-b942e5a66e12"
+        "d0a442f1-47e9-4757-97b1-b942e5a66e12",
+        "bbccf48c-da86-409f-a7f5-6d86740a9ba5"
       ],
       "settings": {
         "caption": "The Barn",
