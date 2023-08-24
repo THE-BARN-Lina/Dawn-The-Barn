@@ -178,7 +178,7 @@
             "type": "text",
             "settings": {
               "heading": "ABOUT",
-              "subtext": "<h5> <a href=\"\/pages\/aboutus\" title=\"About Us\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team <\/a><br\/><a href=\"\/pages\/locations\" title=\"Locations\">Locations<br\/><\/a><a href=\"\/pages\/careers\" title=\"Careers\">Careers<\/a><\/h5>"
+              "subtext": "<h5><a href=\"\/pages\/aboutus\" title=\"About Us\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team <\/a><br\/><a href=\"\/pages\/locations\" title=\"Locations\">Locations<br\/><\/a><a href=\"\/pages\/careers\" title=\"Careers\">Careers<\/a><\/h5>"
             }
           },
           "705afaa5-785a-40f3-9e83-5c853fe5b6aa": {
