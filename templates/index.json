@@ -457,7 +457,7 @@
       ],
       "custom_css": [
         "p {font-size: 16px;}",
-        ".collapsible-content {min-width: 100vw; background-color: black; border-bottom: 2px solid #804d15;}",
+        ".collapsible-content {min-width: 100vw; background-color: black; }",
         ".collapsible-content__wrapper {padding-bottom: 10rem;}"
       ],
       "settings": {
