@@ -84,7 +84,8 @@
 </style>
 
 <div class="careers-container">
-  {% for career in shop.metaobjects.career.values %}
+    {% assign sorted_careers = shop.metaobjects.career.values | sort: 'order' %}
+    {% for career in sorted_careers %}
     <div class="career-container">
       <div class="img">
         <img src="{{ career.photo | img_url:'500x' }}" alt="career" loading="lazy" height="" width="">
@@ -96,8 +97,6 @@
         <p class="career-text">{{ career.description }}</p>
         <a href="{{ career.button_english }}" class="button primary--button english-button">READ MORE</a>
         <a href="{{ career.button_german }}" class="button primary--button german-button">READ MORE</a>
-
-
       </div>
     </div>
   {% endfor %}
