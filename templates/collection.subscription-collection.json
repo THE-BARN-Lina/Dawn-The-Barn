@@ -305,6 +305,15 @@
             "row_content": "<p>You can pause and resume your subscription at any point. Go to \"menu\" and \"login\" to enter your account details. Click on \"manage subscriptions\" on the left to edit your data. <\/p>",
             "page": ""
           }
+        },
+        "2860df95-5f98-487e-a6aa-aa1f2b9d4b5e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I select subscription coffees by myself?",
+            "icon": "box",
+            "row_content": "<p>Our coffee subscription is curated by our roast team. We don't offer individual coffee choices.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -314,7 +323,8 @@
         "4cb6fbf9-5dfa-4f5f-a83d-fdb577867f98",
         "a58f75d4-fa4c-4629-ad44-b939d0b7e9f4",
         "0aab55d7-60d4-472b-8404-21a5973619c2",
-        "dcc0f432-7b88-4653-9c3e-e00463413096"
+        "dcc0f432-7b88-4653-9c3e-e00463413096",
+        "2860df95-5f98-487e-a6aa-aa1f2b9d4b5e"
       ],
       "settings": {
         "caption": "SUBSCRIPTIONS",
