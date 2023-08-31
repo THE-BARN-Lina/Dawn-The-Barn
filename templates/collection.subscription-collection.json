@@ -323,6 +323,15 @@
             "row_content": "<p>If you're looking to modify your subscription, you'll need to cancel your current one and then make a new purchase.<\/p>",
             "page": ""
           }
+        },
+        "6d5a4aea-c112-45a8-b6f7-84e285764213": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does the 10% discount function?",
+            "icon": "box",
+            "row_content": "<p>Upon subscribing, you'll instantly enjoy a 10% discount on all our coffee beans (excluding rare coffee varieties).<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -334,7 +343,8 @@
         "0aab55d7-60d4-472b-8404-21a5973619c2",
         "dcc0f432-7b88-4653-9c3e-e00463413096",
         "2860df95-5f98-487e-a6aa-aa1f2b9d4b5e",
-        "36a923f1-95a9-405f-b1f2-2585a1171b5a"
+        "36a923f1-95a9-405f-b1f2-2585a1171b5a",
+        "6d5a4aea-c112-45a8-b6f7-84e285764213"
       ],
       "settings": {
         "caption": "SUBSCRIPTIONS",
