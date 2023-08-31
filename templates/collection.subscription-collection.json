@@ -278,15 +278,44 @@
             "row_content": "<p>The price advantages of our subscription vary. The average minimum price advantage is 25% compared to single web orders. The highest discount can be achieved by booking a pre-paid term subscription.<\/p>",
             "page": ""
           }
+        },
+        "a58f75d4-fa4c-4629-ad44-b939d0b7e9f4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I have just signed up for a subscription. When will it start?",
+            "icon": "box",
+            "row_content": "<p>Your subscription starts immediately. Please note that for the Masterpieces subscription, deliveries take place at the beginning of each month.<\/p>",
+            "page": ""
+          }
+        },
+        "0aab55d7-60d4-472b-8404-21a5973619c2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I adjust my coffee subscription?",
+            "icon": "box",
+            "row_content": "<p>Navigate to the \"menu\" and select \"login\" to access your account information. On the left, choose \"manage subscription\" to make any necessary edits. If you'd like to avoid waiting, you can utilize the Send Now feature. Additionally, you have the flexibility to reschedule or skip a delivery according to your preferences<\/p>",
+            "page": ""
+          }
+        },
+        "dcc0f432-7b88-4653-9c3e-e00463413096": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I pause my subscription?",
+            "icon": "box",
+            "row_content": "<p>You can pause and resume your subscription at any point. Go to \"menu\" and \"login\" to enter your account details. Click on \"manage subscriptions\" on the left to edit your data. <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-1",
         "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-2",
         "template--17938052284683__8b6fa38d-1aa8-44bc-8f9c-6f5336a3d7dd-collapsible_row-3",
-        "4cb6fbf9-5dfa-4f5f-a83d-fdb577867f98"
+        "4cb6fbf9-5dfa-4f5f-a83d-fdb577867f98",
+        "a58f75d4-fa4c-4629-ad44-b939d0b7e9f4",
+        "0aab55d7-60d4-472b-8404-21a5973619c2",
+        "dcc0f432-7b88-4653-9c3e-e00463413096"
       ],
-      "disabled": true,
       "settings": {
         "caption": "SUBSCRIPTIONS",
         "heading": "Frequently Asked Questions",
