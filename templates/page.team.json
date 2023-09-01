@@ -167,10 +167,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "4682f58f-ad78-43fb-8c57-1d0013e257b3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17981389242635__4682f58f-ad78-43fb-8c57-1d0013e257b3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>...<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17981389242635__4682f58f-ad78-43fb-8c57-1d0013e257b3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wanna be part of the team?<br\/>Check our<\/p>"
+          }
+        },
+        "template--17981389242635__4682f58f-ad78-43fb-8c57-1d0013e257b3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "CAREER PAGE",
+            "button_link": "shopify:\/\/pages\/careers",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17981389242635__4682f58f-ad78-43fb-8c57-1d0013e257b3-heading-1",
+        "template--17981389242635__4682f58f-ad78-43fb-8c57-1d0013e257b3-text-1",
+        "template--17981389242635__4682f58f-ad78-43fb-8c57-1d0013e257b3-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "7f55539c-9d9e-4bae-9d4f-1e9780566403"
+    "7f55539c-9d9e-4bae-9d4f-1e9780566403",
+    "4682f58f-ad78-43fb-8c57-1d0013e257b3"
   ]
 }
