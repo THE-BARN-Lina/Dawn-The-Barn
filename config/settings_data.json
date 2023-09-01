@@ -123,12 +123,21 @@
             "settings": {
               "text": "LIMITED TWINBOX | MASTERPIECES DATERRA",
               "color_scheme": "accent-2",
-              "link": "https:\/\/thebarn.de\/products\/giakanja-aa"
+              "link": "https:\/\/thebarn.de\/products\/twinbox-daterra-masterpieces"
+            }
+          },
+          "4f341a5e-c14d-4b35-9c9e-f1699931f46a": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
             }
           }
         },
         "block_order": [
-          "9b61c670-421e-411e-a354-e322ee6f62a5"
+          "9b61c670-421e-411e-a354-e322ee6f62a5",
+          "4f341a5e-c14d-4b35-9c9e-f1699931f46a"
         ],
         "custom_css": [
           ".announcement-bar__link {display: flex; width: 100%; height: 42.18px; align-items: center; padding: 1.6rem 2rem; text-decoration: none; justify-content: space-around;}"
