@@ -56,10 +56,17 @@
     "befa68a6-1035-4cea-bf06-95f308026d4b": {
       "type": "image-banner",
       "blocks": {
+        "7fd749b9-e32b-4d29-9a2f-51c36cd28932": {
+          "type": "text",
+          "settings": {
+            "text": "Twinbox",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
         "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
           "type": "heading",
           "settings": {
-            "heading": "TWINBOX MASTERPIECES",
+            "heading": "DATERRA MASTERPIECES",
             "heading_size": "h1"
           }
         },
@@ -83,6 +90,7 @@
         }
       },
       "block_order": [
+        "7fd749b9-e32b-4d29-9a2f-51c36cd28932",
         "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e",
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a",
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7"
