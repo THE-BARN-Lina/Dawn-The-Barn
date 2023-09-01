@@ -58,6 +58,7 @@
       "blocks": {
         "7fd749b9-e32b-4d29-9a2f-51c36cd28932": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Twinbox",
             "text_style": "caption-with-letter-spacing"
@@ -66,7 +67,7 @@
         "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
           "type": "heading",
           "settings": {
-            "heading": "DATERRA MASTERPIECES",
+            "heading": "TWINBOX MASTERPIECES",
             "heading_size": "h1"
           }
         },
