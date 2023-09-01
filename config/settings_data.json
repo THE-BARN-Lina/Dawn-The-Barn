@@ -128,6 +128,7 @@
           },
           "4f341a5e-c14d-4b35-9c9e-f1699931f46a": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "accent-1",
