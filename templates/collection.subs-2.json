@@ -3,7 +3,6 @@
   "sections": {
     "1654097575f0867be6": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "1007c9b7-36cd-444b-b54c-c21721e06210": {
           "type": "heading",
@@ -16,6 +15,7 @@
       "block_order": [
         "1007c9b7-36cd-444b-b54c-c21721e06210"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_8231.jpg",
         "image_overlay_opacity": 0,
@@ -33,7 +33,6 @@
     },
     "1651573600c50faa59": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "16515736008aaacc61-0": {
           "type": "heading",
@@ -47,6 +46,7 @@
       "block_order": [
         "16515736008aaacc61-0"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "small",
@@ -72,7 +72,6 @@
     },
     "16518336251bec1554": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "165183362505911af8-1": {
           "type": "text",
@@ -84,6 +83,7 @@
       "block_order": [
         "165183362505911af8-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -127,7 +127,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "beans",
+        "collection": "coffeebeans",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
