@@ -79,7 +79,7 @@
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LOCATIONS_MALLORCA_42_3b7ce8c7-49c9-4b59-8209-ad975813752a.jpg",
+        "image": "shopify:\/\/shop_images\/LOCATIONS_MALLORCA.webp",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -120,7 +120,7 @@
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LOCATIONS_DUBAI_34.jpg",
+        "image": "shopify:\/\/shop_images\/LOCATIONS_DUBAI_00_1_1.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -161,7 +161,7 @@
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LOCATIONS_SEOUL.jpg",
+        "image": "shopify:\/\/shop_images\/cafes_the-barn-korea-seoul-4.webp",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -325,7 +325,7 @@
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LOCATIONS_NEUKOLLN.jpg",
+        "image": "shopify:\/\/shop_images\/cafes_THE_BARN__NEUKOLLN_2.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -448,7 +448,7 @@
         "@media only screen and (max-width: 750px) {.image-with-text__content {padding-left: 0px; border-bottom: 2px solid #804d15; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER_4.webp",
+        "image": "shopify:\/\/shop_images\/LOCATIONS_SONYCENTER.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
