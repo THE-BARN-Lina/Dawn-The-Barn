@@ -204,7 +204,7 @@
           "settings": {
             "heading": "How do I register my account?",
             "icon": "question_mark",
-            "row_content": "<p>At starting point, we send out your coffees always on the date that you signed up your subscription in the first place.<\/p>",
+            "row_content": "<p>You can open your account when you place your first order.<\/p>",
             "page": ""
           }
         },
@@ -514,7 +514,7 @@
         "8fd4a9f8-7d18-46f9-a197-9836bc041a02": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Why do you not offer blends?",
+            "heading": "Why don't you offer blends?",
             "icon": "plant",
             "row_content": "<p>We are specialized on specific terroir and flavour profiles. Each coffee has its own personality and we want you to experience that. Our coffees are so good, we don't have to blend them to taste better. <\/p>",
             "page": ""
