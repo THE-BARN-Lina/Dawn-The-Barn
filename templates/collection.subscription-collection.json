@@ -318,6 +318,7 @@
         },
         "36a923f1-95a9-405f-b1f2-2585a1171b5a": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How can I change my subscription?",
             "icon": "box",
