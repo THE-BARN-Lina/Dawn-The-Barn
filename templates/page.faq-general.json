@@ -93,7 +93,7 @@
           "settings": {
             "heading": "When are we sending out your subscription coffees?",
             "icon": "box",
-            "row_content": "<p>We typically take 1 to 3 working days from your order date to ensure each batch's freshness before shipping it to you.<\/p>",
+            "row_content": "<p>We typically take 1 to 3 working days from your order date to ensure freshness before shipping it to you.<\/p>",
             "page": ""
           }
         },
