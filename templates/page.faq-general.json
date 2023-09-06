@@ -120,7 +120,7 @@
           "settings": {
             "heading": "I have just signed up for a subscription. When will I receive my coffee?",
             "icon": "box",
-            "row_content": "<p>Navigate to the \"menu\" and select \"login\" to access your account information. On the left, choose \"manage subscription\" to make any necessary edits. <br\/><br\/>To avoid waiting for your coffee, you can use the \"Send Now\" feature. Additionally, you have the flexibility to reschedule or skip a delivery according to your preferences.<\/p>",
+            "row_content": "<p>Your first subscription goes out the next working day after you started your subscription. <\/p><p>The only exception is our Masterpiece subscription. This one we send out on the first Wednesday of each month. All other subscription are fully flexible and you can change your desired dispatch date via your online portal. <\/p><p>You can also pause or skip your subscription at any point. The time to reach you with your freshly roasted coffee depends on your location and the service that you have chosen. For exact durations visit our shipping policies page.<br\/><\/p>",
             "page": ""
           }
         },
