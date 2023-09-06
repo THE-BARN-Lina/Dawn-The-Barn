@@ -126,7 +126,7 @@
           "type": "button",
           "settings": {
             "button_label": "ORDER NOW",
-            "button_link": "shopify:\/\/products\/trial-subscription"
+            "button_link": "shopify:\/\/products\/coffee-trial-subscription"
           }
         }
       },
