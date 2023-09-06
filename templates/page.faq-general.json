@@ -62,7 +62,7 @@
           "settings": {
             "heading": "When do I receive my subscription coffee?",
             "icon": "truck",
-            "row_content": "<p>Your first subscription goes out the next working day after you started your subscription. <br\/><br\/>The only exception is our Masterpiece subscription. This one we send out on the first Wednesday of each month. <br\/><br\/>All other subscription are fully flexible and you can change your desired dispatch date via your online portal. You can also pause or skip your subscription at any point. The time to reach you with your freshly roasted coffee depends on your location and the service that you have chosen. For exact durations visit <a href=\"https:\/\/thebarn.de\/policies\/shipping-policy\" target=\"_blank\">our shipping policies page<\/a>.<\/p>",
+            "row_content": "<p>Your first subscription goes out the next working day after you started your subscription. <br\/><br\/>The only exception is our Masterpiece subscription. This one we send out on the first Wednesday of each month. <br\/><br\/>All other subscription are fully flexible and you can change your desired dispatch date via your online portal. You can also pause or skip your subscription at any point. <br\/><br\/>The time to reach you with your freshly roasted coffee depends on your location and the service that you have chosen. For exact durations visit <a href=\"https:\/\/thebarn.de\/policies\/shipping-policy\" target=\"_blank\">our shipping policies page<\/a>.<\/p>",
             "page": ""
           }
         }
