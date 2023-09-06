@@ -168,6 +168,15 @@
             "row_content": "<p>As a subscriber you enjoy a 10% discount on all our coffee beans (excluding rare coffee varieties). You can easily add on beans to your next delivery, if you want to top up and make use of your next box.<\/p>",
             "page": ""
           }
+        },
+        "ad47b442-2014-4957-bf57-4a52bee84244": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does the add-on function work?",
+            "icon": "box",
+            "row_content": "<p>You can add any product from our store and included in your subscription box. <\/p><p>Go to your subscription dashboard, scroll all the way down and you will see 'You might also like' title, there you will find all the products of our store.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -179,7 +188,8 @@
         "d9edbc6d-c4f4-4980-922c-3325e7f286fd",
         "033452c6-6473-4dfd-8f29-4f0c1702b04e",
         "6a44ac18-8055-49df-9570-ada88b31af61",
-        "84e1dc44-3836-4ead-98a2-0e87bc015015"
+        "84e1dc44-3836-4ead-98a2-0e87bc015015",
+        "ad47b442-2014-4957-bf57-4a52bee84244"
       ],
       "settings": {
         "caption": "",
