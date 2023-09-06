@@ -480,7 +480,7 @@
           "settings": {
             "heading": "Is your coffee sustainable?",
             "icon": "plant",
-            "row_content": "<p>We are working closely with dedicated farmers growing some of the best coffees in the world. We pay for quality - the better the coffee, the more we pay. Oftentimes this is a multiple of Fair Trade Pricing. It's the only incentive to establish sustainability and quality. All our coffees are fresh in season and fully traceable.<\/p>",
+            "row_content": "<p>We are working closely with dedicated farmers growing some of the best coffees in the world. We pay for quality - the better the coffee, the more we pay. Oftentimes this is a multiple of Fair Trade Pricing. It is the only incentive to establish sustainability and quality. All our coffees are fresh in season and fully traceable.<\/p>",
             "page": ""
           }
         },
@@ -489,7 +489,7 @@
           "settings": {
             "heading": "Are your coffees Organic?",
             "icon": "plant",
-            "row_content": "<p>All our farm relationships are personal and we visit most of them every year. Working in a sustainable way is our priority. This includes sustainability, no negative environmental impact, preserving pristine forests and wildlife, water recycling, fair treatment of labour, ethical rules and, most of all, high cup quality. Most farms are small estates with no financial means to certify. They have one thing in common: Their land is all they have and they treat it well for future generations to come. <\/p>",
+            "row_content": "<p>All our farm relationships are personal and we visit them regularly. Working in a sustainable way is our priority. <\/p><p>This includes sustainability, no negative environmental impact, preserving pristine forests and wildlife, water recycling, fair treatment of labour, ethical rules and, most of all, high cup quality. Most farms are small estates with no financial means to certify. <\/p><p>They have one thing in common: Their land is all they have and they treat it well for future generations to come. <\/p>",
             "page": ""
           }
         },
