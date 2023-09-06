@@ -411,6 +411,7 @@
         },
         "260d6d98-b5c5-46ab-b99a-023ddeb9dcbd": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Where do I find your brew guides?",
             "icon": "question_mark",
@@ -423,7 +424,7 @@
           "settings": {
             "heading": "Do you sell pre-ground coffee?",
             "icon": "question_mark",
-            "row_content": "<p>We offer a selection of filter coffees as Drip Bag coffees, which are pre-ground and perfect for on-the-go. All you need is hot water. The rest of our coffees are available as whole beans. We recommend that you grind the beans fresh just before brewing.<\/p>",
+            "row_content": "<p>We offer a selection of coffees as Drip Bag or Instant Coffee, which are pre-ground and perfect for on-the-go. All you need is hot water! All other coffees are available as whole beans only to have the full flavour experience. We recommend that you grind the beans fresh just before brewing.<\/p>",
             "page": ""
           }
         },
