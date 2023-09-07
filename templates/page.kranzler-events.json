@@ -8,11 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "af28b162-f6d2-4c03-9f4f-f5c1c2772efb": {
-      "type": "kranzler-events",
-      "settings": {
-      }
-    },
     "3d86e1a0-3595-4549-8e10-f09e5864ad24": {
       "type": "custom-liquid",
       "disabled": true,
@@ -238,15 +233,20 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "af28b162-f6d2-4c03-9f4f-f5c1c2772efb": {
+      "type": "kranzler-events",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "af28b162-f6d2-4c03-9f4f-f5c1c2772efb",
     "3d86e1a0-3595-4549-8e10-f09e5864ad24",
     "6fb76b59-d448-47ed-9487-c4c3d52d41de",
     "7826676b-fa1e-4aa1-a959-bcba2f425686",
     "b1e05e86-3d85-4dee-a29f-1f10463ccbbe",
-    "9e02c246-a1f4-4869-a975-7763477ec6c7"
+    "9e02c246-a1f4-4869-a975-7763477ec6c7",
+    "af28b162-f6d2-4c03-9f4f-f5c1c2772efb"
   ]
 }
