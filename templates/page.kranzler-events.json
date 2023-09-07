@@ -104,7 +104,7 @@
       ],
       "settings": {
         "title": "Event Highlights",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -117,7 +117,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 16,
-        "padding_bottom": 16
+        "padding_bottom": 100
       }
     },
     "b1e05e86-3d85-4dee-a29f-1f10463ccbbe": {
