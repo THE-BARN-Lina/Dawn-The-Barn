@@ -289,6 +289,50 @@
         "padding_bottom": 100
       }
     },
+    "14ee955d-6133-406a-973a-f5876f124ab9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17989135368459__14ee955d-6133-406a-973a-f5876f124ab9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Your Event Details<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--17989135368459__14ee955d-6133-406a-973a-f5876f124ab9-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17989135368459__14ee955d-6133-406a-973a-f5876f124ab9-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17989135368459__14ee955d-6133-406a-973a-f5876f124ab9-heading-1",
+        "template--17989135368459__14ee955d-6133-406a-973a-f5876f124ab9-text-1",
+        "template--17989135368459__14ee955d-6133-406a-973a-f5876f124ab9-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "3d86e1a0-3595-4549-8e10-f09e5864ad24": {
       "type": "custom-liquid",
       "settings": {
@@ -307,6 +351,7 @@
     "9e02c246-a1f4-4869-a975-7763477ec6c7",
     "af28b162-f6d2-4c03-9f4f-f5c1c2772efb",
     "1a9a0661-6f9c-4a0c-90b0-a6c301f3025e",
+    "14ee955d-6133-406a-973a-f5876f124ab9",
     "3d86e1a0-3595-4549-8e10-f09e5864ad24"
   ]
 }
