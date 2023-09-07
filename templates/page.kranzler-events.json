@@ -238,6 +238,75 @@
       "type": "kranzler-events",
       "settings": {
       }
+    },
+    "1a9a0661-6f9c-4a0c-90b0-a6c301f3025e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto2023-09-01um17.54.10.png",
+            "title": "",
+            "text": "<p>Client Name<br\/>Company, Location<br\/><br\/>However, after the fall of the Berlin Wall in 1989, the Café Kranzler fell victim to the massive redevelopment programme which has since then been changing the face of the city.<br\/><br\/>22 Dec, 2023<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "6c5f25ae-6c10-436c-976b-3bbe981cf0de": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-1",
+        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-2",
+        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-3",
+        "6c5f25ae-6c10-436c-976b-3bbe981cf0de"
+      ],
+      "settings": {
+        "title": "Client Testimonials",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -247,6 +316,7 @@
     "7826676b-fa1e-4aa1-a959-bcba2f425686",
     "b1e05e86-3d85-4dee-a29f-1f10463ccbbe",
     "9e02c246-a1f4-4869-a975-7763477ec6c7",
-    "af28b162-f6d2-4c03-9f4f-f5c1c2772efb"
+    "af28b162-f6d2-4c03-9f4f-f5c1c2772efb",
+    "1a9a0661-6f9c-4a0c-90b0-a6c301f3025e"
   ]
 }
