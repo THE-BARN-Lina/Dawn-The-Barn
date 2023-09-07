@@ -135,6 +135,50 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "b1e05e86-3d85-4dee-a29f-1f10463ccbbe": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17989135368459__b1e05e86-3d85-4dee-a29f-1f10463ccbbe-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "ALT KRANZLER",
+            "heading_size": "h2"
+          }
+        },
+        "template--17989135368459__b1e05e86-3d85-4dee-a29f-1f10463ccbbe-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In 1825 the Austrian-born confectionist Johann Georg Kranzler (1795–1866) began business in a small pastry shop (Konditorei) on Unter den Linden No. 25, at the corner of Friedrichstraße (present-day site of The Westin Grand).Café Bauer and Café Kranzler (right) Unter den Linden, about 1900 Neues Kranzler Eck, opened in 2000Kranzler-Eck on the corner of Kurfürstendamm and Joachimsthaler Straße.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17989135368459__b1e05e86-3d85-4dee-a29f-1f10463ccbbe-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17989135368459__b1e05e86-3d85-4dee-a29f-1f10463ccbbe-heading-1",
+        "template--17989135368459__b1e05e86-3d85-4dee-a29f-1f10463ccbbe-text-1",
+        "template--17989135368459__b1e05e86-3d85-4dee-a29f-1f10463ccbbe-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Kranzler-vintage.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -142,6 +186,7 @@
     "af28b162-f6d2-4c03-9f4f-f5c1c2772efb",
     "3d86e1a0-3595-4549-8e10-f09e5864ad24",
     "6fb76b59-d448-47ed-9487-c4c3d52d41de",
-    "7826676b-fa1e-4aa1-a959-bcba2f425686"
+    "7826676b-fa1e-4aa1-a959-bcba2f425686",
+    "b1e05e86-3d85-4dee-a29f-1f10463ccbbe"
   ]
 }
