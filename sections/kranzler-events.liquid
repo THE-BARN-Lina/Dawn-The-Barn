@@ -7,12 +7,16 @@
 .kranzler_events-container_main {
   margin: 1rem;
   padding: 0;
-  width:1100px;
+  
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+  .kranzler-container-secondary{
+    width:1100px;
+    background-color:red;
+  }
 .kranzler_events-container_4 {
   background-color: var(--primary-color);
   width:333px;
@@ -159,203 +163,205 @@
 
 {% for kranzler_events in shop.metaobjects.kranzler_events.values %}
   <div class="kranzler_events-container_main">
-  <section>
-    <h1 class="kranzler_events-title">{{ kranzler_events.title_2 }}</h1>
-    <div class="kranzler_events-container_4" >
-        <div class="flip-card" id="flipCard3" onclick="flipCard('flipCard3')">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="grid-container">
-                <div class="grid-item">
-                  <!-- Icon 1 goes here -->
-                  <img
-                    src="{{ 'maxcapacity.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Up to 180 seats</h3>
+    <section class="kranzler-container-secondary">
+      <section>
+        <h1 class="kranzler_events-title">{{ kranzler_events.title_2 }}</h1>
+        <div class="kranzler_events-container_4" >
+            <div class="flip-card" id="flipCard3" onclick="flipCard('flipCard3')">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="grid-container">
+                    <div class="grid-item">
+                      <!-- Icon 1 goes here -->
+                      <img
+                        src="{{ 'maxcapacity.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>Up to 180 seats</h3>
+                    </div>
+                    <div class="grid-item">
+                      <!-- Icon 2 goes here -->
+                      <img
+                        src="{{ '360view.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>360° Panoramic</h3>
+                    </div>
+                    <div class="grid-item">
+                      <!-- Icon 3 goes here -->
+                      <img
+                        src="{{ 'internet.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>WLAN</h3>
+      
+                    </div>
+                    <div class="grid-item">
+                      <!-- Icon 4 goes here -->
+                      <img
+                        src="{{ 'southface.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50"
+                        class="icon-cards" />
+                      <h3>South-facing Terrace</h3>
+                    </div>
+                  </div>
                 </div>
-                <div class="grid-item">
-                  <!-- Icon 2 goes here -->
-                  <img
-                    src="{{ '360view.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>360° Panoramic</h3>
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 3 goes here -->
-                  <img
-                    src="{{ 'internet.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>WLAN</h3>
-  
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 4 goes here -->
-                  <img
-                    src="{{ 'southface.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50"
-                    class="icon-cards" />
-                  <h3>South-facing Terrace</h3>
+                <div class="flip-card-back">
+                  <div class="kranzler_events-catering-container">
+                    <div class="front-content">
+                      <p class="kranzler_events-description-catering">{{ kranzler_events.description_2 }}</p>
+                      <p class="kranzler_events-description-catering">{{ kranzler_events.description_2_1 }}</p>
+                      <p class="kranzler_events-description-catering">{{ kranzler_events.description_2_2 }}</p>
+                    </div>
+      
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="flip-card-back">
-              <div class="kranzler_events-catering-container">
-                <div class="front-content">
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_2 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_2_1 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_2_2 }}</p>
+        </div>
+      </section>
+      <section>
+        <h1 class="kranzler_events-title">{{ kranzler_events.title_3 }}</h1>
+        <div class="kranzler_events-container_4">
+          <div>
+            <div class="flip-card" id="flipCard2"  onclick="flipCard('flipCard2')">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="grid-container">
+                    <div class="grid-item">
+                      <!-- Icon 1 goes here -->
+                      <img
+                        src="{{ 'terrace.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>Roof Terrace</h3>
+                    </div>
+                    <div class="grid-item">
+                      <!-- Icon 2 goes here -->
+                      <img
+                        src="{{ 'discoball.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>Parties & Events</h3>
+                    </div>
+                    <div class="grid-item">
+                      <!-- Icon 3 goes here -->
+                      <img
+                        src="{{ 'bbq.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>BBQ Station</h3>
+      
+                    </div>
+                    <div class="grid-item">
+                      <!-- Icon 4 goes here -->
+                      <img
+                        src="{{ 'speaker.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>Music System</h3>
+                    </div>
+                  </div>
                 </div>
-  
+                <div class="flip-card-back">
+                  <div class="kranzler_events-catering-container">
+                    <div class="front-content">
+                      <p class="kranzler_events-description-catering">{{ kranzler_events.description_3 }}</p>
+                      <p class="kranzler_events-description-catering">{{ kranzler_events.description_3_1 }}</p>
+                      <p class="kranzler_events-description-catering">{{ kranzler_events.description_3_2 }}</p>
+                    </div>
+      
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-    </div>
-  </section>
-  <section>
-    <h1 class="kranzler_events-title">{{ kranzler_events.title_3 }}</h1>
-    <div class="kranzler_events-container_4">
-      <div>
-        <div class="flip-card" id="flipCard2"  onclick="flipCard('flipCard2')">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="grid-container">
-                <div class="grid-item">
-                  <!-- Icon 1 goes here -->
-                  <img
-                    src="{{ 'terrace.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Roof Terrace</h3>
+      </section>
+      <section>
+        <h1 class="kranzler_events-title">{{ kranzler_events.title_4 }}</h1>
+        <div class="kranzler_events-container_4">
+          <div>
+            <div class="flip-card" id="flipCard" onclick="flipCard('flipCard')">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="grid-container">
+                    <div class="grid-item">
+                      <!-- Icon 1 goes here -->
+                      <img
+                        src="{{ 'beer.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>Craft Beer</h3>
+                    </div>
+                    <div class="grid-item">
+                      <!-- Icon 2 goes here -->
+                      <img
+                        src="{{ 'cake.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>Homemade Cakes</h3>
+                    </div>
+                    <div class="grid-item">
+                      <!-- Icon 3 goes here -->
+                      <img
+                        src="{{ 'cocktail.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>Cocktails</h3>
+      
+                    </div>
+                    <div class="grid-item">
+                      <!-- Icon 4 goes here -->
+                      <img
+                        src="{{ 'wine.svg' | asset_url }}"
+                        alt="Icon 4"
+                        loading="lazy"
+                        height="50"
+                        width="50">
+                      <h3>Natural Wines</h3>
+                    </div>
+                  </div>
                 </div>
-                <div class="grid-item">
-                  <!-- Icon 2 goes here -->
-                  <img
-                    src="{{ 'discoball.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Parties & Events</h3>
+                <div class="flip-card-back">
+                  <div class="kranzler_events-catering-container">
+                    <div class="front-content">
+                      <p class="kranzler_events-description-catering">{{ kranzler_events.description_4 }}</p>
+                      <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_1 }}</p>
+                      <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_2 }}</p>
+                    </div>
+      
+                  </div>
                 </div>
-                <div class="grid-item">
-                  <!-- Icon 3 goes here -->
-                  <img
-                    src="{{ 'bbq.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>BBQ Station</h3>
-  
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 4 goes here -->
-                  <img
-                    src="{{ 'speaker.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Music System</h3>
-                </div>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <div class="kranzler_events-catering-container">
-                <div class="front-content">
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_3 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_3_1 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_3_2 }}</p>
-                </div>
-  
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <h1 class="kranzler_events-title">{{ kranzler_events.title_4 }}</h1>
-    <div class="kranzler_events-container_4">
-      <div>
-        <div class="flip-card" id="flipCard" onclick="flipCard('flipCard')">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="grid-container">
-                <div class="grid-item">
-                  <!-- Icon 1 goes here -->
-                  <img
-                    src="{{ 'beer.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Craft Beer</h3>
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 2 goes here -->
-                  <img
-                    src="{{ 'cake.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Homemade Cakes</h3>
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 3 goes here -->
-                  <img
-                    src="{{ 'cocktail.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Cocktails</h3>
-  
-                </div>
-                <div class="grid-item">
-                  <!-- Icon 4 goes here -->
-                  <img
-                    src="{{ 'wine.svg' | asset_url }}"
-                    alt="Icon 4"
-                    loading="lazy"
-                    height="50"
-                    width="50">
-                  <h3>Natural Wines</h3>
-                </div>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <div class="kranzler_events-catering-container">
-                <div class="front-content">
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_4 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_1 }}</p>
-                  <p class="kranzler_events-description-catering">{{ kranzler_events.description_4_2 }}</p>
-                </div>
-  
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
+    </section>
   </div>
 {% endfor %}
 
