@@ -208,7 +208,7 @@
       ],
       "settings": {
         "title": "The Space",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "portrait",
         "columns_desktop": 3,
@@ -221,7 +221,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 16,
-        "padding_bottom": 32
+        "padding_bottom": 100
       }
     },
     "af28b162-f6d2-4c03-9f4f-f5c1c2772efb": {
