@@ -10,22 +10,138 @@
     },
     "af28b162-f6d2-4c03-9f4f-f5c1c2772efb": {
       "type": "kranzler-events",
+      "disabled": true,
       "settings": {
       }
     },
     "3d86e1a0-3595-4549-8e10-f09e5864ad24": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"powr-form-builder\" id=\"0f345f18_1690202879\"><\/div><script src=\"https:\/\/www.powr.io\/powr.js?platform=shopify\"><\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "6fb76b59-d448-47ed-9487-c4c3d52d41de": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17989135368459__6fb76b59-d448-47ed-9487-c4c3d52d41de-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--17989135368459__6fb76b59-d448-47ed-9487-c4c3d52d41de-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17989135368459__6fb76b59-d448-47ed-9487-c4c3d52d41de-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17989135368459__6fb76b59-d448-47ed-9487-c4c3d52d41de-heading-1",
+        "template--17989135368459__6fb76b59-d448-47ed-9487-c4c3d52d41de-text-1",
+        "template--17989135368459__6fb76b59-d448-47ed-9487-c4c3d52d41de-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Kranzler.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "7826676b-fa1e-4aa1-a959-bcba2f425686": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17989135368459__7826676b-fa1e-4aa1-a959-bcba2f425686-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kranzler6_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--17989135368459__7826676b-fa1e-4aa1-a959-bcba2f425686-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kranzlerpeople_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "template--17989135368459__7826676b-fa1e-4aa1-a959-bcba2f425686-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/close-up-image-festive-table-with-different-dishes-festive-event-party-wedding-reception.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17989135368459__7826676b-fa1e-4aa1-a959-bcba2f425686-column-1",
+        "template--17989135368459__7826676b-fa1e-4aa1-a959-bcba2f425686-column-2",
+        "template--17989135368459__7826676b-fa1e-4aa1-a959-bcba2f425686-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
     }
   },
   "order": [
     "main",
     "af28b162-f6d2-4c03-9f4f-f5c1c2772efb",
-    "3d86e1a0-3595-4549-8e10-f09e5864ad24"
+    "3d86e1a0-3595-4549-8e10-f09e5864ad24",
+    "6fb76b59-d448-47ed-9487-c4c3d52d41de",
+    "7826676b-fa1e-4aa1-a959-bcba2f425686"
   ]
 }
