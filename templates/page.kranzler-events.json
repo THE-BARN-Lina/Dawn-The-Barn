@@ -253,31 +253,23 @@
             "custom_liquid": ""
           }
         },
-        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-2": {
+        "12ebb42c-03b4-4412-9ce5-be6cca8547b2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto2023-09-01um17.54.10.png",
+            "title": "",
+            "text": "<p>Client Name<br\/>Company, Location<br\/><br\/>However, after the fall of the Berlin Wall in 1989, the Café Kranzler fell victim to the massive redevelopment programme which has since then been changing the face of the city.<br\/><br\/>22 Dec, 2023<\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
           }
         },
-        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-3": {
+        "d57b0733-fac7-4111-8e5c-a4016351c26a": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
-            "custom_liquid": ""
-          }
-        },
-        "6c5f25ae-6c10-436c-976b-3bbe981cf0de": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto2023-09-01um17.54.10.png",
+            "title": "",
+            "text": "<p>Client Name<br\/>Company, Location<br\/><br\/>However, after the fall of the Berlin Wall in 1989, the Café Kranzler fell victim to the massive redevelopment programme which has since then been changing the face of the city.<br\/><br\/>22 Dec, 2023<\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
@@ -286,24 +278,23 @@
       },
       "block_order": [
         "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-1",
-        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-2",
-        "template--17989135368459__1a9a0661-6f9c-4a0c-90b0-a6c301f3025e-column-3",
-        "6c5f25ae-6c10-436c-976b-3bbe981cf0de"
+        "12ebb42c-03b4-4412-9ce5-be6cca8547b2",
+        "d57b0733-fac7-4111-8e5c-a4016351c26a"
       ],
       "settings": {
         "title": "Client Testimonials",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "circle",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "link_as_button": false,
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
