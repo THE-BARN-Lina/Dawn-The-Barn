@@ -39,6 +39,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -76,25 +77,17 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "About the Advent Calendar",
+            "heading": "XMAS IS HERE",
             "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We pair our coffees with seasonal teas from our friends at Paper & Tea, delicious chocolates from Berlin, and a few other surprises. Indulge yourself and go on a flavour journey with us.<\/p>",
-            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
+        "image-with-text-0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_5300.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -123,11 +116,57 @@
         "padding_top": 60,
         "padding_bottom": 28
       }
+    },
+    "be10cd3c-191b-4630-9624-f90d687f6226": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938054709515__be10cd3c-191b-4630-9624-f90d687f6226-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Our second ever Advent Calendar is out<br\/><\/strong>The Christmas Season is nearing and anticipation is mounting. Count down to Christmas with our Advent Calendar celebrating taste and indulgence: With our delicious Single Origin Coffees. <br\/><br\/>THE BARN Specialty Coffee Advent Calendar features 24 days of excitement. We are sending out a huge variety of our coffees, freshly roasted, to share with you a flavour journey through some of the greatest coffee regions across the globe.<br\/><br\/><strong>Includes<br\/><\/strong>24 cotton recycle cardboard tubes, filled with surprises in the classic The Barn Style!<br\/><br\/><strong>German customers <\/strong><br\/>Calendar price: 225 or 289 EUR (includes shipping)<br\/><br\/><strong>EU customers <\/strong><br\/>Price includes all taxes and import fees (ships from within the EU)<br\/>Calendar price: 235 or 299 EUR (includes shipping)<br\/><br\/><strong>All worldwide non-EU customers<\/strong><br\/>Shipping included – taxes and import fees not included<br\/>Calendar price: 235 or 299 EUR (includes shipping)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938054709515__be10cd3c-191b-4630-9624-f90d687f6226-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "fc57d7b3-3e77-4c36-911e-a5f275a639c3": {
+      "type": "rich-text",
+      "blocks": {
+        "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Featuring<\/strong><\/p><ul><li>At least 12 different The Barn coffees, including our Christmas coffee – all whole bean, all single origin, freshly roasted just before we send out your box. 50g per coffee.<\/li><li>A few special surprises<\/li><li>Packaged in cute recycled cardboard tubes, each individually numbered 1 to 24.<\/li><li>Perfect for other use after you finish your coffee i.e herbs, spices or something small :) <\/li><\/ul><p><strong>Calendars will ship in mid-November and quantities are limited.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
-    "product-recommendations"
+    "product-recommendations",
+    "be10cd3c-191b-4630-9624-f90d687f6226",
+    "fc57d7b3-3e77-4c36-911e-a5f275a639c3"
   ]
 }
