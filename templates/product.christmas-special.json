@@ -1,70 +1,38 @@
 {
   "sections": {
-    "16533374668f19867f": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
           }
         },
-        "774d434a-03b9-4a0f-865a-e14942643b32": {
+        "adbfb6c8-3680-4551-ac3f-f3925198a349": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.taste_notes.value }}",
-            "text_style": "body"
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text": "A flavour journey through the worlds most exciting coffee regions. Make this Christmas Season special with 24x cute cotton bags, filled with delicious surprises.",
             "text_style": "body"
           }
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
-          }
-        },
-        "91f9e491-1535-469c-ba91-3e4531606aed": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
           }
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
           }
         },
         "9996c297-90e6-481c-9c49-958df0b8ef3b": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "<label for=\"personalised message\" class=\"form__label\">Include a Perosnalised Christmas Card ...<\/label>\n<div class=\"field\">\n<textarea  placeholder=\"Personalised Message\" id=\"personalised message\" class=\"text-area field__input\" placeholder=\"Personalised Message\" name=\"properties[Personalised Message]\"form=\"product-form-{{section.id}}\"><\/textarea><\/div>"
           }
@@ -126,36 +94,12 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da": {
-          "type": "shopify:\/\/apps\/auction-pro\/blocks\/product-template-auction\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
-          "disabled": true,
-          "settings": {
-            "timer_bold": false,
-            "timer_font_size": 18,
-            "timer_colour": "#212b36",
-            "end_date_font_size": 16,
-            "current_bid_font_size": 18,
-            "bid_link_colour": "#136af6",
-            "current_bid_btn_colour": "#0053a0",
-            "current_bid_input_size": 15,
-            "current_bid_border_radius": 3,
-            "buy_it_now_font_size": 16,
-            "buy_it_now_btn_colour": "#0053a0",
-            "buy_it_now_size": 15,
-            "buy_it_now_border_radius": 3,
-            "automatic_bid_font_size": 16,
-            "automatic_bid_colour": "#136af6"
-          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "774d434a-03b9-4a0f-865a-e14942643b32",
-        "caption",
+        "adbfb6c8-3680-4551-ac3f-f3925198a349",
         "price",
-        "91f9e491-1535-469c-ba91-3e4531606aed",
         "variant_picker",
         "quantity_selector",
         "9996c297-90e6-481c-9c49-958df0b8ef3b",
@@ -165,8 +109,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -215,53 +158,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
-            "custom_liquid": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
-            "custom_liquid": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "link_as_button": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -281,10 +177,8 @@
     }
   },
   "order": [
-    "16533374668f19867f",
     "main",
     "image-with-text",
-    "multicolumn",
     "product-recommendations"
   ]
 }
