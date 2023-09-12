@@ -61,7 +61,6 @@
     },
     "1651573600c50faa59": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "16515736008aaacc61-0": {
           "type": "heading",
@@ -75,6 +74,7 @@
       "block_order": [
         "16515736008aaacc61-0"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "small",
@@ -100,7 +100,6 @@
     },
     "16518336251bec1554": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "165183362505911af8-1": {
           "type": "text",
@@ -112,6 +111,7 @@
       "block_order": [
         "165183362505911af8-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -173,7 +173,7 @@
         "16609096892c11eee0-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "instant-drip"
+            "collection": "instant-coffee"
           }
         },
         "16609096892c11eee0-1": {
