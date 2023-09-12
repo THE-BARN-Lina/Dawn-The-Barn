@@ -183,7 +183,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "subscription-gifts",
+        "collection": "coffee-subscription-gifts",
         "products_to_show": 6,
         "columns_desktop": 3,
         "full_width": false,
