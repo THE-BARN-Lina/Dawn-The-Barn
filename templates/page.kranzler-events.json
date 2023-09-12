@@ -27,12 +27,11 @@
         },
         "template--17989135368459__6fb76b59-d448-47ed-9487-c4c3d52d41de-buttons-1": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "BOOK NOW",
             "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
