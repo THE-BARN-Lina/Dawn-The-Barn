@@ -13,17 +13,15 @@
       "blocks": {
         "template--17989135368459__6fb76b59-d448-47ed-9487-c4c3d52d41de-heading-1": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
+            "heading": "Event Space in Ku'damm ",
             "heading_size": "h1"
           }
         },
         "template--17989135368459__6fb76b59-d448-47ed-9487-c4c3d52d41de-text-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Where Berlin's Heritage Meets Modern Elegance",
             "text_style": "body"
           }
         },
@@ -47,6 +45,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Kranzler.jpg",
+        "image_2": "shopify:\/\/shop_images\/top-view-xmas-decoration-with-mock-up_23-2148318042_1.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
@@ -159,9 +158,9 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "mobile_content_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "9e02c246-a1f4-4869-a975-7763477ec6c7": {
