@@ -133,7 +133,7 @@
         "template--17989135368459__b1e05e86-3d85-4dee-a29f-1f10463ccbbe-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Cafe Kranzler, an iconic Berlin institution, boasts a rich history dating back to 1834 when it first opened its doors. Throughout the years, it has been a haven for intellectuals, artists, and locals alike. Surviving World War II and multiple renovations, it stands as a symbol of resilience and timeless elegance. Known for its grandeur, exceptional coffee, and delectable pastries, Cafe Kranzler is not just a cafe; it's a piece of Berlin's cultural heritage that continues to enchant visitors with its history and charm. Today, it is proudly run by The Barn Coffee Roasters, adding a modern touch to its illustrious legacy.<\/p>",
+            "text": "<p>Cafe Kranzler, an iconic Berlin institution, boasts a rich history dating back to 1834 when it first opened its doors. Throughout the years, it has been a haven for intellectuals, artists, and locals alike. <\/p><p>Surviving World War II and multiple renovations, it stands as a symbol of resilience and timeless elegance. Known for its grandeur, exceptional coffee, and delectable pastries, Cafe Kranzler is not just a cafe; it's a piece of Berlin's cultural heritage that continues to enchant visitors with its history and charm. <\/p><p>Today, it is proudly run by The Barn Coffee Roasters, adding a modern touch to its illustrious legacy.<\/p>",
             "text_style": "body"
           }
         },
@@ -221,7 +221,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 16,
-        "padding_bottom": 0
+        "padding_bottom": 100
       }
     },
     "af28b162-f6d2-4c03-9f4f-f5c1c2772efb": {
