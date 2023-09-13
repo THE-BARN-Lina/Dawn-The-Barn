@@ -14,6 +14,9 @@
       "block_order": [
         "ca9c6728-4784-45d7-823c-d9bc69216831"
       ],
+      "custom_css": [
+        ".rich-text{width:100vw; padding:0; margin:0; background-color:red;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
