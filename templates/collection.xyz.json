@@ -23,7 +23,7 @@
         "show_rating": false,
         "enable_quick_add": true,
         "quick_add_button_color": "#804d15",
-        "enable_filtering": false,
+        "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "2",
