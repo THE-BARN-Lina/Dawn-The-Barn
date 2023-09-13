@@ -129,6 +129,10 @@
   <div class="scroll-container">
     <div class="filter-buttons">
       <button
+        onclick="toggleSection('all')"
+        class="filter-button active"
+        data-section="favoritos">All</button>
+      <button
         onclick="toggleSection('filter')"
         class="filter-button active"
         data-section="favoritos">Filter</button>
@@ -150,6 +154,36 @@
       <div class="sections-container">
 
         {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="all">
+          <h3 class="product-type-header"></h3>
+          <ul
+            id="product-grid"
+            data-id="{{ section.id }}"
+            class="
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    grid--{{ section.settings.columns_desktop }}-col-desktop">
+            {%- for product in collection.products -%}
+              {% if product.tags contains "beans" %}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                <li class="grid__item">
+                  {% render 'card-product'
+                   , card_product: product,
+                   media_aspect_ratio: section.settings.image_ratio,
+                   show_secondary_image: section.settings.show_secondary_image,
+                   show_vendor: section.settings.show_vendor,
+                   show_rating: section.settings.show_rating,
+                   lazy_load: lazy_load,
+                   show_quick_add: section.settings.enable_quick_add,
+                   section_id: section.id,
+                   show_tastenotes: section.settings.show_tastenotes %}
+                </li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+        </section>
         <section class="section-collection visible" id="filter">
           <h3 class="product-type-header"></h3>
           <ul
@@ -251,7 +285,7 @@
 <script>
   // This part at the beginning of the script to set the default filter
   window.addEventListener('DOMContentLoaded', (event) => {
-    toggleSection('filter'); // Set the default active filter (e.g., 'filter')
+    toggleSection('all'); // Set the default active filter (e.g., 'all')
   });
 
   function toggleSection(sectionId) {
