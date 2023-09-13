@@ -4,21 +4,43 @@
     "c29425ff-307b-463c-98c0-f54499e86a09": {
       "type": "rich-text",
       "blocks": {
-        "template--18037485830411__c29425ff-307b-463c-98c0-f54499e86a09-heading-1": {
+        "ca9c6728-4784-45d7-823c-d9bc69216831": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Coffee Beans \/ Espresso<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ca9c6728-4784-45d7-823c-d9bc69216831"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d59da28e-6816-4bfa-b92c-bc9f4733224a": {
+      "type": "rich-text",
+      "blocks": {
+        "d017524d-d0c3-447f-ad94-e9d49fbcb19b": {
           "type": "heading",
           "settings": {
             "heading": "<h1>Espresso Coffee Beans<\/h1>",
             "heading_size": "h1"
           }
         },
-        "template--18037485830411__c29425ff-307b-463c-98c0-f54499e86a09-text-1": {
+        "3e0e589b-b5c4-4d3c-a47f-e7780740904d": {
           "type": "text",
           "disabled": true,
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "template--18037485830411__c29425ff-307b-463c-98c0-f54499e86a09-button-1": {
+        "90cda5b7-6dc3-40fa-805c-ec969a54b78b": {
           "type": "button",
           "disabled": true,
           "settings": {
@@ -32,9 +54,9 @@
         }
       },
       "block_order": [
-        "template--18037485830411__c29425ff-307b-463c-98c0-f54499e86a09-heading-1",
-        "template--18037485830411__c29425ff-307b-463c-98c0-f54499e86a09-text-1",
-        "template--18037485830411__c29425ff-307b-463c-98c0-f54499e86a09-button-1"
+        "d017524d-d0c3-447f-ad94-e9d49fbcb19b",
+        "3e0e589b-b5c4-4d3c-a47f-e7780740904d",
+        "90cda5b7-6dc3-40fa-805c-ec969a54b78b"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -77,6 +99,7 @@
   },
   "order": [
     "c29425ff-307b-463c-98c0-f54499e86a09",
+    "d59da28e-6816-4bfa-b92c-bc9f4733224a",
     "banner",
     "87d06186-518c-4e83-97fb-485f171a1c60"
   ]
