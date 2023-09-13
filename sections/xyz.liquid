@@ -137,7 +137,7 @@
         class="filter-button"
         data-section="gift">Espresso</button>
       <button
-        onclick="toggleSection('decaf')"
+        onclick="toggleSection('lowcaf')"
         class="filter-button"
         data-section="specials">Decaf</button>
     </div>
@@ -211,7 +211,7 @@
           </ul>
         </section>
         {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
-        <section class="section-collection visible" id="decaf">
+        <section class="section-collection visible" id="lowcaf">
           <h3 class="product-type-header"></h3>
           <ul
             id="product-grid"
@@ -219,7 +219,7 @@
             class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   grid--{{ section.settings.columns_desktop }}-col-desktop">
             {%- for product in collection.products -%}
-              {% if product.tags contains "Decaf" %}
+              {% if product.tags contains "Low Caf" %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
