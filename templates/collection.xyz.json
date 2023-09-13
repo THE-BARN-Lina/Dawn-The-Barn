@@ -1,30 +1,6 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
-    "16618500908bb9c917": {
-      "type": "rich-text",
-      "blocks": {
-        "1661850090c55b6adb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>INSTANT & DRIP BAGS<\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "1661850090c55b6adb-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -32,16 +8,6 @@
         "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "background-2"
-      }
-    },
-    "1651574465fc19c571": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 48,
-        "padding_bottom": 48
       }
     },
     "product-grid": {
@@ -66,9 +32,7 @@
     }
   },
   "order": [
-    "16618500908bb9c917",
     "banner",
-    "1651574465fc19c571",
     "product-grid"
   ]
 }
