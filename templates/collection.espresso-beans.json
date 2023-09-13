@@ -10,39 +10,8 @@
         "color_scheme": "background-2"
       }
     },
-    "eb9df917-f372-4cc8-886a-79fe1d6cedd2": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Espresso Specialty Coffee Beans",
-        "heading_size": "h1",
-        "description_heading_2": "",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "espresso-coffee-beans",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "107cc45a-b7ab-4a9b-ae9f-5a0cc1178c1f": {
+    "87d06186-518c-4e83-97fb-485f171a1c60": {
       "type": "espresso-beans",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -61,7 +30,6 @@
   },
   "order": [
     "banner",
-    "eb9df917-f372-4cc8-886a-79fe1d6cedd2",
-    "107cc45a-b7ab-4a9b-ae9f-5a0cc1178c1f"
+    "87d06186-518c-4e83-97fb-485f171a1c60"
   ]
 }
