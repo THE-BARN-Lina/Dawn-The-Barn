@@ -122,7 +122,24 @@
 
   }
 {%- endstyle -%}
-
+<div class="scroll-wrapper english-set" style="display: none;">
+  <div class="scroll-container">
+    <div class="filter-buttons">
+      <button
+        onclick="toggleSection('favoritos')"
+        class="filter-button active"
+        data-section="favoritos">Favourites</button>
+      <button
+        onclick="toggleSection('gift')"
+        class="filter-button"
+        data-section="gift">Gift</button>
+      <button
+        onclick="toggleSection('specials')"
+        class="filter-button"
+        data-section="specials">Specials</button>
+    </div>
+  </div>
+</div>
 
 <div class="section-{{ section.id }}-padding">
   {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
