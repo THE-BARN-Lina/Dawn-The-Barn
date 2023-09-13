@@ -125,39 +125,21 @@
 
 
 
-<div class="scroll-wrapper english-set" style="display: none;">
+<div class="scroll-wrapper" style="display: none;">
   <div class="scroll-container">
     <div class="filter-buttons">
       <button
-        onclick="toggleSection('favoritos')"
+        onclick="toggleSection('filter')"
         class="filter-button active"
-        data-section="favoritos">Favourites</button>
+        data-section="favoritos">Filter</button>
       <button
-        onclick="toggleSection('gift')"
+        onclick="toggleSection('espresso')"
         class="filter-button"
-        data-section="gift">Gift</button>
+        data-section="gift">Espresso</button>
       <button
-        onclick="toggleSection('specials')"
+        onclick="toggleSection('decaf')"
         class="filter-button"
-        data-section="specials">Specials</button>
-    </div>
-  </div>
-</div>
-<div class="scroll-wrapper german-set">
-  <div class="scroll-container">
-    <div class="filter-buttons">
-      <button
-        onclick="toggleSection('favoritos')"
-        class="filter-button active"
-        data-section="favoritos">Favoriten</button>
-      <button
-        onclick="toggleSection('gift')"
-        class="filter-button"
-        data-section="gift">Geschenk</button>
-      <button
-        onclick="toggleSection('specials')"
-        class="filter-button"
-        data-section="specials">Specials</button>
+        data-section="specials">Decaf</button>
     </div>
   </div>
 </div>
@@ -168,7 +150,7 @@
       <div class="sections-container">
 
         {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
-        <section class="section-collection visible" id="favoritos">
+        <section class="section-collection visible" id="filter">
           <h3 class="product-type-header"></h3>
           <ul
             id="product-grid"
@@ -199,7 +181,7 @@
           </ul>
         </section>
         {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
-        <section class="section-collection visible" id="gift">
+        <section class="section-collection visible" id="espresso">
           <h3 class="product-type-header"></h3>
           <ul
             id="product-grid"
@@ -207,7 +189,7 @@
             class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   grid--{{ section.settings.columns_desktop }}-col-desktop">
             {%- for product in collection.products -%}
-              {% if product.tags contains "Gift" %}
+              {% if product.tags contains "Espresso" %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
@@ -229,7 +211,7 @@
           </ul>
         </section>
         {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
-        <section class="section-collection visible" id="specials">
+        <section class="section-collection visible" id="decaf">
           <h3 class="product-type-header"></h3>
           <ul
             id="product-grid"
@@ -237,7 +219,7 @@
             class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   grid--{{ section.settings.columns_desktop }}-col-desktop">
             {%- for product in collection.products -%}
-              {% if product.tags contains "Specials" %}
+              {% if product.tags contains "Decaf" %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
@@ -264,26 +246,12 @@
   </div>
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function(){
-    var lang = window.location.pathname.split('/')[1];
-    var englishSet = document.querySelector('.english-set');
-    var germanSet = document.querySelector('.german-set');
-    
-    if (lang === 'de') {
-        englishSet.style.display = 'none';
-        germanSet.style.display = '';
-    } else {
-        englishSet.style.display = '';
-        germanSet.style.display = 'none';
-    }
-});
-</script>
+
 
 <script>
   // This part at the beginning of the script to set the default filter
   window.addEventListener('DOMContentLoaded', (event) => {
-    toggleSection('favoritos'); // Set the default active filter (e.g., 'favoritos')
+    toggleSection('filter'); // Set the default active filter (e.g., 'filter')
   });
 
   function toggleSection(sectionId) {
