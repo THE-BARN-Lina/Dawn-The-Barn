@@ -398,7 +398,7 @@
       ],
       "settings": {
         "title": "DISCOVER MORE",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "background-1",
