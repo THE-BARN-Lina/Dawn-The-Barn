@@ -22,12 +22,15 @@
       "block_order": [
         "template--16149468774667__636edd10-9556-4424-add9-ef1faa9ebb3f-1668503808fe4ddc54-0"
       ],
+      "custom_css": [
+        ".rich-text{margin-top:1rem;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 48,
+        "full_width": false,
+        "padding_top": 0,
         "padding_bottom": 16
       }
     },
