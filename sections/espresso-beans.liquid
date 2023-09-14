@@ -41,55 +41,44 @@
 
   .scroll-wrapper {
     overflow: hidden; /* Hide any horizontal overflow */
-    height: 100px;
-    margin-bottom: -15px;
   }
 
   .scroll-container {
     display: flex;
     flex-direction:column;
-    align-items: flex-start;
+    align-items:center;
+    justify-content:center;
     width: 100%;
-    height: 100px;
-    margin-bottom: -16px;
-    padding-left:3.8rem;
     overflow-x: auto; /* Enable horizontal scrolling */
   }
 
   .filter-buttons {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 100%;
-    min-height: 100px;
+    padding: 5px;
     overflow-x: auto; /* Enable horizontal scrolling */
-    /* background-color: yellow; */
   }
 
-
   .filter-button {
-    min-width: 180px;
-    max-width: 180px;
-    font-size: 16px;
-    padding: 1rem;
+    /* Common button styles */
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+    font-size:16px;
+    min-width: 100px;
+    max-width: 100px;
+
     background-color: var(--black);
     border-radius: 2px;
     color: var(--white);
     cursor: pointer;
-    margin: 1.6rem;
     border: 1px solid var(--white);
   }
-
-  .filter-button:hover {
-    background-color: var(--white);
-    color: var(--black);
-  }
+  
   .filter-button.active {
-    border: none;
-    background-color: var(--white);
-    color: var(--black);
-
-
+    background-color: var(--white); 
+    color: var(--black);  
 
     outline: 0.5px solid var(--white);
     outline-offset: 4px;
@@ -103,44 +92,37 @@
   .section-collection.visible {
     display: block;
   }
+  .grid__item[style*="display: none"] {
+    display: none !important;
+}
 
   /* Additional styles for smaller screens */
   @media screen and (max-width: 768px) {
-    .scroll-container {
-      flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
-    }
-    .filter-buttons {
-      justify-content: flex-start; /* Align items to the start (left) */
-    }
-    .section-category-container {
-      height: 50px;
-      margin-top: 2.5rem;
-    }
-    .filter-button {
-      margin-left: 3rem;
-      margin-right: 1.5rem;
-    }
+
 
 
   }
 {%- endstyle -%}
 
 
-<div class="scroll-wrapper english-set" style="">
+<div class="scroll-wrapper" style="">
   <div class="scroll-container">
     <div class="filter-buttons">
       <button
-        onclick="toggleSection('favoritos')"
-        class="filter-button active"
-        data-section="favoritos">Balance</button>
-      <button
-        onclick="toggleSection('gift')"
-        class="filter-button"
-        data-section="gift">Terroir</button>
-      <button
-        onclick="toggleSection('specials')"
-        class="filter-button"
-        data-section="specials">Exotic</button>
+      onclick="filterByTag('All')"
+      class="filter-button active"
+      data-tag="All">All</button>
+    
+    <button
+      onclick="filterByTag('Balanced')"
+      class="filter-button"
+      data-tag="Balanced">Balanced</button>
+    
+    <button
+      onclick="filterByTag('Terroir')"
+      class="filter-button"
+      data-tag="Terroir">Terroir</button>
+    
     </div>
   </div>
 </div>
@@ -148,7 +130,7 @@
 <div class="section-{{ section.id }}-padding main-container-espresso">
   {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
   {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
-    <facet-filters-form class="facets facets-vertical-sort page-width small-hide no-js-hidden">
+    <facet-filters-form class="facets facets-vertical-sort  small-hide no-js-hidden">
       <form class="facets-vertical-form" id="FacetSortForm">
         <div class="facet-filters sorting caption">
           <div class="facet-filters__field">
@@ -192,11 +174,11 @@
     </facet-filters-form>
   {%- endif -%}
 
-  <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
+  <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical{% endif %}">
     {{ 'component-facets.css' | asset_url | stylesheet_tag }}
     <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
     {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
-      <aside aria-labelledby="verticalTitle" class="facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}" id="main-collection-filters" data-id="{{ section.id }}">
+      <aside aria-labelledby="verticalTitle" class="facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}{% if section.settings.filter_type != 'vertical' %} {% endif %}" id="main-collection-filters" data-id="{{ section.id }}">
         {% render 'facets', results: collection, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, filter_type: section.settings.filter_type %}
       </aside>
     {%- endif -%}
@@ -204,7 +186,7 @@
     <div class="product-grid-container" id="ProductGridContainer">
       {%- paginate collection.products by section.settings.products_per_page -%}
         {%- if collection.products.size == 0 -%}
-          <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
+          <div class="collection collection--empty " id="product-grid" data-id="{{ section.id }}">
             <div class="loading-overlay gradient"></div>
             <div class="title-wrapper center">
               <h2 class="title title--primary">
@@ -214,11 +196,10 @@
             </div>
           </div>
         {%- else -%}
-          <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
+          <div class="collection{% if section.settings.filter_type != 'vertical' %} {% endif %}">
             <div class="loading-overlay gradient"></div>
           
-          
-
+      
           
             <ul id="product-grid" data-id="{{ section.id }}" class="
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
@@ -229,7 +210,7 @@
                     {%- if forloop.index > 2 -%}
                       {%- assign lazy_load = true -%}
                     {%- endif -%}
-                    <li class="grid__item">
+                    <li class="grid__item" data-tags="{{ product.tags | join: ',' }}">
                       {% render 'card-product',
                         card_product: product,
                         media_aspect_ratio: section.settings.image_ratio,
@@ -250,17 +231,7 @@
 
               
               {%- endfor -%}
-            </ul>            
-
-    
-           
-
-
-              
-           
-        
-
-
+            </ul>          
             
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
@@ -271,6 +242,41 @@
     </div>
   </div>
 </div>
+
+
+<script>
+  function filterByTag(tag) {
+    // Deactivate currently active button
+    var activeButtons = document.querySelectorAll('.filter-button.active');
+    for(var i = 0; i < activeButtons.length; i++) {
+        activeButtons[i].classList.remove('active');
+    }
+
+    // Activate clicked button
+    var buttons = document.querySelectorAll('.filter-button[data-tag="'+tag+'"]');
+    for(var i = 0; i < buttons.length; i++) {
+        buttons[i].classList.add('active');
+    }
+
+    // Filter products based on tags
+    var products = document.querySelectorAll('.grid__item');
+    for(var i = 0; i < products.length; i++) {
+        if(tag == 'All') {
+            products[i].style.display = '';  // Show all products
+        } else {
+            var productTags = products[i].getAttribute('data-tags').split(',');
+            if(productTags.includes(tag)) {
+                products[i].style.display = '';  // Show product with matching tag
+            } else {
+                products[i].style.display = 'none';  // Hide non-matching products
+            }
+        }
+    }
+}
+
+  
+      </script>
+
 
 
 {% schema %}
