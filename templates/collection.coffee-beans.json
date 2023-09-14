@@ -16,14 +16,14 @@
         "template--18037881176331__d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f-heading-1"
       ],
       "custom_css": [
-        ".rich-text {padding: 0; margin: 0;}"
+
       ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 52,
         "padding_bottom": 52
       }
     },
