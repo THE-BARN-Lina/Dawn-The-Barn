@@ -15,6 +15,7 @@
       "block_order": [
         "1661850090c55b6adb-0"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -68,7 +69,6 @@
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
-        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",

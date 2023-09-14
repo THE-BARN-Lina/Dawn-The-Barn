@@ -43,7 +43,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
-        "full_width": false,
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -212,7 +212,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
-        "full_width": false,
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }

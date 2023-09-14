@@ -19,7 +19,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
-        "full_width": false,
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -58,7 +58,6 @@
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
-        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
