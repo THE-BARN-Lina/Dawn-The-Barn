@@ -126,7 +126,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "coffeebeans",
+        "collection": "coffee-beans",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
