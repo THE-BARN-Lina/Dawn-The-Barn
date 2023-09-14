@@ -1,6 +1,32 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
+    "d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18037881176331__d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>Espresso Coffee Beans | THE BARN Coffee Roasters<\/h1>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18037881176331__d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f-heading-1"
+      ],
+      "custom_css": [
+        ".rich-text {padding: 0; margin: 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -32,6 +58,7 @@
     }
   },
   "order": [
+    "d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f",
     "banner",
     "071c6b05-9cef-41e1-87ad-55410acad2ce"
   ]
