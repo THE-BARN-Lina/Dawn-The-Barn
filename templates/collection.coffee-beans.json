@@ -1,36 +1,12 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
-    "16618500908bb9c917": {
-      "type": "rich-text",
-      "blocks": {
-        "1661850090c55b6adb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Espresso Coffee Beans<\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "1661850090c55b6adb-0"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 16,
-        "padding_bottom": 0
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": false,
-        "show_collection_image": false,
-        "color_scheme": "background-2"
+        "show_collection_image": true,
+        "color_scheme": "background-1"
       }
     },
     "071c6b05-9cef-41e1-87ad-55410acad2ce": {
@@ -55,7 +31,6 @@
     }
   },
   "order": [
-    "16618500908bb9c917",
     "banner",
     "071c6b05-9cef-41e1-87ad-55410acad2ce"
   ]
