@@ -80,8 +80,8 @@
     background-color: var(--white); 
     color: var(--black);  
 
-    outline: 0.5px solid var(--white);
-    outline-offset: 4px;
+    outline: 0.2px solid var(--white);
+    outline-offset: 3px;
   }
 
 
@@ -97,9 +97,17 @@
 }
 
   /* Additional styles for smaller screens */
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 391px) {
 
 
+  .filter-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .filter-button{
+    margin-right:2rem;
+  }
 
   }
 {%- endstyle -%}
