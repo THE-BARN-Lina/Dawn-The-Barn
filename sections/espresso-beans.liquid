@@ -19,6 +19,8 @@
     --brown: #804d15;
     --white: #ffffff;
     --black: #000000;
+    --green: #15aa27;
+    --orange:#b26119;
   }
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
@@ -73,16 +75,46 @@
     border-radius: 2px;
     color: var(--white);
     cursor: pointer;
-    border: 1px solid var(--white);
+    border: 1px solid;
   }
-  
-  .filter-button.active {
-    background-color: var(--white); 
-    color: var(--black);  
+.filter-button[data-tag="All"] {
+    border-color: white;
+}
 
-    outline: 0.2px solid var(--white);
+.filter-button[data-tag="Balanced"] {
+    border-color: var(--brown); 
+}
+
+.filter-button[data-tag="Terroir"] {
+    border-color: var(--green);
+}
+  
+.filter-button.active {
     outline-offset: 3px;
-  }
+}
+.filter-button[data-tag="All"].active {
+  outline: 0.2px solid var(--white);
+  background-color: var(--white);
+  color: var(--black);  
+
+
+}
+
+.filter-button[data-tag="Balanced"].active {
+  outline: 0.2px solid var(--brown);
+  background-color: var(--brown); 
+  color: var(--white);  
+
+
+}
+
+.filter-button[data-tag="Terroir"].active {
+  outline: 0.2px solid var(--green);
+  background-color: var(--green); 
+  color: var(--white);  
+
+
+}
 
 
   /* Styles for sections */

@@ -16,7 +16,7 @@
         "template--18037881176331__d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f-heading-1"
       ],
       "custom_css": [
-        ".rich-text {padding-left: 0; padding-right:0;}"
+        ".rich-text {padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
