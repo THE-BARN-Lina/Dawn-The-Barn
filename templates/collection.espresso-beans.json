@@ -79,8 +79,8 @@
         "color_scheme": "background-2"
       }
     },
-    "a28a4527-81d0-42da-81a3-43de53ea599a": {
-      "type": "filter-beans",
+    "5859d37d-0455-45bc-89e6-7cd811d3d974": {
+      "type": "espresso-beans",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -92,7 +92,7 @@
         "enable_quick_add": false,
         "quick_add_button_color": "",
         "enable_filtering": true,
-        "filter_type": "drawer",
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 36,
@@ -104,6 +104,6 @@
     "c29425ff-307b-463c-98c0-f54499e86a09",
     "d59da28e-6816-4bfa-b92c-bc9f4733224a",
     "banner",
-    "a28a4527-81d0-42da-81a3-43de53ea599a"
+    "5859d37d-0455-45bc-89e6-7cd811d3d974"
   ]
 }
