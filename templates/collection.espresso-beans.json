@@ -37,7 +37,7 @@
       }
     },
     "6b38ea4e-54dd-48a2-a31b-fb818564a3ec": {
-      "type": "filter-beans",
+      "type": "espresso-beans",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
