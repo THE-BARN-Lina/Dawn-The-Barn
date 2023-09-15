@@ -149,6 +149,9 @@
     },
     "a4d4c11f-2a86-4135-876e-aa8fb15831b4": {
       "type": "image-with-text",
+      "custom_css": [
+        ".image-with-text {padding: 0; padding-top:2rem;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Filter_coffee_made_from_origami_dripper.png",
         "height": "adapt",
