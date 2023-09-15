@@ -85,15 +85,20 @@
     "d3704916-c81c-46f5-af19-297edba180cf": {
       "type": "rich-text",
       "blocks": {
-        "template--18037881176331__d3704916-c81c-46f5-af19-297edba180cf-text-1": {
-          "type": "text",
+        "22dc96ee-1ecb-4904-9147-d2dba4e44412": {
+          "type": "caption",
           "settings": {
-            "text": "<p><strong>Why Is Our Filter Coffee So Special?<\/strong><\/p><p>With our seasonal portfolio of Filter Coffee, you can discover a world of Single Origin Flavour. With beans sourced from around the world and freshly roasted in Berlin, our filter coffee will take you on a journey through the possibilities of coffee. Differences in origin, process, and varietal create unique characteristics - the clean flavour of our filter coffee is a perfect way to explore them.<\/p><p>Our filter coffee follows our vision of Nordic style roasting: a delicate roast ensures that the unique qualities of different coffees is allowed to shine. With our three signature flavour categories - <strong>Balanced<\/strong>, <strong>Terroir<\/strong>, <strong>Exotic<\/strong> - there will always be a filter coffee profile that suits your taste, roasted with respect for the amazing green coffee we source from our partner farms.<\/p><p>Explore our portfolio to discover filter coffee from across the world. Since the beginning, we have prioritised long term relationships with farmers who care about quality and sustainability. We have visited many of our partner farms and seen their expertise and passion up close. By working directly with farms, we can enjoy the distinct characteristics found in coffee while offering a relationship that is financially sustainable. Simply, our goal is to display their amazing work in every bag of filter coffee we roast. <\/p><p><strong>Brew. Sip. Remember.<\/strong><\/p><p>Filter coffee embodies a distinct ritualistic quality. Inspired by our founders’ experience of the traditional tea ceremony in Japan, the unhurried process allows for a moment of tranquillity - a meditative experience often lost in the hustle of modern life. Single Origin Coffee is an experience worth savouring - it is why you will always find a brew bar dedicated to filter coffee in all our cafés - and we would always recommend taking the time to brew, sip, and remember.<\/p>"
+            "caption": "",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         }
       },
       "block_order": [
-        "template--18037881176331__d3704916-c81c-46f5-af19-297edba180cf-text-1"
+        "22dc96ee-1ecb-4904-9147-d2dba4e44412"
+      ],
+      "custom_css": [
+        ".rich-text {border-bottom: 2px solid grey;"
       ],
       "settings": {
         "desktop_content_position": "left",
