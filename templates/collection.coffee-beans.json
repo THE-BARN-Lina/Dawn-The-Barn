@@ -109,6 +109,22 @@
         "padding_bottom": 52
       }
     },
+    "3beb4fea-fb38-44f0-a561-b0f002539913": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/filter-nassen.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "d3704916-c81c-46f5-af19-297edba180cf": {
       "type": "rich-text",
       "blocks": {
@@ -130,6 +146,22 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "a4d4c11f-2a86-4135-876e-aa8fb15831b4": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Filter_coffee_made_from_origami_dripper.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -138,6 +170,8 @@
     "banner",
     "6b38ea4e-54dd-48a2-a31b-fb818564a3ec",
     "d26aee0c-3b35-422d-851d-5b0a35ecf786",
-    "d3704916-c81c-46f5-af19-297edba180cf"
+    "3beb4fea-fb38-44f0-a561-b0f002539913",
+    "d3704916-c81c-46f5-af19-297edba180cf",
+    "a4d4c11f-2a86-4135-876e-aa8fb15831b4"
   ]
 }
