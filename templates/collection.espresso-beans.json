@@ -7,8 +7,8 @@
         "template--18037881176331__d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Filter Coffee Beans <\/h1>",
-            "heading_size": "h1"
+            "heading": "<h1>Espresso Coffee Beans <\/h1>",
+            "heading_size": "h2"
           }
         }
       },
@@ -36,7 +36,7 @@
         "color_scheme": "background-1"
       }
     },
-    "6b38ea4e-54dd-48a2-a31b-fb818564a3ec": {
+    "5731a919-08f8-4b8d-929f-03d3ea8e2d5b": {
       "type": "espresso-beans",
       "settings": {
         "products_per_page": 16,
@@ -60,6 +60,6 @@
   "order": [
     "d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f",
     "banner",
-    "6b38ea4e-54dd-48a2-a31b-fb818564a3ec"
+    "5731a919-08f8-4b8d-929f-03d3ea8e2d5b"
   ]
 }
