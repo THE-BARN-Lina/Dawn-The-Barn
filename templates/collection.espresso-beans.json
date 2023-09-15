@@ -112,7 +112,7 @@
     "da0df11a-d032-4ad8-8096-2981f8e1d8ad": {
       "type": "image-with-text",
       "custom_css": [
-        ".image-with-text {padding: 0; padding-top:2rem;}"
+        ".image-with-text {padding: 0; padding-top: 2rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/THE_BARN_Espresso_Roiboos_Shot2_large_large_e5fd9c38-e5b6-4efd-b460-7b2639cdc535.webp",
@@ -140,6 +140,9 @@
       },
       "block_order": [
         "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-text-1"
+      ],
+      "custom_css": [
+        ".rich-text{padding-left:0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
