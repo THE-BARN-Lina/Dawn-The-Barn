@@ -51,7 +51,7 @@
     align-items:center;
     justify-content:center;
     width: 100%;
-    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-x: hidden; /* Enable horizontal scrolling */
   }
 
   .filter-buttons {
@@ -62,6 +62,15 @@
     padding:4px;
     overflow-x: auto; /* Enable horizontal scrolling */
   }
+  /* For Chrome and Safari */
+.filter-buttons::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Firefox */
+.filter-buttons {
+    scrollbar-width: none;
+}
 
   .filter-button {
     /* Common button styles */
@@ -159,7 +168,7 @@
 
 <div class="scroll-wrapper" style="">
   <div class="scroll-container" >
-    <div class="filter-buttons" style="overflow: hidden;">
+    <div class="filter-buttons">
       <button
       onclick="filterByTag('All')"
       class="filter-button active"
