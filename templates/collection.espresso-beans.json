@@ -109,6 +109,22 @@
         "padding_bottom": 52
       }
     },
+    "da0df11a-d032-4ad8-8096-2981f8e1d8ad": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/THE_BARN_Espresso_Roiboos_Shot2_large_large_e5fd9c38-e5b6-4efd-b460-7b2639cdc535.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "acabed1d-8725-4fc6-9b1e-c18b425c538d": {
       "type": "rich-text",
       "blocks": {
@@ -131,21 +147,47 @@
         "padding_bottom": 52
       }
     },
-    "bfb55bb4-6959-4d28-9070-e3e6b2dcf2df": {
-      "type": "featured-blog",
+    "fe93d2c1-9be7-49db-be69-699604842b73": {
+      "type": "image-with-text",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "blog": "the-barn-blog",
-        "post_limit": 3,
-        "columns_desktop": 3,
+        "image": "shopify:\/\/shop_images\/espresso_0b394501-5a93-42b3-a622-17bff4ff6a39.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": false,
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "9bf647ac-c649-416b-82ee-fa029180a84f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18037485830411__9bf647ac-c649-416b-82ee-fa029180a84f-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "TOP ↑",
+            "button_link": "shopify:\/\/collections\/espresso-coffee-beans",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18037485830411__9bf647ac-c649-416b-82ee-fa029180a84f-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     }
   },
@@ -155,7 +197,9 @@
     "banner",
     "5731a919-08f8-4b8d-929f-03d3ea8e2d5b",
     "e5eb0910-7a4b-48cf-9bc3-124fc45d6925",
+    "da0df11a-d032-4ad8-8096-2981f8e1d8ad",
     "acabed1d-8725-4fc6-9b1e-c18b425c538d",
-    "bfb55bb4-6959-4d28-9070-e3e6b2dcf2df"
+    "fe93d2c1-9be7-49db-be69-699604842b73",
+    "9bf647ac-c649-416b-82ee-fa029180a84f"
   ]
 }
