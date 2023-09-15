@@ -16,7 +16,7 @@
         "template--18037485830411__a8f8b864-853b-48a1-b34f-119d8867fbbb-heading-1"
       ],
       "custom_css": [
-        ".rich-text{padding:0;}"
+        ".rich-text {padding: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -81,12 +81,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "acabed1d-8725-4fc6-9b1e-c18b425c538d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Why Is Our Espresso Coffee So Special?<\/strong><\/p><p>With our seasonal portfolio of Espresso Coffee beans, you can discover a world of Single Origin Flavour. With beans sourced from around the world and freshly roasted in Berlin, our espresso coffee will take you on a journey through the possibilities of coffee. Differences in origin, process, and varietal create unique characteristics - the clean, rich flavours of our espresso beans offer the perfect way to explore them.<\/p><p>With our three signature flavour categories - <strong>Balanced<\/strong>, <strong>Terroir<\/strong>, <strong>Exotic<\/strong> - there will always be an espresso coffee profile that suits your taste, roasted with respect for the amazing green coffee we source from our partner farms.<\/p><p><strong>Sweetness And Clarity<\/strong><\/p><p>Our espresso coffee follows our vision of Nordic style roasting, just like our filter coffee: a delicate and balanced roast ensures that the unique qualities of different coffees are allowed to shine. We roast our espresso coffee with a little more development to ensure the perfect body when brewed as an espresso. If you love brewing filter coffee with lots of sweetness and depth, they can also be a great option.<\/p><p>Explore our portfolio to discover espresso coffee from across the world. Since the beginning, we have prioritised long term relationships with farmers who care about quality and sustainability. We have visited many of our partner farms and seen their expertise and passion up close. By working directly with farms, we can enjoy the distinct characteristics found in coffee while offering a relationship that is financially sustainable. Simply, our goal is to display their amazing work in every bag of filter coffee we roast.<\/p><p><strong>Exploring Espresso<\/strong><\/p><p>The flavour and texture of espresso coffee is forthright and distinct. To achieve that beautifully rich and velvety taste, water is pushed through finely ground coffee beans at a high pressure. A perfect espresso should offer body, clarity, and complexity that sustains the magic of the very first sip.<\/p><p>The unique qualities of espresso coffee can be savoured on their own, or they can serve as a perfect base for other popular drinks - such as a cappuccino, flat white, or latte. The versatility of espresso coffee is a testament to rich flavours that appeal to a wide range of tastes and preferences. <\/p><p><strong>Brew. Sip. Remember.<\/strong><\/p><p>The incredible taste and unique experience of an espresso is something that has a place in the mind of every coffee lover. Exploring the possibilities of espresso is a rewarding and flavourful journey. The balanced intensity of an espresso shot or the comforting sweetness of a flat white can be one of the highlights of your day. Every coffee we serve is unique: while an espresso can be small, our espresso beans offer big flavours that are truly memorable.<\/p>"
+          }
+        },
+        "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Check Our Filter Coffee Beans",
+            "button_link": "shopify:\/\/collections\/filter-coffee-beans",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-heading-1",
+        "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-text-1",
+        "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "a8f8b864-853b-48a1-b34f-119d8867fbbb",
     "d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f",
     "banner",
-    "5731a919-08f8-4b8d-929f-03d3ea8e2d5b"
+    "5731a919-08f8-4b8d-929f-03d3ea8e2d5b",
+    "acabed1d-8725-4fc6-9b1e-c18b425c538d"
   ]
 }
