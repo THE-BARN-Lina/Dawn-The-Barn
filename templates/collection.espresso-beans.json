@@ -153,7 +153,7 @@
     "fe93d2c1-9be7-49db-be69-699604842b73": {
       "type": "image-with-text",
       "custom_css": [
-        ".image-with-text{background-color:orange; padding:0;}"
+        ".image-with-text {padding: 0;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/espresso_0b394501-5a93-42b3-a622-17bff4ff6a39.jpg",
