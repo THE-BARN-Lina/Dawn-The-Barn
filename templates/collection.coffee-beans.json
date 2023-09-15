@@ -112,7 +112,7 @@
     "3beb4fea-fb38-44f0-a561-b0f002539913": {
       "type": "image-with-text",
       "custom_css": [
-        ".image-with-text {padding: 0; padding-top:2rem; padding-bottom:2rem;}"
+        ".image-with-text {padding: 0; padding-top: 2rem; padding-bottom: 2rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/filter-nassen.jpg",
@@ -168,6 +168,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "dc8c7848-bc8e-4b74-b183-6b57d9976205": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18037881176331__dc8c7848-bc8e-4b74-b183-6b57d9976205-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "TOP ↑",
+            "button_link": "shopify:\/\/collections\/filter-coffee-beans",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18037881176331__dc8c7848-bc8e-4b74-b183-6b57d9976205-button-1"
+      ],
+      "custom_css": [
+        ".rich-text {margin-top: 4rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -178,6 +208,7 @@
     "d26aee0c-3b35-422d-851d-5b0a35ecf786",
     "3beb4fea-fb38-44f0-a561-b0f002539913",
     "d3704916-c81c-46f5-af19-297edba180cf",
-    "a4d4c11f-2a86-4135-876e-aa8fb15831b4"
+    "a4d4c11f-2a86-4135-876e-aa8fb15831b4",
+    "dc8c7848-bc8e-4b74-b183-6b57d9976205"
   ]
 }
