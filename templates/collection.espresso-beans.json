@@ -1,73 +1,30 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
-    "c29425ff-307b-463c-98c0-f54499e86a09": {
+    "d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f": {
       "type": "rich-text",
       "blocks": {
-        "ca9c6728-4784-45d7-823c-d9bc69216831": {
-          "type": "text",
-          "settings": {
-            "text": "<h6>Coffee Beans \/ Filter<\/h6>"
-          }
-        }
-      },
-      "block_order": [
-        "ca9c6728-4784-45d7-823c-d9bc69216831"
-      ],
-      "custom_css": [
-        ".rich-text {max-height: 2.5rem; display: flex; flex-direction: column; justify-content: center; align-content: center; min-width: 100vw;}"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 12,
-        "padding_bottom": 0
-      }
-    },
-    "d59da28e-6816-4bfa-b92c-bc9f4733224a": {
-      "type": "rich-text",
-      "blocks": {
-        "d017524d-d0c3-447f-ad94-e9d49fbcb19b": {
+        "template--18037881176331__d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>Espresso Coffee Beans<\/h2>",
-            "heading_size": "h2"
-          }
-        },
-        "3e0e589b-b5c4-4d3c-a47f-e7780740904d": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "90cda5b7-6dc3-40fa-805c-ec969a54b78b": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "<h1>Filter Coffee Beans <\/h1>",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "d017524d-d0c3-447f-ad94-e9d49fbcb19b",
-        "3e0e589b-b5c4-4d3c-a47f-e7780740904d",
-        "90cda5b7-6dc3-40fa-805c-ec969a54b78b"
+        "template--18037881176331__d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f-heading-1"
+      ],
+      "custom_css": [
+        ".rich-text {padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "banner": {
@@ -76,11 +33,11 @@
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
-        "color_scheme": "background-2"
+        "color_scheme": "background-1"
       }
     },
-    "5859d37d-0455-45bc-89e6-7cd811d3d974": {
-      "type": "espresso-beans",
+    "6b38ea4e-54dd-48a2-a31b-fb818564a3ec": {
+      "type": "filter-beans",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -101,9 +58,8 @@
     }
   },
   "order": [
-    "c29425ff-307b-463c-98c0-f54499e86a09",
-    "d59da28e-6816-4bfa-b92c-bc9f4733224a",
+    "d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f",
     "banner",
-    "5859d37d-0455-45bc-89e6-7cd811d3d974"
+    "6b38ea4e-54dd-48a2-a31b-fb818564a3ec"
   ]
 }
