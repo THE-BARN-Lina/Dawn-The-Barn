@@ -78,32 +78,11 @@
         "show_collection_image": false,
         "color_scheme": "background-2"
       }
-    },
-    "cdaf863e-764a-4f7e-bf13-4f919aa66f06": {
-      "type": "espresso-beans",
-      "settings": {
-        "products_per_page": 16,
-        "columns_desktop": 4,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "quick_add_button_color": "",
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "c29425ff-307b-463c-98c0-f54499e86a09",
     "d59da28e-6816-4bfa-b92c-bc9f4733224a",
-    "banner",
-    "cdaf863e-764a-4f7e-bf13-4f919aa66f06"
+    "banner"
   ]
 }
