@@ -15,6 +15,9 @@
       "block_order": [
         "cc69c3a9-c249-4934-b875-b4750d7d81f5"
       ],
+      "custom_css": [
+        ".rich-text {padding: 0;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
