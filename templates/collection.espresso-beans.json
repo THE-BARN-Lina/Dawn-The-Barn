@@ -85,13 +85,6 @@
     "acabed1d-8725-4fc6-9b1e-c18b425c538d": {
       "type": "rich-text",
       "blocks": {
-        "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
         "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-text-1": {
           "type": "text",
           "settings": {
@@ -100,12 +93,11 @@
         }
       },
       "block_order": [
-        "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-heading-1",
         "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-text-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
