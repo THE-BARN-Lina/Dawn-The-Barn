@@ -10,6 +10,29 @@
         "color_scheme": "background-2"
       }
     },
+    "8beb5d87-50a8-4b20-b1c2-5b7a98c52161": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938059460875__8beb5d87-50a8-4b20-b1c2-5b7a98c52161-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h6><a href=\"\/\" title=\"\/\">Home<\/a> \/ <a href=\"\/collections\/espresso-coffee-beans\" title=\"Espresso Coffee Beans | THE BARN Coffee Roasters\">Espresso <\/a>\/ <a href=\"\/collections\/filter-coffee-beans\" title=\"Filter Coffee Beans | THE BARN Coffee Roasters\">Filter<\/a><\/h6>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938059460875__8beb5d87-50a8-4b20-b1c2-5b7a98c52161-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1a713986-dc37-4b66-b5cf-0705458ba228": {
       "type": "rich-text",
       "blocks": {
@@ -182,6 +205,7 @@
   },
   "order": [
     "banner",
+    "8beb5d87-50a8-4b20-b1c2-5b7a98c52161",
     "1a713986-dc37-4b66-b5cf-0705458ba228",
     "16609093955d46716e",
     "9aed932f-1130-4b01-8d78-81c28dfcac7f",
