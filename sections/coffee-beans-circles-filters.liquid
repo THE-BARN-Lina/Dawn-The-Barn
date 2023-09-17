@@ -1,12 +1,242 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<!-- Styles -->
+<style>
+  /* Padding for the section */
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
   }
+
+  /* Container for custom columns */
+  .custom-columns-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 15px 17px 15px 0px;
+  }
+
+  /* Individual column link */
+  .custom-column-link {
+    display: inline-flex;
+    flex-shrink: 0;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px 8px;
+    margin-right: 0px; /* Spacing between columns */
+  }
+
+  .custom-column-link:not(:last-child) {
+    margin-right: 0px;
+  }
+
+  .custom-column-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Card image within the column link */
+  .multicolumn-card__image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 14px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 50%; /* Make it a circle */
+    transition: border 0.2s ease-in-out, transform 0.2s ease-in;
+  }
+
+  /* Hover effect for column link */
+  .custom-column-link:hover .multicolumn-card__image {
+    border: 1.5px solid #ffffff; /* Make the border slightly thicker */
+  }
+
+  .custom-column-link:hover {
+    background-color: #1c1d1c;
+    transform: scale(1.05); /* Slightly enlarge the entire link */
+    border-radius: 10px;
+  }
+
+  /* Title within the column link */
+  .sub-collections__item-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    min-width: 116px;
+    max-width: 116px;
+    text-align: center;
+    margin-top: -4px;
+    margin-bottom: 0px;
+  }
+
+  /* Remove underline on hover for all links */
+  a:hover {
+    text-decoration: none !important;
+  }
+
+  /* Media query for larger screens */
+  @media (min-width: 769px) {
+    .custom-columns-container {
+      flex-flow: row wrap;
+      justify-content: center;
+      padding: 0 30px 0 30px;
+      /*margin-top: 40px;*/
+      overflow-x: visible;
+    }
+
+    .custom-column-link:not(:last-child) {
+      margin-right: 8px;
+    }
+
+    .custom-column-link {
+      margin-right: 27px; /* Adjust spacing for larger screens */
+      text-align: center;
+    }
+
+    .multicolumn-card__image {
+      width: 111px;
+      height: 111px;
+      margin-bottom: 14px;
+    }
+
+    .sub-collections__item-title {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      min-width: 116px;
+      max-width: 116px;
+      margin-bottom: 0px;
+    }
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var customColumns = document.querySelectorAll(".custom-column-link");
+    var activeColumnIndex = localStorage.getItem("activeColumnIndex");
+
+    customColumns.forEach(function (column, index) {
+      column.addEventListener("mouseenter", function () {
+        // Add the "hover" class on hover
+        column.classList.add("hover");
+      });
+
+      column.addEventListener("mouseleave", function () {
+        // Remove the "hover" class when the mouse leaves
+        column.classList.remove("hover");
+      });
+
+      column.addEventListener("click", function () {
+        // Remove the "active" class from all columns
+        customColumns.forEach(function (col) {
+          col.classList.remove("active");
+        });
+
+        // Add the "active" class to the clicked column
+        column.classList.add("active");
+
+        // Store the clicked column's index in local storage
+        localStorage.setItem("activeColumnIndex", index);
+      });
+
+      // Initially remove the "hover" class from all columns
+      column.classList.remove("hover");
+
+      // Initially remove the "active" class from all columns
+      column.classList.remove("active");
+    });
+
+    // Add the "active" class to the column based on the stored index
+    if (activeColumnIndex !== null) {
+      customColumns[activeColumnIndex].classList.add("active");
+    }
+  });
+</script>
+<!-- Custom Columns Container -->
+<div class=" section-{{ section.id }}-padding">
+<div class="custom-columns-container">
+  {% for block in section.blocks %}
+    <a href="{{ block.settings.button_link }}" class="custom-column-link">
+      <div class="custom-column-content">
+        <img class="multicolumn-card__image"
+          srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | image_url: width: 275 }} 275w,{%- endif -%}
+          {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
+          {%- if block.settings.image.width >= 710 -%}{{ block.settings.image | image_url: width: 710 }} 710w,{%- endif -%}
+          {%- if block.settings.image.width >= 1420 -%}{{ block.settings.image | image_url: width: 1420 }} 1420w,{%- endif -%}
+          {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+          src="{{ block.settings.image | image_url: width: 550 }}"
+          sizes="(min-width: 320px) 320px,(min-width: 425px) 425px,(min-width: 768px) 768px"
+          {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
+          (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
+          calc(100vw - 30px)"
+          alt="{{ block.settings.image.alt }}"
+          height="{{ block.settings.image.height }}"
+          width="{{ block.settings.image.width }}"
+          loading="lazy">
+        <h3 class="sub-collections__item-title">{{ block.settings.button_text }}</h3>
+      </div>
+    </a>
+  {% endfor %}
+</div>
+</div>
+<!-- Schema Definition -->
+{% schema %}
+{
+  "name": "Custom Columns",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "custom_column",
+      "name": "Custom Column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+          "type": "text",
+          "label": "Button Text",
+          "id": "button_text",
+          "default": "Learn More"
+        },
+        {
+          "type": "url",
+          "label": "Button Link",
+          "id": "button_link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Columns",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
