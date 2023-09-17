@@ -24,6 +24,9 @@
       "block_order": [
         "template--17938059460875__8beb5d87-50a8-4b20-b1c2-5b7a98c52161-heading-1"
       ],
+      "custom_css": [
+        ".rich-text {padding-left: 0;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
