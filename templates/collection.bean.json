@@ -16,7 +16,7 @@
         "template--17938059460875__8beb5d87-50a8-4b20-b1c2-5b7a98c52161-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h6><a href=\"\/\" title=\"\/\">Home<\/a> \/ <a href=\"\/collections\/espresso-coffee-beans\" title=\"Espresso Coffee Beans | THE BARN Coffee Roasters\">Espresso <\/a>\/ <a href=\"\/collections\/filter-coffee-beans\" title=\"Filter Coffee Beans | THE BARN Coffee Roasters\">Filter<\/a><\/h6>",
+            "heading": "<h6><a href=\"\/\" title=\"\/\">Home<\/a> \/<a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\"> Coffee Beans<\/a><\/h6>",
             "heading_size": "h1"
           }
         }
@@ -25,7 +25,7 @@
         "template--17938059460875__8beb5d87-50a8-4b20-b1c2-5b7a98c52161-heading-1"
       ],
       "custom_css": [
-        ".rich-text {padding-top:0; padding-left: 0;}"
+        ".rich-text {padding-top: 0; padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
