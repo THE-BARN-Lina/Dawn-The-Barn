@@ -66,11 +66,11 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 24
+        "padding_bottom": 0
       }
     },
     "16609093955d46716e": {
