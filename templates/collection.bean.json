@@ -79,6 +79,45 @@
         "padding_bottom": 0
       }
     },
+    "4a7462f3-1c39-492f-90cd-a6b4c15e80ff": {
+      "type": "coffee-beans-circles-filters",
+      "blocks": {
+        "54e5d10b-4703-4c17-a9e5-8f1d5279403f": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/espresso_0b394501-5a93-42b3-a622-17bff4ff6a39.jpg",
+            "button_text": "Espresso",
+            "button_link": "shopify:\/\/collections\/espresso-coffee-beans"
+          }
+        },
+        "1f32ae64-b90c-44bd-97ef-0e12d728d2f8": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/espresso-icon.png",
+            "button_text": "Filter",
+            "button_link": "shopify:\/\/collections\/filter-coffee-beans"
+          }
+        },
+        "af0ddf71-9308-4059-83d9-f59ed25b2a2f": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20170714_SubscriptionCurat_Kopie_e0cf57de-2e89-462e-b549-8f8f4dddf7d8.png",
+            "button_text": "Subscriptions",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "54e5d10b-4703-4c17-a9e5-8f1d5279403f",
+        "1f32ae64-b90c-44bd-97ef-0e12d728d2f8",
+        "af0ddf71-9308-4059-83d9-f59ed25b2a2f"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16609093955d46716e": {
       "type": "bean-collection-product-grid",
       "custom_css": [
@@ -213,6 +252,7 @@
     "banner",
     "8beb5d87-50a8-4b20-b1c2-5b7a98c52161",
     "1a713986-dc37-4b66-b5cf-0705458ba228",
+    "4a7462f3-1c39-492f-90cd-a6b4c15e80ff",
     "16609093955d46716e",
     "9aed932f-1130-4b01-8d78-81c28dfcac7f",
     "16609096892f959660"
