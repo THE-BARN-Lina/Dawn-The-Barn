@@ -29,115 +29,6 @@
     px;
   }
 
-  .section-category-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100px;
-    /* background-color: purple; */
-    margin-top: -10px;
-  }
-
-  .scroll-wrapper {
-    overflow: hidden; /* Hide any horizontal overflow */
-  }
-
-  .scroll-container {
-    display: flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    width: 100%;
-    overflow-x: hidden; /* Enable horizontal scrolling */
-  }
-
-  .filter-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding:4px;
-    overflow-x: auto; /* Enable horizontal scrolling */
-  }
-  /* For Chrome and Safari */
-.filter-buttons::-webkit-scrollbar {
-    display: none;
-}
-
-/* For Firefox */
-.filter-buttons {
-    scrollbar-width: none;
-}
-
-  .filter-button {
-    /* Common button styles */
-    padding: 8px 16px;
-    transition: background-color 0.3s;
-    font-size:16px;
-    min-width: 100px;
-    max-width: 100px;
-
-    background-color: var(--black);
-    border-radius: 2px;
-    color: var(--white);
-    cursor: pointer;
-    border: 1px solid;
-    margin-right: 1.2rem;
-
-  }
-.filter-button[data-tag="All"] {
-    border-color: white;
-}
-
-.filter-button[data-tag="Balanced"] {
-    border-color: var(--brown-clear); 
-}
-
-.filter-button[data-tag="Terroir"] {
-    border-color: var(--green);
-}
-.filter-button[data-tag="Exotic"] {
-    border-color: var(--orange);
-}
-  
-.filter-button.active {
-    outline-offset: 3px;
-}
-.filter-button[data-tag="All"].active {
-  outline: 0.2px solid var(--white);
-  background-color: var(--white);
-  color: var(--black);  
-
-
-}
-
-.filter-button[data-tag="Balanced"].active {
-  outline: 0.2px solid var(--brown-clear);
-  background-color: var(--brown-clear); 
-  color: var(--white);  
-
-
-}
-
-.filter-button[data-tag="Terroir"].active {
-  outline: 0.2px solid var(--green);
-  background-color: var(--green); 
-  color: var(--white);  
-
-
-}
-  
-.filter-button[data-tag="Exotic"].active {
-  outline: 0.2px solid var(--orange);
-  background-color: var(--orange); 
-  color: var(--white);  
-
-
-}
-
   /* Styles for sections */
   .section-collection {
     display: none;
@@ -149,20 +40,7 @@
     display: none !important;
 }
 
-  /* Additional styles for smaller screens */
-  @media screen and (min-width: 416px) {
 
-
-  .filter-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .filter-button{
-    margin-right:2rem;
-  }
-
-  }
 {%- endstyle -%}
 
 
