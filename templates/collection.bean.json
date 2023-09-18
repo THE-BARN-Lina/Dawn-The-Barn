@@ -116,11 +116,10 @@
         },
         "f0d2e206-0115-4993-a74f-034b0f8a5f60": {
           "type": "custom_column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/capsules_1.png",
             "button_text": "Specials",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/specials-coffee-beans-the-barn-coffee-roasters"
           }
         }
       },
