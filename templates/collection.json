@@ -27,6 +27,29 @@
         "padding_bottom": 24
       }
     },
+    "ec292093-6b60-4489-ab04-f8b93ff9eecb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938055299339__ec292093-6b60-4489-ab04-f8b93ff9eecb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Coffee Specials<\/h2>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938055299339__ec292093-6b60-4489-ab04-f8b93ff9eecb-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -69,6 +92,7 @@
   },
   "order": [
     "16618500908bb9c917",
+    "ec292093-6b60-4489-ab04-f8b93ff9eecb",
     "banner",
     "1651574465fc19c571",
     "e52ed850-4f6c-4623-b72c-8237a6eb7227"
