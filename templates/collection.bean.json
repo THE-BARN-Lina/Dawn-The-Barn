@@ -101,7 +101,7 @@
         "1f32ae64-b90c-44bd-97ef-0e12d728d2f8": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FILTER-CIRCLE.jpg",
+            "image": "shopify:\/\/shop_images\/FILTER-CIRCLE_1.png",
             "button_text": "Filter",
             "button_link": "shopify:\/\/collections\/filter-coffee-beans"
           }
