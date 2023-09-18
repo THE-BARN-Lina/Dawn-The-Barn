@@ -41,6 +41,9 @@
       "block_order": [
         "template--17938055299339__ec292093-6b60-4489-ab04-f8b93ff9eecb-heading-1"
       ],
+      "custom_css": [
+        ".rich-text {padding-top: 0; padding-left: 0;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
