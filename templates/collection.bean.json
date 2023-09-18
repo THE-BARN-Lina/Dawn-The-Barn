@@ -109,7 +109,7 @@
         "297ce8b4-71da-41a1-98c6-aa83007f32d4": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LOWCAF-CIRCLE.jpg",
+            "image": "shopify:\/\/shop_images\/LOWCAF-CIRCLE.png",
             "button_text": "Low Caf",
             "button_link": "shopify:\/\/products\/low-caffeine-coffee"
           }
