@@ -16,7 +16,7 @@
         "1661850090c55b6adb-0"
       ],
       "custom_css": [
-
+        ".rich-text {padding-top: 0; padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
