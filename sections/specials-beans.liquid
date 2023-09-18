@@ -141,7 +141,7 @@
   {%- endfor %}
 
   {%- for product in collection.products -%}
-    {% unless product.tags contains 'donations' %}
+    {% unless product.tags contains 'donation' %}
       {% if product.tags contains 'Specials' %}
         {% assign lazy_load = false %}
         {%- if forloop.index > 2 -%}
