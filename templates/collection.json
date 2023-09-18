@@ -62,8 +62,8 @@
         "color_scheme": "background-2"
       }
     },
-    "bb06991c-ef9b-4afe-b075-a36df08ef617": {
-      "type": "lowcaf-beans",
+    "acdf9b8c-def7-4242-bffe-808f356c51f5": {
+      "type": "specials-beans",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -87,6 +87,6 @@
     "16618500908bb9c917",
     "ec292093-6b60-4489-ab04-f8b93ff9eecb",
     "banner",
-    "bb06991c-ef9b-4afe-b075-a36df08ef617"
+    "acdf9b8c-def7-4242-bffe-808f356c51f5"
   ]
 }
