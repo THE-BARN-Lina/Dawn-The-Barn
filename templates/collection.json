@@ -65,10 +65,10 @@
     "acdf9b8c-def7-4242-bffe-808f356c51f5": {
       "type": "specials-beans",
       "settings": {
-        "products_per_page": 16,
-        "columns_desktop": 4,
+        "products_per_page": 20,
+        "columns_desktop": 3,
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_tastenotes": false,
         "show_rating": false,
