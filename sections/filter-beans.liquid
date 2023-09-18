@@ -51,40 +51,32 @@
     align-items:center;
     justify-content:center;
     width: 100%;
-    overflow-x: hidden; /* Enable horizontal scrolling */
+    overflow-x: auto; /* Enable horizontal scrolling */
   }
 
   .filter-buttons {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
     padding:4px;
     overflow-x: auto; /* Enable horizontal scrolling */
   }
-  /* For Chrome and Safari */
-.filter-buttons::-webkit-scrollbar {
-    display: none;
-}
-
-/* For Firefox */
-.filter-buttons {
-    scrollbar-width: none;
-}
 
   .filter-button {
+    /* Common button styles */
     padding: 8px 16px;
     transition: background-color 0.3s;
-    font-size: 16px;
+    font-size:16px;
     min-width: 100px;
     max-width: 127px;
+
     background-color: var(--black);
     border-radius: 2px;
     color: var(--white);
     cursor: pointer;
     border: 1px solid;
-    margin-right: 1.2rem;
-
+    margin-right:1.2rem;
   }
 .filter-button[data-tag="All"] {
     border-color: white;
@@ -96,9 +88,6 @@
 
 .filter-button[data-tag="Terroir"] {
     border-color: var(--green);
-}
-.filter-button[data-tag="Exotic"] {
-    border-color: var(--orange);
 }
   
 .filter-button.active {
@@ -127,14 +116,7 @@
 
 
 }
-  
-.filter-button[data-tag="Exotic"].active {
-  outline: 0.2px solid var(--orange);
-  background-color: var(--orange); 
-  color: var(--white);  
 
-
-}
 
   /* Styles for sections */
   .section-collection {
