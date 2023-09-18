@@ -160,7 +160,7 @@
       "from": "From",
       "filter_and_sort": "Filter and sort",
       "filter_by_label": "Filter by:",
-      "filter_button": "Filter by: ",
+      "filter_button": "Filter by",
       "filters_selected": {
         "one": "{{ count }} selected",
         "other": "{{ count }} selected"
