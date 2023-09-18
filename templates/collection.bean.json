@@ -68,7 +68,8 @@
         "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-0"
       ],
       "custom_css": [
-        ".rich-text {padding-left: 0;}"
+        ".rich-text {padding-left: 0;}",
+        "@media (max-width: 410px) {.rich-text h2 {display: flex; flex-direction: column; align-items: left; justify-content: left; text-align: left; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -111,7 +112,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/LOWCAF-CIRCLE.png",
             "button_text": "Low Caf",
-            "button_link": "shopify:\/\/products\/low-caffeine-coffee"
+            "button_link": "shopify:\/\/collections\/low-caf-coffee-beans-the-barn-coffee-roasters"
           }
         },
         "f0d2e206-0115-4993-a74f-034b0f8a5f60": {
