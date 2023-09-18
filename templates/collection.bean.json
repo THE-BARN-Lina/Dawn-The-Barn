@@ -25,7 +25,7 @@
         "template--17938059460875__8beb5d87-50a8-4b20-b1c2-5b7a98c52161-heading-1"
       ],
       "custom_css": [
-        ".rich-text {padding-top: 0; padding-left: 0;}"
+        ".rich-text {padding-top: 0; padding-left: 0; font-weight: 100;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -45,27 +45,10 @@
             "heading": "<p>CHOOSE YOUR FAVOURITE<\/p>",
             "heading_size": "h2"
           }
-        },
-        "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>LET PROFILES BE YOUR GUIDE<\/p>"
-          }
-        },
-        "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Taste by Profiles<\/p>",
-            "heading_size": "h2"
-          }
         }
       },
       "block_order": [
-        "7e367069-124c-4280-bd07-dbad26e1b657",
-        "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-1",
-        "template--16319953862923__1a713986-dc37-4b66-b5cf-0705458ba228-1669376866f79f0b8e-0"
+        "7e367069-124c-4280-bd07-dbad26e1b657"
       ],
       "custom_css": [
         ".rich-text {padding-left: 0;}",
