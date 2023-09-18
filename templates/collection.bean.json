@@ -110,7 +110,7 @@
           "type": "custom_column",
           "settings": {
             "image": "shopify:\/\/shop_images\/LOWCAF-CIRCLE.jpg",
-            "button_text": "Low-Caf",
+            "button_text": "Low Caf",
             "button_link": "shopify:\/\/products\/low-caffeine-coffee"
           }
         }
