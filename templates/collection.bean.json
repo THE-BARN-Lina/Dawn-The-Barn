@@ -26,7 +26,7 @@
       ],
       "custom_css": [
         ".rich-text {padding-top: 0; padding-left: 0;}",
-        ".rich-text__blocks>* {font-weight: 100;}"
+        ".rich-text__blocks > * {font-weight: 100;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -78,7 +78,7 @@
         "54e5d10b-4703-4c17-a9e5-8f1d5279403f": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ESPRESSO-CIRCLE.jpg",
+            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
             "button_text": "Espresso",
             "button_link": "shopify:\/\/collections\/espresso-coffee-beans"
           }
