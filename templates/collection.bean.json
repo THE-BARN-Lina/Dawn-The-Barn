@@ -113,13 +113,23 @@
             "button_text": "Low Caf",
             "button_link": "shopify:\/\/products\/low-caffeine-coffee"
           }
+        },
+        "f0d2e206-0115-4993-a74f-034b0f8a5f60": {
+          "type": "custom_column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/capsules_1.png",
+            "button_text": "Specials",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "af0ddf71-9308-4059-83d9-f59ed25b2a2f",
         "54e5d10b-4703-4c17-a9e5-8f1d5279403f",
         "1f32ae64-b90c-44bd-97ef-0e12d728d2f8",
-        "297ce8b4-71da-41a1-98c6-aa83007f32d4"
+        "297ce8b4-71da-41a1-98c6-aa83007f32d4",
+        "f0d2e206-0115-4993-a74f-034b0f8a5f60"
       ],
       "settings": {
         "padding_top": 0,
