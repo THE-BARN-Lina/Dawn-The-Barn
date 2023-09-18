@@ -286,27 +286,34 @@
 
 
 <script>
-  function filterByTag(tag) {
+function filterByTag(tag) {
+    // Define a map of translations or synonymous tags
+    const tagTranslations = {
+        'Balanced': ['Balanced', 'Ausgebowen'],
+        'Exotic': ['Exotic', 'Exotisch']
+    };
+
     // Deactivate currently active button
     var activeButtons = document.querySelectorAll('.filter-button.active');
-    for(var i = 0; i < activeButtons.length; i++) {
+    for (var i = 0; i < activeButtons.length; i++) {
         activeButtons[i].classList.remove('active');
     }
 
     // Activate clicked button
-    var buttons = document.querySelectorAll('.filter-button[data-tag="'+tag+'"]');
-    for(var i = 0; i < buttons.length; i++) {
+    var buttons = document.querySelectorAll('.filter-button[data-tag="' + tag + '"]');
+    for (var i = 0; i < buttons.length; i++) {
         buttons[i].classList.add('active');
     }
 
     // Filter products based on tags
     var products = document.querySelectorAll('.grid__item');
-    for(var i = 0; i < products.length; i++) {
-        if(tag == 'All') {
+    for (var i = 0; i < products.length; i++) {
+        if (tag == 'All') {
             products[i].style.display = '';  // Show all products
         } else {
             var productTags = products[i].getAttribute('data-tags').split(',');
-            if(productTags.includes(tag)) {
+            var matchedTags = tagTranslations[tag] || [tag]; // get from translations map or default to the passed tag
+            if (productTags.some(tag => matchedTags.includes(tag))) {
                 products[i].style.display = '';  // Show product with matching tag
             } else {
                 products[i].style.display = 'none';  // Hide non-matching products
@@ -314,6 +321,7 @@
         }
     }
 }
+
 
   
       </script>
