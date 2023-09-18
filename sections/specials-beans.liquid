@@ -117,12 +117,12 @@
             <div class="loading-overlay gradient"></div>
           
       
-    <ul id="product-grid" data-id="{{ section.id }}" class="
+<ul id="product-grid" data-id="{{ section.id }}" class="
   grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
   grid--{{ section.settings.columns_desktop }}-col-desktop">
 
   {%- for product in collection.products -%}
-    {% if product.tags contains 'donations' %}
+    {% if product.tags contains 'donation' %}
       <!-- Display products with the 'donations' tag first -->
       <li class="grid__item" data-tags="{{ product.tags | join: ',' }}">
         {% render 'card-product',
@@ -165,6 +165,7 @@
   {%- endfor %}
 
 </ul>
+
         
             
             {%- if paginate.pages > 1 -%}
