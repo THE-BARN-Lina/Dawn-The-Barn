@@ -139,7 +139,7 @@
     "16609093955d46716e": {
       "type": "bean-collection-product-grid",
       "custom_css": [
-        "@media screen and (max-width: 520px) {.card_tastnote_text {display: none; } .card__50_50__grid {padding-bottom: 0; min-height: 0px; } .card__information {grid-row-start: 2; padding: 1.3rem 0.4rem; color: #fff; } .card__content {justify-content: center; } .card__50_50__grid {grid-template-columns: 1fr 1fr; column-gap: 0.4rem; } .card--card .quick-add {min-width: 140px; margin: 0 0.4rem 0.4rem; }}",
+        "@media screen and (max-width: 520px) {.card_tastnote_text {display: none; } .card__50_50__grid {padding-bottom: 0; min-height: 0px; } .card__information {min-width: 160px; grid-row-start: 2; padding: 1.3rem 0.4rem; color: #fff; } .card__content {justify-content: center; } .card__50_50__grid {grid-template-columns: 1fr 1fr; column-gap: 0.4rem; } .card--card .quick-add {min-width: 140px; margin: 0 0.4rem 0.4rem; }}",
         "@media screen and (min-width: 520px) {.card-information .caption {display: none; }}"
       ],
       "settings": {
