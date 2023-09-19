@@ -186,7 +186,7 @@
         "template--17938059460875__d29dda87-cd6a-45ce-af39-0ea9810bf3b0-text-1"
       ],
       "custom_css": [
-        ".rich-text--full-width{padding:0px;}"
+        ".rich-text--full-width {padding: 0px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -304,6 +304,9 @@
       "block_order": [
         "3005c7e9-2ae5-441a-bd2b-120156417d67",
         "73b82b83-3d62-4984-9d1d-450f5351b20a"
+      ],
+      "custom_css": [
+        ".rich-text--full-width{padding:0px;}"
       ],
       "settings": {
         "desktop_content_position": "right",
