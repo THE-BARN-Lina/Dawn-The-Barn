@@ -34,7 +34,7 @@
         "template--17938055299339__ec292093-6b60-4489-ab04-f8b93ff9eecb-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "<p>{{ collection.title }}<\/p>",
             "heading_size": "h1"
           }
         }
@@ -75,9 +75,9 @@
         "show_rating": false,
         "enable_quick_add": false,
         "quick_add_button_color": "",
-        "enable_filtering": false,
+        "enable_filtering": true,
         "filter_type": "horizontal",
-        "enable_sorting": true,
+        "enable_sorting": false,
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
