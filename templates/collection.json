@@ -75,7 +75,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "quick_add_button_color": "",
-        "enable_filtering": true,
+        "enable_filtering": false,
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
