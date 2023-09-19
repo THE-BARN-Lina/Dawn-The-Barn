@@ -103,7 +103,7 @@
         "647d92c0-5797-40f1-9356-4824165a47ca"
       ],
       "custom_css": [
-        ".rich-text {border-bottom: 2px solid grey;"
+        ".rich-text {border-bottom: 2px solid grey;}"
       ],
       "settings": {
         "desktop_content_position": "center",
