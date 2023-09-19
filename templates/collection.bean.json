@@ -186,7 +186,7 @@
         "template--17938059460875__d29dda87-cd6a-45ce-af39-0ea9810bf3b0-text-1"
       ],
       "custom_css": [
-        ".rich-text--full-width{padding-left:0px;}"
+        ".rich-text--full-width {padding-left: 0px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -259,7 +259,7 @@
         "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-2"
       ],
       "custom_css": [
-        ".multirow__inner {padding-left: 0px; padding-right: 0px;}"
+        ".multirow__inner {padding-left: 0px; padding-right: 0px; padding-top: 2rem;}"
       ],
       "settings": {
         "image_height": "small",
@@ -273,7 +273,7 @@
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
