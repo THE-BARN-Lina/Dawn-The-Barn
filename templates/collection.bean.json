@@ -75,20 +75,20 @@
             "button_link": "shopify:\/\/collections\/coffee-subscription"
           }
         },
-        "54e5d10b-4703-4c17-a9e5-8f1d5279403f": {
-          "type": "custom_column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
-            "button_text": "Espresso",
-            "button_link": "shopify:\/\/collections\/espresso-coffee-beans"
-          }
-        },
         "1f32ae64-b90c-44bd-97ef-0e12d728d2f8": {
           "type": "custom_column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Filters_Circle_Filter.jpg",
             "button_text": "Filter",
             "button_link": "shopify:\/\/collections\/filter-coffee-beans"
+          }
+        },
+        "54e5d10b-4703-4c17-a9e5-8f1d5279403f": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
+            "button_text": "Espresso",
+            "button_link": "shopify:\/\/collections\/espresso-coffee-beans"
           }
         },
         "297ce8b4-71da-41a1-98c6-aa83007f32d4": {
@@ -110,12 +110,11 @@
       },
       "block_order": [
         "af0ddf71-9308-4059-83d9-f59ed25b2a2f",
-        "54e5d10b-4703-4c17-a9e5-8f1d5279403f",
         "1f32ae64-b90c-44bd-97ef-0e12d728d2f8",
+        "54e5d10b-4703-4c17-a9e5-8f1d5279403f",
         "297ce8b4-71da-41a1-98c6-aa83007f32d4",
         "f0d2e206-0115-4993-a74f-034b0f8a5f60"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0
