@@ -120,6 +120,33 @@
         "padding_bottom": 0
       }
     },
+    "79312cdf-217c-456e-b5c3-5a0d3f674794": {
+      "type": "rich-text",
+      "blocks": {
+        "58bcb715-3913-4117-ae15-a61b1b3bacbd": {
+          "type": "caption",
+          "settings": {
+            "caption": "",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "58bcb715-3913-4117-ae15-a61b1b3bacbd"
+      ],
+      "custom_css": [
+        ".rich-text {border-bottom: 2px solid grey;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "16609093955d46716e": {
       "type": "bean-collection-product-grid",
       "custom_css": [
@@ -219,6 +246,7 @@
     "8beb5d87-50a8-4b20-b1c2-5b7a98c52161",
     "1a713986-dc37-4b66-b5cf-0705458ba228",
     "4a7462f3-1c39-492f-90cd-a6b4c15e80ff",
+    "79312cdf-217c-456e-b5c3-5a0d3f674794",
     "16609093955d46716e",
     "d29dda87-cd6a-45ce-af39-0ea9810bf3b0",
     "16609096892f959660"
