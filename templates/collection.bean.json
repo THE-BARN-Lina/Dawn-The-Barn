@@ -218,34 +218,11 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-3": {
-          "type": "row",
-          "settings": {
-            "caption": "",
-            "heading": "",
-            "text": "<p><strong>What is a coffee varietal?<\/strong><\/p><p>Alongside the process, we will always state the coffee varietal. Within the Arabica coffee species, there are numerous distinct varietals that have developed naturally or been selectively chosen. Different varietals offer different flavour characteristics that contribute to the flavour of your coffee beans. Coffee producers will select varietals that match the qualities of their terroir.<\/p><p><strong>Do you offer decaf coffee beans?<\/strong><\/p><p>To this day, we have not tasted a decaf coffee that meets our expectations of flavour and texture. To create decaf coffee, coffee beans must undergo a process to extract the caffeine and this can affect the cup profile. Instead, we offer Low Caf coffee beans, featuring rare varietals that have naturally low levels of caffeine, without any compromise in flavour.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "99ed44d3-bc5f-4c23-8eec-580935539c45": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bildschirmfoto2023-09-01um17.54.10.png",
-            "caption": "",
-            "heading": "",
-            "text": "<p><strong>Do you offer pre-ground coffee?<\/strong><\/p><p>The meticulous task of grinding coffee beans is an essential part of the coffee brewing process. Grinding your coffee beans just before you brew is pivotal in achieving the perfect cup and fully extracting the distinct flavours of our single origin coffee beans. Freshly ground coffee beans boast a host of benefits. The aroma and flavour of the brew depend on the freshness of the grind and an appropriate grind size for your brewer: grinding coffee beans right before brewing ensures a unique and flavourful coffee experience.<\/p><p><strong>What is the best way to store coffee beans?<\/strong><\/p><p>To keep your coffee beans fresh and full of flavour, it's essential to store them properly. Our signature coffee bags have a one way valve which ensures your coffee beans do not oxidise too quickly. Store your coffee beans in a cool, dry place, away from direct sunlight. It is recommended to grind the beans just before brewing to preserve freshness. Avoid storing coffee in the refrigerator or freezer, as these environments can introduce moisture and cause condensation on the coffee, potentially affecting the taste.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-1",
-        "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-2",
-        "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-3",
-        "99ed44d3-bc5f-4c23-8eec-580935539c45"
+        "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-2"
       ],
       "settings": {
         "image_height": "small",
