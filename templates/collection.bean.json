@@ -185,6 +185,9 @@
       "block_order": [
         "template--17938059460875__d29dda87-cd6a-45ce-af39-0ea9810bf3b0-text-1"
       ],
+      "custom_css": [
+        ".rich-text--full-width{padding-left:0px;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -255,7 +258,9 @@
         "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-1",
         "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-2"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".multirow__inner {padding-left: 0px; padding-right: 0px;}"
+      ],
       "settings": {
         "image_height": "small",
         "desktop_image_width": "small",
