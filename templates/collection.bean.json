@@ -145,6 +145,28 @@
         "padding_bottom": 40
       }
     },
+    "d29dda87-cd6a-45ce-af39-0ea9810bf3b0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938059460875__d29dda87-cd6a-45ce-af39-0ea9810bf3b0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Our Unique Portfolio<\/strong><\/p><p>With our seasonal portfolio of Coffee Beans you can discover the world of Single Origin Flavour. We source coffee beans from around the world and roast them in Berlin: our coffee will take you on a journey through the possibilities of flavour. <\/p><p>Following our vision of Nordic-style roasting, a delicate roast ensures that the unique qualities of different coffee beans is allowed to shine. <\/p><p><strong>Single Origin Quality<\/strong><\/p><p>The highest quality, single origin coffee beans are the foundation of every good cup of coffee. Our beans are carefully sourced from farms we trust and encompass a diverse range of flavours. Since the beginning, we have prioritised long term relationships with individual farms and producers who care about quality and sustainability. Having visited coffee producers across the world, our goal is to display their amazing work in every bag of coffee beans we sell. By working directly with farms, we can enjoy the distinct characteristics found in coffee while offering a relationship that is financially sustainable.<\/p><p><strong>Join Our Exploration<\/strong><\/p><p>Differences in origin, process, and varietal create unique characteristics, and we feature coffee beans to suit any palate. With our three signature flavour categories - <strong>Balanced<\/strong>, <strong>Terroir<\/strong>, <strong>Exotic<\/strong> - there will always be a coffee profile in our portfolio that suits your taste, roasted with respect for the amazing green coffee beans we source from our partner farms.<\/p><p>Our flavour categories will help guide you through the coffee beans in our portfolio. From <strong>Balanced<\/strong> favourites we could drink all day to our <strong>Terroir<\/strong> range that shows more distinct flavours of a particular region. Our <strong>Exotic<\/strong> category is reserved for rare and memorable lots that highlight coffee beans with exceptional and unexpected flavour profiles. Selecting coffee is not a one-size-fits-all process, but we are here to help you find the coffee beans that suit you.<\/p><p><strong>From Crop To Cup<\/strong><\/p><p>The meticulous and complex process of growing our coffee beans requires keen attention to detail and respect for the environment. Within 3 to 4 years after planting, coffee trees start to bear fruit: the coffee cherries. The ripe cherries are flushed with bright, vibrant hues of red and yellow. Care and precision are the indispensable elements during the harvesting phase - at the small scale farms we work with, the harvest process is done by hand to ensure that the delicate trees are not damaged, and the coffee cherries are picked at the perfect moment.<br\/><br\/>Ripe coffee cherries undergo a particular process to extract the beans from inside the layer of fruit. The two most common forms of processing are ‘Washed’ and ‘Natural’ but we also offer an increasing range of innovative and exotic processes. Each technique imparts different traits to the beans, influencing the flavour you will taste in the cup. <\/p><p><strong>Capturing The Flavour: Nordic Roast<\/strong><\/p><p>Our roasting process is the moment when we harness the irresistible flavour and aroma of our green coffee beans. Achieving a high-quality roast demands meticulous control over temperature and time and our roast team has years of experience.<\/p><p>Our Nordic roast style is light by design. We roast to capture the individual characteristics of the bean and terroir, not the heavy, roasted flavour that can be created by longer roasting. With expert judgement, our roasters ensure our coffee beans reveal their unique and complex flavours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938059460875__d29dda87-cd6a-45ce-af39-0ea9810bf3b0-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16609096892f959660": {
       "type": "collection-list",
       "blocks": {
@@ -199,6 +221,7 @@
     "1a713986-dc37-4b66-b5cf-0705458ba228",
     "4a7462f3-1c39-492f-90cd-a6b4c15e80ff",
     "16609093955d46716e",
+    "d29dda87-cd6a-45ce-af39-0ea9810bf3b0",
     "16609096892f959660"
   ]
 }
