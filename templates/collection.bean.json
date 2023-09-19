@@ -242,7 +242,7 @@
       "custom_css": [
         ".multirow__inner {padding-left: 0px; padding-right: 0px; padding-top: 2rem;}",
         ".image-with-text__content {padding-top: 2rem;}",
-        "@media (max-width: 380px) {.image-with-text__content {padding: 0rem; padding-top: 2rem; }}"
+        "@media (max-width: 410px) {.image-with-text__content {padding: 0rem; padding-top: 2rem; }}"
       ],
       "settings": {
         "image_height": "medium",
