@@ -307,7 +307,7 @@
         "73b82b83-3d62-4984-9d1d-450f5351b20a"
       ],
       "custom_css": [
-        ".rich-text--full-width {padding: 0px;}"
+        ".rich-text--full-width {padding: 0px; padding-top:2rem;}"
       ],
       "settings": {
         "desktop_content_position": "right",
