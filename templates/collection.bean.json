@@ -185,6 +185,38 @@
       "block_order": [
         "template--17938059460875__d29dda87-cd6a-45ce-af39-0ea9810bf3b0-text-1"
       ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "4ce8e0de-1f4e-44c4-839d-22ce8db55e36": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938059460875__4ce8e0de-1f4e-44c4-839d-22ce8db55e36-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>What should I consider when buying coffee beans online?<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17938059460875__4ce8e0de-1f4e-44c4-839d-22ce8db55e36-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>When purchasing coffee beans online, there are a few key factors to consider. We always send our coffee beans from the roastery, to guarantee you receive your coffee with the best possible flavour. Pay attention to the origin, processing method, and flavour descriptions of the beans, so your beans match your preferences.<\/p><p><strong>Are your coffee beans sustainable?<\/strong><\/p><p>Sustainability comes in two forms: for the environment and for the producer. We prioritise close relationships with producers where we can pay a premium for quality - the price we pay for our beans is often 3–5 times higher than the standard Fairtrade price. We have always been committed to supporting farmers through long-term partnerships. We are proud to work with producers who prioritise the environment alongside their quality. A healthy, nourished terroir results in great tasting coffee beans - sustainability is in all our interests. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938059460875__4ce8e0de-1f4e-44c4-839d-22ce8db55e36-heading-1",
+        "template--17938059460875__4ce8e0de-1f4e-44c4-839d-22ce8db55e36-text-1"
+      ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -224,6 +256,7 @@
         "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-1",
         "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-2"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "small",
         "desktop_image_width": "small",
@@ -238,6 +271,37 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "7798d037-55b9-4413-b394-aae514d250b3": {
+      "type": "rich-text",
+      "blocks": {
+        "3005c7e9-2ae5-441a-bd2b-120156417d67": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>What should I consider when buying coffee beans online?<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "73b82b83-3d62-4984-9d1d-450f5351b20a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>When purchasing coffee beans online, there are a few key factors to consider. We always send our coffee beans from the roastery, to guarantee you receive your coffee with the best possible flavour. Pay attention to the origin, processing method, and flavour descriptions of the beans, so your beans match your preferences.<\/p><p><strong>Are your coffee beans sustainable?<\/strong><\/p><p>Sustainability comes in two forms: for the environment and for the producer. We prioritise close relationships with producers where we can pay a premium for quality - the price we pay for our beans is often 3–5 times higher than the standard Fairtrade price. We have always been committed to supporting farmers through long-term partnerships. We are proud to work with producers who prioritise the environment alongside their quality. A healthy, nourished terroir results in great tasting coffee beans - sustainability is in all our interests. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3005c7e9-2ae5-441a-bd2b-120156417d67",
+        "73b82b83-3d62-4984-9d1d-450f5351b20a"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "16609096892f959660": {
@@ -296,7 +360,9 @@
     "79312cdf-217c-456e-b5c3-5a0d3f674794",
     "16609093955d46716e",
     "d29dda87-cd6a-45ce-af39-0ea9810bf3b0",
+    "4ce8e0de-1f4e-44c4-839d-22ce8db55e36",
     "2db0edf3-eaeb-4502-afae-ebd185045e96",
+    "7798d037-55b9-4413-b394-aae514d250b3",
     "16609096892f959660"
   ]
 }
