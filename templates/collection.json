@@ -35,7 +35,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>{{ collection.title }}<\/p>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
@@ -65,6 +65,9 @@
     },
     "73703f50-8557-4a1a-a963-0d73cf690863": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 3,
