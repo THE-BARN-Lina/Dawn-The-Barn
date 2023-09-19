@@ -194,6 +194,28 @@
         "padding_bottom": 52
       }
     },
+    "2263c857-b592-4d86-a4fa-ca6afb6fd6e9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938059460875__2263c857-b592-4d86-a4fa-ca6afb6fd6e9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Why are coffee beans so important for freshly brewed coffee?<\/strong><\/p><p>Coffee beans are the crucial element in achieving a delicious cup of freshly brewed coffee. The flavour, aroma, and overall quality of the coffee depend greatly on the type and quality of the beans used. Therefore, selecting the right beans is vital. There are various factors that influence the taste profile of coffee beans, such as the region they are grown in, the altitude, the processing method, and the roasting level. By understanding these factors and choosing beans that align with your preferences, you can ensure a high-quality coffee experience.<\/p><p><strong>How do I choose my coffee?<\/strong><\/p><p>When choosing coffee beans, it's essential to consider personal taste preferences. With each coffee, we choose three flavour descriptors that you will find on the front of the bag. However, certain factors can help guide your selection and this is why we divide our beans into three flavour categories: Balanced. Terroir. Exotic. Our beans are sourced from coffee farms we trust, then roasted and shipped to ensure freshness and optimal flavour. <\/p><p><strong>What is coffee processing?<\/strong><\/p><p>For all the coffee beans we feature, we state how the coffee was processed. This refers to the method that takes place after harvest to produce a coffee bean that is ready to be roasted. Ripe coffee cherries undergo a particular process to extract the bean from inside the layer of fruit. The two most common forms of processing are ‘Washed’ and ‘Natural’.<\/p><p><strong>What is a coffee varietal?<\/strong><\/p><p>Alongside the process, we will always state the coffee varietal. Within the Arabica coffee species, there are numerous distinct varietals that have developed naturally or been selectively chosen. Different varietals offer different flavour characteristics that contribute to the flavour of your coffee beans. Coffee producers will select varietals that match the qualities of their terroir.<\/p><p><strong>Do you offer decaf coffee beans?<\/strong><\/p><p>To this day, we have not tasted a decaf coffee that meets our expectations of flavour and texture. To create decaf coffee, coffee beans must undergo a process to extract the caffeine and this can affect the cup profile. Instead, we offer Low Caf coffee beans, featuring rare varietals that have naturally low levels of caffeine, without any compromise in flavour.<\/p><p><strong>Do you offer pre-ground coffee?<\/strong><\/p><p>The meticulous task of grinding coffee beans is an essential part of the coffee brewing process. Grinding your coffee beans just before you brew is pivotal in achieving the perfect cup and fully extracting the distinct flavours of our single origin coffee beans. Freshly ground coffee beans boast a host of benefits. The aroma and flavour of the brew depend on the freshness of the grind and an appropriate grind size for your brewer: grinding coffee beans right before brewing ensures a unique and flavourful coffee experience.<\/p><p><strong>What is the best way to store coffee beans?<\/strong><\/p><p>To keep your coffee beans fresh and full of flavour, it's essential to store them properly. Our signature coffee bags have a one way valve which ensures your coffee beans do not oxidise too quickly. Store your coffee beans in a cool, dry place, away from direct sunlight. It is recommended to grind the beans just before brewing to preserve freshness. Avoid storing coffee in the refrigerator or freezer, as these environments can introduce moisture and cause condensation on the coffee, potentially affecting the taste.<\/p><p><strong>What should I consider when buying coffee beans online?<\/strong><\/p><p>When purchasing coffee beans online, there are a few key factors to consider. We always send our coffee beans from the roastery, to guarantee you receive your coffee with the best possible flavour. Pay attention to the origin, processing method, and flavour descriptions of the beans, so your beans match your preferences.<\/p><p><strong>Are your coffee beans sustainable?<\/strong><\/p><p>Sustainability comes in two forms: for the environment and for the producer. We prioritise close relationships with producers where we can pay a premium for quality - the price we pay for our beans is often 3–5 times higher than the standard Fairtrade price. We have always been committed to supporting farmers through long-term partnerships. We are proud to work with producers who prioritise the environment alongside their quality. A healthy, nourished terroir results in great tasting coffee beans - sustainability is in all our interests. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938059460875__2263c857-b592-4d86-a4fa-ca6afb6fd6e9-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16609096892f959660": {
       "type": "collection-list",
       "blocks": {
@@ -250,6 +272,7 @@
     "79312cdf-217c-456e-b5c3-5a0d3f674794",
     "16609093955d46716e",
     "d29dda87-cd6a-45ce-af39-0ea9810bf3b0",
+    "2263c857-b592-4d86-a4fa-ca6afb6fd6e9",
     "16609096892f959660"
   ]
 }
