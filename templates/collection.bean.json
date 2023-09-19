@@ -273,7 +273,7 @@
         "template--17938059460875__4ce8e0de-1f4e-44c4-839d-22ce8db55e36-text-1"
       ],
       "custom_css": [
-        ".rich-text {padding: 0;}"
+        ".rich-text {padding: 0; padding-top:2rem;}"
       ],
       "settings": {
         "desktop_content_position": "left",
