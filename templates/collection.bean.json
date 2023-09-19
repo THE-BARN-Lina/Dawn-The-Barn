@@ -67,12 +67,12 @@
     "4a7462f3-1c39-492f-90cd-a6b4c15e80ff": {
       "type": "coffee-beans-circles-filters",
       "blocks": {
-        "af0ddf71-9308-4059-83d9-f59ed25b2a2f": {
+        "54e5d10b-4703-4c17-a9e5-8f1d5279403f": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Subscriptions_Circle_Filter.jpg",
-            "button_text": "Subscriptions",
-            "button_link": "shopify:\/\/collections\/coffee-subscription"
+            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
+            "button_text": "Espresso",
+            "button_link": "shopify:\/\/collections\/espresso-coffee-beans"
           }
         },
         "1f32ae64-b90c-44bd-97ef-0e12d728d2f8": {
@@ -83,20 +83,12 @@
             "button_link": "shopify:\/\/collections\/filter-coffee-beans"
           }
         },
-        "54e5d10b-4703-4c17-a9e5-8f1d5279403f": {
+        "af0ddf71-9308-4059-83d9-f59ed25b2a2f": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
-            "button_text": "Espresso",
-            "button_link": "shopify:\/\/collections\/espresso-coffee-beans"
-          }
-        },
-        "297ce8b4-71da-41a1-98c6-aa83007f32d4": {
-          "type": "custom_column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LOWCAF-CIRCLE.png",
-            "button_text": "Low Caf",
-            "button_link": "shopify:\/\/collections\/low-caf-coffee-beans"
+            "image": "shopify:\/\/shop_images\/Subscriptions_Circle_Filter.jpg",
+            "button_text": "Subscriptions",
+            "button_link": "shopify:\/\/collections\/coffee-subscription"
           }
         },
         "f0d2e206-0115-4993-a74f-034b0f8a5f60": {
@@ -106,16 +98,23 @@
             "button_text": "Specials",
             "button_link": "shopify:\/\/collections\/specials-coffee-beans-the-barn-coffee-roasters"
           }
+        },
+        "297ce8b4-71da-41a1-98c6-aa83007f32d4": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/laurinacover_2.jpg",
+            "button_text": "Low Caf",
+            "button_link": "shopify:\/\/collections\/low-caf-coffee-beans"
+          }
         }
       },
       "block_order": [
-        "af0ddf71-9308-4059-83d9-f59ed25b2a2f",
-        "1f32ae64-b90c-44bd-97ef-0e12d728d2f8",
         "54e5d10b-4703-4c17-a9e5-8f1d5279403f",
-        "297ce8b4-71da-41a1-98c6-aa83007f32d4",
-        "f0d2e206-0115-4993-a74f-034b0f8a5f60"
+        "1f32ae64-b90c-44bd-97ef-0e12d728d2f8",
+        "af0ddf71-9308-4059-83d9-f59ed25b2a2f",
+        "f0d2e206-0115-4993-a74f-034b0f8a5f60",
+        "297ce8b4-71da-41a1-98c6-aa83007f32d4"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0
