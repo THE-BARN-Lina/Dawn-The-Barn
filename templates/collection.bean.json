@@ -137,7 +137,7 @@
       ],
       "custom_css": [
         ".rich-text {border-bottom: 2px solid grey;}",
-        "@media (max-width: 420px) {.rich-text {border-bottom: none;}}"
+        "@media (max-width: 7000px) {.rich-text {border-bottom: none; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
