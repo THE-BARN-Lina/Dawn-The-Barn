@@ -78,7 +78,7 @@
         "1f32ae64-b90c-44bd-97ef-0e12d728d2f8": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Filters_Circle_Filter.jpg",
+            "image": "shopify:\/\/shop_images\/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
             "button_text": "Filter",
             "button_link": "shopify:\/\/collections\/filter-coffee-beans"
           }
@@ -115,7 +115,6 @@
         "297ce8b4-71da-41a1-98c6-aa83007f32d4",
         "f0d2e206-0115-4993-a74f-034b0f8a5f60"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0
