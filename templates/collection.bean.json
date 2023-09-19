@@ -136,7 +136,8 @@
         "58bcb715-3913-4117-ae15-a61b1b3bacbd"
       ],
       "custom_css": [
-        ".rich-text {border-bottom: 2px solid grey;}"
+        ".rich-text {border-bottom: 2px solid grey;}",
+        "@media (max-width: 420px) {.rich-text {border-bottom: none;}}"
       ],
       "settings": {
         "desktop_content_position": "center",
