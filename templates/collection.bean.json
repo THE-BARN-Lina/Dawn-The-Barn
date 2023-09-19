@@ -200,7 +200,7 @@
         "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CHEMEX-BREW-GUIDE.jpg",
+            "image": "shopify:\/\/shop_images\/73CA1A43-3395-4EA0-AC3B-F8726FA150F7.jpg",
             "caption": "",
             "heading": "Why are coffee beans so important for freshly brewed coffee?",
             "text": "<p><\/p><p>Coffee beans are the crucial element in achieving a delicious cup of freshly brewed coffee. The flavour, aroma, and overall quality of the coffee depend greatly on the type and quality of the beans used. Therefore, selecting the right beans is vital. There are various factors that influence the taste profile of coffee beans, such as the region they are grown in, the altitude, the processing method, and the roasting level. By understanding these factors and choosing beans that align with your preferences, you can ensure a high-quality coffee experience.<\/p>",
@@ -240,7 +240,7 @@
         ".multirow__inner {padding-left: 0px; padding-right: 0px; padding-top: 2rem;}"
       ],
       "settings": {
-        "image_height": "small",
+        "image_height": "medium",
         "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
