@@ -56,43 +56,42 @@
     "befa68a6-1035-4cea-bf06-95f308026d4b": {
       "type": "image-banner",
       "blocks": {
-        "7fd749b9-e32b-4d29-9a2f-51c36cd28932": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Twinbox",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
         "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
           "type": "heading",
           "settings": {
-            "heading": "GESHA VILLAGE",
+            "heading": "SUMMER SUBSCRIPTION",
             "heading_size": "h1"
+          }
+        },
+        "7fd749b9-e32b-4d29-9a2f-51c36cd28932": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE OFFER",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
           "type": "text",
           "settings": {
-            "text": "Explore the origin of the worlds most famous coffee.",
-            "text_style": "caption-with-letter-spacing"
+            "text": "Your first delivery includes:  A beautiful Sandstone Mug from Kinto Japan and a cute enamel House Pin.",
+            "text_style": "subtitle"
           }
         },
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7": {
           "type": "buttons",
           "settings": {
             "button_label_1": "ORDER HERE",
-            "button_link_1": "shopify:\/\/products\/gesha-village",
+            "button_link_1": "shopify:\/\/products\/coffee-summer-subscription",
             "button_style_secondary_1": true,
             "button_label_2": "",
-            "button_link_2": "shopify:\/\/collections\/coffee-beans",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "7fd749b9-e32b-4d29-9a2f-51c36cd28932",
         "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e",
+        "7fd749b9-e32b-4d29-9a2f-51c36cd28932",
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a",
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7"
       ],
@@ -104,8 +103,8 @@
         ".banner__text {font-size: 16px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LANDING-GESHA-VILLAGE-GRADIENT.png",
-        "image_2": "shopify:\/\/shop_images\/LANDING-GESHA-VILLAGE_1_ea20229f-5335-44d8-a393-7c161db3fe3c.png",
+        "image": "shopify:\/\/shop_images\/Rectangle_288.png",
+        "image_2": "shopify:\/\/shop_images\/Sub_photo_1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
