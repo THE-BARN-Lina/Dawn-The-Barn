@@ -4,5 +4,19 @@
     "market": "de"
   },
   "sections": {
+    "e5eb0910-7a4b-48cf-9bc3-124fc45d6925": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "acabed1d-8725-4fc6-9b1e-c18b425c538d": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
   }
 }
