@@ -4,5 +4,33 @@
     "market": "de"
   },
   "sections": {
+    "2db0edf3-eaeb-4502-afae-ebd185045e96": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "4ce8e0de-1f4e-44c4-839d-22ce8db55e36": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "7798d037-55b9-4413-b394-aae514d250b3": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "d29dda87-cd6a-45ce-af39-0ea9810bf3b0": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
   }
 }
