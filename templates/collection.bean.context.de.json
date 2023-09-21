@@ -1,0 +1,8 @@
+{
+  "parent": "collection.bean.json",
+  "context": {
+    "market": "de"
+  },
+  "sections": {
+  }
+}
