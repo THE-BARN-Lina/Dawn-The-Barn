@@ -66,21 +66,21 @@
         "7fd749b9-e32b-4d29-9a2f-51c36cd28932": {
           "type": "text",
           "settings": {
-            "text": "EXCLUSIVE OFFER",
+            "text": "OFFER ENDING SOON",
             "text_style": "caption-with-letter-spacing"
           }
         },
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
           "type": "text",
           "settings": {
-            "text": "Your first delivery includes:  A beautiful Sandstone Mug from Kinto Japan and a cute enamel House Pin.",
+            "text": "This prepaid gift Subscription runs for 3 months. First delivery includes: A unique Sandstone Mug from Kinto Japan!",
             "text_style": "subtitle"
           }
         },
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "ORDER HERE",
+            "button_label_1": "SUBSCRIBE NOW",
             "button_link_1": "shopify:\/\/products\/coffee-summer-subscription",
             "button_style_secondary_1": true,
             "button_label_2": "",
