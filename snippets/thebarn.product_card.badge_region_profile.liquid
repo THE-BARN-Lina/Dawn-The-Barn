@@ -12,9 +12,13 @@
 {% case profile %}
     {% when 'balanced' %}
         {% assign background = settings.color_profile_balanced %}
+    {% when 'ausgewogen' %}
+        {% assign background = settings.color_profile_balanced %}
     {% when 'terroir' %} 
       {% assign background = settings.color_profile_terroir %}
     {% when 'exotic' %}
+         {% assign background = settings.color_profile_exotic %}
+    {% when 'exotisch' %}
          {% assign background = settings.color_profile_exotic %}
 {% endcase %}
 
