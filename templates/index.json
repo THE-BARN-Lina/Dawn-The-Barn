@@ -212,6 +212,7 @@
       "blocks": {
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_3284_3db89a44-8743-4a48-8797-de85944aea76.jpg",
             "caption": "",
