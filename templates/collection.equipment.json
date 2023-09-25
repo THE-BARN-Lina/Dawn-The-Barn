@@ -142,6 +142,7 @@
     },
     "9df8aec3-9e35-42c0-adf3-3244db596cd7": {
       "type": "equipment",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
