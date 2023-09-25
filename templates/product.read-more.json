@@ -1,5 +1,31 @@
 {
   "sections": {
+    "6c825c22-ccb4-4331-a51d-fe33f8a1439b": {
+      "type": "rich-text",
+      "blocks": {
+        "da5ca3c2-1d2a-43ec-ba89-9c5a9dfad051": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h6>Coffee Beans &gt; <\/h6>{{ product.metafields.bean.roast_collection | metafield_tag }}",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "da5ca3c2-1d2a-43ec-ba89-9c5a9dfad051"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "16533374668f19867f": {
       "type": "apps",
       "settings": {
@@ -235,6 +261,7 @@
     }
   },
   "order": [
+    "6c825c22-ccb4-4331-a51d-fe33f8a1439b",
     "16533374668f19867f",
     "main",
     "image-with-text",
