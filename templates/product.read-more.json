@@ -23,7 +23,7 @@
         "92f5dda1-dfe0-4442-a97c-8baa3dcf7a51"
       ],
       "custom_css": [
-        ".rich-text__heading {display: flex; align-items: baseline; gap: 4px; padding-left: 0px;}"
+        ".rich-text__heading {display: flex; align-items: baseline; gap: 4px; padding-left: 0px; font-size: 13px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
