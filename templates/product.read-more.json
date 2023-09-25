@@ -24,7 +24,7 @@
       ],
       "custom_css": [
         ".rich-text__heading {display: flex; align-items: baseline; gap: 4px; padding-left: 0px; font-size: 10.75px;}",
-        "@media (max-width: 410px) {.rich-text__wrapper {padding-left: 0; }}"
+        "@media (max-width: 410px) {.rich-text__wrapper {padding-left: 0px; }}"
       ],
       "settings": {
         "desktop_content_position": "left",
