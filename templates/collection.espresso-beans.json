@@ -16,8 +16,9 @@
         "template--18037485830411__a8f8b864-853b-48a1-b34f-119d8867fbbb-heading-1"
       ],
       "custom_css": [
-        ".rich-text {padding: 0;}",
-        ".rich-text__blocks > * {font-weight: 100;}"
+        ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text__blocks > * {font-weight: 100;}",
+        ".rich-text__wrapper {padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -43,7 +44,9 @@
         "template--18037881176331__d5a2c29f-8d27-4ed7-8d6e-7a435ba4662f-heading-1"
       ],
       "custom_css": [
-        ".rich-text {padding-left: 0;}"
+        ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text__blocks > * {font-weight: 100;}",
+        ".rich-text__wrapper {padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
