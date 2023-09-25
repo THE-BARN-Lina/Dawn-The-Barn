@@ -26,6 +26,7 @@
     },
     "9df8aec3-9e35-42c0-adf3-3244db596cd7": {
       "type": "equipment",
+      "disabled": true,
       "settings": {
         "button_all_content": "<p>All<\/p>",
         "button_grinder_content": "<p>Grinders<\/p>",
