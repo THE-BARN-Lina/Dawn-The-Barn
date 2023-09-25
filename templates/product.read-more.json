@@ -23,15 +23,15 @@
         "92f5dda1-dfe0-4442-a97c-8baa3dcf7a51"
       ],
       "custom_css": [
-        ".rich-text__heading {display: flex; align-items: baseline; gap: 4px; padding-left: 0px; font-size: 10.75px;}"
+        ".rich-text__heading {display: flex; align-items: baseline; gap: 4px; padding-left: 0px; font-size: 13px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 20
+        "padding_top": 12,
+        "padding_bottom": 0
       }
     },
     "16533374668f19867f": {
