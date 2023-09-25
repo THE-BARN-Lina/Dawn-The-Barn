@@ -155,9 +155,9 @@
       data-tag="All">All</button>
     
       <button
-      onclick="filterByTag('Grinders')"
+      onclick="filterByTag('Grinder')"
       class="filter-button"
-      data-tag="Grinders">Grinders</button>
+      data-tag="Grinder">Grinder</button>
     
       <button
       onclick="filterByTag('Filters')"
@@ -170,19 +170,15 @@
       data-tag="Scales">Scales</button>
 
       <button
-      onclick="filterByTag('Mugs')"
+      onclick="filterByTag('Mug')"
       class="filter-button"
-      data-tag="Mugs">Mugs</button>
+      data-tag="Mug">Mugs</button>
 
       <button
       onclick="filterByTag('Aeropress')"
       class="filter-button"
       data-tag="Aeropress">Aeropress</button>
 
-      <button
-      onclick="filterByTag('Others')"
-      class="filter-button"
-      data-tag="Others">Others</button>
     </div>
     </div>
   </div>
@@ -304,7 +300,37 @@
     </div>
   </div>
 </div>
-
+<script>
+    function filterByTag(tag) {
+        // Deactivate currently active button
+        var activeButtons = document.querySelectorAll('.filter-button.active');
+        for (var i = 0; i < activeButtons.length; i++) {
+            activeButtons[i].classList.remove('active');
+        }
+    
+        // Activate clicked button
+        var buttons = document.querySelectorAll('.filter-button[data-tag="' + tag + '"]');
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.add('active');
+        }
+    
+        // Filter products based on tags
+        var products = document.querySelectorAll('.grid__item');
+        for (var i = 0; i < products.length; i++) {
+            if (tag == 'All') {
+                products[i].style.display = '';  // Show all products
+            } else {
+                var productTags = products[i].getAttribute('data-tags').split(',');
+                if (productTags.includes(tag)) {
+                    products[i].style.display = '';  // Show product with matching tag
+                } else {
+                    products[i].style.display = 'none';  // Hide non-matching products
+                }
+            }
+        }
+    }
+    
+</script>
 
 {% schema %}
   {
