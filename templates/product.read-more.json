@@ -9,20 +9,28 @@
             "heading": "<p>Coffee Beans &gt; <\/p>{{ product.metafields.bean.roast_collection | metafield_tag }}",
             "heading_size": "h2"
           }
+        },
+        "92f5dda1-dfe0-4442-a97c-8baa3dcf7a51": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Coffee Beans &gt;<\/p>{{ product.metafields.bean.roast_collection | metafield_tag }}"
+          }
         }
       },
       "block_order": [
-        "da5ca3c2-1d2a-43ec-ba89-9c5a9dfad051"
+        "da5ca3c2-1d2a-43ec-ba89-9c5a9dfad051",
+        "92f5dda1-dfe0-4442-a97c-8baa3dcf7a51"
       ],
       "custom_css": [
-        ".rich-text__blocks {display: flex; align-items: baseline; gap: 4px;}"
+        ".rich-text__heading {display: flex; align-items: baseline; gap: 4px; padding-left: 0px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 12,
         "padding_bottom": 0
       }
     },
@@ -155,7 +163,7 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
+        "padding_top": 8,
         "padding_bottom": 12
       }
     },
