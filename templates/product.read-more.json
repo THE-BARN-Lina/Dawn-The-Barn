@@ -15,7 +15,7 @@
         "da5ca3c2-1d2a-43ec-ba89-9c5a9dfad051"
       ],
       "custom_css": [
-
+        ".rich-text__text {display: flex; align-items: baseline; gap: 4px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
