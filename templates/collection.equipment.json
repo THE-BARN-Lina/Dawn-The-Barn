@@ -16,11 +16,11 @@
         "1661850090c55b6adb-0"
       ],
       "custom_css": [
-        ".rich-text{padding-top: 3rem;}"
+        ".rich-text {padding-top: 3rem;}"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": false,
         "padding_top": 52,
@@ -29,6 +29,7 @@
     },
     "9df8aec3-9e35-42c0-adf3-3244db596cd7": {
       "type": "equipment",
+      "disabled": true,
       "custom_css": [
         "p {padding-top: 8px; padding-bottom: 8px; padding-left: 16px; padding-right: 16px;}"
       ],
