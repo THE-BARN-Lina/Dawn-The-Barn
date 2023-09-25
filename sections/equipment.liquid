@@ -137,33 +137,29 @@
 <div class="scroll-wrapper" style="">
   <div class="scroll-container">
     <div class="filter-buttons">
-      <button
-      class="filter-button"
-      >All</button>
+      <button class="filter-button">
+        {{ section.settings.button_all_content }}
+      </button>
     
-      <button
-
-      class="filter-button"
-      >Grinder</button>
+      <button class="filter-button">
+        {{ section.settings.button_grinder_content }}
+      </button>
     
-      <button
-      class="filter-button"
-      >Filters</button>
+      <button class="filter-button">
+        {{ section.settings.button_filters_content }}
+      </button>
 
-      <button
-      class="filter-button"
-      >Scales</button>
+      <button class="filter-button">
+        {{ section.settings.button_scales_content }}
+      </button>
 
-      <button
-      class="filter-button"
-      >Mugs</button>
+      <button class="filter-button">
+        {{ section.settings.button_mugs_content }}
+      </button>
 
-      <button
-
-      class="filter-button"
-      >Aeropress</button>
-
-    </div>
+      <button class="filter-button">
+        {{ section.settings.button_aeropress_content }}
+      </button>
     </div>
   </div>
 </div>
@@ -171,42 +167,76 @@
 
 
 {% schema %}
-
-  {
-    "name": "Rich Text",
-    "settings": [
-      {
-        "type": "richtext",
-        "id": "content",
-        "label": "Content",
-        "default": "<p>Your default rich text goes here...</p>"
-      },
-      {
-        "type": "header",
-        "content": "Styling Options"
-      },
-      {
-        "type": "color",
-        "id": "text_color",
-        "label": "Text Color"
-      },
-      {
-        "type": "range",
-        "id": "text_size",
-        "min": 12,
-        "max": 36,
-        "step": 1,
-        "unit": "px",
-        "label": "Text Size",
-        "default": 16
-      }
-    ],
-    "presets": [
-      {
-        "name": "Default",
-        "category": "Custom"
-      }
-    ]
-  }
-{% endschema %}
-
+    {
+      "name": "Button Link Manager",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Button: All"
+        },
+        {
+          "type": "richtext",
+          "id": "button_all_content",
+          "label": "All Button Content",
+          "default": "<p>Your default rich text for 'All' button goes here...</p>"
+        },
+        {
+          "type": "header",
+          "content": "Button: Grinder"
+        },
+        {
+          "type": "richtext",
+          "id": "button_grinder_content",
+          "label": "Grinder Button Content",
+          "default": "<p>Your default rich text for 'Grinder' button goes here...</p>"
+        },
+        {
+          "type": "header",
+          "content": "Button: Filters"
+        },
+        {
+          "type": "richtext",
+          "id": "button_filters_content",
+          "label": "Filters Button Content",
+          "default": "<p>Your default rich text for 'Filters' button goes here...</p>"
+        },
+        {
+          "type": "header",
+          "content": "Button: Scales"
+        },
+        {
+          "type": "richtext",
+          "id": "button_scales_content",
+          "label": "Scales Button Content",
+          "default": "<p>Your default rich text for 'Scales' button goes here...</p>"
+        },
+        {
+          "type": "header",
+          "content": "Button: Mugs"
+        },
+        {
+          "type": "richtext",
+          "id": "button_mugs_content",
+          "label": "Mugs Button Content",
+          "default": "<p>Your default rich text for 'Mugs' button goes here...</p>"
+        },
+        {
+          "type": "header",
+          "content": "Button: Aeropress"
+        },
+        {
+          "type": "richtext",
+          "id": "button_aeropress_content",
+          "label": "Aeropress Button Content",
+          "default": "<p>Your default rich text for 'Aeropress' button goes here...</p>"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Button Links",
+          "category": "Custom"
+        }
+      ]
+    }
+  {% endschema %}
+  
