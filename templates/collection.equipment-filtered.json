@@ -1,0 +1,96 @@
+{
+  "wrapper": "div#div_id.page-width",
+  "sections": {
+    "16618500908bb9c917": {
+      "type": "rich-text",
+      "blocks": {
+        "1661850090c55b6adb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h6><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">Coffee Beans<\/a> &gt; {{ collection.title }}<\/h6>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1661850090c55b6adb-0"
+      ],
+      "custom_css": [
+        ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text__blocks > * {font-weight: 100;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "ec292093-6b60-4489-ab04-f8b93ff9eecb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938055299339__ec292093-6b60-4489-ab04-f8b93ff9eecb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>{{ collection.title }}<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938055299339__ec292093-6b60-4489-ab04-f8b93ff9eecb-heading-1"
+      ],
+      "custom_css": [
+        ".rich-text {padding-left: 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-2"
+      }
+    },
+    "73703f50-8557-4a1a-a963-0d73cf690863": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "products_per_page": 36,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "quick_add_button_color": "#804d15",
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "16618500908bb9c917",
+    "ec292093-6b60-4489-ab04-f8b93ff9eecb",
+    "banner",
+    "73703f50-8557-4a1a-a963-0d73cf690863"
+  ]
+}
