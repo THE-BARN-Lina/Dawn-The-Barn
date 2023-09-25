@@ -6,7 +6,7 @@
         "da5ca3c2-1d2a-43ec-ba89-9c5a9dfad051": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Coffee Beans &gt; <\/p>{{ product.metafields.bean.roast_collection | metafield_tag }}",
+            "heading": "<p><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">Coffee Beans<\/a> &gt; <\/p>{{ product.metafields.bean.roast_collection | metafield_tag }}",
             "heading_size": "h2"
           }
         },
