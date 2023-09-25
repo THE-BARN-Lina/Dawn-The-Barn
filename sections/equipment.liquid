@@ -155,34 +155,12 @@
       data-tag="All">All</button>
     
       <button
-      onclick="filterByTag('Grinders')"
+      onclick="filterByTag('Grinder')"
       class="filter-button"
-      data-tag="Grinders">Grinders</button>
-    
-      <button
-      onclick="filterByTag('Filters')"
-      class="filter-button"
-      data-tag="Filters">Filters</button>
+      data-tag="Grinder">Grinders</button>
 
-      <button
-      onclick="filterByTag('Scales')"
-      class="filter-button"
-      data-tag="Scales">Scales</button>
 
-      <button
-      onclick="filterByTag('Mugs')"
-      class="filter-button"
-      data-tag="Mugs">Mugs</button>
-
-      <button
-      onclick="filterByTag('Aeropress')"
-      class="filter-button"
-      data-tag="Aeropress">Aeropress</button>
-
-      <button
-      onclick="filterByTag('Others')"
-      class="filter-button"
-      data-tag="Others">Others</button>
+   
     </div>
     </div>
   </div>
@@ -266,6 +244,9 @@
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
               {%- for product in collection.products -%}
+                {{ product.type }}<br>
+             {%- endfor -%}
+              {%- for product in collection.products -%}
                 {% if product.type == "Equipment" %}
                     {% assign lazy_load = false %}
                     {%- if forloop.index > 2 -%}
@@ -303,10 +284,6 @@
     </div>
   </div>
 </div>
-
-
-
-
 
 
 {% schema %}
