@@ -26,7 +26,8 @@
       ],
       "custom_css": [
         ".rich-text {padding-top: 0; padding-left: 0;}",
-        ".rich-text__blocks > * {font-weight: 100;}"
+        ".rich-text__blocks > * {font-weight: 100;}",
+        ".rich-text__wrapper {padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
