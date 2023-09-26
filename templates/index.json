@@ -147,7 +147,7 @@
         "show_vendor": false,
         "show_tastenotes": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 100,
