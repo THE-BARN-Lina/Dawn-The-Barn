@@ -15,6 +15,7 @@
         "da5ca3c2-1d2a-43ec-ba89-9c5a9dfad051"
       ],
       "custom_css": [
+        ".rich-text__heading {display: flex; align-items: baseline; gap: 4px; padding-left: 1px; font-size: 10.75px;}",
         "@media (max-width: 410px) {.rich-text__wrapper {padding-left: 1px; }}"
       ],
       "settings": {
