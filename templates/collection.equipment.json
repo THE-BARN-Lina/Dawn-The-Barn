@@ -7,7 +7,7 @@
         "e66bee7c-7d07-4518-bf83-2879b4f4828b": {
           "type": "heading",
           "settings": {
-            "heading": "<p>SPECIALTY COFFEE GRINDERS<\/p>",
+            "heading": "<p>SPECIALTY COFFEE EQUIPMENT<\/p>",
             "heading_size": "h2"
           }
         }
@@ -16,12 +16,11 @@
         "e66bee7c-7d07-4518-bf83-2879b4f4828b"
       ],
       "custom_css": [
-        ".rich-text {padding-left: 0;}",
-        ".rich-text__wrapper {padding-left: 0;}"
+
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 52,
