@@ -15,6 +15,9 @@
       "block_order": [
         "1007c9b7-36cd-444b-b54c-c21721e06210"
       ],
+      "custom_css": [
+        ".banner {object-fit: }"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_8231.jpg",
         "image_overlay_opacity": 0,
