@@ -99,7 +99,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 12,
         "columns_desktop": 3,
@@ -120,7 +119,6 @@
     },
     "1661760318e2b0a378": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
@@ -183,7 +181,6 @@
         "1661851829e57354d7-2",
         "3fda16a3-fa25-493a-b088-8cd83bb91e7e"
       ],
-      "disabled": true,
       "settings": {
         "title": "DISCOVER MORE",
         "heading_size": "h2",
@@ -199,6 +196,7 @@
     },
     "2cac0ea0-d9da-48a9-8055-659dcb36a671": {
       "type": "feature-collection-custom",
+      "disabled": true,
       "settings": {
         "title": "Coffee Grinders",
         "heading_size": "h1",
@@ -229,6 +227,7 @@
     },
     "add639fc-4939-4d06-944d-b7b569b569c7": {
       "type": "feature-collection-custom",
+      "disabled": true,
       "settings": {
         "title": "Coffee Filter",
         "heading_size": "h1",
@@ -259,6 +258,7 @@
     },
     "ad6852aa-771e-4177-92e1-fa7f3554ce82": {
       "type": "feature-collection-custom",
+      "disabled": true,
       "settings": {
         "title": "Coffee Mugs",
         "heading_size": "h1",
@@ -289,6 +289,7 @@
     },
     "d609f03a-50cf-4cdd-851d-4a69786f42ba": {
       "type": "feature-collection-custom",
+      "disabled": true,
       "settings": {
         "title": "Coffee Scales",
         "heading_size": "h1",
@@ -319,6 +320,7 @@
     },
     "1a6184bd-aa13-4355-9b70-87160239c819": {
       "type": "feature-collection-custom",
+      "disabled": true,
       "settings": {
         "title": "Coffee Aeropress",
         "heading_size": "h1",
