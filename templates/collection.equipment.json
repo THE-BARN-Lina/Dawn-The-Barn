@@ -226,7 +226,6 @@
     },
     "add639fc-4939-4d06-944d-b7b569b569c7": {
       "type": "feature-collection-custom",
-      "disabled": true,
       "settings": {
         "title": "Coffee Filter",
         "heading_size": "h1",
