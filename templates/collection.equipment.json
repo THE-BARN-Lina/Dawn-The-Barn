@@ -189,6 +189,7 @@
     },
     "8f3168b4-74b6-4a0b-a3f5-0dcad0e783c4": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Coffee Grinders",
         "heading_size": "h2",
