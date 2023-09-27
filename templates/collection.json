@@ -23,9 +23,13 @@
       "block_order": [
         "template--17938055299339__9af643a6-5225-437e-9fc2-3763d926fe43-text-1"
       ],
+      "custom_css": [
+        ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text__wrapper {padding-left: 0;}"
+      ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
