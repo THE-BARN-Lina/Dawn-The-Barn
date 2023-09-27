@@ -7,7 +7,7 @@
         "e66bee7c-7d07-4518-bf83-2879b4f4828b": {
           "type": "heading",
           "settings": {
-            "heading": "<p>SPECIALTY COFFEE EQUIPMENT<\/p>",
+            "heading": "<h6>Equipment<\/h6>",
             "heading_size": "h2"
           }
         }
@@ -16,11 +16,13 @@
         "e66bee7c-7d07-4518-bf83-2879b4f4828b"
       ],
       "custom_css": [
-
+        ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text__blocks > * {font-weight: 100;}",
+        ".rich-text__wrapper {padding-left: 0;}"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 52,
@@ -41,7 +43,6 @@
       "block_order": [
         "1661850090c55b6adb-0"
       ],
-      "disabled": true,
       "custom_css": [
         ".rich-text {padding-left: 0;}",
         ".rich-text__wrapper {padding-left: 0;}"
@@ -51,7 +52,7 @@
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 52,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
