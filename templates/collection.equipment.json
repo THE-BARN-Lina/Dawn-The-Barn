@@ -256,7 +256,6 @@
     },
     "ad6852aa-771e-4177-92e1-fa7f3554ce82": {
       "type": "feature-collection-custom",
-      "disabled": true,
       "settings": {
         "title": "Coffee Mugs",
         "heading_size": "h1",
