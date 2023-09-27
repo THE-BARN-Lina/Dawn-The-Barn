@@ -15,7 +15,6 @@
       "block_order": [
         "1007c9b7-36cd-444b-b54c-c21721e06210"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_8231.jpg",
         "image_overlay_opacity": 0,
@@ -85,6 +84,8 @@
       ],
       "disabled": true,
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -108,6 +109,7 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "quick_add_button_color": "#68431b",
@@ -124,6 +126,7 @@
       "settings": {
         "title": "BEANS",
         "heading_size": "h1",
+        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -139,6 +142,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
