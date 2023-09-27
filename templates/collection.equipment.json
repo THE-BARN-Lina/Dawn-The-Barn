@@ -99,6 +99,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 12,
         "columns_desktop": 3,
@@ -119,6 +120,7 @@
     },
     "1661760318e2b0a378": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
@@ -181,6 +183,7 @@
         "1661851829e57354d7-2",
         "3fda16a3-fa25-493a-b088-8cd83bb91e7e"
       ],
+      "disabled": true,
       "settings": {
         "title": "DISCOVER MORE",
         "heading_size": "h2",
@@ -286,7 +289,6 @@
     },
     "d609f03a-50cf-4cdd-851d-4a69786f42ba": {
       "type": "feature-collection-custom",
-      "disabled": true,
       "settings": {
         "title": "Coffee Scales",
         "heading_size": "h1",
@@ -317,7 +319,6 @@
     },
     "1a6184bd-aa13-4355-9b70-87160239c819": {
       "type": "feature-collection-custom",
-      "disabled": true,
       "settings": {
         "title": "Coffee Aeropress",
         "heading_size": "h1",
