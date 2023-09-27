@@ -25,15 +25,16 @@
         "template--17938055299339__10ee9e44-c164-4d45-a9de-059e9c97ecb9-heading-1"
       ],
       "custom_css": [
-
+        ".rich-text {padding-left: 0;}",
+        ".rich-text__wrapper {padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "73703f50-8557-4a1a-a963-0d73cf690863": {
