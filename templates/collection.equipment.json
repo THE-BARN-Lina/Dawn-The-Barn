@@ -1,6 +1,29 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
+    "cd271ffb-fd1f-4fcb-9ef9-b20bdf12d93d": {
+      "type": "rich-text",
+      "blocks": {
+        "e66bee7c-7d07-4518-bf83-2879b4f4828b": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SPECIALTY COFFEE EQUIPMENT<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "e66bee7c-7d07-4518-bf83-2879b4f4828b"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
     "16618500908bb9c917": {
       "type": "rich-text",
       "blocks": {
@@ -15,12 +38,14 @@
       "block_order": [
         "1661850090c55b6adb-0"
       ],
+      "disabled": true,
       "custom_css": [
-
+        ".rich-text {padding-left: 0;}",
+        ".rich-text__wrapper {padding-left: 0;}"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 52,
@@ -160,6 +185,7 @@
     }
   },
   "order": [
+    "cd271ffb-fd1f-4fcb-9ef9-b20bdf12d93d",
     "16618500908bb9c917",
     "9df8aec3-9e35-42c0-adf3-3244db596cd7",
     "banner",
