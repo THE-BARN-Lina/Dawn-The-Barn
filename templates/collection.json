@@ -59,19 +59,8 @@
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 32,
+        "padding_top": 0,
         "padding_bottom": 32
-      }
-    },
-    "598b5190-08d0-498b-a4f1-40dbe775bb8a": {
-      "type": "equipment",
-      "settings": {
-        "button_all_content": "<p><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">All<\/a><\/p>",
-        "button_grinder_content": "<p><a href=\"\/collections\/coffee-grinders\" title=\"Coffee Grinders | THE BARN Coffee Roasters\">Grinders<\/a><\/p>",
-        "button_filters_content": "<p><a href=\"\/collections\/coffee-filter-equipment\" title=\"Coffee Filter Equipment | THE BARN Coffee Roasters\">Filter<\/a><\/p>",
-        "button_scales_content": "<p><a href=\"\/collections\/coffee-scales\" title=\"Coffee Scales  | THE BARN Coffee Roasters\">Scales<\/a><\/p>",
-        "button_mugs_content": "<p><a href=\"\/collections\/coffee-mugs\" title=\"Coffee Mugs | THE BARN Coffee Roasters\">Mugs<\/a><\/p>",
-        "button_aeropress_content": "<p><a href=\"\/collections\/aeropress-equipment\" title=\"Aeropress Equipment | THE BARN Coffee Roasters\">Aeropress<\/a><\/p>"
       }
     },
     "73703f50-8557-4a1a-a963-0d73cf690863": {
@@ -102,7 +91,6 @@
     "banner",
     "9af643a6-5225-437e-9fc2-3763d926fe43",
     "10ee9e44-c164-4d45-a9de-059e9c97ecb9",
-    "598b5190-08d0-498b-a4f1-40dbe775bb8a",
     "73703f50-8557-4a1a-a963-0d73cf690863"
   ]
 }
