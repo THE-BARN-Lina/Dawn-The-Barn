@@ -187,18 +187,47 @@
         "padding_bottom": 36
       }
     },
-    "8f3168b4-74b6-4a0b-a3f5-0dcad0e783c4": {
-      "type": "featured-collection",
-      "disabled": true,
+    "2cac0ea0-d9da-48a9-8055-659dcb36a671": {
+      "type": "feature-collection-custom",
       "settings": {
         "title": "Coffee Grinders",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "coffee-grinders",
         "products_to_show": 3,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "add639fc-4939-4d06-944d-b7b569b569c7": {
+      "type": "feature-collection-custom",
+      "settings": {
+        "title": "Coffee Filter",
+        "heading_size": "h1",
+        "description_heading_2": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "coffee-filter-equipment",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
@@ -228,6 +257,7 @@
     "product-grid",
     "1661760318e2b0a378",
     "166185182978c04b4e",
-    "8f3168b4-74b6-4a0b-a3f5-0dcad0e783c4"
+    "2cac0ea0-d9da-48a9-8055-659dcb36a671",
+    "add639fc-4939-4d06-944d-b7b569b569c7"
   ]
 }
