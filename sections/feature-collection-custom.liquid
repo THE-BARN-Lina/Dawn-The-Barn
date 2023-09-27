@@ -88,7 +88,7 @@ Coutom Code:
           <h2>{{ section.settings.title | escape }}</h2>
         {%- endif -%}
 
-        {%- if section.settings.show_view_all and more_in_collection -%}
+        {%- if section.settings.show_view_all -%}
           <div class="">
             <a
               href="{{ section.settings.collection.url }}"
