@@ -1,0 +1,96 @@
+{
+  "wrapper": "div#div_id.page-width",
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-2"
+      }
+    },
+    "9af643a6-5225-437e-9fc2-3763d926fe43": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938055299339__9af643a6-5225-437e-9fc2-3763d926fe43-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">Equipment<\/a> &gt; Coffee Filter<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938055299339__9af643a6-5225-437e-9fc2-3763d926fe43-text-1"
+      ],
+      "custom_css": [
+        ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text__wrapper {padding-left: 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "10ee9e44-c164-4d45-a9de-059e9c97ecb9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938055299339__10ee9e44-c164-4d45-a9de-059e9c97ecb9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SPECIALTY COFFEE FILTER<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938055299339__10ee9e44-c164-4d45-a9de-059e9c97ecb9-heading-1"
+      ],
+      "custom_css": [
+        ".rich-text {padding-left: 0;}",
+        ".rich-text__wrapper {padding-left: 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "73703f50-8557-4a1a-a963-0d73cf690863": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "products_per_page": 36,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "quick_add_button_color": "#804d15",
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "9af643a6-5225-437e-9fc2-3763d926fe43",
+    "10ee9e44-c164-4d45-a9de-059e9c97ecb9",
+    "73703f50-8557-4a1a-a963-0d73cf690863"
+  ]
+}
