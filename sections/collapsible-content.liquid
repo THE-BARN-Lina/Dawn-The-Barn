@@ -41,13 +41,7 @@
 .page-width-custom{
   padding: 0 1.8rem;
 }
-  .img-container-collapsible{
-      width: 100%; /* or any specific width */
-  height: 562px; /* or any specific height */
-  display: flex;
-  justify-content: center; /* centers horizontally */
-  align-items: center; /* centers vertically */
-  }
+
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -77,7 +71,7 @@
           {%- if section.settings.image != blank -%}
             <div class="grid__item collapsible-content__grid-item">
               <div
-                class="img-container-collapsible collapsible-content__media collapsible-content__media--{{ section.settings.image_ratio }} media global-media-settings gradient"
+                class="collapsible-content__media collapsible-content__media--{{ section.settings.image_ratio }} media global-media-settings gradient"
                 {% if section.settings.image_ratio == 'adapt' %}
                 style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
                 {% endif %}>
