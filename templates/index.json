@@ -69,7 +69,7 @@
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center; margin-top: 5rem;}",
+        ".collection__title {text-align: center; margin-top: 2rem;}",
         ".collection {border-bottom: 2px solid #804d15;}",
         "a {text-decoration: none;}"
       ],
