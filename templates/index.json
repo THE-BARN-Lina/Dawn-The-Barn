@@ -189,7 +189,7 @@
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
       ],
       "custom_css": [
-        ".multirow__inner {padding-left: 1.6rem; padding-bottom:2rem;}"
+        ".multirow__inner {padding-left: 1.6rem; padding-bottom: 2rem;}"
       ],
       "settings": {
         "image_height": "adapt",
@@ -324,17 +324,15 @@
         "ebcf916f-48b7-4d4a-94fc-dc5e453dd19d"
       ],
       "custom_css": [
-        "p {font-size: 16px;}",
-        ".collapsible-content {min-width: 100vw; background-color: black;}",
-        ".collapsible-content__wrapper {padding-bottom: 10rem;}"
+
       ],
       "settings": {
         "caption": "THE BARN IN BERLIN",
         "heading": "OPENING HOURS",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "section",
-        "color_scheme": "inverse",
+        "layout": "row",
+        "color_scheme": "background-2",
         "container_color_scheme": "background-1",
         "open_first_collapsible_row": false,
         "image": "shopify:\/\/shop_images\/Chemex_Berlin_877ce3a4-95d1-46f5-8586-a068781d7067.jpg",
