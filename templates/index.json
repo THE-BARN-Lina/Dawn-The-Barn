@@ -192,8 +192,8 @@
         ".multirow__inner {padding-left: 1.6rem; padding-bottom: 2rem;}"
       ],
       "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "small",
+        "image_height": "small",
+        "desktop_image_width": "medium",
         "heading_size": "h2",
         "text_style": "body",
         "button_style": "primary",
