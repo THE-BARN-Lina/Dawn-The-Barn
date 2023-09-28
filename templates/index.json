@@ -1,58 +1,5 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "BREW · SIP · REMEMBER",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "THE BARN IS A DIFFERENT COFFEE EXPERIENCE",
-            "text_style": "body"
-          }
-        },
-        "37a278ca-83ba-47c2-9df7-d3fb30ab3569": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SUBSCRIPTIONS",
-            "button_link_1": "shopify:\/\/collections\/coffee-subscription",
-            "button_style_secondary_1": false,
-            "button_label_2": "BUY BEANS",
-            "button_link_2": "shopify:\/\/collections\/coffee-beans",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "37a278ca-83ba-47c2-9df7-d3fb30ab3569"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h1 {width: 100%; font-size: 32px; padding: 0; margin: 0;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Hero_landing_page_THE_BARN_Specialty_coffee_roasters_619ae834-de2c-4c40-bd81-80bc1c03065a.png",
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "befa68a6-1035-4cea-bf06-95f308026d4b": {
       "type": "image-banner",
       "blocks": {
@@ -122,7 +69,7 @@
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center;}",
+        ".collection__title {text-align: center; margin-top:7rem;}",
         ".collection {border-bottom: 2px solid #804d15;}",
         "a {text-decoration: none;}"
       ],
@@ -555,7 +502,6 @@
     }
   },
   "order": [
-    "image_banner",
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527",
     "1653387743507b82e2",
