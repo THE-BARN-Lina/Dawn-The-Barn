@@ -16,20 +16,24 @@
         "template--17938055299339__9af643a6-5225-437e-9fc2-3763d926fe43-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">Equipment<\/a> &gt; Coffee Grinders<\/h6>"
+            "text": "<p>{{ collection.title }}<\/p>"
           }
         }
       },
       "block_order": [
         "template--17938055299339__9af643a6-5225-437e-9fc2-3763d926fe43-text-1"
       ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 68
       }
     },
     "10ee9e44-c164-4d45-a9de-059e9c97ecb9": {
