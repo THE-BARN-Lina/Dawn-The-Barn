@@ -3,6 +3,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        ".collection-hero__inner {padding-left: 0px;}"
+      ],
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
