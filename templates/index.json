@@ -324,8 +324,7 @@
         "ebcf916f-48b7-4d4a-94fc-dc5e453dd19d"
       ],
       "custom_css": [
-        ".collapsible-content {margin-top: 6rem;}",
-        "img {max-height: 562px; display: block;}"
+        ".collapsible-content {margin-top: 6rem;}"
       ],
       "settings": {
         "caption": "opening hours",
