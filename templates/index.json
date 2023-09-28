@@ -325,8 +325,7 @@
       ],
       "custom_css": [
         ".collapsible-content {margin-top: 6rem;}",
-        ".collapsible-content__media {width: 100%; height: 562px; display: flex; justify-content: center; align-items: center;}",
-        "img {max-height: 562px; display: block; }"
+        "img {max-height: 562px; display: block;}"
       ],
       "settings": {
         "caption": "opening hours",

@@ -41,6 +41,13 @@
 .page-width-custom{
   padding: 0 1.8rem;
 }
+  .img-container-collapsible{
+      width: 100%; /* or any specific width */
+  height: 562px; /* or any specific height */
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -74,6 +81,7 @@
                 {% if section.settings.image_ratio == 'adapt' %}
                 style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
                 {% endif %}>
+                <section class='img-container-collapsible'>
                 <img
                   srcset="{%- if section.settings.image.width >= 165 -%}
                   {{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -96,6 +104,7 @@
                 loading="lazy"
                 width="{{ section.settings.image.width }}"
                 height="{{ section.settings.image.height }}">
+                </section>
               </div>
             </div>
           {% endif %}
