@@ -96,6 +96,9 @@
         "template--17938055299339__094f8d39-c1ca-4446-b6c8-20efbda4341e-featured_collection-3",
         "0ed72ccc-119a-46b1-a66f-0fb40180f02d"
       ],
+      "custom_css": [
+        ". {padding: 0 5rem;}"
+      ],
       "settings": {
         "title": "DISCOVER MORE",
         "heading_size": "h2",
