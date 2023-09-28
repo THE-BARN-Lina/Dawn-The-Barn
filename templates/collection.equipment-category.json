@@ -25,6 +25,7 @@
       ],
       "custom_css": [
         ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text h6{font-weight: 100;}",
         ".rich-text__wrapper {padding-left: 0;}"
       ],
       "settings": {
