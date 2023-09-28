@@ -325,7 +325,7 @@
       ],
       "custom_css": [
         ".collapsible-content {margin-top: 6rem;}",
-        "@media (min-width: 750px) {.collapsible-content {margin-bottom: -5rem;}}",
+        "@media (max-width: 750px) {.collapsible-content {margin-bottom: -15rem; }}",
         "img {max-height: 562px;}"
       ],
       "settings": {
