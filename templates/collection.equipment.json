@@ -1,34 +1,6 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
-    "cd271ffb-fd1f-4fcb-9ef9-b20bdf12d93d": {
-      "type": "rich-text",
-      "blocks": {
-        "e66bee7c-7d07-4518-bf83-2879b4f4828b": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h6><strong>Equipment<\/strong><\/h6>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "e66bee7c-7d07-4518-bf83-2879b4f4828b"
-      ],
-      "custom_css": [
-        ".rich-text {padding-top: 0; padding-left: 0;}",
-        ".rich-text__blocks > * {font-weight: 100;}",
-        ".rich-text__wrapper {padding-left: 0;}"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "16618500908bb9c917": {
       "type": "rich-text",
       "blocks": {
@@ -308,7 +280,6 @@
     }
   },
   "order": [
-    "cd271ffb-fd1f-4fcb-9ef9-b20bdf12d93d",
     "16618500908bb9c917",
     "9df8aec3-9e35-42c0-adf3-3244db596cd7",
     "banner",
