@@ -1,5 +1,5 @@
 {
-  "parent": "collection.coffee-beans.json",
+  "parent": "collection.filter-beans.json",
   "context": {
     "market": "de"
   },
