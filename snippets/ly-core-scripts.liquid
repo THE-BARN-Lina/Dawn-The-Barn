@@ -1,4 +1,4 @@
-{%- comment -%}Version 4.1.3{%- endcomment -%}
+{%- comment -%}Version 4.1.4{%- endcomment -%}
 {%- comment -%}
   !!! IMPORTANT !!!
   This file has been automatically created by Langify.
@@ -539,7 +539,8 @@
           if (node.nodeType === 3) {
             translateTextNode(node, info);
           }
-          translateNodeAttrs(node);
+          var attributes = ['placeholder','title']
+          attributes.forEach(attribute => translateNodeAttrs(node,attribute));
         }
         // Links-Hook
         if (node.nodeName  === 'A' || node.nodeName  === 'FORM' || node.nodeName  === 'IMG') {
@@ -566,11 +567,11 @@
         }
       }
     
-      function translateNodeAttrs(node) {
-        if (node.attributes && node.getAttribute('placeholder')) {
-          var src = node.getAttribute('placeholder').trim().replace(/(\r\n|\n|\r)/gim,"").replace(/\s+/g," ").toLowerCase();
-          if(customContents_text[src] && node.getAttribute('placeholder') !== customContents_text[src]) {
-            node.setAttribute('placeholder', customContents_text[src]);
+      function translateNodeAttrs(node,attribute) {
+        if (node.attributes && node.getAttribute(attribute)) {
+          var src = node.getAttribute(attribute).trim().replace(/(\r\n|\n|\r)/gim,"").replace(/\s+/g," ").toLowerCase();
+          if(customContents_text[src] && node.getAttribute(attribute) !== customContents_text[src]) {
+            node.setAttribute(attribute, customContents_text[src]);
           }
         }
       }
