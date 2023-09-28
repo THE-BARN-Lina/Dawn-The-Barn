@@ -97,7 +97,7 @@
         "0ed72ccc-119a-46b1-a66f-0fb40180f02d"
       ],
       "custom_css": [
-
+        ".title-wrapper-with-link {justify-content: center;}"
       ],
       "settings": {
         "title": "DISCOVER MORE",
