@@ -131,7 +131,7 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5"
         ],
         "custom_css": [
-          ".announcement-bar__link {display: flex; width: 100%; height: 42.18px; align-items: center; padding: 1.6rem 2rem; text-decoration: none; justify-content: space-around;}"
+          ".announcement-bar__link {display: flex; width: 100%; height: 39px; align-items: center; padding: 1.6rem 2rem; text-decoration: none; justify-content: space-around;}"
         ],
         "settings": {
         }
