@@ -142,23 +142,23 @@
     "6a18f674-22d9-4a60-96d7-31ce41111305": {
       "type": "multicolumn",
       "blocks": {
-        "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-1": {
+        "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/top-view-xmas-decoration-with-mock-up_23-2148318042_1.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Copy_of_IMG_3037.heic",
+            "title": "Brewed Delights Await",
+            "text": "<p>Savor the season! Behind each door: a coffee revelation and unexpected treats.<\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
           }
         },
-        "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-2": {
+        "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/close-up-mystery-box_1.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/woman_box_xmas.png",
+            "title": "Joyful Countdown",
+            "text": "<p>Unwrap a daily dose of brew-tiful delight! 24 unique coffees await, with a sprinkle of surprises.<\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
@@ -167,9 +167,9 @@
         "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/presents-christmas-tree_1.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Advent_Calendar_03.jpg",
+            "title": "Seasonal Sips & Surprises",
+            "text": "<p>Countdown to Christmas with a cup of joy. Discover a new coffee daily, plus bonus surprises!<\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
@@ -177,15 +177,15 @@
         }
       },
       "block_order": [
-        "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-1",
         "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-2",
+        "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-1",
         "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-3"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
