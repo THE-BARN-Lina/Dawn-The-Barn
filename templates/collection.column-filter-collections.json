@@ -17,7 +17,8 @@
       ],
       "custom_css": [
         ".rich-text {padding-top: 0; padding-left: 0;}",
-        ".rich-text__blocks > * {font-weight: 100;}"
+        ".rich-text__blocks > * {font-weight: 100;}",
+        ".rich-text__wrapper {padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -43,7 +44,8 @@
         "template--17938055299339__ec292093-6b60-4489-ab04-f8b93ff9eecb-heading-1"
       ],
       "custom_css": [
-        ".rich-text {padding-left: 0;}"
+        ".rich-text {padding-left: 0;}",
+        ".rich-text__wrapper{padding-left: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
