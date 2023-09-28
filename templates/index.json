@@ -207,96 +207,6 @@
         "padding_bottom": 64
       }
     },
-    "16515783060899e67e": {
-      "type": "image-with-text",
-      "blocks": {
-        "1651578306681188a7-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "UNCOMPROMISED QUALITY",
-            "heading_size": "h2"
-          }
-        },
-        "1651578306681188a7-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Through personal farm relationships we build quality from the start. Our integrated approach connects all stages to create excellent coffee: sourcing, roasting and serving the perfect cup.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1651578306681188a7-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "OUR STORY",
-            "button_link": "shopify:\/\/pages\/aboutus"
-          }
-        }
-      },
-      "block_order": [
-        "1651578306681188a7-0",
-        "1651578306681188a7-1",
-        "1651578306681188a7-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_4336_5be77347-14f8-4801-b1ca-a404681b649a.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
-    },
-    "2305f7a5-5440-4421-9cde-52a2ea77bf67": {
-      "type": "image-with-text",
-      "blocks": {
-        "b8ce0f87-8c5c-4a58-bc11-90a85a92166b": {
-          "type": "heading",
-          "settings": {
-            "heading": "TRIAL COFFEE SUBSCRIPTION",
-            "heading_size": "h1"
-          }
-        },
-        "4464d293-f0fb-43af-9cb8-e6bd7f27ab5d": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Receive two samples of our current subscription coffees, on the house: choose <strong>Filter <\/strong>or <strong>Espresso<\/strong><\/p>",
-            "text_style": "body"
-          }
-        },
-        "cf753e04-3f11-42d4-86f3-b384f0e66d28": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER NOW",
-            "button_link": "shopify:\/\/products\/coffee-trial-subscription"
-          }
-        }
-      },
-      "block_order": [
-        "b8ce0f87-8c5c-4a58-bc11-90a85a92166b",
-        "4464d293-f0fb-43af-9cb8-e6bd7f27ab5d",
-        "cf753e04-3f11-42d4-86f3-b384f0e66d28"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/custom_resized_5.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2": {
       "type": "collapsible-content",
       "blocks": {
@@ -509,8 +419,6 @@
     "165339081846c57155",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
-    "16515783060899e67e",
-    "2305f7a5-5440-4421-9cde-52a2ea77bf67",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "75eff281-de2b-40c2-ad6c-15f07b99126c",
     "9548d051-e9a3-422f-91dd-584c92a394fd"
