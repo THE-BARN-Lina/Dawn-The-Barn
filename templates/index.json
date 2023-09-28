@@ -327,9 +327,9 @@
 
       ],
       "settings": {
-        "caption": "THE BARN IN BERLIN",
-        "heading": "OPENING HOURS",
-        "heading_size": "h1",
+        "caption": "opening hours",
+        "heading": "THE BARN IN BERLIN",
+        "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "background-1",
