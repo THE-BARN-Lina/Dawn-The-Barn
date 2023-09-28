@@ -34,6 +34,9 @@
     },
     "0f774690-90ab-4999-8c69-cc5e90cd2424": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center;}"
+      ],
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h2",
