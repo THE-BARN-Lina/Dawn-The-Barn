@@ -77,11 +77,11 @@
           {%- if section.settings.image != blank -%}
             <div class="grid__item collapsible-content__grid-item">
               <div
-                class="collapsible-content__media collapsible-content__media--{{ section.settings.image_ratio }} media global-media-settings gradient"
+                class="img-container-collapsible collapsible-content__media collapsible-content__media--{{ section.settings.image_ratio }} media global-media-settings gradient"
                 {% if section.settings.image_ratio == 'adapt' %}
                 style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
                 {% endif %}>
-                <section class='img-container-collapsible'>
+            
                 <img
                   srcset="{%- if section.settings.image.width >= 165 -%}
                   {{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -104,7 +104,7 @@
                 loading="lazy"
                 width="{{ section.settings.image.width }}"
                 height="{{ section.settings.image.height }}">
-                </section>
+          
               </div>
             </div>
           {% endif %}
