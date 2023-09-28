@@ -324,8 +324,8 @@
         "ebcf916f-48b7-4d4a-94fc-dc5e453dd19d"
       ],
       "custom_css": [
-        ".collapsible-content {margin-top: 6rem;}",
-        "@media (max-width: 750px) {.collapsible-content {margin-bottom: -15rem; }}",
+        ".collapsible-content {margin-top: 6rem; margin-bottom: -4rem;}",
+        "@media (max-width: 750px) {.collapsible-content {margin-bottom: -4rem; }}",
         "img {max-height: 562px;}"
       ],
       "settings": {
