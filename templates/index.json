@@ -326,7 +326,7 @@
       "custom_css": [
         ".collapsible-content {margin-top: 6rem; margin-bottom: -14rem;}",
         "@media (max-width: 750px) {.collapsible-content {margin-bottom: -4rem; }}",
-        "img {min-height:562px; max-height: 562px;}"
+        "img {max-height: 562px;}"
       ],
       "settings": {
         "caption": "opening hours",
@@ -338,7 +338,7 @@
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
         "image": "shopify:\/\/shop_images\/cafes_THE_BARN_Schonhauser_Allee_4.jpg",
-        "image_ratio": "adapt",
+        "image_ratio": "large",
         "desktop_layout": "image_second",
         "padding_top": 16,
         "padding_bottom": 16
