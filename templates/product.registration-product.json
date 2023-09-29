@@ -17,7 +17,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "REGISRATION COSTS:",
+            "text": "REGISTRATION COSTS:",
             "text_style": "uppercase"
           }
         },
