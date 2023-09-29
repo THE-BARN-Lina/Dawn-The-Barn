@@ -6,7 +6,7 @@
         "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
           "type": "heading",
           "settings": {
-            "heading": "GESHA VILLAGE",
+            "heading": "BUENA VISTA",
             "heading_size": "h1"
           }
         },
@@ -21,7 +21,7 @@
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
           "type": "text",
           "settings": {
-            "text": "Explore the origin of the worlds most famous coffee.",
+            "text": "A RARE PACAMARA FROM GUATEMALA.",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -29,7 +29,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "ORDER NOW",
-            "button_link_1": "shopify:\/\/products\/gesha-village",
+            "button_link_1": "shopify:\/\/products\/buena-vista",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -51,8 +51,8 @@
         ".banner__text {font-size: 16px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LANDING-GESHA-VILLAGE-GRADIENT.png",
-        "image_2": "shopify:\/\/shop_images\/LANDING-GESHA-VILLAGE_1_ea20229f-5335-44d8-a393-7c161db3fe3c.png",
+        "image": "shopify:\/\/shop_images\/LANDING-PURPLE-GESHA.png",
+        "image_2": "shopify:\/\/shop_images\/Buena_Vista_Landing.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
