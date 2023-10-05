@@ -154,7 +154,26 @@
           "menu_type_desktop": "mega",
           "show_line_separator": false,
           "enable_sticky_header": true,
-          "margin_bottom": 0
+          "margin_bottom": 0,
+          "subscription_image_1": "shopify:\/\/shop_images\/TRIAL_SUBSCRIPTION.webp",
+          "subscription_link_1": "shopify:\/\/products\/coffee-trial-subscription",
+          "subscription_label_1": "TRIAL SUBSCRIPTION",
+          "subscription_link_2": "",
+          "subscription_label_2": "Label",
+          "subscription_link_3": "",
+          "subscription_label_3": "Label",
+          "shop_link_1": "",
+          "shop_label_1": "Label",
+          "shop_link_2": "",
+          "shop_label_2": "Label",
+          "shop_link_3": "",
+          "shop_label_3": "Label",
+          "blog_link_1": "",
+          "blog_label_1": "Label",
+          "blog_link_2": "",
+          "blog_label_2": "Label",
+          "blog_link_3": "",
+          "blog_label_3": "Label"
         }
       },
       "footer": {
