@@ -192,7 +192,7 @@
         ".multirow__inner {padding-left: 1.6rem; padding-bottom: 2rem;}"
       ],
       "settings": {
-        "image_height": "small",
+        "image_height": "medium",
         "desktop_image_width": "medium",
         "heading_size": "h2",
         "text_style": "body",
