@@ -829,6 +829,7 @@ input.mobile-facets__checkbox {
   transition: background-color 0.2s ease;
   word-break: break-word;
   display: flex;
+  color:white;
 }
 
 .mobile-facets__label > svg {
