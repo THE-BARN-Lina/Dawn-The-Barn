@@ -95,6 +95,8 @@
 .list-menu__item{
   color: black !important;
   font-weight: bold !important;
+  text-decoration: none !important;
+
 }
 .list-menu--inline {
   color: black !important;
@@ -106,7 +108,8 @@
   fill: black !important;
 }
 .list-menu__item:hover {
-  color: #804d15 !important;
+  color:black;
+  text-decoration:none;
 }
 //////////////////////////////////////////////
 
@@ -199,7 +202,9 @@ a{
   margin-right: 1rem;
 }
 .header__active-menu-item{
-  color: rgb(128, 77, 21) !important;
+  color: black;
+  text-decoration:none !important;
+
 }
 .burger_switcher_container{
   display:flex;
@@ -214,32 +219,37 @@ a{
   display:flex;
 }
 
-.mega-menu__content {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.9s ease, visibility 0.9s ease;
-}
-
-.mega-menu[open] .mega-menu__content {
-  opacity: 1;
-  visibility: visible;
-}
-
-@keyframes fake-scroll {
-  from {
-    margin-top: 1px;
-  }
-  to {
-    margin-top: 0;
-  }
-}
-
-
-
-
 ///////////////////////////////////////////
 
-
+.container-right-mega-menu {
+  background-color: #ffffff;
+  height: 260px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container-right-mega-menu-item {
+  height: 220px;
+  width: 220px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.li-mega-menu {
+  display: flex;
+  flex-direction: row;
+  width: 260px;
+}
+.mega-menu__list {
+  padding: 0px;
+}
+.list-menu__item {
+  color: black;
+}
 {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
@@ -432,8 +442,7 @@ a{
         </details>
       </header-drawer>
     {%- endif -%}
-    {% comment %} Language Switcher in Menu Mobile
-    {% endcomment %}
+    {% comment %} Language Switcher in Menu Mobile {% endcomment %}
     <span class="ly-custom-0"></span> 
 </div> 
 
@@ -515,23 +524,23 @@ a{
 
     {%- if request.page_type == 'index' -%}
       <a class="header__heading">
-    {%- endif -%}
+        {%- endif -%}
         <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
           {%- if section.settings.logo != blank -%}
             {%- assign image_size_2x = section.settings.logo_width | times: 2 | at_most: 5760 -%}
-            <img srcset="{{ section.settings.logo | image_url: width: section.settings.logo_width }} 1x, {{ section.settings.logo | image_url: width: image_size_2x }} 2x"
-              src="{{ section.settings.logo | image_url: width: section.settings.logo_width }}"
-              loading="lazy"
-              class="header__heading-logo"
-              width="{{ section.settings.logo.width }}"
-              height="{{ section.settings.logo.height }}"
-              alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
-            >
+              <img srcset="{{ section.settings.logo | image_url: width: section.settings.logo_width }} 1x, {{   section.settings.logo | image_url: width: image_size_2x }} 2x"
+                src="{{ section.settings.logo | image_url: width: section.settings.logo_width }}"
+                loading="lazy"
+                class="header__heading-logo"
+                width="{{ section.settings.logo.width }}"
+                height="{{ section.settings.logo.height }}"
+                alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
+              >
           {%- else -%}
             <span class="h2">{{ shop.name }}</span>
           {%- endif -%}
         </a>
-    {%- if request.page_type == 'index' -%}
+        {%- if request.page_type == 'index' -%}
       </a>
     {%- endif -%}
 
@@ -578,7 +587,7 @@ a{
                     </details>
                   </header-menu>
                 {%- else -%}
-                  <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
+                  <a href="{{ link.url }}" class=" header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
                     <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                   </a>
                 {%- endif -%}
@@ -586,120 +595,105 @@ a{
             {%- endfor -%}
           </ul>
         </nav>
-      {%- else -%}
 
+      {% comment %} Custom Mega Menu Start Here {% endcomment %}
 
-      <nav class="header__inline-menu">
-        <ul class="list-menu list-menu--inline" role="list">
-          {%- for link in section.settings.menu.links -%}
-            <li>
-              {%- if link.links != blank -%}
-                <header-menu>
-                  <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu" data-open="false">
+        {%- else -%}
+        <nav class="header__inline-menu">
+          <ul class="list-menu list-menu--inline" role="list">
+            {%- for link in section.settings.menu.links -%}
+              <li>
+                {%- if link.links != blank -%}
+                  <header-menu>
+                    <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu" data-open="false">
 
-                    <summary class="header__menu-item list-menu__item link focus-inset">
+                      <summary class="header__menu-item list-menu__item link focus-inset menu-summary">
                       <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                      {% render 'icon-caret' %}
-                    </summary>
-                    <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
-                      <div class="container-right-mega-menu">
-                        <div class="link_title-container">
-                          <div class="link_title">
-                            <a href="{{ link.url }}">{{ link.title }}</a>
-                            </div>
-                        <ul class="mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
-                          {%- for childlink in link.links -%}
-                            <li class="li-mega-menu">
-                              <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                {{ childlink.title | escape }}
-                              </a>
-                            </li>
-                          {%- endfor -%}
-                        </ul>
-                        </div>
-                        <div class="mega-menu-container">
-
-                          {%- if link.title == 'SUBSCRIPTIONS' -%}
-
-                          <a href="https://thebarn.de/products/trial-subscription/" class="container-right-mega-menu-item lang-link">
-                          <img src="{{ 'PROBE_ABO.webp' | asset_url }}" width="230" height="230" alt="Trial Coffee Subscription" loading="lazy">
-                          <p>TRIAL SUBSCRIPTION</p>
-                        </a>
-
-                        <a href="https://thebarn.de/products/coffee-subscription-curated" class="container-right-mega-menu-item lang-link">
-                          <img src="{{ 'CURATED.webp' | asset_url }}" width="230" height="230" alt="Curated" loading="lazy">
-                          <p>CURATED</p>
-                        </a>
-            
-                        <a href="https://thebarn.de/products/masterpieces/" class="container-right-mega-menu-item lang-link">
-                          <img src="{{ 'Masterpiece.webp' | asset_url }}" width="230" height="230" alt="masterpieces" loading="lazy">
-                          <p>MASTERPIECES</p>
-                        </a>
-                        
-
-                        {%- elsif link.title == 'SHOP' -%}
-                          <a href="https://thebarn.de/products/terroir/" class="container-right-mega-menu-item lang-link">
-                          <img src="{{'Coffee-book-terroir.webp' | asset_url }}" width="230" height="230" alt="Coffee Book" loading="lazy">
-                          <p>KAFFEE BUCH</p>
-                          </a>
-                          <a href="https://thebarn.de/products/drip-bag-brazil/" class="container-right-mega-menu-item lang-link">
-                            <img src="{{ 'instant_drip.webp' | asset_url }}" width="230" height="230" alt="Brasilien Instant Drip" loading="lazy">
-                            <p>BRASILIEN DRIP BAG</p>
-                          </a>
-                          <a href="https://thebarn.de/products/aergrind?shpxid=e2ff409c-2fbd-4d4d-a3c1-9d69bef90f7a/" class="container-right-mega-menu-item lang-link">
-                            <img src="{{ 'aerogrinder.webp' | asset_url }}" width="230" height="230" alt="AERGRIND V2" loading="lazy">
-                            <p>AERGRIND V2</p>
-                          </a>
+                        {% render 'icon-caret' %}
+                      </summary>
 
 
-                          {%- elsif link.title == 'BLOG' -%}
-                            <a href="https://thebarn.de/blogs/the-barn-blog/our-plot-daterra-update?shpxid=f4a75db5-7277-42a8-b7d6-12dab3d1fb80/" class="container-right-mega-menu-item lang-link">
-                              <img src="{{ 'Our_Plot_Sorting.jpg' | asset_url }}" width="230" height="230" alt="Sustainable Coffee" loading="lazy">
-                              <p>SUSTAINABLE COFFEE</p>
-                            </a>
-                            <a href="https://thebarn.de/blogs/the-barn-blog/v60-drip/" class="container-right-mega-menu-item lang-link">
-                              <img src="{{ 'V60-DRIP.webp' | asset_url }}" width="230" height="230" alt="v60 drip" loading="lazy">
-                              <p>V60 DRIP</p>
-                            </a>
-                            <a href="https://thebarn.de/pages/dambi-uddo-espresso-lemonade/" class="container-right-mega-menu-item lang-link">
-                              <img src="{{ 'espresso-lemonade.webp' | asset_url }}" width="230" height="230" alt="espresso lemonade" loading="lazy">
-                              <p>ESPRESSO LEMONADE</p>
-                            </a>
-
-
-                            {% elsif link.title == 'ABOUT' or link.title == 'ÜBER UNS' %}
-                            <a href="https://thebarn.de/pages/careers/" class="container-right-mega-menu-item lang-link">
-                            <img src="{{ 'careers-aboutus.webp' | asset_url }}" width="230" height="230" alt="careers" loading="lazy">
-                            <p>CAREERS</p>
-                          </a>
-                          <a href="https://thebarn.de/pages/team/" class="container-right-mega-menu-item lang-link">
-                            <img src="{{ 'team-aboutus.jpeg' | asset_url }}" width="230" height="230" alt="team" loading="lazy">
-                            <p>TEAM</p>
-                          </a>
-                          <a href="https://thebarn.de/pages/aboutus/" class="container-right-mega-menu-item lang-link">
-                            <img src="{{ 'ABOUT-US.webp' | asset_url }}" width="230" height="230" alt="about us" loading="lazy">
-                            <p>ABOUT US</p>
-                          </a>
+                      <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
+                        <div class="container-right-mega-menu">
+                          <div class="link_title-container">
+                            <div class="link_title">
+                              <a href="{{ link.url }}">{{ link.title }}</a>
+                              </div>
+                          <ul class="mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
+                            {%- for childlink in link.links -%}
+                              <li class="li-mega-menu">
+                                <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                  {{ childlink.title | escape }}
+                                </a>
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                          </div>
                           
-                          {%- endif -%}
+                          <div class="mega-menu-container">
+                            {%- if link.title == 'SUBSCRIPTIONS' -%}
+
+                              <a href="{{ section.settings.subscription_link_1 }}"        class="container-right-mega-menu-item lang-link">
+                                <img src="{{ section.settings.subscription_image_1 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.subscription_label_1 }}" loading="lazy">
+                                <p>{{ section.settings.subscription_label_1 }}</p>
+                              </a>
+                              <a href="{{ section.settings.subscription_link_2 }}"        class="container-right-mega-menu-item lang-link">
+                                <img src="{{ section.settings.subscription_image_2 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.subscription_label_2 }}" loading="lazy">
+                                <p>{{ section.settings.subscription_label_2 }}</p>
+                              </a>
+                              <a href="{{ section.settings.subscription_link_3 }}"        class="container-right-mega-menu-item lang-link">
+                                <img src="{{ section.settings.subscription_image_3 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.subscription_label_3 }}" loading="lazy">
+                                <p>{{ section.settings.subscription_label_3 }}</p>
+                              </a>
+                            
+                            {%- elsif link.title == 'SHOP' -%}
+                      
+                              <a href="{{ section.settings.shop_link_1 }}"        class="container-right-mega-menu-item lang-link">
+                                <img src="{{ section.settings.shop_image_1 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.shop_label_1 }}" loading="lazy">
+                                <p>{{ section.settings.shop_label_1 }}</p>
+                              </a>
+                              <a href="{{ section.settings.shop_link_2 }}"        class="container-right-mega-menu-item lang-link">
+                                <img src="{{ section.settings.shop_image_2 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.shop_label_2 }}" loading="lazy">
+                                <p>{{ section.settings.shop_label_2 }}</p>
+                              </a>
+                              <a href="{{ section.settings.shop_link_3 }}"        class="container-right-mega-menu-item lang-link">
+                                <img src="{{ section.settings.shop_image_3 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.shop_label_3 }}" loading="lazy">
+                                <p>{{ section.settings.shop_label_3 }}</p>
+                              </a>
+
+                            {%- elsif link.title == 'BLOG' -%}
+                            
+                              <a href="{{ section.settings.blog_link_1 }}"        class="container-right-mega-menu-item lang-link">
+                                <img src="{{ section.settings.blog_image_1 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.blog_label_1 }}" loading="lazy">
+                                <p>{{ section.settings.blog_label_1 }}</p>
+                              </a>
+                              <a href="{{ section.settings.blog_link_2 }}"        class="container-right-mega-menu-item lang-link">
+                                <img src="{{ section.settings.blog_image_2 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.blog_label_2 }}" loading="lazy">
+                                <p>{{ section.settings.blog_label_2 }}</p>
+                              </a>
+                              <a href="{{ section.settings.blog_link_3 }}"        class="container-right-mega-menu-item lang-link">
+                                <img src="{{ section.settings.blog_image_3 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.blog_label_3 }}" loading="lazy">
+                                <p>{{ section.settings.blog_label_3 }}</p>
+                              </a>
+                            {%- endif -%}
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </details>
-                </header-menu>
-              {%- else -%}
-                <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                  <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
-                </a>
-              {%- endif -%}
-            </li>
-          {%- endfor -%}
-        </ul>
-      </nav>
+                    </details>
+                  </header-menu>
+                {%- else -%}
+                  <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
+                    <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
+                  </a>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        </nav>
+      {% comment %} Custom Mega Menu Ends Here {% endcomment %}
+
+
       
-      
-      
-        
       {%- endif -%}
     {%- endif -%}
 
@@ -817,6 +811,7 @@ a{
 
 {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 
+
 {% javascript %}
   class StickyHeader extends HTMLElement {
     constructor() {
@@ -852,114 +847,35 @@ a{
 
       observer.observe(this.header);
     }
-onScroll() {
-  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  const revealDistance = 400; // Change this to your desired scroll distance
 
-  if (this.predictiveSearch && this.predictiveSearch.isOpen) return;
 
-  if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
-    if (this.preventHide) return;
-    requestAnimationFrame(this.hide.bind(this));
-    this.revealPosition = this.currentScrollTop - revealDistance;
-  } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
-    if (!this.preventReveal && scrollTop <= this.revealPosition) {
-      requestAnimationFrame(this.reveal.bind(this));
-    } else {
-      window.clearTimeout(this.isScrolling);
-
-      this.isScrolling = setTimeout(() => {
-        this.preventReveal = false;
-      }, 66);
-
-      requestAnimationFrame(this.hide.bind(this));
-    }
+  reveal() {
+    this.header.classList.add('shopify-section-header-sticky', 'animate-slow');
+    this.header.classList.remove('shopify-section-header-hidden');
+  }
+  
+  hide() {
+    this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
+    this.closeMenuDisclosure();
+    this.closeSearchModal();
   }
 
-  if (scrollTop <= this.headerBounds.top || scrollTop === 0) {
-    requestAnimationFrame(this.reveal.bind(this));
+  reset() {
+    this.header.classList.remove('shopify-section-header-hidden', 'shopify-section-header-sticky', 'animate');
   }
 
-  this.currentScrollTop = scrollTop;
+  closeMenuDisclosure() {
+    this.disclosures = this.disclosures || this.header.querySelectorAll('header-menu');
+    this.disclosures.forEach(disclosure => disclosure.close());
+  }
+
+  closeSearchModal() {
+    this.searchModal = this.searchModal || this.header.querySelector('details-modal');
+    this.searchModal.close(false);
+  }
 }
 
-
-
-
-
-
-      reveal() {
-        this.header.classList.add('shopify-section-header-sticky', 'animate-slow');
-        this.header.classList.remove('shopify-section-header-hidden');
-      }
-      
-      hide() {
-        this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
-        this.closeMenuDisclosure();
-        this.closeSearchModal();
-      }
-
-  
-
-
-    reset() {
-      this.header.classList.remove('shopify-section-header-hidden', 'shopify-section-header-sticky', 'animate');
-    }
-
-    closeMenuDisclosure() {
-      this.disclosures = this.disclosures || this.header.querySelectorAll('header-menu');
-      this.disclosures.forEach(disclosure => disclosure.close());
-    }
-
-    closeSearchModal() {
-      this.searchModal = this.searchModal || this.header.querySelector('details-modal');
-      this.searchModal.close(false);
-    }
-  }
-
-  customElements.define('sticky-header', StickyHeader);
-
-
-//////////////////////////////////////Mega menu //////////////////////////////////////////////////
-  
-document.addEventListener('DOMContentLoaded', function() {
-  const menuItems = document.querySelectorAll('.mega-menu');
-  const menuItemHeaders = document.querySelectorAll('.header__menu-item');
-
-  // Attach event listeners to each menu item header to open/close the menu on click
-  menuItemHeaders.forEach((menuItemHeader) => {
-    const menuItem = menuItemHeader.closest('.mega-menu');
-    const detailsElement = menuItem.querySelector('details');
-
-    menuItemHeader.addEventListener('focus', function () {
-      detailsElement.setAttribute('open', 'open');
-    });
-
-    menuItemHeader.addEventListener('blur', function () {
-      detailsElement.removeAttribute('open');
-    });
-  });
-});
-
-document.addEventListener('DOMContentLoaded', function(){
-  var lang = window.location.pathname.split('/')[1];
-  var langLinks = document.querySelectorAll('.lang-link');
-
-  langLinks.forEach(function(link) {
-    if (lang === 'de') {
-      link.href = link.href.replace("https://thebarn.de", "https://thebarn.de/de");
-    }
-  });
-});
-
-
-
-
-
-
-
-
-////////////////////////////////////////////////////////////////////////
+customElements.define('sticky-header', StickyHeader);
 
 {% endjavascript %}
 
@@ -1121,6 +1037,150 @@ document.addEventListener('DOMContentLoaded', function(){
       "unit": "px",
       "label": "t:sections.header.settings.margin_bottom.label",
       "default": 0
+    },
+    {
+      "type": "image_picker",
+      "id": "subscription_image_1",
+      "label": "Image for Subscription Item"
+    },
+    {
+      "type": "url",
+      "id": "subscription_link_1",
+      "label": "Link for Subscription Item"
+    },
+    {
+      "type": "text",
+      "id": "subscription_label_1",
+      "label": "Label for Subscription Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "subscription_image_2",
+      "label": "Image for Subscription Item"
+    },
+    {
+      "type": "url",
+      "id": "subscription_link_2",
+      "label": "Link for Subscription Item"
+    },
+    {
+      "type": "text",
+      "id": "subscription_label_2",
+      "label": "Label for Subscription Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "subscription_image_3",
+      "label": "Image for Subscription Item"
+    },
+    {
+      "type": "url",
+      "id": "subscription_link_3",
+      "label": "Link for Subscription Item"
+    },
+    {
+      "type": "text",
+      "id": "subscription_label_3",
+      "label": "Label for Subscription Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "shop_image_1",
+      "label": "Image for Shop Item"
+    },
+    {
+      "type": "url",
+      "id": "shop_link_1",
+      "label": "Link for Shop Item"
+    },
+    {
+      "type": "text",
+      "id": "shop_label_1",
+      "label": "Label for Shop Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "shop_image_2",
+      "label": "Image for Shop Item"
+    },
+    {
+      "type": "url",
+      "id": "shop_link_2",
+      "label": "Link for Shop Item"
+    },
+    {
+      "type": "text",
+      "id": "shop_label_2",
+      "label": "Label for Shop Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "shop_image_3",
+      "label": "Image for Shop Item"
+    },
+    {
+      "type": "url",
+      "id": "shop_link_3",
+      "label": "Link for Shop Item"
+    },
+    {
+      "type": "text",
+      "id": "shop_label_3",
+      "label": "Label for Shop Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "blog_image_1",
+      "label": "Image for Blog Item"
+    },
+    {
+      "type": "url",
+      "id": "blog_link_1",
+      "label": "Link for Blog Item"
+    },
+    {
+      "type": "text",
+      "id": "blog_label_1",
+      "label": "Label for Blog Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "blog_image_2",
+      "label": "Image for Blog Item"
+    },
+    {
+      "type": "url",
+      "id": "blog_link_2",
+      "label": "Link for Blog Item"
+    },
+    {
+      "type": "text",
+      "id": "blog_label_2",
+      "label": "Label for Blog Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "blog_image_3",
+      "label": "Image for Blog Item"
+    },
+    {
+      "type": "url",
+      "id": "blog_link_3",
+      "label": "Link for Blog Item"
+    },
+    {
+      "type": "text",
+      "id": "blog_label_3",
+      "label": "Label for Blog Item",
+      "default": "Label"
     }
   ]
 }
