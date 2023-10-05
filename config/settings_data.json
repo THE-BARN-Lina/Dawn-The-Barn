@@ -173,10 +173,12 @@
           "shop_image_3": "shopify:\/\/shop_images\/aerogrinder.webp",
           "shop_link_3": "shopify:\/\/products\/aergrind",
           "shop_label_3": "AERGRIND V2",
-          "blog_link_1": "",
-          "blog_label_1": "Label",
-          "blog_link_2": "",
-          "blog_label_2": "Label",
+          "blog_image_1": "shopify:\/\/shop_images\/thebarn_neu_1200x1200_lowcaf_kanne_1024x1024_2xDaterraHoney_fa4ba135-77dd-44dd-8f9f-b1a7a8cff792.jpg",
+          "blog_link_1": "shopify:\/\/blogs\/the-barn-blog\/low-caf-is-our-answer-to-decaf",
+          "blog_label_1": "LOW CAF",
+          "blog_image_2": "shopify:\/\/shop_images\/GRINDING_COFFEE_AT_HOME.webp",
+          "blog_link_2": "shopify:\/\/blogs\/the-barn-blog\/grinding-coffee-for-home",
+          "blog_label_2": "GRINDING COFFEE AT HOME",
           "blog_link_3": "",
           "blog_label_3": "Label"
         }
