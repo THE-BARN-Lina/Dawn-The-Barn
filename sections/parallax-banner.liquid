@@ -1,0 +1,554 @@
+{%- capture minify -%}
+{%- style -%}
+
+#LT--bgImage-{{ section.id }} {
+  background-image: url('{{ section.settings.image_bg | image_url: width: 2500 }}');
+  background-size: cover;
+  background-position: {{ section.settings.image_bg.presentation.focal_point }};
+  padding-top: {{ section.settings.section_padding | divided_by: 2 }}px;
+  padding-bottom: {{ section.settings.section_padding | divided_by: 2 }}px;
+}
+
+.LT-parallax-on {
+  background-attachment: fixed;
+}
+
+#LT--bgImage-{{ section.id }} img {
+  height: 100%;
+  width: 100%;
+}
+
+#LT--{{ section.id }} .luna-templates__parallax-text-container {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: {{ section.settings.color_bg }};
+  width: 90%;
+  position: relative;
+  z-index: 2
+}
+
+#LT--{{ section.id }} .luna-templates__parallax-text-container * {
+  color: {{ section.settings.color_text }};
+}
+
+#LT--{{ section.id }} .luna-templates__parallax-text-container.round {
+  	border-radius: 30px;
+}
+
+@media (min-width: 750px) {
+  #LT--{{ section.id }} {
+    background-size: cover;
+  }
+
+  #LT--bgImage-{{ section.id }} {
+    padding-top: {{ section.settings.section_padding }}px;
+    padding-bottom: {{ section.settings.section_padding }}px;
+  }
+
+  #LT--{{ section.id }} .luna-templates__parallax-text-container {
+    padding: 30px 40px;
+    width: {{ section.settings.text_width }}%;
+  }
+}
+
+@media (max-width: 749px) {
+  #LT--bgImage-{{ section.id }} {
+    {% if section.settings.image_bg_mobile != blank %}
+      background-image: url('{{ section.settings.image_bg_mobile | image_url: width: 800 }}');
+    {% endif %}
+  }
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+  .LT-parallax-on {
+      background-attachment: scroll;
+  }
+}  
+
+/* Custom CSS */
+{{ section.settings.custom_css }}
+
+{%- endstyle -%}
+
+<!-- This section is designed and built by Luna Templates. Find more at https://lunatemplates.co -->
+
+<section id="LT--{{ section.id }}" class="LT__section luna-templates__parallax-image-banner {{ section.settings.css_class }}" >
+  <div id="LT--bgImage-{{ section.id }}" {% if section.settings.parallax_on %}class="LT-parallax-on"{% endif %}>
+    <div class="luna-templates__parallax-text-container {% if section.settings.container_shape == 'rounded' %}round{% endif %}">
+      {%- for block in section.blocks -%}
+        <div id="LT--{{ block.id }}" class="luna-templates__block--{{ block.type }}" {{ block.shopify_attributes }}>
+          {%- case block.type -%}
+            {%- when 'heading' -%}
+              <style>
+                #LT--{{ section.id }} .luna-templates__heading {
+                  font-size: {{ block.settings.font_size_mobile }}px;
+                  margin: 15px 0;
+                  line-height: 1.1;
+                }
+                @media (min-width: 750px) {
+                  #LT--{{ section.id }} .luna-templates__heading {
+                    font-size: {{ block.settings.font_size_desktop | divided_by: 1.2 }}px;
+                  }
+                }
+                @media (min-width: 1201px) {
+                  #LT--{{ section.id }} .luna-templates__heading {
+                    font-size: {{ block.settings.font_size_desktop }}px;
+                  }
+                }
+              </style>
+              {%- if block.settings.title != blank -%}
+                <{{ block.settings.heading_tag }} class="luna-templates__heading">
+                  {{ block.settings.title | replace: 'p>', 'span>' }}
+                </{{ block.settings.heading_tag }}>
+              {%- endif -%}
+            {%- when 'text' -%}
+              <style>
+                #LT--{{ section.id }} .luna-templates__text {
+                  margin: 15px 0;
+                  font-size: {{ block.settings.font_size_mobile }}px;
+                  line-height: 1.2;
+                }
+                @media (min-width: 750px) {
+                  #LT--{{ section.id }} .luna-templates__text {
+                    font-size: {{ block.settings.font_size_desktop | divided_by: 1.2 }}px;; 
+                  }   
+                }
+                @media (min-width: 1200px) {
+                  #LT--{{ section.id }} .luna-templates__text {
+                    font-size: {{ block.settings.font_size_desktop }}px;
+                  }
+                }                
+              </style>
+              {%- if block.settings.text != blank -%}
+                <div class="luna-templates__text">
+                  {{ block.settings.text }}
+                </div>
+              {%- endif -%}
+            {%- when 'button' -%}
+              {% style %}
+                #LT--{{ section.id }} .luna-templates__block--button {
+                  display: inline-block;
+                  margin-right: 20px;
+                }
+                #LT--{{ block.id }} .luna-templates__button-container {
+                    margin: 20px 0;
+                    {%- if block.settings.btn_shape == "oval" -%}
+                    margin: 30px 0;
+                    {%- endif -%}
+                }
+                #LT--{{ block.id }} .luna-templates__button {
+                    padding: 0.5rem 2rem;
+                    margin: 20px 0;
+                    background-color: {{ block.settings.color_btn_fill }};
+                    border: 1px solid {{ block.settings.color_btn_border }};
+                    color: {{ block.settings.color_btn_text }} !important;
+                    font-size: {{ block.settings.font_size_btn_desktop }}px;
+                    transition: background-color 0.5s;
+                    text-decoration: none;
+                }
+                @media screen and (max-width: 749px) {
+                  #LT--{{ block.id }} .luna-templates__button {
+                      font-size: {{ block.settings.font_size_btn_mobile }}px;
+                  }
+                }                    
+                #LT--{{ block.id }} .luna-templates__button:hover {
+                    background-color: {{ block.settings.color_btn_fill_hover }};
+                    border: 1px solid {{ block.settings.color_btn_border_hover }};
+                    color: {{ block.settings.color_btn_text_hover }} !important;
+                    transition: background-color 0.5s;
+                } 
+                #LT--{{ section.id }} .LT__btn-rounded {
+                    border-radius: 5px;
+                }
+                #LT--{{ section.id }} .LT__btn-pill {
+                    border-radius: 50px;
+                }
+                #LT--{{ section.id }} .LT__btn-oval {
+                    padding: 20px 40px;          
+                    border-radius: 50%;
+                }
+              {% endstyle %}
+              {%- if block.settings.link_text != blank -%}
+                <div class="luna-templates__button-container">
+                    <a class="luna-templates__button LT__btn-{{ block.settings.btn_shape }}" href="{{ block.settings.link_url }}">{{ block.settings.link_text }}</a>
+                </div>
+              {%- endif -%}
+            {%- when 'image' -%}
+              <style>
+                #LT--{{ block.id }} .luna-templates__image-wrapper {
+                  width: {{ block.settings.image_width }}px;
+                  margin: 10px auto;
+                  line-height: 0;
+                }
+                #LT--{{ block.id }} .luna-templates__image-wrapper img {
+                  width: 100%;
+                  object-fit: contain;
+                }
+              </style>
+              {%- if block.settings.image != blank -%}
+                <div class="luna-templates__image-wrapper">
+                  <img src="{{ block.settings.image | image_url: width: 500 }}" alt="{{ block.settings.image.alt }}" >
+                </div>
+              {%- endif -%}
+            {%- when 'html' -%}
+              {{ block.settings.html }}
+          {%- endcase -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- endcapture -%}
+{{ minify | strip_newlines }}
+
+{% schema %}
+{
+  "name": "💫 Parallax Image Banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "parallax_on",
+      "label": "Enable parallax effect (Desktop only)",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image_bg",
+      "label": "Image Desktop",
+      "info": "A width of 2500px .jpg is recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_bg_mobile",
+      "label": "Image Mobile",
+      "info": "Optional"
+    },
+    {
+      "type": "header",
+      "content": "Text Container"
+    },
+    {
+      "type": "color",
+      "id": "color_text",
+      "label": "Text",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "color_bg",
+      "label": "Text Background",
+      "default": "transparent",
+      "info": "For a transparent background, delete the color code."
+    },
+    {
+      "type": "range",
+      "id": "text_width",
+      "label": "Container Width (Desktop)",
+      "min": 50,
+      "max": 90,
+      "step": 5,
+      "default": 60,
+      "unit": "%"
+    },
+    {
+      "type": "select",
+      "id": "container_shape",
+      "label": "Text Box Shape",
+      "options": [
+        {
+          "value": "rounded",
+          "label": "Rounded"
+        },
+        {
+          "value": "square",
+          "label": "Square"
+        }
+      ],
+      "default": "rounded"
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing"
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Top & bottom padding",
+      "min": 0,
+      "max": 200,
+      "default": 100,
+      "step": 5,
+      "unit": "px",
+      "info": "Changes the section height"
+    },
+    {
+      "type": "header",
+      "content": "Advanced"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "html",
+      "id": "custom_css",
+      "label": "Custom CSS",
+      "info": "Write your CSS here. Use !important when necessary."
+	}
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Heading",
+          "default": "<p>Your Heading</p>"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Heading Tag",
+          "options": [
+            {
+              "value": "h1",
+              "label": "Heading 1"
+            },
+            {
+              "value": "h2",
+              "label": "Heading 2"
+            },
+            {
+              "value": "h3",
+              "label": "Heading 3"
+            },
+            {
+              "value": "h4",
+              "label": "Heading 4"
+            },
+            {
+              "value": "h5",
+              "label": "Heading 5"
+            },
+            {
+              "value": "h6",
+              "label": "Heading 6"
+            }
+          ],
+          "default": "h2"
+        },
+        {
+          "type": "range",
+          "id": "font_size_desktop",
+          "label": "Font Size (Desktop)",
+          "default": 80,
+          "min": 20,
+          "max": 160,
+          "step": 2,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "font_size_mobile",
+          "label": "Font Size (Mobile)",
+          "default": 50,
+          "min": 20,
+          "max": 100,
+          "step": 2,
+          "unit": "px"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Add your own custom content.</p>"
+        },
+        {
+          "type": "range",
+          "id": "font_size_desktop",
+          "label": "Font Size (Desktop)",
+          "default": 20,
+          "min": 14,
+          "max": 160,
+          "step": 2,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "font_size_mobile",
+          "label": "Font Size (Mobile)",
+          "default": 18,
+          "min": 14,
+          "max": 80,
+          "step": 2,
+          "unit": "px"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        },
+        {
+          "type": "select",
+          "id": "btn_shape",
+          "label": "Button Shape",
+          "options": [
+            {
+              "value": "square",
+              "label": "Square"
+            },
+            {
+              "value": "rounded",
+              "label": "Rounded"
+            },
+            {
+              "value": "pill",
+              "label": "Pill"
+            },
+            {
+              "value": "oval",
+              "label": "Oval"
+            }
+          ],
+          "default": "square"
+        },
+        {
+          "type": "color",
+          "id": "color_btn_fill",
+          "label": "Button Fill Color",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "color_btn_border",
+          "label": "Button Border Color",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "color_btn_text",
+          "label": "Button Text Color",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "color_btn_fill_hover",
+          "label": "Button Fill Color (Hover)",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "color_btn_border_hover",
+          "label": "Button Border Color (Hover)",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "color_btn_text_hover",
+          "label": "Button Text Color (Hover)",
+          "default": "#fff"
+        },
+        {
+          "type": "range",
+          "id": "font_size_btn_desktop",
+          "label": "Button Font Size (Desktop)",
+          "default": 18,
+          "min": 10,
+          "max": 30,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "font_size_btn_mobile",
+          "label": "Button Font Size (Mobile)",
+          "default": 16,
+          "min": 10,
+          "max": 30,
+          "step": 1,
+          "unit": "px"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "label": "Image Width",
+          "default": 100,
+          "min": 50,
+          "max": 200,
+          "step": 5,
+          "unit": "px"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "name": "Custom HTML",
+      "settings": [
+        {
+          "type": "html",
+          "id": "html",
+          "label": "HTML"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "💫 Parallax Image Banner",
+      "category": "Luna Templates",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
