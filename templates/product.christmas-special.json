@@ -381,9 +381,9 @@
         "template--17938054709515__511861c3-6f37-4a12-bcf7-8fb1d1c54981-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "When is the order date to ensure delivery by December 1st?",
+            "heading": "When is the last order date to ensure delivery by December 1st?",
             "icon": "none",
-            "row_content": "<p>International: Oct 31<br\/>Domestic: Nov 24<\/p>",
+            "row_content": "<p>International: Nov 12<br\/>Germany: Nov 12<\/p>",
             "page": ""
           }
         },
