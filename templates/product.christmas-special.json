@@ -383,7 +383,7 @@
           "settings": {
             "heading": "When is the last order date to ensure delivery by December 1st?",
             "icon": "none",
-            "row_content": "<p>International: Nov 12<br\/>Germany: Nov 12<\/p>",
+            "row_content": "<p>International: Nov 12th<br\/>Germany: Nov 12th<\/p>",
             "page": ""
           }
         },
@@ -401,7 +401,7 @@
           "settings": {
             "heading": "When can I expect my calendar to be shipped?",
             "icon": "none",
-            "row_content": "<p>We will begin shipping Advent Calendars starting November 15th.<\/p>",
+            "row_content": "<p>We will begin shipping Advent Calendars starting November 17th.<\/p>",
             "page": ""
           }
         },
