@@ -6,7 +6,7 @@
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-text-1": {
           "type": "text",
           "settings": {
-            "text": "limited supply",
+            "text": "limited EDITION",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -66,7 +66,22 @@
       "blocks": {
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "e0ee40e6-691e-4f7c-b2a1-9b87d6f4c02c": {
+          "type": "text",
+          "settings": {
+            "text": "LIMITED EDITION",
+            "text_style": "uppercase"
+          }
+        },
+        "7a25bdb5-671b-4d85-8029-98b44703d3fc": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>SPECIALTY COFFEE ADVENT CALENDAR<\/h2>",
+            "text_style": "body"
           }
         },
         "adbfb6c8-3680-4551-ac3f-f3925198a349": {
@@ -112,6 +127,8 @@
       },
       "block_order": [
         "title",
+        "e0ee40e6-691e-4f7c-b2a1-9b87d6f4c02c",
+        "7a25bdb5-671b-4d85-8029-98b44703d3fc",
         "adbfb6c8-3680-4551-ac3f-f3925198a349",
         "price",
         "variant_picker",
@@ -289,8 +306,8 @@
           "settings": {
             "title": "<p>OUR SUSTAINABILITY PROJECT<\/p>",
             "heading_tag": "h6",
-            "font_size_desktop": 24,
-            "font_size_mobile": 50
+            "font_size_desktop": 36,
+            "font_size_mobile": 32
           }
         },
         "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-text-1": {
