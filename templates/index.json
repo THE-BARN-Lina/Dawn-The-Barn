@@ -1,5 +1,62 @@
 {
   "sections": {
+    "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "COFFEE ADVENT CALENDAR",
+            "text_style": "body"
+          }
+        },
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "COFFEE ADVENT CALENDAR",
+            "heading_size": "h1"
+          }
+        },
+        "9fa3eb61-44f8-480a-83c0-639de11a1388": {
+          "type": "text",
+          "settings": {
+            "text": "In 24 tasty days to Christmas",
+            "text_style": "body"
+          }
+        },
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ORDER NOW",
+            "button_link_1": "shopify:\/\/products\/advent-calendar-2023",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-text-1",
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1",
+        "9fa3eb61-44f8-480a-83c0-639de11a1388",
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/KaffeeAdventcalender_04_colored.png",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "transparent_block": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "befa68a6-1035-4cea-bf06-95f308026d4b": {
       "type": "image-banner",
       "blocks": {
@@ -413,6 +470,7 @@
     }
   },
   "order": [
+    "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8",
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527",
     "1653387743507b82e2",
