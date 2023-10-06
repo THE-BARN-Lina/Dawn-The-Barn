@@ -348,7 +348,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "text_width": 90,
         "container_shape": "rounded",
-        "section_padding": 100,
+        "section_padding": 180,
         "css_class": "",
         "custom_css": ""
       }
