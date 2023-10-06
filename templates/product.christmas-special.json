@@ -236,13 +236,14 @@
         "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Add your own custom content.<\/p>",
+            "text": "<h1>Every calendar purchased will make a change. With every order you place you plant a tree in our Daterra Estate in Brazil. <\/h1>",
             "font_size_desktop": 20,
             "font_size_mobile": 18
           }
         },
         "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link_text": "Learn more",
             "link_url": "",
@@ -266,9 +267,9 @@
       "settings": {
         "parallax_on": true,
         "image_bg": "shopify:\/\/shop_images\/THE_BARN_Forest.jpg",
-        "color_text": "#000000",
+        "color_text": "#ffffff",
         "color_bg": "rgba(0,0,0,0)",
-        "text_width": 60,
+        "text_width": 90,
         "container_shape": "rounded",
         "section_padding": 100,
         "css_class": "",
@@ -312,6 +313,7 @@
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-text-1",
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/christmas-decorations-trinkets.jpg",
         "image_overlay_opacity": 0,
