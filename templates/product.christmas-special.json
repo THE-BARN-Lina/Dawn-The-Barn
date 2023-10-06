@@ -83,6 +83,13 @@
             "text_style": "body"
           }
         },
+        "0191aa7a-e26f-4ee5-bc9a-331ef5b7d472": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rich Text block<\/p>",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -133,6 +140,7 @@
         "title",
         "e0ee40e6-691e-4f7c-b2a1-9b87d6f4c02c",
         "7a25bdb5-671b-4d85-8029-98b44703d3fc",
+        "0191aa7a-e26f-4ee5-bc9a-331ef5b7d472",
         "price",
         "variant_picker",
         "quantity_selector",
