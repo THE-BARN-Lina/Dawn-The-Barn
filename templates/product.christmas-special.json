@@ -390,9 +390,9 @@
         "template--17938054709515__511861c3-6f37-4a12-bcf7-8fb1d1c54981-collapsible_row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Is it possible for me to order multiple items and have them shipped to different locations as gifts?",
+            "icon": "none",
+            "row_content": "<p>Certainly! You can indeed buy more than one Advent Calendar as gifts and have them sent to your friends and family. However, please note that we cannot divide a single order among multiple addresses. Therefore, you will need to place a separate order for each address you wish to ship to.<\/p>",
             "page": ""
           }
         },
