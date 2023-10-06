@@ -126,6 +126,15 @@
             "content": "<ul><li>24 unique Single Origin coffees: from our Christmas coffee to our most exclusive rarities.<\/li><li>Whole bean coffee, freshly roasted just before shipping.<\/li><li>Each tube contains 50g of coffee.<\/li><li>A selection of our favourite Christmas presents for the most discerning coffee lovers.<\/li><li>Packaged in cute recycled cardboard tubes, individually numbered 1 to 24 and perfect for re-filling once Christmas is over.<\/li><\/ul>",
             "page": ""
           }
+        },
+        "2b551958-b58c-4efe-816d-5428e2a8e84b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SHIPPING",
+            "icon": "truck",
+            "content": "<p>Calendars will ship in <strong>mid-November <\/strong>to ensure your coffee arrives perfectly fresh.<\/p><p>Do not wait to order, our Advent Calendar is only available in very limited quantities!<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -138,7 +147,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "6b51c225-802a-4005-b216-706a3da21dc8"
+        "6b51c225-802a-4005-b216-706a3da21dc8",
+        "2b551958-b58c-4efe-816d-5428e2a8e84b"
       ],
       "settings": {
         "enable_sticky_info": true,
