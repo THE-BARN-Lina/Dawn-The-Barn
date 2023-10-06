@@ -244,7 +244,7 @@
         "template--17938054709515__6a18f674-22d9-4a60-96d7-31ce41111305-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_IMG_3037.heic",
+            "image": "shopify:\/\/shop_images\/IMG_4574_90dbace8-2b53-4085-8d24-dd51d0d256a6.jpg",
             "title": "Time to Explore",
             "text": "<p>An exciting seasonal journey through Single Origin flavour.<\/p>",
             "link_label": "",
@@ -293,7 +293,7 @@
         "link_as_button": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 88,
         "padding_bottom": 92
       }
