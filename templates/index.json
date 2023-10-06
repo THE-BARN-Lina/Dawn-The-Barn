@@ -21,7 +21,7 @@
           "type": "text",
           "settings": {
             "text": "In 24 tasty days to Christmas",
-            "text_style": "body"
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1": {
