@@ -73,7 +73,7 @@
         "e0ee40e6-691e-4f7c-b2a1-9b87d6f4c02c": {
           "type": "text",
           "settings": {
-            "text": "LIMITED EDITION",
+            "text": "LIMITED SUPPLY",
             "text_style": "uppercase"
           }
         },
@@ -167,14 +167,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Specialty Coffee Advent Calendar",
+            "heading": "Seasonal Greetings from Ralf",
             "heading_size": "h2"
           }
         },
         "2c054b05-04a1-47e8-8ccf-6b17cf308f45": {
           "type": "text",
           "settings": {
-            "text": "<p>Features 24 days of amazing coffee.  We’re singling out the best beans to offer and packaging them together in a beautiful specialty coffee advent Calendar. Each day of advent will feature a unique 50g sample of whole bean specialty coffee.<\/p>",
+            "text": "<p>Everybody has this one moment when you tasted a coffee that completely changed your mind. From that moment, you cannot go back to just have regular coffee. Back in 2010, I had a cup of coffee that blew my mind:It was Tekangu, a Kenyan coffee that tasted like a mix of blackcurrant, hibiscus and sweet chocolate. I will never forget this cup of coffee. Onwards from there, my coffee journey continued to many exciting regions.  <\/p><p>Let me take you on a very special journey of some of my favourite coffees. With a stunning portfolio of partner farms that shine through their hard work, terroir and processing, rest assured that this Coffee Advent Calendar will be an unforgettable experience. With mind-blowing coffees that will change everybodys perception for this beautiful product. <\/p>",
             "text_style": "body"
           }
         }
