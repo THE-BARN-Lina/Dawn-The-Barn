@@ -4,5 +4,16 @@
     "market": "de"
   },
   "sections": {
+    "main": {
+      "settings": {
+      },
+      "blocks": {
+        "2b551958-b58c-4efe-816d-5428e2a8e84b": {
+          "settings": {
+            "content": "<p>Calendars will ship in <strong>mid-November <\/strong>to ensure your coffee arrives perfectly fresh.<\/p><p>Do not wait to order, our Advent Calendar is only available in very limited quantities!<br\/><br\/><strong>German customers <\/strong><br\/>Calendar price: 225 or 289 EUR (includes shipping)<br\/><\/p>"
+          }
+        }
+      }
+    }
   }
 }

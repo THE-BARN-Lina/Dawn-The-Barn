@@ -359,7 +359,7 @@
         "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>German customers <\/strong><br\/> Calendar price: 225 or 289 EUR (includes shipping)<br\/><br\/><strong>EU customers <\/strong><br\/> Price includes all taxes and import fees (ships from within the EU)<br\/> Calendar price: 235 or 299 EUR (includes shipping)<br\/><br\/><strong>All worldwide non-EU customers<\/strong><br\/> Shipping included – taxes and import fees not included<br\/>Calendar price: 235 or 299 EUR (includes shipping)<\/p>"
+            "text": "<p><br\/><strong>EU customers <\/strong><br\/> Price includes all taxes and import fees (ships from within the EU)<br\/> Calendar price: 235 or 299 EUR (includes shipping)<br\/><br\/><strong>All worldwide non-EU customers<\/strong><br\/> Shipping included – taxes and import fees not included<br\/>Calendar price: 235 or 299 EUR (includes shipping)<\/p>"
           }
         }
       },
