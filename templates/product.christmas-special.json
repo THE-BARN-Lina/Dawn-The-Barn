@@ -3,18 +3,18 @@
     "7d6d4343-7052-43c5-adfd-8fb289735d50": {
       "type": "image-banner",
       "blocks": {
-        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "2023 SPECIALTY COFFEE ADVENT CALENDAR",
-            "heading_size": "h1"
-          }
-        },
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-text-1": {
           "type": "text",
           "settings": {
             "text": "limited supply",
             "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "2023 SPECIALTY COFFEE ADVENT CALENDAR",
+            "heading_size": "h1"
           }
         },
         "54217868-092e-4e38-a868-f1dae0ba3c2f": {
@@ -38,8 +38,8 @@
         }
       },
       "block_order": [
-        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-heading-1",
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-text-1",
+        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-heading-1",
         "54217868-092e-4e38-a868-f1dae0ba3c2f",
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1"
       ],
