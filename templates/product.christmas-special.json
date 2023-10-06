@@ -221,6 +221,59 @@
         "padding_bottom": 52
       }
     },
+    "0c3a42cd-2334-4fc0-bee8-e2434fc55425": {
+      "type": "parallax-banner",
+      "blocks": {
+        "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>Your Heading<\/p>",
+            "heading_tag": "h2",
+            "font_size_desktop": 80,
+            "font_size_mobile": 50
+          }
+        },
+        "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Add your own custom content.<\/p>",
+            "font_size_desktop": 20,
+            "font_size_mobile": 18
+          }
+        },
+        "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-button-1": {
+          "type": "button",
+          "settings": {
+            "link_text": "Learn more",
+            "link_url": "",
+            "btn_shape": "square",
+            "color_btn_fill": "#fff",
+            "color_btn_border": "#000",
+            "color_btn_text": "#000",
+            "color_btn_fill_hover": "#000",
+            "color_btn_border_hover": "#000",
+            "color_btn_text_hover": "#fff",
+            "font_size_btn_desktop": 18,
+            "font_size_btn_mobile": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-heading-1",
+        "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-text-1",
+        "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-button-1"
+      ],
+      "settings": {
+        "parallax_on": true,
+        "color_text": "#000",
+        "color_bg": "transparent",
+        "text_width": 60,
+        "container_shape": "rounded",
+        "section_padding": 100,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "7d6d4343-7052-43c5-adfd-8fb289735d50": {
       "type": "image-banner",
       "blocks": {
@@ -281,6 +334,7 @@
     "be10cd3c-191b-4630-9624-f90d687f6226",
     "6a18f674-22d9-4a60-96d7-31ce41111305",
     "fc57d7b3-3e77-4c36-911e-a5f275a639c3",
+    "0c3a42cd-2334-4fc0-bee8-e2434fc55425",
     "7d6d4343-7052-43c5-adfd-8fb289735d50"
   ]
 }
