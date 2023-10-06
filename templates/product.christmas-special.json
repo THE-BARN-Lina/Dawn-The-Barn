@@ -419,7 +419,7 @@
           "settings": {
             "heading": "What is the daily amount of coffee included in each Advent Calendar slot?",
             "icon": "none",
-            "row_content": "<p>Each day contains 50 grams of coffee beans, which should yield approximately 3 cups of brewed coffee for your enjoyment.<\/p>",
+            "row_content": "<p>Each coffee tube contains 50 grams of coffee beans, which should yield approximately 3 cups of brewed coffee for your enjoyment.<\/p>",
             "page": ""
           }
         },
@@ -437,7 +437,7 @@
           "settings": {
             "heading": "Is it possible for me to cancel my order?",
             "icon": "none",
-            "row_content": "<p>Certainly. If you have a change of heart, you are free to cancel your order before the shipment date. However, please be aware that once a shipping label has been generated, we won't be able to cancel your order. Prior to that point, please send an email to webshop@thebarn.de, and we will assist you in canceling your order and processing a refund.<\/p>",
+            "row_content": "<p>Unfortunately, due to the limited supply of our Calendars, orders can not be cancelled, unless you do so within 24 hours after placing your order. Please send an email to webshop@thebarn.de, and we will assist you.<\/p>",
             "page": ""
           }
         }
