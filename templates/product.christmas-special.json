@@ -227,9 +227,9 @@
         "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "<p>Your Heading<\/p>",
-            "heading_tag": "h2",
-            "font_size_desktop": 80,
+            "title": "<p>OUR SUSTAINABILITY PROJECT<\/p>",
+            "heading_tag": "h6",
+            "font_size_desktop": 24,
             "font_size_mobile": 50
           }
         },
