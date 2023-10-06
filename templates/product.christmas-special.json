@@ -26,9 +26,10 @@
         },
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "ORDER NOW",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
