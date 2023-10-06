@@ -413,13 +413,43 @@
             "row_content": "<p>If you proceed with a purchase that includes items other than the Advent Calendar, our system will automatically split your order. The non-Advent products will be shipped right away. When the scheduled shipping date for the Advent Calendar arrives, it will be shipped separately in its own shipment.<\/p>",
             "page": ""
           }
+        },
+        "a015a89a-ae45-4853-8ebc-d426ab4bfbe2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the daily amount of coffee included in each Advent Calendar slot?",
+            "icon": "none",
+            "row_content": "<p>Each day contains 50 grams of coffee beans, which should yield approximately 3 cups of brewed coffee for your enjoyment.<\/p>",
+            "page": ""
+          }
+        },
+        "dbd5e3c3-fd0f-4301-96c8-b79c52e65397": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What should I do if I discover that one of the days in my Advent calendar is missing?",
+            "icon": "none",
+            "row_content": "<p>Please reach out to webshop@thebarn.de and we will get a replacement for that day sent out to you right away.<\/p>",
+            "page": ""
+          }
+        },
+        "c1b25fe7-0704-4a2d-a6cc-996d9574bb63": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it possible for me to cancel my order?",
+            "icon": "none",
+            "row_content": "<p>Certainly. If you have a change of heart, you are free to cancel your order before the shipment date. However, please be aware that once a shipping label has been generated, we won't be able to cancel your order. Prior to that point, please send an email to webshop@thebarn.de, and we will assist you in canceling your order and processing a refund.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--17938054709515__511861c3-6f37-4a12-bcf7-8fb1d1c54981-collapsible_row-1",
         "template--17938054709515__511861c3-6f37-4a12-bcf7-8fb1d1c54981-collapsible_row-2",
         "template--17938054709515__511861c3-6f37-4a12-bcf7-8fb1d1c54981-collapsible_row-3",
-        "template--17938054709515__511861c3-6f37-4a12-bcf7-8fb1d1c54981-collapsible_row-4"
+        "template--17938054709515__511861c3-6f37-4a12-bcf7-8fb1d1c54981-collapsible_row-4",
+        "a015a89a-ae45-4853-8ebc-d426ab4bfbe2",
+        "dbd5e3c3-fd0f-4301-96c8-b79c52e65397",
+        "c1b25fe7-0704-4a2d-a6cc-996d9574bb63"
       ],
       "settings": {
         "caption": "",
