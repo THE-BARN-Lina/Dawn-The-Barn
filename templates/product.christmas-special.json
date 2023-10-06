@@ -245,8 +245,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_IMG_3037.heic",
-            "title": "Brewed Delights Await",
-            "text": "<p>Savor the season! Behind each door: a coffee revelation and unexpected treats.<\/p>",
+            "title": "Time to Explore",
+            "text": "<p>An exciting seasonal journey through Single Origin flavour.<\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
@@ -256,8 +256,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/KaffeeAdventcalender.png",
-            "title": "Joyful Countdown",
-            "text": "<p>Unwrap a daily dose of brew-tiful delight! 24 unique coffees await, with a sprinkle of surprises.<\/p>",
+            "title": "Countdown to Christmas",
+            "text": "<p>24 unique coffees from the very best coffee producers out there.<\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
@@ -267,8 +267,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/KaffeeAdventcalender_03_colored.png",
-            "title": "Seasonal Sips & Surprises",
-            "text": "<p>Countdown to Christmas with a cup of joy. Discover a new coffee daily, plus bonus surprises!<\/p>",
+            "title": "Seasonal Surprises",
+            "text": "<p>Both boxes come packed with gifts for a memorable celebration.<\/p>",
             "link_label": "",
             "link": "",
             "custom_liquid": ""
