@@ -5,12 +5,24 @@
   },
   "sections": {
     "main": {
+      "disabled": false,
       "settings": {
       },
       "blocks": {
         "2b551958-b58c-4efe-816d-5428e2a8e84b": {
           "settings": {
             "content": "<p>Calendars will ship in <strong>mid-November <\/strong>to ensure your coffee arrives perfectly fresh.<\/p><p>Do not wait to order, our Advent Calendar is only available in very limited quantities!<br\/><br\/><strong>EU customers <\/strong><br\/>Price includes all taxes and import fees (ships from within the EU)<br\/> Calendar price: 235 or 299 EUR (includes shipping)<\/p>"
+          }
+        }
+      }
+    },
+    "fc57d7b3-3e77-4c36-911e-a5f275a639c3": {
+      "settings": {
+      },
+      "blocks": {
+        "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e": {
+          "settings": {
+            "text": ""
           }
         }
       }
