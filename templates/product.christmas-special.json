@@ -1,5 +1,63 @@
 {
   "sections": {
+    "7d6d4343-7052-43c5-adfd-8fb289735d50": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "2023 SPECIALTY COFFEE ADVENT CALENDAR",
+            "heading_size": "h1"
+          }
+        },
+        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "limited supply",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "54217868-092e-4e38-a868-f1dae0ba3c2f": {
+          "type": "text",
+          "settings": {
+            "text": "24 days of specialty coffee",
+            "text_style": "body"
+          }
+        },
+        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-heading-1",
+        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-text-1",
+        "54217868-092e-4e38-a868-f1dae0ba3c2f",
+        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image00006.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "transparent_block": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -39,7 +97,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
           }
         },
@@ -275,69 +332,16 @@
         "css_class": "",
         "custom_css": ""
       }
-    },
-    "7d6d4343-7052-43c5-adfd-8fb289735d50": {
-      "type": "image-banner",
-      "blocks": {
-        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-heading-1",
-        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-text-1",
-        "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/christmas-decorations-trinkets.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
+    "7d6d4343-7052-43c5-adfd-8fb289735d50",
     "main",
     "image-with-text",
     "product-recommendations",
     "be10cd3c-191b-4630-9624-f90d687f6226",
     "6a18f674-22d9-4a60-96d7-31ce41111305",
     "fc57d7b3-3e77-4c36-911e-a5f275a639c3",
-    "0c3a42cd-2334-4fc0-bee8-e2434fc55425",
-    "7d6d4343-7052-43c5-adfd-8fb289735d50"
+    "0c3a42cd-2334-4fc0-bee8-e2434fc55425"
   ]
 }
