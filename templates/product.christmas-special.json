@@ -79,7 +79,7 @@
         "7a25bdb5-671b-4d85-8029-98b44703d3fc": {
           "type": "text",
           "settings": {
-            "text": "<h2>COFFEE ADVENT CALENDAR<\/h2>",
+            "text": "<h2>{{ product.title }}<\/h2>",
             "text_style": "body"
           }
         },
