@@ -399,18 +399,18 @@
         "template--17938054709515__511861c3-6f37-4a12-bcf7-8fb1d1c54981-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "When can I expect my calendar to be shipped?",
+            "icon": "none",
+            "row_content": "<p>We will begin shipping Advent Calendars starting November 15th.<\/p>",
             "page": ""
           }
         },
         "template--17938054709515__511861c3-6f37-4a12-bcf7-8fb1d1c54981-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "If I order additional products along with my calendar, will they be shipped together?",
+            "icon": "none",
+            "row_content": "<p>If you proceed with a purchase that includes items other than the Advent Calendar, our system will automatically split your order. The non-Advent products will be shipped right away. When the scheduled shipping date for the Advent Calendar arrives, it will be shipped separately in its own shipment.<\/p>",
             "page": ""
           }
         }
