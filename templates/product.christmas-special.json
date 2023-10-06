@@ -118,6 +118,12 @@
           "settings": {
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "6b51c225-802a-4005-b216-706a3da21dc8": {
           "type": "collapsible_tab",
           "settings": {
@@ -138,6 +144,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "share",
         "6b51c225-802a-4005-b216-706a3da21dc8"
       ],
       "settings": {
