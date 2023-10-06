@@ -6,8 +6,8 @@
         "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-text-1": {
           "type": "text",
           "settings": {
-            "text": "COFFEE ADVENT CALENDAR",
-            "text_style": "body"
+            "text": "limited EDITION",
+            "text_style": "caption-with-letter-spacing"
           }
         },
         "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1": {
@@ -41,6 +41,9 @@
         "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1",
         "9fa3eb61-44f8-480a-83c0-639de11a1388",
         "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1"
+      ],
+      "custom_css": [
+        ".caption-with-letter-spacing {font-size: 2rem; color: white;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/KaffeeAdventcalender_04_colored.png",
@@ -191,6 +194,7 @@
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a",
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner--medium.banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt) > .banner__media {height: 60rem;}",
         "@media only screen and (min-width: 750px) {.banner__box {max-width: 40%; } .button {margin-top: 3rem; }}",
@@ -246,7 +250,7 @@
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
       ],
       "custom_css": [
-        ".multirow__inner {padding-left: 1.6rem; padding-bottom: 2rem; margin-top: 8rem;}"
+        ".multirow__inner {padding-left: 1.6rem; padding-bottom: 2rem;}"
       ],
       "settings": {
         "image_height": "medium",
