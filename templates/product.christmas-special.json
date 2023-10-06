@@ -346,6 +346,13 @@
     "fc57d7b3-3e77-4c36-911e-a5f275a639c3": {
       "type": "rich-text",
       "blocks": {
+        "ea353ce4-b834-4a66-b2ab-344dcf926531": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Advent Calendar – Full Details<\/h2>",
+            "heading_size": "h1"
+          }
+        },
         "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e": {
           "type": "text",
           "settings": {
@@ -354,6 +361,7 @@
         }
       },
       "block_order": [
+        "ea353ce4-b834-4a66-b2ab-344dcf926531",
         "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e"
       ],
       "settings": {
