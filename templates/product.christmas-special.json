@@ -359,7 +359,7 @@
         "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Shipping, Taxes & Import Duties <\/strong><br\/>Shipping in Germany is included. If you are located outside of Germany, additional Shipping costs may apply. Local taxes and import duties are not covered by us.<\/p>"
+            "text": "<p><strong>Shipping, Taxes & Import Duties <\/strong><br\/>Shipping in Germany is included. If you are located outside of Germany, additional Shipping costs apply. Taxes and import duties are not covered by us.<\/p>"
           }
         }
       },
