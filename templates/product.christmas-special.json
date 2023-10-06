@@ -184,7 +184,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_5300.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -326,7 +326,7 @@
             "color_btn_fill": "#804d15",
             "color_btn_border": "#804d15",
             "color_btn_text": "#ffffff",
-            "color_btn_fill_hover": "rgba(0,0,0,0)",
+            "color_btn_fill_hover": "#804d15",
             "color_btn_border_hover": "#ffffff",
             "color_btn_text_hover": "#ffffff",
             "font_size_btn_desktop": 24,
