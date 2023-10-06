@@ -72,7 +72,7 @@
         "e0ee40e6-691e-4f7c-b2a1-9b87d6f4c02c": {
           "type": "text",
           "settings": {
-            "text": "LIMITED SUPPLY",
+            "text": "{{ product.metafields.subscription.subscription_bean_description }}",
             "text_style": "uppercase"
           }
         },
