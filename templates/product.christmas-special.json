@@ -87,7 +87,7 @@
         "adbfb6c8-3680-4551-ac3f-f3925198a349": {
           "type": "text",
           "settings": {
-            "text": "A flavour journey through the worlds most exciting coffee regions. Make this Christmas Season special with 24x recycled cardboard tubes, filled with delicious surprises.",
+            "text": "Make this festive season more memorable than ever: Our Advent Calendar promises an incredible journey through 24 different Single Origin coffees.",
             "text_style": "body"
           }
         },
@@ -346,13 +346,6 @@
     "fc57d7b3-3e77-4c36-911e-a5f275a639c3": {
       "type": "rich-text",
       "blocks": {
-        "ea353ce4-b834-4a66-b2ab-344dcf926531": {
-          "type": "heading",
-          "settings": {
-            "heading": "<h2>Advent Calendar – Full Details<\/h2>",
-            "heading_size": "h1"
-          }
-        },
         "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e": {
           "type": "text",
           "settings": {
@@ -361,7 +354,6 @@
         }
       },
       "block_order": [
-        "ea353ce4-b834-4a66-b2ab-344dcf926531",
         "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e"
       ],
       "settings": {
