@@ -304,7 +304,7 @@
         "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "<p>OUR SUSTAINABILITY PROJECT<\/p>",
+            "title": "<p>THANKS FOR MAKING A CHANGE<\/p>",
             "heading_tag": "h6",
             "font_size_desktop": 36,
             "font_size_mobile": 32
@@ -313,7 +313,7 @@
         "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h1>Every calendar purchased will make a change. With every order you place you plant a tree in our Daterra Estate in Brazil. <\/h1>",
+            "text": "<h1>With every calendar you order you plant a tree in our forest in Brazil. <\/h1>",
             "font_size_desktop": 20,
             "font_size_mobile": 18
           }
