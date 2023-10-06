@@ -288,29 +288,6 @@
         "padding_bottom": 36
       }
     },
-    "fc57d7b3-3e77-4c36-911e-a5f275a639c3": {
-      "type": "rich-text",
-      "blocks": {
-        "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Featuring<\/strong><\/p><ul><li>24 different The Barn coffees, including our Christmas coffee – all whole bean, all single origin, freshly roasted just before we send out your box. 50g per coffee.<\/li><li>A few special surprises<\/li><li>Packaged in cute recycled cardboard tubes, each individually numbered 1 to 24.<\/li><li>Perfect for other use after you finish your coffee i.e herbs, spices or something small :) <\/li><\/ul><p><strong>Calendars will ship in mid-November and quantities are limited.<\/strong><\/p><p><\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "0c3a42cd-2334-4fc0-bee8-e2434fc55425": {
       "type": "parallax-banner",
       "blocks": {
@@ -365,6 +342,28 @@
         "css_class": "",
         "custom_css": ""
       }
+    },
+    "fc57d7b3-3e77-4c36-911e-a5f275a639c3": {
+      "type": "rich-text",
+      "blocks": {
+        "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>German customers <\/strong><br\/> Calendar price: 225 or 289 EUR (includes shipping)<br\/><br\/><strong>EU customers <\/strong><br\/> Price includes all taxes and import fees (ships from within the EU)<br\/> Calendar price: 235 or 299 EUR (includes shipping)<br\/><br\/><strong>All worldwide non-EU customers<\/strong><br\/> Shipping included – taxes and import fees not included<br\/>Calendar price: 235 or 299 EUR (includes shipping)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -374,7 +373,7 @@
     "product-recommendations",
     "be10cd3c-191b-4630-9624-f90d687f6226",
     "6a18f674-22d9-4a60-96d7-31ce41111305",
-    "fc57d7b3-3e77-4c36-911e-a5f275a639c3",
-    "0c3a42cd-2334-4fc0-bee8-e2434fc55425"
+    "0c3a42cd-2334-4fc0-bee8-e2434fc55425",
+    "fc57d7b3-3e77-4c36-911e-a5f275a639c3"
   ]
 }
