@@ -26,12 +26,11 @@
         },
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "PRE-ORDER NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -343,7 +342,7 @@
       ],
       "settings": {
         "parallax_on": true,
-        "image_bg": "shopify:\/\/shop_images\/THE_BARN_Forest.jpg",
+        "image_bg": "shopify:\/\/shop_images\/IMG_6147_2_7609a3e7-0eae-4102-9d80-9fff61af7767.jpg",
         "color_text": "#ffffff",
         "color_bg": "rgba(0,0,0,0)",
         "text_width": 90,
@@ -367,8 +366,8 @@
         "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
