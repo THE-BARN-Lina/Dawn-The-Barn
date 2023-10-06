@@ -339,6 +339,9 @@
         "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-text-1",
         "template--17938054709515__0c3a42cd-2334-4fc0-bee8-e2434fc55425-button-1"
       ],
+      "custom_css": [
+        ".luna-templates__button {padding: 1.1rem 3rem;}"
+      ],
       "settings": {
         "parallax_on": true,
         "image_bg": "shopify:\/\/shop_images\/IMG_6147_2_7609a3e7-0eae-4102-9d80-9fff61af7767.jpg",
@@ -356,6 +359,7 @@
       "blocks": {
         "dfdde52a-b967-4f3e-9bd9-a5118d3a4b8e": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Shipping, Taxes & Import Duties <\/strong><br\/>Shipping in Germany is included. If you are located outside of Germany, additional Shipping costs apply. Taxes and import duties are not covered by us.<\/p>"
           }
@@ -460,7 +464,7 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
+        "padding_top": 44,
         "padding_bottom": 36
       }
     }
