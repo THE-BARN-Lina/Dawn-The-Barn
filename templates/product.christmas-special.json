@@ -26,10 +26,9 @@
         },
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "ORDER NOW",
-            "button_link_1": "",
+            "button_link_1": "https:\/\/the-barn-coffee-roasters.myshopify.com\/cart\/43638811033867:1?channel=buy_button",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
