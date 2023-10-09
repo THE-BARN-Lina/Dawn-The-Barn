@@ -130,6 +130,7 @@
       "block_order": [
         "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
