@@ -249,21 +249,22 @@
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 600px) {.image-with-text__content {padding: 0px; padding-top: 2rem; }}"
+        "@media only screen and (max-width: 600px) {.image-with-text__content {padding: 0px; padding-top: 2rem; }}",
+        ".multirow{margin-top:3rem;}"
       ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
         "heading_size": "h2",
         "text_style": "body",
-        "button_style": "primary",
+        "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 56,
+        "mobile_content_alignment": "center",
+        "padding_top": 100,
         "padding_bottom": 48
       }
     },
