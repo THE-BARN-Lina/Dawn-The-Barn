@@ -112,7 +112,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection__title {text-align: center; padding-top: 3rem;}",
-        ".collection {border-top: 2px solid #804d15;}"
+        ".collection {border-top: 2px solid #804d15; margin-bottom:4rem;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",
@@ -140,15 +140,6 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 32
-      }
-    },
-    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 64,
-        "padding_bottom": 64
       }
     },
     "befa68a6-1035-4cea-bf06-95f308026d4b": {
@@ -217,6 +208,15 @@
         "show_text_below": false
       }
     },
+    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf": {
       "type": "multirow",
       "blocks": {
@@ -250,7 +250,7 @@
       ],
       "custom_css": [
         "@media only screen and (max-width: 600px) {.image-with-text__content {padding: 0px; padding-top: 2rem; }}",
-        ".multirow{margin-top:3rem;}"
+        ".multirow {margin-top: 3rem;}"
       ],
       "settings": {
         "image_height": "medium",
@@ -478,8 +478,8 @@
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527",
     "1653387743507b82e2",
     "165339081846c57155",
-    "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "befa68a6-1035-4cea-bf06-95f308026d4b",
+    "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "75eff281-de2b-40c2-ad6c-15f07b99126c",
