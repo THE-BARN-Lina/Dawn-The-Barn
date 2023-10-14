@@ -179,7 +179,7 @@
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "ORDER NOW",
+            "button_label_1": "ORDER HERE",
             "button_link_1": "shopify:\/\/products\/finca-sophia-geisha",
             "button_style_secondary_1": true,
             "button_label_2": "",
