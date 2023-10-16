@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
+
 {%- if settings.predictive_search_enabled -%}
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'component-loading-overlay.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -18,8 +19,10 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
-<style>
-  header-drawer {
+{%- style -%}
+
+
+header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
   }
@@ -67,9 +70,6 @@
       padding-top: 0.5rem;
     }
   }
-</style>
-
-{%- style -%}
   .section-header {
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
   }
@@ -195,10 +195,6 @@ a{
   min-width: 100px !important;
   margin-left: 2rem;
 }
-.ly-languages-switcher-link{
-  display:flex;
-}
-///////////////////////////////////////////
 .container-right-mega-menu {
   background-color: #ffffff;
   height: 260px;
@@ -225,7 +221,9 @@ a{
 .mega-menu__list {
   padding: 0px;
 }
-
+.menu-drawer__navigation{
+  background-color:white;
+}
 {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
