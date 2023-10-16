@@ -23,7 +23,6 @@
     justify-self: start;
     margin-left: -1.2rem;
   }
-
   @media screen and (min-width: 990px) {
     header-drawer {
       display: none;
@@ -35,54 +34,45 @@
     }
 
   }
-
   .menu-drawer-container {
     display: flex;
   }
-
   .list-menu {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-
   .list-menu--inline {
     display: inline-flex;
     flex-wrap: wrap;
   }
-
   summary.list-menu__item {
     padding-right: 2.7rem;
   }
-
   .list-menu__item {
     display: flex;
     align-items: center;
     line-height: calc(1 + 0.3 / var(--font-body-scale));
     color: black;
   }
-
   .list-menu__item--link {
     text-decoration: none;
     padding-bottom: 1rem;
     padding-top: 1rem;
     line-height: calc(1 + 0.8 / var(--font-body-scale));
   }
-
   @media screen and (min-width: 750px) {
     .list-menu__item--link {
       padding-bottom: 0.5rem;
       padding-top: 0.5rem;
     }
   }
-
 </style>
 
 {%- style -%}
   .section-header {
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
   }
-
   @media screen and (min-width: 750px) {
     .section-header {
       margin-bottom: {{ section.settings.margin_bottom }}px;
@@ -91,8 +81,6 @@
   .animate-slow {
   transition-duration: 0.9s; /* Adjust the duration to change the animation speed */
 }
-///////////////////////////////////////////
-
 .list-menu__item{
   color: black !important;
   font-weight: bold !important;
@@ -108,20 +96,12 @@
   margin: 0rem;
   fill: black !important;
 }
-
-
-
-
+//////////////////////////////////////////////
 .list-menu__item:hover {
   color: #804d15 !important;
   font-weight:bold !important;
 }
-
-
-
-
 //////////////////////////////////////////////
-
 .mega-menu__link--level-2 {
   width: 500px;
   padding-right: 6rem;
@@ -129,19 +109,15 @@
 .mega-menu__link{
   color: white !important;
 }
-
-
 .mega-menu > .mega-menu__content {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.9s ease, visibility 0.9s ease;
 }
-
 .mega-menu[open] > .mega-menu__content {
   opacity: 1;
   visibility: visible;
 }
-
 .container-right-mega-menu {
   background-color: rgb(28,28,28) !important;
   height: 360px !important ;
@@ -170,13 +146,11 @@
   z-index: 9999999;
 
 }
-
 .container-right-mega-menu-item p{
   color: white !important;
   text-align: center !important;
   justify-content: center !important;
 }
-
 .li-mega-menu {
   display: flex;
   flex-direction: row;
@@ -187,7 +161,6 @@
   margin:0;
   border-right: 2px solid white;
 }
-
 .link_title{
   margin-bottom: 2rem;
 }
@@ -225,9 +198,7 @@ a{
 .ly-languages-switcher-link{
   display:flex;
 }
-
 ///////////////////////////////////////////
-
 .container-right-mega-menu {
   background-color: #ffffff;
   height: 260px;
@@ -283,7 +254,7 @@ a{
               {% render 'icon-hamburger' %}
               {% render 'icon-close' %}
               </span>
-             </summary>
+          </summary>
           
           <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
             <div class="menu-drawer__inner-container">
@@ -444,13 +415,15 @@ a{
               </div>
             </div>
           </div>
+          
         </details>
       </header-drawer>
     {%- endif -%}
     {% comment %} Language Switcher in Menu Mobile {% endcomment %}
     <span class="ly-custom-0"></span> 
-</div> 
+  </div> 
 
+  
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
       <details-modal class="header__search">
         <details>
@@ -815,7 +788,6 @@ a{
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
 {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
-
 
 {% javascript %}
   class StickyHeader extends HTMLElement {
