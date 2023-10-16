@@ -157,7 +157,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        ".button {background-color: rgb(128, 77, 21); color: white; font-weight: bold; --border-offset: none;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/custom_resized_4.jpg",
