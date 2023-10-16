@@ -65,7 +65,7 @@
   }
 
 
-  .filter-button {
+  .filter-button-abo {
     min-width: 125px;
     max-width: 180px;
     font-size: 16px;
@@ -78,11 +78,11 @@
     border: 1px solid var(--white);
   }
 
-  .filter-button:hover {
+  .filter-button-abo:hover {
     background-color: var(--white);
     color: var(--black);
   }
-  .filter-button.active {
+  .filter-button-abo.active {
     border: none;
     background-color: var(--white);
     color: var(--black);
@@ -115,7 +115,7 @@
       height: 50px;
       margin-top: 2.5rem;
     }
-    .filter-button {
+    .filter-button-abo {
       margin-left: 1rem;
       margin-right: 1.5rem;
     }
@@ -131,15 +131,15 @@
     <div class="filter-buttons">
       <button
         onclick="toggleSection('favoritos')"
-        class="filter-button active"
+        class="filter-button-abo active"
         data-section="favoritos">Favourites</button>
       <button
         onclick="toggleSection('gift')"
-        class="filter-button"
+        class="filter-button-abo"
         data-section="gift">Gift</button>
       <button
         onclick="toggleSection('specials')"
-        class="filter-button"
+        class="filter-button-abo"
         data-section="specials">Specials</button>
     </div>
   </div>
@@ -149,15 +149,15 @@
     <div class="filter-buttons">
       <button
         onclick="toggleSection('favoritos')"
-        class="filter-button active"
+        class="filter-button-abo active"
         data-section="favoritos">Favoriten</button>
       <button
         onclick="toggleSection('gift')"
-        class="filter-button"
+        class="filter-button-abo"
         data-section="gift">Geschenk</button>
       <button
         onclick="toggleSection('specials')"
-        class="filter-button"
+        class="filter-button-abo"
         data-section="specials">Specials</button>
     </div>
   </div>
@@ -288,7 +288,7 @@
   });
 
   function toggleSection(sectionId) {
-    const buttons = document.querySelectorAll('.filter-button');
+    const buttons = document.querySelectorAll('.filter-button-abo');
     const sections = document.querySelectorAll('.section-collection');
 
 
@@ -311,7 +311,7 @@
     });
 
 // Add the active class to the clicked button
-    const activeButton = document.querySelector(`.filter-button[data-section="${sectionId}"]`);
+    const activeButton = document.querySelector(`.filter-button-abo[data-section="${sectionId}"]`);
     if (activeButton) {
       activeButton.classList.add('active', 'border-button');
     }
