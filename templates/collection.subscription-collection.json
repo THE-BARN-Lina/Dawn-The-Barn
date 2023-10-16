@@ -51,7 +51,7 @@
     "166178416464969217": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render | \"perks.icons\" %}\n<style>\na:hover{\ncolor:white !important;\n}\n<\/style>",
+        "custom_liquid": "{% render | \"perks.icons\" %}",
         "color_scheme": "background-1",
         "padding_top": 100,
         "padding_bottom": 100
