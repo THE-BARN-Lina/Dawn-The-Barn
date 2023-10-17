@@ -6,7 +6,7 @@
         "h1 {text-align: center;}"
       ],
       "settings": {
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 28
       }
     },
