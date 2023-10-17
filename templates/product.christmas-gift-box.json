@@ -9,17 +9,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.subscription.subscription_bean_description }}",
+            "text_style": "uppercase"
           }
         },
         "774d434a-03b9-4a0f-865a-e14942643b32": {
@@ -101,8 +100,8 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "vendor",
         "774d434a-03b9-4a0f-865a-e14942643b32",
         "price",
         "91f9e491-1535-469c-ba91-3e4531606aed",
@@ -128,7 +127,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -155,6 +153,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
