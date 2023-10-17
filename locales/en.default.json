@@ -551,6 +551,16 @@
         "shipping_method_not_available_generic": {
           "one": "Unfortunately, due to the inclusion of multiple units in your order, we are unable to proceed with shipping to the specified address. "
         }
+      },
+      "stock": {
+        "title": "Out of stock"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Out of stock"
+        }
       }
     }
   }
