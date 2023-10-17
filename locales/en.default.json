@@ -140,7 +140,7 @@
         "unit_price": "Unit price"
       },
       "share": "Share this product",
-      "sold_out": "Sold Out",
+      "sold_out": "PRE ORDER",
       "unavailable": "Unavailable",
       "vendor": "Vendor",
       "video_exit_message": "{{ title }} opens full screen video in same window.",
@@ -427,7 +427,7 @@
     "products": {
       "product": {
         "regular_price": "Regular price",
-        "sold_out": "Sold out",
+        "sold_out": "PRE ORDER",
         "unavailable": "Unavailable",
         "on_sale": "Sale",
         "quantity": "Quantity",
@@ -553,7 +553,13 @@
         }
       },
       "stock": {
-        "title": "PRE ORDER"
+        "title": "PRE ORDER",
+        "sold_out_label": "PRE ORDER"
+      },
+      "throttle": {
+        "merchandise": {
+          "sold_out": "PRE ORDER"
+        }
       }
     },
     "filters": {
