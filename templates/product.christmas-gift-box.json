@@ -16,6 +16,7 @@
         },
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.subscription.subscription_bean_description }}",
             "text_style": "uppercase"
