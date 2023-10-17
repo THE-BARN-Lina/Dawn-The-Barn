@@ -551,16 +551,6 @@
         "shipping_method_not_available_generic": {
           "one": "Unfortunately, due to the inclusion of multiple units in your order, we are unable to proceed with shipping to the specified address. "
         }
-      },
-      "stock": {
-        "title": "PRE ORDER"
-      }
-    },
-    "filters": {
-      "availability": {
-        "value": {
-          "out_of_stock": "PRE ORDER"
-        }
       }
     }
   }
