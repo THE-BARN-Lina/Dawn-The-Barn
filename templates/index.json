@@ -141,7 +141,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection__title {text-align: center; margin-top: 2rem;}",
-        ".collection {border-top: 4px solid #804d15; border-bottom: 2px solid #804d15;}",
+        ".collection {border-top: 4px solid #804d15; border-bottom: 2px solid #804d15; margin-top: 2rem;}",
         "a {text-decoration: none;}",
         "@media (max-width: 900px) {.collection__title {padding-top: 2rem; margin-top: 2rem; }}"
       ],
