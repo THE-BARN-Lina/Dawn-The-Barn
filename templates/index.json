@@ -142,7 +142,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection__title {text-align: center; margin-top: 2rem;}",
-        ".collection {border-top: 4px solid #804d15; border-bottom: 2px solid #804d15; margin-top: 2rem;padding-bottom: 2rem;}",
+        ".collection {border-top: 4px solid #804d15; border-bottom: 2px solid #804d15; margin-top: 2rem; padding-bottom: 2rem;}",
         "a {text-decoration: none;}",
         "@media (max-width: 900px) {.collection__title {padding-top: 2rem; margin-top: 2rem; }}"
       ],
@@ -263,7 +263,7 @@
         "image_layout": "alternate-left",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 48
       }
