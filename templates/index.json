@@ -53,7 +53,7 @@
         "image": "shopify:\/\/shop_images\/gradient-funky.jpg",
         "image_2": "shopify:\/\/shop_images\/Group_149.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "transparent_block": false,
         "desktop_content_position": "middle-left",
