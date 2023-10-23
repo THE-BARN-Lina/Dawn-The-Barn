@@ -1,12 +1,34 @@
+<style>
+
+
+@media only screen and (max-width: 1239px) {
+
+}
+
+</style>
+
+  {% for coffee_beans_main_seo in shop.metaobjects.coffee_beans_main_seo.values %}
+
+      <div class="coffee-main-seo-container">
+     
+
+
+      </div>
+
+  {% endfor %}
+
+
+
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Coffee Beans Main SEO",
+    "settings": [],
+    "presets": [{
+        "name": "Coffee Beans Main SEO",
+        "category": "Text"
+  }]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
