@@ -188,13 +188,23 @@
             "row_content": "<p>Like in wine, we have different grapes in coffee. The varietal tree of arabica coffee keeps spreading: From heirloom and other natural varietals, coffee travelled with colonialism. <\/p><p>From there, new varietals were cross-bred to adjust to soil, increase yield or flavour or to pretect coffee from diseases. Sizes, hardness, density, sweetness, acidity and flavour characteristics vary massively and it is a joy not only to discover different varietals but also to try a varietal on different soil, processing or country of origin. <\/p><p>Some of our more advanced farm partners have varietal gardens where they experiment over many years, what varietal suits best their soil and climate. Based on that, they then look at processing to offer a vast range of flavour profiles, coming from the same farm and soil.    <\/p>",
             "page": ""
           }
+        },
+        "70761c91-5037-441b-9f31-b0d3a0d6e0b6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer decaf coffee beans?",
+            "icon": "check_mark",
+            "row_content": "<p>Decaf Coffee undergoes a process that we find has two negative effects: It leaves a negative footprint in terms of environmental impact. It also takes away a lot of the exciting natural flavour profile of the coffee it once was. <\/p><p>While we are aware that new technologies can achieve less impact and improved cup profiles, there is still a wide gap between a decaf and a natural coffee. The good news is: There is a natural solution. <\/p><p>There are two varietals that naturally contain less caffeine: Laurina (0.2-0.4%) and Aramosa (0.5-0.7%). This compares with around 1.4-1.8% of caffeine that occurs in regular arabica coffee beans. <\/p><p>And compared to over 2.0% in robusta beans. We started our Low Caf program in 2018, offering those two varietals for those who are more sensitive to caffeine. <\/p><p>Mind you: Even Decaf Coffee has traces of caffeine. With our Low Caf you cut out a minimum of 50% of caffeine in your beverage. Whilst enjoying the whole world of natural coffee flavours.   <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-1",
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-2",
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-3",
-        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-4"
+        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-4",
+        "70761c91-5037-441b-9f31-b0d3a0d6e0b6"
       ],
       "settings": {
         "caption": "",
