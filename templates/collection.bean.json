@@ -246,6 +246,9 @@
         "71e3c66f-d063-42f3-9a96-a6cbc038eb03",
         "547f95f3-b4f6-4e73-bc5f-7954e6a788ee"
       ],
+      "custom_css": [
+        ".collapsible-content-wrapper-narrow {max-width:100%;}"
+      ],
       "settings": {
         "caption": "THE BARN COFFEE BEANS",
         "heading": "FAQ",
