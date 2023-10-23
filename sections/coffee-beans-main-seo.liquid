@@ -117,27 +117,26 @@
 </style>
 
 <script>
-
   document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('theme-toggle');
+    const mainContainer = document.querySelector('.coffee-main-seo-container');
     const currentTheme = localStorage.getItem('theme');
     
     if (currentTheme === 'dark') {
-      document.coffee-main-seo-container.classList.add('dark-mode');
+      mainContainer.classList.add('dark-mode');
     }
 
     themeToggle.addEventListener('click', () => {
-      document.coffee-main-seo-container.classList.toggle('dark-mode');
-      if (document.coffee-main-seo-container.classList.contains('dark-mode')) {
+      mainContainer.classList.toggle('dark-mode');
+      if (mainContainer.classList.contains('dark-mode')) {
         localStorage.setItem('theme', 'dark');
       } else {
         localStorage.setItem('theme', 'light');
       }
     });
   });
-
-
 </script>
+
   
   <button id="theme-toggle">Toggle Dark/Light Mode</button>
   
