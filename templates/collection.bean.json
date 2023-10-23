@@ -173,155 +173,6 @@
         "padding_bottom": 40
       }
     },
-    "d29dda87-cd6a-45ce-af39-0ea9810bf3b0": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17938059460875__d29dda87-cd6a-45ce-af39-0ea9810bf3b0-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Our Unique Portfolio<\/strong><\/p><p>With our seasonal portfolio of Coffee Beans you can discover the world of Single Origin Flavour. We source coffee beans from around the world and roast them in Berlin: our coffee will take you on a journey through the possibilities of flavour. <\/p><p>Following our vision of Nordic-style roasting, a delicate roast ensures that the unique qualities of different coffee beans is allowed to shine. <\/p><p><strong>Single Origin Quality<\/strong><\/p><p>The highest quality, single origin coffee beans are the foundation of every good cup of coffee. Our beans are carefully sourced from farms we trust and encompass a diverse range of flavours. Since the beginning, we have prioritised long term relationships with individual farms and producers who care about quality and sustainability. Having visited coffee producers across the world, our goal is to display their amazing work in every bag of coffee beans we sell. By working directly with farms, we can enjoy the distinct characteristics found in coffee while offering a relationship that is financially sustainable.<\/p><p><strong>Join Our Exploration<\/strong><\/p><p>Differences in origin, process, and varietal create unique characteristics, and we feature coffee beans to suit any palate. With our three signature flavour categories - <strong>Balanced<\/strong>, <strong>Terroir<\/strong>, <strong>Exotic<\/strong> - there will always be a coffee profile in our portfolio that suits your taste, roasted with respect for the amazing green coffee beans we source from our partner farms.<\/p><p>Our flavour categories will help guide you through the coffee beans in our portfolio. From <strong>Balanced<\/strong> favourites we could drink all day to our <strong>Terroir<\/strong> range that shows more distinct flavours of a particular region. Our <strong>Exotic<\/strong> category is reserved for rare and memorable lots that highlight coffee beans with exceptional and unexpected flavour profiles. Selecting coffee is not a one-size-fits-all process, but we are here to help you find the coffee beans that suit you.<\/p><p><strong>From Crop To Cup<\/strong><\/p><p>The meticulous and complex process of growing our coffee beans requires keen attention to detail and respect for the environment. Within 3 to 4 years after planting, coffee trees start to bear fruit: the coffee cherries. The ripe cherries are flushed with bright, vibrant hues of red and yellow. Care and precision are the indispensable elements during the harvesting phase - at the small scale farms we work with, the harvest process is done by hand to ensure that the delicate trees are not damaged, and the coffee cherries are picked at the perfect moment.<br\/><br\/>Ripe coffee cherries undergo a particular process to extract the beans from inside the layer of fruit. The two most common forms of processing are ‘Washed’ and ‘Natural’ but we also offer an increasing range of innovative and exotic processes. Each technique imparts different traits to the beans, influencing the flavour you will taste in the cup. <\/p><p><strong>Capturing The Flavour: Nordic Roast<\/strong><\/p><p>Our roasting process is the moment when we harness the irresistible flavour and aroma of our green coffee beans. Achieving a high-quality roast demands meticulous control over temperature and time and our roast team has years of experience.<\/p><p>Our Nordic roast style is light by design. We roast to capture the individual characteristics of the bean and terroir, not the heavy, roasted flavour that can be created by longer roasting. With expert judgement, our roasters ensure our coffee beans reveal their unique and complex flavours.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17938059460875__d29dda87-cd6a-45ce-af39-0ea9810bf3b0-text-1"
-      ],
-      "custom_css": [
-        ".rich-text__wrapper {padding: 0px;}",
-        ".rich-text--full-width {padding: 0px; padding-bottom: 2rem;}"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "2db0edf3-eaeb-4502-afae-ebd185045e96": {
-      "type": "multirow",
-      "blocks": {
-        "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/73CA1A43-3395-4EA0-AC3B-F8726FA150F7.jpg",
-            "caption": "",
-            "heading": "Why are coffee beans so important for freshly brewed coffee?",
-            "text": "<p><\/p><p>Coffee beans are the crucial element in achieving a delicious cup of freshly brewed coffee. The flavour, aroma, and overall quality of the coffee depend greatly on the type and quality of the beans used. Therefore, selecting the right beans is vital. There are various factors that influence the taste profile of coffee beans, such as the region they are grown in, the altitude, the processing method, and the roasting level. By understanding these factors and choosing beans that align with your preferences, you can ensure a high-quality coffee experience.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Slider_-_Farming_in_Colombia.jpg",
-            "caption": "",
-            "heading": "",
-            "text": "<p><strong>How do I choose my coffee?<\/strong><\/p><p>When choosing coffee beans, it's essential to consider personal taste preferences. With each coffee, we choose three flavour descriptors that you will find on the front of the bag. However, certain factors can help guide your selection and this is why we divide our beans into three flavour categories: Balanced. Terroir. Exotic. Our beans are sourced from coffee farms we trust, then roasted and shipped to ensure freshness and optimal flavour. <\/p><p><strong>What is coffee processing?<\/strong><\/p><p>For all the coffee beans we feature, we state how the coffee was processed. This refers to the method that takes place after harvest to produce a coffee bean that is ready to be roasted. Ripe coffee cherries undergo a particular process to extract the bean from inside the layer of fruit. The two most common forms of processing are ‘Washed’ and ‘Natural’.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "3c79cf29-f8ad-45ed-a77c-ce545a49f45c": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/volcancherries.jpg",
-            "caption": "",
-            "heading": "",
-            "text": "<p><strong>What is a coffee varietal?<\/strong><\/p><p>Alongside the process, we will always state the coffee varietal. Within the Arabica coffee species, there are numerous distinct varietals that have developed naturally or been selectively chosen. Different varietals offer different flavour characteristics that contribute to the flavour of your coffee beans. Coffee producers will select varietals that match the qualities of their terroir.<\/p><p><strong>Do you offer decaf coffee beans?<\/strong><\/p><p>To this day, we have not tasted a decaf coffee that meets our expectations of flavour and texture. To create decaf coffee, coffee beans must undergo a process to extract the caffeine and this can affect the cup profile. Instead, we offer Low Caf coffee beans, featuring rare varietals that have naturally low levels of caffeine, without any compromise in flavour.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-1",
-        "template--17938059460875__2db0edf3-eaeb-4502-afae-ebd185045e96-row-2",
-        "3c79cf29-f8ad-45ed-a77c-ce545a49f45c"
-      ],
-      "custom_css": [
-        ".multirow__inner {padding-left: 0px; padding-right: 0px; padding-top: 2rem;}",
-        ".image-with-text__content {padding-top: 2rem;}",
-        "@media (max-width: 410px) {.image-with-text__content {padding: 0rem; padding-top: 2rem; }}"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "small",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "4ce8e0de-1f4e-44c4-839d-22ce8db55e36": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17938059460875__4ce8e0de-1f4e-44c4-839d-22ce8db55e36-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Do you offer pre-ground coffee?<\/strong><\/p><p>The meticulous task of grinding coffee beans is an essential part of the coffee brewing process. Grinding your coffee beans just before you brew is pivotal in achieving the perfect cup and fully extracting the distinct flavours of our single origin coffee beans. Freshly ground coffee beans boast a host of benefits. The aroma and flavour of the brew depend on the freshness of the grind and an appropriate grind size for your brewer: grinding coffee beans right before brewing ensures a unique and flavourful coffee experience.<\/p><p><strong>What is the best way to store coffee beans?<\/strong><\/p><p>To keep your coffee beans fresh and full of flavour, it's essential to store them properly. Our signature coffee bags have a one way valve which ensures your coffee beans do not oxidise too quickly. Store your coffee beans in a cool, dry place, away from direct sunlight. It is recommended to grind the beans just before brewing to preserve freshness. Avoid storing coffee in the refrigerator or freezer, as these environments can introduce moisture and cause condensation on the coffee, potentially affecting the taste.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17938059460875__4ce8e0de-1f4e-44c4-839d-22ce8db55e36-text-1"
-      ],
-      "custom_css": [
-        ".rich-text {padding: 0; padding-top: 2rem;}",
-        ".rich-text__wrapper {padding: 0px;}"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "7798d037-55b9-4413-b394-aae514d250b3": {
-      "type": "rich-text",
-      "blocks": {
-        "3005c7e9-2ae5-441a-bd2b-120156417d67": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>What should I consider when buying coffee beans online?<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "73b82b83-3d62-4984-9d1d-450f5351b20a": {
-          "type": "text",
-          "settings": {
-            "text": "<p><\/p><p>When purchasing coffee beans online, there are a few key factors to consider. We always send our coffee beans from the roastery, to guarantee you receive your coffee with the best possible flavour. Pay attention to the origin, processing method, and flavour descriptions of the beans, so your beans match your preferences.<\/p><p><strong>Are your coffee beans sustainable?<\/strong><\/p><p>Sustainability comes in two forms: for the environment and for the producer. We prioritise close relationships with producers where we can pay a premium for quality - the price we pay for our beans is often 3–5 times higher than the standard Fairtrade price. We have always been committed to supporting farmers through long-term partnerships. We are proud to work with producers who prioritise the environment alongside their quality. A healthy, nourished terroir results in great tasting coffee beans - sustainability is in all our interests. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "3005c7e9-2ae5-441a-bd2b-120156417d67",
-        "73b82b83-3d62-4984-9d1d-450f5351b20a"
-      ],
-      "custom_css": [
-        ".rich-text--full-width {padding: 0px; padding-top: 2rem;}",
-        ".rich-text__wrapper{padding:0px;}"
-      ],
-      "settings": {
-        "desktop_content_position": "right",
-        "content_alignment": "right",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "16609096892f959660": {
       "type": "collection-list",
       "blocks": {
@@ -356,6 +207,9 @@
         "16609096892c11eee0-1",
         "16609096892c11eee0-2"
       ],
+      "custom_css": [
+        ".collection-list-wrapper{padding:0px;}"
+      ],
       "settings": {
         "title": "DISCOVER MORE",
         "heading_size": "h2",
@@ -377,10 +231,6 @@
     "4a7462f3-1c39-492f-90cd-a6b4c15e80ff",
     "79312cdf-217c-456e-b5c3-5a0d3f674794",
     "16609093955d46716e",
-    "d29dda87-cd6a-45ce-af39-0ea9810bf3b0",
-    "2db0edf3-eaeb-4502-afae-ebd185045e96",
-    "4ce8e0de-1f4e-44c4-839d-22ce8db55e36",
-    "7798d037-55b9-4413-b394-aae514d250b3",
     "16609096892f959660"
   ]
 }
