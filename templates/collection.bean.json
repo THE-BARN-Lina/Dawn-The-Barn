@@ -183,9 +183,9 @@
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What is a coffee varietal?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Like in wine, we have different grapes in coffee. The varietal tree of arabica coffee keeps spreading: From heirloom and other natural varietals, coffee travelled with colonialism. <\/p><p>From there, new varietals were cross-bred to adjust to soil, increase yield or flavour or to pretect coffee from diseases. Sizes, hardness, density, sweetness, acidity and flavour characteristics vary massively and it is a joy not only to discover different varietals but also to try a varietal on different soil, processing or country of origin. <\/p><p>Some of our more advanced farm partners have varietal gardens where they experiment over many years, what varietal suits best their soil and climate. Based on that, they then look at processing to offer a vast range of flavour profiles, coming from the same farm and soil.    <\/p>",
             "page": ""
           }
         }
@@ -198,7 +198,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "FAQ",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
