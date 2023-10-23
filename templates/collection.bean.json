@@ -206,6 +206,15 @@
             "row_content": "<p>The simple answer is: No. And there is a good reason for that. Each bean is carefully treated ever since it was being removed from the protecting coffee cherry. <\/p><p>During fermentation, sorting and drying we make sure that the beans do not crack. For example from having too much heat on the drying beds. <\/p><p>Keeping the shell intact means that we keep all of the flavours and oils inside the coffee bean. We roast them slowly and gently so we can develop flavours, sweetness, acidity and body from inside the bean. <\/p><p>When we grind a coffee, we crack open this beautiful seed and from that moment, flavours and oils are exposed to oxygen. And from that moment, the flavour potential starts weakening. So the best coffee experience you can have is when you grind your beans just before brewing your coffee. <\/p><p>We strongly believe in that and we want to present our coffees in the best possible way to you. There is a second reason: In order to extract your coffee perfectly, you should adjust the grind setting to your method, machine, water and waterpressure. <\/p><p>This is best done by yourself at home, in the office or when you travel. We do offer great handgrinders that we recommend for perfect grind distribution. Grinding coffee beans right before brewing ensures a unique and flavourful coffee experience.<\/p>",
             "page": ""
           }
+        },
+        "424e3cf3-0c89-4c45-a1d0-728729f388fa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the best way to store coffee beans?",
+            "icon": "check_mark",
+            "row_content": "<p>To keep your coffee beans fresh and full of flavour, it is essential to store them properly. <\/p><p>Our signature coffee bags have a one-way valve which ensures your coffee beans do not oxidise: only coffee gases exit the bag and no oxygen can come in. <\/p><p>Once you have opened the bag, use the zipper to close it after use. Store your coffee beans in a dry place and at room temperature. In case you prefer to put your beans into a jar or such, make sure its not glass or transparent. <\/p><p>Sunlight will make coffee beans age quicker. A perfect coffee jar has a vacuum function, such as the Atmos by Fellow. It is recommended to grind the beans just before brewing for the best coffee experience: The moment the coffee has been ground, it start losing flavours. <\/p><p>Essentially, the seed has been cracked so that the protected oils and the inside of the beautiful bean is exposed to oxygen. <\/p><p>Avoid storing coffee in the refrigerator or freezer, as these environments can introduce moisture and cause condensation on the coffee, potentially affecting the taste. If you still want to freeze your beans, do it in small quantities, so that when you defrost them, you enjoy them all the same day. <\/p><p>Do not freeze beans twice!<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -214,7 +223,8 @@
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-3",
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-4",
         "70761c91-5037-441b-9f31-b0d3a0d6e0b6",
-        "34c5e002-7707-4f0b-b318-2e9c74585e65"
+        "34c5e002-7707-4f0b-b318-2e9c74585e65",
+        "424e3cf3-0c89-4c45-a1d0-728729f388fa"
       ],
       "settings": {
         "caption": "",
