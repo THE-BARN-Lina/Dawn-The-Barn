@@ -105,6 +105,7 @@
       "block_order": [
         "5853b1b9-12f4-4fd5-8a98-25161897e6e7"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text {border-bottom: 2px solid grey;}"
       ],
@@ -130,7 +131,9 @@
       "block_order": [
         "template--18037485830411__acabed1d-8725-4fc6-9b1e-c18b425c538d-text-1"
       ],
-      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
