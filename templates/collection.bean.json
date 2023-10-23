@@ -196,6 +196,7 @@
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-3",
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-4"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Collapsible content",
