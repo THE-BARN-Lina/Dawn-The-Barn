@@ -224,6 +224,15 @@
             "row_content": "<p>When purchasing our coffee beans online, follow our guidance so you will chose the perfect coffee for yourself. <\/p><p>Our bean collection is split between filter and espresso roasts. While we find these two roast styles important so you can easier chose based on your brewing method, there are many coffee fans that love our espresso roast on filter brewing methods and vice versa. <\/p><p>Both are light in style. The only difference is that the espresso roast has a slightly longer roast time and is roasted in a slightly larger machine. Which brings the body and sweetness to the forefront.<\/p><p> Our filter roasts are shorter and they highlight acidity and more delicate notes such as florals. <\/p>",
             "page": ""
           }
+        },
+        "547f95f3-b4f6-4e73-bc5f-7954e6a788ee": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your coffee beans sustainable?",
+            "icon": "check_mark",
+            "row_content": "<p>When we look at sustainability, we look at the environment and the coffee producer. The way we approach it, is this: <\/p><p>First we need to find a producer that is wants to adopt quality standards to produce better coffee. It requires a desire to change and to elevate processing techniques. <\/p><p>Those farmers are passionate and they want to know their roast partner. This is when we come in. If our goals align and if personalities match, we start a relationship. <\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -234,7 +243,8 @@
         "70761c91-5037-441b-9f31-b0d3a0d6e0b6",
         "34c5e002-7707-4f0b-b318-2e9c74585e65",
         "424e3cf3-0c89-4c45-a1d0-728729f388fa",
-        "71e3c66f-d063-42f3-9a96-a6cbc038eb03"
+        "71e3c66f-d063-42f3-9a96-a6cbc038eb03",
+        "547f95f3-b4f6-4e73-bc5f-7954e6a788ee"
       ],
       "settings": {
         "caption": "",
