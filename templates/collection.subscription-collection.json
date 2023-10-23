@@ -216,7 +216,8 @@
         "16609096892c11eee0-2"
       ],
       "custom_css": [
-        ".collection-list-wrapper {padding: 0px; padding-top: 6rem;}"
+        ".collection-list-wrapper {padding: 0px; padding-top: 6rem;}",
+        ".title-wrapper-with-link{display: flex; flex-direction: column; align-items: center;}"
       ],
       "settings": {
         "title": "DISCOVER MORE",
