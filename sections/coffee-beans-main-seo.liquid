@@ -17,6 +17,12 @@
   display: block; 
   margin: 0 auto;
 }
+.image-coffee-beans-4{
+  max-width: 100%;
+  height: auto; 
+  display: block; 
+  margin: 0 auto;
+}
 
 @media only screen and (min-width: 990px) {
 
@@ -48,6 +54,17 @@
     flex-direction:row-reverse;
   }
   .image-coffee-beans-3{
+    height:470px;
+    width:auto;
+    padding: 4rem;
+    padding-left:0px;
+    padding-bottom: 4rem;
+  }
+  .coffee-main-seo-4{
+    display:flex;
+    flex-direction:row-reverse;
+  }
+  .image-coffee-beans-4{
     height:470px;
     width:auto;
     padding: 4rem;
@@ -100,9 +117,22 @@
         <p>{{ coffee_beans_main_seo.paragraph_3_4 }}</p>
         <p>{{ coffee_beans_main_seo.paragraph_3_5 }}</p>
 
-    
-        <h1>{{ coffee_beans_main_seo.title_4 }}</h1>
-        <p>{{ coffee_beans_main_seo.paragraph_4 }}</p>
+        
+      <div class='coffee-main-seo-4'>
+          <div>
+            <h1>{{ coffee_beans_main_seo.title_4 }}</h1>
+            <p>{{ coffee_beans_main_seo.paragraph_4 }}</p>
+            <p>{{ coffee_beans_main_seo.paragraph_4_1 }}</p>
+            <p>{{ coffee_beans_main_seo.paragraph_4_2 }}</p>
+          </div>
+            <img class='image-coffee-beans-4' src="{{ coffee_beans_main_seo.image_4 | img_url:'500x' }}" alt="coffee beans" loading="lazy" height="" width="">
+        </div>
+        <p>{{ coffee_beans_main_seo.paragraph_4_3 }}</p>
+        <p>{{ coffee_beans_main_seo.paragraph_4_4 }}</p>
+        <p>{{ coffee_beans_main_seo.paragraph_4_5 }}</p>
+
+
+        
         <h1>{{ coffee_beans_main_seo.title_5 }}</h1>
         <p>{{ coffee_beans_main_seo.paragraph_5 }}</p>
 
