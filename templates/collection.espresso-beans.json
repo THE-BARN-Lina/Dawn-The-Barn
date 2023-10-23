@@ -103,8 +103,9 @@
       "block_order": [
         "template--18039899357451__26736b70-ec04-4a0f-a45b-1f30d56cbaf2-text-1"
       ],
+      "disabled": true,
       "custom_css": [
-        ".rich-text__wrapper{padding:0px;}"
+        ".rich-text__wrapper {padding: 0px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
