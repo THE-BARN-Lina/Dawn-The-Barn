@@ -156,9 +156,9 @@
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Are freshly roasted coffee beans important for your coffee?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>First of all: The better the coffee beans - the better the cup of coffee. Thats easy! So, what are important factors to bear in mind when brewing a delicious cup of coffee? Freshness of coffee beans is certainly an major quality point. <\/p><p>Thats why we print the roast date (plus batch number) on the back of our bean bags. So, when are they are too old? Our guidance is that the best flavour experience is guaranteed in the first 3 months after roast date. <\/p><p>Given that you store the beans correctly (room temperature, sealed bag, no sunlight). Once the bag was opened, we recommend enjoying your beans within 10 days. Having said all this: Light roasted coffee degases slower than dark roasted coffee. Even though you may have surpassed the 3 months, your coffee will still taste a lot better than regular coffee you buy in the supermarkets. <\/p><p>Essentially, it never really goes bad. It just gets weaker in flavour expression. What are other major factors to brew the best cup of coffee: Number one has to be the water. It is more than 95% of the beverage. <\/p><p>Check out our water guide but make sure you have well-filtered water (without any added minerals, if you go for bottled). Secondly, the grind setting is crucial. The more we break the beaan into pieces, the more surface we offer the water for extraction. <\/p><p>Thats why espresso is very fine in grind (you only have around 30 seconds for extraction under high pressure). <\/p><p>And thats why the french press is so coarse (you have 4-5 minutes without any pressure during extraction). Other factors are: agitation and water temperature.      <\/p>",
             "page": ""
           }
         },
@@ -196,7 +196,6 @@
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-3",
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-4"
       ],
-      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Collapsible content",
