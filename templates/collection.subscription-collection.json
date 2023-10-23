@@ -163,6 +163,9 @@
         "6d5a4aea-c112-45a8-b6f7-84e285764213",
         "aa7ba88b-8c3f-4ee9-beda-029dd01289c9"
       ],
+      "custom_css": [
+        ".collapsible-content-wrapper-narrow {max-width: 100%;}"
+      ],
       "settings": {
         "caption": "SUBSCRIPTIONS",
         "heading": "Frequently Asked Questions",
