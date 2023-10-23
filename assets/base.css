@@ -412,6 +412,8 @@ h5,
   word-break: break-word;
 }
 h1,
+h2,
+h3,
  {
   font-family: 'Placard Next';
   font-style: var(--font-heading-style);
