@@ -7,19 +7,10 @@
 }
 
 @media only screen and (min-width: 990px) {
-  .container-coffee-beans-1 {
-    position: relative;
-    width: 100%;
-    padding-bottom: 50%; 
-    overflow: hidden;
-    }
-  .image-coffee-beans-1{
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   object-fit: contain;
+
+  .coffee-main-seo-1{
+    display:flex;
+    flex-direction:row;
   }
 }
 
@@ -28,14 +19,16 @@
   {% for coffee_beans_main_seo in shop.metaobjects.coffee_beans_main_seo.values %}
 
       <div class="coffee-main-seo-container">
-
-        <h1>{{ coffee_beans_main_seo.title_1 }}</h1>
-        <p>{{ coffee_beans_main_seo.paragraph_1 }}</p>
-        <p>{{ coffee_beans_main_seo.paragraph_1_1 }}</p>
-        <p>{{ coffee_beans_main_seo.paragraph_1_2 }}</p>
-        <div class='container-coffee-beans-1'>
-        <img class='image-coffee-beans-1' src="{{ coffee_beans_main_seo.image_1 | img_url:'500x' }}" alt="coffee beans" loading="lazy" height="" width="">
+        <div class='coffee-main-seo-1'>
+          <div>
+            <h1>{{ coffee_beans_main_seo.title_1 }}</h1>
+            <p>{{ coffee_beans_main_seo.paragraph_1 }}</p>
+            <p>{{ coffee_beans_main_seo.paragraph_1_1 }}</p>
+            <p>{{ coffee_beans_main_seo.paragraph_1_2 }}</p>
+          </div>
+            <img class='image-coffee-beans-1' src="{{ coffee_beans_main_seo.image_1 | img_url:'500x' }}" alt="coffee beans" loading="lazy" height="" width="">
         </div>
+
         <p>{{ coffee_beans_main_seo.paragraph_1_3 }}</p>
         <p>{{ coffee_beans_main_seo.paragraph_1_4 }}</p>
         <p>{{ coffee_beans_main_seo.paragraph_1_5 }}</p>
