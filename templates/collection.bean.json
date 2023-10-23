@@ -197,6 +197,15 @@
             "row_content": "<p>Decaf Coffee undergoes a process that we find has two negative effects: It leaves a negative footprint in terms of environmental impact. It also takes away a lot of the exciting natural flavour profile of the coffee it once was. <\/p><p>While we are aware that new technologies can achieve less impact and improved cup profiles, there is still a wide gap between a decaf and a natural coffee. The good news is: There is a natural solution. <\/p><p>There are two varietals that naturally contain less caffeine: Laurina (0.2-0.4%) and Aramosa (0.5-0.7%). This compares with around 1.4-1.8% of caffeine that occurs in regular arabica coffee beans. <\/p><p>And compared to over 2.0% in robusta beans. We started our Low Caf program in 2018, offering those two varietals for those who are more sensitive to caffeine. <\/p><p>Mind you: Even Decaf Coffee has traces of caffeine. With our Low Caf you cut out a minimum of 50% of caffeine in your beverage. Whilst enjoying the whole world of natural coffee flavours.   <\/p>",
             "page": ""
           }
+        },
+        "34c5e002-7707-4f0b-b318-2e9c74585e65": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer pre-ground coffee?",
+            "icon": "check_mark",
+            "row_content": "<p>The simple answer is: No. And there is a good reason for that. Each bean is carefully treated ever since it was being removed from the protecting coffee cherry. <\/p><p>During fermentation, sorting and drying we make sure that the beans do not crack. For example from having too much heat on the drying beds. <\/p><p>Keeping the shell intact means that we keep all of the flavours and oils inside the coffee bean. We roast them slowly and gently so we can develop flavours, sweetness, acidity and body from inside the bean. <\/p><p>When we grind a coffee, we crack open this beautiful seed and from that moment, flavours and oils are exposed to oxygen. And from that moment, the flavour potential starts weakening. So the best coffee experience you can have is when you grind your beans just before brewing your coffee. <\/p><p>We strongly believe in that and we want to present our coffees in the best possible way to you. There is a second reason: In order to extract your coffee perfectly, you should adjust the grind setting to your method, machine, water and waterpressure. <\/p><p>This is best done by yourself at home, in the office or when you travel. We do offer great handgrinders that we recommend for perfect grind distribution. Grinding coffee beans right before brewing ensures a unique and flavourful coffee experience.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -204,7 +213,8 @@
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-2",
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-3",
         "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-4",
-        "70761c91-5037-441b-9f31-b0d3a0d6e0b6"
+        "70761c91-5037-441b-9f31-b0d3a0d6e0b6",
+        "34c5e002-7707-4f0b-b318-2e9c74585e65"
       ],
       "settings": {
         "caption": "",
