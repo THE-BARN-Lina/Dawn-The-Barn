@@ -213,6 +213,7 @@
         "16609096892c11eee0-1",
         "16609096892c11eee0-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".collection-list-wrapper {padding: 0px;}"
       ],
