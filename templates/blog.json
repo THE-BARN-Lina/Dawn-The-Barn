@@ -146,12 +146,43 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "57c5ac2e-c49a-4d6b-b0f7-825be99db329": {
+      "type": "feature-collection-custom",
+      "settings": {
+        "title": "SUBSCRIPTIONS",
+        "heading_size": "h1",
+        "description_heading_2": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "coffee-subscription",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "24f4b74b-0b27-4085-beb2-eb05ba88843e",
     "67d867b7-0a9c-4dbd-971b-157575c57a51",
-    "063655d2-2ddb-40fa-baaf-2a0afd021e24"
+    "063655d2-2ddb-40fa-baaf-2a0afd021e24",
+    "57c5ac2e-c49a-4d6b-b0f7-825be99db329"
   ]
 }
