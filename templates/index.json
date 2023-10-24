@@ -252,22 +252,21 @@
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 600px) {.image-with-text__content {padding: 0px; padding-top: 2rem; }}",
-        ".multirow {margin-top: 3rem;}"
+
       ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "text_style": "body",
         "button_style": "primary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "image_layout": "alternate-left",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
         "padding_bottom": 48
       }
     },
@@ -388,7 +387,7 @@
         "ebcf916f-48b7-4d4a-94fc-dc5e453dd19d"
       ],
       "custom_css": [
-        ".collapsible-content {margin-top: 6rem; margin-bottom: -14rem;}",
+        ".collapsible-content {margin-top: 6rem; border-top: 2px solid #804d15;}",
         "@media (max-width: 750px) {.collapsible-content {margin-bottom: -4rem; }}",
         "img {max-height: 562px;}"
       ],
@@ -406,14 +405,6 @@
         "desktop_layout": "image_second",
         "padding_top": 16,
         "padding_bottom": 16
-      }
-    },
-    "75eff281-de2b-40c2-ad6c-15f07b99126c": {
-      "type": "newsletter-sign-up",
-      "disabled": true,
-      "settings": {
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "9548d051-e9a3-422f-91dd-584c92a394fd": {
@@ -485,7 +476,6 @@
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
-    "75eff281-de2b-40c2-ad6c-15f07b99126c",
     "9548d051-e9a3-422f-91dd-584c92a394fd"
   ]
 }
