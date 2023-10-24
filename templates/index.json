@@ -262,7 +262,7 @@
         "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "image_layout": "alternate-left",
+        "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "center",
@@ -398,10 +398,10 @@
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image": "shopify:\/\/shop_images\/Chemex_Berlin_3ecda66a-a5ff-493c-9313-d159c7f0441a.jpg",
         "image_ratio": "large",
-        "desktop_layout": "image_second",
+        "desktop_layout": "image_first",
         "padding_top": 0,
         "padding_bottom": 0
       }
