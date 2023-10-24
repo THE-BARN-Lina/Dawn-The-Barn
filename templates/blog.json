@@ -87,21 +87,21 @@
         "padding_bottom": 36
       }
     },
-    "57b91443-ddb2-4a78-9f07-0e917bdfe958": {
-      "type": "featured-collection",
+    "67d867b7-0a9c-4dbd-971b-157575c57a51": {
+      "type": "feature-collection-custom",
       "settings": {
         "title": "EQUIPMENT",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "coffee-equipment",
-        "products_to_show": 12,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "view_all_label": "View All",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
@@ -112,37 +112,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "db92d7ab-3ef5-4851-8620-59957c34e35a": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "COFFEE BEANS",
-        "heading_size": "h2",
-        "description_heading_2": "",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "coffee-beans",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -151,7 +121,6 @@
   "order": [
     "main",
     "24f4b74b-0b27-4085-beb2-eb05ba88843e",
-    "57b91443-ddb2-4a78-9f07-0e917bdfe958",
-    "db92d7ab-3ef5-4851-8620-59957c34e35a"
+    "67d867b7-0a9c-4dbd-971b-157575c57a51"
   ]
 }
