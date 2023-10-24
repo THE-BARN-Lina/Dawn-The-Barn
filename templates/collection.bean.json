@@ -160,7 +160,8 @@
         "56c89b28-9917-4b67-a4c9-5199eed835af"
       ],
       "custom_css": [
-        "h3 {color: rgba(255, 255, 255, 0.75);}"
+        "h3 {color: rgba(255, 255, 255, 0.75);}",
+        "@media screen and (min-width: 990px) {h3 {font-size: 20px; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
