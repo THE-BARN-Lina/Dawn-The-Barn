@@ -145,6 +145,29 @@
         "padding_bottom": 40
       }
     },
+    "a9608a96-2b9c-474b-bc96-4ce2504bf1ba": {
+      "type": "rich-text",
+      "blocks": {
+        "56c89b28-9917-4b67-a4c9-5199eed835af": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h4>LEARN ABOUT<\/h4>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "56c89b28-9917-4b67-a4c9-5199eed835af"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "4124a9d7-7910-428b-a05f-f8b4e4879abc": {
       "type": "coffee-beans-main-seo",
       "settings": {
@@ -321,6 +344,7 @@
     "1a713986-dc37-4b66-b5cf-0705458ba228",
     "4a7462f3-1c39-492f-90cd-a6b4c15e80ff",
     "16609093955d46716e",
+    "a9608a96-2b9c-474b-bc96-4ce2504bf1ba",
     "4124a9d7-7910-428b-a05f-f8b4e4879abc",
     "03c3a901-f704-411d-8317-944644c86e30",
     "16609096892f959660"
