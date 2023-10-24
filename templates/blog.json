@@ -149,6 +149,9 @@
     },
     "57c5ac2e-c49a-4d6b-b0f7-825be99db329": {
       "type": "feature-collection-custom",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "SUBSCRIPTIONS",
         "heading_size": "h1",
@@ -159,7 +162,7 @@
         "collection": "coffee-subscription",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "outline",
         "view_all_label": "View All",
