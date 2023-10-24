@@ -387,8 +387,7 @@
         "ebcf916f-48b7-4d4a-94fc-dc5e453dd19d"
       ],
       "custom_css": [
-        ".collapsible-content {margin-top: 6rem; border-top: 2px solid #804d15;}",
-        "@media (max-width: 750px) {.collapsible-content {margin-bottom: -4rem; }}",
+        ".collapsible-content {margin-top: 6rem; border-top: 2px solid #804d15; margin-bottom:-10rem;}",
         "img {max-height: 562px;}"
       ],
       "settings": {
@@ -403,8 +402,8 @@
         "image": "shopify:\/\/shop_images\/Chemex_Berlin_3ecda66a-a5ff-493c-9313-d159c7f0441a.jpg",
         "image_ratio": "large",
         "desktop_layout": "image_second",
-        "padding_top": 16,
-        "padding_bottom": 16
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "9548d051-e9a3-422f-91dd-584c92a394fd": {
@@ -465,6 +464,36 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "301c0137-605d-42dd-8f81-f5652341e247": {
+      "type": "feature-collection-custom",
+      "settings": {
+        "title": "Filter Coffee",
+        "heading_size": "h1",
+        "description_heading_2": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "filter-coffee",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -476,6 +505,7 @@
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
-    "9548d051-e9a3-422f-91dd-584c92a394fd"
+    "9548d051-e9a3-422f-91dd-584c92a394fd",
+    "301c0137-605d-42dd-8f81-f5652341e247"
   ]
 }
