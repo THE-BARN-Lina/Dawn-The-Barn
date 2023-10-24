@@ -144,7 +144,7 @@
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center; margin-top: 2rem;}",
+        ".collection__title {text-align: center; margin-top: 4rem;}",
         ".collection {border-top: 4px solid #804d15; border-bottom: 2px solid #804d15; margin-top: 2rem; padding-bottom: 2rem;}",
         "a {text-decoration: none;}",
         "@media (max-width: 900px) {.collection__title {padding-top: 2rem; margin-top: 2rem; }}"
