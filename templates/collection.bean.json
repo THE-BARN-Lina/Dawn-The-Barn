@@ -160,7 +160,7 @@
         "56c89b28-9917-4b67-a4c9-5199eed835af"
       ],
       "custom_css": [
-        ".rich-text {color: rgba(255,255,255, 0.75);}"
+        "h4 {color: rgba(255, 255, 255, 0.75);}"
       ],
       "settings": {
         "desktop_content_position": "center",
