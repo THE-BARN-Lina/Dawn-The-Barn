@@ -184,9 +184,9 @@
         ".collection {border-top: 2px solid #804d15; margin-bottom: rem;}"
       ],
       "settings": {
-        "title": "LATEST RELEASES",
+        "title": "",
         "heading_size": "h2",
-        "description_heading_2": "",
+        "description_heading_2": "<h2>LATEST RELEASES<\/h2>",
         "description": "<p>Savor the New Flavors: Freshly Roasted<\/p>",
         "show_description": false,
         "description_style": "body",
