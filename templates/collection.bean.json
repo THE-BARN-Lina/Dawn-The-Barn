@@ -61,8 +61,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "4a7462f3-1c39-492f-90cd-a6b4c15e80ff": {
@@ -247,7 +247,7 @@
         "547f95f3-b4f6-4e73-bc5f-7954e6a788ee"
       ],
       "custom_css": [
-        ".collapsible-content-wrapper-narrow {max-width:100%;}"
+        ".collapsible-content-wrapper-narrow {max-width: 100%;}"
       ],
       "settings": {
         "caption": "THE BARN COFFEE BEANS",
