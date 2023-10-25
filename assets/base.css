@@ -2911,14 +2911,10 @@ details-disclosure > details {
   font-weight: var(--font-body-weight-bold);
 }
 @font-face {
-  font-family: 'Placard Next';
-  src: url('./PlacardNext-Regular.woff2') format('woff2'),
-      url('./PlacardNext-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+font-family: "PlacardNext-Regular";
+src: url("PlacardNext-Regular.woff2") format("woff2"),
+url("PlacardNext-Regular.woff") format("woff");
 }
-
 h1,
 h2,
 h3,
