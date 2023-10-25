@@ -396,7 +396,7 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: 'Placard Next', sans-serif;
+  font-family: 'PlacardNext-Regular', sans-serif;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.1rem);
@@ -454,7 +454,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: 'Placard Next', sans-serif;
+  font-family: 'PlacardNext-Regular', sans-serif;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.1rem);
