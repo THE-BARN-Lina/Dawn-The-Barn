@@ -2918,17 +2918,12 @@ details-disclosure > details {
   font-style: normal;
   font-display: swap;
 }
+
 h1,
 h2,
 h3,
 h4,
-h5,
-.h0,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5 {
+h5 {
   font-family: 'Placard Next', sans-serif !important;
 
 }
