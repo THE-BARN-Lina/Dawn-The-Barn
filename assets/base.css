@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Placard Next';
-  src: url('./PlacardNext-Regular.woff2') format('woff2'),
-      url('./PlacardNext-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Color custom properties */
 
 :root,
@@ -2918,4 +2909,26 @@ details-disclosure > details {
 
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
+}
+@font-face {
+  font-family: 'Placard Next';
+  src: url('./PlacardNext-Regular.woff2') format('woff2'),
+      url('./PlacardNext-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: 'Placard Next', sans-serif !important;
+
 }
