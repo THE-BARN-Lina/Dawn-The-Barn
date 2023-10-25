@@ -2910,8 +2910,4 @@ details-disclosure > details {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
-@font-face {
-font-family: "PlacardNext-Regular";
-src: url("PlacardNext-Regular.woff2") format("woff2"),
-url("PlacardNext-Regular.woff") format("woff");
-}
+
