@@ -1,16 +1,5 @@
 [
   {
-    "name": "Typography",
-    "settings": [
-      {
-        "type": "font_picker",
-        "id": "heading_font",
-        "label": "Heading font",
-        "default": "helvetica_n4"
-      }
-    ]
-  },
-  {
     "name": "theme_info",
     "theme_name": "Dawn",
     "theme_version": "5.0.0",
