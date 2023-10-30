@@ -44,7 +44,7 @@
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column- reverse; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}",
+        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}",
         "h1 {margin-top: -8rem;}",
         ".banner__text {font-size: 16px;}",
         ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5); font-family: \"Archivo Narrow\", sans-serif;}",
@@ -391,7 +391,7 @@
       "custom_css": [
         ".collapsible-content {margin-top: 6rem; border-top: 2px solid #804d15; margin-bottom: -13rem;}",
         "img {max-height: 562px;}",
-        "h2{font-family: \"Archivo Narrow\", sans-serif;}"
+        "h2 {font-family: \"Archivo Narrow\", sans-serif;}"
       ],
       "settings": {
         "caption": "opening hours",
