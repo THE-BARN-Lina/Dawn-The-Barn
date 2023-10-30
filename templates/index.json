@@ -182,7 +182,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection__title {text-align: center; padding-top: 3rem;}",
-        "h2{font-family: \"Archivo Narrow\", sans-serif;}",
+        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
         ".collection {border-top: 2px solid #804d15; margin-bottom: rem;}"
       ],
       "settings": {
@@ -254,7 +254,7 @@
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
       ],
       "custom_css": [
-
+        "h2{font-family: \"Archivo Narrow\", sans-serif;}"
       ],
       "settings": {
         "image_height": "medium",
