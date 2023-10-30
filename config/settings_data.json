@@ -253,6 +253,7 @@
         ],
         "custom_css": [
           "h5 {font-size: 14px;}",
+          "h2{font-family: \"Archivo Narrow\", sans-serif;}",
           ".footer-block--newsletter {margin-top: 8rem;}"
         ],
         "settings": {
