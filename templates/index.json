@@ -254,7 +254,7 @@
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
       ],
       "custom_css": [
-        "h2{font-family: \"Archivo Narrow\", sans-serif;}"
+        "h2 {font-family: \"Archivo Narrow\", sans-serif;}"
       ],
       "settings": {
         "image_height": "medium",
@@ -390,7 +390,8 @@
       ],
       "custom_css": [
         ".collapsible-content {margin-top: 6rem; border-top: 2px solid #804d15; margin-bottom: -13rem;}",
-        "img {max-height: 562px;}"
+        "img {max-height: 562px;}",
+        "h2{font-family: \"Archivo Narrow\", sans-serif;}"
       ],
       "settings": {
         "caption": "opening hours",
