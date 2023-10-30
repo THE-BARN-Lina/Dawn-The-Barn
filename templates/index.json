@@ -48,7 +48,7 @@
         ".banner__text {font-size: 16px;}",
         ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5); font-family: \"Archivo Narrow\", sans-serif;}",
         "@media only screen and (min-width: 750px) {.banner__heading {width: 70%; }}",
-        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; font-size: 46px; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}"
+        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gradient-funky.jpg",
