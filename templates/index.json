@@ -391,7 +391,8 @@
       "custom_css": [
         ".collapsible-content {margin-top: 6rem; border-top: 2px solid #804d15; margin-bottom: -13rem;}",
         "img {max-height: 562px;}",
-        "h2 {font-family: \"Archivo Narrow\", sans-serif;}"
+        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
+        ".accordion__title{font-family: \"Archivo Narrow\", sans-serif;}"
       ],
       "settings": {
         "caption": "opening hours",
