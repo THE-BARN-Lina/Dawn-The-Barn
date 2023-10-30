@@ -64,11 +64,14 @@
     .banner-slogan-footer{
       height:90px;
     }
+    .slogan-footer{
+       font-family: "Archivo Narrow", sans-serif;
+    }
   
   }
 {%- endstyle -%}
 <section class="banner-slogan-footer">
-<h2>BREW · SIP · REMEMBER</h2>
+<h2 class="slogan-footer">BREW · SIP · REMEMBER</h2>
 </section>
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
