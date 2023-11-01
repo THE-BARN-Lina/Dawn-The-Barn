@@ -238,6 +238,7 @@
         },
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/MoAliplussticker.jpg",
             "caption": "THE BARN x project waterfall",
