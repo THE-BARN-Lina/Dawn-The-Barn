@@ -389,7 +389,6 @@
         "ebcf916f-48b7-4d4a-94fc-dc5e453dd19d"
       ],
       "custom_css": [
-        ".collapsible-content {border-top: 2px solid #804d15; margin-bottom: -13rem;}",
         "img {max-height: 562px;}",
         "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
         ".accordion__title {font-family: \"Archivo Narrow\", sans-serif;}",
