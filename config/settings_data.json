@@ -121,9 +121,9 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
             "settings": {
-              "text": "HALLOWEEN TWIN BOX: FLAVOUR EXPLOSION  🎃",
+              "text": "COFFEE ADVENT CALENDAR: 24 TASTY DAYS TO CHRISTMAS 🎄 LIMITED SUPPLY",
               "color_scheme": "accent-2",
-              "link": "shopify:\/\/products\/halloween-special-anaerobic-twin-box-2023"
+              "link": "shopify:\/\/products\/advent-calendar-2023"
             }
           }
         },
@@ -253,7 +253,7 @@
         ],
         "custom_css": [
           "h5 {font-size: 14px;}",
-          "h2{font-family: \"Archivo Narrow\", sans-serif;}",
+          "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
           ".footer-block--newsletter {margin-top: 8rem;}"
         ],
         "settings": {
