@@ -43,7 +43,6 @@
         "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1"
       ],
       "custom_css": [
-        ".banner {border-top: 2px solid #804d15; padding-top: 5rem;}",
         ".banner__heading {text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); font-family: \"Archivo Narrow\", sans-serif;}",
         ".banner__buttons {box-shadow: 3px 3px 5px #0f0f0f85;}"
       ],
