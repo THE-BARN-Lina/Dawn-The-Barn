@@ -841,6 +841,40 @@ a{
 
 {% comment %} /////////////////////////////////  This is a Shopify Liquid code that embeds a JavaScript class designed to manage the behavior of a sticky header on the website.  ///////////////////////////////// {% endcomment %}
 
+<script>
+  let items = document.querySelectorAll(".mega-menu")
+  let currentItemIndex
+
+  items.forEach((item, itemIndex) => {
+    const content = item.querySelector(".mega-menu__content")
+    item.addEventListener("mouseover", () => {
+      if (
+        (currentItemIndex === 0 && currentItemIndex !== itemIndex) ||
+        (currentItemIndex && currentItemIndex !== itemIndex)
+      ) {
+        items[currentItemIndex].removeAttribute("open")
+      }
+
+      currentItemIndex = itemIndex
+      item.setAttribute("open", true)
+    })
+
+    item.addEventListener("mouseleave", () => {
+      let close = true
+      content.addEventListener("mouseover", () => {
+        close = false
+      })
+      setTimeout(1000, () => {
+        if (close) item.removeAttribute("open")
+      })
+    })
+
+    content.addEventListener("mouseleave", () => {
+      item.removeAttribute("open")
+    })
+  })
+</script>
+
 {% javascript %}
 
   class StickyHeader extends HTMLElement {
