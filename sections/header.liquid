@@ -845,34 +845,33 @@ a{
   let items = document.querySelectorAll(".mega-menu")
   let currentItemIndex
 
-  items.forEach((item, itemIndex) => {
-    const content = item.querySelector(".mega-menu__content")
-    item.addEventListener("mouseover", () => {
-      if (
-        (currentItemIndex === 0 && currentItemIndex !== itemIndex) ||
-        (currentItemIndex && currentItemIndex !== itemIndex)
-      ) {
-        items[currentItemIndex].removeAttribute("open")
-      }
+ document.addEventListener("mousemove", (event) => {
+  items.forEach((item) => {
+    if (item.hasAttribute("open") && isMouseOutsideElement(item, event)) {
+      item.removeAttribute("open");
+    }
+  });
+});
 
-      currentItemIndex = itemIndex
-      item.setAttribute("open", true)
-    })
+items.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    item.setAttribute("open", true);
+  });
 
-    item.addEventListener("mouseleave", () => {
-      let close = true
-      content.addEventListener("mouseover", () => {
-        close = false
-      })
-      setTimeout(1000, () => {
-        if (close) item.removeAttribute("open")
-      })
-    })
+  item.addEventListener("mouseleave", () => {
+    item.removeAttribute("open");
+  });
 
-    content.addEventListener("mouseleave", () => {
-      item.removeAttribute("open")
-    })
-  })
+  let ulElement = item.querySelector("ul");
+  if (ulElement) {
+    ulElement.addEventListener("mouseleave", () => {
+      item.removeAttribute("open");
+    });
+  });
+});
+
+
+
 </script>
 
 {% javascript %}
