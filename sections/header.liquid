@@ -290,6 +290,8 @@ a{
     {% comment %} 
   <section class="extra-nav-mobile">hello</section>
     {% endcomment %}
+
+
   </summary>
   <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
     <div class="menu-drawer__inner-container">
@@ -837,22 +839,9 @@ a{
 
 {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 
-{% javascript %}
+{% comment %} /////////////////////////////////  This is a Shopify Liquid code that embeds a JavaScript class designed to manage the behavior of a sticky header on the website.  ///////////////////////////////// {% endcomment %}
 
-  let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
-  console.log(items)
-  items.forEach(item => {
-    item.addEventListener("mouseover", () => {
-      item.setAttribute("open", true);
-      item.querySelector("ul").addEventListener("mouseleave", () => {
-        item.removeAttribute("open");
-      });
-    item.addEventListener("mouseleave", () => {
-      item.removeAttribute("open");
-    });
-  });
-  
-  });
+{% javascript %}
 
   class StickyHeader extends HTMLElement {
     constructor() {
