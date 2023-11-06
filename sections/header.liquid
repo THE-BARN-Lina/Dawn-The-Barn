@@ -837,6 +837,25 @@ a{
 
 {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 
+{% comment %} /////////////////////////////////  This is Liquid code that embeds a JavaScript class designed to reveal the header .  ///////////////////////////////// {% endcomment %}
+
+<script>
+  let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
+  console.log(items)
+  items.forEach(item => {
+    item.addEventListener("mouseover", () => {
+      item.setAttribute("open", true);
+      item.querySelector("ul").addEventListener("mouseleave", () => {
+        item.removeAttribute("open");
+      });
+    item.addEventListener("mouseleave", () => {
+      item.removeAttribute("open");
+    });
+  });
+  
+  });
+</script>
+
 {% comment %} /////////////////////////////////  This is a Shopify Liquid code that embeds a JavaScript class designed to manage the behavior of a sticky header on the website.  ///////////////////////////////// {% endcomment %}
 
 {% javascript %}
