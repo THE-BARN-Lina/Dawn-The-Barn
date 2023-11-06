@@ -837,7 +837,8 @@ a{
 
 {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 
-<script>
+{% javascript %}
+
   let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
   console.log(items)
   items.forEach(item => {
@@ -852,9 +853,6 @@ a{
   });
   
   });
-</script>
-
-{% javascript %}
 
   class StickyHeader extends HTMLElement {
     constructor() {
