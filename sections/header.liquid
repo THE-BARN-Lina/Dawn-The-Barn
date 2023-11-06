@@ -842,16 +842,44 @@ a{
 {% comment %} /////////////////////////////////  This is a Shopify Liquid code that embeds a JavaScript class designed to manage the behavior of a sticky header on the website.  ///////////////////////////////// {% endcomment %}
 
 <script>
-  let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
-items.forEach(item => {
-  item.addEventListener("mouseover", () => {
-    item.setAttribute("open", true);
-  });
-  item.addEventListener("mouseleave", () => {
-    item.removeAttribute("open");
-  });
-});
+  let items = document.querySelectorAll(".mega-menu")
+  let header = document.querySelector('header')
+  let currentItemIndex
+  
+  items.forEach((item, itemIndex) => {
+    const content = item.querySelector(".mega-menu__content")
+    item.addEventListener("mouseover", () => {
+      if (
+        (currentItemIndex === 0 && currentItemIndex !== itemIndex) ||
+        (currentItemIndex && currentItemIndex !== itemIndex)
+      ) {
+        items[currentItemIndex].removeAttribute("open")
+      }
 
+      currentItemIndex = itemIndex
+      item.setAttribute("open", true)
+    })
+
+    item.addEventListener("mouseleave", (event) => {
+      let close = true
+
+      const closeTimeout = setTimeout(() => {
+        if (close) item.removeAttribute("open")
+      }, 200)
+      
+      content.addEventListener("mouseover", () => {
+        close = false
+      })
+
+      item.addEventListener("mouseover", () => {
+        clearTimeout(closeTimeout)
+      })
+    })
+
+    content.addEventListener("mouseleave", () => {
+      item.removeAttribute("open")
+    })
+  })
 </script>
 
 {% javascript %}
