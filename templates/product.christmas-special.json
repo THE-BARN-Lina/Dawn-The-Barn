@@ -42,6 +42,7 @@
         "54217868-092e-4e38-a868-f1dae0ba3c2f",
         "template--17938054709515__7d6d4343-7052-43c5-adfd-8fb289735d50-buttons-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".caption-with-letter-spacing {font-size: 2rem; color: white;}"
       ],
