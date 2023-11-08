@@ -4,16 +4,5 @@
     "market": "de"
   },
   "sections": {
-    "befa68a6-1035-4cea-bf06-95f308026d4b": {
-      "settings": {
-      },
-      "blocks": {
-        "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
-          "settings": {
-            "heading_size": "h1"
-          }
-        }
-      }
-    }
   }
 }
