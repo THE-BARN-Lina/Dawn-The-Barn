@@ -40,11 +40,19 @@
             "button_text": "Christmas Subscription",
             "button_link": ""
           }
+        },
+        "ad513ae6-ab00-4f7c-9d44-96525aba37fe": {
+          "type": "custom_column",
+          "settings": {
+            "button_text": "Christmas Box-Sets",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "2c7ff992-642d-479b-996b-28a8151de9b1",
-        "523b7040-76dd-40c9-8d82-a6f238d83622"
+        "523b7040-76dd-40c9-8d82-a6f238d83622",
+        "ad513ae6-ab00-4f7c-9d44-96525aba37fe"
       ],
       "settings": {
         "padding_top": 36,
