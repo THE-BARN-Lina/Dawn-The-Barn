@@ -30,14 +30,14 @@
         "2c7ff992-642d-479b-996b-28a8151de9b1": {
           "type": "custom_column",
           "settings": {
-            "button_text": "CHRISTMAS COFFEE",
+            "button_text": "Christmas Coffee",
             "button_link": ""
           }
         },
         "523b7040-76dd-40c9-8d82-a6f238d83622": {
           "type": "custom_column",
           "settings": {
-            "button_text": "CHRISTMAS SUBSCRIPTION",
+            "button_text": "Christmas Subscription",
             "button_link": ""
           }
         }
