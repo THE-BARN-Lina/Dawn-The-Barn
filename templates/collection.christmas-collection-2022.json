@@ -27,6 +27,13 @@
     "f4524acb-6ea0-4ff3-a182-b0c65a5479c3": {
       "type": "coffee-beans-circles-filters",
       "blocks": {
+        "645888a2-dee6-4a59-80b2-352824773a00": {
+          "type": "custom_column",
+          "settings": {
+            "button_text": "Advent Calendar",
+            "button_link": ""
+          }
+        },
         "2c7ff992-642d-479b-996b-28a8151de9b1": {
           "type": "custom_column",
           "settings": {
@@ -54,21 +61,14 @@
             "button_text": "Christmas Subscription",
             "button_link": ""
           }
-        },
-        "645888a2-dee6-4a59-80b2-352824773a00": {
-          "type": "custom_column",
-          "settings": {
-            "button_text": "Advent Calendar",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
+        "645888a2-dee6-4a59-80b2-352824773a00",
         "2c7ff992-642d-479b-996b-28a8151de9b1",
         "ad513ae6-ab00-4f7c-9d44-96525aba37fe",
         "a6bd0e58-4a86-4a16-9569-e9f932fb0410",
-        "523b7040-76dd-40c9-8d82-a6f238d83622",
-        "645888a2-dee6-4a59-80b2-352824773a00"
+        "523b7040-76dd-40c9-8d82-a6f238d83622"
       ],
       "settings": {
         "padding_top": 36,
@@ -179,7 +179,7 @@
         "16627385548857c752-1": {
           "type": "text",
           "settings": {
-            "text": "<p>This is our most popular giftbox every year: Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute enamel mug and delicious coffee chocolate beans. Hear it from our founder Ralf why he loves it: <a href=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\" title=\"https:\/\/www.youtube.com\/watch?v=cd1BrCN_1B4&t=1s\">Video<\/a><\/p>",
+            "text": "<p>This is our most popular giftbox every year: Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute enamel mug and delicious coffee chocolate beans.<\/p>",
             "text_style": "body"
           }
         },
@@ -211,14 +211,6 @@
         "padding_bottom": 64
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": true,
-        "color_scheme": "accent-2"
-      }
-    },
     "48e1d4c7-dcb9-4432-98d1-302de97bce7c": {
       "type": "rich-text",
       "blocks": {
@@ -244,6 +236,14 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 40
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "accent-2"
       }
     },
     "166186709197b72a8b": {
@@ -403,8 +403,8 @@
     "f4524acb-6ea0-4ff3-a182-b0c65a5479c3",
     "12c08833-363b-46d1-8516-2d25abd2136a",
     "1662738554a4ae067d",
-    "banner",
     "48e1d4c7-dcb9-4432-98d1-302de97bce7c",
+    "banner",
     "166186709197b72a8b",
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc",
     "95588731-6055-4a06-8105-e34d15b5db92",
