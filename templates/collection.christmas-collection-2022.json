@@ -75,6 +75,59 @@
         "padding_bottom": 96
       }
     },
+    "1662738554a4ae067d": {
+      "type": "image-with-text",
+      "blocks": {
+        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e": {
+          "type": "caption",
+          "settings": {
+            "caption": "TOP SELLER",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "16627385548857c752-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "OUR FAVOURITE CHRISTMAS GIFT",
+            "heading_size": "h2"
+          }
+        },
+        "16627385548857c752-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is our most popular giftbox every year: Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute enamel mug and delicious coffee chocolate beans.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16627385548857c752-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER HERE",
+            "button_link": "https:\/\/thebarn.de\/products\/christmas-3-months-gift-subscription"
+          }
+        }
+      },
+      "block_order": [
+        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e",
+        "16627385548857c752-0",
+        "16627385548857c752-1",
+        "16627385548857c752-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/thebarnchristmas2022.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
     "12c08833-363b-46d1-8516-2d25abd2136a": {
       "type": "featured-product",
       "blocks": {
@@ -130,7 +183,6 @@
         },
         "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-7": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -155,59 +207,6 @@
         "enable_video_looping": false,
         "padding_top": 20,
         "padding_bottom": 40
-      }
-    },
-    "1662738554a4ae067d": {
-      "type": "image-with-text",
-      "blocks": {
-        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e": {
-          "type": "caption",
-          "settings": {
-            "caption": "TOP SELLER",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "16627385548857c752-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "OUR FAVOURITE CHRISTMAS GIFT",
-            "heading_size": "h2"
-          }
-        },
-        "16627385548857c752-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This is our most popular giftbox every year: Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute enamel mug and delicious coffee chocolate beans.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16627385548857c752-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER HERE",
-            "button_link": "https:\/\/thebarn.de\/products\/christmas-3-months-gift-subscription"
-          }
-        }
-      },
-      "block_order": [
-        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e",
-        "16627385548857c752-0",
-        "16627385548857c752-1",
-        "16627385548857c752-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/thebarnchristmas2022.png",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "bottom",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 64
       }
     },
     "48e1d4c7-dcb9-4432-98d1-302de97bce7c": {
@@ -400,8 +399,8 @@
   "order": [
     "4f1480d0-e188-4c1b-88a1-d0727494c927",
     "f4524acb-6ea0-4ff3-a182-b0c65a5479c3",
-    "12c08833-363b-46d1-8516-2d25abd2136a",
     "1662738554a4ae067d",
+    "12c08833-363b-46d1-8516-2d25abd2136a",
     "48e1d4c7-dcb9-4432-98d1-302de97bce7c",
     "banner",
     "166186709197b72a8b",
