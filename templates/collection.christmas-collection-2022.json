@@ -34,13 +34,6 @@
             "button_link": ""
           }
         },
-        "523b7040-76dd-40c9-8d82-a6f238d83622": {
-          "type": "custom_column",
-          "settings": {
-            "button_text": "Christmas Subscription",
-            "button_link": ""
-          }
-        },
         "ad513ae6-ab00-4f7c-9d44-96525aba37fe": {
           "type": "custom_column",
           "settings": {
@@ -54,13 +47,28 @@
             "button_text": "Christmas Taste-Box",
             "button_link": ""
           }
+        },
+        "523b7040-76dd-40c9-8d82-a6f238d83622": {
+          "type": "custom_column",
+          "settings": {
+            "button_text": "Christmas Subscription",
+            "button_link": ""
+          }
+        },
+        "645888a2-dee6-4a59-80b2-352824773a00": {
+          "type": "custom_column",
+          "settings": {
+            "button_text": "Advent Calendar",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "2c7ff992-642d-479b-996b-28a8151de9b1",
-        "523b7040-76dd-40c9-8d82-a6f238d83622",
         "ad513ae6-ab00-4f7c-9d44-96525aba37fe",
-        "a6bd0e58-4a86-4a16-9569-e9f932fb0410"
+        "a6bd0e58-4a86-4a16-9569-e9f932fb0410",
+        "523b7040-76dd-40c9-8d82-a6f238d83622",
+        "645888a2-dee6-4a59-80b2-352824773a00"
       ],
       "settings": {
         "padding_top": 36,
@@ -141,7 +149,7 @@
         "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-7"
       ],
       "settings": {
-        "product": "christmas-coffee-2022",
+        "product": "christmas-coffee",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
