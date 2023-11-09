@@ -1,70 +1,50 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
-    "7e63d166-e043-404d-836b-94a1f670b7c1": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1": {
-          "type": "text",
-          "settings": {
-            "text": "It is the most wonderful time of the year....",
-            "text_style": "subtitle"
-          }
-        },
-        "364ce80c-d09b-4988-935e-2f6496959719": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "GIFT SUBSCRIPTIONS",
-            "button_link_1": "shopify:\/\/products\/christmas-3-months-gift-subscription",
-            "button_style_secondary_1": false,
-            "button_label_2": "GIFT CHRISTMAS BOXES",
-            "button_link_2": "shopify:\/\/collections\/christmas-gift-boxes",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1",
-        "364ce80c-d09b-4988-935e-2f6496959719"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/A5E33E5A-910D-4264-83D6-0A8C869AC3C3.jpg",
-        "image_overlay_opacity": 10,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "transparent_block": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "4f1480d0-e188-4c1b-88a1-d0727494c927": {
       "type": "rich-text",
       "blocks": {
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1": {
-          "type": "text",
+        "1e6cc84c-3100-458f-ae38-1e5570c1e187": {
+          "type": "heading",
           "settings": {
-            "text": "<p><strong>LIMITED EDITION<\/strong><\/p>"
+            "heading": "<p>CHRISTMAS GIFTS<\/p>",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "template--16182352085259__4f1480d0-e188-4c1b-88a1-d0727494c927-1666362286e1a02adf-1"
+        "1e6cc84c-3100-458f-ae38-1e5570c1e187"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 0
+        "padding_top": 24,
+        "padding_bottom": 76
+      }
+    },
+    "f4524acb-6ea0-4ff3-a182-b0c65a5479c3": {
+      "type": "coffee-beans-circles-filters",
+      "blocks": {
+        "2c7ff992-642d-479b-996b-28a8151de9b1": {
+          "type": "custom_column",
+          "settings": {
+            "button_text": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2c7ff992-642d-479b-996b-28a8151de9b1"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 96
       }
     },
     "12c08833-363b-46d1-8516-2d25abd2136a": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--16182352085259__12c08833-363b-46d1-8516-2d25abd2136a-1665567986bbe3148a-1": {
           "type": "title",
@@ -215,7 +195,10 @@
           "settings": {
             "button_label": "ORDER GIFT BOX",
             "button_link": "shopify:\/\/collections\/christmas-gift-boxes",
-            "button_style_secondary": false
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
@@ -223,6 +206,8 @@
         "template--16216422056203__48e1d4c7-dcb9-4432-98d1-302de97bce7c-16700559612f64825e-2"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "accent-2",
         "full_width": true,
         "padding_top": 0,
@@ -254,6 +239,7 @@
       "settings": {
         "title": "Explore our Christmas Gifts",
         "heading_size": "h2",
+        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -283,6 +269,7 @@
       "settings": {
         "title": "Christmas Gifts for Book Lovers",
         "heading_size": "h2",
+        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -303,7 +290,7 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 20,
+        "padding_top": 32,
         "padding_bottom": 36
       }
     },
@@ -312,6 +299,7 @@
       "settings": {
         "title": "Gift Subscriptions",
         "heading_size": "h1",
+        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -335,11 +323,52 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "7e63d166-e043-404d-836b-94a1f670b7c1": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "It is the most wonderful time of the year....",
+            "text_style": "subtitle"
+          }
+        },
+        "364ce80c-d09b-4988-935e-2f6496959719": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "GIFT SUBSCRIPTIONS",
+            "button_link_1": "shopify:\/\/products\/christmas-3-months-gift-subscription",
+            "button_style_secondary_1": false,
+            "button_label_2": "GIFT CHRISTMAS BOXES",
+            "button_link_2": "shopify:\/\/collections\/christmas-gift-boxes",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1",
+        "364ce80c-d09b-4988-935e-2f6496959719"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/A5E33E5A-910D-4264-83D6-0A8C869AC3C3.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "transparent_block": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
     }
   },
   "order": [
-    "7e63d166-e043-404d-836b-94a1f670b7c1",
     "4f1480d0-e188-4c1b-88a1-d0727494c927",
+    "f4524acb-6ea0-4ff3-a182-b0c65a5479c3",
     "12c08833-363b-46d1-8516-2d25abd2136a",
     "1662738554a4ae067d",
     "banner",
@@ -347,6 +376,7 @@
     "166186709197b72a8b",
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc",
     "95588731-6055-4a06-8105-e34d15b5db92",
-    "3c745dad-598d-473f-8669-98ccee87e5f0"
+    "3c745dad-598d-473f-8669-98ccee87e5f0",
+    "7e63d166-e043-404d-836b-94a1f670b7c1"
   ]
 }
