@@ -115,13 +115,13 @@
         "16627385548857c752-2"
       ],
       "custom_css": [
-        ".image-with-text__content {padding-left: 0px;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/thebarnchristmas2022.png",
         "height": "small",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
