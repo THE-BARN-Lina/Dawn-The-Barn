@@ -33,10 +33,18 @@
             "button_text": "CHRISTMAS COFFEE",
             "button_link": ""
           }
+        },
+        "523b7040-76dd-40c9-8d82-a6f238d83622": {
+          "type": "custom_column",
+          "settings": {
+            "button_text": "CHRISTMAS SUBSCRIPTION",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "2c7ff992-642d-479b-996b-28a8151de9b1"
+        "2c7ff992-642d-479b-996b-28a8151de9b1",
+        "523b7040-76dd-40c9-8d82-a6f238d83622"
       ],
       "settings": {
         "padding_top": 36,
