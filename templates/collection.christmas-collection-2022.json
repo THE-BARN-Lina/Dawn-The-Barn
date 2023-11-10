@@ -252,7 +252,7 @@
         "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
