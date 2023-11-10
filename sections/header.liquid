@@ -656,7 +656,7 @@ a{
                   
                   <div class="mega-menu-container">
                     
-                  {%- if link.title == 'CHRISTMAS' -%}
+                    {%- if link.title == 'CHRISTMAS' -%}
 
                       <a href="{{ section.settings.christmas_link_1 }}"        class="container-right-mega-menu-item lang-link">
                         <img src="{{ section.settings.christmas_image_1 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.christmas_label_1 }}" loading="lazy">
@@ -1154,6 +1154,54 @@ customElements.define('sticky-header', StickyHeader);
       "unit": "px",
       "label": "t:sections.header.settings.margin_bottom.label",
       "default": 0
+    },
+    {
+      "type": "image_picker",
+      "id": "christmas_image_1",
+      "label": "Image for Special Item"
+    },
+    {
+      "type": "url",
+      "id": "christmas_link_1",
+      "label": "Link for Special Item"
+    },
+    {
+      "type": "text",
+      "id": "christmas_label_1",
+      "label": "Label for Special Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "christmas_image_2",
+      "label": "Image for Special Item"
+    },
+    {
+      "type": "url",
+      "id": "christmas_link_2",
+      "label": "Link for Special Item"
+    },
+    {
+      "type": "text",
+      "id": "christmas_label_2",
+      "label": "Label for Special Item",
+      "default": "Label"
+    },
+    {
+      "type": "image_picker",
+      "id": "christmas_image_3",
+      "label": "Image for Special Item"
+    },
+    {
+      "type": "url",
+      "id": "christmas_link_3",
+      "label": "Link for Special Item"
+    },
+    {
+      "type": "text",
+      "id": "christmas_label_3",
+      "label": "Label for Special Item",
+      "default": "Label"
     },
     {
       "type": "image_picker",
