@@ -20,7 +20,7 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 24,
+        "padding_top": 16,
         "padding_bottom": 76
       }
     },
@@ -81,8 +81,8 @@
         "8ce9a4e0-08f0-4254-b636-211e6ce80b0e": {
           "type": "caption",
           "settings": {
-            "caption": "TOP SELLER",
-            "text_style": "caption-with-letter-spacing",
+            "caption": "CHRISTMAS SUBSCRIPTION",
+            "text_style": "subtitle",
             "text_size": "medium"
           }
         },
@@ -96,7 +96,7 @@
         "16627385548857c752-1": {
           "type": "text",
           "settings": {
-            "text": "<p>This is our most popular giftbox every year: Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute enamel mug and delicious coffee chocolate beans.<\/p>",
+            "text": "<p>This is our most popular giftbox every year: Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus a beautiful sandstone mug and a delicious chocolate bar.<\/p>",
             "text_style": "body"
           }
         },
@@ -162,8 +162,8 @@
         "content_alignment": "center",
         "color_scheme": "background-2",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 40
+        "padding_top": 16,
+        "padding_bottom": 56
       }
     },
     "166186709197b72a8b": {
@@ -197,7 +197,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "christmas-2022-add-ons",
-        "products_to_show": 4,
+        "products_to_show": 3,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
@@ -213,7 +213,7 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 20,
+        "padding_top": 24,
         "padding_bottom": 100
       }
     },
