@@ -87,6 +87,50 @@
         "padding_bottom": 36
       }
     },
+    "c128e86b-1ce2-474d-a18e-9c2bc6174ac6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-heading-1",
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-text-1",
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 4
+      }
+    },
     "8da3de82-bebf-49a2-8d31-fadc8d9b921f": {
       "type": "image-with-text",
       "blocks": {
@@ -140,6 +184,7 @@
     "9af643a6-5225-437e-9fc2-3763d926fe43",
     "10ee9e44-c164-4d45-a9de-059e9c97ecb9",
     "73703f50-8557-4a1a-a963-0d73cf690863",
+    "c128e86b-1ce2-474d-a18e-9c2bc6174ac6",
     "8da3de82-bebf-49a2-8d31-fadc8d9b921f"
   ]
 }
