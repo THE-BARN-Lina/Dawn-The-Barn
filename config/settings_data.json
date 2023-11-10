@@ -82,7 +82,7 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "accent_icons": "text",
+    "accent_icons": "outline-button",
     "social_twitter_link": "https:\/\/twitter.com\/THEBARNBERLIN",
     "social_facebook_link": "https:\/\/www.facebook.com\/THEBARNBERLIN\/",
     "social_pinterest_link": "https:\/\/www.pinterest.de\/thebarncoffeeroasters\/",
