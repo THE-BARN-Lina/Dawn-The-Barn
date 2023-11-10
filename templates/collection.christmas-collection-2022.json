@@ -245,7 +245,7 @@
         "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 32,
         "padding_bottom": 36
