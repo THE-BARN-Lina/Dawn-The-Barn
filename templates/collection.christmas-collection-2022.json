@@ -81,19 +81,19 @@
     "1662738554a4ae067d": {
       "type": "image-with-text",
       "blocks": {
-        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e": {
-          "type": "caption",
-          "settings": {
-            "caption": "CHRISTMAS SUBSCRIPTION",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
         "16627385548857c752-0": {
           "type": "heading",
           "settings": {
             "heading": "OUR FAVOURITE GIFT",
             "heading_size": "h2"
+          }
+        },
+        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e": {
+          "type": "caption",
+          "settings": {
+            "caption": "CHRISTMAS SUBSCRIPTION",
+            "text_style": "subtitle",
+            "text_size": "large"
           }
         },
         "16627385548857c752-1": {
@@ -112,8 +112,8 @@
         }
       },
       "block_order": [
-        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e",
         "16627385548857c752-0",
+        "8ce9a4e0-08f0-4254-b636-211e6ce80b0e",
         "16627385548857c752-1",
         "16627385548857c752-2"
       ],
