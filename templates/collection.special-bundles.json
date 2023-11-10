@@ -93,7 +93,7 @@
         "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<h1>OUR FAVOURITE GIFT<\/h1>",
             "heading_size": "h1"
           }
         },
@@ -127,8 +127,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 4
+        "padding_top": 48,
+        "padding_bottom": 0
       }
     },
     "8da3de82-bebf-49a2-8d31-fadc8d9b921f": {
