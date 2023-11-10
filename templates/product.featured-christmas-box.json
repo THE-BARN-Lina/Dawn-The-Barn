@@ -73,6 +73,7 @@
         },
         "9996c297-90e6-481c-9c49-958df0b8ef3b": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<label for=\"personalised message\" class=\"form__label\" style=\"font-size: 16px;\">Include a Personalized  Christmas Card ...<\/label>\n<div class=\"field\">\n<textarea  placeholder=\"Personalised Message\" id=\"personalised message\" class=\"text-area field__input\" placeholder=\"Personalised Message\" name=\"properties[Personalised Message]\"form=\"product-form-{{section.id}}\"><\/textarea><\/div>"
           }
@@ -123,27 +124,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da": {
-          "type": "shopify:\/\/apps\/auction-pro\/blocks\/product-template-auction\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
-          "disabled": true,
-          "settings": {
-            "timer_bold": false,
-            "timer_font_size": 18,
-            "timer_colour": "#212b36",
-            "end_date_font_size": 16,
-            "current_bid_font_size": 18,
-            "bid_link_colour": "#136af6",
-            "current_bid_btn_colour": "#0053a0",
-            "current_bid_input_size": 15,
-            "current_bid_border_radius": 3,
-            "buy_it_now_font_size": 16,
-            "buy_it_now_btn_colour": "#0053a0",
-            "buy_it_now_size": 15,
-            "buy_it_now_border_radius": 3,
-            "automatic_bid_font_size": 16,
-            "automatic_bid_colour": "#136af6"
-          }
         }
       },
       "block_order": [
@@ -162,8 +142,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "6ca2dfaf-57f2-423e-a8df-929d589ab9da"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -178,7 +157,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -205,6 +183,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
