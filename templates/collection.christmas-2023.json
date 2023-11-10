@@ -1,0 +1,190 @@
+{
+  "wrapper": "div#div_id.page-width",
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-2"
+      }
+    },
+    "9af643a6-5225-437e-9fc2-3763d926fe43": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938055299339__9af643a6-5225-437e-9fc2-3763d926fe43-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>CHRISTMAS &gt; {{ collection.title }}<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938055299339__9af643a6-5225-437e-9fc2-3763d926fe43-text-1"
+      ],
+      "custom_css": [
+        ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text h6 {font-weight: 100;}",
+        ".rich-text__wrapper {padding-left: 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "10ee9e44-c164-4d45-a9de-059e9c97ecb9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938055299339__10ee9e44-c164-4d45-a9de-059e9c97ecb9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>{{ collection.metafields.equipment.tilte.value }}<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938055299339__10ee9e44-c164-4d45-a9de-059e9c97ecb9-heading-1"
+      ],
+      "custom_css": [
+        ".rich-text {padding-left: 0;}",
+        ".rich-text__wrapper {padding-left: 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "73703f50-8557-4a1a-a963-0d73cf690863": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "products_per_page": 36,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "quick_add_button_color": "#804d15",
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "c128e86b-1ce2-474d-a18e-9c2bc6174ac6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>OUR FAVOURITE GIFT<\/h1>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-heading-1",
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-text-1",
+        "template--18293943992587__c128e86b-1ce2-474d-a18e-9c2bc6174ac6-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "8da3de82-bebf-49a2-8d31-fadc8d9b921f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIFT SUBSCRIPTIONS",
+            "heading_size": "h2"
+          }
+        },
+        "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What better way to celebrate the Christmas period than a subscription to the worlds best specialty coffee? <br\/><br\/>We will be sending the first delivery of our Christmas gift subscriptions in early December. In both Filter and Espresso Subscriptions we will feature our 2023 Christmas Coffee <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER NOW",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-heading-1",
+        "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-text-1",
+        "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-button-1"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.image-with-text {padding-left: 0px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Christmassubscriptionpicture.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "9af643a6-5225-437e-9fc2-3763d926fe43",
+    "10ee9e44-c164-4d45-a9de-059e9c97ecb9",
+    "73703f50-8557-4a1a-a963-0d73cf690863",
+    "c128e86b-1ce2-474d-a18e-9c2bc6174ac6",
+    "8da3de82-bebf-49a2-8d31-fadc8d9b921f"
+  ]
+}
