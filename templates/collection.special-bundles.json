@@ -117,6 +117,9 @@
         "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-text-1",
         "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-button-1"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.image-with-text{padding-left: 0px; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Christmassubscriptionpicture.jpg",
         "height": "small",
