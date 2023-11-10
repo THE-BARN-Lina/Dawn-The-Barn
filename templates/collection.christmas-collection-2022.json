@@ -15,6 +15,9 @@
       "block_order": [
         "1e6cc84c-3100-458f-ae38-1e5570c1e187"
       ],
+      "custom_css": [
+        ".rich-text__blocks{margin-top: 40px;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
