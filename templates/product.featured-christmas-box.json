@@ -26,7 +26,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.custom.christmas_gift_box_description }}",
-            "text_style": "body"
+            "text_style": "uppercase"
           }
         },
         "774d434a-03b9-4a0f-865a-e14942643b32": {
