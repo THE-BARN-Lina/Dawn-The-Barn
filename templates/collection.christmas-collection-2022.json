@@ -310,10 +310,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "GIFT SUBSCRIPTIONS",
-            "button_link_1": "shopify:\/\/products\/christmas-3-months-gift-subscription",
+            "button_link_1": "shopify:\/\/collections\/coffee-subscription-gifts",
             "button_style_secondary_1": false,
             "button_label_2": "GIFT CHRISTMAS BOXES",
-            "button_link_2": "shopify:\/\/collections\/christmas-gift-boxes",
+            "button_link_2": "shopify:\/\/collections\/christmas-bundles",
             "button_style_secondary_2": false
           }
         }
@@ -323,7 +323,7 @@
         "364ce80c-d09b-4988-935e-2f6496959719"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.banner {margin-top: 100px; } }"
+        "@media screen and (min-width: 750px) {.banner {margin-top: 100px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/A5E33E5A-910D-4264-83D6-0A8C869AC3C3.jpg",
