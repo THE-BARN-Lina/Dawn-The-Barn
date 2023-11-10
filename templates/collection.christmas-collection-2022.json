@@ -171,7 +171,8 @@
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
-        ".collection-hero__title{font-size: 24px;}"
+        ".collection-hero__title {font-size: 24px;}",
+        ".collection-hero {margin-top:100px;}"
       ],
       "settings": {
         "show_collection_description": true,
