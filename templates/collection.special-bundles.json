@@ -93,8 +93,8 @@
         "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "GIFT SUBSCRIPTIONS",
+            "heading_size": "h2"
           }
         },
         "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-text-1": {
@@ -107,7 +107,7 @@
         "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "ORDER NOW",
             "button_link": ""
           }
         }
@@ -118,7 +118,8 @@
         "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-button-1"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Christmassubscriptionpicture.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
