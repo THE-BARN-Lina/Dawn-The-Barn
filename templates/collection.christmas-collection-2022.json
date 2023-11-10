@@ -118,7 +118,8 @@
         "16627385548857c752-2"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.image-with-text {padding-left: 0px; }}"
+        ".image-with-text__content {padding: 4rem calc(0rem \/ var(--font-body-scale)) 5rem;}",
+        "@media screen and (min-width: 750px) {.image-with-text {padding-left: 0px; } .image-with-text__content {padding: 4rem calc(4rem \/ var(--font-body-scale)) 5rem;}}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/thebarnchristmas2022.png",
