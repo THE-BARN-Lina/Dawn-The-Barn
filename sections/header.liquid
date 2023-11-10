@@ -655,7 +655,23 @@ a{
                   </div>
                   
                   <div class="mega-menu-container">
-                    {%- if link.title == 'SUBSCRIPTIONS' -%}
+                    
+                  {%- if link.title == 'CHRISTMAS' -%}
+
+                      <a href="{{ section.settings.christmas_link_1 }}"        class="container-right-mega-menu-item lang-link">
+                        <img src="{{ section.settings.christmas_image_1 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.christmas_label_1 }}" loading="lazy">
+                        <p>{{ section.settings.christmas_label_1 }}</p>
+                      </a>
+                      <a href="{{ section.settings.christmas_link_2 }}"        class="container-right-mega-menu-item lang-link">
+                        <img src="{{ section.settings.christmas_image_2 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.christmas_label_2 }}" loading="lazy">
+                        <p>{{ section.settings.christmas_label_2 }}</p>
+                      </a>
+                      <a href="{{ section.settings.christmas_link_3 }}"        class="container-right-mega-menu-item lang-link">
+                        <img src="{{ section.settings.christmas_image_3 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.christmas_label_3 }}" loading="lazy">
+                        <p>{{ section.settings.christmas_label_3 }}</p>
+                      </a>
+                    
+                    {%- elsif link.title == 'SUBSCRIPTIONS' -%}
 
                       <a href="{{ section.settings.subscription_link_1 }}"        class="container-right-mega-menu-item lang-link">
                         <img src="{{ section.settings.subscription_image_1 | img_url: '230x230' }}" width="230" height="230" alt="{{ section.settings.subscription_label_1 }}" loading="lazy">
