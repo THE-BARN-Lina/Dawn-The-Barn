@@ -32,17 +32,10 @@
       "blocks": {
         "645888a2-dee6-4a59-80b2-352824773a00": {
           "type": "custom_column",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/CoffeeAdventCalendarimage.png",
             "button_text": "Advent Calendar",
-            "button_link": ""
-          }
-        },
-        "2c7ff992-642d-479b-996b-28a8151de9b1": {
-          "type": "custom_column",
-          "settings": {
-            "button_text": "Christmas Coffee",
-            "button_link": ""
+            "button_link": "shopify:\/\/products\/advent-calendar-2023"
           }
         },
         "ad513ae6-ab00-4f7c-9d44-96525aba37fe": {
@@ -69,12 +62,10 @@
       },
       "block_order": [
         "645888a2-dee6-4a59-80b2-352824773a00",
-        "2c7ff992-642d-479b-996b-28a8151de9b1",
         "ad513ae6-ab00-4f7c-9d44-96525aba37fe",
         "a6bd0e58-4a86-4a16-9569-e9f932fb0410",
         "523b7040-76dd-40c9-8d82-a6f238d83622"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": 48,
         "padding_bottom": 88
