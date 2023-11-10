@@ -132,7 +132,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 40
+        "padding_bottom": 88
       }
     },
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc": {
@@ -146,15 +146,15 @@
         "description_style": "body",
         "collection": "new-releases",
         "products_to_show": 5,
-        "columns_desktop": 4,
-        "full_width": false,
+        "columns_desktop": 3,
+        "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
         "view_all_label": "View All",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "square",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_tastenotes": false,
         "show_rating": false,
@@ -202,7 +202,6 @@
     },
     "166186709197b72a8b": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -225,17 +224,17 @@
       "type": "featured-collection",
       "settings": {
         "title": "Christmas Gifts for Book Lovers",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "gift-books",
-        "products_to_show": 3,
+        "products_to_show": 5,
         "columns_desktop": 3,
         "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
+        "show_view_all": false,
+        "view_all_style": "link",
         "view_all_label": "View All",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
