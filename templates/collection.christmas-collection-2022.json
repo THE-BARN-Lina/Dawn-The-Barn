@@ -230,7 +230,6 @@
     },
     "3c745dad-598d-473f-8669-98ccee87e5f0": {
       "type": "featured-collection",
-      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 990px) {.collection__title.title-wrapper--self-padded-tablet-down {padding: 0 0rem; }}"
       ],
@@ -241,10 +240,10 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "gift-subscriptions",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
+        "collection": "coffee-subscription-gifts",
+        "products_to_show": 2,
+        "columns_desktop": 2,
+        "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
         "view_all_label": "View All",
