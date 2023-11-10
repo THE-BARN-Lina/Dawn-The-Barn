@@ -172,7 +172,7 @@
       "type": "main-collection-banner",
       "custom_css": [
         ".collection-hero__title {font-size: 24px;}",
-        ".collection-hero {margin-top:100px;}"
+        ".collection-hero {margin-top: 100px;}"
       ],
       "settings": {
         "show_collection_description": true,
@@ -233,8 +233,8 @@
     "95588731-6055-4a06-8105-e34d15b5db92": {
       "type": "featured-collection",
       "settings": {
-        "title": "Christmas Gifts for Book Lovers",
-        "heading_size": "h1",
+        "title": "CHRISTMAS GIFTS FOR BOOK LOVERS",
+        "heading_size": "h2",
         "description_heading_2": "",
         "description": "",
         "show_description": false,
