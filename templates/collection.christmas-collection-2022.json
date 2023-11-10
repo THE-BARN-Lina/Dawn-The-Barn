@@ -57,8 +57,9 @@
         "523b7040-76dd-40c9-8d82-a6f238d83622": {
           "type": "custom_column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Christmas_subscription_picture_circle.png",
             "button_text": "Christmas Subscription",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/coffee-subscription-gifts"
           }
         }
       },
