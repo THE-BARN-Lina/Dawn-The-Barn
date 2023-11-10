@@ -323,7 +323,7 @@
         "364ce80c-d09b-4988-935e-2f6496959719"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.banner {margin-top: 100px; }"
+        "@media screen and (min-width: 750px) {.banner {margin-top: 100px; } }"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/A5E33E5A-910D-4264-83D6-0A8C869AC3C3.jpg",
