@@ -100,7 +100,7 @@
         "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>What better way to celebrate the Christmas period than a subscription to the worlds best specialty coffee? <br\/><br\/>We will be sending the first delivery of our Christmas gift subscriptions in early December. In both Filter and Espresso Subscriptions we will feature our 2023 Christmas Coffee <\/p>",
+            "text": "<p>What better way to celebrate the Christmas period than a subscription to the worlds best specialty coffee? <br\/><br\/>We will be sending the first delivery of our Christmas gift subscriptions in early December. <br\/><br\/>In both Filter and Espresso Subscriptions we will feature our 2023 Christmas Coffee <\/p>",
             "text_style": "body"
           }
         },
@@ -118,7 +118,7 @@
         "template--18293943992587__8da3de82-bebf-49a2-8d31-fadc8d9b921f-button-1"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.image-with-text{padding-left: 0px; }}"
+        "@media screen and (min-width: 750px) {.image-with-text {padding-left: 0px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Christmassubscriptionpicture.jpg",
@@ -128,7 +128,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "left",
         "padding_top": 52,
         "padding_bottom": 52
