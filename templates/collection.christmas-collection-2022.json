@@ -137,6 +137,9 @@
     },
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc": {
       "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.collection__title.title-wrapper--self-padded-tablet-down {padding: 0 0rem;}}"
+      ],
       "settings": {
         "title": "Explore our Gift Boxes",
         "heading_size": "h2",
