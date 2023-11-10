@@ -71,7 +71,7 @@
       ],
       "settings": {
         "products_per_page": 36,
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": true,
