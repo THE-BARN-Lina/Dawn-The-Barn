@@ -200,7 +200,7 @@
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc": {
       "type": "featured-collection",
       "custom_css": [
-        "@media screen and (min-width: 990px) {.collection__title.title-wrapper--self-padded-tablet-down {padding: 0 0rem; }}"
+        "@media screen and (min-width: 990px) {.collection__title.title-wrapper--self-padded-tablet-down {padding: 0 1.5rem; }}"
       ],
       "settings": {
         "title": "EXPLORE OUR GIFT BOXES",
@@ -233,7 +233,8 @@
     "3c745dad-598d-473f-8669-98ccee87e5f0": {
       "type": "featured-collection",
       "custom_css": [
-        "@media screen and (min-width: 990px) {.collection__title {padding: 0 0rem; }}"
+        "@media screen and (min-width: 990px) {.collection__title {padding: 0 1.5rem; }}",
+        ".collection {margin-top: 100px;}"
       ],
       "settings": {
         "title": "GIFT CHRISTMAS SUBSCRIPTIONS",
@@ -266,7 +267,8 @@
     "95588731-6055-4a06-8105-e34d15b5db92": {
       "type": "featured-collection",
       "custom_css": [
-        "@media screen and (min-width: 990px) {.collection__title {padding: 0 0rem; }}"
+        "@media screen and (min-width: 990px) {.collection__title {padding: 0 1.5rem; }}",
+        ".collection {margin-top: 100px;}"
       ],
       "settings": {
         "title": "CHRISTMAS GIFTS FOR BOOK LOVERS",
