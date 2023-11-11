@@ -69,6 +69,9 @@
         "a6bd0e58-4a86-4a16-9569-e9f932fb0410",
         "523b7040-76dd-40c9-8d82-a6f238d83622"
       ],
+      "custom_css": [
+        "a {TEXT-DECORATION: NONE; color: white;}"
+      ],
       "settings": {
         "padding_top": 0,
         "padding_bottom": 88
