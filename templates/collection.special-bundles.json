@@ -152,7 +152,7 @@
           "type": "button",
           "settings": {
             "button_label": "ORDER NOW",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/coffee-subscription-gifts"
           }
         }
       },
