@@ -188,6 +188,9 @@
     },
     "166186709197b72a8b": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        "#product-grid {display: none;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -202,8 +205,8 @@
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "2",
-        "padding_top": 40,
-        "padding_bottom": 80
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc": {
