@@ -188,7 +188,6 @@
     },
     "166186709197b72a8b": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
