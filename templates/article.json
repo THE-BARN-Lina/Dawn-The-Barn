@@ -34,6 +34,9 @@
         "37a1fa2a-1f24-450a-a9a1-cb4528b8519d",
         "09e3b91c-548d-4e0d-8407-66cce56af3e5"
       ],
+      "custom_css": [
+        ".iframe-being-the-boss{max-width:100vw;}"
+      ],
       "settings": {
       }
     },
@@ -55,6 +58,7 @@
       "settings": {
         "title": "Latest Releases",
         "heading_size": "h1",
+        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
