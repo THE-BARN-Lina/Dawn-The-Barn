@@ -35,7 +35,7 @@
         "09e3b91c-548d-4e0d-8407-66cce56af3e5"
       ],
       "custom_css": [
-        ".iframe-being-the-boss {max-width: 100vw;}",
+        ".iframe-being-the-boss {max-width: 90vw;}",
         "@media only screen and (max-width: 600px) {.iframe-being-the-boss {height: 1200px; }}"
       ],
       "settings": {
