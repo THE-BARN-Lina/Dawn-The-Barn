@@ -51,7 +51,7 @@
         "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/gradient-advent.jpg",
+        "image": "shopify:\/\/shop_images\/Finca_sophia_gradient.jpg",
         "image_2": "shopify:\/\/shop_images\/new_equipment_edited.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
