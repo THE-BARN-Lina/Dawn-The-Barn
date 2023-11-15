@@ -278,6 +278,10 @@
     },
     "fdaa6678-e9fe-4380-a146-3e2eeb85afbb": {
       "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.collection__title {padding: 0 1.5rem; }}",
+        ".collection {margin-top: 100px;}"
+      ],
       "settings": {
         "title": "CHRISTMAS FELLOW GADGETS",
         "heading_size": "h2",
@@ -286,8 +290,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "fellow-products",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -295,7 +299,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_tastenotes": false,
         "show_rating": false,
