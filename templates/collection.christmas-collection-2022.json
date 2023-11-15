@@ -310,6 +310,40 @@
         "padding_bottom": 36
       }
     },
+    "51319634-5954-415d-951e-b18bfdec7c6c": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.collection__title {padding: 0 1.5rem; }}",
+        ".collection {margin-top: 100px;}"
+      ],
+      "settings": {
+        "title": "CHRISTMAS FILTER EQUIPMENT",
+        "heading_size": "h2",
+        "description_heading_2": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "aeropress-equipment",
+        "products_to_show": 3,
+        "columns_desktop": 2,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "95588731-6055-4a06-8105-e34d15b5db92": {
       "type": "featured-collection",
       "custom_css": [
@@ -399,6 +433,7 @@
     "ff3288a7-9cc0-471c-a4d7-fa2d7c005bfc",
     "3c745dad-598d-473f-8669-98ccee87e5f0",
     "fdaa6678-e9fe-4380-a146-3e2eeb85afbb",
+    "51319634-5954-415d-951e-b18bfdec7c6c",
     "95588731-6055-4a06-8105-e34d15b5db92",
     "7e63d166-e043-404d-836b-94a1f670b7c1"
   ]
