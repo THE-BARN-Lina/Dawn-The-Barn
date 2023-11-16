@@ -74,7 +74,7 @@
       "settings": {
         "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 32,
+        "padding_top": 16,
         "padding_bottom": 48
       }
     },
@@ -131,7 +131,7 @@
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {margin-top: 40px; margin-bottom: 40px;}",
+        ".collection {margin-top: 72px; margin-bottom: 40px;}",
         ".collection__title {text-align: center; margin-top: 3rem;}",
         "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
         "a {text-decoration: none;}",
@@ -161,7 +161,7 @@
         "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 32,
+        "padding_top": 68,
         "padding_bottom": 0
       }
     },
