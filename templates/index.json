@@ -131,9 +131,9 @@
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
       "custom_css": [
+        ".collection {margin-top: 40px; padding-bottom: 80px;}",
         ".collection__title {text-align: center; margin-top: 3rem;}",
         "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
-        ".collection {border-top: 2px solid #804d15; border-bottom: 2px solid #804d15; margin-top: 2rem; padding-bottom: 2rem;}",
         "a {text-decoration: none;}",
         "@media (max-width: 900px) {.collection__title {padding-top: 2rem; margin-top: 2rem; }}"
       ],
@@ -161,8 +161,8 @@
         "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 96,
-        "padding_bottom": 32
+        "padding_top": 32,
+        "padding_bottom": 0
       }
     },
     "3e280314-6fa9-4a83-9341-8d119cba2d32": {
@@ -196,6 +196,7 @@
         "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-button-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Christmas_subscription_picture_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -204,7 +205,7 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 80,
         "padding_bottom": 36
       }
     },
@@ -306,6 +307,7 @@
     },
     "88c54afd-6289-46f8-8ace-ea6a928b554f": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% render | \"four-icons\" %}",
         "color_scheme": "background-1",
@@ -443,7 +445,7 @@
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": true,
+        "open_first_collapsible_row": false,
         "image": "shopify:\/\/shop_images\/Chemex_Berlin_3ecda66a-a5ff-493c-9313-d159c7f0441a.jpg",
         "image_ratio": "large",
         "desktop_layout": "image_first",
