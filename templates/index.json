@@ -131,7 +131,7 @@
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {margin-top: 64px; PADDING-bottom:20px; border-top: 2px solid #804d15;border-bottom: 2px solid #804d15;}",
+        ".collection {margin-top: 52px; padding-bottom: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}",
         ".collection__title {text-align: center; margin-top: 3rem;}",
         "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
         "a {text-decoration: none;}",
@@ -161,7 +161,7 @@
         "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 68,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
