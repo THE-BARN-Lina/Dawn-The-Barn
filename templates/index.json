@@ -131,7 +131,7 @@
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {margin-top: 40px; padding-bottom: 80px;}",
+        ".collection {margin-top: 40px; margin-bottom: 40px;}",
         ".collection__title {text-align: center; margin-top: 3rem;}",
         "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
         "a {text-decoration: none;}",
