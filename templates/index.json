@@ -29,7 +29,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "ORDER NOW",
-            "button_link_1": "shopify:\/\/collections\/christmas-special",
+            "button_link_1": "shopify:\/\/collections\/christmas-gift-specials",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -66,68 +66,6 @@
         "show_text_below": false
       }
     },
-    "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8": {
-      "type": "image-banner",
-      "blocks": {
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "LIMITED EDITION",
-            "text_style": "body"
-          }
-        },
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "COFFEE ADVENT CALENDAR",
-            "heading_size": "h1"
-          }
-        },
-        "9fa3eb61-44f8-480a-83c0-639de11a1388": {
-          "type": "text",
-          "settings": {
-            "text": "24 tasty days to Christmas",
-            "text_style": "body"
-          }
-        },
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "ORDER NOW",
-            "button_link_1": "shopify:\/\/products\/advent-calendar-2023",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-text-1",
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1",
-        "9fa3eb61-44f8-480a-83c0-639de11a1388",
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".banner__heading {text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); font-family: \"Archivo Narrow\", sans-serif;}",
-        ".banner__buttons {box-shadow: 3px 3px 5px #0f0f0f85;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/KaffeeAdventcalender_04_colored.png",
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
     "1653387743507b82e2": {
       "type": "custom-liquid",
       "custom_css": [
@@ -136,8 +74,8 @@
       "settings": {
         "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "padding_top": 16,
-        "padding_bottom": 32
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf": {
@@ -225,6 +163,110 @@
         "swipe_on_mobile": true,
         "padding_top": 96,
         "padding_bottom": 32
+      }
+    },
+    "3e280314-6fa9-4a83-9341-8d119cba2d32": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-heading-1",
+        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-text-1",
+        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "LIMITED EDITION",
+            "text_style": "body"
+          }
+        },
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "COFFEE ADVENT CALENDAR",
+            "heading_size": "h1"
+          }
+        },
+        "9fa3eb61-44f8-480a-83c0-639de11a1388": {
+          "type": "text",
+          "settings": {
+            "text": "24 tasty days to Christmas",
+            "text_style": "body"
+          }
+        },
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ORDER NOW",
+            "button_link_1": "shopify:\/\/products\/advent-calendar-2023",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-text-1",
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1",
+        "9fa3eb61-44f8-480a-83c0-639de11a1388",
+        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner__heading {text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); font-family: \"Archivo Narrow\", sans-serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/KaffeeAdventcalender_04_colored.png",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "transparent_block": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
       }
     },
     "165339081846c57155": {
@@ -471,10 +513,11 @@
   },
   "order": [
     "befa68a6-1035-4cea-bf06-95f308026d4b",
-    "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8",
     "1653387743507b82e2",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527",
+    "3e280314-6fa9-4a83-9341-8d119cba2d32",
+    "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8",
     "165339081846c57155",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
