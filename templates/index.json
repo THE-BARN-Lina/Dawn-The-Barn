@@ -6,7 +6,7 @@
         "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
           "type": "heading",
           "settings": {
-            "heading": "CHRISTMAS SPECIALS",
+            "heading": "ADVENT TOP 4",
             "heading_size": "h0"
           }
         },
@@ -21,15 +21,15 @@
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
           "type": "text",
           "settings": {
-            "text": "The perfect way to say Merry Christmas.",
-            "text_style": "caption-with-letter-spacing"
+            "text": "CURATED SELECTIONS FROM OUR ADVENT CALENDER",
+            "text_style": "body"
           }
         },
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7": {
           "type": "buttons",
           "settings": {
             "button_label_1": "ORDER NOW",
-            "button_link_1": "shopify:\/\/collections\/christmas-gift-specials",
+            "button_link_1": "shopify:\/\/products\/advent-top-4",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
