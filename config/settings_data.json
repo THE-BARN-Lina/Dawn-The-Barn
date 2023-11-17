@@ -121,9 +121,9 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
             "settings": {
-              "text": "CHRISTMAS COFFEE: THE PERFECT FESTIVE FLAVOUR HAS ARRIVED ☕🎄",
+              "text": "THE PERFECT WAY TO SAY MERRY CHRISTMAS 🎁🎄",
               "color_scheme": "accent-2",
-              "link": "shopify:\/\/products\/christmas-coffee"
+              "link": "shopify:\/\/collections\/christmas-bundles"
             }
           }
         },
@@ -156,7 +156,7 @@
           "christmas_link_1": "shopify:\/\/products\/christmas-coffee",
           "christmas_label_1": "CHRISTMAS COFFEE",
           "christmas_image_2": "shopify:\/\/shop_images\/new_equipment_box_sets.png",
-          "christmas_link_2": "shopify:\/\/collections\/christmas-special",
+          "christmas_link_2": "shopify:\/\/collections\/christmas-gift-specials",
           "christmas_label_2": "CHRISTMAS SPECIALS",
           "christmas_image_3": "shopify:\/\/shop_images\/34A1929.jpg",
           "christmas_link_3": "shopify:\/\/products\/ode-brew-grinder-gen-2",
