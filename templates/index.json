@@ -78,93 +78,6 @@
         "padding_bottom": 48
       }
     },
-    "3b51e4e7-a8b7-4805-bbbe-703728f837cf": {
-      "type": "multirow",
-      "blocks": {
-        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3284_3db89a44-8743-4a48-8797-de85944aea76.jpg",
-            "caption": "",
-            "heading": "SUMMER SUBSCRIPTION",
-            "text": "<p>Explore the amazing world of Single Origin coffee beans. Your first delivery will include : <\/p><ul><li>A beautiful Sandstone Mug - or two! <\/li><li>And our cute enamel House Pin. <\/li><\/ul>",
-            "button_label": "SIGN UP HERE",
-            "button_link": "shopify:\/\/collections\/spring-gift-specials"
-          }
-        },
-        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Christmas_Coffee_2023.jpg",
-            "caption": "CABALLERO HONDURAS",
-            "heading": "CHRISTMAS COFFEE",
-            "text": "<p>The festive period would not be complete without delicious coffee and we are ready to fill your cups with Christmas flavour.<strong><br\/><\/strong><\/p><p><strong>Nougat. Macadamia. Vanilla.<\/strong><\/p>",
-            "button_label": "ORDER HERE",
-            "button_link": "https:\/\/thebarn.de\/products\/christmas-coffee"
-          }
-        }
-      },
-      "block_order": [
-        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0",
-        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"Archivo Narrow\", sans-serif;}"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "primary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
-      "type": "featured-collection",
-      "custom_css": [
-        ".collection {margin-top: 52px; padding-bottom: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}",
-        ".collection__title {text-align: center; margin-top: 3rem;}",
-        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
-        "a {text-decoration: none;}",
-        "@media (max-width: 900px) {.collection__title {padding-top: 2rem; margin-top: 2rem; }}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description_heading_2": "<h2><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">COFFEE SUBSCRIPTION PLANS<\/a><\/h2>",
-        "description": "<p>The worlds best coffees on repeat<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "main-coffee-subscriptions",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "link",
-        "view_all_label": "",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "3e280314-6fa9-4a83-9341-8d119cba2d32": {
       "type": "image-with-text",
       "blocks": {
@@ -211,7 +124,7 @@
         "image": "shopify:\/\/shop_images\/Christmas_subscription_picture_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -219,6 +132,128 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "0d7fccb3-b942-4640-a26a-1ab9195f4c41": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center; margin-top: 3rem;}",
+        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
+        ".collection {margin-bottom: 10rem;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description_heading_2": "<h2>GIFT FELLOW GADGETS<\/h2>",
+        "description": "<p>Premium Designs<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "fellow-products",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 68,
+        "padding_bottom": 68
+      }
+    },
+    "3b51e4e7-a8b7-4805-bbbe-703728f837cf": {
+      "type": "multirow",
+      "blocks": {
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3284_3db89a44-8743-4a48-8797-de85944aea76.jpg",
+            "caption": "",
+            "heading": "SUMMER SUBSCRIPTION",
+            "text": "<p>Explore the amazing world of Single Origin coffee beans. Your first delivery will include : <\/p><ul><li>A beautiful Sandstone Mug - or two! <\/li><li>And our cute enamel House Pin. <\/li><\/ul>",
+            "button_label": "SIGN UP HERE",
+            "button_link": "shopify:\/\/collections\/spring-gift-specials"
+          }
+        },
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_Christmas_Coffee_2023.jpg",
+            "caption": "CABALLERO HONDURAS",
+            "heading": "CHRISTMAS COFFEE",
+            "text": "<p>The festive period would not be complete without delicious coffee and we are ready to fill your cups with Christmas flavour.<strong><br\/><\/strong><\/p><p><strong>Nougat. Macadamia. Vanilla.<\/strong><\/p>",
+            "button_label": "ORDER HERE",
+            "button_link": "https:\/\/thebarn.de\/products\/christmas-coffee"
+          }
+        }
+      },
+      "block_order": [
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0",
+        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Archivo Narrow\", sans-serif;}"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".collection {margin-top: 52px; padding-bottom: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}",
+        ".collection__title {text-align: center; margin-top: 3rem;}",
+        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
+        "a {text-decoration: none;}",
+        "@media (max-width: 900px) {.collection__title {padding-top: 2rem; margin-top: 2rem; }}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description_heading_2": "<h2><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">COFFEE SUBSCRIPTION PLANS<\/a><\/h2>",
+        "description": "<p>The worlds best coffees on repeat<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "main-coffee-subscriptions",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "view_all_label": "",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8": {
@@ -528,9 +563,10 @@
   "order": [
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "1653387743507b82e2",
+    "3e280314-6fa9-4a83-9341-8d119cba2d32",
+    "0d7fccb3-b942-4640-a26a-1ab9195f4c41",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527",
-    "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8",
     "165339081846c57155",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
