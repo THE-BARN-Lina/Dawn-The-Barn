@@ -125,7 +125,7 @@
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
       "type": "feature-collection-custom",
       "custom_css": [
-        ".featured-collection-title-viewall {margin-left: 5rem; margin-right: 5rem;}"
+
       ],
       "settings": {
         "title": "LATEST RELEASES",
