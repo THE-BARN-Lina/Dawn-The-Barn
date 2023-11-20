@@ -125,12 +125,12 @@
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
       "type": "feature-collection-custom",
       "custom_css": [
-        ".featured-collection-title-viewall{margin:1rem;}"
+        ".featured-collection-title-viewall {margin: 1rem;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h1",
-        "description_heading_2": "<p>Savor the new flavors: freshly roasted<\/p>",
+        "description_heading_2": "",
         "description": "",
         "show_description": false,
         "description_style": "body",
