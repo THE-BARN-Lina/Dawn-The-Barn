@@ -125,7 +125,7 @@
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
       "type": "feature-collection-custom",
       "custom_css": [
-        ".featured-collection-title-viewall {margin: 1rem;}"
+        ".collection {margin-top: 52px; padding-bottom: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",
@@ -279,6 +279,7 @@
     },
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".collection {margin-top: 52px; padding-bottom: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}",
         ".collection__title {text-align: center; margin-top: 3rem;}",
@@ -312,6 +313,39 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "ede73460-01d6-4be0-bf2c-e2f489f5fb40": {
+      "type": "feature-collection-custom",
+      "custom_css": [
+        ".collection {margin-top: 52px; padding-bottom: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
+      ],
+      "settings": {
+        "title": "COFFEE SUBSCRIPTION PLANS",
+        "heading_size": "h1",
+        "description_heading_2": "",
+        "description": "<p>The worlds best coffees on repeat<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "coffee-subscription",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8": {
@@ -603,6 +637,7 @@
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "0d7fccb3-b942-4640-a26a-1ab9195f4c41",
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527",
+    "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
     "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
