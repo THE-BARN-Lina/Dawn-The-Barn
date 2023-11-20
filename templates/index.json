@@ -68,6 +68,9 @@
     },
     "b3059816-7040-4981-8d4f-da939a97be82": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center; margin-top: 3rem; font-family: \"Archivo Narrow\", sans-serif;}"
+      ],
       "settings": {
         "title": "BLACK FRIDAY SPECIALS",
         "heading_size": "h1",
@@ -89,7 +92,7 @@
         "show_vendor": false,
         "show_tastenotes": true,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
