@@ -140,8 +140,7 @@
         "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-button-1"
       ],
       "custom_css": [
-        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
-        ".image-with-text {border-bottom: 2px solid #804d15; }"
+        "h2 {font-family: \"Archivo Narrow\", sans-serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Christmas_subscription_picture_1.png",
