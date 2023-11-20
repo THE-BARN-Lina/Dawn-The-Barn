@@ -159,6 +159,7 @@
       "blocks": {
         "template--17938060116235__1782fee1-5ae8-4778-b098-d391842dbcb7-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
@@ -196,7 +197,7 @@
         "template--17938060116235__1782fee1-5ae8-4778-b098-d391842dbcb7-buy_buttons-1": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "template--17938060116235__1782fee1-5ae8-4778-b098-d391842dbcb7-share-1": {
@@ -215,6 +216,9 @@
         "template--17938060116235__1782fee1-5ae8-4778-b098-d391842dbcb7-quantity_selector-1",
         "template--17938060116235__1782fee1-5ae8-4778-b098-d391842dbcb7-buy_buttons-1",
         "template--17938060116235__1782fee1-5ae8-4778-b098-d391842dbcb7-share-1"
+      ],
+      "custom_css": [
+        ".product__info-wrapper {padding-left: 0rem;"
       ],
       "settings": {
         "product": "new-origins-twin-box",
