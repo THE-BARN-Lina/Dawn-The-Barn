@@ -122,8 +122,42 @@
         "padding_bottom": 36
       }
     },
+    "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
+      "type": "feature-collection-custom",
+      "custom_css": [
+        "h2 {margin-left: 5rem;}"
+      ],
+      "settings": {
+        "title": "LATEST RELEASES",
+        "heading_size": "h1",
+        "description_heading_2": "<p>Savor the new flavors: freshly roasted<\/p>",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-releases",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "165339081846c57155": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".collection__title {text-align: center; padding-top: 3rem;}",
         "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
@@ -564,6 +598,7 @@
   "order": [
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
+    "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "165339081846c57155",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "0d7fccb3-b942-4640-a26a-1ab9195f4c41",
