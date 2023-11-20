@@ -107,7 +107,7 @@ Coutom Code:
       </section>
 
       {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
-        <div class="collection__description {{ section.settings.description_style }}">
+        <div class="collection__description page-width-desktop {{ section.settings.description_style }}">
           {%- if section.settings.show_description_ -%}
             {{ section.settings.collection.description_heading_2 }}
           {%- else -%}
