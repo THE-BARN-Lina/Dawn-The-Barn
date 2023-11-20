@@ -31,45 +31,6 @@
         "padding_bottom": 52
       }
     },
-    "7e63d166-e043-404d-836b-94a1f670b7c1": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Black Friday Specials",
-            "heading_size": "h1"
-          }
-        },
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1": {
-          "type": "text",
-          "settings": {
-            "text": "Limited offers, limited stock - only available this weekend.",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-0",
-        "template--16182352085259__7e63d166-e043-404d-836b-94a1f670b7c1-1666085570c99930f1-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2C2EBAF9-9F15-4C98-9CCA-AFB34401B617.jpg",
-        "image_2": "shopify:\/\/shop_images\/EBC0FF2D-CCB2-4466-9BD0-60111442F322.jpg",
-        "image_overlay_opacity": 50,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -110,7 +71,6 @@
         },
         "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-4": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button"
           }
@@ -312,7 +272,6 @@
   },
   "order": [
     "f4433d16-93b3-422d-b4bb-ffdf56db82d4",
-    "7e63d166-e043-404d-836b-94a1f670b7c1",
     "banner",
     "8359b937-cd3a-4efc-8fa4-9e68c2500ceb",
     "1782fee1-5ae8-4778-b098-d391842dbcb7",
