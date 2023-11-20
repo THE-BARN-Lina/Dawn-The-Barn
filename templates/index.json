@@ -165,6 +165,18 @@
         "padding_bottom": 64
       }
     },
+    "1653387743507b82e2": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 48
+      }
+    },
     "18e90b04-5d61-491c-9805-32d9b2fcf9a3": {
       "type": "feature-collection-custom",
       "custom_css": [
@@ -196,18 +208,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1653387743507b82e2": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 16,
-        "padding_bottom": 48
       }
     },
     "165339081846c57155": {
@@ -632,8 +632,8 @@
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
-    "18e90b04-5d61-491c-9805-32d9b2fcf9a3",
     "1653387743507b82e2",
+    "18e90b04-5d61-491c-9805-32d9b2fcf9a3",
     "165339081846c57155",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527",
