@@ -69,7 +69,8 @@
     "b3059816-7040-4981-8d4f-da939a97be82": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center; margin-top: 3rem; font-family: \"Archivo Narrow\", sans-serif;}"
+        ".collection__title {text-align: center; margin-top: 3rem; font-family: \"Archivo Narrow\", sans-serif;}",
+        ".collection {margin-top: 52px; padding-bottom: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
       ],
       "settings": {
         "title": "BLACK FRIDAY SPECIALS",
