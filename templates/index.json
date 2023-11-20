@@ -66,6 +66,37 @@
         "show_text_below": false
       }
     },
+    "b3059816-7040-4981-8d4f-da939a97be82": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "BLACK FRIDAY SPECIALS",
+        "heading_size": "h1",
+        "description_heading_2": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "black-friday",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3e280314-6fa9-4a83-9341-8d119cba2d32": {
       "type": "image-with-text",
       "blocks": {
@@ -629,6 +660,7 @@
   },
   "order": [
     "befa68a6-1035-4cea-bf06-95f308026d4b",
+    "b3059816-7040-4981-8d4f-da939a97be82",
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
