@@ -2250,6 +2250,7 @@ input[type='checkbox'] {
   }
 
   .header--has-menu:not(.header--middle-left) {
+    padding:1rem;
     padding-bottom: 0;
   }
 
