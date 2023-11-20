@@ -202,6 +202,7 @@
         },
         "template--17938060116235__1782fee1-5ae8-4778-b098-d391842dbcb7-share-1": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -218,7 +219,85 @@
         "template--17938060116235__1782fee1-5ae8-4778-b098-d391842dbcb7-share-1"
       ],
       "custom_css": [
-        ".product__info-wrapper {padding-left: 0rem;"
+        ".product__info-wrapper {padding-left: 0rem;}",
+        "@media only screen and (max-width: 460px) {.featured-product {display: none; }}"
+      ],
+      "settings": {
+        "product": "new-origins-twin-box",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "f06bea94-405a-4e9b-b7e3-eda04bb4754b": {
+      "type": "featured-product",
+      "blocks": {
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.subscription.subscription_filter_beans | metafield_text }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-share-1": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-text-1",
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-title-1",
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-text-2",
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-price-1",
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-variant_picker-1",
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-quantity_selector-1",
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-buy_buttons-1",
+        "template--17938060116235__f06bea94-405a-4e9b-b7e3-eda04bb4754b-share-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 460px) {.featured-product {display: none; }}"
       ],
       "settings": {
         "product": "new-origins-twin-box",
@@ -236,6 +315,7 @@
     "7e63d166-e043-404d-836b-94a1f670b7c1",
     "banner",
     "8359b937-cd3a-4efc-8fa4-9e68c2500ceb",
-    "1782fee1-5ae8-4778-b098-d391842dbcb7"
+    "1782fee1-5ae8-4778-b098-d391842dbcb7",
+    "f06bea94-405a-4e9b-b7e3-eda04bb4754b"
   ]
 }
