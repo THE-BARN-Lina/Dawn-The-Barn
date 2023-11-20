@@ -89,18 +89,20 @@ Coutom Code:
   <div class="collection collection-custom-style section-{{ section.id }}-padding{% if section.settings.full_width %} {% endif %}">
     <div class="collection__title title-wrapper title-wrapper--no-top-margin {% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
       <section class="featured-collection-title-viewall page-width-desktop">
-
-        {%- if section.settings.title != blank -%}
-          <h2>{{ section.settings.title | escape }}</h2>
-        {%- endif -%}
-        {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
-          <div class="collection__description {{ section.settings.description_style }}">
-            {%- if section.settings.show_description -%}
-              {{ section.settings.collection.description }}
-            {%- else -%}
-              {{ section.settings.description }}{% endif %}
-          </div>
-        {%- endif -%}
+        <div class= title-description-container>
+         {%- if section.settings.title != blank -%}
+                  <h2>{{ section.settings.title | escape }}</h2>
+                {%- endif -%}
+                {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
+                  <div class="collection__description {{ section.settings.description_style }}">
+                    {%- if section.settings.show_description -%}
+                      {{ section.settings.collection.description }}
+                    {%- else -%}
+                      {{ section.settings.description }}{% endif %}
+                  </div>
+                {%- endif -%}
+        </div>
+       
         
         {%- if section.settings.show_view_all -%}
           <div class="">
