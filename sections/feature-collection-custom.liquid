@@ -92,17 +92,9 @@ Coutom Code:
 
         {%- if section.settings.title != blank -%}
           <h2>{{ section.settings.title | escape }}</h2>
+          <p>{{ section.settings.collection.description_heading_2 }}</p>
         {%- endif -%}
         
-        {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
-          <div class="collection__description  {{ section.settings.description_style }}">
-           
-              {{ section.settings.collection.description_heading_2 }}
-            
-          </div>
-        {%- endif -%}
-
-
         {%- if section.settings.show_view_all -%}
           <div class="">
             <a
@@ -116,6 +108,8 @@ Coutom Code:
       </section>
 
 
+
+      
       {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
         <div class="collection__description {{ section.settings.description_style }}">
           {%- if section.settings.show_description -%}
