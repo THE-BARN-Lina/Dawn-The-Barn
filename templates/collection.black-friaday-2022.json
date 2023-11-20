@@ -99,7 +99,7 @@
         "template--16299050041611__8359b937-cd3a-4efc-8fa4-9e68c2500ceb-166962158493cd7cc1-2": {
           "type": "text",
           "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text": "{{ section.settings.product.metafields.subscription.subscription_filter_beans | metafield_text }}",
             "text_style": "subtitle"
           }
         },
