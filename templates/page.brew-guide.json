@@ -157,10 +157,10 @@
         "template--17938053136651__47652036-b592-4a70-ac28-10c2bdf34ce9-slide-1"
       ],
       "custom_css": [
-        ".slider{margin-top:3rem;}"
+        ".slider {margin-top: 3rem;}"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
