@@ -65,6 +65,9 @@
     },
     "899fa13f-008e-4807-a140-49a99843c9be": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "You might like",
         "heading_size": "h2",
@@ -95,29 +98,6 @@
     },
     "cc2b525c-f33c-42cd-854e-e87749c7ca4d": {
       "type": "slideshow",
-      "blocks": {
-        "template--17938053136651__cc2b525c-f33c-42cd-854e-e87749c7ca4d-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Loslajonesfarm_80818657-50bb-430b-bd8f-8f049ef7a472.jpg",
-            "heading": "EXPLORE OUR BEANS",
-            "heading_size": "h1",
-            "subheading": "Visit our beans page",
-            "button_label": "EXPLORE",
-            "link": "shopify:\/\/collections\/coffee-beans",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17938053136651__cc2b525c-f33c-42cd-854e-e87749c7ca4d-slide-1"
-      ],
       "custom_css": [
         ".slider {margin-top: 3rem;}"
       ],
@@ -176,7 +156,7 @@
         "235e061a-2245-4a03-93b6-7b06f0c53fe8"
       ],
       "custom_css": [
-        ".slider {margin-top: 3rem;}"
+
       ],
       "settings": {
         "layout": "grid",
