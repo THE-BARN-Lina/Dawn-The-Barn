@@ -33,16 +33,18 @@
 
   {%- style -%}
 
-.both-slide-text-wrapper{
-  display:flex;
-  flex-direction:row;
-}
+     .slide-wrapper{
+        width:100%;
+        height:auto;
+    }
+      .slide-text-wrapper{
+        width:100%;
+        height:auto;
+        background-color:;
+        padding:3rem;
+      }
     
   @media screen and (max-width: 750px) {
-      .both-slide-text-wrapper{
-          display:flex;
-          flex-direction:column;
-      }
       .slide-wrapper{
         width:100%;
         height:auto;
@@ -102,7 +104,8 @@
 
 
 
-<section class="both-slide-text-wrapper">
+
+
 
   <section class="slide-wrapper">
 
@@ -196,9 +199,6 @@
     
   </section>
   <section class="slide-text-wrapper">
-  
-</section>
-
 
 
     {%- for block in section.blocks -%}
