@@ -166,11 +166,65 @@
         "show_text_below": true,
         "accessibility_info": "LEARN MORE ABOUT COFFEE"
       }
+    },
+    "47652036-b592-4a70-ac28-10c2bdf34ce9": {
+      "type": "slideshow-custom-locations",
+      "blocks": {
+        "template--17938053136651__47652036-b592-4a70-ac28-10c2bdf34ce9-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8941.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17938053136651__47652036-b592-4a70-ac28-10c2bdf34ce9-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053136651__47652036-b592-4a70-ac28-10c2bdf34ce9-slide-1",
+        "template--17938053136651__47652036-b592-4a70-ac28-10c2bdf34ce9-slide-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
     }
   },
   "order": [
     "d0063155-43ed-4395-9fe4-244577feb9b4",
     "899fa13f-008e-4807-a140-49a99843c9be",
-    "cc2b525c-f33c-42cd-854e-e87749c7ca4d"
+    "cc2b525c-f33c-42cd-854e-e87749c7ca4d",
+    "47652036-b592-4a70-ac28-10c2bdf34ce9"
   ]
 }
