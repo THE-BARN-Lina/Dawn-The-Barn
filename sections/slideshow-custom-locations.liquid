@@ -126,13 +126,7 @@
 
 
   
-  <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
-    id="Slider-{{ section.id }}"
-    aria-live="polite"
-    aria-atomic="true"
-    data-autoplay="{{ section.settings.auto_rotate }}"
-    data-speed="{{ section.settings.change_slides_speed }}"
-  >
+
     {%- for block in section.blocks -%}
    
 
@@ -155,7 +149,7 @@
         
 
     {%- endfor -%}
-  </div>
+
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
     <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
