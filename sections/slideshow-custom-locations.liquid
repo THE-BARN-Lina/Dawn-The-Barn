@@ -74,7 +74,13 @@
 
 
   
-
+  <div
+    id="Slider-{{ section.id }}"
+    aria-live="polite"
+    aria-atomic="true"
+    data-autoplay="{{ section.settings.auto_rotate }}"
+    data-speed="{{ section.settings.change_slides_speed }}"
+  >
     {%- for block in section.blocks -%}
    
       <div class="slideshow__slide grid__item grid--1-col slider__slide"
@@ -111,7 +117,7 @@
         </div>
       </div>
     {%- endfor -%}
-
+  </div>
 
 
     {%- for block in section.blocks -%}
