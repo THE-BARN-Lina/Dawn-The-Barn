@@ -132,30 +132,6 @@
       </div>
     {%- endfor -%}
   </div>
-    
-  </section>
-  <section class="slide-text-wrapper">
-
-
-    {%- for block in section.blocks -%}
-            {%- if block.settings.heading != blank -%}
-              <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
-            {%- endif -%}
-            {%- if block.settings.subheading != blank -%}
-              <div class="banner__text" {{ block.shopify_attributes }}>
-                <span>{{ block.settings.subheading | escape }}</span>
-              </div>
-            {%- endif -%}
-            {%- if block.settings.button_label != blank -%}
-              <div class="banner__buttons">
-                <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
-              </div>
-            {%- endif -%}
-    {%- endfor -%}
-    
-  </section>
-
-
 
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
@@ -198,6 +174,34 @@
       </div>
     </noscript>
   {%- endif -%}
+
+    
+  </section>
+  <section class="slide-text-wrapper">
+
+
+    {%- for block in section.blocks -%}
+            {%- if block.settings.heading != blank -%}
+              <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
+            {%- endif -%}
+            {%- if block.settings.subheading != blank -%}
+              <div class="banner__text" {{ block.shopify_attributes }}>
+                <span>{{ block.settings.subheading | escape }}</span>
+              </div>
+            {%- endif -%}
+            {%- if block.settings.button_label != blank -%}
+              <div class="banner__buttons">
+                <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+              </div>
+            {%- endif -%}
+    {%- endfor -%}
+    
+  </section>
+
+
+
+
+
 </slideshow-component>
 
 {%- if request.design_mode -%}
