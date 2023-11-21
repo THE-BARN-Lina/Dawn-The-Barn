@@ -151,10 +151,29 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "235e061a-2245-4a03-93b6-7b06f0c53fe8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Christmassubscriptionpicture1_8724de8b-39a3-48e8-adcb-63756cbcc09c.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "template--17938053136651__47652036-b592-4a70-ac28-10c2bdf34ce9-slide-1"
+        "template--17938053136651__47652036-b592-4a70-ac28-10c2bdf34ce9-slide-1",
+        "235e061a-2245-4a03-93b6-7b06f0c53fe8"
       ],
       "custom_css": [
         ".slider {margin-top: 3rem;}"
