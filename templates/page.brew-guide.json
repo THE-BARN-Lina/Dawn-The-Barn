@@ -154,6 +154,9 @@
         "template--17938053136651__cc2b525c-f33c-42cd-854e-e87749c7ca4d-slide-2",
         "a17395c2-1fff-45ff-9d8f-3e3919e37e8c"
       ],
+      "custom_css": [
+        ".slider{margin-top:3rem;}"
+      ],
       "settings": {
         "layout": "grid",
         "slide_height": "small",
