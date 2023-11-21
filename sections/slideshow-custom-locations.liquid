@@ -128,9 +128,6 @@
   
 
     {%- for block in section.blocks -%}
-   
-
- 
             {%- if block.settings.heading != blank -%}
               <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
             {%- endif -%}
@@ -144,10 +141,6 @@
                 <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
               </div>
             {%- endif -%}
-
-
-        
-
     {%- endfor -%}
 
 
