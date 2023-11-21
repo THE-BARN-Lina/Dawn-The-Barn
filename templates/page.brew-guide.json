@@ -73,13 +73,13 @@
         "show_description": false,
         "description_style": "body",
         "collection": "brew-guide",
-        "products_to_show": 6,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "view_all_label": "View All",
-        "enable_desktop_slider": true,
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
@@ -155,7 +155,7 @@
         "a17395c2-1fff-45ff-9d8f-3e3919e37e8c"
       ],
       "custom_css": [
-        ".slider{margin-top:3rem;}"
+        ".slider {margin-top: 3rem;}"
       ],
       "settings": {
         "layout": "grid",
