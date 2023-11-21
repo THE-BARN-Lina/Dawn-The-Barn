@@ -32,15 +32,20 @@
 
 
   {%- style -%}
-
-   
+.both-text-slide-wrapper{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
   @media screen and (max-width: 750px) {
       .slide-wrapper{
-        width:100%;
+        width:350px;
         height:auto;
     }
       .slide-text-wrapper{
-        width:100%;
+        width:350px;
         height:auto;
         background-color:red;
         padding:3rem;
