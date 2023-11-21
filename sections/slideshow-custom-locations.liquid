@@ -23,20 +23,21 @@
       display: block;
     }
   }
-
-
-.slide-wrapper{
-  padding:4rem;
-}
-
-
-
     
   {%- endstyle -%}
 
 
   
 {%- endif -%}
+
+
+  {%- style -%}
+    
+    .slide-wrapper{
+      width:50%;
+    }
+    
+  {%- endstyle -%}
 
 <slideshow-component class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}" role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" aria-label="{{ section.settings.accessibility_info | escape }}">
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
