@@ -33,16 +33,10 @@
 
   {%- style -%}
 
-     .slide-wrapper{
-        width:100%;
-        height:auto;
-    }
-      .slide-text-wrapper{
-        width:100%;
-        height:auto;
-        background-color:grey;
-        padding:3rem;
-      }
+.both-slide-text-wrapper{
+  display:flex;
+  flex-direction:row;
+}
     
   @media screen and (max-width: 750px) {
       .slide-wrapper{
@@ -104,8 +98,7 @@
 
 
 
-
-
+<section class="both-slide-text-wrapper">
 
   <section class="slide-wrapper">
 
@@ -199,6 +192,9 @@
     
   </section>
   <section class="slide-text-wrapper">
+  
+</section>
+
 
 
     {%- for block in section.blocks -%}
