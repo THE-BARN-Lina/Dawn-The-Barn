@@ -26,7 +26,9 @@
 
 
 
-
+.slide-wrapper{
+  width:50%;
+}
 
 
     
@@ -131,6 +133,7 @@
   </div>
     
   </section>
+  <section class="slide-text-wrapper">
 
 
     {%- for block in section.blocks -%}
@@ -148,6 +151,10 @@
               </div>
             {%- endif -%}
     {%- endfor -%}
+    
+  </section>
+
+
 
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
