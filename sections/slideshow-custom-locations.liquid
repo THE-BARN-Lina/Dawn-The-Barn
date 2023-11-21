@@ -32,9 +32,7 @@
 
 
   {%- style -%}
-    .banner {
-      margin-top:0px;
-    }
+   
        .slide-wrapper{
         width:550px;
          height:550px;
@@ -118,7 +116,7 @@
 <section class="both-text-slide-wrapper">
   
   <section class="slide-wrapper">
-  <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
+  <div class="{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
     aria-atomic="true"
