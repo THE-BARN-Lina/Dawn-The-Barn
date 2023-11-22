@@ -14,38 +14,23 @@
   }
 {%- endstyle -%}
 
-        {%- if section.settings.image != blank -%}
-          <img
-            srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
-            src="{{ section.settings.image | image_url: width: 1500 }}"
-            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-            alt="{{ section.settings.image.alt | escape }}"
-            loading="lazy"
-            width="{{ section.settings.image.width }}"
-            height="{{ section.settings.image.height }}"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
 
+<section class="section-{{ section.id }}-padding">
+  {%- if section.settings.image != blank -%}
+    <!-- Your image rendering code -->
+  {%- endif -%}
 
+  {%- if section.settings.heading != blank -%}
+    <h2 class="image-with-text__heading {{ section.settings.heading_size }}" {{ section.shopify_attributes }}>
+      {{ section.settings.heading | escape }}
+    </h2>
+  {%- endif -%}
 
-        {%- if section.settings.text != blank -%}
-          
-       
-   
-              <h2 class="image-with-text__heading {{ section.settings.heading_size }}" {{ section.shopify_attributes }}>
-                {{ section.settings.heading | escape }}
-              </h2>
-     
-        {%- endif -%}
-        
+  {%- if section.settings.text != blank -%}
+    <!-- Render the text here -->
+    <p>{{ section.settings.text | escape }}</p>
+  {%- endif -%}
+</section>
 
 
 {% schema %}
@@ -58,32 +43,40 @@
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Image with text",
+      "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
         {
-          "type": "text",
-          "id": "heading",
-          "default": "Image with text",
-          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
         },
         {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
         }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "text",
+      "info": "Enter your text here"
+    }
   ]
 }
+
 {% endschema %}
