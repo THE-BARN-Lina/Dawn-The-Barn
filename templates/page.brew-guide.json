@@ -122,9 +122,7 @@
       "block_order": [
         "a5f70398-b29d-416d-8c43-e907676cd99e"
       ],
-      "custom_css": [
-        ".slider {margin-top: 3rem;}"
-      ],
+      "disabled": true,
       "settings": {
         "layout": "grid",
         "slide_height": "small",
@@ -142,54 +140,33 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/cafes_kranzler_4.webp",
-            "heading": "CAFÉ KRANZLER",
             "heading_size": "h2",
             "subheading": "Step into the vibrant world of Café Kranzler, a legendary establishment located on Berlin's renowned Kurfürstendamm boulevard.Once a beloved gathering place for artists and intellectuals, Café Kranzler has undergone a transformation, embracing a blend of tradition and modernity.",
             "button_label": "EXPLORE",
             "link": "shopify:\/\/pages\/cafe-kranzler",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "button_style_secondary": true
           }
         },
         "235e061a-2245-4a03-93b6-7b06f0c53fe8": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Kranzler-vintage.jpg",
-            "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "button_style_secondary": true
           }
         },
         "23e0b6c7-1784-4d05-a1e1-c3b47ead1b75": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/kranzler_4.jpg",
-            "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
             "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "button_style_secondary": false
           }
         }
       },
@@ -198,17 +175,85 @@
         "235e061a-2245-4a03-93b6-7b06f0c53fe8",
         "23e0b6c7-1784-4d05-a1e1-c3b47ead1b75"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
         "layout": "grid",
         "slide_height": "small",
-        "slider_visual": "counter",
         "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "show_text_below": true
+      }
+    },
+    "ec7175b3-fb37-4d58-8a51-144026ba784e": {
+      "type": "slideshow-custom-locations",
+      "blocks": {
+        "template--17938053136651__ec7175b3-fb37-4d58-8a51-144026ba784e-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9080_f15d3e30-177a-481d-b627-c08c4df36e22.jpg",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053136651__ec7175b3-fb37-4d58-8a51-144026ba784e-slide-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "slide_height": "small",
+        "auto_rotate": true,
+        "show_text_below": true
+      }
+    },
+    "9ab649c1-36c0-40c1-82f1-f1ab002b847b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17938053136651__9ab649c1-36c0-40c1-82f1-f1ab002b847b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--17938053136651__9ab649c1-36c0-40c1-82f1-f1ab002b847b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17938053136651__9ab649c1-36c0-40c1-82f1-f1ab002b847b-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17938053136651__9ab649c1-36c0-40c1-82f1-f1ab002b847b-heading-1",
+        "template--17938053136651__9ab649c1-36c0-40c1-82f1-f1ab002b847b-text-1",
+        "template--17938053136651__9ab649c1-36c0-40c1-82f1-f1ab002b847b-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -216,6 +261,8 @@
     "d0063155-43ed-4395-9fe4-244577feb9b4",
     "899fa13f-008e-4807-a140-49a99843c9be",
     "cc2b525c-f33c-42cd-854e-e87749c7ca4d",
-    "47652036-b592-4a70-ac28-10c2bdf34ce9"
+    "47652036-b592-4a70-ac28-10c2bdf34ce9",
+    "ec7175b3-fb37-4d58-8a51-144026ba784e",
+    "9ab649c1-36c0-40c1-82f1-f1ab002b847b"
   ]
 }
