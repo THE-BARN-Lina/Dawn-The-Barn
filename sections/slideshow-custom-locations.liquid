@@ -96,15 +96,7 @@
 
     </div>
     <noscript>
-      <div class="slider-buttons">
-        <div class="slider-counter">
-          {%- for block in section.blocks -%}
-            <a href="#Slide-{{ section.id }}-{{ forloop.index }}" class="slider-counter__link link" aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}">
-              {{ forloop.index }}
-            </a>
-          {%- endfor -%}
-        </div>
-      </div>
+
     </noscript>
   {%- endif -%}
 
