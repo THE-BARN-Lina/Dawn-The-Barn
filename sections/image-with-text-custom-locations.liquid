@@ -13,9 +13,13 @@
     width:auto;
     height:390px;
   }
+  .text-buttom-container{
+    background-color:black;
+  }
 {%- endstyle -%}
+<section class="image-with-text"></section>
 
-<section class=" image-with-text section-{{ section.id }}-padding">
+<section class="section-{{ section.id }}-padding">
   {%- if section.settings.image != blank -%}
     <img
       srcset="
@@ -37,17 +41,17 @@
   {%- else -%}
     {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
   {%- endif -%}
+  <section class=" text-buttom-container">
+    {%- if section.settings.heading != blank -%}
+      <h2>
+        {{ section.settings.heading | escape }}
+      </h2>
+    {%- endif -%}
 
-  {%- if section.settings.heading != blank -%}
-    <h2 class="">
-      {{ section.settings.heading | escape }}
-    </h2>
-  {%- endif -%}
-
-  {%- if section.settings.text != blank -%}
-    <!-- Render the text here -->
-    <p>{{ section.settings.text | escape }}</p>
-  {%- endif -%}
+    {%- if section.settings.text != blank -%}
+      <p>{{ section.settings.text | escape }}</p>
+    {%- endif -%}
+  </section>
 </section>
 
 {% schema %}
