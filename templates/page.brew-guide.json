@@ -137,11 +137,24 @@
             "link": "",
             "button_style_secondary": true
           }
+        },
+        "23e0b6c7-1784-4d05-a1e1-c3b47ead1b75": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kranzler_4.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "template--17938053136651__47652036-b592-4a70-ac28-10c2bdf34ce9-slide-1",
-        "235e061a-2245-4a03-93b6-7b06f0c53fe8"
+        "235e061a-2245-4a03-93b6-7b06f0c53fe8",
+        "23e0b6c7-1784-4d05-a1e1-c3b47ead1b75"
       ],
       "custom_css": [
 
