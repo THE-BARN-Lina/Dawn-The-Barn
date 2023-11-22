@@ -219,46 +219,11 @@
     },
     "3eec30da-cbad-43dd-a593-9939329f644b": {
       "type": "image-with-text-custom-locations",
-      "blocks": {
-        "template--17938059034891__3eec30da-cbad-43dd-a593-9939329f644b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Join Us",
-            "heading_size": "h1"
-          }
-        },
-        "template--17938059034891__3eec30da-cbad-43dd-a593-9939329f644b-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sign up for our newsletter <\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--17938059034891__3eec30da-cbad-43dd-a593-9939329f644b-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "SIGN UP TODAY",
-            "button_link": "shopify:\/\/pages\/newsletter-signup"
-          }
-        }
-      },
-      "block_order": [
-        "template--17938059034891__3eec30da-cbad-43dd-a593-9939329f644b-heading-1",
-        "template--17938059034891__3eec30da-cbad-43dd-a593-9939329f644b-text-1",
-        "template--17938059034891__3eec30da-cbad-43dd-a593-9939329f644b-button-1"
-      ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Shantawenefarmer_8e22c600-f03a-4c39-b17f-06c3f7665ff1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading": "Image with text",
+        "text": "text"
       }
     }
   },
