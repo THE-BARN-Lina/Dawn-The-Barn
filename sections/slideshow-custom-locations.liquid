@@ -87,17 +87,13 @@
     {%- endfor -%}
   </div>
 
-
 {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
     <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
       <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'sections.slideshow.next_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
     </div>
- 
-  {%- endif -%}
-
-    
-  </section>
+{%- endif -%}
+</section>
   
   <section class="slide-text-wrapper">
 
@@ -107,13 +103,12 @@
               <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
             {%- endif -%}
             <br/>
-
             {%- if block.settings.subheading != blank -%}
               <div class="banner__text" {{ block.shopify_attributes }}>
                 <span>{{ block.settings.subheading | escape }}</span>
               </div>
             {%- endif -%}
-      <br/>
+            <br/>
             {%- if block.settings.button_label != blank -%}
               <div class="banner__buttons">
                 <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
