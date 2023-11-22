@@ -101,6 +101,7 @@
       "blocks": {
         "a5f70398-b29d-416d-8c43-e907676cd99e": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_7617.jpg",
             "heading": "",
