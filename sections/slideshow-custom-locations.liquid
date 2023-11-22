@@ -1,28 +1,24 @@
-
-  {%- style -%}
+{%- style -%}
    
-       .slide-wrapper{
-        width:550px;
-         height:550px;
-    }
-      .slide-text-wrapper{
-        height:550px;
-        width:550px;
-        
-        padding:3rem;
-      }
-.both-text-slide-wrapper{
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-
-  background-color:#434361;
-  padding:2rem;
-
-  margin:2rem;
-}
+  .slide-wrapper{
+      width:550px;
+      height:550px;
+  }
+  .slide-text-wrapper{
+      height:550px;
+      width:550px;
+      padding:3rem;
+  }
+  .both-text-slide-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color:#434361;
+      padding:2rem;
+      margin:2rem;
+  }
+    
   @media screen and (max-width: 750px) {
     .both-text-slide-wrapper{
       display: flex;
@@ -31,37 +27,30 @@
       padding-top:2rem;
       margin:0.6rem;
       margin-top:2rem;
-      }
-      .slide-wrapper{
-        width:350px;
-        height:300px;
     }
-      .slide-text-wrapper{
-        width:350px;
-        padding:2px;
-        padding-top:2rem;
-      }
-
+    .slide-wrapper{
+      width:350px;
+      height:300px;
+    }
+    .slide-text-wrapper{
+      width:350px;
+      padding:2px;
+      padding-top:2rem;
+    }
   }
-
-    
-  {%- endstyle -%}
+{%- endstyle -%}
 
 <slideshow-component 
-  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}" role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" aria-label="{{ section.settings.accessibility_info | escape }}">
+  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}" 
+  role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" 
+  aria-label="{{ section.settings.accessibility_info | escape }}">
 
-
-{% comment %} FIRST LOCATION BLOCK {% endcomment %}
-  
 <section class="both-text-slide-wrapper">
   
 <section class="slide-wrapper">
   <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
     id="Slider-{{ section.id }}"
-    aria-live="polite"
-    aria-atomic="true"
-    data-autoplay="{{ section.settings.auto_rotate }}"
-    data-speed="{{ section.settings.change_slides_speed }}"
+
   >
     {%- for block in section.blocks -%}
    
