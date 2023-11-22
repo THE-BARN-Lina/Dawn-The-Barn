@@ -1,3 +1,54 @@
+{%- style -%}
+/* Add this CSS to your Shopify theme CSS editor */
+.custom-image-gallery {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image-card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+}
+
+.image-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.image-card p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+{%- endstyle -%}
 <div class="custom-image-gallery">
   <h2>{{ section.settings.section_title }}</h2>
   <p>{{ section.settings.section_description }}</p>
