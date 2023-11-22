@@ -135,7 +135,7 @@
             "subheading": "",
             "button_label": "",
             "link": "",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
