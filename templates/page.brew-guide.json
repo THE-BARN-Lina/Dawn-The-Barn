@@ -122,7 +122,8 @@
             "heading_size": "h2",
             "subheading": "Step into the vibrant world of Café Kranzler, a legendary establishment located on Berlin's renowned Kurfürstendamm boulevard.Once a beloved gathering place for artists and intellectuals, Café Kranzler has undergone a transformation, embracing a blend of tradition and modernity.",
             "button_label": "EXPLORE",
-            "link": "shopify:\/\/pages\/cafe-kranzler"
+            "link": "shopify:\/\/pages\/cafe-kranzler",
+            "button_style_secondary": true
           }
         },
         "235e061a-2245-4a03-93b6-7b06f0c53fe8": {
@@ -133,7 +134,8 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": ""
+            "link": "",
+            "button_style_secondary": false
           }
         }
       },
@@ -147,11 +149,9 @@
       "settings": {
         "layout": "grid",
         "slide_height": "small",
-        "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 3,
-        "show_text_below": true,
-        "accessibility_info": ""
+        "show_text_below": true
       }
     }
   },
