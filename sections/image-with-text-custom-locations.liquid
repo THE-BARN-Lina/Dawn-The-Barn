@@ -3,6 +3,7 @@
 {%- style -%}
   .image-with-text{
     padding:3rem;
+    background-color: grey;
   }
   .image-main-slider{
     width:300px;
@@ -24,8 +25,8 @@
       src="{{ section.settings.image | image_url: width: 1500 }}"
       alt="{{ section.settings.image.alt | escape }}"
       loading="lazy"
-      width="{{ section.settings.image.width }}"
-      height="{{ section.settings.image.height }}"
+      width=""
+      height=""
       class="image-main-slider"
     >
   {%- else -%}
