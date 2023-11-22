@@ -147,9 +147,9 @@
 
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "small",
-        "change_slides_speed": 3,
+        "auto_rotate": false,
         "show_text_below": true
       }
     }
