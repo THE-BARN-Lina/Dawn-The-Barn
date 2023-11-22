@@ -4,6 +4,9 @@
   .image-with-text{
     padding:3rem;
   }
+  .image-main-slider{
+    width:300px;
+  }
 {%- endstyle -%}
 
 <section class=" image-with-text section-{{ section.id }}-padding">
@@ -19,11 +22,11 @@
         {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
       "
       src="{{ section.settings.image | image_url: width: 1500 }}"
-      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
       alt="{{ section.settings.image.alt | escape }}"
       loading="lazy"
       width="{{ section.settings.image.width }}"
       height="{{ section.settings.image.height }}"
+      class="image-main-slider"
     >
   {%- else -%}
     {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
