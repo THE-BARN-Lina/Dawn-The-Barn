@@ -237,7 +237,7 @@
         "template--17938059034891__3eec30da-cbad-43dd-a593-9939329f644b-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "SIGN UP TODAY",
             "button_link": "shopify:\/\/pages\/newsletter-signup"
           }
         }
