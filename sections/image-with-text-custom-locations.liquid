@@ -27,7 +27,7 @@
   {%- endif -%}
 
   {%- if section.settings.heading != blank -%}
-    <h2 class="image-with-text__heading {{ section.settings.heading_size }}" {{ section.shopify_attributes }}>
+    <h2 class="">
       {{ section.settings.heading | escape }}
     </h2>
   {%- endif -%}
@@ -53,26 +53,6 @@
       "id": "heading",
       "default": "Image with text",
       "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
     },
     {
       "type": "text",
