@@ -147,7 +147,7 @@
 
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "auto_rotate": false,
         "show_text_below": true
