@@ -113,12 +113,6 @@
           "settings": {
           }
         },
-        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-variant_picker-1": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-quantity_selector-1": {
           "type": "quantity_selector",
           "settings": {
@@ -142,7 +136,6 @@
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-title-1",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-text-2",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-price-1",
-        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-variant_picker-1",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-quantity_selector-1",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-buy_buttons-1",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-share-1"
