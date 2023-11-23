@@ -140,6 +140,9 @@
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-buy_buttons-1",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-share-1"
       ],
+      "custom_css": [
+        ".featured-product {margin-top: 52px; padding-bottom: 20px; padding-top:20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
+      ],
       "settings": {
         "product": "christmas-coffee",
         "color_scheme": "background-1",
