@@ -84,6 +84,78 @@
         "padding_bottom": 88
       }
     },
+    "e14b0826-7199-4f19-bba0-d9f03c93261c": {
+      "type": "featured-product",
+      "blocks": {
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-text-1",
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-title-1",
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-text-2",
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-price-1",
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-variant_picker-1",
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-quantity_selector-1",
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-buy_buttons-1",
+        "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-share-1"
+      ],
+      "settings": {
+        "product": "christmas-coffee",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1662738554a4ae067d": {
       "type": "image-with-text",
       "blocks": {
@@ -426,6 +498,7 @@
   "order": [
     "4f1480d0-e188-4c1b-88a1-d0727494c927",
     "f4524acb-6ea0-4ff3-a182-b0c65a5479c3",
+    "e14b0826-7199-4f19-bba0-d9f03c93261c",
     "1662738554a4ae067d",
     "banner",
     "48e1d4c7-dcb9-4432-98d1-302de97bce7c",
