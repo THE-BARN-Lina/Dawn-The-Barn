@@ -219,11 +219,10 @@
     },
     "3eec30da-cbad-43dd-a593-9939329f644b": {
       "type": "image-with-text-custom-locations",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Shantawenefarmer_8e22c600-f03a-4c39-b17f-06c3f7665ff1.jpg",
-        "heading": "Image with text",
-        "text": "text"
+        "heading": "WE ARE THE BARN",
+        "text": "COFFEE ROASTERS IN BERLIN"
       }
     }
   },
