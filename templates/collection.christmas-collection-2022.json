@@ -141,7 +141,8 @@
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-share-1"
       ],
       "custom_css": [
-        ".featured-product {margin-top: 52px; padding-bottom: 30px; padding-top: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
+        ".featured-product {margin-top: 52px; padding-bottom: 30px; padding-top: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}",
+        "@media only screen and (max-width: 600px) {.featured-product {margin-top: -3rem;}}"
       ],
       "settings": {
         "product": "christmas-coffee",
