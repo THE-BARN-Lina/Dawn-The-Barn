@@ -49,17 +49,17 @@
     {%- else -%}
       {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
     {%- endif -%}
-    <section class=" text-buttom-container">
-      {%- if section.settings.heading != blank -%}
-        <h2>
-          {{ section.settings.heading | escape }}
-        </h2>
-      {%- endif -%}
+  </section>
+  <section class=" text-buttom-container">
+    {%- if section.settings.heading != blank -%}
+      <h2>
+        {{ section.settings.heading | escape }}
+      </h2>
+    {%- endif -%}
 
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
-      {%- endif -%}
-    </section>
+    {%- if section.settings.text != blank -%}
+      <p>{{ section.settings.text | escape }}</p>
+    {%- endif -%}
   </section>
 </section>
 
