@@ -141,7 +141,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
-        ".image-with-text {padding:0px; padding-top:3rem; border-top: 2px solid #804d15; margin-top: 3rem;}"
+        ".image-with-text {padding: 0px; padding-top: 3rem; border-top: 2px solid #804d15; margin-top: 3rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Christmas_subscription_picture_1.png",
@@ -160,7 +160,7 @@
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
       "type": "feature-collection-custom",
       "custom_css": [
-        ".collection {margin-top: 52px; padding-bottom: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
+        ".collection {margin-top: 52px; padding-bottom: 25px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",
