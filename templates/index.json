@@ -141,7 +141,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
-        ".image-with-text {border-top: 2px solid #804d15; margin-top: 3rem;}"
+        ".image-with-text {padding:0px; padding-top:3rem; border-top: 2px solid #804d15; margin-top: 3rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Christmas_subscription_picture_1.png",
