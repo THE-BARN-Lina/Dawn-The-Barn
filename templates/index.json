@@ -4,7 +4,7 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection__title {text-align: center; margin-top: 3rem; font-family: \"Archivo Narrow\", sans-serif;}",
-        ".collection {margin-top: px; padding-bottom: 20px; border-bottom: 2px solid #804d15; margin-bottom:2rem;}"
+        ".collection {margin-top: px; padding-bottom: 20px; border-bottom: 2px solid #804d15; margin-bottom: 2rem;}"
       ],
       "settings": {
         "title": "BLACK FRIDAY SPECIALS",
@@ -140,7 +140,8 @@
         "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-button-1"
       ],
       "custom_css": [
-        "h2 {font-family: \"Archivo Narrow\", sans-serif;}"
+        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
+        ".image-with-text{border-top: 2px solid #804d15; margin-top:3rem;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Christmas_subscription_picture_1.png",
