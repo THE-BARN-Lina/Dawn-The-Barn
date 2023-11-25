@@ -1,71 +1,171 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+
   .image-with-text{
     display:flex;
     flex-direction:column;
     align-items:center;
-
-    padding:3rem;
     background-color: none;
+    margin-top:2rem;
   }
   .image-main-slider{
-    width:auto;
+    width:390px;
     height:390px;
   }
   .text-buttom-container{
     height:390px;
-    width:100%;
+    width:390px;
     background-color:black;
+    padding:1.6rem;
   }
-
-  @media screen and (min-width: 750px) {
-    .image-with-text{
+  .title-filter-section{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+    }
+  .title-filter-section h2{
+    margin-bottom:0px;
+  }
+  .image-with-text{
       display: flex;
       flex-direction: row;
       justify-content:center;
       align-items: flex-start;
-      background-color: white;
-
 
     }
-{%- endstyle -%}
-<section class="image-with-text">
-  <section class="section-{{ section.id }}-padding">
-    {%- if section.settings.image != blank -%}
-      <img
-        srcset="
-          {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-          {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-          {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-          {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-          {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-          {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-          {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
-        "
-        src="{{ section.settings.image | image_url: width: 1500 }}"
-        alt="{{ section.settings.image.alt | escape }}"
-        loading="lazy"
-        width=""
-        height=""
-        class="image-main-slider"
-      >
-    {%- else -%}
-      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-    {%- endif -%}
-  </section>
-  <section class=" text-buttom-container">
-    {%- if section.settings.heading != blank -%}
-      <h2>
-        {{ section.settings.heading | escape }}
-      </h2>
-    {%- endif -%}
 
-    {%- if section.settings.text != blank -%}
-      <p>{{ section.settings.text | escape }}</p>
-    {%- endif -%}
+  @media screen and (min-width: 750px) {
+    .image-with-text content{
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items: flex-start;
+
+    } }
+ 
+{%- endstyle -%}
+
+<section class="title-filter-section">
+<h2>THE BARN CAFES</h2>
+  <section class="filter-container">
+    <button class="btn tab-btn" data-target="tab-content-1"> BERLN </button>
+    <button class="btn tab-btn" data-target="tab-content-2"> SPAIN </button>
+    <button class="btn tab-btn" data-target="tab-content-3"> SOUTH KOREA </button>
+    <button class="btn tab-btn" data-target="tab-content-4"> DUBAI </button>
   </section>
 </section>
+
+<section class="content active" id="tab-content-1">
+  <section class="image-with-text">
+    <section class="section-{{ section.id }}-padding">
+      {%- if section.settings.image != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+          "
+          src="{{ section.settings.image | image_url: width: 1500 }}"
+          alt="{{ section.settings.image.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </section>
+    <section class=" text-buttom-container">
+      {%- if section.settings.heading != blank -%}
+        <h2>
+          {{ section.settings.heading | escape }}
+        </h2>
+      {%- endif -%}
+  
+      {%- if section.settings.text != blank -%}
+        <p>{{ section.settings.text | escape }}</p>
+      {%- endif -%}
+    </section>
+  </section>
+</section>
+
+<section class="content" id="tab-content-2">
+  <section class="image-with-text">
+    <section class="section-{{ section.id }}-padding">
+      {%- if section.settings.image != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+          "
+          src="{{ section.settings.image | image_url: width: 1500 }}"
+          alt="{{ section.settings.image.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </section>
+    <section class=" text-buttom-container">
+      {%- if section.settings.heading != blank -%}
+        <h2>
+          {{ section.settings.heading | escape }}
+          </h2>
+          <h1>hola</h1>
+      {%- endif -%}
+  
+      {%- if section.settings.text != blank -%}
+        <p>{{ section.settings.text | escape }}</p>
+      {%- endif -%}
+    </section>
+  </section>
+</section>
+
+
+{% javascript %} 
+
+  document.addEventListener('DOMContentLoaded', function() {
+      const tabButtons = document.querySelectorAll('.tab-btn');
+      const tabContents = document.querySelectorAll('.content');
+    
+      tabButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+          const target = this.getAttribute('data-target');
+    
+          // Hide all tab contents
+          tabContents.forEach(function(content) {
+            content.style.display = 'none';
+          });
+    
+          // Show the selected tab content
+          document.getElementById(target).style.display = 'block';
+    
+          // Remove 'active' class from all buttons and add it only to the clicked button
+          tabButtons.forEach(function(btn) {
+            btn.classList.remove('active');
+          });
+          this.classList.add('active');
+        });
+      });
+    });
+    
+   {% endjavascript %}
+
 
 {% schema %}
 {
