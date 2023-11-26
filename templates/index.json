@@ -44,7 +44,7 @@
         "efb11e79-cc3b-46a6-b5a3-4cff88a5faa6"
       ],
       "custom_css": [
-        "h1 {margin-top: -6rem;}",
+        "h1 {margin-top: -4rem;}",
         ".banner__text {font-size: 16px;}",
         ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5); font-family: \"Archivo Narrow\", sans-serif;}",
         "@media only screen and (min-width: 750px) {.banner__heading {width: 70%; }}",
