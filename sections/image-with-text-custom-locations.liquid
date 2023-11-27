@@ -94,9 +94,6 @@
       {%- endif -%}
     </section>
   </section>
-</section>
-
-<section class="content" id="tab-content-2">
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
       {%- if section.settings.image_two != blank -%}
@@ -110,7 +107,7 @@
             {%- if section.settings.image_two.width >= 1500 -%}{{ section.settings.image_two | image_url: width: 1500 }} 1500w,{%- endif -%}
             {{ section.settings.image_two | image_url }} {{ section.settings.image_two.width }}w
           "
-          src="{{ section.settings.image_two| image_url: width: 1500 }}"
+          src="{{ section.settings.image_2| image_url: width: 1500 }}"
           alt="{{ section.settings.image_two.alt | escape }}"
           loading="lazy"
           width=""
@@ -125,6 +122,45 @@
       {%- if section.settings.heading_two != blank -%}
         <h2>
           {{ section.settings.heading_two | escape }}
+        </h2>
+      {%- endif -%}
+  
+      {%- if section.settings.text != blank -%}
+        <p>{{ section.settings.text | escape }}</p>
+      {%- endif -%}
+    </section>
+  </section>
+</section>
+
+<section class="content" id="tab-content-2">
+  <section class="image-with-text">
+    <section class="section-{{ section.id }}-padding">
+      {%- if section.settings.image_mallorca != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.image_mallorca.width >= 165 -%}{{ section.settings.image_mallorca | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.image_mallorca.width >= 360 -%}{{ section.settings.image_mallorca | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.image_mallorca.width >= 535 -%}{{ section.settings.image_mallorca | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.image_mallorca.width >= 750 -%}{{ section.settings.image_mallorca | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.image_mallorca.width >= 1070 -%}{{ section.settings.image_mallorca | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.image_mallorca.width >= 1500 -%}{{ section.settings.image_mallorca | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.image_mallorca | image_url }} {{ section.settings.image_mallorca.width }}w
+          "
+          src="{{ section.settings.image_mallorca| image_url: width: 1500 }}"
+          alt="{{ section.settings.image_mallorca.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </section>
+    <section class=" text-buttom-container">
+      {%- if section.settings.heading_mallorca != blank -%}
+        <h2>
+          {{ section.settings.heading_mallorca | escape }}
           </h2>
       {%- endif -%}
   
@@ -190,6 +226,17 @@
     {
           "type": "text",
           "id": "heading_two",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+      "type": "image_picker",
+      "id": "image_mallorca",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+          "type": "text",
+          "id": "heading_mallorca",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
