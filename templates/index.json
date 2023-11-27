@@ -52,9 +52,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gradient-advent.jpg",
-        "image_2": "shopify:\/\/shop_images\/November_Special.png",
+        "image_2": "shopify:\/\/shop_images\/Sub_Special.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "transparent_block": false,
         "desktop_content_position": "middle-left",
