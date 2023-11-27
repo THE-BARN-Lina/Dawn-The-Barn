@@ -219,6 +219,7 @@
     },
     "3eec30da-cbad-43dd-a593-9939329f644b": {
       "type": "image-with-text-custom-locations",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Chemex_Berlin_3ecda66a-a5ff-493c-9313-d159c7f0441a.jpg",
         "heading": "WE ARE THE BARN",
