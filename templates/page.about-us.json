@@ -222,8 +222,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Chemex_Berlin_3ecda66a-a5ff-493c-9313-d159c7f0441a.jpg",
         "heading": "WE ARE THE BARN",
-        "image_two": "shopify:\/\/shop_images\/cafes_THE_BARN_Mallorca_1.webp",
-        "heading_two": "THE BARN MALLORCA",
+        "image_two": "shopify:\/\/shop_images\/cafes_THE_BARN_Schonhauser_Allee_4.webp",
+        "heading_two": "THE BARN SCHONHAUSER ALLE",
+        "image_mallorca": "shopify:\/\/shop_images\/cafes_THE_BARN_Mallorca_1.webp",
+        "heading_mallorca": "THE BARN MALLORCA",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
