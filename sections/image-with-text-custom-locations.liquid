@@ -33,10 +33,27 @@
       margin-bottom:2rem;
 
     }
+    .scroll-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: -16px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+    .filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    /* background-color: yellow; */
+  }
 
     .btn {
-    min-width: 125px;
-    max-width: 180px;
+    min-width: 140px;
+    
     font-size: 16px;
     padding: 1rem;
     background-color: var(--black);
@@ -71,18 +88,32 @@
     height:190px;
     width:390px;
   }
+  .scroll-container {
+      flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
+    }
+    .filter-container {
+      justify-content: flex-start; /* Align items to the start (left) */
+      padding-right:0.5rem;
+    }
+   
+    .filter-container {
+      margin-left: 1rem;
+      margin-right: 1.5rem;
+    }
   }
  
 {%- endstyle -%}
 
 <section class="title-filter-section">
 <h1>THE BARN CAFES</h1>
+<div class="scroll-container">
   <section class="filter-container">
     <button class="btn tab-btn" data-target="tab-content-1"> BERLN </button>
     <button class="btn tab-btn" data-target="tab-content-2"> SPAIN </button>
     <button class="btn tab-btn" data-target="tab-content-3"> SOUTH KOREA </button>
     <button class="btn tab-btn" data-target="tab-content-4"> DUBAI </button>
   </section>
+</div>
 </section>
 
 <section class="content active" id="tab-content-1">
