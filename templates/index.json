@@ -91,7 +91,7 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_tastenotes": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "1",
