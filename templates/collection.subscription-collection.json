@@ -3,6 +3,7 @@
   "sections": {
     "61526f59-c5c6-4ec0-b13e-f55767a96db1": {
       "type": "subscription-image",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0
@@ -217,7 +218,7 @@
       ],
       "custom_css": [
         ".collection-list-wrapper {padding: 0px; padding-top: 6rem;}",
-        ".title-wrapper-with-link{display: flex; flex-direction: column; align-items: center;}"
+        ".title-wrapper-with-link {display: flex; flex-direction: column; align-items: center;}"
       ],
       "settings": {
         "title": "DISCOVER MORE",
