@@ -427,24 +427,21 @@
       {%- endif -%}
     </section>
   </section>
-</section>
-
-<section class="content" id="tab-content-2">
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.image_mallorca != blank -%}
+      {%- if section.settings.ROASTERY_IMAGE != blank -%}
         <img
           srcset="
-            {%- if section.settings.image_mallorca.width >= 165 -%}{{ section.settings.image_mallorca | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.image_mallorca.width >= 360 -%}{{ section.settings.image_mallorca | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.image_mallorca.width >= 535 -%}{{ section.settings.image_mallorca | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.image_mallorca.width >= 750 -%}{{ section.settings.image_mallorca | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.image_mallorca.width >= 1070 -%}{{ section.settings.image_mallorca | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.image_mallorca.width >= 1500 -%}{{ section.settings.image_mallorca | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.image_mallorca | image_url }} {{ section.settings.image_mallorca.width }}w
+            {%- if section.settings.ROASTERY_IMAGE.width >= 165 -%}{{ section.settings.ROASTERY_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.ROASTERY_IMAGE.width >= 360 -%}{{ section.settings.ROASTERY_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.ROASTERY_IMAGE.width >= 535 -%}{{ section.settings.ROASTERY_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.ROASTERY_IMAGE.width >= 750 -%}{{ section.settings.ROASTERY_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.ROASTERY_IMAGE.width >= 1070 -%}{{ section.settings.ROASTERY_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.ROASTERY_IMAGE.width >= 1500 -%}{{ section.settings.ROASTERY_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.ROASTERY_IMAGE | image_url }} {{ section.settings.image.width }}
           "
-          src="{{ section.settings.image_mallorca| image_url: width: 1500 }}"
-          alt="{{ section.settings.image_mallorca.alt | escape }}"
+          src="{{ section.settings.ROASTERY_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.ROASTERY_IMAGE.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -455,9 +452,48 @@
       {%- endif -%}
     </section>
     <section class=" text-buttom-container">
-      {%- if section.settings.heading_mallorca != blank -%}
+      {%- if section.settings.ROASTERY_HEADING != blank -%}
         <h2>
-          {{ section.settings.heading_mallorca | escape }}
+          {{ section.settings.ROASTERY_HEADING | escape }}
+        </h2>
+      {%- endif -%}
+  
+      {%- if section.settings.text != blank -%}
+        <p>{{ section.settings.text | escape }}</p>
+      {%- endif -%}
+    </section>
+  </section>
+</section>
+
+<section class="content" id="tab-content-2">
+  <section class="image-with-text">
+    <section class="section-{{ section.id }}-padding">
+      {%- if section.settings.MALLORCA_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.MALLORCA_IMAGE.width >= 165 -%}{{ section.settings.MALLORCA_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.MALLORCA_IMAGE.width >= 360 -%}{{ section.settings.MALLORCA_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.MALLORCA_IMAGE.width >= 535 -%}{{ section.settings.MALLORCA_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.MALLORCA_IMAGE.width >= 750 -%}{{ section.settings.MALLORCA_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.MALLORCA_IMAGE.width >= 1070 -%}{{ section.settings.MALLORCA_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.MALLORCA_IMAGE.width >= 1500 -%}{{ section.settings.MALLORCA_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.MALLORCA_IMAGE | image_url }} {{ section.settings.MALLORCA_IMAGE.width }}
+          "
+          src="{{ section.settings.MALLORCA_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.MALLORCA_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </section>
+    <section class=" text-buttom-container">
+      {%- if section.settings.MALLORCA_HEADING != blank -%}
+        <h2>
+          {{ section.settings.MALLORCA_HEADING | escape }}
           </h2>
       {%- endif -%}
   
@@ -615,7 +651,17 @@
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
-    
+        {
+      "type": "image_picker",
+      "id": "ROASTERY_IMAGE",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+          "type": "text",
+          "id": "ROASTERY_HEADING",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
         {
       "type": "image_picker",
       "id": "MALLORCA_IMAGE",
