@@ -1,9 +1,6 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-
-
-
   .image-main-slider{
     width:390px;
     height:390px;
@@ -101,6 +98,27 @@
       margin-right: 1.5rem;
     }
   }
+
+
+
+
+  .slider-container img {
+  width: 100%;
+  display: none;
+}
+
+.slider-container img.active {
+  display: block;
+}
+
+.slider-buttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.slider-buttons button {
+  margin: 0 5px;
+}
  
 {%- endstyle -%}
 
@@ -117,7 +135,7 @@
 </section>
 
 <section class="content active" id="tab-content-1">
-  <section class="image-with-text">
+  <section class="image-with-text slider-container ">
     <section class="section-{{ section.id }}-padding">
       {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE != blank -%}
         <img
@@ -135,30 +153,80 @@
           loading="lazy"
           width=""
           height=""
-          class="image-main-slider"
+          class="image-main-slider slide active"
         >
       {%- else -%}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
-    </section>
+      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width }}w
+          "
+          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1| image_url: width: 1500 }}"
+          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+          style="padding:3rem"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width }}w
+          "
+          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+          style="border: 16px solid red;"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      <div class="slider-buttons">
+        <button onclick="prevSlide()">Prev</button>
+        <button onclick="nextSlide()">Next</button>
+      </div>
+  </section>
+  
+
     <section class=" text-buttom-container">
       {%- if section.settings.SCHONHAUSER_ALLEE_HEADING != blank -%}
         <h2>
           {{ section.settings.SCHONHAUSER_ALLEE_HEADING | escape }}
-        </h2>
-      {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
-      {%- endif -%}
-    </section>
-  </section>
-
-  <section class="image-with-text">
-    <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.MITTE_IMAGE != blank -%}
-        <img
-          srcset="
+          </h2>
+        {%- endif -%}
+        
+        {%- if section.settings.text != blank -%}
+          <p>{{ section.settings.text | escape }}</p>
+        {%- endif -%}
+        </section>
+        </section>
+        
+        <section class="image-with-text">
+          <section class="section-{{ section.id }}-padding">
+            {%- if section.settings.MITTE_IMAGE != blank -%}
+              <img
+              srcset="
             {%- if section.settings.MITTE_IMAGE.width >= 165 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
             {%- if section.settings.MITTE_IMAGE.width >= 360 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
             {%- if section.settings.MITTE_IMAGE.width >= 535 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
@@ -669,6 +737,28 @@
         });
       });
     });
+
+    
+let slideIndex = 0;
+const slides = document.querySelectorAll('.slide');
+
+function showSlide(n) {
+  slides.forEach(slide => slide.classList.remove('active'));
+  slideIndex = (n + slides.length) % slides.length;
+  slides[slideIndex].classList.add('active');
+}
+
+function nextSlide() {
+  showSlide(slideIndex + 1);
+}
+
+function prevSlide() {
+  showSlide(slideIndex - 1);
+}
+
+// Optionally, you might want to automatically cycle through the slides
+setInterval(nextSlide, 500); // Change the duration (in milliseconds) as needed
+
     
    {% endjavascript %}
 
@@ -682,6 +772,16 @@
     {
       "type": "image_picker",
       "id": "SCHONHAUSER_ALLEE_IMAGE",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "SCHONHAUSER_ALLEE_IMAGE_1",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "SCHONHAUSER_ALLEE_IMAGE_2",
       "label": "t:sections.image-with-text.settings.image.label"
     },
     {
