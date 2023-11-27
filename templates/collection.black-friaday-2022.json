@@ -7,7 +7,7 @@
         "template--17938060116235__f4433d16-93b3-422d-b4bb-ffdf56db82d4-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>BLACK FRIDAY SPECIALS <\/p>",
+            "heading": "<p>CYBER MONDAY SPECIALS <\/p>",
             "heading_size": "h1"
           }
         },
@@ -46,7 +46,7 @@
         "collection": "black-friday",
         "products_to_show": 4,
         "columns_desktop": 3,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "view_all_label": "View All",
@@ -55,7 +55,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_tastenotes": true,
+        "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
         "columns_mobile": "1",
