@@ -1,283 +1,250 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-
-  .image-main-slider{
-    width:390px;
-    height:390px;
-    object-fit:cover;
-  }
-  .text-buttom-container{
-    height:390px;
-    width:390px;
-    background-color:black;
-    padding:1.6rem;
-  }
-  .title-filter-section{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
+    .image-main-slider{
+      width:390px;
+      height:390px;
+      object-fit:cover;
     }
-  .title-filter-section h1{
-    margin-bottom:0px;
-  }
-  .image-with-text{
-      display: flex;
-      flex-direction: row;
-      justify-content:center;
-      align-items: flex-start;
-      margin-top:2rem;
-      margin-bottom:2rem;
+    .text-buttom-container{
+      height:390px;
+      width:390px;
+      background-color:black;
+      padding:1.6rem;
+    }
+    .title-filter-section{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+      }
+    .title-filter-section h1{
+      margin-bottom:0px;
+    }
+    .image-with-text{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: flex-start;
+        margin-top:2rem;
+        margin-bottom:2rem;
 
+      }
+      .scroll-container {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100px;
+      margin-bottom: -16px;
+      overflow-x: auto; /* Enable horizontal scrolling */
+    }
+      .filter-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-height: 100px;
+      overflow-x: auto; /* Enable horizontal scrolling */
+      /* background-color: yellow; */
+    }
+
+      .btn {
+      min-width: 140px;
+
+      font-size: 16px;
+      padding: 1rem;
+      background-color: var(--black);
+      border-radius: 2px;
+      color: var(--white);
+      cursor: pointer;
+      margin: 1.6rem;
+      border: 1px solid var(--white);
+    }
+
+    .btn:hover {
+      background-color: var(--white);
+      color: var(--black);
+    }
+    .btn.active {
+      border: none;
+      background-color: var(--white);
+      color: var(--black);
+      outline: 0.5px solid var(--white);
+      outline-offset: 4px;
+    }
+
+    @media screen and (max-width: 700px) {
+      .image-with-text{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+
+      }
+      .text-buttom-container{
+      height:190px;
+      width:390px;
     }
     .scroll-container {
+        flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
+      }
+      .filter-container {
+        justify-content: flex-start; /* Align items to the start (left) */
+        padding-right:0.5rem;
+      }
+
+      .filter-container {
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+      }
+    }
+
+
+
+
+
+  .slider-container {
+    position: relative;
     display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    margin-bottom: -16px;
-    overflow-x: auto; /* Enable horizontal scrolling */
-  }
-    .filter-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 100px;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    /* background-color: yellow; */
+    overflow: hidden;
+    height:390px;
   }
 
-    .btn {
-    min-width: 140px;
-    
-    font-size: 16px;
-    padding: 1rem;
-    background-color: var(--black);
-    border-radius: 2px;
-    color: var(--white);
-    cursor: pointer;
-    margin: 1.6rem;
-    border: 1px solid var(--white);
+  .slider-container img {
+    width: 390px;
+    display: none;
   }
 
-  .btn:hover {
-    background-color: var(--white);
-    color: var(--black);
+  .slider-container img.active {
+    display: block;
   }
-  .btn.active {
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
     border: none;
-    background-color: var(--white);
-    color: var(--black);
-    outline: 0.5px solid var(--white);
-    outline-offset: 4px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
   }
 
-  @media screen and (max-width: 700px) {
-    .image-with-text{
-      display: flex;
-      flex-direction: column;
-      justify-content:center;
-      align-items: center;
-
-    } 
-    .text-buttom-container{
-    height:190px;
-    width:390px;
-  }
-  .scroll-container {
-      flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
-    }
-    .filter-container {
-      justify-content: flex-start; /* Align items to the start (left) */
-      padding-right:0.5rem;
-    }
-   
-    .filter-container {
-      margin-left: 1rem;
-      margin-right: 1.5rem;
-    }
+  .prev {
+    left: 10px;
   }
 
-
-
-
-
-.slider-container {
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  height:390px;
-}
-
-.slider-container img {
-  width: 390px;
-  display: none;
-}
-
-.slider-container img.active {
-  display: block;
-}
-
-.prev,
-.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-
- 
+  .next {
+    right: 10px;
+  }
 {%- endstyle -%}
 
 <section class="title-filter-section">
-<h1>THE BARN CAFÉS</h1>
-<div class="scroll-container">
-  <section class="filter-container">
-    <button class="btn tab-btn" data-target="tab-content-1"> BERLN </button>
-    <button class="btn tab-btn" data-target="tab-content-2"> SPAIN </button>
-    <button class="btn tab-btn" data-target="tab-content-3"> SOUTH KOREA </button>
-    <button class="btn tab-btn" data-target="tab-content-4"> DUBAI </button>
-  </section>
-</div>
+  <h1>THE BARN CAFÉS</h1>
+  <div class="scroll-container">
+    <section class="filter-container">
+      <button class="btn tab-btn" data-target="tab-content-1">BERLN</button>
+      <button class="btn tab-btn" data-target="tab-content-2">SPAIN</button>
+      <button class="btn tab-btn" data-target="tab-content-3">SOUTH KOREA</button>
+      <button class="btn tab-btn" data-target="tab-content-4">DUBAI</button>
+    </section>
+  </div>
 </section>
 
 <section class="content active" id="tab-content-1">
+  <section class="image-with-text  slider-container  ">
+    <section class="section-{{ section.id }}-padding">
+      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE.width }}w
+          "
+          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide active"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width }}w
+          "
+          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1| image_url: width: 1500 }}"
+          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width }}w
+          "
+          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </section>
 
-    <section class="image-with-text  slider-container  ">
+    <div class="slider-buttons">
+      <button class="prev" onclick="prevSlide()">&#10094;</button>
+      <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
 
-      <section class="section-{{ section.id }}-padding">
-        {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE.width }}w
-            "
-            src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE| image_url: width: 1500 }}"
-            alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-main-slider slide active"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1 != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width }}w
-            "
-            src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1| image_url: width: 1500 }}"
-            alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-main-slider slide"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2 != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width }}w
-            "
-            src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-main-slider slide"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-      </section>
+    <section class=" text-buttom-container">
+      {%- if section.settings.SCHONHAUSER_ALLEE_HEADING != blank -%}
+        <h2>
+          {{ section.settings.SCHONHAUSER_ALLEE_HEADING | escape }}
+        </h2>
+      {%- endif -%}
 
-      <div class="slider-buttons">
-        <button class="prev" onclick="prevSlide()">&#10094;</button>
-        <button class="next" onclick="nextSlide()">&#10095;</button>
-      </div>
+      {%- if section.settings.text != blank -%}
+        <p>{{ section.settings.text | escape }}</p>
+      {%- endif -%}
+    </section>
+  </section>
 
+  <section class="opening"></section>
 
-
-
-
-      <section class=" text-buttom-container">
-          {%- if section.settings.SCHONHAUSER_ALLEE_HEADING != blank -%}
-            <h2>
-              {{ section.settings.SCHONHAUSER_ALLEE_HEADING | escape }}
-              </h2>
-            {%- endif -%}
-            
-            {%- if section.settings.text != blank -%}
-              <p>{{ section.settings.text | escape }}</p>
-            {%- endif -%}
-        </section>
-    
-     </section>
-
-  
-
-
-
- <section class="opening">
-
-
- </section>
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section class="image-with-text">
-          <section class="section-{{ section.id }}-padding">
-            {%- if section.settings.MITTE_IMAGE != blank -%}
-              <img
-              srcset="
+  <section class="image-with-text">
+    <section class="section-{{ section.id }}-padding">
+      {%- if section.settings.MITTE_IMAGE != blank -%}
+        <img
+          srcset="
             {%- if section.settings.MITTE_IMAGE.width >= 165 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
             {%- if section.settings.MITTE_IMAGE.width >= 360 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
             {%- if section.settings.MITTE_IMAGE.width >= 535 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
@@ -296,15 +263,7 @@
       {%- else -%}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
-  </section>
-
-
-
-
-
-
-
-
+    </section>
 
     <section class=" text-buttom-container">
       {%- if section.settings.MITTE_HEADING != blank -%}
@@ -312,7 +271,7 @@
           {{ section.settings.MITTE_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -349,7 +308,7 @@
           {{ section.settings.ROSENTHALER_PLATZ_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -386,7 +345,7 @@
           {{ section.settings.NEUKOLLN_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -423,7 +382,7 @@
           {{ section.settings.NORDBAHNHOF_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -460,7 +419,7 @@
           {{ section.settings.HACKESCHER_MARKT_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -497,7 +456,7 @@
           {{ section.settings.SONY_CENTER_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -534,7 +493,7 @@
           {{ section.settings.POTSDAMER_PLATZ_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -571,7 +530,7 @@
           {{ section.settings.CAFE_KRANZLER_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -608,7 +567,7 @@
           {{ section.settings.ANNEX_CAFE_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -645,7 +604,7 @@
           {{ section.settings.ROASTERY_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -682,9 +641,9 @@
       {%- if section.settings.MALLORCA_HEADING != blank -%}
         <h2>
           {{ section.settings.MALLORCA_HEADING | escape }}
-          </h2>
+        </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -721,9 +680,9 @@
       {%- if section.settings.SOUTH_KOREA_HEADING != blank -%}
         <h2>
           {{ section.settings.SOUTH_KOREA_HEADING | escape }}
-          </h2>
+        </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -760,9 +719,9 @@
       {%- if section.settings.DUBAI_HEADING != blank -%}
         <h2>
           {{ section.settings.DUBAI_HEADING | escape }}
-          </h2>
+        </h2>
       {%- endif -%}
-  
+
       {%- if section.settings.text != blank -%}
         <p>{{ section.settings.text | escape }}</p>
       {%- endif -%}
@@ -770,60 +729,55 @@
   </section>
 </section>
 
+{% javascript %}
+    document.addEventListener('DOMContentLoaded', function() {
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.content');
 
-{% javascript %} 
+        tabButtons.forEach(function(button) {
+          button.addEventListener('click', function() {
+            const target = this.getAttribute('data-target');
 
-  document.addEventListener('DOMContentLoaded', function() {
-      const tabButtons = document.querySelectorAll('.tab-btn');
-      const tabContents = document.querySelectorAll('.content');
-    
-      tabButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
-          const target = this.getAttribute('data-target');
-    
-          // Hide all tab contents
-          tabContents.forEach(function(content) {
-            content.style.display = 'none';
+            // Hide all tab contents
+            tabContents.forEach(function(content) {
+              content.style.display = 'none';
+            });
+
+            // Show the selected tab content
+            document.getElementById(target).style.display = 'block';
+
+            // Remove 'active' class from all buttons and add it only to the clicked button
+            tabButtons.forEach(function(btn) {
+              btn.classList.remove('active');
+            });
+            this.classList.add('active');
           });
-    
-          // Show the selected tab content
-          document.getElementById(target).style.display = 'block';
-    
-          // Remove 'active' class from all buttons and add it only to the clicked button
-          tabButtons.forEach(function(btn) {
-            btn.classList.remove('active');
-          });
-          this.classList.add('active');
         });
       });
-    });
-
-    
-let slideIndex = 0;
-const slides = document.querySelectorAll('.slide');
-
-function showSlide(n) {
-  slides.forEach(slide => slide.classList.remove('active'));
-  slideIndex = (n + slides.length) % slides.length;
-  slides[slideIndex].classList.add('active');
-}
-
-function nextSlide() {
-  showSlide(slideIndex + 1);
-}
-
-function prevSlide() {
-  showSlide(slideIndex - 1);
-}
-
-// Optionally, you might want to automatically cycle through the slides
-setInterval(nextSlide, 5000); // Change the duration (in milliseconds) as needed
-
-    
-   {% endjavascript %}
 
 
-   {% schema %}
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.slide');
+
+  function showSlide(n) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    slideIndex = (n + slides.length) % slides.length;
+    slides[slideIndex].classList.add('active');
+  }
+
+  function nextSlide() {
+    showSlide(slideIndex + 1);
+  }
+
+  function prevSlide() {
+    showSlide(slideIndex - 1);
+  }
+
+  // Optionally, you might want to automatically cycle through the slides
+  //setInterval(nextSlide, 5000); // Change the duration (in milliseconds) as needed
+{% endjavascript %}
+
+{% schema %}
 {
   "name": "t:sections.image-with-text.name",
   "class": "section",
