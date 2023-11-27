@@ -99,19 +99,19 @@
 <section class="content" id="tab-content-2">
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.image != blank -%}
+      {%- if section.settings.image_two != blank -%}
         <img
           srcset="
-            {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+            {%- if section.settings.image_two.width >= 165 -%}{{ section.settings.image_two | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.image_two.width >= 360 -%}{{ section.settings.image_two | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.image_two.width >= 535 -%}{{ section.settings.image_two | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.image_two.width >= 750 -%}{{ section.settings.image_two | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.image_two.width >= 1070 -%}{{ section.settings.image_two | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.image_two.width >= 1500 -%}{{ section.settings.image_two | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.image_two | image_url }} {{ section.settings.image_two.width }}w
           "
-          src="{{ section.settings.image | image_url: width: 1500 }}"
-          alt="{{ section.settings.image.alt | escape }}"
+          src="{{ section.settings.image_two| image_url: width: 1500 }}"
+          alt="{{ section.settings.image_two.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -175,6 +175,11 @@
     {
       "type": "image_picker",
       "id": "image",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_two",
       "label": "t:sections.image-with-text.settings.image.label"
     },
     {
