@@ -28,8 +28,8 @@
         "efb11e79-cc3b-46a6-b5a3-4cff88a5faa6": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "EXPLORE SUBSCRIPTIONS",
-            "button_link_1": "shopify:\/\/products\/triple-box-ethiopia",
+            "button_label_1": "SUBSCRIBE NOW",
+            "button_link_1": "shopify:\/\/collections\/coffee-subscription",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
