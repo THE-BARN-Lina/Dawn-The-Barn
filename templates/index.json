@@ -14,21 +14,21 @@
         "73a803f4-d66f-4128-a531-ce547d494336": {
           "type": "heading",
           "settings": {
-            "heading": "ETHIOPIA TRIPLE BOX",
+            "heading": "NOVEMBER SPECIAL",
             "heading_size": "h0"
           }
         },
         "a3b29786-8006-47d8-be72-425e71db225b": {
           "type": "text",
           "settings": {
-            "text": "THREE DIFFERENT PROCESSING STYLES",
+            "text": "GET 20% OFF YOUR FIRST 3 SUBSCRIPTION ORDERS",
             "text_style": "body"
           }
         },
         "efb11e79-cc3b-46a6-b5a3-4cff88a5faa6": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "CYBER SPECIAL",
+            "button_label_1": "EXPLORE SUBSCRIPTIONS",
             "button_link_1": "shopify:\/\/products\/triple-box-ethiopia",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -52,7 +52,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gradient-advent.jpg",
-        "image_2": "shopify:\/\/shop_images\/Cyber_Weekend_Special.png",
+        "image_2": "shopify:\/\/shop_images\/November_Special.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
