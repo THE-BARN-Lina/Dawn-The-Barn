@@ -122,9 +122,9 @@
       {%- endif -%}
     </section>
     <section class=" text-buttom-container">
-      {%- if section.settings.heading != blank -%}
+      {%- if section.settings.heading_two != blank -%}
         <h2>
-          {{ section.settings.heading | escape }}
+          {{ section.settings.heading_two | escape }}
           </h2>
           <h1>hola</h1>
       {%- endif -%}
@@ -178,10 +178,22 @@
       "label": "t:sections.image-with-text.settings.image.label"
     },
     {
+          "type": "text",
+          "id": "heading",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+    {
       "type": "image_picker",
       "id": "image_two",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+    {
+          "type": "text",
+          "id": "heading_two",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
     {
       "type": "select",
       "id": "height",
