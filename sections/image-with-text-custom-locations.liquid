@@ -486,6 +486,7 @@
       {%- endif -%}
     </section>
   </section>
+
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
       {%- if section.settings.ROASTERY_IMAGE != blank -%}
@@ -553,6 +554,84 @@
       {%- if section.settings.MALLORCA_HEADING != blank -%}
         <h2>
           {{ section.settings.MALLORCA_HEADING | escape }}
+          </h2>
+      {%- endif -%}
+  
+      {%- if section.settings.text != blank -%}
+        <p>{{ section.settings.text | escape }}</p>
+      {%- endif -%}
+    </section>
+  </section>
+</section>
+
+<section class="content" id="tab-content-3">
+  <section class="image-with-text">
+    <section class="section-{{ section.id }}-padding">
+      {%- if section.settings.SOUTH_KOREA_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SOUTH_KOREA_IMAGE.width >= 165 -%}{{ section.settings.SOUTH_KOREA_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_IMAGE.width >= 360 -%}{{ section.settings.SOUTH_KOREA_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_IMAGE.width >= 535 -%}{{ section.settings.SOUTH_KOREA_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_IMAGE.width >= 750 -%}{{ section.settings.SOUTH_KOREA_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_IMAGE.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_IMAGE.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SOUTH_KOREA_IMAGE | image_url }} {{ section.settings.SOUTH_KOREA_IMAGE.width }}
+          "
+          src="{{ section.settings.SOUTH_KOREA_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.SOUTH_KOREA_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </section>
+    <section class=" text-buttom-container">
+      {%- if section.settings.SOUTH_KOREA_HEADING != blank -%}
+        <h2>
+          {{ section.settings.SOUTH_KOREA_HEADING | escape }}
+          </h2>
+      {%- endif -%}
+  
+      {%- if section.settings.text != blank -%}
+        <p>{{ section.settings.text | escape }}</p>
+      {%- endif -%}
+    </section>
+  </section>
+</section>
+
+<section class="content" id="tab-content-4">
+  <section class="image-with-text">
+    <section class="section-{{ section.id }}-padding">
+      {%- if section.settings.DUBAI_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.DUBAI_IMAGE.width >= 165 -%}{{ section.settings.DUBAI_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.DUBAI_IMAGE.width >= 360 -%}{{ section.settings.DUBAI_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.DUBAI_IMAGE.width >= 535 -%}{{ section.settings.DUBAI_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.DUBAI_IMAGE.width >= 750 -%}{{ section.settings.DUBAI_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.DUBAI_IMAGE.width >= 1070 -%}{{ section.settings.DUBAI_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.DUBAI_IMAGE.width >= 1500 -%}{{ section.settings.DUBAI_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.DUBAI_IMAGE | image_url }} {{ section.settings.DUBAI_IMAGE.width }}
+          "
+          src="{{ section.settings.DUBAI_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.DUBAI_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </section>
+    <section class=" text-buttom-container">
+      {%- if section.settings.DUBAI_HEADING != blank -%}
+        <h2>
+          {{ section.settings.DUBAI_HEADING | escape }}
           </h2>
       {%- endif -%}
   
@@ -729,6 +808,28 @@
     {
           "type": "text",
           "id": "MALLORCA_HEADING",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+      "type": "image_picker",
+      "id": "SOUTH_KOREA_IMAGE",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+          "type": "text",
+          "id": "SOUTH_KOREA_HEADING",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+      "type": "image_picker",
+      "id": "DUBAI_IMAGE",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+          "type": "text",
+          "id": "DUBAI_HEADING",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
