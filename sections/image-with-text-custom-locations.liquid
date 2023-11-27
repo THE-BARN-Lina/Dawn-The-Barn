@@ -143,7 +143,7 @@
             {%- if section.settings.ROSENTHALER_PLATZ_IMAGE.width >= 750 -%}{{ section.settings.ROSENTHALER_PLATZ_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
             {%- if section.settings.ROSENTHALER_PLATZ_IMAGE.width >= 1070 -%}{{ section.settings.ROSENTHALER_PLATZ_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
             {%- if section.settings.ROSENTHALER_PLATZ_IMAGE.width >= 1500 -%}{{ section.settings.ROSENTHALER_PLATZ_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.ROSENTHALER_PLATZ_IMAGE | image_url }} {{ section.settings.ROSENTHALER_PLATZ_IMAGE.width }}w
+            {{ section.settings.ROSENTHALER_PLATZ_IMAGE | image_url }} {{ section.settings.ROSENTHALER_PLATZ_IMAGE.width }}
           "
           src="{{ section.settings.ROSENTHALER_PLATZ_IMAGE| image_url: width: 1500 }}"
           alt="{{ section.settings.ROSENTHALER_PLATZ_IMAGE.alt | escape }}"
@@ -171,19 +171,19 @@
 
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.image_two != blank -%}
+      {%- if section.settings.NEUKOLLN_IMAGE != blank -%}
         <img
           srcset="
-            {%- if section.settings.image_two.width >= 165 -%}{{ section.settings.image_two | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 360 -%}{{ section.settings.image_two | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 535 -%}{{ section.settings.image_two | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 750 -%}{{ section.settings.image_two | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 1070 -%}{{ section.settings.image_two | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 1500 -%}{{ section.settings.image_two | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.image_two | image_url }} {{ section.settings.image_two.width }}w
+            {%- if section.settings.NEUKOLLN_IMAGE.width >= 165 -%}{{ section.settings.NEUKOLLN_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE.width >= 360 -%}{{ section.settings.NEUKOLLN_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE.width >= 535 -%}{{ section.settings.NEUKOLLN_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE.width >= 750 -%}{{ section.settings.NEUKOLLN_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE.width >= 1070 -%}{{ section.settings.NEUKOLLN_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE.width >= 1500 -%}{{ section.settings.NEUKOLLN_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.NEUKOLLN_IMAGE | image_url }} {{ section.settings.NEUKOLLN_IMAGE.width }}
           "
           src="{{ section.settings.image_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.image_two.alt | escape }}"
+          alt="{{ section.settings.NEUKOLLN_IMAGE.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -194,9 +194,9 @@
       {%- endif -%}
     </section>
     <section class=" text-buttom-container">
-      {%- if section.settings.heading_two != blank -%}
+      {%- if section.settings.NEUKOLLN_HEADING != blank -%}
         <h2>
-          {{ section.settings.heading_two | escape }}
+          {{ section.settings.NEUKOLLN_HEADING | escape }}
         </h2>
       {%- endif -%}
   
@@ -208,19 +208,19 @@
 
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.image != blank -%}
+      {%- if section.settings.NORDBAHNHOF_IMAGE != blank -%}
         <img
           srcset="
-            {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+            {%- if section.settings.NORDBAHNHOF_IMAGE.width >= 165 -%}{{ section.settings.NORDBAHNHOF_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.NORDBAHNHOF_IMAGE.width >= 360 -%}{{ section.settings.NORDBAHNHOF_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.NORDBAHNHOF_IMAGE.width >= 535 -%}{{ section.settings.NORDBAHNHOF_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.NORDBAHNHOF_IMAGE.width >= 750 -%}{{ section.settings.NORDBAHNHOF_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.NORDBAHNHOF_IMAGE.width >= 1070 -%}{{ section.settings.NORDBAHNHOF_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.NORDBAHNHOF_IMAGE.width >= 1500 -%}{{ section.settings.NORDBAHNHOF_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.NORDBAHNHOF_IMAGE | image_url }} {{ section.settings.NORDBAHNHOF_IMAGE.width }}
           "
-          src="{{ section.settings.image | image_url: width: 1500 }}"
-          alt="{{ section.settings.image.alt | escape }}"
+          src="{{ section.settings.NORDBAHNHOF_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.NORDBAHNHOF_IMAGE.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -231,9 +231,9 @@
       {%- endif -%}
     </section>
     <section class=" text-buttom-container">
-      {%- if section.settings.heading != blank -%}
+      {%- if section.settings.NORDBAHNHOF_HEADING != blank -%}
         <h2>
-          {{ section.settings.heading | escape }}
+          {{ section.settings.NORDBAHNHOF_HEADING | escape }}
         </h2>
       {%- endif -%}
   
@@ -245,19 +245,19 @@
 
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.image_two != blank -%}
+      {%- if section.settings.HACKESCHER_MARKT_IMAGE != blank -%}
         <img
           srcset="
-            {%- if section.settings.image_two.width >= 165 -%}{{ section.settings.image_two | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 360 -%}{{ section.settings.image_two | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 535 -%}{{ section.settings.image_two | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 750 -%}{{ section.settings.image_two | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 1070 -%}{{ section.settings.image_two | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 1500 -%}{{ section.settings.image_two | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.image_two | image_url }} {{ section.settings.image_two.width }}w
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 165 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 360 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 535 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 750 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 1070 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 1500 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.HACKESCHER_MARKT_IMAGE | image_url }} {{ section.settings.HACKESCHER_MARKT_IMAGE.width }}
           "
-          src="{{ section.settings.image_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.image_two.alt | escape }}"
+          src="{{ section.settings.HACKESCHER_MARKT_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.HACKESCHER_MARKT_IMAGE.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -268,9 +268,9 @@
       {%- endif -%}
     </section>
     <section class=" text-buttom-container">
-      {%- if section.settings.heading_two != blank -%}
+      {%- if section.settings.HACKESCHER_MARKT_HEADING != blank -%}
         <h2>
-          {{ section.settings.heading_two | escape }}
+          {{ section.settings.HACKESCHER_MARKT_HEADING | escape }}
         </h2>
       {%- endif -%}
   
@@ -282,19 +282,19 @@
 
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.image != blank -%}
+      {%- if section.settings.SONY_CENTER_IMAGE != blank -%}
         <img
           srcset="
-            {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+            {%- if section.settings.SONY_CENTER_IMAGE.width >= 165 -%}{{ section.settings.SONY_CENTER_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SONY_CENTER_IMAGE.width >= 360 -%}{{ section.settings.SONY_CENTER_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SONY_CENTER_IMAGE.width >= 535 -%}{{ section.settings.SONY_CENTER_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SONY_CENTER_IMAGE.width >= 750 -%}{{ section.settings.SONY_CENTER_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SONY_CENTER_IMAGE.width >= 1070 -%}{{ section.settings.SONY_CENTER_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SONY_CENTER_IMAGE.width >= 1500 -%}{{ section.settings.SONY_CENTER_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SONY_CENTER_IMAGE | image_url }} {{ section.settings.SONY_CENTER_IMAGE.width }}
           "
-          src="{{ section.settings.image | image_url: width: 1500 }}"
-          alt="{{ section.settings.image.alt | escape }}"
+          src="{{ section.settings.SONY_CENTER_IMAGE | image_url: width: 1500 }}"
+          alt="{{ section.settings.SONY_CENTER_IMAGE.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -305,9 +305,9 @@
       {%- endif -%}
     </section>
     <section class=" text-buttom-container">
-      {%- if section.settings.heading != blank -%}
+      {%- if section.settings.SONY_CENTER_HEADING != blank -%}
         <h2>
-          {{ section.settings.heading | escape }}
+          {{ section.settings.SONY_CENTER_HEADING | escape }}
         </h2>
       {%- endif -%}
   
@@ -319,19 +319,19 @@
 
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.image_two != blank -%}
+      {%- if section.settings.POTSDAMER_PLATZ_IMAGE != blank -%}
         <img
           srcset="
-            {%- if section.settings.image_two.width >= 165 -%}{{ section.settings.image_two | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 360 -%}{{ section.settings.image_two | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 535 -%}{{ section.settings.image_two | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 750 -%}{{ section.settings.image_two | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 1070 -%}{{ section.settings.image_two | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 1500 -%}{{ section.settings.image_two | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.image_two | image_url }} {{ section.settings.image_two.width }}w
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 165 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 360 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 535 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE.width }}w
           "
-          src="{{ section.settings.image_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.image_two.alt | escape }}"
+          src="{{ section.settings.POTSDAMER_PLATZ_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -342,9 +342,9 @@
       {%- endif -%}
     </section>
     <section class=" text-buttom-container">
-      {%- if section.settings.heading_two != blank -%}
+      {%- if section.settings.POTSDAMER_PLATZ_HEADING != blank -%}
         <h2>
-          {{ section.settings.heading_two | escape }}
+          {{ section.settings.POTSDAMER_PLATZ_HEADING | escape }}
         </h2>
       {%- endif -%}
   
@@ -356,19 +356,19 @@
 
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.image_two != blank -%}
+      {%- if section.settings.CAFE_KRANZLER_IMAGE != blank -%}
         <img
           srcset="
-            {%- if section.settings.image_two.width >= 165 -%}{{ section.settings.image_two | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 360 -%}{{ section.settings.image_two | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 535 -%}{{ section.settings.image_two | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 750 -%}{{ section.settings.image_two | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 1070 -%}{{ section.settings.image_two | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.image_two.width >= 1500 -%}{{ section.settings.image_two | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.image_two | image_url }} {{ section.settings.image_two.width }}w
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 165 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 360 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 535 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 750 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 1070 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 1500 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.CAFE_KRANZLER_IMAGE | image_url }} {{ section.settings.CAFE_KRANZLER_IMAGE.width }}
           "
-          src="{{ section.settings.image_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.image_two.alt | escape }}"
+          src="{{ section.settings.CAFE_KRANZLER_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.CAFE_KRANZLER_IMAGE.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -379,9 +379,9 @@
       {%- endif -%}
     </section>
     <section class=" text-buttom-container">
-      {%- if section.settings.heading_two != blank -%}
+      {%- if section.settings.CAFE_KRANZLER_HEADING != blank -%}
         <h2>
-          {{ section.settings.heading_two | escape }}
+          {{ section.settings.CAFE_KRANZLER_HEADING | escape }}
         </h2>
       {%- endif -%}
   
@@ -393,19 +393,19 @@
 
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding">
-      {%- if section.settings.image != blank -%}
+      {%- if section.settings.ANNEX_CAFE_IMAGE != blank -%}
         <img
           srcset="
-            {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+            {%- if section.settings.ANNEX_CAFE_IMAGE.width >= 165 -%}{{ section.settings.ANNEX_CAFE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.ANNEX_CAFE_IMAGE.width >= 360 -%}{{ section.settings.ANNEX_CAFE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.ANNEX_CAFE_IMAGE.width >= 535 -%}{{ section.settings.ANNEX_CAFE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.ANNEX_CAFE_IMAGE.width >= 750 -%}{{ section.settings.ANNEX_CAFE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.ANNEX_CAFE_IMAGE.width >= 1070 -%}{{ section.settings.ANNEX_CAFE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.ANNEX_CAFE_IMAGE.width >= 1500 -%}{{ section.settings.ANNEX_CAFE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.ANNEX_CAFE_IMAGE | image_url }} {{ section.settings.image.width }}
           "
-          src="{{ section.settings.image | image_url: width: 1500 }}"
-          alt="{{ section.settings.image.alt | escape }}"
+          src="{{ section.settings.ANNEX_CAFE_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.ANNEX_CAFE_IMAGE.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -416,9 +416,9 @@
       {%- endif -%}
     </section>
     <section class=" text-buttom-container">
-      {%- if section.settings.heading != blank -%}
+      {%- if section.settings.ANNEX_CAFE_HEADING != blank -%}
         <h2>
-          {{ section.settings.heading | escape }}
+          {{ section.settings.ANNEX_CAFE_HEADING | escape }}
         </h2>
       {%- endif -%}
   
