@@ -21,7 +21,7 @@
       align-items:center;
       justify-content:center;
     }
-  .title-filter-section h2{
+  .title-filter-section h1{
     margin-bottom:0px;
   }
   .image-with-text{
@@ -30,8 +30,34 @@
       justify-content:center;
       align-items: flex-start;
       margin-top:2rem;
+      margin-bottom:2rem;
 
     }
+
+    .btn {
+    min-width: 125px;
+    max-width: 180px;
+    font-size: 16px;
+    padding: 1rem;
+    background-color: var(--black);
+    border-radius: 2px;
+    color: var(--white);
+    cursor: pointer;
+    margin: 1.6rem;
+    border: 1px solid var(--white);
+  }
+
+  .btn:hover {
+    background-color: var(--white);
+    color: var(--black);
+  }
+  .btn.active {
+    border: none;
+    background-color: var(--white);
+    color: var(--black);
+    outline: 0.5px solid var(--white);
+    outline-offset: 4px;
+  }
 
   @media screen and (max-width: 700px) {
     .image-with-text{
@@ -50,7 +76,7 @@
 {%- endstyle -%}
 
 <section class="title-filter-section">
-<h2>THE BARN CAFES</h2>
+<h1>THE BARN CAFES</h1>
   <section class="filter-container">
     <button class="btn tab-btn" data-target="tab-content-1"> BERLN </button>
     <button class="btn tab-btn" data-target="tab-content-2"> SPAIN </button>
