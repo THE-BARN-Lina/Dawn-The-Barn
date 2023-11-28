@@ -240,6 +240,14 @@
           {%- if section.settings.SCHONHAUSER_ALLEE_ADDRESS != blank -%}
             <p>{{ section.settings.SCHONHAUSER_ALLEE_ADDRESS | escape }}</p>
           {%- endif -%}
+          {%- if section.settings.SCHONHAUSER_ALLEE_OPENING != blank -%}
+            <p>{{ section.settings.SCHONHAUSER_ALLEE_OPENING | escape }}</p>
+          {%- endif -%}
+          {%- if block.settings.SCHONHAUSER_ALLEE_BUTTON != blank -%}
+          <a>
+            {{ block.settings.SCHONHAUSER_ALLEE_BUTTON | escape }}
+          </a>
+        {%- endif -%}
       </section>
   
     </section>
@@ -820,6 +828,17 @@
           "id": "SCHONHAUSER_ALLEE_ADDRESS",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "SCHONHAUSER_ALLEE_OPENING",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "url",
+          "id": "SCHONHAUSER_ALLEE_BUTTON",
+          "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
         },
     {
       "type": "image_picker",
