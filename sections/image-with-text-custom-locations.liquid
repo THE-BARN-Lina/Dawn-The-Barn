@@ -257,7 +257,7 @@
     </section>
 
 
-      <section class="image-with-text">
+  <section class="image-with-text">
         <section class="section-{{ section.id }}-padding">
           {%- if section.settings.MITTE_IMAGE != blank -%}
             <img
@@ -330,15 +330,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.ROSENTHALER_PLATZ_HEADING != blank -%}
         <h2>
           {{ section.settings.ROSENTHALER_PLATZ_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.ROSENTHALER_PLATZ_ADDRESS != blank -%}
+          <p>{{ section.settings.ROSENTHALER_PLATZ_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.ROSENTHALER_PLATZ_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.ROSENTHALER_PLATZ_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.ROSENTHALER_PLATZ_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.ROSENTHALER_PLATZ_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -913,6 +925,24 @@
           "id": "ROSENTHALER_PLATZ_HEADING",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "ROSENTHALER_PLATZ_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "ROSENTHALER_PLATZ_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "ROSENTHALER_PLATZ_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
     {
       "type": "image_picker",
