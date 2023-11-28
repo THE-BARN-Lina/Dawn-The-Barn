@@ -245,7 +245,7 @@
           {%- endif -%}
           {%- if section.settings.SCHONHAUSER_ALLEE_LINK != blank -%}
           <h2 class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-            {{ block.settings.heading | replace: 'p>', 'span>' }}
+            {{ section.settings.SCHONHAUSER_ALLEE_LINK | replace: 'p>', 'span>' }}
           </h2>
         {%- endif -%}
 
