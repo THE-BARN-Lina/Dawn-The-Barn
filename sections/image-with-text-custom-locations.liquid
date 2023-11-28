@@ -155,6 +155,7 @@
 </section>
 
 <section class="content active" id="tab-content-1">
+
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding slider-container">
       {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE != blank -%}
@@ -236,8 +237,8 @@
             </h2>
           {%- endif -%}
           
-          {%- if section.settings.text != blank -%}
-            <p>{{ section.settings.text | escape }}</p>
+          {%- if section.settings.SCHONHAUSER_ALLEE_ADDRESS != blank -%}
+            <p>{{ section.settings.SCHONHAUSER_ALLEE_ADDRESS | escape }}</p>
           {%- endif -%}
       </section>
   
@@ -811,6 +812,12 @@
     {
           "type": "text",
           "id": "SCHONHAUSER_ALLEE_HEADING",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "SCHONHAUSER_ALLEE_ADDRESS",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
