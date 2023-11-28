@@ -156,6 +156,7 @@
 
 <section class="content active" id="tab-content-1">
 
+  
   <section class="image-with-text">
     <section class="section-{{ section.id }}-padding slider-container">
       {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE != blank -%}
@@ -253,11 +254,10 @@
           </p>
         {%- endif -%}
       </section>
-  
-    </section>
-
+  </section>
 
   <section class="image-with-text">
+
         <section class="section-{{ section.id }}-padding">
           {%- if section.settings.MITTE_IMAGE != blank -%}
             <img
@@ -379,15 +379,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.NEUKOLLN_HEADING != blank -%}
         <h2>
           {{ section.settings.NEUKOLLN_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.NEUKOLLN_ADDRESS != blank -%}
+          <p>{{ section.settings.NEUKOLLN_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.NEUKOLLN_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.NEUKOLLN_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.NEUKOLLN_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.NEUKOLLN_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -416,15 +428,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.NORDBAHNHOF_HEADING != blank -%}
         <h2>
           {{ section.settings.NORDBAHNHOF_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.NORDBAHNHOF_ADDRESS != blank -%}
+          <p>{{ section.settings.NORDBAHNHOF_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.NORDBAHNHOF_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.NORDBAHNHOF_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.NORDBAHNHOF_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.NORDBAHNHOF_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -453,15 +477,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.HACKESCHER_MARKT_HEADING != blank -%}
         <h2>
           {{ section.settings.HACKESCHER_MARKT_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.HACKESCHER_MARKT_ADDRESS != blank -%}
+          <p>{{ section.settings.HACKESCHER_MARKT_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.HACKESCHER_MARKT_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.HACKESCHER_MARKT_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.HACKESCHER_MARKT_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.HACKESCHER_MARKT_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -490,15 +526,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.SONY_CENTER_HEADING != blank -%}
         <h2>
           {{ section.settings.SONY_CENTER_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.SONY_CENTER_ADDRESS != blank -%}
+          <p>{{ section.settings.SONY_CENTER_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.SONY_CENTER_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.SONY_CENTER_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.SONY_CENTER_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.SONY_CENTER_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -527,15 +575,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.POTSDAMER_PLATZ_HEADING != blank -%}
         <h2>
           {{ section.settings.POTSDAMER_PLATZ_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.POTSDAMER_PLATZ_ADDRESS != blank -%}
+          <p>{{ section.settings.POTSDAMER_PLATZ_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.POTSDAMER_PLATZ_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.POTSDAMER_PLATZ_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.POTSDAMER_PLATZ_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.POTSDAMER_PLATZ_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -564,15 +624,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.CAFE_KRANZLER_HEADING != blank -%}
         <h2>
           {{ section.settings.CAFE_KRANZLER_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.CAFE_KRANZLER_ADDRESS != blank -%}
+          <p>{{ section.settings.CAFE_KRANZLER_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.CAFE_KRANZLER_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.CAFE_KRANZLER_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.CAFE_KRANZLER_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.CAFE_KRANZLER_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -601,15 +673,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.ANNEX_CAFE_HEADING != blank -%}
         <h2>
           {{ section.settings.ANNEX_CAFE_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.ANNEX_CAFE_ADDRESS != blank -%}
+          <p>{{ section.settings.ANNEX_CAFE_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.ANNEX_CAFE_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.ANNEX_CAFE_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.ANNEX_CAFE_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.ANNEX_CAFE_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -638,15 +722,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.ROASTERY_HEADING != blank -%}
         <h2>
           {{ section.settings.ROASTERY_HEADING | escape }}
         </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.ROASTERY_ADDRESS != blank -%}
+          <p>{{ section.settings.ROASTERY_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.ROASTERY_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.ROASTERY_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.ROASTERY_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.ROASTERY_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -677,15 +773,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.MALLORCA_HEADING != blank -%}
         <h2>
           {{ section.settings.MALLORCA_HEADING | escape }}
-          </h2>
+        </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.MALLORCA_ADDRESS != blank -%}
+          <p>{{ section.settings.MALLORCA_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.MALLORCA_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.MALLORCA_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.MALLORCA_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.MALLORCA_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -716,15 +824,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.SOUTH_KOREA_HEADING != blank -%}
         <h2>
           {{ section.settings.SOUTH_KOREA_HEADING | escape }}
-          </h2>
+        </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.SOUTH_KOREA_ADDRESS != blank -%}
+          <p>{{ section.settings.SOUTH_KOREA_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.SOUTH_KOREA_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.SOUTH_KOREA_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.SOUTH_KOREA_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.SOUTH_KOREA_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -755,15 +875,27 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
     </section>
-    <section class=" text-buttom-container">
+    <section class="text-buttom-container">
       {%- if section.settings.DUBAI_HEADING != blank -%}
         <h2>
           {{ section.settings.DUBAI_HEADING | escape }}
-          </h2>
+        </h2>
       {%- endif -%}
-  
-      {%- if section.settings.text != blank -%}
-        <p>{{ section.settings.text | escape }}</p>
+        
+      {%- if section.settings.DUBAI_ADDRESS != blank -%}
+          <p>{{ section.settings.DUBAI_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.DUBAI_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.DUBAI_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.DUBAI_LINK != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.DUBAI_LINK | replace: 'p>', 'span>' }}
+        </p>
       {%- endif -%}
     </section>
   </section>
@@ -956,6 +1088,28 @@
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
+          "type": "text",
+          "id": "NEUKOLLN_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "NEUKOLLN_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "NEUKOLLN_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+
+
+
+
+        {
       "type": "image_picker",
       "id": "NORDBAHNHOF_IMAGE",
       "label": "t:sections.image-with-text.settings.image.label"
@@ -965,6 +1119,24 @@
           "id": "NORDBAHNHOF_HEADING",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "NORDBAHNHOF_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "NORDBAHNHOF_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "NORDBAHNHOF_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
         {
       "type": "image_picker",
@@ -978,6 +1150,24 @@
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
+          "type": "text",
+          "id": "HACKESCHER_MARKT_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "HACKESCHER_MARKT_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "HACKESCHER_MARKT_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
       "type": "image_picker",
       "id": "SONY_CENTER_IMAGE",
       "label": "t:sections.image-with-text.settings.image.label"
@@ -987,6 +1177,24 @@
           "id": "SONY_CENTER_HEADING",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "SONY_CENTER_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "SONY_CENTER_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "SONY_CENTER_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
         {
       "type": "image_picker",
@@ -1000,6 +1208,24 @@
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
+          "type": "text",
+          "id": "POTSDAMER_PLATZ_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "POTSDAMER_PLATZ_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "POTSDAMER_PLATZ_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
       "type": "image_picker",
       "id": "CAFE_KRANZLER_IMAGE",
       "label": "t:sections.image-with-text.settings.image.label"
@@ -1009,6 +1235,24 @@
           "id": "CAFE_KRANZLER_HEADING",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "CAFE_KRANZLER_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "CAFE_KRANZLER_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "CAFE_KRANZLER_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
         {
       "type": "image_picker",
@@ -1022,6 +1266,24 @@
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
+          "type": "text",
+          "id": "ANNEX_CAFE_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "ANNEX_CAFE_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "ANNEX_CAFE_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
       "type": "image_picker",
       "id": "ROASTERY_IMAGE",
       "label": "t:sections.image-with-text.settings.image.label"
@@ -1031,6 +1293,24 @@
           "id": "ROASTERY_HEADING",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "ROASTERY_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "ROASTERY_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "ROASTERY_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
         {
       "type": "image_picker",
@@ -1044,6 +1324,24 @@
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
+          "type": "text",
+          "id": "MALLORCA_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "MALLORCA_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "MALLORCA_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
       "type": "image_picker",
       "id": "SOUTH_KOREA_IMAGE",
       "label": "t:sections.image-with-text.settings.image.label"
@@ -1055,6 +1353,24 @@
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
+          "type": "text",
+          "id": "SOUTH_KOREA_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "SOUTH_KOREA_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "SOUTH_KOREA_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
       "type": "image_picker",
       "id": "DUBAI_IMAGE",
       "label": "t:sections.image-with-text.settings.image.label"
@@ -1064,6 +1380,24 @@
           "id": "DUBAI_HEADING",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "DUBAI_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "DUBAI_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "DUBAI_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
     {
       "type": "select",
