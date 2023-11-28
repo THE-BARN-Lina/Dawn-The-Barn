@@ -240,9 +240,18 @@
           {%- if section.settings.SCHONHAUSER_ALLEE_ADDRESS != blank -%}
             <p>{{ section.settings.SCHONHAUSER_ALLEE_ADDRESS | escape }}</p>
           {%- endif -%}
+
+
           {%- if section.settings.SCHONHAUSER_ALLEE_OPENING != blank -%}
-            <p>{{ section.settings.SCHONHAUSER_ALLEE_OPENING | escape }}</p>
+            
+            <h2 class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              {{ section.settings.SCHONHAUSER_ALLEE_OPENING | replace: 'p>', 'span>' }}
+            </h2>
+
           {%- endif -%}
+
+
+
           {%- if section.settings.SCHONHAUSER_ALLEE_LINK != blank -%}
           <h2 class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
             {{ section.settings.SCHONHAUSER_ALLEE_LINK | replace: 'p>', 'span>' }}
