@@ -227,8 +227,8 @@
 
 
         <div class="slider-buttons">
-          <button class="prev" onclick="prevSlide()">&#10094;</button>
-          <button class="next" onclick="nextSlide()">&#10095;</button>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
         </div>
       </section>
 
@@ -800,28 +800,31 @@
       });
     });
 
-    
-let slideIndex = 0;
-const slides = document.querySelectorAll('.slide');
+    document.addEventListener('DOMContentLoaded', function() {
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.slide');
 
-function showSlide(n) {
-  slides.forEach(slide => slide.classList.remove('active'));
-  slideIndex = (n + slides.length) % slides.length;
-  slides[slideIndex].classList.add('active');
-}
+  function showSlide(n) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    slideIndex = (n + slides.length) % slides.length;
+    slides[slideIndex].classList.add('active');
+  }
 
-function nextSlide() {
-  showSlide(slideIndex + 1);
-}
+  function nextSlide() {
+    showSlide(slideIndex + 1);
+  }
 
-function prevSlide() {
-  showSlide(slideIndex - 1);
-}
+  function prevSlide() {
+    showSlide(slideIndex - 1);
+  }
 
-// Optionally, you might want to automatically cycle through the slides
-//setInterval(nextSlide, 5000); // Change the duration (in milliseconds) as needed
+  document.querySelector('.next').addEventListener('click', nextSlide);
+  document.querySelector('.prev').addEventListener('click', prevSlide);
 
-    
+  // Optionally, you might want to automatically cycle through the slides
+  //setInterval(nextSlide, 1000); // Change the duration (in milliseconds) as needed
+});
+
    {% endjavascript %}
 
 
