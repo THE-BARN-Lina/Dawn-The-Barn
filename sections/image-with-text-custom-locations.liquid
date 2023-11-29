@@ -280,19 +280,19 @@
           {%- else -%}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {%- endif -%}
-          {%- if section.settings.MITTE_IMAGE != blank -%}
+          {%- if section.settings.MITTE_IMAGE_1 != blank -%}
             <img
             srcset="
-          {%- if section.settings.MITTE_IMAGE.width >= 165 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE.width >= 360 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE.width >= 535 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE.width >= 750 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE.width >= 1070 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE.width >= 1500 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-          {{ section.settings.MITTE_IMAGE | image_url }} {{ section.settings.MITTE_IMAGE.width }}
+          {%- if section.settings.MITTE_IMAGE_1.width >= 165 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+          {%- if section.settings.MITTE_IMAGE_1.width >= 360 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+          {%- if section.settings.MITTE_IMAGE_1.width >= 535 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+          {%- if section.settings.MITTE_IMAGE_1.width >= 750 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+          {%- if section.settings.MITTE_IMAGE_1.width >= 1070 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+          {%- if section.settings.MITTE_IMAGE_1.width >= 1500 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+          {{ section.settings.MITTE_IMAGE_1 | image_url }} {{ section.settings.MITTE_IMAGE_1.width }}
           "
           src="{{ section.settings.image_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.MITTE_IMAGE.alt | escape }}"
+          alt="{{ section.settings.MITTE_IMAGE_1.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -301,19 +301,19 @@
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
-        {%- if section.settings.MITTE_IMAGE != blank -%}
+        {%- if section.settings.MITTE_IMAGE_2 != blank -%}
           <img
           srcset="
-        {%- if section.settings.MITTE_IMAGE.width >= 165 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE.width >= 360 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE.width >= 535 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE.width >= 750 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE.width >= 1070 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE.width >= 1500 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-        {{ section.settings.MITTE_IMAGE | image_url }} {{ section.settings.MITTE_IMAGE.width }}
+        {%- if section.settings.MITTE_IMAGE_2.width >= 165 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE_2.width >= 360 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE_2.width >= 535 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE_2.width >= 750 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE_2.width >= 1070 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE_2.width >= 1500 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+        {{ section.settings.MITTE_IMAGE_2 | image_url }} {{ section.settings.MITTE_IMAGE_2.width }}
       "
       src="{{ section.settings.image_2| image_url: width: 1500 }}"
-      alt="{{ section.settings.MITTE_IMAGE.alt | escape }}"
+      alt="{{ section.settings.MITTE_IMAGE_2.alt | escape }}"
       loading="lazy"
       width=""
       height=""
@@ -1060,17 +1060,19 @@
           "default": "<p>link your location</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
-        
-        
-
-
-
-
-
-        
         {
       "type": "image_picker",
       "id": "MITTE_IMAGE",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "MITTE_IMAGE_1",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "MITTE_IMAGE_2",
       "label": "t:sections.image-with-text.settings.image.label"
     },
     {
