@@ -53,6 +53,7 @@
     },
     "1625939a-6289-4eb8-954a-461799ae0191": {
       "type": "image-with-text-custom-locations",
+      "disabled": true,
       "settings": {
         "SCHONHAUSER_ALLEE_IMAGE": "shopify:\/\/shop_images\/cafes_THE_BARN_Schonhauser_Allee_4.jpg",
         "SCHONHAUSER_ALLEE_IMAGE_1": "shopify:\/\/shop_images\/cafes_THE_BARN_Schonhauser_Allee_3.webp",
@@ -159,7 +160,6 @@
         "e6361139-23cb-4fc6-87da-9d8372b54ee9",
         "ee4dc44c-579f-4283-b52a-a08d73caaa39"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -201,7 +201,6 @@
         "166b456c-3976-485f-93be-c4807b71f2b4",
         "5a482a0d-d833-4ca5-8d2a-338dc86ab796"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -243,7 +242,6 @@
         "0aea1ecb-77ec-44bf-abe6-b0b4c5240509",
         "71b2213c-171f-43cd-82a9-61ad20cd5a18"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -285,7 +283,6 @@
         "05d679ff-b752-4dc9-b223-94849fbc91c5",
         "af0a4cf1-16be-4152-ade9-65239f8dc66e"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -327,7 +324,6 @@
         "26037ea5-ebdf-4184-88a7-ee6f615e7c39",
         "7ef0a667-2495-4e5c-ad4b-fdc696eb7666"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -369,7 +365,6 @@
         "a385b6dc-48d7-42ef-a167-f7765d5eed64",
         "7e35a737-caad-42c5-b642-bdcc286b41e0"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -411,7 +406,6 @@
         "94e04d52-f7da-4c0a-ac05-79d1a2292248",
         "b8026a0b-feb4-42f8-82a4-768bc5569255"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -453,7 +447,6 @@
         "0f79fa2f-d5b2-43f2-a0da-4a2e68abb708",
         "9bd4032a-0272-4b5a-96e8-a9f46c5d895d"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -495,7 +488,6 @@
         "d26086e3-c37d-4b94-9e5f-8a0c084c42e3",
         "580f8699-b8a7-4eae-b21d-ac260f1e095e"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -537,7 +529,6 @@
         "0b31c348-d5ea-491b-8001-5bc6fd6f4806",
         "6b79d5e5-393f-4c8e-9385-8c3d1502ccce"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -579,7 +570,6 @@
         "d800395a-1309-4fad-a148-41396babd7a0",
         "3e043f0a-07e0-4400-8b11-794f208f5118"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -621,7 +611,6 @@
         "b356cf48-27ed-47b5-aa22-38c939c1111a",
         "7273a828-8a43-4da3-a7ce-d2b614f4eaef"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -663,7 +652,6 @@
         "cbe4b34f-90c1-4436-9884-e8cc3584ac97",
         "5992b455-b92d-4b14-95ec-9ee4652d1f8b"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
@@ -705,7 +693,6 @@
         "f20df030-2f47-4279-8bc7-acc874ceb77c",
         "6cf1997a-57fc-4008-aa4b-df9ff2900768"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin-top: -1.8rem;}",
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
