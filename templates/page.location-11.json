@@ -627,6 +627,7 @@
     },
     "1625939a-6289-4eb8-954a-461799ae0191": {
       "type": "image-with-text-custom-locations",
+      "disabled": true,
       "settings": {
         "SCHONHAUSER_ALLEE_IMAGE": "shopify:\/\/shop_images\/cafes_THE_BARN_Schonhauser_Allee_4.jpg",
         "SCHONHAUSER_ALLEE_IMAGE_1": "shopify:\/\/shop_images\/cafes_THE_BARN_Schonhauser_Allee_3.webp",
