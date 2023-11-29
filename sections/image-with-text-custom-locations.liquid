@@ -158,7 +158,7 @@
 
   
   <section class="image-with-text">
-    <section class="section-{{ section.id }}-padding slider-container">
+    <section class="section-SCHONHAUSER_ALLEE-padding slider-container">
       {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE != blank -%}
         <img
           srcset="
@@ -258,7 +258,28 @@
 
   <section class="image-with-text">
 
-        <section class="section-{{ section.id }}-padding">
+    <section class="section-MITTE-padding slider-container">
+              {%- if section.settings.MITTE_IMAGE != blank -%}
+            <img
+              srcset="
+              {%- if section.settings.MITTE_IMAGE.width >= 165 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.MITTE_IMAGE.width >= 360 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.MITTE_IMAGE.width >= 535 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.MITTE_IMAGE.width >= 750 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.MITTE_IMAGE.width >= 1070 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.MITTE_IMAGE.width >= 1500 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.MITTE_IMAGE | image_url }} {{ section.settings.MITTE_IMAGE.width }}
+              "
+              src="{{ section.settings.image_2| image_url: width: 1500 }}"
+              alt="{{ section.settings.MITTE_IMAGE.alt | escape }}"
+              loading="lazy"
+              width=""
+              height=""
+              class="image-main-slider slide_2 active"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
           {%- if section.settings.MITTE_IMAGE != blank -%}
             <img
             srcset="
@@ -269,17 +290,43 @@
           {%- if section.settings.MITTE_IMAGE.width >= 1070 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
           {%- if section.settings.MITTE_IMAGE.width >= 1500 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
           {{ section.settings.MITTE_IMAGE | image_url }} {{ section.settings.MITTE_IMAGE.width }}
-        "
-        src="{{ section.settings.image_2| image_url: width: 1500 }}"
-        alt="{{ section.settings.MITTE_IMAGE.alt | escape }}"
-        loading="lazy"
-        width=""
-        height=""
-        class="image-main-slider"
+          "
+          src="{{ section.settings.image_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.MITTE_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide_2"
+        >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+        {%- if section.settings.MITTE_IMAGE != blank -%}
+          <img
+          srcset="
+        {%- if section.settings.MITTE_IMAGE.width >= 165 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE.width >= 360 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE.width >= 535 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE.width >= 750 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE.width >= 1070 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+        {%- if section.settings.MITTE_IMAGE.width >= 1500 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+        {{ section.settings.MITTE_IMAGE | image_url }} {{ section.settings.MITTE_IMAGE.width }}
+      "
+      src="{{ section.settings.image_2| image_url: width: 1500 }}"
+      alt="{{ section.settings.MITTE_IMAGE.alt | escape }}"
+      loading="lazy"
+      width=""
+      height=""
+      class="image-main-slider slide_2"
       >
-    {%- else -%}
+      {%- else -%}
       {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-    {%- endif -%}
+      {%- endif -%}
+
+      <div class="slider-buttons">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
     </section>
     <section class="text-buttom-container">
       {%- if section.settings.MITTE_HEADING != blank -%}
@@ -929,29 +976,38 @@
     });
 
     document.addEventListener('DOMContentLoaded', function() {
-  let slideIndex = 0;
-  const slides = document.querySelectorAll('.slide');
+  function initializeSlider(containerClass) {
+    const sliders = document.querySelectorAll(containerClass);
 
-  function showSlide(n) {
-    slides.forEach(slide => slide.classList.remove('active'));
-    slideIndex = (n + slides.length) % slides.length;
-    slides[slideIndex].classList.add('active');
+    sliders.forEach(function(slider) {
+      let slideIndex = 0;
+      const slides = slider.querySelectorAll('.slide');
+
+      function showSlide(n) {
+        slides.forEach(slide => slide.classList.remove('active'));
+        slideIndex = (n + slides.length) % slides.length;
+        slides[slideIndex].classList.add('active');
+      }
+
+      function nextSlide() {
+        showSlide(slideIndex + 1);
+      }
+
+      function prevSlide() {
+        showSlide(slideIndex - 1);
+      }
+
+      slider.querySelector('.next').addEventListener('click', nextSlide);
+      slider.querySelector('.prev').addEventListener('click', prevSlide);
+    });
   }
 
-  function nextSlide() {
-    showSlide(slideIndex + 1);
-  }
-
-  function prevSlide() {
-    showSlide(slideIndex - 1);
-  }
-
-  document.querySelector('.next').addEventListener('click', nextSlide);
-  document.querySelector('.prev').addEventListener('click', prevSlide);
-
-  // Optionally, you might want to automatically cycle through the slides
-  //setInterval(nextSlide, 1000); // Change the duration (in milliseconds) as needed
+  // Initialize sliders for different containers
+  initializeSlider('.section-SCHONHAUSER_ALLEE-padding.slider-container');
+  initializeSlider('.section-MITTE-padding.slider-container');
 });
+
+
 
    {% endjavascript %}
 
