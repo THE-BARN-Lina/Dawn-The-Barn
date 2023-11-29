@@ -449,7 +449,7 @@
   </section>
 
   <section class="image-with-text">
-    <section class="section-{{ section.id }}-padding">
+    <section class="section-NEUKOLLN-padding slider-container">
       {%- if section.settings.NEUKOLLN_IMAGE != blank -%}
         <img
           srcset="
@@ -466,11 +466,57 @@
           loading="lazy"
           width=""
           height=""
-          class="image-main-slider"
+          class="image-main-slider slide active"
         >
       {%- else -%}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
+      {%- if section.settings.NEUKOLLN_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.NEUKOLLN_IMAGE_1.width >= 165 -%}{{ section.settings.NEUKOLLN_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_1.width >= 360 -%}{{ section.settings.NEUKOLLN_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_1.width >= 535 -%}{{ section.settings.NEUKOLLN_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_1.width >= 750 -%}{{ section.settings.NEUKOLLN_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_1.width >= 1070 -%}{{ section.settings.NEUKOLLN_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_1.width >= 1500 -%}{{ section.settings.NEUKOLLN_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.NEUKOLLN_IMAGE_1 | image_url }} {{ section.settings.NEUKOLLN_IMAGE_1.width }}
+          "
+          src="{{ section.settings.image_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.NEUKOLLN_IMAGE_1.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.NEUKOLLN_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.NEUKOLLN_IMAGE_2.width >= 165 -%}{{ section.settings.NEUKOLLN_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_2.width >= 360 -%}{{ section.settings.NEUKOLLN_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_2.width >= 535 -%}{{ section.settings.NEUKOLLN_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_2.width >= 750 -%}{{ section.settings.NEUKOLLN_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_2.width >= 1070 -%}{{ section.settings.NEUKOLLN_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.NEUKOLLN_IMAGE_2.width >= 1500 -%}{{ section.settings.NEUKOLLN_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.NEUKOLLN_IMAGE_2 | image_url }} {{ section.settings.NEUKOLLN_IMAGE_2.width }}
+          "
+          src="{{ section.settings.image_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.NEUKOLLN_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      <div class="slider-buttons">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
     </section>
     <section class="text-buttom-container">
       {%- if section.settings.NEUKOLLN_HEADING != blank -%}
@@ -1051,7 +1097,8 @@
   // Initialize sliders for different containers
   initializeSlider('.section-SCHONHAUSER_ALLEE-padding.slider-container');
   initializeSlider('.section-MITTE-padding.slider-container');
-  initializeSlider('.section-ROSENTHALER_PLATZ-padding.slider-container')
+  initializeSlider('.section-ROSENTHALER_PLATZ-padding.slider-container');
+  initializeSlider('.section-NEUKOLLN-padding.slider-container');
 });
 
 
@@ -1185,11 +1232,21 @@
           "default": "<p>link your location</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
-    {
-      "type": "image_picker",
-      "id": "NEUKOLLN_IMAGE",
-      "label": "t:sections.image-with-text.settings.image.label"
-    },
+      {
+        "type": "image_picker",
+        "id": "NEUKOLLN_IMAGE",
+        "label": "t:sections.image-with-text.settings.image.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "NEUKOLLN_IMAGE_1",
+        "label": "t:sections.image-with-text.settings.image.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "NEUKOLLN_IMAGE_2",
+        "label": "t:sections.image-with-text.settings.image.label"
+      },
     {
           "type": "text",
           "id": "NEUKOLLN_HEADING",
