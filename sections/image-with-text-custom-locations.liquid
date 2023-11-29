@@ -829,7 +829,7 @@
   </section>
 
   <section class="image-with-text">
-    <section class="section-POSTDAMER_PLATZ-padding slider-container">
+    <section class="section-POTSDAMER_PLATZ-padding slider-container">
       {%- if section.settings.POTSDAMER_PLATZ_IMAGE != blank -%}
         <img
           srcset="
@@ -839,7 +839,7 @@
             {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
             {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
             {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE.width }}w
+            {{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE.width }}
           "
           src="{{ section.settings.POTSDAMER_PLATZ_IMAGE| image_url: width: 1500 }}"
           alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE.alt | escape }}"
@@ -860,7 +860,7 @@
             {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
             {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
             {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE_1.width }}w
+            {{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE_1.width }}
           "
           src="{{ section.settings.POTSDAMER_PLATZ_IMAGE_1| image_url: width: 1500 }}"
           alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE_1.alt | escape }}"
@@ -881,7 +881,7 @@
             {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
             {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
             {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE_2.width }}w
+            {{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE_2.width }}
           "
           src="{{ section.settings.POTSDAMER_PLATZ_IMAGE_2| image_url: width: 1500 }}"
           alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE_2.alt | escape }}"
@@ -1564,7 +1564,6 @@
   initializeSlider('.section-HACKESCHER_MARKT-padding.slider-container');
   initializeSlider('.section-SONY_CENTER-padding.slider-container');
   initializeSlider('.section-POTSDAMER_PLATZ-padding.slider-container');
-
   initializeSlider('.section-CAFE_KRANZLER-padding.slider-container');
   initializeSlider('.section-ANNEX_CAFE-padding.slider-container');
   initializeSlider('.section-ROASTERY-padding.slider-container');
