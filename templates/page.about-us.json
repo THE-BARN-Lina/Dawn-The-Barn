@@ -235,6 +235,8 @@
         "MITTE_OPENING": "<p>Monday - Friday: 08:00 – 18:00<br\/>Saturday: 09:00 – 18:00<br\/>Sunday: 10:00 – 18:00<\/p>",
         "MITTE_LINK": "<p><a href=\"\/pages\/mitte\" target=\"_blank\" title=\"THE BARN CAFÉ MITTE\">Explore Location<\/a><\/p>",
         "ROSENTHALER_PLATZ_IMAGE": "shopify:\/\/shop_images\/LOCATIONS_ROSENTHALERPLATZ_55.jpg",
+        "ROSENTHALER_PLATZ_IMAGE_1": "shopify:\/\/shop_images\/cafes_THE_BARN_Rosenthaler_Platz_1.webp",
+        "ROSENTHALER_PLATZ_IMAGE_2": "shopify:\/\/shop_images\/cafes_THE_BARN_Rosenthaler_Platz_2.webp",
         "ROSENTHALER_PLATZ_HEADING": "ROSENTHALER PLATZ",
         "ROSENTHALER_PLATZ_ADDRESS": "Weinbergsweg 1, 10119 Berlin",
         "ROSENTHALER_PLATZ_OPENING": "<p>Monday-Friday 08:00 – 18:00<br\/>Saturday-Sunday 10:00 – 18:00<\/p>",
