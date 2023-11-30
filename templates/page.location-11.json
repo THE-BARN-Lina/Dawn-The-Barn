@@ -148,7 +148,8 @@
       ],
       "custom_css": [
         ".image-with-text__content {border-bottom: 2px solid #804d15;}",
-        ".image-with-text {margin-top: 3rem;}"
+        ".image-with-text {margin-top: 3rem;}",
+        ".image-with-text h2 {font-family: \"Archivo Narrow\", sans-serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/LOCATIONS_MITTE.png",
