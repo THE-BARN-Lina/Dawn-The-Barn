@@ -14,14 +14,14 @@
         "73a803f4-d66f-4128-a531-ce547d494336": {
           "type": "heading",
           "settings": {
-            "heading": "NOVEMBER SPECIAL",
+            "heading": "CHRISTMAS GIFT SUBSCRIPTION",
             "heading_size": "h0"
           }
         },
         "a3b29786-8006-47d8-be72-425e71db225b": {
           "type": "text",
           "settings": {
-            "text": "REDUCTION ON YOUR FIRST 3 SUBSCRIPTION ORDERS",
+            "text": "RECEIVE A GIFT BAG OF CHRISTMAS COFFEE TO YOUR FIRST DELIVERY",
             "text_style": "body"
           }
         },
@@ -64,41 +64,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
-      }
-    },
-    "b3059816-7040-4981-8d4f-da939a97be82": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        ".collection__title {text-align: center; margin-top: 3rem; font-family: \"Archivo Narrow\", sans-serif;}",
-        ".collection {margin-top: px; padding-bottom: 20px; border-bottom: 2px solid #804d15; margin-bottom: 2rem;}"
-      ],
-      "settings": {
-        "title": "CYBER MONDAY SPECIALS",
-        "heading_size": "h1",
-        "description_heading_2": "",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "cyber-monday",
-        "products_to_show": 4,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "view_all_label": "View All",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "3e280314-6fa9-4a83-9341-8d119cba2d32": {
@@ -154,6 +119,41 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b3059816-7040-4981-8d4f-da939a97be82": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        ".collection__title {text-align: center; margin-top: 3rem; font-family: \"Archivo Narrow\", sans-serif;}",
+        ".collection {margin-top: px; padding-bottom: 20px; border-bottom: 2px solid #804d15; margin-bottom: 2rem;}"
+      ],
+      "settings": {
+        "title": "CYBER MONDAY SPECIALS",
+        "heading_size": "h1",
+        "description_heading_2": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "cyber-monday",
+        "products_to_show": 4,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "view_all_label": "View All",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -731,8 +731,8 @@
   },
   "order": [
     "c07c35eb-d2db-4799-9345-23a3655ecbd7",
-    "b3059816-7040-4981-8d4f-da939a97be82",
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
+    "b3059816-7040-4981-8d4f-da939a97be82",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "1653387743507b82e2",
