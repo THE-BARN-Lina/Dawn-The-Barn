@@ -1,7 +1,44 @@
 {
   "sections": {
+    "306310eb-8d97-459d-a88a-db9b532d8130": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18430183375115__306310eb-8d97-459d-a88a-db9b532d8130-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Your Coffee on is <strong>{{ page.title }}<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18430183375115__306310eb-8d97-459d-a88a-db9b532d8130-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18430183375115__306310eb-8d97-459d-a88a-db9b532d8130-heading-1",
+        "template--18430183375115__306310eb-8d97-459d-a88a-db9b532d8130-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         "h1 {text-align: center;}"
       ],
@@ -15,10 +52,102 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "c87954eb-6eb8-45e0-920d-a661096fe6dd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18430183375115__c87954eb-6eb8-45e0-920d-a661096fe6dd-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18430183375115__c87954eb-6eb8-45e0-920d-a661096fe6dd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ page.metafields.advent_callender.recipe | metafield_tag }}<\/p>"
+          }
+        },
+        "template--18430183375115__c87954eb-6eb8-45e0-920d-a661096fe6dd-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18430183375115__c87954eb-6eb8-45e0-920d-a661096fe6dd-heading-1",
+        "template--18430183375115__c87954eb-6eb8-45e0-920d-a661096fe6dd-text-1",
+        "template--18430183375115__c87954eb-6eb8-45e0-920d-a661096fe6dd-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "172aab28-a2e5-41dc-bfe5-5d0df0659643": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18430183375115__172aab28-a2e5-41dc-bfe5-5d0df0659643-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18430183375115__172aab28-a2e5-41dc-bfe5-5d0df0659643-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ page.metafields.advent_callender.recipe | metafield_tag }}<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18430183375115__172aab28-a2e5-41dc-bfe5-5d0df0659643-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18430183375115__172aab28-a2e5-41dc-bfe5-5d0df0659643-heading-1",
+        "template--18430183375115__172aab28-a2e5-41dc-bfe5-5d0df0659643-text-1",
+        "template--18430183375115__172aab28-a2e5-41dc-bfe5-5d0df0659643-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "306310eb-8d97-459d-a88a-db9b532d8130",
     "main",
-    "5c173c56-bcec-499e-ba96-cd616b55efc1"
+    "5c173c56-bcec-499e-ba96-cd616b55efc1",
+    "c87954eb-6eb8-45e0-920d-a661096fe6dd",
+    "172aab28-a2e5-41dc-bfe5-5d0df0659643"
   ]
 }
