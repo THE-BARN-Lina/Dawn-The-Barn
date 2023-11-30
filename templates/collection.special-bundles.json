@@ -166,7 +166,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/christmascoffeeupdate_9eea5fe4-ac6c-46d4-953f-cd036e33a385.png",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
