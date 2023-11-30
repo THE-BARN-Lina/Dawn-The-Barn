@@ -6,19 +6,328 @@
         "h1 {text-align: center;}"
       ],
       "settings": {
-        "padding_top": 20,
-        "padding_bottom": 28
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
-    "5c173c56-bcec-499e-ba96-cd616b55efc1": {
-      "type": "career_detail",
+    "eaf404e1-47a8-497c-bf5c-cabab41acd73": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18323748946187__eaf404e1-47a8-497c-bf5c-cabab41acd73-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "ADVENT CALENDAR EXPEREINCE",
+            "heading_size": "h1"
+          }
+        },
+        "template--18323748946187__eaf404e1-47a8-497c-bf5c-cabab41acd73-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18323748946187__eaf404e1-47a8-497c-bf5c-cabab41acd73-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18323748946187__eaf404e1-47a8-497c-bf5c-cabab41acd73-heading-1",
+        "template--18323748946187__eaf404e1-47a8-497c-bf5c-cabab41acd73-text-1",
+        "template--18323748946187__eaf404e1-47a8-497c-bf5c-cabab41acd73-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Coffee_Advent_Calendar_image.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "5eec40be-3e2d-4a03-9599-fcf2e04bb33d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18323748946187__5eec40be-3e2d-4a03-9599-fcf2e04bb33d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>WELCOME TO YOUR ADVENT COFFEE JOURNEY<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18323748946187__5eec40be-3e2d-4a03-9599-fcf2e04bb33d-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18323748946187__5eec40be-3e2d-4a03-9599-fcf2e04bb33d-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18323748946187__5eec40be-3e2d-4a03-9599-fcf2e04bb33d-heading-1",
+        "template--18323748946187__5eec40be-3e2d-4a03-9599-fcf2e04bb33d-text-1",
+        "template--18323748946187__5eec40be-3e2d-4a03-9599-fcf2e04bb33d-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "5525969e-ded4-4daf-b929-47d1b75a0a0f": {
+      "type": "featured-product",
+      "blocks": {
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-text-1",
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-title-1",
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-text-2",
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-price-1",
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-variant_picker-1",
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-quantity_selector-1",
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-buy_buttons-1",
+        "template--18323748946187__5525969e-ded4-4daf-b929-47d1b75a0a0f-share-1"
+      ],
       "disabled": true,
       "settings": {
+        "product": "",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6126b374-1ae0-4181-a953-b7c16684e7bd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>If you missed this years Advent Calendar, do sign up for the reservation list 2024<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "NOTIFY ME WHEN AVAILIABLE",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-heading-1",
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-text-1",
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "c92202e1-bb5f-450c-82eb-d983f4bc9f28": {
+      "type": "multirow",
+      "blocks": {
+        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_Felipe_Arcila_Jardines_del_Eden_2.jpg",
+            "caption": "DAY 1",
+            "heading": "<strong>Jardines del Eden. Colombia<\/strong>",
+            "text": "<p>Red Gesha. Natural<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-1",
+        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2",
+        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "48a80fe8-b41d-439c-a7ed-633e6f327a61": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18323748946187__48a80fe8-b41d-439c-a7ed-633e6f327a61-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We cannot wait for you to join us on this journey through the world of Single Origin flavour.<br\/><br\/>In your calendar, we have packed 24 unique and exciting coffees that are just waiting to be discovered.<br\/><br\/>As December unfolds, you can check in and see which coffee you will be enjoying next: your most memorable Christmas countdown starts soon!<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--18323748946187__48a80fe8-b41d-439c-a7ed-633e6f327a61-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18323748946187__48a80fe8-b41d-439c-a7ed-633e6f327a61-text-1",
+        "template--18323748946187__48a80fe8-b41d-439c-a7ed-633e6f327a61-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/34A2075.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
     "main",
-    "5c173c56-bcec-499e-ba96-cd616b55efc1"
+    "eaf404e1-47a8-497c-bf5c-cabab41acd73",
+    "5eec40be-3e2d-4a03-9599-fcf2e04bb33d",
+    "5525969e-ded4-4daf-b929-47d1b75a0a0f",
+    "6126b374-1ae0-4181-a953-b7c16684e7bd",
+    "c92202e1-bb5f-450c-82eb-d983f4bc9f28",
+    "48a80fe8-b41d-439c-a7ed-633e6f327a61"
   ]
 }
