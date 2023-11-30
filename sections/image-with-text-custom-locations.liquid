@@ -110,6 +110,27 @@
 .slide {
   transition: opacity 0.5s ease-in-out; /* Change properties and duration as needed */
 }
+.btn-card{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 140px;
+  height: 4.2rem;
+  font-size: 16px;
+  background-color: #1C1D1C;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+
+  
+}
+.btn-card a{
+  text-decoration: none;
+}
+
 
 /* Mobile */
 @media screen and (max-width: 700px) {
@@ -226,12 +247,11 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
 
-
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
-    </section>
+        <div class="slider-buttons">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </section>
 
       <section class="text-buttom-container">
         {%- if section.settings.SCHONHAUSER_ALLEE_HEADING != blank -%}
@@ -251,7 +271,7 @@
         {%- endif -%}
 
         {%- if section.settings.SCHONHAUSER_ALLEE_LINK != blank -%}
-          <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          <p class="btn-card">
             {{ section.settings.SCHONHAUSER_ALLEE_LINK | replace: 'p>', 'span>' }}
           </p>
         {%- endif -%}
@@ -348,7 +368,7 @@
       {%- endif -%}
 
       {%- if section.settings.MITTE_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.MITTE_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -443,7 +463,7 @@
       {%- endif -%}
 
       {%- if section.settings.ROSENTHALER_PLATZ_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.ROSENTHALER_PLATZ_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -538,7 +558,7 @@
       {%- endif -%}
 
       {%- if section.settings.NEUKOLLN_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.NEUKOLLN_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -633,7 +653,7 @@
       {%- endif -%}
 
       {%- if section.settings.NORDBAHNHOF_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.NORDBAHNHOF_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -728,7 +748,7 @@
       {%- endif -%}
 
       {%- if section.settings.HACKESCHER_MARKT_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.HACKESCHER_MARKT_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -823,7 +843,7 @@
       {%- endif -%}
 
       {%- if section.settings.SONY_CENTER_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.SONY_CENTER_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -918,7 +938,7 @@
       {%- endif -%}
 
       {%- if section.settings.POTSDAMER_PLATZ_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.POTSDAMER_PLATZ_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -1013,7 +1033,7 @@
       {%- endif -%}
 
       {%- if section.settings.CAFE_KRANZLER_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.CAFE_KRANZLER_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -1108,7 +1128,7 @@
       {%- endif -%}
 
       {%- if section.settings.ANNEX_CAFE_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.ANNEX_CAFE_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -1203,7 +1223,7 @@
       {%- endif -%}
 
       {%- if section.settings.ROASTERY_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.ROASTERY_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -1300,7 +1320,7 @@
       {%- endif -%}
 
       {%- if section.settings.MALLORCA_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.MALLORCA_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -1397,7 +1417,7 @@
       {%- endif -%}
 
       {%- if section.settings.SOUTH_KOREA_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.SOUTH_KOREA_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
@@ -1494,7 +1514,7 @@
       {%- endif -%}
 
       {%- if section.settings.DUBAI_LINK != blank -%}
-        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+        <p class="btn-card">
           {{ section.settings.DUBAI_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
