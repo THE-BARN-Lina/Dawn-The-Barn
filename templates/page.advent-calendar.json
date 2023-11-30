@@ -50,7 +50,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Coffee_Advent_Calendar_image.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "transparent_block": false,
         "desktop_content_position": "middle-center",
