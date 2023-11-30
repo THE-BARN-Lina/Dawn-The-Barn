@@ -40,7 +40,7 @@
         "645888a2-dee6-4a59-80b2-352824773a00": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/christmascoffeeinbagupdate.jpg",
+            "image": "shopify:\/\/shop_images\/christmascoffeeorigami_699b0550-b984-440d-8c19-44456f9fb2d4.jpg",
             "button_text": "Christmas Coffee",
             "button_link": "shopify:\/\/products\/christmas-coffee"
           }
@@ -113,6 +113,13 @@
           "settings": {
           }
         },
+        "e25122c4-0440-49cb-ad76-1984e316d229": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-quantity_selector-1": {
           "type": "quantity_selector",
           "settings": {
@@ -136,6 +143,7 @@
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-title-1",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-text-2",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-price-1",
+        "e25122c4-0440-49cb-ad76-1984e316d229",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-quantity_selector-1",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-buy_buttons-1",
         "template--17938052874507__e14b0826-7199-4f19-bba0-d9f03c93261c-share-1"
@@ -465,6 +473,7 @@
       "block_order": [
         "364ce80c-d09b-4988-935e-2f6496959719"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 750px) {.banner {margin-top: 100px; }}"
       ],
