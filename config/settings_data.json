@@ -120,6 +120,7 @@
         "blocks": {
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "LAST CHANCE FOR OUR NOVEMBER SPECIAL: REDUCTION ON YOUR FIRST 3 SUBSCRIPTION ORDERS",
               "color_scheme": "accent-2",
