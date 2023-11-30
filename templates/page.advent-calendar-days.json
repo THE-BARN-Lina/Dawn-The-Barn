@@ -6,7 +6,7 @@
         "template--18430183375115__306310eb-8d97-459d-a88a-db9b532d8130-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Your Coffee on is <strong>{{ page.title }}<\/strong><\/p>",
+            "heading": "<p>Your Coffee on <strong>{{ page.title }}<\/strong><\/p>",
             "heading_size": "h1"
           }
         },
