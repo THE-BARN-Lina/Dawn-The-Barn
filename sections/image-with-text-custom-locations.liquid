@@ -2,90 +2,85 @@
 
 {%- style -%}
 
-  .image-main-slider{
-    width:390px;
-    height:390px;
-    object-fit:cover;
-  }
-  .text-buttom-container{
-    height:390px;
-    width:390px;
-    background-color: #1C1D1C;
-    padding:1.6rem;
-  }
-  .title-filter-section{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-    }
-  .title-filter-section h1{
-    margin-bottom:0px;
-  }
-  .image-with-text{
-      display: flex;
-      flex-direction: row;
-      justify-content:space-around;
-      align-items: flex-start;
-      margin-top:2rem;
-      margin-bottom:2rem;
-      background-color: #1C1D1C;
-      padding:3rem;
-   
+.image-main-slider{
+  width:490px;
+  height:390px;
+  object-fit:cover;
+}
+.text-buttom-container{
+  height:390px;
+  width:490px;
+  background-color: #1C1D1C;
+  padding:1.6rem;
+}
+.title-filter-section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+.title-filter-section h1{
+  margin-bottom:0px;
+}
+.image-with-text{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: flex-start;
+  margin-top:2rem;
+  margin-bottom:2rem;
+  background-color: #1C1D1C;
+  padding:3rem;
+}
+.scroll-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin-bottom: -16px;
+  overflow-x: auto; 
+}
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100px;
+  overflow-x: auto; 
 
-    }
-    .scroll-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    margin-bottom: -16px;
-    overflow-x: auto; /* Enable horizontal scrolling */
-  }
-    .filter-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 100px;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    /* background-color: yellow; */
-  }
+}
+.btn {
+  min-width: 140px;
+  font-size: 16px;
+  padding: 1rem;
+  background-color: var(--black);
+  border-radius: 2px;
+  color: var(--white);
+  cursor: pointer;
+  margin: 1.6rem;
+  border: 1px solid var(--white);
+}
 
-    .btn {
-    min-width: 140px;
-    
-    font-size: 16px;
-    padding: 1rem;
-    background-color: var(--black);
-    border-radius: 2px;
-    color: var(--white);
-    cursor: pointer;
-    margin: 1.6rem;
-    border: 1px solid var(--white);
-  }
+.btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+.btn.active {
+  border: none;
+  background-color: var(--white);
+  color: var(--black);
+  outline: 0.5px solid var(--white);
+  outline-offset: 4px;
+}
 
-  .btn:hover {
-    background-color: var(--white);
-    color: var(--black);
-  }
-  .btn.active {
-    border: none;
-    background-color: var(--white);
-    color: var(--black);
-    outline: 0.5px solid var(--white);
-    outline-offset: 4px;
-  }
-
-  .slider-container {
+.slider-container {
   position: relative;
   display: flex;
   overflow: hidden;
-  height:390px;
 }
 
 .slider-container img {
-  width: 390px;
+  width: 450px;
   display: none;
 }
 
@@ -116,37 +111,35 @@
   transition: opacity 0.5s ease-in-out; /* Change properties and duration as needed */
 }
 
-  @media screen and (max-width: 700px) {
-
-    .image-with-text{
-      display: flex;
-      flex-direction: column;
-      justify-content:center;
-      align-items: center;
-      padding:1.5rem;
-
-    } 
-    .text-buttom-container{
+/* Mobile */
+@media screen and (max-width: 700px) {
+  .image-with-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:1.5rem;
+  } 
+  .text-buttom-container{
     height:280px;
     width:390px;
   }
   .scroll-container {
-      flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
-    }
-    .filter-container {
-      justify-content: flex-start; /* Align items to the start (left) */
-      padding-right:0.5rem;
-    }
-   
-    .filter-container {
-      margin-left: 1rem;
-      margin-right: 1.5rem;
-    }
+    flex-wrap: nowrap; 
   }
-
-
-
-
+  .filter-container {
+    justify-content: flex-start; 
+    padding-right:0.5rem;
+  }
+  .filter-container {
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+  }
+  .slider-container img {
+  width: 390px;
+  display: none;
+}
+}
 
 
 
@@ -166,7 +159,6 @@
 
 <section class="content active" id="tab-content-1">
 
-  
   <section class="image-with-text page-width ">
     <section class="section-SCHONHAUSER_ALLEE-padding slider-container">
       {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE != blank -%}
