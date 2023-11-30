@@ -71,8 +71,8 @@
       ],
       "settings": {
         "products_per_page": 36,
-        "columns_desktop": 3,
-        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": true,
         "show_tastenotes": false,
@@ -165,7 +165,7 @@
         "@media screen and (min-width: 750px) {.image-with-text {padding-left: 0px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Christmassubscriptionpicture.jpg",
+        "image": "shopify:\/\/shop_images\/christmascoffeeupdate_9eea5fe4-ac6c-46d4-953f-cd036e33a385.png",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
