@@ -77,42 +77,7 @@
     outline-offset: 4px;
   }
 
-  @media screen and (max-width: 700px) {
-
-  .slider-container img {
-  width: 490px;
-}
-    .image-with-text{
-      display: flex;
-      flex-direction: column;
-      justify-content:center;
-      align-items: center;
-      padding:1.5rem;
-
-    } 
-    .text-buttom-container{
-    height:280px;
-    width:390px;
-  }
-  .scroll-container {
-      flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
-    }
-    .filter-container {
-      justify-content: flex-start; /* Align items to the start (left) */
-      padding-right:0.5rem;
-    }
-   
-    .filter-container {
-      margin-left: 1rem;
-      margin-right: 1.5rem;
-    }
-  }
-
-
-
-
-
-.slider-container {
+  .slider-container {
   position: relative;
   display: flex;
   overflow: hidden;
@@ -150,6 +115,43 @@
 .slide {
   transition: opacity 0.5s ease-in-out; /* Change properties and duration as needed */
 }
+
+  @media screen and (max-width: 700px) {
+
+  .slider-container img {
+  width: 490px;
+}
+    .image-with-text{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      padding:1.5rem;
+
+    } 
+    .text-buttom-container{
+    height:280px;
+    width:390px;
+  }
+  .scroll-container {
+      flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
+    }
+    .filter-container {
+      justify-content: flex-start; /* Align items to the start (left) */
+      padding-right:0.5rem;
+    }
+   
+    .filter-container {
+      margin-left: 1rem;
+      margin-right: 1.5rem;
+    }
+  }
+
+
+
+
+
+
 
 {%- endstyle -%}
 
