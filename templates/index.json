@@ -159,6 +159,58 @@
         "padding_bottom": 36
       }
     },
+    "34f36b99-3951-4362-8e23-4316f128c581": {
+      "type": "feature-collection-custom",
+      "settings": {
+        "title": "CHRISTMAS GIFT BUNDLES",
+        "heading_size": "h1",
+        "description_heading_2": "",
+        "description": "<p>Gift for all brewing methods.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "christmas-bundles",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% render | \"four-icons\" %}",
+        "color_scheme": "background-1",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "1653387743507b82e2": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 48
+      }
+    },
     "18e90b04-5d61-491c-9805-32d9b2fcf9a3": {
       "type": "feature-collection-custom",
       "custom_css": [
@@ -190,28 +242,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "1653387743507b82e2": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 16,
-        "padding_bottom": 48
       }
     },
     "befa68a6-1035-4cea-bf06-95f308026d4b": {
@@ -734,9 +764,10 @@
     "c07c35eb-d2db-4799-9345-23a3655ecbd7",
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "b3059816-7040-4981-8d4f-da939a97be82",
-    "18e90b04-5d61-491c-9805-32d9b2fcf9a3",
+    "34f36b99-3951-4362-8e23-4316f128c581",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "1653387743507b82e2",
+    "18e90b04-5d61-491c-9805-32d9b2fcf9a3",
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "165339081846c57155",
