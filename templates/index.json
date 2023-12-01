@@ -161,6 +161,9 @@
     },
     "34f36b99-3951-4362-8e23-4316f128c581": {
       "type": "feature-collection-custom",
+      "custom_css": [
+        ".collection {border-bottom: 2px solid #804d15;}"
+      ],
       "settings": {
         "title": "CHRISTMAS GIFT BUNDLES",
         "heading_size": "h1",
