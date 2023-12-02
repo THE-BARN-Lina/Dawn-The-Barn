@@ -242,6 +242,17 @@
             "button_link": "shopify:\/\/pages\/1st-december"
           }
         },
+        "e8d05e1e-3904-438d-9f79-3b3b80325bb9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tony_La_COlina.jpg",
+            "caption": "DAY 2",
+            "heading": "<strong>La Colina. Guatemala<\/strong>",
+            "text": "<p>Caturra. Natural<\/p>",
+            "button_label": "EXPLORE NOW",
+            "button_link": "shopify:\/\/pages\/1st-december"
+          }
+        },
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2": {
           "type": "row",
           "disabled": true,
@@ -267,6 +278,7 @@
       },
       "block_order": [
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-1",
+        "e8d05e1e-3904-438d-9f79-3b3b80325bb9",
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2",
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3"
       ],
