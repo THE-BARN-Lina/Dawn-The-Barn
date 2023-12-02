@@ -52,7 +52,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gradient-advent_c6dabbbf-2346-471f-968e-2cb00efdd117.jpg",
-        "image_2": "shopify:\/\/shop_images\/christmascoffeeupdate.png",
+        "image_2": "shopify:\/\/shop_images\/IMG_9562_1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -162,7 +162,7 @@
     "34f36b99-3951-4362-8e23-4316f128c581": {
       "type": "feature-collection-custom",
       "custom_css": [
-        ".collection {padding-bottom:1.6rem; border-bottom: 2px solid #804d15;}"
+        ".collection {padding-bottom: 1.6rem; border-bottom: 2px solid #804d15;}"
       ],
       "settings": {
         "title": "CHRISTMAS GIFT BUNDLES",
