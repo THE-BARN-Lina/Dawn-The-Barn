@@ -253,6 +253,41 @@
             "button_link": "shopify:\/\/pages\/2nd-december-la-colina-guatemala"
           }
         },
+        "5edf21ad-b2bc-48b1-a814-4c68eb7f7c55": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Los-Pirineos-sent-by-Diego-07-21-14-1024x768_605611f4-5fc3-4253-90b5-714f4bdd4ca1.jpg",
+            "caption": "DAY 3",
+            "heading": "<strong>Los Pirineos. El Salvador<\/strong>",
+            "text": "<p>Pacamara. Black Honey<\/p>",
+            "button_label": "EXPLORE NOW",
+            "button_link": "shopify:\/\/pages\/2nd-december-la-colina-guatemala"
+          }
+        },
+        "48e2f35c-c65b-4485-92e4-3f01f05ff7ed": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9738_e2839e0d-cb00-4a72-a413-b70d0092579b.jpg",
+            "caption": "DAY 4",
+            "heading": "<strong>Volcan Azul. Costa Rica<\/strong>",
+            "text": "<p>Caturra. Natural<\/p>",
+            "button_label": "EXPLORE NOW",
+            "button_link": "shopify:\/\/pages\/2nd-december-la-colina-guatemala"
+          }
+        },
+        "d083ee11-e062-41ba-9cbf-7ff55a4209ad": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gesha_village_drying.jpg",
+            "caption": "DAY 5",
+            "heading": "<strong>Gesha Village. Ethiopia<\/strong>",
+            "text": "<p>Gesha 1931. Natural.<\/p>",
+            "button_label": "EXPLORE NOW",
+            "button_link": "shopify:\/\/pages\/2nd-december-la-colina-guatemala"
+          }
+        },
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2": {
           "type": "row",
           "disabled": true,
@@ -279,6 +314,9 @@
       "block_order": [
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-1",
         "e8d05e1e-3904-438d-9f79-3b3b80325bb9",
+        "5edf21ad-b2bc-48b1-a814-4c68eb7f7c55",
+        "48e2f35c-c65b-4485-92e4-3f01f05ff7ed",
+        "d083ee11-e062-41ba-9cbf-7ff55a4209ad",
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2",
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3"
       ],
