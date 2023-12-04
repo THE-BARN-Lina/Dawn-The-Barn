@@ -47,6 +47,7 @@
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
+  {% include 'fa_translate_custom' %}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -224,9 +225,9 @@
     }
     </script>
   
-                
+                  {% include 'bss-product-labels-configs' %}
                     {% render 'prime-css' %} 
-        {% render ''digismoothie-candyrack %}
+        {% render 'digismoothie-candyrack' %}
         
   
   {% comment %}ly_dir_styles_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{% comment %}ly_dir_styles_end{% endcomment %}</head>
