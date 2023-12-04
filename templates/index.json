@@ -28,7 +28,7 @@
         "efb11e79-cc3b-46a6-b5a3-4cff88a5faa6": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SUBSCRIBE NOW",
+            "button_label_1": "ORDER NOW",
             "button_link_1": "shopify:\/\/products\/christmas-3-month-gift-subscription",
             "button_style_secondary_1": true,
             "button_label_2": "",
