@@ -224,10 +224,6 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
-  
-                  {% include 'bss-product-labels-configs' %}
-                    {% render 'prime-css' %} 
-        {% render 'digismoothie-candyrack' %}
         
   
   {% comment %}ly_dir_styles_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{% comment %}ly_dir_styles_end{% endcomment %}</head>
