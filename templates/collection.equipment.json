@@ -163,6 +163,9 @@
     },
     "2cac0ea0-d9da-48a9-8055-659dcb36a671": {
       "type": "feature-collection-custom",
+      "custom_css": [
+        ".collection__title {padding: 0px;}"
+      ],
       "settings": {
         "title": "COFFEE GRINDERS",
         "heading_size": "h1",
@@ -193,6 +196,9 @@
     },
     "add639fc-4939-4d06-944d-b7b569b569c7": {
       "type": "feature-collection-custom",
+      "custom_css": [
+        ".collection__title {padding: 0px;}"
+      ],
       "settings": {
         "title": "FILTER BREWING METHODS",
         "heading_size": "h1",
@@ -223,6 +229,9 @@
     },
     "ad6852aa-771e-4177-92e1-fa7f3554ce82": {
       "type": "feature-collection-custom",
+      "custom_css": [
+        ".collection__title {padding: 0px;}"
+      ],
       "settings": {
         "title": "COFFEE ACCESSORIES",
         "heading_size": "h1",
@@ -253,6 +262,9 @@
     },
     "d609f03a-50cf-4cdd-851d-4a69786f42ba": {
       "type": "feature-collection-custom",
+      "custom_css": [
+        ".collection__title {padding: 0px;}"
+      ],
       "settings": {
         "title": "COFFEE SCALES",
         "heading_size": "h1",
