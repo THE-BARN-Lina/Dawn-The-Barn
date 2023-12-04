@@ -682,8 +682,6 @@
       ],
       "custom_css": [
         "img {max-height: 562px;}",
-        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
-        ".accordion__title {font-family: \"Archivo Narrow\", sans-serif;}",
         "@media only screen and (min-width: 750px) {.collapsible-content {margin-top: 6rem; }}"
       ],
       "settings": {
