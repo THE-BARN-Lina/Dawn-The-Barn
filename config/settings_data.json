@@ -141,7 +141,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".header__menu-item {font-family: \"Raleway\", sans-serif;}"
+
         ],
         "settings": {
           "color_scheme": "background-1",
