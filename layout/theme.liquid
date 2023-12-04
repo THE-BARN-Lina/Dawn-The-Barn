@@ -249,6 +249,7 @@
   
 
   <body class="gradient" >
+
     <script src="https://consent.cookiefirst.com/sites/thebarn.de-97206b1a-ef3d-4acf-bc10-6d2eb2f11e59/consent.js" defer></script>
    
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -259,7 +260,15 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {% capture ICART_FULL_PAGE_LAYOUT %}{{ content_for_layout }}{% endcapture %}{% include 'icart-variables', ICART_FULL_PAGE_LAYOUT: ICART_FULL_PAGE_LAYOUT %}
+
+  {% capture ICART_FULL_PAGE_LAYOUT %}
+        {{content_for_layout}}
+    {% endcapture %}
+     
+
+
+      
+  {% include 'icart-variables', ICART_FULL_PAGE_LAYOUT: ICART_FULL_PAGE_LAYOUT %}
     </main>
 
     {% section 'footer' %}
@@ -311,7 +320,9 @@
 <!--  AOD_OrderLimit Start  --> 
 {% include 'aodLimitValidator' %}
  <!--  AOD_OrderLimit End  -->
-  <!-- langify-v2-scripts-begin -->{% comment %}ly_liquid_scripts_begin{% endcomment %}{% endcapture %}{% render 'ly-liquid-scripts' content: ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}{% comment %}ly_core_scripts_begin{% endcomment %}{% render 'ly-core-scripts' %}{% comment %}ly_core_scripts_end{% endcomment %}{% comment %}ly_switcher_factory_begin{% endcomment %}{% render 'ly-switcher-factory' %}{% comment %}ly_switcher_factory_end{% endcomment %}<!-- langify-v2-scripts-end --></body>
+  <!-- langify-v2-scripts-begin -->{% comment %}ly_liquid_scripts_begin{% endcomment %}{% endcapture %}{% render 'ly-liquid-scripts' content: ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}{% comment %}ly_core_scripts_begin{% endcomment %}{% render 'ly-core-scripts' %}{% comment %}ly_core_scripts_end{% endcomment %}{% comment %}ly_switcher_factory_begin{% endcomment %}{% render 'ly-switcher-factory' %}{% comment %}ly_switcher_factory_end{% endcomment %}<!-- langify-v2-scripts-end -->
+  
+  </body>
   
 
 </html>
