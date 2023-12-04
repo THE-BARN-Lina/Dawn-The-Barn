@@ -47,7 +47,6 @@
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
-    {% include 'fa_translate_custom' %}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -225,7 +224,7 @@
     }
     </script>
   
-                  {% include 'bss-product-labels-configs' %}
+                
                     {% render 'prime-css' %} 
         {% render 'digismoothie-candyrack' %}
         
