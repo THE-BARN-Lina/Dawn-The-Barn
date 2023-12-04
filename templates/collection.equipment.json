@@ -130,6 +130,9 @@
     },
     "1a6184bd-aa13-4355-9b70-87160239c819": {
       "type": "feature-collection-custom",
+      "custom_css": [
+        ".collection__title {padding: 0px;}"
+      ],
       "settings": {
         "title": "AEROPRESS",
         "heading_size": "h1",
