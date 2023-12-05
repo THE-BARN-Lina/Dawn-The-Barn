@@ -60,6 +60,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Seasonal Mococa, Brazil",
             "icon": "none",
@@ -69,6 +70,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Masterpiece - El Vergel Gesha",
             "icon": "none",
