@@ -95,6 +95,7 @@
     },
     "47fd2b45-4831-4e2d-8663-6f6d55f1713d": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"powr-form-builder\" id=\"24684ba3_1551271877\"><\/div><script src=\"https:\/\/www.powr.io\/powr.js?platform=shopify\"><\/script>",
         "color_scheme": "background-1",
@@ -174,6 +175,34 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17017867473308e859": {
+      "type": "apps",
+      "blocks": {
+        "e3b5d303-1125-458a-bf32-48e44f070849": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "49795",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "e3b5d303-1125-458a-bf32-48e44f070849"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -181,6 +210,7 @@
     "ba62e33d-ca63-44ce-8178-6a02ba887c7e",
     "main",
     "47fd2b45-4831-4e2d-8663-6f6d55f1713d",
-    "c72429bc-d276-4dff-957f-6a8a84cc462b"
+    "c72429bc-d276-4dff-957f-6a8a84cc462b",
+    "17017867473308e859"
   ]
 }
