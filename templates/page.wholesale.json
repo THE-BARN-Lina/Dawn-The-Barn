@@ -38,64 +38,36 @@
         "show_text_below": true
       }
     },
-    "ba62e33d-ca63-44ce-8178-6a02ba887c7e": {
-      "type": "rich-text",
+    "17017867473308e859": {
+      "type": "apps",
       "blocks": {
-        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-heading-1": {
-          "type": "heading",
-          "disabled": true,
+        "e3b5d303-1125-458a-bf32-48e44f070849": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We love working with people that appreciate quality coffee as much as we do.<br\/><br\/>Since 2012 we have been enjoying great relationships with other cafés, restaurants and offices around the globe. We dispatch fresh after roast and reach you in a reliable way.  <\/p>"
-          }
-        },
-        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "form_id": "49795",
+            "text_color": "#ffffff",
+            "button_background_color": "#804d15",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "left",
+            "form_alignment": "center",
+            "padding_top": 16,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
           }
         }
       },
       "block_order": [
-        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-heading-1",
-        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-text-1",
-        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-button-1"
+        "e3b5d303-1125-458a-bf32-48e44f070849"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 24,
-        "padding_bottom": 52
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 28
+        "include_margins": true
       }
     },
     "47fd2b45-4831-4e2d-8663-6f6d55f1713d": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"powr-form-builder\" id=\"24684ba3_1551271877\"><\/div><script src=\"https:\/\/www.powr.io\/powr.js?platform=shopify\"><\/script>",
         "color_scheme": "background-1",
@@ -176,41 +148,68 @@
         "padding_bottom": 36
       }
     },
-    "17017867473308e859": {
-      "type": "apps",
+    "ba62e33d-ca63-44ce-8178-6a02ba887c7e": {
+      "type": "rich-text",
       "blocks": {
-        "e3b5d303-1125-458a-bf32-48e44f070849": {
-          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-heading-1": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "form_id": "49795",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 0,
-            "padding_right": 0,
-            "padding_left": 0
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We love working with people that appreciate quality coffee as much as we do.<br\/><br\/>Since 2012 we have been enjoying great relationships with other cafés, restaurants and offices around the globe. We dispatch fresh after roast and reach you in a reliable way.  <\/p>"
+          }
+        },
+        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "e3b5d303-1125-458a-bf32-48e44f070849"
+        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-heading-1",
+        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-text-1",
+        "template--18007205282059__ba62e33d-ca63-44ce-8178-6a02ba887c7e-button-1"
       ],
       "settings": {
-        "include_margins": true
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 28
       }
     }
   },
   "order": [
     "246b9611-e0c3-4cf5-846a-fafab4089093",
-    "ba62e33d-ca63-44ce-8178-6a02ba887c7e",
-    "main",
+    "17017867473308e859",
     "47fd2b45-4831-4e2d-8663-6f6d55f1713d",
     "c72429bc-d276-4dff-957f-6a8a84cc462b",
-    "17017867473308e859"
+    "ba62e33d-ca63-44ce-8178-6a02ba887c7e",
+    "main"
   ]
 }
