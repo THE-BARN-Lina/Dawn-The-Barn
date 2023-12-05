@@ -68,6 +68,7 @@
     },
     "47fd2b45-4831-4e2d-8663-6f6d55f1713d": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"powr-form-builder\" id=\"24684ba3_1551271877\"><\/div><script src=\"https:\/\/www.powr.io\/powr.js?platform=shopify\"><\/script>",
         "color_scheme": "background-1",
