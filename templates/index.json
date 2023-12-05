@@ -1,70 +1,5 @@
 {
   "sections": {
-    "befa68a6-1035-4cea-bf06-95f308026d4b": {
-      "type": "image-banner",
-      "blocks": {
-        "7fd749b9-e32b-4d29-9a2f-51c36cd28932": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "OFFER ENDING SOON",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
-          "type": "heading",
-          "settings": {
-            "heading": "ADVENT TOP FOUR",
-            "heading_size": "h0"
-          }
-        },
-        "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
-          "type": "text",
-          "settings": {
-            "text": "BOX OF FOUR FROM OUR ADVENT CALENDER",
-            "text_style": "body"
-          }
-        },
-        "ac4d0274-97bf-4716-b80b-36375fc2ffa7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "ORDER NOW",
-            "button_link_1": "shopify:\/\/products\/advent-top-4",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "7fd749b9-e32b-4d29-9a2f-51c36cd28932",
-        "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e",
-        "6d07b71a-f24b-406e-9ab1-3f723717bc8a",
-        "ac4d0274-97bf-4716-b80b-36375fc2ffa7"
-      ],
-      "custom_css": [
-        ".banner__text {font-size: 16px;}",
-        ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);}",
-        "@media only screen and (min-width: 750px) {.banner__heading {width: 70%; }}",
-        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/gradient-advent_c6dabbbf-2346-471f-968e-2cb00efdd117.jpg",
-        "image_2": "shopify:\/\/shop_images\/AdventBoxofFourMasterpieces_2.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "3e280314-6fa9-4a83-9341-8d119cba2d32": {
       "type": "image-with-text",
       "blocks": {
@@ -213,6 +148,71 @@
         "image_2": "shopify:\/\/shop_images\/IMG_9563_1_1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
+        "adapt_height_first_image": false,
+        "transparent_block": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "befa68a6-1035-4cea-bf06-95f308026d4b": {
+      "type": "image-banner",
+      "blocks": {
+        "7fd749b9-e32b-4d29-9a2f-51c36cd28932": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "OFFER ENDING SOON",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
+          "type": "heading",
+          "settings": {
+            "heading": "ADVENT TOP FOUR",
+            "heading_size": "h0"
+          }
+        },
+        "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
+          "type": "text",
+          "settings": {
+            "text": "BOX OF FOUR FROM OUR ADVENT CALENDER",
+            "text_style": "body"
+          }
+        },
+        "ac4d0274-97bf-4716-b80b-36375fc2ffa7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ORDER NOW",
+            "button_link_1": "shopify:\/\/products\/advent-top-4",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "7fd749b9-e32b-4d29-9a2f-51c36cd28932",
+        "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e",
+        "6d07b71a-f24b-406e-9ab1-3f723717bc8a",
+        "ac4d0274-97bf-4716-b80b-36375fc2ffa7"
+      ],
+      "custom_css": [
+        ".banner__text {font-size: 16px;}",
+        ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);}",
+        "@media only screen and (min-width: 750px) {.banner__heading {width: 70%; }}",
+        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gradient-advent_c6dabbbf-2346-471f-968e-2cb00efdd117.jpg",
+        "image_2": "shopify:\/\/shop_images\/AdventBoxofFourMasterpieces_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
         "adapt_height_first_image": false,
         "transparent_block": false,
         "desktop_content_position": "middle-left",
@@ -760,10 +760,10 @@
     }
   },
   "order": [
-    "befa68a6-1035-4cea-bf06-95f308026d4b",
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "b3059816-7040-4981-8d4f-da939a97be82",
     "c07c35eb-d2db-4799-9345-23a3655ecbd7",
+    "befa68a6-1035-4cea-bf06-95f308026d4b",
     "34f36b99-3951-4362-8e23-4316f128c581",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "1653387743507b82e2",
