@@ -123,10 +123,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0381f1f2-72a5-4e29-9f41-01e253d35e1f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18000227959051__0381f1f2-72a5-4e29-9f41-01e253d35e1f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "COFFEE SHOPS LOCATIONS",
+            "heading_size": "h1"
+          }
+        },
+        "template--18000227959051__0381f1f2-72a5-4e29-9f41-01e253d35e1f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We love operating unique cafés for our coffee communities in Berlin and beyond.<br\/>‎ <\/p><p>All our locations have a different look that is inspired by the architecture or history of each building. They are hubs in your neighborhoods with the intention to bring our coffee closer to your homes and work spaces.<\/p><p>‎ <\/p><p>Our minimalistic approach offers an atmosphere to slow down, relax and to enjoy your coffee.<\/p><p>‎ <\/p><p>PS:  We are hiring<strong> trained baristas<\/strong> | Check out our <a href=\"\/pages\/careers\" target=\"_blank\" title=\"Careers\">careers page.<\/a><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18000227959051__0381f1f2-72a5-4e29-9f41-01e253d35e1f-heading-1",
+        "template--18000227959051__0381f1f2-72a5-4e29-9f41-01e253d35e1f-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_MITTE.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "1625939a-6289-4eb8-954a-461799ae0191"
+    "1625939a-6289-4eb8-954a-461799ae0191",
+    "0381f1f2-72a5-4e29-9f41-01e253d35e1f"
   ]
 }
