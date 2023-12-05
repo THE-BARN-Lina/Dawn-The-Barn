@@ -174,7 +174,7 @@
           "type": "heading",
           "settings": {
             "heading": "ADVENT TOP FOUR",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
@@ -205,12 +205,13 @@
       "custom_css": [
         ".banner__text {font-size: 16px;}",
         ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);}",
+        ".banner__content {flex-direction: row-reverse; margin-right: -40px;}",
         "@media only screen and (min-width: 750px) {.banner__heading {width: 70%; }}",
-        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}"
+        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; } .banner__box{margin-bottom: -500px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/gradient-advent_c6dabbbf-2346-471f-968e-2cb00efdd117.jpg",
-        "image_2": "shopify:\/\/shop_images\/AdventBoxofFourMasterpieces_2.png",
+        "image": "shopify:\/\/shop_images\/AdventBoxofFourMasterpieces_2.png",
+        "image_2": "shopify:\/\/shop_images\/gradient-advent_c6dabbbf-2346-471f-968e-2cb00efdd117.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "adapt_height_first_image": false,
