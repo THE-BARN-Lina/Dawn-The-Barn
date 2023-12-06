@@ -288,11 +288,11 @@
         },
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Doi_saket_producers.jpg",
+            "caption": "DAY 6",
+            "heading": "<strong>Doi Saket. Thailand<\/strong>",
+            "text": "<p>Catimor. Anaerobic<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
