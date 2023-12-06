@@ -1,7 +1,8 @@
-{% comment %}ly_liquid_scripts_begin{% endcomment %}{% capture ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}<!doctype html>
+{% comment %}ly_liquid_scripts_begin{% endcomment %}{% capture ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}
+<!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}"{% comment %}ly_dir_replace_for_[]_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%} dir="rtl" {%- endif -%}{% comment %}ly_dir_replace_end{% endcomment %}>
-  <head>{% render "load-metafields" %}{% render 'pagefly-head' %}
-  
+  <head>
+    <script src="https://consent.cookiefirst.com/sites/thebarn.de-97206b1a-ef3d-4acf-bc10-6d2eb2f11e59/consent.js" defer></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 </script>
@@ -19,7 +20,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-TVJ57SM');</script>
     <!-- End Google Tag Manager -->
-    
+
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     
@@ -203,7 +204,7 @@
   
   
   <body class="gradient" >
-    <script src="https://consent.cookiefirst.com/sites/thebarn.de-97206b1a-ef3d-4acf-bc10-6d2eb2f11e59/consent.js" defer></script>
+ 
    
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
