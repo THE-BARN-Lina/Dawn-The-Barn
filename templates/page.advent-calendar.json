@@ -299,11 +299,11 @@
         },
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Mbokam_Josephine_6bd5ae12-f4e6-40e1-84ed-b40e8dc8c10e.jpg",
+            "caption": "DAY 7",
+            "heading": "<strong>Mbokam AB. Kenya<\/strong>",
+            "text": "<p>SL28 & Ruiru 11. Washed<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
