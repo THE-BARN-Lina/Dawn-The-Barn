@@ -10,6 +10,7 @@
     },
     "16590189470dfa78be": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"container\"> \n<div class=\"iframe-container\">\n    <iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/USDQHnyNHVA?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<div id=\"text\"><h1> About Us<\/h1><\/div>\n<\/div>\n<\/div> \n\n    <style>\n#text{\n \/*position: absolute;*\/\ncolor: #FFFFFF;\n}\n        \n\n\n.iframe-container{\n  \/*position: relative;*\/\n  width: 100%; \n  height: 640px;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  gap:10px;\n}\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n<\/style>",
         "color_scheme": "background-1",
