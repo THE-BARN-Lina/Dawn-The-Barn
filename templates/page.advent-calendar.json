@@ -318,6 +318,17 @@
             "button_label": "EXPLORE NOW",
             "button_link": "shopify:\/\/pages\/8th-december-shantawene-ethiopia"
           }
+        },
+        "2564ccc3-4167-463f-a02b-c58ca192c3df": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chaiprakarn_50ae8fa1-2f95-41b9-b929-f3621da69023.jpg",
+            "caption": "DAY 8",
+            "heading": "<strong>Chaiprakarn. Thailand<\/strong>",
+            "text": "<p>Catimor. Washed<\/p>",
+            "button_label": "EXPLORE NOW",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -328,7 +339,8 @@
         "d083ee11-e062-41ba-9cbf-7ff55a4209ad",
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2",
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3",
-        "72b88b67-7354-492e-b651-96524afa0058"
+        "72b88b67-7354-492e-b651-96524afa0058",
+        "2564ccc3-4167-463f-a02b-c58ca192c3df"
       ],
       "settings": {
         "image_height": "medium",
