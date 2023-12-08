@@ -758,6 +758,33 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "0dce7644-9acd-4924-8c15-bca5da68ff50": {
+      "type": "GDPR_LC_Manager",
+      "settings": {
+        "testMode": false,
+        "useOverlay": true,
+        "unit": "px",
+        "bannerMaxWidth": 480,
+        "bannerWidthMobile": 8,
+        "fontSize": 12,
+        "z_index": 20,
+        "buttonClass": "Button, Button--primary",
+        "eventType": "click",
+        "overlay_color": "#000000",
+        "overlay_opacity": 50,
+        "overlay_blur": 4,
+        "box_color": "#fff",
+        "text_color": "#000",
+        "activate_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_opacity": 50,
+        "shadow_x": 8,
+        "shadow_y": 8,
+        "shadow_blur_radius": 8,
+        "shadow_spread_radius": 8,
+        "wrapper_border_radius": 8
+      }
     }
   },
   "order": [
@@ -776,6 +803,7 @@
     "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
     "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
-    "9548d051-e9a3-422f-91dd-584c92a394fd"
+    "9548d051-e9a3-422f-91dd-584c92a394fd",
+    "0dce7644-9acd-4924-8c15-bca5da68ff50"
   ]
 }

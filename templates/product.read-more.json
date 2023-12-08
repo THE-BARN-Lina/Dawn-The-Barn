@@ -279,7 +279,7 @@
         "4521e142-d5cd-45d3-8190-b025d51f3241"
       ],
       "settings": {
-        "testMode": true,
+        "testMode": false,
         "useOverlay": true,
         "unit": "px",
         "bannerMaxWidth": 480,
@@ -291,8 +291,8 @@
         "overlay_color": "#000000",
         "overlay_opacity": 50,
         "overlay_blur": 4,
-        "box_color": "#fff",
-        "text_color": "#000",
+        "box_color": "#ffffff",
+        "text_color": "#000000",
         "activate_shadow": false,
         "shadow_color": "#000000",
         "shadow_opacity": 50,
