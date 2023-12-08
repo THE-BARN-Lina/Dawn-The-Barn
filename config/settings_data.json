@@ -204,14 +204,14 @@
             "type": "text",
             "settings": {
               "heading": "SHOP",
-              "subtext": "<h5><a href=\"\/collections\/beans\" title=\"COFFEE BEANS\">Beans<\/a><br\/><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<br\/><\/a><a href=\"\/products\/specialty-coffee-capsules\" title=\"COFFEE CAPSULES\">Capsules<\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment <br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a> <br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h5>"
+              "subtext": "<h5><a href=\"\/collections\/beans\" title=\"COFFEE BEANS\">Beans<\/a><br\/><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<br\/><\/a><a href=\"\/products\/specialty-coffee-capsules\" title=\"COFFEE CAPSULES\">Capsules<\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment\u2028<br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a>\u2028<br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h5>"
             }
           },
           "33c97cbe-0f9e-4981-998f-81e7ff9b9679": {
             "type": "text",
             "settings": {
               "heading": "ABOUT",
-              "subtext": "<h4><a href=\"\/pages\/aboutus\" title=\"About Us\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team <\/a><br\/><a href=\"\/pages\/locations\" title=\"Locations\">Locations<br\/><\/a><a href=\"\/pages\/careers\" title=\"Careers\">Careers<\/a><\/h4>"
+              "subtext": "<h4><a href=\"\/pages\/aboutus\" title=\"About Us\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team\u2028<\/a><br\/><a href=\"\/pages\/locations\" title=\"Locations\">Locations<br\/><\/a><a href=\"\/pages\/careers\" title=\"Careers\">Careers<\/a><\/h4>"
             }
           },
           "705afaa5-785a-40f3-9e83-5c853fe5b6aa": {
@@ -232,7 +232,7 @@
             "type": "text",
             "settings": {
               "heading": "BLOG",
-              "subtext": "<h5><a href=\"\/blogs\/the-barn-blog\" title=\"BLOG\">Articles & Education <br\/><\/a><a href=\"\/pages\/brew-guides\" title=\"Brew Guides\">Brew Guides<\/a><a href=\"\/pages\/signature-drinks\" title=\"SIGNATURE DRINKS\"><br\/>Signature Drinks<\/a><\/h5>"
+              "subtext": "<h5><a href=\"\/blogs\/the-barn-blog\" title=\"BLOG\">Articles & Education\u2028<br\/><\/a><a href=\"\/pages\/brew-guides\" title=\"Brew Guides\">Brew Guides<\/a><a href=\"\/pages\/signature-drinks\" title=\"SIGNATURE DRINKS\"><br\/>Signature Drinks<\/a><\/h5>"
             }
           },
           "780a470e-2fa4-4e1a-9954-6422d2b44db5": {

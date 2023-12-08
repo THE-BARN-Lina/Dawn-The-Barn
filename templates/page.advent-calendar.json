@@ -307,6 +307,17 @@
             "button_label": "EXPLORE NOW",
             "button_link": "shopify:\/\/pages\/7th-december-mbokam-ab-kenya"
           }
+        },
+        "72b88b67-7354-492e-b651-96524afa0058": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shantawene_drying.jpg",
+            "caption": "DAY 8",
+            "heading": "<strong>Shantawene. Ethiopia<\/strong>",
+            "text": "<p>Mixed heirloom. Anaerobic<\/p>",
+            "button_label": "EXPLORE NOW",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -316,7 +327,8 @@
         "48e2f35c-c65b-4485-92e4-3f01f05ff7ed",
         "d083ee11-e062-41ba-9cbf-7ff55a4209ad",
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2",
-        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3"
+        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3",
+        "72b88b67-7354-492e-b651-96524afa0058"
       ],
       "settings": {
         "image_height": "medium",
