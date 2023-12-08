@@ -8,9 +8,9 @@
           "settings": {
             "title": "Marketing",
             "cookie": "Youtube Video",
-            "thirdParty": false,
+            "thirdParty": true,
             "addResizeEvent": true,
-            "parentSelector": "iframe-container",
+            "parentSelector": ".iframe-container",
             "required_childs": ""
           }
         }
