@@ -259,6 +259,49 @@
         "padding_top": 60,
         "padding_bottom": 28
       }
+    },
+    "aee96cdd-5cdb-43ed-b6ae-7d51d9870f15": {
+      "type": "GDPR_LC_Manager",
+      "blocks": {
+        "4521e142-d5cd-45d3-8190-b025d51f3241": {
+          "type": "overlay",
+          "settings": {
+            "title": "THEBARN_Youtube_Vid",
+            "cookie": "THEBARN_Youtube_Vid",
+            "thirdParty": true,
+            "addResizeEvent": true,
+            "parentSelector": "",
+            "required_childs": ""
+          }
+        }
+      },
+      "block_order": [
+        "4521e142-d5cd-45d3-8190-b025d51f3241"
+      ],
+      "settings": {
+        "testMode": true,
+        "useOverlay": true,
+        "unit": "px",
+        "bannerMaxWidth": 480,
+        "bannerWidthMobile": 8,
+        "fontSize": 12,
+        "z_index": 20,
+        "buttonClass": "Button, Button--primary",
+        "eventType": "click",
+        "overlay_color": "#000000",
+        "overlay_opacity": 50,
+        "overlay_blur": 4,
+        "box_color": "#fff",
+        "text_color": "#000",
+        "activate_shadow": false,
+        "shadow_color": "#000000",
+        "shadow_opacity": 50,
+        "shadow_x": 8,
+        "shadow_y": 8,
+        "shadow_blur_radius": 8,
+        "shadow_spread_radius": 8,
+        "wrapper_border_radius": 8
+      }
     }
   },
   "order": [
@@ -267,6 +310,7 @@
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "aee96cdd-5cdb-43ed-b6ae-7d51d9870f15"
   ]
 }
