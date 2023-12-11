@@ -1618,25 +1618,25 @@ margin-bottom:12px;
       </div>
     </section>
     <section class="text-buttom-container">
-      {%- if section.settings.SOUTH_KOREA_HEADING_1 != blank -%}
+      {%- if section.settings.SOUTH_KOREA_SEONGSU_HEADING != blank -%}
         <h2>
-          {{ section.settings.SOUTH_KOREA_HEADING_1 | escape }}
+          {{ section.settings.SOUTH_KOREA_SEONGSU_HEADING | escape }}
         </h2>
       {%- endif -%}
         
-      {%- if section.settings.SOUTH_KOREA_ADDRESS_1 != blank -%}
-          <p>{{ section.settings.SOUTH_KOREA_ADDRESS_1 | escape }}</p>
+      {%- if section.settings.SOUTH_KOREA_SEONGSU_ADDRESS != blank -%}
+          <p>{{ section.settings.SOUTH_KOREA_SEONGSU_ADDRESS | escape }}</p>
       {%- endif -%}
 
-      {%- if section.settings.SOUTH_KOREA_OPENING_1 != blank -%}
+      {%- if section.settings.SOUTH_KOREA_SEONGSU_OPENING != blank -%}
         <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-          {{ section.settings.SOUTH_KOREA_OPENING_1 | replace: 'p>', 'span>' }}
+          {{ section.settings.SOUTH_KOREA_SEONGSU_OPENING | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
 
-      {%- if section.settings.SOUTH_KOREA_LINK_1 != blank -%}
+      {%- if section.settings.SOUTH_KOREA_SEONGSU_LINK != blank -%}
         <p class="btn-card">
-          {{ section.settings.SOUTH_KOREA_LINK_1 | replace: 'p>', 'span>' }}
+          {{ section.settings.SOUTH_KOREA_SEONGSU_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
     </section>
@@ -2350,6 +2350,12 @@ margin-bottom:12px;
 
 
 
+
+
+
+
+
+
         {
       "type": "image_picker",
       "id": "SOUTH_KOREA_IMAGE",
@@ -2390,6 +2396,11 @@ margin-bottom:12px;
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
              
+
+
+
+
+
 
         {
       "type": "image_picker",
