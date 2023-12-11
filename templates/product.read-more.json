@@ -33,64 +33,6 @@
         "include_margins": true
       }
     },
-    "aee96cdd-5cdb-43ed-b6ae-7d51d9870f15": {
-      "type": "GDPR_LC_Manager",
-      "blocks": {
-        "7be0a49d-212c-47a7-994c-a50a2590c8d4": {
-          "type": "overlay",
-          "settings": {
-            "title": "Marketing",
-            "cookie": "Youtube Video",
-            "thirdParty": true,
-            "addResizeEvent": true,
-            "parentSelector": ".iframe-container",
-            "required_childs": ""
-          }
-        },
-        "7dd3bf20-3347-4975-baaa-6bfbd895f09f": {
-          "type": "thirdPartyScript",
-          "settings": {
-            "title": "Youtube Iframe Container",
-            "group": "Youtube Embed",
-            "use_iframes": true,
-            "provider": "Youtube.com",
-            "domain": "https:\/\/www.youtube.com\/iframe_api\\ ",
-            "description": "This cookie is data from Youtube Embed function",
-            "src": "youtube",
-            "declaration": "2",
-            "duration": "0"
-          }
-        }
-      },
-      "block_order": [
-        "7be0a49d-212c-47a7-994c-a50a2590c8d4",
-        "7dd3bf20-3347-4975-baaa-6bfbd895f09f"
-      ],
-      "settings": {
-        "testMode": false,
-        "useOverlay": true,
-        "unit": "px",
-        "bannerMaxWidth": 480,
-        "bannerWidthMobile": 8,
-        "fontSize": 12,
-        "z_index": 20,
-        "buttonClass": "Button, Button--primary",
-        "eventType": "click",
-        "overlay_color": "#000000",
-        "overlay_opacity": 50,
-        "overlay_blur": 4,
-        "box_color": "#ffffff",
-        "text_color": "#000000",
-        "activate_shadow": false,
-        "shadow_color": "#000000",
-        "shadow_opacity": 50,
-        "shadow_x": 8,
-        "shadow_y": 8,
-        "shadow_blur_radius": 8,
-        "shadow_spread_radius": 8,
-        "wrapper_border_radius": 8
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -322,7 +264,6 @@
   "order": [
     "6c825c22-ccb4-4331-a51d-fe33f8a1439b",
     "16533374668f19867f",
-    "aee96cdd-5cdb-43ed-b6ae-7d51d9870f15",
     "main",
     "image-with-text",
     "multicolumn",

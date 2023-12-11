@@ -307,105 +307,6 @@
             "button_label": "EXPLORE NOW",
             "button_link": "shopify:\/\/pages\/7th-december-mbokam-ab-kenya"
           }
-        },
-        "72b88b67-7354-492e-b651-96524afa0058": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shantawene_drying.jpg",
-            "caption": "DAY 8",
-            "heading": "<strong>Shantawene. Ethiopia<\/strong>",
-            "text": "<p>Mixed heirloom. Anaerobic<\/p>",
-            "button_label": "EXPLORE NOW",
-            "button_link": "shopify:\/\/pages\/8th-december-shantawene-ethiopia"
-          }
-        },
-        "2564ccc3-4167-463f-a02b-c58ca192c3df": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/chaiprakarn_50ae8fa1-2f95-41b9-b929-f3621da69023.jpg",
-            "caption": "DAY 9",
-            "heading": "<strong>Chaiprakarn. Thailand<\/strong>",
-            "text": "<p>Catimor. Washed<\/p>",
-            "button_label": "EXPLORE NOW",
-            "button_link": "shopify:\/\/pages\/9th-december-chaiprakarn-thailand"
-          }
-        },
-        "2ddf6546-a35a-4c70-8109-972ab8e57aae": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mahembe_1_1f44ad39-02d9-4ddf-9bd0-1ea5250ae08c.jpg",
-            "caption": "DAY 10",
-            "heading": "<strong>Mahembe. Rwanda<\/strong>",
-            "text": "<p>Red Bourbon. Washed<\/p>",
-            "button_label": "EXPLORE NOW",
-            "button_link": ""
-          }
-        },
-        "68df3bb6-d3ee-4ae1-a978-3a00a46fd016": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Myanmar_sorting.jpg",
-            "caption": "DAY 11",
-            "heading": "<strong>Pa-O. Myanmar<\/strong>",
-            "text": "<p>Caturra & S795. Natural<\/p>",
-            "button_label": "EXPLORE NOW",
-            "button_link": "shopify:\/\/pages\/11th-december-pa-o-myanmar"
-          }
-        },
-        "cc55bffa-fa49-426c-94d7-7e6065d30682": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "DAY 12",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "b4fcff22-b18d-416b-93c6-1846749a2064": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "DAY 13",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "b3be5977-7c0b-4f1d-a60b-716794dc5ed3": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "DAY 14",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "4f6d61ab-facb-4561-a3a9-1095da9bed29": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "DAY 15",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "15ac91f1-5620-4491-8175-917ab56d39d7": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "caption": "DAY 16",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
@@ -415,16 +316,7 @@
         "48e2f35c-c65b-4485-92e4-3f01f05ff7ed",
         "d083ee11-e062-41ba-9cbf-7ff55a4209ad",
         "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-2",
-        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3",
-        "72b88b67-7354-492e-b651-96524afa0058",
-        "2564ccc3-4167-463f-a02b-c58ca192c3df",
-        "2ddf6546-a35a-4c70-8109-972ab8e57aae",
-        "68df3bb6-d3ee-4ae1-a978-3a00a46fd016",
-        "cc55bffa-fa49-426c-94d7-7e6065d30682",
-        "b4fcff22-b18d-416b-93c6-1846749a2064",
-        "b3be5977-7c0b-4f1d-a60b-716794dc5ed3",
-        "4f6d61ab-facb-4561-a3a9-1095da9bed29",
-        "15ac91f1-5620-4491-8175-917ab56d39d7"
+        "template--18323748946187__c92202e1-bb5f-450c-82eb-d983f4bc9f28-row-3"
       ],
       "settings": {
         "image_height": "medium",
