@@ -212,12 +212,12 @@
   
     {% section 'announcement-bar' %}
     {% section 'header' %}
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {% capture ICART_FULL_PAGE_LAYOUT %}{{ content_for_layout }}{% endcapture %}{% include 'icart-variables', ICART_FULL_PAGE_LAYOUT: ICART_FULL_PAGE_LAYOUT %}
+   <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+     {{ content_for_layout }}
     </main>
     {% section 'footer' %}
      
-    {%comment%}{% section 'ajax-drawer'%}{%endcomment%}	
+    
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
     </ul>
