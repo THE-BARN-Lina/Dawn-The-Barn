@@ -1546,6 +1546,116 @@ margin-bottom:12px;
       {%- endif -%}
     </section>
   </section>
+
+  <section class="image-with-text page-width">
+    <section class="section-SOUTH_KOREA-padding slider-container">
+      {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 165 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 360 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 535 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 750 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url }} {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width }}
+          "
+          src="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide active"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 165 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 360 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 535 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 750 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url }} {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width }}
+          "
+          src="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1| image_url: width: 1500 }}"
+          alt="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 165 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 360 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 535 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 750 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url }} {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width }}
+          "
+          src="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      <div class="slider-buttons">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+    <section class="text-buttom-container">
+      {%- if section.settings.SOUTH_KOREA_HEADING_1 != blank -%}
+        <h2>
+          {{ section.settings.SOUTH_KOREA_HEADING_1 | escape }}
+        </h2>
+      {%- endif -%}
+        
+      {%- if section.settings.SOUTH_KOREA_ADDRESS_1 != blank -%}
+          <p>{{ section.settings.SOUTH_KOREA_ADDRESS_1 | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.SOUTH_KOREA_OPENING_1 != blank -%}
+        <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          {{ section.settings.SOUTH_KOREA_OPENING_1 | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.SOUTH_KOREA_LINK_1 != blank -%}
+        <p class="btn-card">
+          {{ section.settings.SOUTH_KOREA_LINK_1 | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+    </section>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </section>
 
 <section class="content" id="tab-content-4">
@@ -2235,6 +2345,11 @@ margin-bottom:12px;
           "default": "<p>link your location</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
+
+
+
+
+
         {
       "type": "image_picker",
       "id": "SOUTH_KOREA_IMAGE",
@@ -2274,6 +2389,59 @@ margin-bottom:12px;
           "default": "<p>link your location</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
+             
+
+        {
+      "type": "image_picker",
+      "id": "SOUTH_KOREA_SEONGSU_IMAGE_1",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "SOUTH_KOREA_SEONGSU_IMAGE_2",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "SOUTH_KOREA_SEONGSU_IMAGE_3",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+          "type": "text",
+          "id": "SOUTH_KOREA_SEONGSU_HEADING",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "text",
+          "id": "SOUTH_KOREA_SEONGSU_ADDRESS",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "SOUTH_KOREA_SEONGSU_OPENING",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "SOUTH_KOREA_SEONGSU_LINK",
+          "default": "<p>link your location</p>",
+          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
         {
       "type": "image_picker",
       "id": "DUBAI_IMAGE",
