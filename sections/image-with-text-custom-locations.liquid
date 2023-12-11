@@ -1548,20 +1548,20 @@ margin-bottom:12px;
   </section>
 
   <section class="image-with-text page-width">
-    <section class="section-SOUTH_KOREA_SEONGSU-padding slider-container">
-      {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE != blank -%}
+    <section class="section-SOUTH_KOREA_YEONHUI-padding slider-container">
+      {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE != blank -%}
         <img
           srcset="
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 165 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 360 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 535 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 750 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE | image_url }} {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE.width }}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE.width >= 165 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE.width >= 360 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE.width >= 535 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE.width >= 750 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE | image_url }} {{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE.width }}
           "
-          src="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE| image_url: width: 1500 }}"
-          alt="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE.alt | escape }}"
+          src="{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -1570,19 +1570,19 @@ margin-bottom:12px;
       {%- else -%}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
-      {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 != blank -%}
+      {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1 != blank -%}
         <img
           srcset="
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 165 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 360 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 535 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 750 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1 | image_url }} {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.width }}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1.width >= 165 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1.width >= 360 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1.width >= 535 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1.width >= 750 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1 | image_url }} {{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1.width }}
           "
-          src="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1| image_url: width: 1500 }}"
-          alt="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_1.alt | escape }}"
+          src="{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1| image_url: width: 1500 }}"
+          alt="{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_1.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -1591,19 +1591,19 @@ margin-bottom:12px;
       {%- else -%}
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
-      {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 != blank -%}
+      {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2 != blank -%}
         <img
           srcset="
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 165 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 360 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 535 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 750 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2 | image_url }} {{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.width }}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2.width >= 165 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2.width >= 360 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2.width >= 535 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2.width >= 750 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2.width >= 1070 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2.width >= 1500 -%}{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2 | image_url }} {{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2.width }}
           "
-          src="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.SOUTH_KOREA_SEONGSU_IMAGE_2.alt | escape }}"
+          src="{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.SOUTH_KOREA_YEONHUI_IMAGE_2.alt | escape }}"
           loading="lazy"
           width=""
           height=""
@@ -1618,25 +1618,25 @@ margin-bottom:12px;
       </div>
     </section>
     <section class="text-buttom-container">
-      {%- if section.settings.SOUTH_KOREA_SEONGSU_HEADING != blank -%}
+      {%- if section.settings.SOUTH_KOREA_YEONHUI_HEADING != blank -%}
         <h2>
-          {{ section.settings.SOUTH_KOREA_SEONGSU_HEADING | escape }}
+          {{ section.settings.SOUTH_KOREA_YEONHUI_HEADING | escape }}
         </h2>
       {%- endif -%}
         
-      {%- if section.settings.SOUTH_KOREA_SEONGSU_ADDRESS != blank -%}
-          <p>{{ section.settings.SOUTH_KOREA_SEONGSU_ADDRESS | escape }}</p>
+      {%- if section.settings.SOUTH_KOREA_YEONHUI_ADDRESS != blank -%}
+          <p>{{ section.settings.SOUTH_KOREA_YEONHUI_ADDRESS | escape }}</p>
       {%- endif -%}
 
-      {%- if section.settings.SOUTH_KOREA_SEONGSU_OPENING != blank -%}
+      {%- if section.settings.SOUTH_KOREA_YEONHUI_OPENING != blank -%}
         <p class="rich-text__heading rte {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-          {{ section.settings.SOUTH_KOREA_SEONGSU_OPENING | replace: 'p>', 'span>' }}
+          {{ section.settings.SOUTH_KOREA_YEONHUI_OPENING | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
 
-      {%- if section.settings.SOUTH_KOREA_SEONGSU_LINK != blank -%}
+      {%- if section.settings.SOUTH_KOREA_YEONHUI_LINK != blank -%}
         <p class="btn-card">
-          {{ section.settings.SOUTH_KOREA_SEONGSU_LINK | replace: 'p>', 'span>' }}
+          {{ section.settings.SOUTH_KOREA_YEONHUI_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
     </section>
@@ -1825,7 +1825,7 @@ margin-bottom:12px;
   initializeSlider('.section-ROASTERY-padding.slider-container');
   initializeSlider('.section-MALLORCA-padding.slider-container');  
   initializeSlider('.section-SOUTH_KOREA-padding.slider-container');
-  initializeSlider('.section-SOUTH_KOREA_SEONGSU-padding.slider-container');
+  initializeSlider('.section-SOUTH_KOREA_YEONHUI-padding.slider-container');
 
   initializeSlider('.section-DUBAI-padding.slider-container');
 });
@@ -2400,40 +2400,40 @@ margin-bottom:12px;
              
         {
       "type": "image_picker",
-      "id": "SOUTH_KOREA_SEONGSU_IMAGE",
+      "id": "SOUTH_KOREA_YEONHUI_IMAGE",
       "label": "t:sections.image-with-text.settings.image.label"
     },
     {
       "type": "image_picker",
-      "id": "SOUTH_KOREA_SEONGSU_IMAGE_1",
+      "id": "SOUTH_KOREA_YEONHUI_IMAGE_1",
       "label": "t:sections.image-with-text.settings.image.label"
     },
     {
       "type": "image_picker",
-      "id": "SOUTH_KOREA_SEONGSU_IMAGE_2",
+      "id": "SOUTH_KOREA_YEONHUI_IMAGE_2",
       "label": "t:sections.image-with-text.settings.image.label"
     },
     {
           "type": "text",
-          "id": "SOUTH_KOREA_SEONGSU_HEADING",
+          "id": "SOUTH_KOREA_YEONHUI_HEADING",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
           "type": "text",
-          "id": "SOUTH_KOREA_SEONGSU_ADDRESS",
+          "id": "SOUTH_KOREA_YEONHUI_ADDRESS",
           "default": "Image with text",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
           "type": "richtext",
-          "id": "SOUTH_KOREA_SEONGSU_OPENING",
+          "id": "SOUTH_KOREA_YEONHUI_OPENING",
           "default": "<p>link your location</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
         {
           "type": "richtext",
-          "id": "SOUTH_KOREA_SEONGSU_LINK",
+          "id": "SOUTH_KOREA_YEONHUI_LINK",
           "default": "<p>link your location</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
