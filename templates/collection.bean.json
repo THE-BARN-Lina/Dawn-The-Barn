@@ -340,6 +340,25 @@
         "padding_top": 100,
         "padding_bottom": 36
       }
+    },
+    "1fc3a4a8-f0d6-4102-a41b-b626464b690d": {
+      "type": "xmas-section-filters",
+      "settings": {
+        "collection": "aeropress-equipment",
+        "x_mas_sub": "shopify:\/\/shop_images\/GALLERIA_TIMEWORLD.jpg",
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "quick_add_button_color": "",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -351,6 +370,7 @@
     "a9608a96-2b9c-474b-bc96-4ce2504bf1ba",
     "4124a9d7-7910-428b-a05f-f8b4e4879abc",
     "03c3a901-f704-411d-8317-944644c86e30",
-    "16609096892f959660"
+    "16609096892f959660",
+    "1fc3a4a8-f0d6-4102-a41b-b626464b690d"
   ]
 }
