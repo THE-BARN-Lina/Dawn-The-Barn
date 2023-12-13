@@ -345,7 +345,7 @@
     "1fc3a4a8-f0d6-4102-a41b-b626464b690d": {
       "type": "xmas-section-filters",
       "settings": {
-        "collection": "coffee-beans",
+        "collection": "coffee-filter-equipment",
         "x_mas_sub": "shopify:\/\/shop_images\/GALLERIA_TIMEWORLD.jpg",
         "products_per_page": 16,
         "columns_desktop": 4,
