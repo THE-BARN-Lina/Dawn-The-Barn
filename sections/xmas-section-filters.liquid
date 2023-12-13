@@ -568,8 +568,8 @@
 
 <div class="section-{{ section.id }}-padding">
   <div class="product-grid-container" id="ProductGridContainer">
-    {%- paginate collection.products by section.settings.products_per_page -%}
-      <div class="sections-container">
+    {% if section.settings.collection.products.size > 0 %}      
+        <div class="sections-container">
         
       {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
         <section class="section-collection visible" id="x-mas-sub">
@@ -636,8 +636,11 @@
     
 
       </div>
-    {%- endpaginate -%}
-  </div>
+      {% else %}
+      <div class="grid__item">
+        <p><em>{{ 'home_page.onboarding.no_products_html' | t }}</em></p>
+      </div>
+      {% endif %}  </div>
 </div>
 
 <script>
