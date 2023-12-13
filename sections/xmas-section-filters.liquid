@@ -15,8 +15,49 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
+  :root  {
+    --brown: #804d15;
+    --white: #ffffff;
+    --black: #000000;
+  }
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
+    px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
+    px;
+  }
 
-   /* Padding for the section */
+  .scroll-wrapper {
+    overflow: hidden; /* Hide any horizontal overflow */
+    max-height: 200px;
+    margin-bottom: -15px;
+  }
+
+  .scroll-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: -16px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    background-color:red;
+  }
+
+  .filter-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    /* background-color: yellow; */
+  }
+
+    outline: 0.5px solid var(--white);
+    outline-offset: 4px;
+  }
+
+    /* Padding for the section */
   .section-{{ section.id }}-padding {
     padding-top: calc({{ section.settings.padding_top }}px * 0.75);
     padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
@@ -33,7 +74,6 @@
   /* Individual column link */
   .custom-column-link {
     display: inline-flex;
-    flex-direction: column;
     flex-shrink: 0;
     transition: background-color 0.3s ease-in-out;
     border-radius: 4px;
@@ -69,10 +109,9 @@
   }
 
   .custom-column-link:hover {
-   /* background-color: #1c1d1c; */
+    background-color: #1c1d1c;
     transform: scale(1.05); /* Slightly enlarge the entire link */
     border-radius: 10px;
-    background: linear-gradient(to right, #8d2431, #cd1624);
   }
 
   /* Title within the column link */
@@ -87,49 +126,93 @@
     margin-bottom: 0px;
   }
 
-  /* Remove underline on hover for all links */
-  a {
-    text-decoration: none !important;
+/* Media query for larger screens */
+@media (min-width: 769px) {
+  .custom-columns-container {
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0 30px 0 30px;
+    /*margin-top: 40px;*/
+    overflow-x: visible;
   }
-  
-  a:hover {
-    text-decoration: none !important;
+
+  .custom-column-link:not(:last-child) {
+    margin-right: 8px;
   }
 
-  /* Media query for larger screens */
-  @media (min-width: 769px) {
-    .custom-columns-container {
-      flex-flow: row wrap;
-      justify-content: center;
-      padding: 0 30px 0 30px;
-      /*margin-top: 40px;*/
-      overflow-x: visible;
-    }
-
-    .custom-column-link:not(:last-child) {
-      margin-right: 8px;
-    }
-
-    .custom-column-link {
-      margin-right: 27px; /* Adjust spacing for larger screens */
-      text-align: center;
-    }
-
-    .multicolumn-card__image {
-      width: 111px;
-      height: 111px;
-      margin-bottom: 14px;
-    }
-
-    .sub-collections__item-title {
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 24px;
-      min-width: 116px;
-      max-width: 116px;
-      margin-bottom: 0px;
-    }
+  .custom-column-link {
+    margin-right: 27px; /* Adjust spacing for larger screens */
+    text-align: center;
   }
+
+  .multicolumn-card__image {
+    width: 111px;
+    height: 111px;
+    margin-bottom: 14px;
+  }
+
+  .sub-collections__item-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    min-width: 116px;
+    max-width: 116px;
+    margin-bottom: 0px;
+  }
+}
+
+/* Styles for sections */
+.section-collection {
+  display: none;
+}
+.section-collection.visible {
+  display: block;
+}
+
+/* Additional styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .scroll-container {
+    flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
+  }
+  .filter-buttons {
+    justify-content: flex-start; /* Align items to the start (left) */
+    padding-right:0.5rem;
+  }
+  .filter-button-abo {
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+  }
+  .filter-image-text-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+    background-color:blue;
+    padding:1rem;
+    margin:1rem;
+    
+    min-width:130px;
+    max-width:130px;
+
+    min-height:200px;
+    max-height:200px;
+
+  }
+  .filter-image-text-container:hover{
+    cursor:pointer;
+  }
+  .image-button-filter{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+  }
+  .image-button-filter:hover{
+    border:2px solid white;
+    cursor:pointer;
+  }
+}
 
 {%- endstyle -%}
 
@@ -138,43 +221,89 @@
   role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" 
   aria-label="{{ section.settings.accessibility_info | escape }}">
 
-<section class="both-text-slide-wrapper">
-  
-
-  
-  <section class="slide-text-wrapper">
-
-
-    {%- for block in section.blocks -%}
-            {%- if block.settings.heading != blank -%}
-              <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
-            {%- endif -%}
-            <br/>
-            {%- if block.settings.subheading != blank -%}
-              <div class="banner__text" {{ block.shopify_attributes }}>
-                <span>{{ block.settings.subheading | escape }}</span>
-              </div>
-            {%- endif -%}
-            <br/>
-            {%- if block.settings.button_label != blank -%}
-              <div class="banner__buttons">
-                <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
-              </div>
-            {%- endif -%}
-    {%- endfor -%}
+  <section class="both-text-slide-wrapper">
     
+    <section class="slide-wrapper">
+      <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
+        id="Slider-{{ section.id }}"
+      >
+        {%- for block in section.blocks -%}
+      
+          <div class="slideshow__slide grid__item grid--1-col slider__slide"
+            id="Slide-{{ section.id }}-{{ forloop.index }}"
+            {{ block.shopify_attributes }}
+      
+          >
+          <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}">
+              {%- if block.settings.image -%}
+                <img
+                  srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
+                  {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
+                  {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | image_url: width: 1100 }} 1100w,{%- endif -%}
+                  {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | image_url: width: 1780 }} 1780w,{%- endif -%}
+                  {%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | image_url: width: 2000 }} 2000w,{%- endif -%}
+                  {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
+                  {%- if block.settings.image.width >= 3840 -%}{{ block.settings.image | image_url: width: 3840 }} 3840w,{%- endif -%}
+                  {{ block.settings.image | image_url }} {{ block.settings.image.width }}"
+                  sizes="100vw"
+                  src="{{ block.settings.image | image_url: width: 1500 }}"
+                  loading="lazy"
+                  alt=""
+                  width=""
+                  height=""
+                >
+              {%- else -%}
+                {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+
+      {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
+          <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
+            <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+            <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'sections.slideshow.next_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+          </div>
+      {%- endif -%}
+    </section>
+      
+    <section class="slide-text-wrapper">
+
+      {%- for block in section.blocks -%}
+              {%- if block.settings.heading != blank -%}
+                <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
+              {%- endif -%}
+              <br/>
+              {%- if block.settings.subheading != blank -%}
+                <div class="banner__text" {{ block.shopify_attributes }}>
+                  <span>{{ block.settings.subheading | escape }}</span>
+                </div>
+              {%- endif -%}
+              <br/>
+              {%- if block.settings.button_label != blank -%}
+                <div class="banner__buttons">
+                  <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
+                </div>
+              {%- endif -%}
+      {%- endfor -%}
+      
+    </section>
+
   </section>
-</section>
   
 </section>
 
 <div class="scroll-wrapper english-set" style="display: none;">
-    
-    <div class="custom-columns-container">
-      <section  class="filter-image-text-container custom-column-link"
-                onclick="toggleSection('x-mas-bookie')"
-                data-section="x-mas-bookie"
-      >
+  <div class="scroll-container custom-column-content">
+    <div class="filter-buttons">
+      <section 
+        class="filter-image-text-container"   
+        onclick="toggleSection('x-mas-sub')"
+        data-section="x-mas-sub"
+        >
         {%- if section.settings.x_mas_sub != blank -%}
           <img
             srcset="
@@ -191,176 +320,204 @@
             loading="lazy"
             width=""
             height=""
-            class="image-button-filter multicolumn-card__image"
-            onclick="toggleSection('x-mas-sub')"
-            data-section="x-mas-sub"
+            class="image-button-filter"
+            
           >
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
-        <p class="sub-collections__item-title">CHRISTMAS SUBSCRIPTION</p>
+        <p>CHRISTMAS SUBSCRIPTION</p>
       </section>
-          <section class="filter-image-text-container custom-column-link">
-        {%- if section.settings.x_mas_sub != blank -%}
+          
+      <section 
+        class="filter-image-text-container"
+        onclick="toggleSection('x-mas-bookie')"
+        data-section="x-mas-bookie"
+        >
+        {%- if section.settings.x_mas_bookie != blank -%}
           <img
             srcset="
-              {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
+              {%- if section.settings.x_mas_bookie.width >= 165 -%}{{ section.settings.x_mas_bookie | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.x_mas_bookie.width >= 360 -%}{{ section.settings.x_mas_bookie | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.x_mas_bookie.width >= 535 -%}{{ section.settings.x_mas_bookie | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.x_mas_bookie.width >= 750 -%}{{ section.settings.x_mas_bookie | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.x_mas_bookie.width >= 1070 -%}{{ section.settings.x_mas_bookie | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.x_mas_bookie.width >= 1500 -%}{{ section.settings.x_mas_bookie | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.x_mas_bookie | image_url }} {{ section.settings.x_mas_bookie.width }}
             "
             src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_sub.alt | escape }}"
+            alt="{{ section.settings.x_mas_bookie.alt | escape }}"
             loading="lazy"
             width=""
             height=""
-            class="image-button-filter multicolumn-card__image"
+            class="image-button-filter"
             onclick="toggleSection('x-mas-bookie')"
             data-section="x-mas-bookie"
           >
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
-        <p class="sub-collections__item-title">CHRISTMAS BOOKS</p>
+        <p>CHRISTMAS BOOKS</p>
       </section>
-      <section class="filter-image-text-container custom-column-link">
-        {%- if section.settings.x_mas_sub != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_sub.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter multicolumn-card__image"
-            onclick="toggleSection('x-mas-sub')"
-            data-section="x-mas-sub"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p class="sub-collections__item-title">CHRISTMAS CARDS</p>
-      </section>
-      <section class="filter-image-text-container custom-column-link">
-        {%- if section.settings.x_mas_sub != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_sub.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter multicolumn-card__image"
-            onclick="toggleSection('x-mas-sub')"
-            data-section="x-mas-sub"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p class="sub-collections__item-title">CHRISTMAS FELLOW</p>
-      </section>
-      <section class="filter-image-text-container custom-column-link">
-        {%- if section.settings.x_mas_sub != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_sub.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter multicolumn-card__image"
-            onclick="toggleSection('x-mas-sub')"
-            data-section="x-mas-sub"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p class="sub-collections__item-title">CHRISTMAS EQUIPMENT</p>
-      </section>
-      <section class="filter-image-text-container custom-column-link">
-        {%- if section.settings.x_mas_sub != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_sub.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter multicolumn-card__image"
-            onclick="toggleSection('x-mas-sub')"
-            data-section="x-mas-sub"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p class="sub-collections__item-title" >CHRISTMAS BOOKS</p>
-      </section>
-      <section class="filter-image-text-container custom-column-link">
-        {%- if section.settings.x_mas_sub != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_sub.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter multicolumn-card__image"
-            onclick="toggleSection('x-mas-sub')"
-            data-section="x-mas-sub"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p class="sub-collections__item-title">CHRISTMAS CHRISTMAS</p>
-      </section>
-   
 
+      <section 
+        class="filter-image-text-container"
+        onclick="toggleSection('x-mas-giftcard')"
+        data-section="x-mas-giftcard"
+        >
+        {%- if section.settings.x_mas_giftcard != blank -%}
+          <img
+            srcset="
+              {%- if section.settings.x_mas_giftcard .width >= 165 -%}{{ section.settings.x_mas_giftcard  | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.x_mas_giftcard .width >= 360 -%}{{ section.settings.x_mas_giftcard  | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.x_mas_giftcard .width >= 535 -%}{{ section.settings.x_mas_giftcard  | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.x_mas_giftcard .width >= 750 -%}{{ section.settings.x_mas_giftcard  | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.x_mas_giftcard .width >= 1070 -%}{{ section.settings.x_mas_giftcard  | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.x_mas_giftcard .width >= 1500 -%}{{ section.settings.x_mas_giftcard  | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.x_mas_giftcard  | image_url }} {{ section.settings.x_mas_giftcard .width }}
+            "
+            src="{{ section.settings.image_2| image_url: width: 1500 }}"
+            alt="{{ section.settings.x_mas_giftcard .alt | escape }}"
+            loading="lazy"
+            width=""
+            height=""
+            class="image-button-filter"
+            onclick="toggleSection('x-mas-giftcard')"
+            data-section="x-mas-giftcard"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+        <p>CHRISTMAS CARDS</p>
+      </section>
 
+      <section 
+        class="filter-image-text-container"
+        onclick="toggleSection('x-mas-fellowi')"
+        data-section="x-mas-fellow"
+        >
+        {%- if section.settings.x_mas_fellowi != blank -%}
+          <img
+            srcset="
+              {%- if section.settings.x_mas_fellowi.width >= 165 -%}{{ section.settings.x_mas_fellowi | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.x_mas_fellowi.width >= 360 -%}{{ section.settings.x_mas_fellowi | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.x_mas_fellowi.width >= 535 -%}{{ section.settings.x_mas_fellowi | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.x_mas_fellowi.width >= 750 -%}{{ section.settings.x_mas_fellowi | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.x_mas_fellowi.width >= 1070 -%}{{ section.settings.x_mas_fellowi | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.x_mas_fellowi.width >= 1500 -%}{{ section.settings.x_mas_fellowi | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.x_mas_fellowi | image_url }} {{ section.settings.x_mas_fellowi.width }}
+            "
+            src="{{ section.settings.image_2| image_url: width: 1500 }}"
+            alt="{{ section.settings.x_mas_fellowi.alt | escape }}"
+            loading="lazy"
+            width=""
+            height=""
+            class="image-button-filter"
+            onclick="toggleSection('x-mas-fellowi')"
+            data-section="x-mas-fellowi"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+        <p>CHRISTMAS FELLOW</p>
+      </section>
+
+      <section 
+        class="filter-image-text-container"
+        onclick="toggleSection('x-mas-equip')"
+        data-section="x-mas-equip"
+        >
+        {%- if section.settings.x_mas_equip != blank -%}
+          <img
+            srcset="
+              {%- if section.settings.x_mas_equip.width >= 165 -%}{{ section.settings.x_mas_equip | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.x_mas_equip.width >= 360 -%}{{ section.settings.x_mas_equip | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.x_mas_equip.width >= 535 -%}{{ section.settings.x_mas_equip | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.x_mas_equip.width >= 750 -%}{{ section.settings.x_mas_equip | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.x_mas_equip.width >= 1070 -%}{{ section.settings.x_mas_equip | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.x_mas_equip.width >= 1500 -%}{{ section.settings.x_mas_equip | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.x_mas_equip | image_url }} {{ section.settings.x_mas_equip.width }}
+            "
+            src="{{ section.settings.image_2| image_url: width: 1500 }}"
+            alt="{{ section.settings.x_mas_equip.alt | escape }}"
+            loading="lazy"
+            width=""
+            height=""
+            class="image-button-filter"
+            onclick="toggleSection('x-mas-equip')"
+            data-section="x-mas-equip"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+        <p>CHRISTMAS EQUIPMENT</p>
+      </section>
+
+      <section 
+        class="filter-image-text-container"
+        onclick="toggleSection('x-mas-boxi')"
+        data-section="x-mas-boxi"
+        >
+        {%- if section.settings.x_mas_boxi != blank -%}
+          <img
+            srcset="
+              {%- if section.settings.x_mas_boxi.width >= 165 -%}{{ section.settings.x_mas_boxi | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.x_mas_boxi.width >= 360 -%}{{ section.settings.x_mas_boxi | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.x_mas_boxi.width >= 535 -%}{{ section.settings.x_mas_boxi | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.x_mas_boxi.width >= 750 -%}{{ section.settings.x_mas_boxi | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.x_mas_boxi.width >= 1070 -%}{{ section.settings.x_mas_boxi | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.x_mas_boxi.width >= 1500 -%}{{ section.settings.x_mas_boxi | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.x_mas_boxi | image_url }} {{ section.settings.x_mas_boxi.width }}
+            "
+            src="{{ section.settings.image_2| image_url: width: 1500 }}"
+            alt="{{ section.settings.x_mas_boxi.alt | escape }}"
+            loading="lazy"
+            width=""
+            height=""
+            class="image-button-filter"
+            onclick="toggleSection('x-mas-boxi')"
+            data-section="x-mas-boxi"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+        <p>CHRISTMAS BOX</p>
+      </section>
+
+      <section 
+        class="filter-image-text-container"
+        onclick="toggleSection('x-mas-essent')"
+        data-section="x-mas-essent"
+        >
+        {%- if section.settings.x_mas_essent != blank -%}
+          <img
+            srcset="
+              {%- if section.settings.x_mas_essent.width >= 165 -%}{{ section.settings.x_mas_essent | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.x_mas_essent.width >= 360 -%}{{ section.settings.x_mas_essent | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.x_mas_essent.width >= 535 -%}{{ section.settings.x_mas_essent | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.x_mas_essent.width >= 750 -%}{{ section.settings.x_mas_essent | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.x_mas_essent.width >= 1070 -%}{{ section.settings.x_mas_essent | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.x_mas_essent.width >= 1500 -%}{{ section.settings.x_mas_essent | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.x_mas_essent | image_url }} {{ section.settings.x_mas_essent.width }}
+            "
+            src="{{ section.settings.image_2| image_url: width: 1500 }}"
+            alt="{{ section.settings.x_mas_essent.alt | escape }}"
+            loading="lazy"
+            width=""
+            height=""
+            class="image-button-filter"
+            onclick="toggleSection('x-mas-essent')"
+            data-section="x-mas-essent"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+        <p>CHRISTMAS ESSENTIALS</p>
+      </section>
     </div>
+  </div>
 </div>
+
 <div class="scroll-wrapper german-set" style="display: none;">
   <div class="scroll-container">
     <div class="filter-buttons">
@@ -401,15 +558,15 @@
     {% if section.settings.collection.products.size > 0 %}      
         <div class="sections-container">
         
-      {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
         <section class="section-collection visible" id="x-mas-sub">
           <h3 class="product-type-header"></h3>
           <ul
             id="product-grid"
             data-id="{{ section.id }}"
             class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    grid--{{ section.settings.columns_desktop }}-col-desktop">
+            grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+            grid--{{ section.settings.columns_desktop }}-col-desktop">
             {% for product in section.settings.collection.products %}
               {% if product.tags contains "x-mas-subscription" %}
                 {% assign lazy_load = false %}
@@ -432,7 +589,7 @@
             {%- endfor -%}
           </ul>
         </section>
-              {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
         <section class="section-collection visible" id="x-mas-bookie">
           <h3 class="product-type-header"></h3>
           <ul
@@ -463,14 +620,158 @@
             {%- endfor -%}
           </ul>
         </section>
-    
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="x-mas-giftcard">
+            <h3 class="product-type-header"></h3>
+            <ul
+              id="product-grid"
+              data-id="{{ section.id }}"
+              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+              {% for product in section.settings.collection.products %}
+                {% if product.tags contains "x-mas-voucher" %}
+                  {% assign lazy_load = false %}
+                  {%- if forloop.index > 2 -%}
+                    {%- assign lazy_load = true -%}
+                  {%- endif -%}
+                  <li class="grid__item">
+                    {% render 'card-product'
+                     , card_product: product,
+                     media_aspect_ratio: section.settings.image_ratio,
+                     show_secondary_image: section.settings.show_secondary_image,
+                     show_vendor: section.settings.show_vendor,
+                     show_rating: section.settings.show_rating,
+                     lazy_load: lazy_load,
+                     show_quick_add: section.settings.enable_quick_add,
+                     section_id: section.id,
+                     show_tastenotes: section.settings.show_tastenotes %}
+                  </li>
+                {% endif %}
+              {%- endfor -%}
+            </ul>
+        </section>
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="x-mas-fellowi">
+            <h3 class="product-type-header"></h3>
+            <ul
+              id="product-grid"
+              data-id="{{ section.id }}"
+              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+              {% for product in section.settings.collection.products %}
+                {% if product.tags contains "x-mas-fellow" %}
+                  {% assign lazy_load = false %}
+                  {%- if forloop.index > 2 -%}
+                    {%- assign lazy_load = true -%}
+                  {%- endif -%}
+                  <li class="grid__item">
+                    {% render 'card-product'
+                     , card_product: product,
+                     media_aspect_ratio: section.settings.image_ratio,
+                     show_secondary_image: section.settings.show_secondary_image,
+                     show_vendor: section.settings.show_vendor,
+                     show_rating: section.settings.show_rating,
+                     lazy_load: lazy_load,
+                     show_quick_add: section.settings.enable_quick_add,
+                     section_id: section.id,
+                     show_tastenotes: section.settings.show_tastenotes %}
+                  </li>
+                {% endif %}
+              {%- endfor -%}
+            </ul>
+        </section>
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="x-mas-equip">
+            <h3 class="product-type-header"></h3>
+            <ul
+              id="product-grid"
+              data-id="{{ section.id }}"
+              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+              {% for product in section.settings.collection.products %}
+                {% if product.tags contains "x-mas-equipment" %}
+                  {% assign lazy_load = false %}
+                  {%- if forloop.index > 2 -%}
+                    {%- assign lazy_load = true -%}
+                  {%- endif -%}
+                  <li class="grid__item">
+                    {% render 'card-product'
+                     , card_product: product,
+                     media_aspect_ratio: section.settings.image_ratio,
+                     show_secondary_image: section.settings.show_secondary_image,
+                     show_vendor: section.settings.show_vendor,
+                     show_rating: section.settings.show_rating,
+                     lazy_load: lazy_load,
+                     show_quick_add: section.settings.enable_quick_add,
+                     section_id: section.id,
+                     show_tastenotes: section.settings.show_tastenotes %}
+                  </li>
+                {% endif %}
+              {%- endfor -%}
+            </ul>
+        </section>
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="x-mas-boxi">
+          <h3 class="product-type-header"></h3>
+          <ul
+            id="product-grid"
+            data-id="{{ section.id }}"
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+            {% for product in section.settings.collection.products %}
+              {% if product.tags contains "x-mas-box" %}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                <li class="grid__item">
+                  {% render 'card-product'
+                    , card_product: product,
+                    media_aspect_ratio: section.settings.image_ratio,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    show_vendor: section.settings.show_vendor,
+                    show_rating: section.settings.show_rating,
+                    lazy_load: lazy_load,
+                    show_quick_add: section.settings.enable_quick_add,
+                    section_id: section.id,
+                    show_tastenotes: section.settings.show_tastenotes %}
+                </li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+        </section>
+        {% comment %} ///////////////////////////////////////////////////// {% endcomment %}
+        <section class="section-collection visible" id="x-mas-essent">
+          <h3 class="product-type-header"></h3>
+          <ul
+            id="product-grid"
+            data-id="{{ section.id }}"
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+            {% for product in section.settings.collection.products %}
+              {% if product.tags contains "x-mas-essentials" %}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                <li class="grid__item">
+                  {% render 'card-product'
+                    , card_product: product,
+                    media_aspect_ratio: section.settings.image_ratio,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    show_vendor: section.settings.show_vendor,
+                    show_rating: section.settings.show_rating,
+                    lazy_load: lazy_load,
+                    show_quick_add: section.settings.enable_quick_add,
+                    section_id: section.id,
+                    show_tastenotes: section.settings.show_tastenotes %}
+                </li>
+              {% endif %}
+            {%- endfor -%}
+          </ul>
+        </section>
+
 
       </div>
-      {% else %}
-      <div>
-        <p>no products </p>
-      </div>
-      {% endif %}  </div>
+    {% else %}
+      <p>no products </p>
+    {% endif %}  
+  </div>
 </div>
 
 <script>
@@ -536,9 +837,34 @@
       "id": "collection",
       "label": "Select collection"
     },
-          {
+    {
       "type": "image_picker",
       "id": "x_mas_sub",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "x_mas_bookie",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "x_mas_giftcard",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "x_mas_fellowi",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "x_mas_equip",
+      "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "x_mas_essent",
       "label": "t:sections.image-with-text.settings.image.label"
     },
       {
