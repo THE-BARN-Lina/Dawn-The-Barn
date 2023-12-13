@@ -761,6 +761,7 @@
     },
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db": {
       "type": "xmas-section-filters",
+      "disabled": true,
       "settings": {
         "collection": "christmas-products",
         "x_mas_sub": "shopify:\/\/shop_images\/BALL1.png",
