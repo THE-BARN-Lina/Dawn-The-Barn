@@ -109,52 +109,6 @@
         "padding_bottom": 48
       }
     },
-    "6126b374-1ae0-4181-a953-b7c16684e7bd": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>If you missed this years Advent Calendar, do sign up for the reservation list 2024<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "NOTIFY ME WHEN AVAILIABLE",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-heading-1",
-        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-text-1",
-        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-button-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "c92202e1-bb5f-450c-82eb-d983f4bc9f28": {
       "type": "multirow",
       "blocks": {
@@ -333,6 +287,50 @@
         "padding_bottom": 36
       }
     },
+    "6126b374-1ae0-4181-a953-b7c16684e7bd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>OUR FAVOURITE COFFEES FROM THE ADVENT CALENDER <\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "NOTIFY ME WHEN AVAILIABLE",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-heading-1",
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-text-1",
+        "template--18323748946187__6126b374-1ae0-4181-a953-b7c16684e7bd-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "5525969e-ded4-4daf-b929-47d1b75a0a0f": {
       "type": "featured-product",
       "blocks": {
@@ -448,8 +446,8 @@
     "eaf404e1-47a8-497c-bf5c-cabab41acd73",
     "main",
     "5eec40be-3e2d-4a03-9599-fcf2e04bb33d",
-    "6126b374-1ae0-4181-a953-b7c16684e7bd",
     "c92202e1-bb5f-450c-82eb-d983f4bc9f28",
+    "6126b374-1ae0-4181-a953-b7c16684e7bd",
     "5525969e-ded4-4daf-b929-47d1b75a0a0f",
     "48a80fe8-b41d-439c-a7ed-633e6f327a61"
   ]
