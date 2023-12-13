@@ -761,10 +761,14 @@
     },
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db": {
       "type": "xmas-section-filters",
-      "disabled": true,
       "settings": {
         "collection": "christmas-products",
-        "x_mas_sub": "shopify:\/\/shop_images\/Group_21.png",
+        "x_mas_sub": "shopify:\/\/shop_images\/BALL1.png",
+        "x_mas_bookie": "shopify:\/\/shop_images\/BALL2.png",
+        "x_mas_giftcard": "shopify:\/\/shop_images\/BALL3.png",
+        "x_mas_fellowi": "shopify:\/\/shop_images\/BALL4.png",
+        "x_mas_equip": "shopify:\/\/shop_images\/BALL5.png",
+        "x_mas_essent": "shopify:\/\/shop_images\/BALL6.png",
         "products_per_page": 16,
         "columns_desktop": 4,
         "image_ratio": "adapt",
