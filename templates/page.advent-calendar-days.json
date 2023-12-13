@@ -147,6 +147,7 @@
       "blocks": {
         "template--18430183375115__3a4f6480-e3b8-469a-ad45-5f19414bfdae-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
