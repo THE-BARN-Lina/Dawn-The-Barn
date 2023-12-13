@@ -109,6 +109,319 @@
         "padding_bottom": 48
       }
     },
+    "7db7e20d-6005-4747-866d-a2d51d7ae481": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18323748946187__7db7e20d-6005-4747-866d-a2d51d7ae481-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Felipe_Arcila_Jardines_del_Eden_2_1.png",
+            "title": "DAY 1",
+            "text": "<h2><strong>Jardines del Eden. Colombia<\/strong><\/h2><p>Red Gesha. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "4e89d863-d649-46f2-abcd-510596893f2d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tony_La_COlina.jpg",
+            "title": "DAY 2",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "9c2e37d9-fea6-4e72-b918-40eb25415c0e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gesha_village_drying.jpg",
+            "title": "DAY 3",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "9e22f0ad-559b-494c-af57-4923cd9a0d64": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9738_e2839e0d-cb00-4a72-a413-b70d0092579b.jpg",
+            "title": "DAY 4",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "0abe0804-6145-4e55-bfaf-ded4eb24208c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Los-Pirineos-sent-by-Diego-07-21-14-1024x768_605611f4-5fc3-4253-90b5-714f4bdd4ca1.jpg",
+            "title": "DAY 5",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "bb71d6c5-62c6-4ea9-b4d6-9d64bc8821c8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Doi_saket_producers.jpg",
+            "title": "DAY 6",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "4b6cc896-9739-4b59-a811-0fdcdf4f0d08": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mbokam_Josephine_6bd5ae12-f4e6-40e1-84ed-b40e8dc8c10e.jpg",
+            "title": "DAY 7",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "4fe192dc-3eb0-40bc-8e41-72d03bbe98d3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shantawene_drying.jpg",
+            "title": "DAY 8",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "f4fbf0bb-85b2-4f9c-bd9c-20182caf7fb8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chaiprakarn_50ae8fa1-2f95-41b9-b929-f3621da69023.jpg",
+            "title": "DAY 9",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "8c864a5e-0a32-409a-b77d-fc65c319be5f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mahembe_1_1f44ad39-02d9-4ddf-9bd0-1ea5250ae08c.jpg",
+            "title": "DAY 10",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "ee7fd798-d4a3-46cc-9a0e-bbddc6169977": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Myanmar_sorting.jpg",
+            "title": "DAY 11",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "9bbf07a0-aeb9-411b-a12e-f30dc52622fd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ralf_at_dambi_uddo.jpg",
+            "title": "DAY 12",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "7aee4380-8e4d-4102-9baa-f187a0251563": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/visita_finca_sep_2022-12_1.jpg",
+            "title": "DAY 13",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "67e38228-6b69-4dd2-9b7b-5475829a2164": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Himalaya_1.jpg",
+            "title": "DAY 14",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "75fd563d-bbb0-44ba-9eaf-4db5758d01ac": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9738_3ef78ef6-cc17-4c5a-b584-241dadcbd0e8.jpg",
+            "title": "DAY 15",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "55529c27-3dae-4f40-96e7-bb9335415e73": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cordillera_processing.jpg",
+            "title": "DAY 16",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "3705401b-b922-4a53-b94b-fa15198a74d9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image28.09.23at11.24_53a2afea-54d1-4313-99a4-aa6fc9b11a52.jpg",
+            "title": "DAY 17",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "d0275c57-a97b-4f0a-8c6e-deab3c7cc0a4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/caballero_marysable_moises.jpg",
+            "title": "DAY 18",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "12ce3bc3-4d15-4ea2-940b-804b4940ea55": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Buena_Vista_Fredy_Orantes.jpg",
+            "title": "DAY 19",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "86d8469b-8ae9-49b2-92d5-dd8b5917079a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bait_Alal1.jpg",
+            "title": "DAY 20",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "fc9acd2d-b7a1-4773-bfdf-e6578e591be3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Graciano_los_lajones.jpg",
+            "title": "DAY 21",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "2fec2fa1-7d08-494f-b98e-3269e8fa8cfa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Los-Pirineos-sent-by-Diego-07-21-2.jpg",
+            "title": "DAY 22",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "0d8acf08-f3cc-4f3f-a1f1-dc664a9bfc0f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jardines_del_eden_drying.jpg",
+            "title": "DAY 23",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        },
+        "56c846aa-f19c-4d76-b0d9-d242ff013185": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tony_La_COlina.jpg",
+            "title": "DAY 24",
+            "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
+            "link_label": "EXPLORE NOW",
+            "link": "shopify:\/\/pages\/1st-december",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18323748946187__7db7e20d-6005-4747-866d-a2d51d7ae481-column-1",
+        "4e89d863-d649-46f2-abcd-510596893f2d",
+        "9c2e37d9-fea6-4e72-b918-40eb25415c0e",
+        "9e22f0ad-559b-494c-af57-4923cd9a0d64",
+        "0abe0804-6145-4e55-bfaf-ded4eb24208c",
+        "bb71d6c5-62c6-4ea9-b4d6-9d64bc8821c8",
+        "4b6cc896-9739-4b59-a811-0fdcdf4f0d08",
+        "4fe192dc-3eb0-40bc-8e41-72d03bbe98d3",
+        "f4fbf0bb-85b2-4f9c-bd9c-20182caf7fb8",
+        "8c864a5e-0a32-409a-b77d-fc65c319be5f",
+        "ee7fd798-d4a3-46cc-9a0e-bbddc6169977",
+        "9bbf07a0-aeb9-411b-a12e-f30dc52622fd",
+        "7aee4380-8e4d-4102-9baa-f187a0251563",
+        "67e38228-6b69-4dd2-9b7b-5475829a2164",
+        "75fd563d-bbb0-44ba-9eaf-4db5758d01ac",
+        "55529c27-3dae-4f40-96e7-bb9335415e73",
+        "3705401b-b922-4a53-b94b-fa15198a74d9",
+        "d0275c57-a97b-4f0a-8c6e-deab3c7cc0a4",
+        "12ce3bc3-4d15-4ea2-940b-804b4940ea55",
+        "86d8469b-8ae9-49b2-92d5-dd8b5917079a",
+        "fc9acd2d-b7a1-4773-bfdf-e6578e591be3",
+        "2fec2fa1-7d08-494f-b98e-3269e8fa8cfa",
+        "0d8acf08-f3cc-4f3f-a1f1-dc664a9bfc0f",
+        "56c846aa-f19c-4d76-b0d9-d242ff013185"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "link_as_button": true,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "c92202e1-bb5f-450c-82eb-d983f4bc9f28": {
       "type": "multirow",
       "blocks": {
@@ -327,7 +640,7 @@
             "image": "shopify:\/\/shop_images\/visita_finca_sep_2022-12_1.jpg",
             "caption": "DAY 20",
             "heading": "<strong>Bait Yasin. Yemen<\/strong>",
-            "text": "<p>Catuai. Red Honey<\/p>",
+            "text": "<p>Yemenia. Natural<\/p>",
             "button_label": "EXPLORE NOW",
             "button_link": "shopify:\/\/pages\/13th-december-finca-gascon-guatemala"
           }
@@ -336,9 +649,9 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/visita_finca_sep_2022-12_1.jpg",
-            "caption": "DAY 13",
-            "heading": "<strong>Finca Gascon. Guatemala<\/strong>",
-            "text": "<p>Catuai. Red Honey<\/p>",
+            "caption": "DAY 21",
+            "heading": "<strong>Los Lajones. Panama<\/strong>",
+            "text": "<p>Geisha. Anaerobic<\/p>",
             "button_label": "EXPLORE NOW",
             "button_link": "shopify:\/\/pages\/13th-december-finca-gascon-guatemala"
           }
@@ -347,9 +660,9 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/visita_finca_sep_2022-12_1.jpg",
-            "caption": "DAY 13",
-            "heading": "<strong>Finca Gascon. Guatemala<\/strong>",
-            "text": "<p>Catuai. Red Honey<\/p>",
+            "caption": "DAY 22",
+            "heading": "<strong>Los Pirineos. El Salvador<\/strong>",
+            "text": "<p>Sudan Rume. Anaerobic<\/p>",
             "button_label": "EXPLORE NOW",
             "button_link": "shopify:\/\/pages\/13th-december-finca-gascon-guatemala"
           }
@@ -602,6 +915,7 @@
     "eaf404e1-47a8-497c-bf5c-cabab41acd73",
     "main",
     "5eec40be-3e2d-4a03-9599-fcf2e04bb33d",
+    "7db7e20d-6005-4747-866d-a2d51d7ae481",
     "c92202e1-bb5f-450c-82eb-d983f4bc9f28",
     "6126b374-1ae0-4181-a953-b7c16684e7bd",
     "5525969e-ded4-4daf-b929-47d1b75a0a0f",
