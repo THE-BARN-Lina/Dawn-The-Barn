@@ -171,7 +171,10 @@
 <div class="scroll-wrapper english-set" style="display: none;">
     
     <div class="custom-columns-container">
-      <section class="filter-image-text-container custom-column-link">
+      <section  class="filter-image-text-container custom-column-link"
+                onclick="toggleSection('x-mas-bookie')"
+                data-section="x-mas-bookie"
+      >
         {%- if section.settings.x_mas_sub != blank -%}
           <img
             srcset="
