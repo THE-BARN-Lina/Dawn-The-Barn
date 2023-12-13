@@ -313,7 +313,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/shantawene_drying.jpg",
             "caption": "DAY 8",
-            "heading": "<strong>Mixed heirloom. Anaerobic<\/strong>",
+            "heading": "<strong>Shantawene. Ethiopia<\/strong>",
             "text": "<p>Mixed heirloom. Anaerobic<\/p>",
             "button_label": "Button label",
             "button_link": ""
@@ -324,8 +324,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/chaiprakarn_50ae8fa1-2f95-41b9-b929-f3621da69023.jpg",
             "caption": "DAY 9",
-            "heading": "<strong>Catimor. Washed<\/strong>",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "heading": "<strong>Chaiprakarn. Thailand<\/strong>",
+            "text": "<p>Catimor. Washed<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -335,8 +335,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/mahembe_1_1f44ad39-02d9-4ddf-9bd0-1ea5250ae08c.jpg",
             "caption": "DAY 10",
-            "heading": "<strong>Red Bourbon. Washed<\/strong>",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "heading": "<strong>Mahembe. Rwanda<\/strong>",
+            "text": "<p>Red Bourbon. Washed<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -346,8 +346,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Myanmar_sorting.jpg",
             "caption": "DAY 11",
-            "heading": "<strong>Caturra & S795. Natural<\/strong>",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "heading": "<strong>Pa-O. Myanmar<\/strong>",
+            "text": "<p>Caturra & S795. Natural<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -357,8 +357,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ralf_at_dambi_uddo.jpg",
             "caption": "DAY 12",
-            "heading": "<strong>Mixed heirloom. Natural<\/strong>",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "heading": "<strong>Dambi Uddo. Ethiopia<\/strong>",
+            "text": "<p>Mixed heirloom. Natural<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -368,8 +368,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/visita_finca_sep_2022-12_1.jpg",
             "caption": "DAY 13",
-            "heading": "<strong>Catuai. Red Honey<\/strong>",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "heading": "<strong>Finca Gascon. Guatemala<\/strong>",
+            "text": "<p>Catuai. Red Honey<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
