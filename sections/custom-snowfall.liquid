@@ -1,12 +1,47 @@
+{{ 'snowflakes.css' | asset_url | stylesheet_tag }}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Snow Columns",
+  "presets": [
+    {
+      "name": "Snow Columns",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
-{% javascript %}
-{% endjavascript %}
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+</div>
