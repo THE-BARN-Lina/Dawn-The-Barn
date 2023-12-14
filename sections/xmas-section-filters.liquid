@@ -65,10 +65,7 @@
   .scroll-container {
     flex-wrap: nowrap; 
   }
-  .filter-buttons {
-    justify-content: flex-start; ´
-    padding-right:0.5rem;
-  }
+ 
   .filter-button-abo {
     margin-left: 1rem;
     margin-right: 1.5rem;
@@ -116,7 +113,20 @@
     width:100px;
     border-radius: 50%;
   }
- 
+ .xmas-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:16px;
+ }
+
+ @media (max-width: 1250px) {
+  .filter-buttons {
+    justify-content: flex-start; ´
+    padding-right:0.5rem;
+  }
+}
+
 
 
 {%- endstyle -%}
@@ -203,7 +213,7 @@
 
 <div class="scroll-wrapper english-set" style="display: none;">
   {%- if section.settings.XMAS_TITLE != blank -%}
-    <h2>
+    <h2 class="xmas-title">
       {{ section.settings.XMAS_TITLE | escape }}
     </h2>
   {%- endif -%}
