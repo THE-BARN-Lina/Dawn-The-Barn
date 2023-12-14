@@ -21,10 +21,8 @@
     --black: #000000;
   }
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}
-    px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
-    px;
+    padding-top:0px;
+    padding-bottom: 0px;
   }
 
   .scroll-wrapper {
@@ -46,11 +44,6 @@
     width: 100%;
     min-height: 100px;
     overflow-x: auto; 
-  }
-
-  .section-{{ section.id }}-padding {
-    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
-    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
   }
 
 /* Styles for sections */
@@ -93,6 +86,7 @@
 .filter-image-text-container p {
   padding:0px;
   margin:0px;
+  font-weight:bold;
 }
 
   .filter-image-text-container:hover{
@@ -214,7 +208,7 @@
 <div class="scroll-wrapper english-set" style="display: none;">
   {%- if section.settings.XMAS_TITLE != blank -%}
     <h2 class="xmas-title">
-      {{ section.settings.XMAS_TITLE | escape }}
+      ❄ {{ section.settings.XMAS_TITLE | escape }} ❄
     </h2>
   {%- endif -%}
   <div class="scroll-container custom-column-content">
