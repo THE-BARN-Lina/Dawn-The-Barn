@@ -53,6 +53,11 @@
 .section-collection.visible {
   display: block;
 }
+.grid-border-box{
+  border-bottom:4px solid red;
+
+
+}
 
 /* Additional styles for smaller screens */
   .scroll-container {
@@ -71,11 +76,11 @@
     text-align:center;
 
     margin:0.6rem;
-    min-width:150px;
+    min-width:140px;
 
     min-height:180px;
 
-    border-radius: 10px;
+    border-radius: 0px;
 
     background-image: linear-gradient(to right, rgb(141, 36, 49), rgb(205, 22, 36));
     transition: background-image 0.3s ease; /* Adding transition for the background image */
@@ -478,7 +483,7 @@
           <ul
             id="product-grid"
             data-id="{{ section.id }}"
-            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down"
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box"
             grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
             grid--{{ section.settings.columns_desktop }}-col-desktop">
             {% for product in section.settings.collection.products %}
@@ -509,7 +514,7 @@
           <ul
             id="product-grid"
             data-id="{{ section.id }}"
-            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down"
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box"
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
             {% for product in section.settings.collection.products %}
               {% if product.tags contains "x-mas-book" %}
@@ -539,7 +544,7 @@
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
-              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
               {% for product in section.settings.collection.products %}
                 {% if product.tags contains "x-mas-voucher" %}
                   {% assign lazy_load = false %}
@@ -568,7 +573,7 @@
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
-              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
               {% for product in section.settings.collection.products %}
                 {% if product.tags contains "x-mas-fellow" %}
                   {% assign lazy_load = false %}
@@ -597,7 +602,7 @@
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
-              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
               {% for product in section.settings.collection.products %}
                 {% if product.tags contains "x-mas-equipment" %}
                   {% assign lazy_load = false %}
@@ -626,7 +631,7 @@
           <ul
             id="product-grid"
             data-id="{{ section.id }}"
-            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
             {% for product in section.settings.collection.products %}
               {% if product.tags contains "x-mas-box" %}
                 {% assign lazy_load = false %}
@@ -655,7 +660,7 @@
           <ul
             id="product-grid"
             data-id="{{ section.id }}"
-            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
             {% for product in section.settings.collection.products %}
               {% if product.tags contains "x-mas-essentials" %}
                 {% assign lazy_load = false %}
