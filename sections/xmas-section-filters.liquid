@@ -421,36 +421,69 @@
   {%- endif -%}
   <div class="scroll-container custom-column-content">
     <div class="filter-buttons">
-      <section 
-        class="filter-image-text-container"   
-        onclick="toggleSection('x-mas-sub')"
-        data-section="x-mas-sub"
+    
+    <section 
+      class="filter-image-text-container"
+      onclick="toggleSection('x-mas-boxi')"
+      data-section="x-mas-boxi"
+      >
+      {%- if section.settings.x_mas_boxi != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.x_mas_boxi.width >= 165 -%}{{ section.settings.x_mas_boxi | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.x_mas_boxi.width >= 360 -%}{{ section.settings.x_mas_boxi | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.x_mas_boxi.width >= 535 -%}{{ section.settings.x_mas_boxi | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.x_mas_boxi.width >= 750 -%}{{ section.settings.x_mas_boxi | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.x_mas_boxi.width >= 1070 -%}{{ section.settings.x_mas_boxi | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.x_mas_boxi.width >= 1500 -%}{{ section.settings.x_mas_boxi | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.x_mas_boxi | image_url }} {{ section.settings.x_mas_boxi.width }}
+          "
+          src="{{ section.settings.image_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.x_mas_boxi.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-button-filter"
+          onclick="toggleSection('x-mas-boxi')"
+          data-section="x-mas-boxi"
         >
-        {%- if section.settings.x_mas_sub != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_sub.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter"
-            
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p>ABO</p>
-      </section>
-          
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      <p>BUNDLES</p>
+    </section>
+
+    <section 
+      class="filter-image-text-container"
+      onclick="toggleSection('x-mas-essent')"
+      data-section="x-mas-essent"
+      >
+      {%- if section.settings.x_mas_essent != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.x_mas_essent.width >= 165 -%}{{ section.settings.x_mas_essent | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.x_mas_essent.width >= 360 -%}{{ section.settings.x_mas_essent | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.x_mas_essent.width >= 535 -%}{{ section.settings.x_mas_essent | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.x_mas_essent.width >= 750 -%}{{ section.settings.x_mas_essent | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.x_mas_essent.width >= 1070 -%}{{ section.settings.x_mas_essent | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.x_mas_essent.width >= 1500 -%}{{ section.settings.x_mas_essent | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.x_mas_essent | image_url }} {{ section.settings.x_mas_essent.width }}
+          "
+          src="{{ section.settings.image_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.x_mas_essent.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-button-filter"
+          onclick="toggleSection('x-mas-essent')"
+          data-section="x-mas-essent"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      <p>ESSENTIALS</p>
+    </section>
+    
       <section 
         class="filter-image-text-container"
         onclick="toggleSection('x-mas-bookie')"
@@ -544,67 +577,40 @@
         <p>KAFFEEZUBEHÖR</p>
       </section>
 
-      <section 
-        class="filter-image-text-container"
-        onclick="toggleSection('x-mas-boxi')"
-        data-section="x-mas-boxi"
-        >
-        {%- if section.settings.x_mas_boxi != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_boxi.width >= 165 -%}{{ section.settings.x_mas_boxi | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_boxi.width >= 360 -%}{{ section.settings.x_mas_boxi | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_boxi.width >= 535 -%}{{ section.settings.x_mas_boxi | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_boxi.width >= 750 -%}{{ section.settings.x_mas_boxi | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_boxi.width >= 1070 -%}{{ section.settings.x_mas_boxi | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_boxi.width >= 1500 -%}{{ section.settings.x_mas_boxi | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_boxi | image_url }} {{ section.settings.x_mas_boxi.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_boxi.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter"
-            onclick="toggleSection('x-mas-boxi')"
-            data-section="x-mas-boxi"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p>BUNDLES</p>
-      </section>
+
+
+   
 
       <section 
-        class="filter-image-text-container"
-        onclick="toggleSection('x-mas-essent')"
-        data-section="x-mas-essent"
-        >
-        {%- if section.settings.x_mas_essent != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_essent.width >= 165 -%}{{ section.settings.x_mas_essent | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_essent.width >= 360 -%}{{ section.settings.x_mas_essent | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_essent.width >= 535 -%}{{ section.settings.x_mas_essent | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_essent.width >= 750 -%}{{ section.settings.x_mas_essent | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_essent.width >= 1070 -%}{{ section.settings.x_mas_essent | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_essent.width >= 1500 -%}{{ section.settings.x_mas_essent | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_essent | image_url }} {{ section.settings.x_mas_essent.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_essent.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter"
-            onclick="toggleSection('x-mas-essent')"
-            data-section="x-mas-essent"
+          class="filter-image-text-container"   
+          onclick="toggleSection('x-mas-sub')"
+          data-section="x-mas-sub"
           >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p>ESSENTIALS</p>
+          {%- if section.settings.x_mas_sub != blank -%}
+            <img
+              srcset="
+                {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
+                {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
+                {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
+                {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
+                {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
+                {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
+              "
+              src="{{ section.settings.image_2| image_url: width: 1500 }}"
+              alt="{{ section.settings.x_mas_sub.alt | escape }}"
+              loading="lazy"
+              width=""
+              height=""
+              class="image-button-filter"
+              
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+          <p>ABO</p>
       </section>
+        
     </div>
   </div>
 </div>
