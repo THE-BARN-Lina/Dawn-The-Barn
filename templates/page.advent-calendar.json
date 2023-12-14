@@ -268,109 +268,100 @@
         },
         "75fd563d-bbb0-44ba-9eaf-4db5758d01ac": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_9738_3ef78ef6-cc17-4c5a-b584-241dadcbd0e8.jpg",
             "title": "DAY 15",
             "text": "<h2><strong>Volcan Azul Geisha. Costa Rica<br\/><\/strong><\/h2><p>Geisha. Anaerobic<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/15th-december-volcan-azul-geisha-costa-rica",
             "custom_liquid": ""
           }
         },
         "55529c27-3dae-4f40-96e7-bb9335415e73": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Cordillera_processing.jpg",
             "title": "DAY 16",
             "text": "<h2><strong>Cordillera del Fuego. Costa Rica<br\/><\/strong><\/h2><p>Caturra. Honey Anaerobic<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/16th-december-cordillera-del-fuego-costa-rica",
             "custom_liquid": ""
           }
         },
         "3705401b-b922-4a53-b94b-fa15198a74d9": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Image28.09.23at11.24_53a2afea-54d1-4313-99a4-aa6fc9b11a52.jpg",
             "title": "DAY 17",
             "text": "<h2><strong>La Cumbre. Guatemala<br\/><\/strong><\/h2><p>Caturra & Bourbon. Washed<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/17th-december-la-cumbre-guatemala",
             "custom_liquid": ""
           }
         },
         "d0275c57-a97b-4f0a-8c6e-deab3c7cc0a4": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/caballero_marysable_moises.jpg",
             "title": "DAY 18",
             "text": "<h2><strong>Caballero Amazonas. Honduras<br\/><\/strong><\/h2><p>Geisha. Anaerobic<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/18th-december-caballero-amazonas-honduras",
             "custom_liquid": ""
           }
         },
         "12ce3bc3-4d15-4ea2-940b-804b4940ea55": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Buena_Vista_Fredy_Orantes.jpg",
             "title": "DAY 19",
             "text": "<h2><strong>Buena Vista. Guatemala<br\/><\/strong><\/h2><p>Pacamara. Natural<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/19th-december-buena-vista-guatemala",
             "custom_liquid": ""
           }
         },
         "86d8469b-8ae9-49b2-92d5-dd8b5917079a": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Bait_Alal1.jpg",
             "title": "DAY 20",
             "text": "<h2><strong>Bait Yasin. Yemen<br\/><\/strong><\/h2><p>Yemenia. Natural<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/20th-december-bait-yasin-yemen",
             "custom_liquid": ""
           }
         },
         "fc9acd2d-b7a1-4773-bfdf-e6578e591be3": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Graciano_los_lajones.jpg",
             "title": "DAY 21",
             "text": "<h2><strong>Los Lajones. Panama<br\/><\/strong><\/h2><p>Geisha. Anaerobic<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/21st-december-los-lajones-panama",
             "custom_liquid": ""
           }
         },
         "2fec2fa1-7d08-494f-b98e-3269e8fa8cfa": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Los-Pirineos-sent-by-Diego-07-21-2.jpg",
             "title": "DAY 22",
             "text": "<h2><strong>Los Pirineos. El Salvador<br\/><\/strong><\/h2><p>Sudan Rume. Anaerobic<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/22nd-december-los-pirineos-el-salvador",
             "custom_liquid": ""
           }
         },
         "0d8acf08-f3cc-4f3f-a1f1-dc664a9bfc0f": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/jardines_del_eden_drying.jpg",
             "title": "DAY 23",
             "text": "<h2><strong>Jardines del Eden. Colombia<br\/><\/strong><\/h2><p>Sidra. Natural<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/23rd-december-jardines-del-eden-colombia",
             "custom_liquid": ""
           }
         },
