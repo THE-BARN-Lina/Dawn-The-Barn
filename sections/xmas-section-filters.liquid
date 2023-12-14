@@ -62,7 +62,6 @@
 }
 
 /* Additional styles for smaller screens */
-@media screen and (max-width: 768px) {
   .scroll-container {
     flex-wrap: nowrap; 
   }
@@ -78,25 +77,27 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    justify-content:center;
+    justify-content:space-around;
     text-align:center;
 
-    padding:1rem;
     margin:0.6rem;
-    
-    min-width:130px;
-    max-width:130px;
+    min-width:150px;
 
-    min-height:200px;
-    max-height:200px;
+    min-height:180px;
 
     border-radius: 10px;
 
     background-image: linear-gradient(to right, rgb(141, 36, 49), rgb(205, 22, 36));
     transition: background-image 0.3s ease; /* Adding transition for the background image */
+
+    padding-right:0.5rem;
+    padding-left:0.5rem;
+}
+.filter-image-text-container p {
+  padding:0px;
+  margin:0px;
 }
 
-  }
   .filter-image-text-container:hover{
     cursor: pointer;
     background-image: linear-gradient(to right, rgb(141, 36, 49), rgb(205, 22, 36)); /* New gradient on hover */
@@ -230,7 +231,7 @@
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
-        <p>SUBSCRIPTION</p>
+        <p>SUBSCRIPTIONS</p>
       </section>
           
       <section 
@@ -292,7 +293,7 @@
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
-        <p>CARDS</p>
+        <p>VOUCHERS</p>
       </section>
 
       <section 
@@ -385,7 +386,7 @@
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         {%- endif -%}
-        <p>BOX</p>
+        <p>BUNDLES</p>
       </section>
 
       <section 
