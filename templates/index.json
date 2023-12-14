@@ -2,6 +2,7 @@
   "sections": {
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db": {
       "type": "xmas-section-filters",
+      "disabled": true,
       "settings": {
         "collection": "christmas-products",
         "XMAS_TITLE": "CHRISTMAS GIFTS",
