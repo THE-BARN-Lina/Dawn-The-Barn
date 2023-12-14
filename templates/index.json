@@ -1,5 +1,10 @@
 {
   "sections": {
+    "26ee5cb5-486a-426e-91ed-5928639b4fb9": {
+      "type": "custom-snowfall",
+      "settings": {
+      }
+    },
     "3e280314-6fa9-4a83-9341-8d119cba2d32": {
       "type": "image-with-text",
       "blocks": {
@@ -785,14 +790,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "26ee5cb5-486a-426e-91ed-5928639b4fb9": {
-      "type": "custom-snowfall",
-      "settings": {
-      }
     }
   },
   "order": [
+    "26ee5cb5-486a-426e-91ed-5928639b4fb9",
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "b3059816-7040-4981-8d4f-da939a97be82",
     "c07c35eb-d2db-4799-9345-23a3655ecbd7",
@@ -809,7 +810,6 @@
     "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "9548d051-e9a3-422f-91dd-584c92a394fd",
-    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
-    "26ee5cb5-486a-426e-91ed-5928639b4fb9"
+    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db"
   ]
 }
