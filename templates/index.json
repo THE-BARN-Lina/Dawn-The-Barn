@@ -1,5 +1,10 @@
 {
   "sections": {
+    "fe49ddf4-36b4-4046-a874-8b084ca7b2ba": {
+      "type": "custom-snowfall",
+      "settings": {
+      }
+    },
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db": {
       "type": "xmas-section-filters",
       "settings": {
@@ -788,6 +793,7 @@
     }
   },
   "order": [
+    "fe49ddf4-36b4-4046-a874-8b084ca7b2ba",
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "b3059816-7040-4981-8d4f-da939a97be82",
