@@ -202,6 +202,11 @@
 </section>
 
 <div class="scroll-wrapper english-set" style="display: none;">
+  {%- if section.settings.XMAS_TITLE != blank -%}
+    <h2>
+      {{ section.settings.XMAS_TITLE | escape }}
+    </h2>
+  {%- endif -%}
   <div class="scroll-container custom-column-content">
     <div class="filter-buttons">
       <section 
@@ -741,6 +746,12 @@
       "id": "collection",
       "label": "Select collection"
     },
+    {
+          "type": "text",
+          "id": "XMAS_TITLE",
+          "default": "Image with text",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+        },
     {
       "type": "image_picker",
       "id": "x_mas_sub",
