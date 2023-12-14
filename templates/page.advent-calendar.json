@@ -130,7 +130,7 @@
             "title": "DAY 2",
             "text": "<h2><strong>La Colina.<br\/>Guatemala<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/2nd-december-la-colina-guatemala",
             "custom_liquid": ""
           }
         },
@@ -141,7 +141,7 @@
             "title": "DAY 3",
             "text": "<h2><strong>Los Pirineos. El Salvador<br\/><\/strong><\/h2><p>Pacamara. Black Honey<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/3rd-december-los-pirineos-el-salvador",
             "custom_liquid": ""
           }
         },
@@ -152,7 +152,7 @@
             "title": "DAY 4",
             "text": "<h2><strong>Volcan Azul. Costa Rica<br\/><\/strong><\/h2><p>Caturra. Natural<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/4th-december-volcan-azul-costa-rica",
             "custom_liquid": ""
           }
         },
@@ -163,7 +163,7 @@
             "title": "DAY 5",
             "text": "<h2><strong>Gesha Village. Ethiopia<br\/><\/strong><\/h2><p>Gesha 1931. Natural.<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/5th-december-gesha-village-ethiopia",
             "custom_liquid": ""
           }
         },
@@ -174,7 +174,7 @@
             "title": "DAY 6",
             "text": "<h2><strong>Doi Saket. Thailand<br\/><\/strong><\/h2><p>Catimor. Anaerobic<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/6th-december-doi-saket-thailand",
             "custom_liquid": ""
           }
         },
@@ -185,7 +185,7 @@
             "title": "DAY 7",
             "text": "<h2><strong>Mbokam AB. Kenya<br\/><\/strong><\/h2><p>SL28 & Ruiru 11. Washed<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/7th-december-mbokam-ab-kenya",
             "custom_liquid": ""
           }
         },
@@ -196,7 +196,7 @@
             "title": "DAY 8",
             "text": "<h2><strong>Shantawene. Ethiopia<br\/><\/strong><\/h2><p>Mixed heirloom. Anaerobic<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/8th-december-shantawene-ethiopia",
             "custom_liquid": ""
           }
         },
@@ -207,7 +207,7 @@
             "title": "DAY 9",
             "text": "<h2><strong>Chaiprakarn. Thailand<br\/><\/strong><\/h2><p>Catimor. Washed<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/9th-december-chaiprakarn-thailand",
             "custom_liquid": ""
           }
         },
@@ -218,7 +218,7 @@
             "title": "DAY 10",
             "text": "<h2><strong>Mahembe. Rwanda<br\/><\/strong><\/h2><p>Red Bourbon. Washed<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/10th-december-mahembe-rwanda",
             "custom_liquid": ""
           }
         },
@@ -229,7 +229,7 @@
             "title": "DAY 11",
             "text": "<h2><strong>Pa-O. Myanmar<br\/><\/strong><\/h2><p>Caturra & S795. Natural<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/11th-december-pa-o-myanmar",
             "custom_liquid": ""
           }
         },
@@ -240,7 +240,7 @@
             "title": "DAY 12",
             "text": "<h2><strong>Dambi Uddo. Ethiopia<br\/><\/strong><\/h2><p>Mixed heirloom. Natural<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/12th-december-dambi-uddo-ethiopia",
             "custom_liquid": ""
           }
         },
@@ -251,7 +251,7 @@
             "title": "DAY 13",
             "text": "<h2><strong>Finca Gascon. Guatemala<br\/><\/strong><\/h2><p>Catuai. Red Honey<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/13th-december-finca-gascon-guatemala",
             "custom_liquid": ""
           }
         },
@@ -262,12 +262,13 @@
             "title": "DAY 14",
             "text": "<h2><strong>Himalaya. El Salvador<br\/><\/strong><\/h2><p>Maracaturra. Honey<\/p>",
             "link_label": "EXPLORE NOW",
-            "link": "shopify:\/\/pages\/1st-december",
+            "link": "shopify:\/\/pages\/14th-december-himalaya-el-salvador",
             "custom_liquid": ""
           }
         },
         "75fd563d-bbb0-44ba-9eaf-4db5758d01ac": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_9738_3ef78ef6-cc17-4c5a-b584-241dadcbd0e8.jpg",
             "title": "DAY 15",
@@ -279,6 +280,7 @@
         },
         "55529c27-3dae-4f40-96e7-bb9335415e73": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Cordillera_processing.jpg",
             "title": "DAY 16",
@@ -290,6 +292,7 @@
         },
         "3705401b-b922-4a53-b94b-fa15198a74d9": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Image28.09.23at11.24_53a2afea-54d1-4313-99a4-aa6fc9b11a52.jpg",
             "title": "DAY 17",
@@ -301,6 +304,7 @@
         },
         "d0275c57-a97b-4f0a-8c6e-deab3c7cc0a4": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/caballero_marysable_moises.jpg",
             "title": "DAY 18",
@@ -312,6 +316,7 @@
         },
         "12ce3bc3-4d15-4ea2-940b-804b4940ea55": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Buena_Vista_Fredy_Orantes.jpg",
             "title": "DAY 19",
@@ -323,6 +328,7 @@
         },
         "86d8469b-8ae9-49b2-92d5-dd8b5917079a": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Bait_Alal1.jpg",
             "title": "DAY 20",
@@ -334,6 +340,7 @@
         },
         "fc9acd2d-b7a1-4773-bfdf-e6578e591be3": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Graciano_los_lajones.jpg",
             "title": "DAY 21",
@@ -345,6 +352,7 @@
         },
         "2fec2fa1-7d08-494f-b98e-3269e8fa8cfa": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Los-Pirineos-sent-by-Diego-07-21-2.jpg",
             "title": "DAY 22",
@@ -356,6 +364,7 @@
         },
         "0d8acf08-f3cc-4f3f-a1f1-dc664a9bfc0f": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/jardines_del_eden_drying.jpg",
             "title": "DAY 23",
