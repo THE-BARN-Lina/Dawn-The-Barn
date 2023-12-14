@@ -227,6 +227,7 @@
     },
     "34f36b99-3951-4362-8e23-4316f128c581": {
       "type": "feature-collection-custom",
+      "disabled": true,
       "custom_css": [
         ".collection {padding-bottom: 1.6rem; border-bottom: 2px solid #804d15;}"
       ],
