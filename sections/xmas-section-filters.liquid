@@ -29,18 +29,14 @@
 
   .scroll-wrapper {
     overflow: hidden; /* Hide any horizontal overflow */
-    max-height: 200px;
-    margin-bottom: -15px;
   }
 
   .scroll-container {
     display: flex;
     align-items: center;
     width: 100%;
-    max-height: 200px;
-    margin-bottom: -16px;
     overflow-x: auto; /* Enable horizontal scrolling */
-    background-color:red;
+    background-color:none;
   }
 
   .filter-buttons {
@@ -49,117 +45,13 @@
     justify-content: center;
     width: 100%;
     min-height: 100px;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    /* background-color: yellow; */
+    overflow-x: auto; 
   }
 
-    outline: 0.5px solid var(--white);
-    outline-offset: 4px;
-  }
-
-    /* Padding for the section */
   .section-{{ section.id }}-padding {
     padding-top: calc({{ section.settings.padding_top }}px * 0.75);
     padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
   }
-
-  /* Container for custom columns */
-  .custom-columns-container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding: 15px 17px 15px 0px;
-  }
-
-  /* Individual column link */
-  .custom-column-link {
-    display: inline-flex;
-    flex-shrink: 0;
-    transition: background-color 0.3s ease-in-out;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 16px 8px;
-    margin-right: 0px; /* Spacing between columns */
-  }
-
-  .custom-column-link:not(:last-child) {
-    margin-right: 0px;
-  }
-
-  .custom-column-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Card image within the column link */
-  .multicolumn-card__image {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 14px;
-    padding: 5px;
-    border: 1px solid transparent;
-    border-radius: 50%; /* Make it a circle */
-    transition: border 0.2s ease-in-out, transform 0.2s ease-in;
-  }
-
-  /* Hover effect for column link */
-  .custom-column-link:hover .multicolumn-card__image {
-    border: 1.5px solid #ffffff; /* Make the border slightly thicker */
-  }
-
-  .custom-column-link:hover {
-    background-color: #1c1d1c;
-    transform: scale(1.05); /* Slightly enlarge the entire link */
-    border-radius: 10px;
-  }
-
-  /* Title within the column link */
-  .sub-collections__item-title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    min-width: 116px;
-    max-width: 116px;
-    text-align: center;
-    margin-top: -4px;
-    margin-bottom: 0px;
-  }
-
-/* Media query for larger screens */
-@media (min-width: 769px) {
-  .custom-columns-container {
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 0 30px 0 30px;
-    /*margin-top: 40px;*/
-    overflow-x: visible;
-  }
-
-  .custom-column-link:not(:last-child) {
-    margin-right: 8px;
-  }
-
-  .custom-column-link {
-    margin-right: 27px; /* Adjust spacing for larger screens */
-    text-align: center;
-  }
-
-  .multicolumn-card__image {
-    width: 111px;
-    height: 111px;
-    margin-bottom: 14px;
-  }
-
-  .sub-collections__item-title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    min-width: 116px;
-    max-width: 116px;
-    margin-bottom: 0px;
-  }
-}
 
 /* Styles for sections */
 .section-collection {
@@ -172,10 +64,10 @@
 /* Additional styles for smaller screens */
 @media screen and (max-width: 768px) {
   .scroll-container {
-    flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
+    flex-wrap: nowrap; 
   }
   .filter-buttons {
-    justify-content: flex-start; /* Align items to the start (left) */
+    justify-content: flex-start; ´
     padding-right:0.5rem;
   }
   .filter-button-abo {
@@ -189,9 +81,8 @@
     justify-content:center;
     text-align:center;
 
-    background-color:blue;
     padding:1rem;
-    margin:1rem;
+    margin:0.6rem;
     
     min-width:130px;
     max-width:130px;
@@ -199,20 +90,33 @@
     min-height:200px;
     max-height:200px;
 
+    border-radius: 10px;
+
+    background-image: linear-gradient(to right, rgb(141, 36, 49), rgb(205, 22, 36));
+    transition: background-image 0.3s ease; /* Adding transition for the background image */
+}
+
   }
   .filter-image-text-container:hover{
-    cursor:pointer;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(141, 36, 49), rgb(205, 22, 36)); /* New gradient on hover */
+
   }
+  .filter-image-text-container:hover .image-button-filter {
+   
+    border: 4px solid transparent;
+    box-shadow: 0 0 0 2px white, 0 0 0 16px transparent; 
+    cursor: pointer;
+}
+
+  
   .image-button-filter{
     height:100px;
     width:100px;
     border-radius: 50%;
   }
-  .image-button-filter:hover{
-    border:2px solid white;
-    cursor:pointer;
-  }
-}
+ 
+
 
 {%- endstyle -%}
 
