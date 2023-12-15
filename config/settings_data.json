@@ -121,9 +121,9 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
             "settings": {
-              "text": "OUR GIFT SUBSCRIPTION COMES WITH AN EXTRA BAG OF COFFEE THIS YEAR! 🎁🎄",
+              "text": "Get your coffee and gifts in time for Christmas! Order by December 18th.",
               "color_scheme": "accent-1",
-              "link": "shopify:\/\/products\/christmas-3-month-gift-subscription"
+              "link": ""
             }
           }
         },
@@ -131,8 +131,7 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5"
         ],
         "custom_css": [
-          ".announcement-bar__link {display: flex; width: 100%; height: 30px; align-items: center; padding: 2rem 2rem; text-decoration: none; justify-content: space-around;}",
-          ".announcement-bar__message {font-family: Raleway, sans-serif;}"
+          ".announcement-bar__link {display: flex; width: 100%; height: 30px; align-items: center; padding: 2rem 2rem; text-decoration: none; justify-content: space-around;}"
         ],
         "settings": {
         }
