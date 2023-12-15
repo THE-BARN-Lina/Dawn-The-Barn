@@ -347,8 +347,8 @@
         "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 44,
         "padding_bottom": 80
       }
@@ -381,8 +381,8 @@
         "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 40
       }
@@ -415,8 +415,8 @@
         "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -449,8 +449,8 @@
         "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
