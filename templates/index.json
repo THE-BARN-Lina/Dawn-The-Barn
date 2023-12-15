@@ -2,6 +2,7 @@
   "sections": {
     "26ee5cb5-486a-426e-91ed-5928639b4fb9": {
       "type": "custom-snowfall",
+      "disabled": true,
       "settings": {
       }
     },
