@@ -5,6 +5,32 @@
       "settings": {
       }
     },
+    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db": {
+      "type": "xmas-section-filters",
+      "settings": {
+        "collection": "christmas-products",
+        "XMAS_TITLE": "CHRISTMAS GIFTS",
+        "x_mas_sub": "shopify:\/\/shop_images\/IMG_95131.png",
+        "x_mas_bookie": "shopify:\/\/shop_images\/Coffee-book-terroir.webp",
+        "x_mas_giftcard": "shopify:\/\/shop_images\/Gift_Card2.jpg",
+        "x_mas_fellowi": "shopify:\/\/shop_images\/Ode_Fellow_20200826-037.jpg",
+        "x_mas_equip": "shopify:\/\/shop_images\/DSCF35302.jpg",
+        "x_mas_boxi": "shopify:\/\/shop_images\/IMG_95511.png",
+        "x_mas_essent": "shopify:\/\/shop_images\/christmascoffeeorigami_699b0550-b984-440d-8c19-44456f9fb2d4.jpg",
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "quick_add_button_color": "",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3e280314-6fa9-4a83-9341-8d119cba2d32": {
       "type": "image-with-text",
       "blocks": {
@@ -145,6 +171,7 @@
         "h1 {margin-top: -4rem;}",
         ".banner__text {font-size: 16px;}",
         ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);}",
+        " .banner {margin-top: 64px; }",
         "@media only screen and (min-width: 750px) {.banner__text {width: 80%; } .banner__heading {width: 70%; }}",
         "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}"
       ],
@@ -162,6 +189,39 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
+      }
+    },
+    "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
+      "type": "feature-collection-custom",
+      "custom_css": [
+        ".collection {margin-top: 52px; padding-bottom: 40px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
+      ],
+      "settings": {
+        "title": "LATEST RELEASES",
+        "heading_size": "h1",
+        "description_heading_2": "",
+        "description": "<p>Savor the new flavors: freshly roasted<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "new-releases",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "befa68a6-1035-4cea-bf06-95f308026d4b": {
@@ -299,39 +359,6 @@
         "show_description": false,
         "description_style": "body",
         "collection": "fellow-products",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
-      "type": "feature-collection-custom",
-      "custom_css": [
-        ".collection {margin-top: 52px; padding-bottom: 40px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
-      ],
-      "settings": {
-        "title": "LATEST RELEASES",
-        "heading_size": "h1",
-        "description_heading_2": "",
-        "description": "<p>Savor the new flavors: freshly roasted<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "new-releases",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -764,52 +791,26 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
-    },
-    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db": {
-      "type": "xmas-section-filters",
-      "settings": {
-        "collection": "christmas-products",
-        "XMAS_TITLE": "CHRISTMAS GIFTS",
-        "x_mas_sub": "shopify:\/\/shop_images\/IMG_95131.png",
-        "x_mas_bookie": "shopify:\/\/shop_images\/Coffee-book-terroir.webp",
-        "x_mas_giftcard": "shopify:\/\/shop_images\/Gift_Card2.jpg",
-        "x_mas_fellowi": "shopify:\/\/shop_images\/Ode_Fellow_20200826-037.jpg",
-        "x_mas_equip": "shopify:\/\/shop_images\/DSCF35302.jpg",
-        "x_mas_boxi": "shopify:\/\/shop_images\/IMG_95511.png",
-        "x_mas_essent": "shopify:\/\/shop_images\/christmascoffeeorigami_699b0550-b984-440d-8c19-44456f9fb2d4.jpg",
-        "products_per_page": 16,
-        "columns_desktop": 4,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "quick_add_button_color": "",
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "26ee5cb5-486a-426e-91ed-5928639b4fb9",
+    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "b3059816-7040-4981-8d4f-da939a97be82",
     "c07c35eb-d2db-4799-9345-23a3655ecbd7",
+    "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "34f36b99-3951-4362-8e23-4316f128c581",
     "88c54afd-6289-46f8-8ace-ea6a928b554f",
     "1653387743507b82e2",
     "18e90b04-5d61-491c-9805-32d9b2fcf9a3",
-    "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "165339081846c57155",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "3a82eeaa-356c-46fc-b366-4ab3d24ba527",
     "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
     "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
-    "9548d051-e9a3-422f-91dd-584c92a394fd",
-    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db"
+    "9548d051-e9a3-422f-91dd-584c92a394fd"
   ]
 }
