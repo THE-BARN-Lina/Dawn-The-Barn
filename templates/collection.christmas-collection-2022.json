@@ -355,9 +355,13 @@
     },
     "a799702b-6ae2-4384-94c7-f20abbaf6a9d": {
       "type": "featured-collection",
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.collection__title {padding: 0 1.5rem; }}",
+        ".collection {margin-top: 100px;}"
+      ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "TEA & CHOCOLATE",
+        "heading_size": "h2",
         "description_heading_2": "",
         "description": "",
         "show_description": false,
@@ -379,7 +383,7 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 56,
+        "padding_top": 64,
         "padding_bottom": 40
       }
     },
