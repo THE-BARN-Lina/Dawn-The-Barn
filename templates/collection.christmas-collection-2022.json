@@ -414,7 +414,7 @@
         "show_vendor": false,
         "show_tastenotes": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
