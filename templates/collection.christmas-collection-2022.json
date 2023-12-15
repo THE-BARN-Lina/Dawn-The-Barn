@@ -402,7 +402,7 @@
         "description_style": "body",
         "collection": "aeropress-equipment",
         "products_to_show": 3,
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
