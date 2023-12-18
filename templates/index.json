@@ -150,41 +150,6 @@
         "show_text_below": false
       }
     },
-    "b3059816-7040-4981-8d4f-da939a97be82": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        ".collection__title {text-align: center; margin-top: 3rem; font-family: \"Archivo Narrow\", sans-serif;}",
-        ".collection {margin-top: px; padding-bottom: 20px; border-bottom: 2px solid #804d15; margin-bottom: 2rem;}"
-      ],
-      "settings": {
-        "title": "CYBER MONDAY SPECIALS",
-        "heading_size": "h1",
-        "description_heading_2": "",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "cyber-monday",
-        "products_to_show": 4,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "view_all_label": "View All",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "c07c35eb-d2db-4799-9345-23a3655ecbd7": {
       "type": "image-banner",
       "blocks": {
@@ -228,6 +193,7 @@
         "a3b29786-8006-47d8-be72-425e71db225b",
         "efb11e79-cc3b-46a6-b5a3-4cff88a5faa6"
       ],
+      "disabled": true,
       "custom_css": [
         "h1 {margin-top: -4rem;}",
         ".banner__text {font-size: 16px;}",
@@ -280,95 +246,6 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "34f36b99-3951-4362-8e23-4316f128c581": {
-      "type": "feature-collection-custom",
-      "disabled": true,
-      "custom_css": [
-        ".collection {padding-bottom: 1.6rem; border-bottom: 2px solid #804d15;}"
-      ],
-      "settings": {
-        "title": "CHRISTMAS GIFT BUNDLES",
-        "heading_size": "h1",
-        "description_heading_2": "",
-        "description": "<p>Gift for all brewing methods.<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "christmas-bundles",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "88c54afd-6289-46f8-8ace-ea6a928b554f": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "{% render | \"four-icons\" %}",
-        "color_scheme": "background-1",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "1653387743507b82e2": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 16,
-        "padding_bottom": 48
-      }
-    },
-    "18e90b04-5d61-491c-9805-32d9b2fcf9a3": {
-      "type": "feature-collection-custom",
-      "custom_css": [
-        ".collection {margin-top: 52px; padding-bottom: 40px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
-      ],
-      "settings": {
-        "title": "GIFT FELLOW GADGETS",
-        "heading_size": "h1",
-        "description_heading_2": "",
-        "description": "<p>Premium Designs<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "fellow-products",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -459,44 +336,6 @@
         "padding_bottom": 0
       }
     },
-    "3a82eeaa-356c-46fc-b366-4ab3d24ba527": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        ".collection {margin-top: 52px; padding-bottom: 20px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}",
-        ".collection__title {text-align: center; margin-top: 3rem;}",
-        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
-        "a {text-decoration: none;}",
-        "@media (max-width: 900px) {.collection__title {padding-top: 2rem; margin-top: 2rem; }}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description_heading_2": "<h2><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">COFFEE SUBSCRIPTION PLANS<\/a><\/h2>",
-        "description": "<p>The worlds best coffees on repeat<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "main-coffee-subscriptions",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "link",
-        "view_all_label": "",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "ede73460-01d6-4be0-bf2c-e2f489f5fb40": {
       "type": "feature-collection-custom",
       "custom_css": [
@@ -512,7 +351,7 @@
         "collection": "coffee-subscription",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "link",
         "view_all_label": "View All",
@@ -530,65 +369,16 @@
         "padding_bottom": 36
       }
     },
-    "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8": {
-      "type": "image-banner",
-      "blocks": {
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "LIMITED EDITION",
-            "text_style": "body"
-          }
-        },
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "COFFEE ADVENT CALENDAR",
-            "heading_size": "h1"
-          }
-        },
-        "9fa3eb61-44f8-480a-83c0-639de11a1388": {
-          "type": "text",
-          "settings": {
-            "text": "24 tasty days to Christmas",
-            "text_style": "body"
-          }
-        },
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "ORDER NOW",
-            "button_link_1": "shopify:\/\/products\/advent-calendar-2023",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-text-1",
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-heading-1",
-        "9fa3eb61-44f8-480a-83c0-639de11a1388",
-        "template--17938053923083__7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8-buttons-1"
-      ],
-      "disabled": true,
+    "1653387743507b82e2": {
+      "type": "custom-liquid",
       "custom_css": [
-        ".banner__heading {text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); font-family: \"Archivo Narrow\", sans-serif;}"
+
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/KaffeeAdventcalender_04_colored.png",
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "custom_liquid": "{% render | \"awards-snippet\" %}\n\n<style>\n\n.quick-add__submit, #Subscribe { background-color: #804d15;\ncolor: white;\n--border-offset: #804d15;\n}\n<\/style>",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
+        "padding_top": 16,
+        "padding_bottom": 48
       }
     },
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2": {
@@ -791,18 +581,12 @@
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
     "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "befa68a6-1035-4cea-bf06-95f308026d4b",
-    "b3059816-7040-4981-8d4f-da939a97be82",
     "c07c35eb-d2db-4799-9345-23a3655ecbd7",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
-    "34f36b99-3951-4362-8e23-4316f128c581",
-    "88c54afd-6289-46f8-8ace-ea6a928b554f",
-    "1653387743507b82e2",
-    "18e90b04-5d61-491c-9805-32d9b2fcf9a3",
     "165339081846c57155",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
-    "3a82eeaa-356c-46fc-b366-4ab3d24ba527",
     "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
-    "7fc878ed-ec1a-4fe6-9a54-1e5da4b74ad8",
+    "1653387743507b82e2",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "9548d051-e9a3-422f-91dd-584c92a394fd"
   ]
