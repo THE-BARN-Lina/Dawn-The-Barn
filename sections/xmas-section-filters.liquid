@@ -15,38 +15,34 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
-  :root  {
-    --brown: #804d15;
-    --white: #ffffff;
-    --black: #000000;
-  }
-  .section-{{ section.id }}-padding {
-    padding-top:0px;
-    padding-bottom: 0px;
-  }
-
-  .scroll-wrapper {
-    overflow: hidden; /* Hide any horizontal overflow */
-    padding:1rem;
-  }
-
-  .scroll-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    background-color:none;
-  }
-
-  .filter-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 100px;
-    overflow-x: auto; 
-  }
-
+:root  {
+  --brown: #804d15;
+  --white: #ffffff;
+  --black: #000000;
+}
+.section-{{ section.id }}-padding {
+  padding-top:0px;
+  padding-bottom: 0px;
+}
+.scroll-wrapper {
+  overflow: hidden; /* Hide any horizontal overflow */
+  padding:1rem;
+}
+.scroll-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  background-color:none;
+}
+.filter-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100px;
+  overflow-x: auto; 
+}
 /* Styles for sections */
 .section-collection {
   display: none;
@@ -56,84 +52,43 @@
 }
 .grid-border-box{
   border-bottom:none;
-
-
 }
-
 /* Additional styles for smaller screens */
-  .scroll-container {
-    flex-wrap: nowrap; 
-  }
- 
-  .filter-button-abo {
-    margin-left: 1rem;
-    margin-right: 1.5rem;
-  }
-  .filter-image-text-container{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-
-    margin:0.6rem;
-    min-width:140px;
-
-    min-height:150px;
-
-    border-radius: 0px;
-    background-color:transparent;
-    transition: background-image 0.3s ease; /* Adding transition for the background image */
-
-    padding-right:0.5rem;
-    padding-left:0.5rem;
-    padding-top:0.7rem;
+.scroll-container {
+  flex-wrap: nowrap; 
+}
+.filter-button-abo {
+  margin-left: 1rem;
+  margin-right: 1.5rem;
+}
+.filter-image-text-container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  margin:0.6rem;
 }
 .filter-image-text-container p {
   padding:0px;
   margin:0px;
   font-weight:bold;
   padding-top:1rem;
+  cursor:pointer;
+}
+.xmas-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:24px;
 }
 
-  .filter-image-text-container:hover{
-    cursor: pointer;
-    background-image: linear-gradient(to right, rgb(141, 36, 49), rgb(205, 22, 36)); /* New gradient on hover */
-
-  }
-  .filter-image-text-container:hover .image-button-filter {
-   
-    border: 4px solid transparent;
-    box-shadow: 0 0 0 2px white, 0 0 0 16px transparent; 
-    cursor: pointer;
-}
-.filter-image-text-container:active{
-
-
-    background-image: linear-gradient(to right, rgb(141, 36, 49), rgb(205, 22, 36));
-
-}
-  
-  .image-button-filter{
-    height:100px;
-    width:100px;
-    border-radius: 50%;
-  }
- .xmas-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size:24px;
- }
-
- @media (max-width: 990px) {
+@media (max-width: 990px) {
   .filter-buttons {
     justify-content: flex-start; ´
     padding-right:0.5rem;
   }
 }
-
-
 
 {%- endstyle -%}
 
@@ -217,207 +172,8 @@
   
 </section>
 
+
 <div class="scroll-wrapper english-set" style="display: none;">
-  {%- if section.settings.XMAS_TITLE != blank -%}
-    <h2 class="xmas-title">
-      🎁 {{ section.settings.XMAS_TITLE | escape }} 🎁
-    </h2>
-  {%- endif -%}
-  <div class="scroll-container custom-column-content">
-    <div class="filter-buttons">
-
-
-
-        
-    <section 
-      class="filter-image-text-container"
-      onclick="toggleSection('x-mas-boxi')"
-      data-section="x-mas-boxi"
-      >
-      {%- if section.settings.x_mas_boxi != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.x_mas_boxi.width >= 165 -%}{{ section.settings.x_mas_boxi | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 360 -%}{{ section.settings.x_mas_boxi | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 535 -%}{{ section.settings.x_mas_boxi | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 750 -%}{{ section.settings.x_mas_boxi | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 1070 -%}{{ section.settings.x_mas_boxi | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 1500 -%}{{ section.settings.x_mas_boxi | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.x_mas_boxi | image_url }} {{ section.settings.x_mas_boxi.width }}
-          "
-          src="{{ section.settings.image_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.x_mas_boxi.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-button-filter"
-          onclick="toggleSection('x-mas-boxi')"
-          data-section="x-mas-boxi"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      <p>BUNDLES</p>
-    </section>
-
-    <section 
-      class="filter-image-text-container"
-      onclick="toggleSection('x-mas-essent')"
-      data-section="x-mas-essent"
-      >
-      {%- if section.settings.x_mas_essent != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.x_mas_essent.width >= 165 -%}{{ section.settings.x_mas_essent | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 360 -%}{{ section.settings.x_mas_essent | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 535 -%}{{ section.settings.x_mas_essent | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 750 -%}{{ section.settings.x_mas_essent | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 1070 -%}{{ section.settings.x_mas_essent | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 1500 -%}{{ section.settings.x_mas_essent | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.x_mas_essent | image_url }} {{ section.settings.x_mas_essent.width }}
-          "
-          src="{{ section.settings.image_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.x_mas_essent.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-button-filter"
-          onclick="toggleSection('x-mas-essent')"
-          data-section="x-mas-essent"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      <p>ESSENTIALS</p>
-    </section>
-
-      <section 
-        class="filter-image-text-container"
-        onclick="toggleSection('x-mas-bookie')"
-        data-section="x-mas-bookie"
-        >
-        {%- if section.settings.x_mas_bookie != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_bookie.width >= 165 -%}{{ section.settings.x_mas_bookie | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 360 -%}{{ section.settings.x_mas_bookie | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 535 -%}{{ section.settings.x_mas_bookie | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 750 -%}{{ section.settings.x_mas_bookie | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 1070 -%}{{ section.settings.x_mas_bookie | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 1500 -%}{{ section.settings.x_mas_bookie | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_bookie | image_url }} {{ section.settings.x_mas_bookie.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_bookie.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter"
-            onclick="toggleSection('x-mas-bookie')"
-            data-section="x-mas-bookie"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p>BÜCHER</p>
-      </section>
-
-      <section 
-        class="filter-image-text-container"
-        onclick="toggleSection('x-mas-fellowi')"
-        data-section="x-mas-fellow"
-        >
-        {%- if section.settings.x_mas_fellowi != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_fellowi.width >= 165 -%}{{ section.settings.x_mas_fellowi | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 360 -%}{{ section.settings.x_mas_fellowi | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 535 -%}{{ section.settings.x_mas_fellowi | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 750 -%}{{ section.settings.x_mas_fellowi | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 1070 -%}{{ section.settings.x_mas_fellowi | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 1500 -%}{{ section.settings.x_mas_fellowi | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_fellowi | image_url }} {{ section.settings.x_mas_fellowi.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_fellowi.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter"
-            onclick="toggleSection('x-mas-fellowi')"
-            data-section="x-mas-fellowi"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p>FELLOW</p>
-      </section>
-
-      <section 
-        class="filter-image-text-container"
-        onclick="toggleSection('x-mas-equip')"
-        data-section="x-mas-equip"
-        >
-        {%- if section.settings.x_mas_equip != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_equip.width >= 165 -%}{{ section.settings.x_mas_equip | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 360 -%}{{ section.settings.x_mas_equip | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 535 -%}{{ section.settings.x_mas_equip | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 750 -%}{{ section.settings.x_mas_equip | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 1070 -%}{{ section.settings.x_mas_equip | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 1500 -%}{{ section.settings.x_mas_equip | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_equip | image_url }} {{ section.settings.x_mas_equip.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_equip.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter"
-            onclick="toggleSection('x-mas-equip')"
-            data-section="x-mas-equip"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        <p>KAFFEEZUBEHÖR</p>
-      </section>
-
-      <section 
-          class="filter-image-text-container"   
-          onclick="toggleSection('x-mas-sub')"
-          data-section="x-mas-sub"
-          >
-          {%- if section.settings.x_mas_sub != blank -%}
-            <img
-              srcset="
-                {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
-                {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
-              "
-              src="{{ section.settings.image_2| image_url: width: 1500 }}"
-              alt="{{ section.settings.x_mas_sub.alt | escape }}"
-              loading="lazy"
-              width=""
-              height=""
-              class="image-button-filter"
-              
-            >
-          {%- else -%}
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-          {%- endif -%}
-          <p>ABO</p>
-      </section>
-    </div>
-  </div>
-</div>
-
-<div class="scroll-wrapper german-set" style="display: none;">
   {%- if section.settings.XMAS_TITLE != blank -%}
     <h2 class="xmas-title">
       🎁 {{ section.settings.XMAS_TITLE | escape }} 🎁
@@ -431,29 +187,6 @@
       onclick="toggleSection('x-mas-boxi')"
       data-section="x-mas-boxi"
       >
-      {%- if section.settings.x_mas_boxi != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.x_mas_boxi.width >= 165 -%}{{ section.settings.x_mas_boxi | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 360 -%}{{ section.settings.x_mas_boxi | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 535 -%}{{ section.settings.x_mas_boxi | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 750 -%}{{ section.settings.x_mas_boxi | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 1070 -%}{{ section.settings.x_mas_boxi | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.x_mas_boxi.width >= 1500 -%}{{ section.settings.x_mas_boxi | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.x_mas_boxi | image_url }} {{ section.settings.x_mas_boxi.width }}
-          "
-          src="{{ section.settings.image_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.x_mas_boxi.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-button-filter"
-          onclick="toggleSection('x-mas-boxi')"
-          data-section="x-mas-boxi"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
       <p>BUNDLES</p>
     </section>
 
@@ -462,29 +195,6 @@
       onclick="toggleSection('x-mas-essent')"
       data-section="x-mas-essent"
       >
-      {%- if section.settings.x_mas_essent != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.x_mas_essent.width >= 165 -%}{{ section.settings.x_mas_essent | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 360 -%}{{ section.settings.x_mas_essent | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 535 -%}{{ section.settings.x_mas_essent | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 750 -%}{{ section.settings.x_mas_essent | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 1070 -%}{{ section.settings.x_mas_essent | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.x_mas_essent.width >= 1500 -%}{{ section.settings.x_mas_essent | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.x_mas_essent | image_url }} {{ section.settings.x_mas_essent.width }}
-          "
-          src="{{ section.settings.image_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.x_mas_essent.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-button-filter"
-          onclick="toggleSection('x-mas-essent')"
-          data-section="x-mas-essent"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
       <p>ESSENTIALS</p>
     </section>
 
@@ -493,29 +203,6 @@
         onclick="toggleSection('x-mas-bookie')"
         data-section="x-mas-bookie"
         >
-        {%- if section.settings.x_mas_bookie != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_bookie.width >= 165 -%}{{ section.settings.x_mas_bookie | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 360 -%}{{ section.settings.x_mas_bookie | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 535 -%}{{ section.settings.x_mas_bookie | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 750 -%}{{ section.settings.x_mas_bookie | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 1070 -%}{{ section.settings.x_mas_bookie | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_bookie.width >= 1500 -%}{{ section.settings.x_mas_bookie | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_bookie | image_url }} {{ section.settings.x_mas_bookie.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_bookie.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter"
-            onclick="toggleSection('x-mas-bookie')"
-            data-section="x-mas-bookie"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
         <p>BÜCHER</p>
       </section>
 
@@ -524,29 +211,6 @@
         onclick="toggleSection('x-mas-fellowi')"
         data-section="x-mas-fellow"
         >
-        {%- if section.settings.x_mas_fellowi != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_fellowi.width >= 165 -%}{{ section.settings.x_mas_fellowi | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 360 -%}{{ section.settings.x_mas_fellowi | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 535 -%}{{ section.settings.x_mas_fellowi | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 750 -%}{{ section.settings.x_mas_fellowi | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 1070 -%}{{ section.settings.x_mas_fellowi | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_fellowi.width >= 1500 -%}{{ section.settings.x_mas_fellowi | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_fellowi | image_url }} {{ section.settings.x_mas_fellowi.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_fellowi.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter"
-            onclick="toggleSection('x-mas-fellowi')"
-            data-section="x-mas-fellowi"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
         <p>FELLOW</p>
       </section>
 
@@ -555,29 +219,6 @@
         onclick="toggleSection('x-mas-equip')"
         data-section="x-mas-equip"
         >
-        {%- if section.settings.x_mas_equip != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.x_mas_equip.width >= 165 -%}{{ section.settings.x_mas_equip | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 360 -%}{{ section.settings.x_mas_equip | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 535 -%}{{ section.settings.x_mas_equip | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 750 -%}{{ section.settings.x_mas_equip | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 1070 -%}{{ section.settings.x_mas_equip | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.x_mas_equip.width >= 1500 -%}{{ section.settings.x_mas_equip | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.x_mas_equip | image_url }} {{ section.settings.x_mas_equip.width }}
-            "
-            src="{{ section.settings.image_2| image_url: width: 1500 }}"
-            alt="{{ section.settings.x_mas_equip.alt | escape }}"
-            loading="lazy"
-            width=""
-            height=""
-            class="image-button-filter"
-            onclick="toggleSection('x-mas-equip')"
-            data-section="x-mas-equip"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
         <p>KAFFEEZUBEHÖR</p>
       </section>
 
@@ -586,28 +227,6 @@
           onclick="toggleSection('x-mas-sub')"
           data-section="x-mas-sub"
           >
-          {%- if section.settings.x_mas_sub != blank -%}
-            <img
-              srcset="
-                {%- if section.settings.x_mas_sub.width >= 165 -%}{{ section.settings.x_mas_sub | image_url: width: 165 }} 165w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 360 -%}{{ section.settings.x_mas_sub | image_url: width: 360 }} 360w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 535 -%}{{ section.settings.x_mas_sub | image_url: width: 535 }} 535w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 750 -%}{{ section.settings.x_mas_sub | image_url: width: 750 }} 750w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 1070 -%}{{ section.settings.x_mas_sub | image_url: width: 1070 }} 1070w,{%- endif -%}
-                {%- if section.settings.x_mas_sub.width >= 1500 -%}{{ section.settings.x_mas_sub | image_url: width: 1500 }} 1500w,{%- endif -%}
-                {{ section.settings.x_mas_sub | image_url }} {{ section.settings.x_mas_sub.width }}
-              "
-              src="{{ section.settings.image_2| image_url: width: 1500 }}"
-              alt="{{ section.settings.x_mas_sub.alt | escape }}"
-              loading="lazy"
-              width=""
-              height=""
-              class="image-button-filter"
-              
-            >
-          {%- else -%}
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-          {%- endif -%}
           <p>ABO</p>
       </section>
         
@@ -863,52 +482,17 @@
     "name": "x-mas section",
     "class": "section",
     "settings": [
-        {
-      "type": "collection",
-      "id": "collection",
-      "label": "Select collection"
-    },
-    {
-          "type": "text",
-          "id": "XMAS_TITLE",
-          "default": "Image with text",
-          "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
-        },
-    {
-      "type": "image_picker",
-      "id": "x_mas_sub",
-      "label": "t:sections.image-with-text.settings.image.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "x_mas_bookie",
-      "label": "t:sections.image-with-text.settings.image.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "x_mas_giftcard",
-      "label": "t:sections.image-with-text.settings.image.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "x_mas_fellowi",
-      "label": "t:sections.image-with-text.settings.image.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "x_mas_equip",
-      "label": "t:sections.image-with-text.settings.image.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "x_mas_boxi",
-      "label": "t:sections.image-with-text.settings.image.label"
-    },
-    {
-      "type": "image_picker",
-      "id": "x_mas_essent",
-      "label": "t:sections.image-with-text.settings.image.label"
-    },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Select collection"
+      },
+      {
+        "type": "text",
+        "id": "XMAS_TITLE",
+        "default": "Image with text",
+        "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+      },
       {
         "type": "range",
         "id": "products_per_page",
@@ -948,43 +532,52 @@
         ],
         "default": "adapt",
         "label": "t:sections.main-collection-product-grid.settings.image_ratio.label"
-      }, {
+      }, 
+      {
         "type": "checkbox",
         "id": "show_secondary_image",
         "default": false,
         "label": "t:sections.main-collection-product-grid.settings.show_secondary_image.label"
-      }, {
+      }, 
+      {
         "type": "checkbox",
         "id": "show_vendor",
         "default": false,
         "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
-      }, {
+      }, 
+      {
         "type": "checkbox",
         "id": "show_tastenotes",
         "default": false,
         "label": "Show Tastenote or Tagline"
-      }, {
+      }, 
+      {
         "type": "checkbox",
         "id": "show_rating",
         "default": false,
         "label": "t:sections.main-collection-product-grid.settings.show_rating.label",
         "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
-      }, {
+      }, 
+      {
         "type": "checkbox",
         "id": "enable_quick_add",
         "default": false,
         "label": "t:sections.main-collection-product-grid.settings.enable_quick_buy.label"
-      }, {
+      }, 
+      {
         "type": "color",
         "id": "quick_add_button_color",
         "label": "Quick Add Button Color"
-      }, {
+      }, 
+      {
         "type": "header",
         "content": "t:sections.main-collection-product-grid.settings.header__1.content"
-      }, {
+      }, 
+      {
         "type": "header",
         "content": "t:sections.main-collection-product-grid.settings.header_mobile.content"
-      }, {
+      }, 
+      {
         "type": "select",
         "id": "columns_mobile",
         "default": "2",
@@ -998,10 +591,12 @@
             "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__2.label"
           }
         ]
-      }, {
+      }, 
+      {
         "type": "header",
         "content": "t:sections.all.padding.section_padding_heading"
-      }, {
+      }, 
+      {
         "type": "range",
         "id": "padding_top",
         "min": 0,
@@ -1010,7 +605,8 @@
         "unit": "px",
         "label": "t:sections.all.padding.padding_top",
         "default": 36
-      }, {
+      }, 
+      {
         "type": "range",
         "id": "padding_bottom",
         "min": 0,
