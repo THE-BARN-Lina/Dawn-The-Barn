@@ -75,9 +75,9 @@
   font-weight:bold;
   cursor:pointer;
 }
-.filter-image-text-container p:active {
-  color:var(--brown)
-}
+#myParagraph.active {
+    color: var(--brown); 
+  }
 .xmas-title{
   display: flex;
   flex-direction: column;
@@ -190,7 +190,7 @@
       data-section="x-mas-boxi"
       >
       {%- if section.settings.XMAS_BUNDLES != blank -%}
-        <p class="">
+        <p id="myParagraph">
           {{ section.settings.XMAS_BUNDLES | escape }}
         </p>
       {%- endif -%}
@@ -202,7 +202,7 @@
       data-section="x-mas-essent"
       >
       {%- if section.settings.XMAS_ESSENTIALS != blank -%}
-        <p class="">
+        <p id="myParagraph">
           {{ section.settings.XMAS_ESSENTIALS | escape }}
         </p>
       {%- endif -%}
@@ -214,7 +214,7 @@
         data-section="x-mas-bookie"
         >
         {%- if section.settings.XMAS_BOOKS != blank -%}
-          <p class="">
+          <p id="myParagraph">
             {{ section.settings.XMAS_BOOKS | escape }}
           </p>
         {%- endif -%}
@@ -226,7 +226,7 @@
         data-section="x-mas-fellow"
         >
         {%- if section.settings.XMAS_FELLOW != blank -%}
-          <p class="">
+          <p id="myParagraph">
             {{ section.settings.XMAS_FELLOW | escape }}
           </p>
         {%- endif -%}
@@ -238,7 +238,7 @@
         data-section="x-mas-equip"
         >
         {%- if section.settings.XMAS_EQUIPMENT != blank -%}
-          <p class="">
+          <p id="myParagraph">
             {{ section.settings.XMAS_EQUIPMENT | escape }}
           </p>
         {%- endif -%}
@@ -250,7 +250,7 @@
           data-section="x-mas-sub"
           >
           {%- if section.settings.XMAS_SUBSCRIPTIONS != blank -%}
-            <p class="">
+            <p id="myParagraph">
               {{ section.settings.XMAS_SUBSCRIPTIONS | escape }}
             </p>
           {%- endif -%}
@@ -449,6 +449,20 @@
     {% endif %}  
   </div>
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const paragraphs = document.querySelectorAll('.myParagraph'); // Get all paragraphs with class 'myParagraph'
+
+    paragraphs.forEach(function(paragraph) {
+      paragraph.addEventListener('click', function() {
+        paragraph.classList.toggle('active'); // Toggle the 'active' class for each paragraph
+      });
+    });
+  });
+</script>
+
 
 <script>
   // This part at the beginning of the script to set the default filter
