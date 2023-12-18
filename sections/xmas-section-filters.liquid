@@ -24,6 +24,12 @@
   padding-top:0px;
   padding-bottom: 0px;
 }
+.xmas-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:24px;
+}
 .scroll-wrapper {
   overflow: hidden; /* Hide any horizontal overflow */
   padding:1rem;
@@ -42,7 +48,6 @@
   width: 100%;
   overflow-x: auto; 
 }
-/* Styles for sections */
 .section-collection {
   display: none;
 }
@@ -52,7 +57,6 @@
 .grid-border-box{
   border-bottom:none;
 }
-/* Additional styles for smaller screens */
 .scroll-container {
   flex-wrap: nowrap; 
 }
@@ -73,15 +77,10 @@
  
   cursor:pointer;
 }
-.filter-image-text-container:active{
+.filter-image-text-container.active{
   border-bottom: 2px solid white !important;
 }
-.xmas-title{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size:24px;
-}
+
 
 @media (max-width: 990px) {
   .filter-buttons {
@@ -198,7 +197,7 @@
       class="filter-image-text-container"
       onclick="toggleSection('x-mas-essent')"
       data-section="x-mas-essent"
-      >
+    >
       {%- if section.settings.XMAS_ESSENTIALS != blank -%}
         <p>
           {{ section.settings.XMAS_ESSENTIALS | escape }}
@@ -485,6 +484,14 @@
       activeButton.classList.add('active', 'border-button');
     }
   }
+</script>
+<script>
+
+  function toggleSection(sectionId) {
+    const section = document.querySelector(`[data-section="${sectionId}"]`);
+    section.classList.toggle('active');
+  }
+  
 </script>
 
 {% schema %}
