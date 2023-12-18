@@ -68,14 +68,14 @@
   text-align:center;
   margin:0.6rem;
   margin-right:4rem;
+}
+.filter-image-text-container p{
+ 
   cursor:pointer;
 }
-#myParagraph {
-  cursor:pointer; 
+.filter-image-text-container:active{
+  border-bottom: 2px solid white
 }
-#myParagraph.active {
-    color: red; 
-  }
 .xmas-title{
   display: flex;
   flex-direction: column;
@@ -188,7 +188,7 @@
       data-section="x-mas-boxi"
       >
       {%- if section.settings.XMAS_BUNDLES != blank -%}
-        <p id="myParagraph">
+        <p>
           {{ section.settings.XMAS_BUNDLES | escape }}
         </p>
       {%- endif -%}
@@ -200,7 +200,7 @@
       data-section="x-mas-essent"
       >
       {%- if section.settings.XMAS_ESSENTIALS != blank -%}
-        <p id="myParagraph">
+        <p>
           {{ section.settings.XMAS_ESSENTIALS | escape }}
         </p>
       {%- endif -%}
@@ -212,7 +212,7 @@
         data-section="x-mas-bookie"
         >
         {%- if section.settings.XMAS_BOOKS != blank -%}
-          <p id="myParagraph">
+          <p>
             {{ section.settings.XMAS_BOOKS | escape }}
           </p>
         {%- endif -%}
@@ -224,7 +224,7 @@
         data-section="x-mas-fellow"
         >
         {%- if section.settings.XMAS_FELLOW != blank -%}
-          <p id="myParagraph">
+          <p>
             {{ section.settings.XMAS_FELLOW | escape }}
           </p>
         {%- endif -%}
@@ -236,7 +236,7 @@
         data-section="x-mas-equip"
         >
         {%- if section.settings.XMAS_EQUIPMENT != blank -%}
-          <p id="myParagraph">
+          <p>
             {{ section.settings.XMAS_EQUIPMENT | escape }}
           </p>
         {%- endif -%}
@@ -248,7 +248,7 @@
           data-section="x-mas-sub"
           >
           {%- if section.settings.XMAS_SUBSCRIPTIONS != blank -%}
-            <p id="myParagraph">
+            <p>
               {{ section.settings.XMAS_SUBSCRIPTIONS | escape }}
             </p>
           {%- endif -%}
@@ -448,23 +448,6 @@
   </div>
 </div>
 
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const paragraphs = document.querySelectorAll('.myParagraph'); // Get all paragraphs with class 'myParagraph'
-
-    paragraphs.forEach(function(paragraph) {
-      paragraph.addEventListener('click', function() {
-        // Remove 'active' class from all paragraphs
-        paragraphs.forEach(function(p) {
-          p.classList.remove('active');
-        });
-        // Toggle 'active' class for the clicked paragraph only
-        paragraph.classList.toggle('active');
-      });
-    });
-  });
-</script>
 
 
 <script>
