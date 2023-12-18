@@ -455,7 +455,12 @@
 
     paragraphs.forEach(function(paragraph) {
       paragraph.addEventListener('click', function() {
-        paragraph.classList.toggle('active'); // Toggle the 'active' class for each paragraph
+        // Remove 'active' class from all paragraphs
+        paragraphs.forEach(function(p) {
+          p.classList.remove('active');
+        });
+        // Toggle 'active' class for the clicked paragraph only
+        paragraph.classList.toggle('active');
       });
     });
   });
