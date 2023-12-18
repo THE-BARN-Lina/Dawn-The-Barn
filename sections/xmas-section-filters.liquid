@@ -37,14 +37,8 @@
   overflow: hidden; /* Hide any horizontal overflow */
   padding:1rem;
 }
-.scroll-container {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  background-color:none;
-  overflow-y: none;
-}
+
+
 .filter-buttons {
   display: flex;
   align-items: center;
@@ -55,12 +49,6 @@
   overflow-y: none;
 
 }
-.scroll-container:-webkit-scrollbar {
-  display: none;
-}
-.scroll-container:-webkit-scrollbar {
-  display: none;
-}
 .section-collection {
   display: none;
 }
@@ -70,9 +58,7 @@
 .grid-border-box{
   border-bottom:none;
 }
-.scroll-container {
-  flex-wrap: nowrap; 
-}
+
 .filter-button-abo {
   margin-left: 1rem;
   margin-right: 1.5rem;
@@ -97,6 +83,16 @@
 .color-brown {
   --brown: #804d15;
 }
+.scroll-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  background-color:none;
+}
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
 @media (max-width: 990px) {
   .filter-buttons {
     justify-content: flex-start; ´
@@ -106,13 +102,32 @@
 
 {%- endstyle -%}
 
+<style>
+  /* CSS to style scrollbar track */
+  .scroll-container {
+    scrollbar-color: purple lightgrey; /* scrollbar-color: thumb color track color; */
+  }
+
+  /* CSS to style scrollbar thumb */
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: purple; /* Color of the scrollbar thumb */
+    border-radius: 8px; /* Border radius of the scrollbar thumb */
+  }
+
+  /* CSS to style scrollbar track */
+  .scroll-container::-webkit-scrollbar-track {
+    background-color: lightgrey; /* Color of the scrollbar track */
+  }
+</style>
+
+
 <div class="scroll-wrapper">
   {%- if section.settings.XMAS_TITLE != blank -%}
     <h2 class="xmas-title">
       🎁 {{ section.settings.XMAS_TITLE | escape }} 🎁
     </h2>
   {%- endif -%}
-  <div class="scroll-container custom-column-content">
+  <div class="scroll-container" id="scrollContainer">
     <div class="filter-buttons">
     
     <section 
@@ -649,6 +664,7 @@
     }
   }
 </script>
+
 
 {% schema %}
   {
