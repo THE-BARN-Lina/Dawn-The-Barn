@@ -462,7 +462,7 @@
 
 </section>
 
-<section class="section-collection visible" id="x-mas-essent">
+<section class="section-collection" id="x-mas-essent">
 
     <div class="color-{{ section.settings.color_scheme }} isolate gradient">
       <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
@@ -524,7 +524,7 @@
 
 </section>
 
-<section class="section-collection visible" id="x-mas-fellowi">
+<section class="section-collection " id="x-mas-fellowi">
 
     <div class="color-{{ section.settings.color_scheme }} isolate gradient">
       <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
@@ -586,7 +586,7 @@
 
 </section>
 
-<section class="section-collection visible" id="x-mas-equip">
+<section class="section-collection " id="x-mas-equip">
 
     <div class="color-{{ section.settings.color_scheme }} isolate gradient">
       <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
@@ -648,7 +648,7 @@
 
 </section>
 
-<section class="section-collection visible" id="x-mas-bookie">
+<section class="section-collection " id="x-mas-bookie">
 
     <div class="color-{{ section.settings.color_scheme }} isolate gradient">
       <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
@@ -710,7 +710,7 @@
 
 </section>
 
-<section class="section-collection visible" id="x-mas-sub">
+<section class="section-collection " id="x-mas-sub">
 
     <div class="color-{{ section.settings.color_scheme }} isolate gradient">
       <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
@@ -773,10 +773,12 @@
 </section>
 
 <script>
-  // This part at the beginning of the script to set the default filter
   window.addEventListener('DOMContentLoaded', (event) => {
-    toggleSection('bookie'); // Set the default active filter (e.g., 'favoritos')
+    // Set x-mas-boxi section as visible by default
+    const defaultSection = document.getElementById('x-mas-boxi');
+    defaultSection.classList.add('visible');
   });
+
 
   function toggleSection(sectionId) {
     const buttons = document.querySelectorAll('.filter-button-abo');
