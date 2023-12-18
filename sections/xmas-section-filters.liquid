@@ -102,11 +102,6 @@
 
 {%- endstyle -%}
 
-
-
-
-
-
 <div class="scroll-wrapper">
   {%- if section.settings.XMAS_TITLE != blank -%}
     <h2 class="xmas-title">
@@ -209,7 +204,7 @@
           <ul
             id="product-grid"
             data-id="{{ section.id }}"
-            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
             {% for product in section.settings.collection.products %}
               {% if product.tags contains "x-mas-box" %}
                 {% assign lazy_load = false %}
@@ -238,7 +233,7 @@
           <ul
             id="product-grid"
             data-id="{{ section.id }}"
-            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
             {% for product in section.settings.collection.products %}
               {% if product.tags contains "x-mas-essentials" %}
                 {% assign lazy_load = false %}
@@ -267,7 +262,7 @@
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
-              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
               {% for product in section.settings.collection.products %}
                 {% if product.tags contains "x-mas-fellow" %}
                   {% assign lazy_load = false %}
@@ -296,7 +291,7 @@
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
-              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box" grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
+              class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop ">
               {% for product in section.settings.collection.products %}
                 {% if product.tags contains "x-mas-equipment" %}
                   {% assign lazy_load = false %}
@@ -325,7 +320,7 @@
           <ul
             id="product-grid"
             data-id="{{ section.id }}"
-            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box"
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
             {% for product in section.settings.collection.products %}
               {% if product.tags contains "x-mas-book" %}
@@ -355,7 +350,7 @@
           <ul
             id="product-grid"
             data-id="{{ section.id }}"
-            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box"
+            class="grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid-border-box
             grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
             grid--{{ section.settings.columns_desktop }}-col-desktop">
             {% for product in section.settings.collection.products %}
