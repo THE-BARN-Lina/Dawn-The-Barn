@@ -40,6 +40,7 @@
   width: 100%;
   overflow-x: auto; /* Enable horizontal scrolling */
   background-color:none;
+  overflow-y: none;
 }
 .filter-buttons {
   display: flex;
@@ -48,6 +49,14 @@
   width: 100%;
   overflow-x: auto;
   max-height: 69px;
+  overflow-y: none;
+
+}
+.scroll-container:-webkit-scrollbar {
+  display: none;
+}
+.filter-buttons:-webkit-scrollbar {
+  display: none;
 }
 .section-collection {
   display: none;
@@ -217,57 +226,57 @@
       {%- endif -%}
     </section>
 
-      <section 
-        class="filter-image-text-container"
-        onclick="toggleSection('x-mas-bookie')"
-        data-section="x-mas-bookie"
+    <section 
+      class="filter-image-text-container"
+      onclick="toggleSection('x-mas-bookie')"
+      data-section="x-mas-bookie"
+      tabindex="0"
+      >
+      {%- if section.settings.XMAS_BOOKS != blank -%}
+        <p>
+          {{ section.settings.XMAS_BOOKS | escape }}
+        </p>
+      {%- endif -%}
+    </section>
+
+    <section 
+      class="filter-image-text-container"
+      onclick="toggleSection('x-mas-fellowi')"
+      data-section="x-mas-fellow"
+      tabindex="0"
+      >
+      {%- if section.settings.XMAS_FELLOW != blank -%}
+        <p>
+          {{ section.settings.XMAS_FELLOW | escape }}
+        </p>
+      {%- endif -%}
+    </section>
+
+    <section 
+      class="filter-image-text-container"
+      onclick="toggleSection('x-mas-equip')"
+      data-section="x-mas-equip"
+      tabindex="0"
+      >
+      {%- if section.settings.XMAS_EQUIPMENT != blank -%}
+        <p>
+          {{ section.settings.XMAS_EQUIPMENT | escape }}
+        </p>
+      {%- endif -%}
+    </section>
+
+    <section 
+        class="filter-image-text-container"   
+        onclick="toggleSection('x-mas-sub')"
+        data-section="x-mas-sub"
         tabindex="0"
         >
-        {%- if section.settings.XMAS_BOOKS != blank -%}
+        {%- if section.settings.XMAS_SUBSCRIPTIONS != blank -%}
           <p>
-            {{ section.settings.XMAS_BOOKS | escape }}
+            {{ section.settings.XMAS_SUBSCRIPTIONS | escape }}
           </p>
         {%- endif -%}
-      </section>
-
-      <section 
-        class="filter-image-text-container"
-        onclick="toggleSection('x-mas-fellowi')"
-        data-section="x-mas-fellow"
-        tabindex="0"
-        >
-        {%- if section.settings.XMAS_FELLOW != blank -%}
-          <p>
-            {{ section.settings.XMAS_FELLOW | escape }}
-          </p>
-        {%- endif -%}
-      </section>
-
-      <section 
-        class="filter-image-text-container"
-        onclick="toggleSection('x-mas-equip')"
-        data-section="x-mas-equip"
-        tabindex="0"
-        >
-        {%- if section.settings.XMAS_EQUIPMENT != blank -%}
-          <p>
-            {{ section.settings.XMAS_EQUIPMENT | escape }}
-          </p>
-        {%- endif -%}
-      </section>
-
-      <section 
-          class="filter-image-text-container"   
-          onclick="toggleSection('x-mas-sub')"
-          data-section="x-mas-sub"
-          tabindex="0"
-          >
-          {%- if section.settings.XMAS_SUBSCRIPTIONS != blank -%}
-            <p>
-              {{ section.settings.XMAS_SUBSCRIPTIONS | escape }}
-            </p>
-          {%- endif -%}
-      </section>
+    </section>
         
     </div>
   </div>
@@ -494,7 +503,7 @@
       }
     });
 
-// Add the active class to the clicked button
+  // Add the active class to the clicked button
     const activeButton = document.querySelector(`.filter-button-abo[data-section="${sectionId}"]`);
     if (activeButton) {
       activeButton.classList.add('active', 'border-button');
