@@ -77,7 +77,8 @@
  
   cursor:pointer;
 }
-.filter-image-text-container:active{
+.filter-image-text-container:focus {
+  outline: none; /* Remove the default focus outline if it's unwanted */
   border-bottom: 2px solid white !important;
 }
 
@@ -185,6 +186,7 @@
       class="filter-image-text-container"
       onclick="toggleSection('x-mas-boxi')"
       data-section="x-mas-boxi"
+      tabindex="0"
       >
       {%- if section.settings.XMAS_BUNDLES != blank -%}
         <p>
@@ -197,6 +199,7 @@
       class="filter-image-text-container"
       onclick="toggleSection('x-mas-essent')"
       data-section="x-mas-essent"
+      tabindex="0"
       >
       {%- if section.settings.XMAS_ESSENTIALS != blank -%}
         <p>
@@ -209,6 +212,7 @@
         class="filter-image-text-container"
         onclick="toggleSection('x-mas-bookie')"
         data-section="x-mas-bookie"
+        tabindex="0"
         >
         {%- if section.settings.XMAS_BOOKS != blank -%}
           <p>
@@ -221,6 +225,7 @@
         class="filter-image-text-container"
         onclick="toggleSection('x-mas-fellowi')"
         data-section="x-mas-fellow"
+        tabindex="0"
         >
         {%- if section.settings.XMAS_FELLOW != blank -%}
           <p>
@@ -233,6 +238,7 @@
         class="filter-image-text-container"
         onclick="toggleSection('x-mas-equip')"
         data-section="x-mas-equip"
+        tabindex="0"
         >
         {%- if section.settings.XMAS_EQUIPMENT != blank -%}
           <p>
@@ -245,6 +251,7 @@
           class="filter-image-text-container"   
           onclick="toggleSection('x-mas-sub')"
           data-section="x-mas-sub"
+          tabindex="0"
           >
           {%- if section.settings.XMAS_SUBSCRIPTIONS != blank -%}
             <p>
