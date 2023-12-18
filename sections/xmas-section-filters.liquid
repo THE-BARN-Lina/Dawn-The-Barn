@@ -26,27 +26,17 @@
   align-items: center;
   font-size:24px;
 }
-.scroll-wrapper {
-  overflow: hidden; /* Hide any horizontal overflow */
-  padding:1rem;
-}
 .scroll-container {
   display: flex;
   align-items: center;
   width: 100%;
   overflow-x: auto; /* Enable horizontal scrolling */
   background-color:none;
-  overflow-y: none;
+  max-height: 69px;
+
 }
 .filter-buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  overflow-x: auto;
-  max-height: 69px;
-  overflow-y: none;
-
 }
 .section-collection {
   display: none;
@@ -77,10 +67,10 @@
  
   cursor:pointer;
 }
-.filter-image-text-container:focus {
+.filter-image-text-container p:focus {
   outline: none; /* Remove the default focus outline if it's unwanted */
-  border-bottom: 2px solid white !important;
-  overflow-y:none;
+  border: 2px solid white;
+  height:69px;
 }
 
 
@@ -99,7 +89,7 @@
       🎁 {{ section.settings.XMAS_TITLE | escape }} 🎁
     </h2>
   {%- endif -%}
-  <div class="scroll-container">
+  <div class="">
     <div class="filter-buttons">
     
     <section 
