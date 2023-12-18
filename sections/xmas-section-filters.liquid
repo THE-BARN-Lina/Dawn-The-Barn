@@ -102,93 +102,9 @@
 
 {%- endstyle -%}
 
-{%- liquid
-  assign columns_mobile_int = section.settings.columns_mobile | plus: 0
-  assign show_mobile_slider = false
-  if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
-    assign show_mobile_slider = true
-  endif
--%}
 
-<section 
-  class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}" 
-  role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" 
-  aria-label="{{ section.settings.accessibility_info | escape }}">
 
-  <section class="both-text-slide-wrapper">
-    
-    <section class="slide-wrapper">
-      <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
-        id="Slider-{{ section.id }}"
-      >
-        {%- for block in section.blocks -%}
-      
-          <div class="slideshow__slide grid__item grid--1-col slider__slide"
-            id="Slide-{{ section.id }}-{{ forloop.index }}"
-            {{ block.shopify_attributes }}
-      
-          >
-          <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}">
-              {%- if block.settings.image -%}
-                <img
-                  srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
-                  {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
-                  {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | image_url: width: 1100 }} 1100w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | image_url: width: 1780 }} 1780w,{%- endif -%}
-                  {%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | image_url: width: 2000 }} 2000w,{%- endif -%}
-                  {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
-                  {%- if block.settings.image.width >= 3840 -%}{{ block.settings.image | image_url: width: 3840 }} 3840w,{%- endif -%}
-                  {{ block.settings.image | image_url }} {{ block.settings.image.width }}"
-                  sizes="100vw"
-                  src="{{ block.settings.image | image_url: width: 1500 }}"
-                  loading="lazy"
-                  alt=""
-                  width=""
-                  height=""
-                >
-              {%- else -%}
-                {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
-              {%- endif -%}
-            </div>
-          </div>
-        {%- endfor -%}
-      </div>
 
-      {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
-          <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
-            <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
-            <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'sections.slideshow.next_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
-          </div>
-      {%- endif -%}
-    </section>
-      
-    <section class="slide-text-wrapper">
-
-      {%- for block in section.blocks -%}
-              {%- if block.settings.heading != blank -%}
-                <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
-              {%- endif -%}
-              <br/>
-              {%- if block.settings.subheading != blank -%}
-                <div class="banner__text" {{ block.shopify_attributes }}>
-                  <span>{{ block.settings.subheading | escape }}</span>
-                </div>
-              {%- endif -%}
-              <br/>
-              {%- if block.settings.button_label != blank -%}
-                <div class="banner__buttons">
-                  <a{% if block.settings.link %} href="{{ block.settings.link }}"{% else %} role="link" aria-disabled="true"{% endif %} class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}">{{ block.settings.button_label | escape }}</a>
-                </div>
-              {%- endif -%}
-      {%- endfor -%}
-      
-    </section>
-
-  </section>
-  
-</section>
 
 
 <div class="scroll-wrapper">
