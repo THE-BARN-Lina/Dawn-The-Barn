@@ -93,6 +93,14 @@
 
 {%- endstyle -%}
 
+{%- liquid
+  assign columns_mobile_int = section.settings.columns_mobile | plus: 0
+  assign show_mobile_slider = false
+  if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
+    assign show_mobile_slider = true
+  endif
+-%}
+
 <section 
   class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}" 
   role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" 
@@ -622,6 +630,12 @@
         "id": "quick_add_button_color",
         "label": "Quick Add Button Color"
       }, 
+      {
+      "type": "checkbox",
+      "id": "swipe_on_mobile",
+      "default": false,
+      "label": "t:sections.multicolumn.settings.swipe_on_mobile.label"
+    },
       {
         "type": "header",
         "content": "t:sections.main-collection-product-grid.settings.header__1.content"
