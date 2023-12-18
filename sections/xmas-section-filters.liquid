@@ -15,12 +15,8 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
-:root  {
-  --brown: #804d15;
-  --white: #ffffff;
-  --black: #000000;
-}
-.color-brown {
+
+.under-line-white {
   border-bottom: 2px solid white; 
 }
 .section-{{ section.id }}-padding {
@@ -600,7 +596,7 @@
     defaultSection.classList.add('visible');
 
     const defaultButton = document.querySelector('.filter-image-text-container[data-section="x-mas-boxi"]');
-    defaultButton.classList.add('color-brown');
+    defaultButton.classList.add('under-line-white');
 
     const buttons = document.querySelectorAll('.filter-image-text-container');
     buttons.forEach(button => {
@@ -616,10 +612,10 @@
         clickedSection.classList.add('visible');
 
         buttons.forEach(btn => {
-          btn.classList.remove('color-brown'); // Remove color from all buttons
+          btn.classList.remove('under-line-white'); // Remove color from all buttons
         });
 
-        button.classList.add('color-brown'); // Apply color only to the clicked button
+        button.classList.add('under-line-white'); // Apply color only to the clicked button
       });
     });
   });
