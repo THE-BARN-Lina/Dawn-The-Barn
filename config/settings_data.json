@@ -121,9 +121,9 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
             "settings": {
-              "text": "Get your coffee and gifts in time for Christmas! Order by December 18th",
+              "text": "OUR GIFT SUBSCRIPTION COMES WITH AN EXTRA BAG OF COFFEE THIS YEAR! 🎁🎄",
               "color_scheme": "accent-1",
-              "link": ""
+              "link": "shopify:\/\/collections\/coffee-subscription-gifts"
             }
           }
         },
