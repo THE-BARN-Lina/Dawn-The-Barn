@@ -70,7 +70,7 @@
       "type": "xmas-section-filters",
       "settings": {
         "collection": "christmas-products",
-        "XMAS_TITLE": "CHRISTMAS GIFTS",
+        "XMAS_TITLE": "",
         "XMAS_BUNDLES": "BUNDLES",
         "XMAS_ESSENTIALS": "ESSENTIALS‎",
         "XMAS_BOOKS": "BOOKS",
