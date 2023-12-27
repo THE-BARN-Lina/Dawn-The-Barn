@@ -145,12 +145,24 @@
     },
     "2d304d85-3b03-4980-b291-93b36b8bbef4": {
       "type": "Video-With-Text",
+      "blocks": {
+        "9a3f1120-b765-4ef6-93e4-afb34cea45c3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "9a3f1120-b765-4ef6-93e4-afb34cea45c3"
+      ],
       "disabled": true,
       "settings": {
-        "video_id": "VnAQDO-fg6M",
-        "overlay": "",
-        "video_height": 70,
-        "video_autoplay": true,
+        "color_scheme": "background-1",
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0050\/2779\/0919\/files\/1_1_Cutting_fruit_H.mp4?v=1603372350",
+        "height": "adapt",
+        "layout": "image_first",
         "padding_top": 56,
         "padding_bottom": 52
       }
@@ -305,6 +317,7 @@
         "2d777bc0-ad0a-49be-9d6e-da413140cf58",
         "2142a6fb-61d3-4187-9c94-b81b11d42e7b"
       ],
+      "disabled": true,
       "settings": {
         "title": "Previous Masterpieces",
         "heading_size": "h2",
