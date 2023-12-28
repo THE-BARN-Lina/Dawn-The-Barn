@@ -50,7 +50,7 @@
         ".banner__content {padding: 0rem;}",
         "@media only screen and (min-width: 750px) {.banner__box {padding-left: 120px; }}",
         "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; } .banner__box {margin-bottom: -616px; }}",
-        ".banner__buttons{border:2px solid white;}"
+        ".banner__buttons {border: 2px solid white;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Masterpiece_December_edit.png",
@@ -388,8 +388,8 @@
         "button_link2_aboutus": "shopify:\/\/blogs\/the-barn-blog\/low-caf",
         "button_style_secondary_aboutus2": true,
         "image3_aboutus": "shopify:\/\/shop_images\/KabingaraFactory.webp",
-        "heading3_aboutus": "KABINGARA AA",
-        "text3_aboutus": "Our latest release from Kenya!",
+        "heading3_aboutus": "Our latest release from Kenya!",
+        "text3_aboutus": "",
         "button_label3_aboutus": "Read More",
         "button_link3_aboutus": "shopify:\/\/products\/kabingara-aa",
         "button_style_secondary_aboutus3": true,
