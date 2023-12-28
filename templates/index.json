@@ -221,7 +221,7 @@
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
       "type": "feature-collection-custom",
       "custom_css": [
-        ".collection {margin-top: 52px; padding-bottom: 40px; border-top: 2px solid #804d15; border-bottom: 2px solid #804d15;}"
+        ".collection {margin-top: 52px; padding-bottom: 40px;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",
