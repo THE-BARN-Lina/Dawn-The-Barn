@@ -1,0 +1,500 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+.image-grid-custom-aboutus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal columns */
+    gap: 15px; /* Adjust the gap between items */
+    padding:0;
+}
+
+.grid-item {
+    overflow: hidden; /* Ensure child elements don't overflow */
+}
+
+.full-width {
+    grid-column: span 4; /* Span 2 columns (full width) */
+}
+
+.half-width-left {
+    grid-column: span 2; /* Span 1 column (half width) */
+    padding-right:0;
+
+}
+.half-width-right {
+    grid-column: span 2; /* Span 1 column (half width) */
+    padding-left:0;
+
+}
+
+.image-with-text{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+}
+.button-text-container-aboutus {
+    position: absolute;
+    bottom: 0;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: none;
+}
+  .button-text-container-aboutus h2  {
+    margin:0rem;
+    padding:0rem;
+  }
+  .button-text-container-aboutus p  {
+    margin:0rem;
+    padding:0rem;
+  }
+
+  .button-aboutus-section{
+    height: 2rem;
+    width:4rem;
+    padding:1rem;
+    margin-top:2rem;
+    border-radius:10px;
+  
+}
+.button:after{
+    box-shadow:none;
+}
+
+.image-direct-container-aboutus {
+    height: 400px; /* Adjust the height of the container as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure the image remains within the container */
+    position: relative;
+}
+.image-direct-container-aboutus img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 750px) {
+    .half-width-left {
+        grid-column: span 4; /* Span 1 column (half width) */
+        padding-right:15px;
+    }
+    .half-width-right {
+        grid-column: span 4; /* Span 1 column (half width) */
+        padding-left:15px;
+    }
+    .button-aboutus-section{
+        display:none;  
+    }
+    .button-text-container-aboutus {
+        position: absolute;
+        bottom: 40%;
+        left: 50%; /* Position at 50% from the left */
+        transform: translateX(-50%);    /* Adjust to center horizontally */
+        padding: 20px; /* Adjust padding as needed */
+        text-align:center;  
+    }
+        .image-grid-custom-aboutus {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal columns */
+        gap: 15px; /* Adjust the gap between items */
+        padding:0;
+    }
+
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign fetch_priority = 'auto'
+  if section.index == 1
+    assign fetch_priority = 'high'
+  endif
+  if section.settings.color_scheme == section.settings.section_color_scheme and section.settings.content_layout == 'no-overlap'
+    assign remove_color_classes = true
+  endif
+-%}
+
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+
+    <section class="page-width image-grid-custom-aboutus ">
+
+        <div class="page-width image-with-text full-width">
+            <a href="{{ section.settings.button_link1_aboutus }}">
+
+                <div
+                class="global-media-settings image-direct-container-aboutus 
+                {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
+            
+                >
+                {%- if section.settings.image1_aboutus != blank -%}
+                    {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+                    {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                {%- endcapture -%}
+                    {%- else -%}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                    {%- endif -%}
+                    {{
+                    section.settings.image1_aboutus
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+                </div>
+
+                </a>
+
+                <section class="page-width button-text-container-aboutus">
+        
+                    <h2 class="">
+                        {{ section.settings.heading1_aboutus }}
+                    </h2>
+                        
+                    <p class="">
+                        {{ section.settings.text1_aboutus }}
+                    </p>
+                            
+                    {%- if section.settings.button_label1_aboutus != blank -%}
+                        <a
+                            {% if section.settings.button_link1_aboutus == blank %}
+                            role="link" aria-disabled="true"
+                            {% else %}
+                            href="{{ section.settings.button_link1_aboutus }}"
+                            {% endif %}
+                            class="button{% if section.settings.button_style_secondary_aboutus %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
+                            {{ section.shopify_attributes }}
+                        >
+                            {{ section.settings.button_label1_aboutus | escape }}
+                        </a>
+                    {%- endif -%}
+                </section>
+    
+        </div>
+
+        <div class="page-width image-with-text half-width-left">
+            <a href="{{ section.settings.button_link2_aboutus }}">
+
+                <div
+                class="global-media-settings image-direct-container-aboutus 
+                {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
+            
+                >
+                {%- if section.settings.image2_aboutus != blank -%}
+                    {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+                    {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                {%- endcapture -%}
+                    {%- else -%}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                    {%- endif -%}
+                    {{
+                    section.settings.image2_aboutus
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+                </div>
+
+                </a>
+                
+                <section class="page-width button-text-container-aboutus">
+        
+                    <h2 class="">
+                        {{ section.settings.heading2_aboutus }}
+                    </h2>
+                        
+                    <p class="">
+                        {{ section.settings.text2_aboutus }}
+                    </p>
+                            
+                    {%- if section.settings.button_label2_aboutus != blank -%}
+                        <a
+                            {% if section.settings.button_link2_aboutus == blank %}
+                            role="link" aria-disabled="true"
+                            {% else %}
+                            href="{{ section.settings.button_link2_aboutus }}"
+                            {% endif %}
+                            class="button{% if section.settings.button_style_secondary_aboutus2 %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
+                            {{ section.shopify_attributes }}
+                        >
+                            {{ section.settings.button_label2_aboutus | escape }}
+                        </a>
+                    {%- endif -%}
+                </section>
+    
+        </div>
+
+        <div class="page-width image-with-text half-width-right">
+            <a href="{{ section.settings.button_link3_aboutus }}">
+
+                <div
+                class="global-media-settings image-direct-container-aboutus 
+                {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
+            
+                >
+                {%- if section.settings.image3_aboutus != blank -%}
+                    {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+                    {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                {%- endcapture -%}
+                    {%- else -%}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                    {%- endif -%}
+                    {{
+                    section.settings.image3_aboutus
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+                </div>
+
+                </a>
+                
+                <section class="page-width button-text-container-aboutus">
+        
+                    <h2 class="">
+                        {{ section.settings.heading3_aboutus }}
+                    </h2>
+                        
+                    <p class="">
+                        {{ section.settings.text3_aboutus }}
+                    </p>
+                            
+                    {%- if section.settings.button_label3_aboutus != blank -%}
+                        <a
+                            {% if section.settings.button_link3_aboutus == blank %}
+                            role="link" aria-disabled="true"
+                            {% else %}
+                            href="{{ section.settings.button_link1_aboutus }}"
+                            {% endif %}
+                            class="button{% if section.settings.button_style_secondary_aboutus3 %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
+                            {{ section.shopify_attributes }}
+                        >
+                            {{ section.settings.button_label3_aboutus | escape }}
+                        </a>
+                    {%- endif -%}
+                </section>
+    
+        </div>
+    </section>
+    
+</div>
+    
+
+
+{% schema %}
+{
+  "name": "Custom Section - About Us",
+  "class": "section",
+  "settings": [
+    {
+        "type": "image_picker",
+        "id": "image1_aboutus",
+        "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "heading1_aboutus",
+        "default": "Image with text",
+        "label": "heading first image"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "text1_aboutus",
+        "default": "Image with text",
+        "label": "text first image"
+    },
+    {
+        "type": "text",
+        "id": "button_label1_aboutus",
+        "default": "Button label",
+        "label": "button title first image"
+    },
+    {
+        "type": "url",
+        "id": "button_link1_aboutus",
+        "label": "button link first image"
+    },
+    {
+        "type": "checkbox",
+        "id": "button_style_secondary_aboutus",
+        "default": false,
+        "label": "button style first image"
+    },
+    
+    {
+        "type": "image_picker",
+        "id": "image2_aboutus",
+        "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "heading2_aboutus",
+        "default": "Image with text",
+        "label": "heading first image"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "text2_aboutus",
+        "default": "Image with text",
+        "label": "text first image"
+    },
+    {
+        "type": "text",
+        "id": "button_label2_aboutus",
+        "default": "Button label",
+        "label": "button title first image"
+    },
+    {
+        "type": "url",
+        "id": "button_link2_aboutus",
+        "label": "button link first image"
+    },
+    {
+        "type": "checkbox",
+        "id": "button_style_secondary_aboutus2",
+        "default": false,
+        "label": "button style first image"
+    },
+
+    {
+        "type": "image_picker",
+        "id": "image3_aboutus",
+        "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "heading3_aboutus",
+        "default": "Image with text",
+        "label": "heading first image"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "text3_aboutus",
+        "default": "Image with text",
+        "label": "text first image"
+    },
+    {
+        "type": "text",
+        "id": "button_label3_aboutus",
+        "default": "Button label",
+        "label": "button title first image"
+    },
+    {
+        "type": "url",
+        "id": "button_link3_aboutus",
+        "label": "button link first image"
+    },
+    {
+        "type": "checkbox",
+        "id": "button_style_secondary_aboutus3",
+        "default": false,
+        "label": "button style first image"
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "type": "color_scheme",
+      "id": "section_color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "background-1"
+    },
+ 
+    {
+      "type": "header",
+      "content": "t:sections.all.animation.content"
+    },
+    {
+      "type": "select",
+      "id": "image_behavior",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.all.animation.image_behavior.options__1.label"
+        },
+        {
+          "value": "ambient",
+          "label": "t:sections.all.animation.image_behavior.options__2.label"
+        },
+        {
+          "value": "zoom-in",
+          "label": "t:sections.all.animation.image_behavior.options__4.label"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.all.animation.image_behavior.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Custom Section About Us"
+    }
+  ]
+}
+{% endschema %}
