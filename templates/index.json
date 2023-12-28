@@ -48,8 +48,9 @@
         ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);}",
         ".banner__content {flex-direction: row-reverse;}",
         ".banner__content {padding: 0rem;}",
-        "@media only screen and (min-width: 750px) {.banner__heading {\/* width: ;*\/ } .banner__box {padding-left: 120px; }}",
-        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; } .banner__box {margin-bottom: -616px; }}"
+        "@media only screen and (min-width: 750px) {.banner__box {padding-left: 120px; }}",
+        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; } .banner__box {margin-bottom: -616px; }}",
+        ".banner__buttons{border:2px solid white;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Masterpiece_December_edit.png",
