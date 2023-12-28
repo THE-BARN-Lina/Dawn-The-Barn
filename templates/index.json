@@ -222,7 +222,7 @@
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
       "type": "feature-collection-custom",
       "custom_css": [
-        ".collection {margin-top: 52px; padding-bottom: 40px;}"
+        ".collection {margin-top: 52px;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",
@@ -249,7 +249,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "165339081846c57155": {
