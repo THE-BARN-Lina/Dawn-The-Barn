@@ -30,10 +30,10 @@
           "settings": {
             "button_label_1": "ORDER NOW",
             "button_link_1": "shopify:\/\/products\/coffee-masterpieces",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": true
+            "button_style_secondary_2": false
           }
         }
       },
