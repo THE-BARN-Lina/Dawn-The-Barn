@@ -318,6 +318,7 @@
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0",
         "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".multirow {padding-top: 4rem; padding-bottom: 4rem;}"
       ],
