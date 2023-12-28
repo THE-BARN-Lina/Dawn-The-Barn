@@ -371,6 +371,31 @@
         "padding_bottom": 36
       }
     },
+    "23138f82-deb5-4edd-bcdc-8062abfac1eb": {
+      "type": "custom-triple-image-with-text",
+      "settings": {
+        "image1_aboutus": "shopify:\/\/shop_images\/1beae4b6-4904-462f-8ab4-d3925d95b032.jpg",
+        "heading1_aboutus": "WE ARE PLANTING 40,000 NATIVE TREES IN BRAZIL",
+        "text1_aboutus": "Humanity must plant 1 trillion trees until 2030 to mitigate climate change. Be part of our Climate Mission",
+        "button_label1_aboutus": "Read More",
+        "button_link1_aboutus": "shopify:\/\/pages\/approaching-sustainability",
+        "button_style_secondary_aboutus": true,
+        "image2_aboutus": "shopify:\/\/shop_images\/low_caf_sub.jpg",
+        "heading2_aboutus": "Low-Caf is Our Answer to Decaf",
+        "text2_aboutus": "This subscription sends out 2x 250g of rare coffee varietals that naturally contain low caffeine: Aramosa or Laurina",
+        "button_label2_aboutus": "Read More",
+        "button_link2_aboutus": "shopify:\/\/blogs\/the-barn-blog\/low-caf",
+        "button_style_secondary_aboutus2": true,
+        "image3_aboutus": "shopify:\/\/shop_images\/ralf_at_dambi_uddo.jpg",
+        "heading3_aboutus": "Image with text",
+        "text3_aboutus": "All coffees grown here are ‘garden coffees’, which means they grow wild in the forest...",
+        "button_label3_aboutus": "Read More",
+        "button_link3_aboutus": "shopify:\/\/pages\/12th-december-dambi-uddo-ethiopia",
+        "button_style_secondary_aboutus3": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2": {
       "type": "collapsible-content",
       "blocks": {
@@ -577,31 +602,6 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
-    },
-    "23138f82-deb5-4edd-bcdc-8062abfac1eb": {
-      "type": "custom-triple-image-with-text",
-      "settings": {
-        "image1_aboutus": "shopify:\/\/shop_images\/1beae4b6-4904-462f-8ab4-d3925d95b032.jpg",
-        "heading1_aboutus": "WE ARE PLANTING 40,000 NATIVE TREES IN BRAZIL",
-        "text1_aboutus": "Humanity must plant 1 trillion trees until 2030 to mitigate climate change. Be part of our Climate Mission",
-        "button_label1_aboutus": "Read More",
-        "button_link1_aboutus": "shopify:\/\/pages\/approaching-sustainability",
-        "button_style_secondary_aboutus": true,
-        "image2_aboutus": "shopify:\/\/shop_images\/low_caf_sub.jpg",
-        "heading2_aboutus": "Low-Caf is Our Answer to Decaf",
-        "text2_aboutus": "This subscription sends out 2x 250g of rare coffee varietals that naturally contain low caffeine: Aramosa or Laurina",
-        "button_label2_aboutus": "Read More",
-        "button_link2_aboutus": "shopify:\/\/blogs\/the-barn-blog\/low-caf",
-        "button_style_secondary_aboutus2": true,
-        "image3_aboutus": "shopify:\/\/shop_images\/ralf_at_dambi_uddo.jpg",
-        "heading3_aboutus": "Image with text",
-        "text3_aboutus": "All coffees grown here are ‘garden coffees’, which means they grow wild in the forest...",
-        "button_label3_aboutus": "Read More",
-        "button_link3_aboutus": "shopify:\/\/pages\/12th-december-dambi-uddo-ethiopia",
-        "button_style_secondary_aboutus3": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -613,9 +613,9 @@
     "165339081846c57155",
     "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
+    "23138f82-deb5-4edd-bcdc-8062abfac1eb",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "1653387743507b82e2",
-    "9548d051-e9a3-422f-91dd-584c92a394fd",
-    "23138f82-deb5-4edd-bcdc-8062abfac1eb"
+    "9548d051-e9a3-422f-91dd-584c92a394fd"
   ]
 }
