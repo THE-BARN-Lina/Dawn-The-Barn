@@ -2907,3 +2907,7 @@ details-disclosure > details {
   font-weight: var(--font-body-weight-bold);
 }
 
+      .media img {
+ 
+  background-color:#1C1D1C;
+}
