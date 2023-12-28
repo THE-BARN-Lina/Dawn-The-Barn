@@ -71,7 +71,7 @@
       "type": "xmas-section-filters",
       "settings": {
         "collection": "christmas-products",
-        "XMAS_TITLE": "GIFTS",
+        "XMAS_TITLE": "OUR FAVOURITES",
         "XMAS_BUNDLES": "",
         "XMAS_ESSENTIALS": "ESSENTIALS‎",
         "XMAS_BOOKS": "BOOKS",
@@ -344,7 +344,7 @@
         ".collection {margin-top: 52px; padding-bottom: 40px;}"
       ],
       "settings": {
-        "title": "COFFEE SUBSCRIPTION PLANS",
+        "title": "SUBSCRIPTION PLANS",
         "heading_size": "h1",
         "description_heading_2": "",
         "description": "<p>The worlds best coffees on repeat<\/p>",
