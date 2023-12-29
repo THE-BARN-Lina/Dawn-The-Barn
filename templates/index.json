@@ -94,64 +94,6 @@
         "padding_bottom": 36
       }
     },
-    "3e280314-6fa9-4a83-9341-8d119cba2d32": {
-      "type": "image-with-text",
-      "blocks": {
-        "1ad4eab3-4679-47e3-8f52-52094e4cab02": {
-          "type": "caption",
-          "settings": {
-            "caption": "THE BEST COFFEE PRESENTS",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "CHRISTMAS GIFT SETS",
-            "heading_size": "h1"
-          }
-        },
-        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>This is our most popular Christmas Box every year: A gift that continues to give. Essentially you give away 3 or 6 monthly deliveries of our curated subscription.<\/p><p>Wrapped in our craft box, the first delivery comes with two fantastic coffees plus our cute mug and delicious chocolate.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER NOW",
-            "button_link": "shopify:\/\/collections\/coffee-subscription-gifts"
-          }
-        }
-      },
-      "block_order": [
-        "1ad4eab3-4679-47e3-8f52-52094e4cab02",
-        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-heading-1",
-        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-text-1",
-        "template--17938053923083__3e280314-6fa9-4a83-9341-8d119cba2d32-button-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
-        ".image-with-text {padding: 0px; padding-top: 3rem; border-top: 2px solid #804d15; margin-top: 3rem;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/new_equipment_edited_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "c07c35eb-d2db-4799-9345-23a3655ecbd7": {
       "type": "image-banner",
       "blocks": {
@@ -608,7 +550,6 @@
   "order": [
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
-    "3e280314-6fa9-4a83-9341-8d119cba2d32",
     "c07c35eb-d2db-4799-9345-23a3655ecbd7",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "165339081846c57155",
