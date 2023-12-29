@@ -94,73 +94,6 @@
         "padding_bottom": 36
       }
     },
-    "c07c35eb-d2db-4799-9345-23a3655ecbd7": {
-      "type": "image-banner",
-      "blocks": {
-        "ec77d778-949f-4d13-a79c-0e1b17fcbf9e": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "OFFER ENDING SOON",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "73a803f4-d66f-4128-a531-ce547d494336": {
-          "type": "heading",
-          "settings": {
-            "heading": "CHRISTMAS GIFT SUBSCRIPTION",
-            "heading_size": "h1"
-          }
-        },
-        "a3b29786-8006-47d8-be72-425e71db225b": {
-          "type": "text",
-          "settings": {
-            "text": "Amazing Coffee. Chocolate. Plus: the cutest Mug from Japan.",
-            "text_style": "body"
-          }
-        },
-        "efb11e79-cc3b-46a6-b5a3-4cff88a5faa6": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "ORDER NOW",
-            "button_link_1": "shopify:\/\/products\/christmas-3-month-gift-subscription",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "ec77d778-949f-4d13-a79c-0e1b17fcbf9e",
-        "73a803f4-d66f-4128-a531-ce547d494336",
-        "a3b29786-8006-47d8-be72-425e71db225b",
-        "efb11e79-cc3b-46a6-b5a3-4cff88a5faa6"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h1 {margin-top: -4rem;}",
-        ".banner__text {font-size: 16px;}",
-        ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);}",
-        "@media only screen and (min-width: 750px) {.banner__text {width: 80%; } .banner__heading {width: 70%; }}",
-        "@media only screen and (max-width: 750px) {.banner {display: flex; position: relative; flex-direction: column-reverse; } .banner--medium.banner--stacked:not(.banner--mobile-bottom):not( .banner--adapt ) > .banner__media {height: rem; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/gradient-advent_c6dabbbf-2346-471f-968e-2cb00efdd117.jpg",
-        "image_2": "shopify:\/\/shop_images\/IMG_9563_1_1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "transparent_block": false,
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
       "type": "feature-collection-custom",
       "custom_css": [
@@ -191,93 +124,6 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "165339081846c57155": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        ".collection__title {text-align: center; padding-top: 3rem;}",
-        "h2 {font-family: \"Archivo Narrow\", sans-serif;}",
-        ".collection {margin-bottom: rem;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description_heading_2": "<h2>LATEST RELEASES<\/h2>",
-        "description": "<p>Savor the new flavors: freshly roasted<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "new-releases",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "view_all_label": "SEE FULL BEAN COLLECTION",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 32
-      }
-    },
-    "3b51e4e7-a8b7-4805-bbbe-703728f837cf": {
-      "type": "multirow",
-      "blocks": {
-        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3284_3db89a44-8743-4a48-8797-de85944aea76.jpg",
-            "caption": "",
-            "heading": "SUMMER SUBSCRIPTION",
-            "text": "<p>Explore the amazing world of Single Origin coffee beans. Your first delivery will include : <\/p><ul><li>A beautiful Sandstone Mug - or two! <\/li><li>And our cute enamel House Pin. <\/li><\/ul>",
-            "button_label": "SIGN UP HERE",
-            "button_link": "shopify:\/\/collections\/spring-gift-specials"
-          }
-        },
-        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Christmas_Coffee_2023.jpg",
-            "caption": "CABALLERO HONDURAS",
-            "heading": "CHRISTMAS COFFEE",
-            "text": "<p>The festive period would not be complete without delicious coffee and we are ready to fill your cups with Christmas flavour.<strong><br\/><\/strong><\/p><p><strong>Nougat. Macadamia. Vanilla.<\/strong><\/p>",
-            "button_label": "ORDER HERE",
-            "button_link": "https:\/\/thebarn.de\/products\/christmas-coffee"
-          }
-        }
-      },
-      "block_order": [
-        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-0",
-        "template--17937600086283__3b51e4e7-a8b7-4805-bbbe-703728f837cf-16861403937750d4bc-2"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".multirow {padding-top: 4rem; padding-bottom: 4rem;}"
-      ],
-      "settings": {
-        "image_height": "large",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "primary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -486,78 +332,15 @@
         "padding_top": 0,
         "padding_bottom": 28
       }
-    },
-    "9548d051-e9a3-422f-91dd-584c92a394fd": {
-      "type": "collapsible-content",
-      "blocks": {
-        "48cb4836-1525-4156-b967-1160cb2b2bb7": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "PALMA DE MALLORCA",
-            "icon": "map_pin",
-            "row_content": "<p>Monday - Saturday 09:30 – 17:30<br\/>Sunday Closed<br\/><br\/><strong>Costa d'en Brossa, 5, 07001 Palma, Illes Balears, Spain<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/b3QwAnutDRvLzuM96\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
-            "page": "the-barn-mallorca"
-          }
-        },
-        "9442c649-557b-41d3-a18d-6c43a935876b": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "DUBAI",
-            "icon": "map_pin",
-            "row_content": "<p>Monday - Sunday 08:00 – 22:00<br\/><br\/><strong>Al Khazan Park - 89th St - Al Satwa - Dubai - United Arab Emirates<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/tMCBrg45ooGHG4o56\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
-            "page": "the-barn-dubai"
-          }
-        },
-        "2e0d7f69-2a26-46cf-9e7e-a17b7053ecc1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "SEOUL",
-            "icon": "map_pin",
-            "row_content": "<p>Monday - Friday 10:30 – 19:00<br\/>Saturday 10:00 – 21:00<br\/>Sunday 10:30 – 21:00<br\/><br\/><strong>South Korea, Seoul, Seongdong-gu, Ttukseom-ro 17-gil, 31-22더반 베를린 코리아 성수점<br\/><\/strong><br\/><a href=\"https:\/\/thebarnberlin.kr\/\" target=\"_blank\">Website<br\/><\/a><br\/><a href=\"https:\/\/goo.gl\/maps\/t9gxPRwFLpKw4ACr5\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
-            "page": "cafe-korea"
-          }
-        }
-      },
-      "block_order": [
-        "48cb4836-1525-4156-b967-1160cb2b2bb7",
-        "9442c649-557b-41d3-a18d-6c43a935876b",
-        "2e0d7f69-2a26-46cf-9e7e-a17b7053ecc1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".collapsible-section-layout {padding-top: 0.3rem;}",
-        "p {font-size: 16px;}",
-        ".collapsible-content {min-width: 100vw; background-color: black;}",
-        ".collapsible-content__wrapper {padding-bottom: 10rem;}"
-      ],
-      "settings": {
-        "caption": "THE BARN AROUND THE WORLD",
-        "heading": "HOLA",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "section",
-        "color_scheme": "inverse",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image": "shopify:\/\/shop_images\/LaEsperanzaFloraandFauna.jpg",
-        "image_ratio": "small",
-        "desktop_layout": "image_second",
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
     }
   },
   "order": [
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
-    "c07c35eb-d2db-4799-9345-23a3655ecbd7",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
-    "165339081846c57155",
-    "3b51e4e7-a8b7-4805-bbbe-703728f837cf",
     "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
     "23138f82-deb5-4edd-bcdc-8062abfac1eb",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
-    "1653387743507b82e2",
-    "9548d051-e9a3-422f-91dd-584c92a394fd"
+    "1653387743507b82e2"
   ]
 }
