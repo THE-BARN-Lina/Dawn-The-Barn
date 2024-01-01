@@ -14,14 +14,14 @@
         "3fa57f8f-1647-4104-a22a-9e7cb10c2e9e": {
           "type": "heading",
           "settings": {
-            "heading": "GEISHA MASTERPIECE",
+            "heading": "ADVENT TOP FOUR",
             "heading_size": "h1"
           }
         },
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a": {
           "type": "text",
           "settings": {
-            "text": "Begin the new year with the discovery of the most famous coffee varietal out there: Geisha",
+            "text": "Our favourite coffees from the advent calendar",
             "text_style": "body"
           }
         },
@@ -29,7 +29,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "ORDER NOW",
-            "button_link_1": "shopify:\/\/products\/coffee-masterpieces",
+            "button_link_1": "shopify:\/\/products\/advent-top-4",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -43,7 +43,6 @@
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a",
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7"
       ],
-      "disabled": true,
       "custom_css": [
         ".banner__text {font-size: 16px;}",
         ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);}",
@@ -54,7 +53,7 @@
         ".banner__buttons {border: 2px solid white;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Masterpiece_December_edit.png",
+        "image": "shopify:\/\/shop_images\/advent_top_4.png",
         "image_2": "shopify:\/\/shop_images\/gradient-advent_c6dabbbf-2346-471f-968e-2cb00efdd117.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
