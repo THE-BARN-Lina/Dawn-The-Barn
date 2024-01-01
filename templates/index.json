@@ -43,6 +43,7 @@
         "6d07b71a-f24b-406e-9ab1-3f723717bc8a",
         "ac4d0274-97bf-4716-b80b-36375fc2ffa7"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner__text {font-size: 16px;}",
         ".banner__heading {text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);}",
