@@ -191,32 +191,19 @@
 
     <script>
 
-    (()=>{
+    (() => {
+  /* 
+  "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PBgMC8" must be replaced with the original source.
+  Make sure that the original source is in quotation marks and closing characters are used.
+  */
+  const scriptSrc = "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PBgMC8"; // Replace with the actual original source
 
-    /* 
+  ((d, t, s, n) => {
+    ((n = d.createElement(t)).src = s).async = true;
+    d.head.appendChild(n);
+  })(document, "script", scriptSrc);
+})();
 
-    "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PBgMC8" must be at the 
-
-    replaced with the original source.
-
-    Make sure that the original source is in
-
-    Quotation and closing characters are used.
-
-    */
-
-    const scriptSrc = "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PBgMC8";
-
-
-    ((d,t,s,n)=>{
-
-      ((n=d.createElement(t)).src=s).async=true;
-
-      d.head.appendChild(n);
-
-    })( document, "script", scriptSrc );
-
-  })();
 
 </script>
         
