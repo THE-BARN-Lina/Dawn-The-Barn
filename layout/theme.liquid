@@ -188,6 +188,37 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
+
+    <script>
+
+    (()=>{
+
+    /* 
+
+    "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PBgMC8" must be at the 
+
+    replaced with the original source.
+
+    Make sure that the original source is in
+
+    Quotation and closing characters are used.
+
+    */
+
+    const scriptSrc = "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PBgMC8";
+
+
+    ((d,t,s,n)=>{
+
+      ((n=d.createElement(t)).src=s).async=true;
+
+      d.head.appendChild(n);
+
+    })( document, "script", scriptSrc );
+
+  })();
+
+</script>
         
   
   {% comment %}ly_dir_styles_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{% comment %}ly_dir_styles_end{% endcomment %}</head>
