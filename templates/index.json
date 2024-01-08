@@ -68,32 +68,6 @@
         "show_text_below": false
       }
     },
-    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db": {
-      "type": "xmas-section-filters",
-      "settings": {
-        "collection": "christmas-products",
-        "XMAS_TITLE": "OUR FAVOURITES",
-        "XMAS_BUNDLES": "",
-        "XMAS_ESSENTIALS": "ESSENTIALS‎",
-        "XMAS_BOOKS": "BOOKS",
-        "XMAS_FELLOW": "FELLOW",
-        "XMAS_EQUIPMENT": "EQUIPMENT",
-        "XMAS_SUBSCRIPTIONS": "SUBSCRIPTIONS",
-        "products_per_page": 16,
-        "columns_desktop": 4,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "quick_add_button_color": "",
-        "swipe_on_mobile": true,
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
       "type": "feature-collection-custom",
       "custom_css": [
@@ -156,6 +130,32 @@
         "enable_quick_add": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db": {
+      "type": "xmas-section-filters",
+      "settings": {
+        "collection": "christmas-products",
+        "XMAS_TITLE": "OUR FAVOURITES",
+        "XMAS_BUNDLES": "",
+        "XMAS_ESSENTIALS": "ESSENTIALS‎",
+        "XMAS_BOOKS": "BOOKS",
+        "XMAS_FELLOW": "FELLOW",
+        "XMAS_EQUIPMENT": "EQUIPMENT",
+        "XMAS_SUBSCRIPTIONS": "SUBSCRIPTIONS",
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "quick_add_button_color": "",
+        "swipe_on_mobile": true,
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -336,9 +336,9 @@
   },
   "order": [
     "befa68a6-1035-4cea-bf06-95f308026d4b",
-    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
+    "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
     "23138f82-deb5-4edd-bcdc-8062abfac1eb",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "1653387743507b82e2"
