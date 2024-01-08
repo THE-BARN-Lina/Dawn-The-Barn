@@ -84,6 +84,12 @@
     height: 100%;
     object-fit: cover;
 }
+.ancor-a{
+    text-decoration:none;
+}
+.ancor-a:hover{
+    text-decoration:underline;
+}
 @media screen and (max-width: 750px) {
     .half-width-left {
         grid-column: span 4; /* Span 1 column (half width) */
@@ -169,31 +175,36 @@
                 </div>
 
                 </a>
+                <a 
+                    href="{{ section.settings.button_link1_aboutus }}" 
+                    class="ancor-a">
 
-                <section class="page-width button-text-container-aboutus">
-        
-                    <h2 class="">
-                        {{ section.settings.heading1_aboutus }}
-                    </h2>
-                        
-                    <p class="">
-                        {{ section.settings.text1_aboutus }}
-                    </p>
+                    <section class="page-width button-text-container-aboutus">
+
+                        <h2 class="">
+                            {{ section.settings.heading1_aboutus }}
+                        </h2>
                             
-                    {%- if section.settings.button_label1_aboutus != blank -%}
-                        <a
-                            {% if section.settings.button_link1_aboutus == blank %}
-                            role="link" aria-disabled="true"
-                            {% else %}
-                            href="{{ section.settings.button_link1_aboutus }}"
-                            {% endif %}
-                            class="button{% if section.settings.button_style_secondary_aboutus %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
-                            {{ section.shopify_attributes }}
-                        >
-                            {{ section.settings.button_label1_aboutus | escape }}
-                        </a>
-                    {%- endif -%}
-                </section>
+                        <p class="">
+                            {{ section.settings.text1_aboutus }}
+                        </p>
+                                
+                        {%- if section.settings.button_label1_aboutus != blank -%}
+                            <a
+                                {% if section.settings.button_link1_aboutus == blank %}
+                                role="link" aria-disabled="true"
+                                {% else %}
+                                href="{{ section.settings.button_link1_aboutus }}"
+                                {% endif %}
+                                class="button{% if section.settings.button_style_secondary_aboutus %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
+                                {{ section.shopify_attributes }}
+                            >
+                                {{ section.settings.button_label1_aboutus | escape }}
+                            </a>
+                        {%- endif -%}
+                    </section>
+
+                </a>
     
         </div>
 
@@ -230,31 +241,36 @@
                 </div>
 
                 </a>
-                
-                <section class="page-width button-text-container-aboutus">
-        
-                    <h2 class="">
-                        {{ section.settings.heading2_aboutus }}
-                    </h2>
-                        
-                    <p class="">
-                        {{ section.settings.text2_aboutus }}
-                    </p>
+                <a 
+                    href="{{ section.settings.button_link2_aboutus }}"
+                    class="ancor-a"
+                    >
+
+                    <section class="page-width button-text-container-aboutus">
+            
+                        <h2 class="">
+                            {{ section.settings.heading2_aboutus }}
+                        </h2>
                             
-                    {%- if section.settings.button_label2_aboutus != blank -%}
-                        <a
-                            {% if section.settings.button_link2_aboutus == blank %}
-                            role="link" aria-disabled="true"
-                            {% else %}
-                            href="{{ section.settings.button_link2_aboutus }}"
-                            {% endif %}
-                            class="button{% if section.settings.button_style_secondary_aboutus2 %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
-                            {{ section.shopify_attributes }}
-                        >
-                            {{ section.settings.button_label2_aboutus | escape }}
-                        </a>
-                    {%- endif -%}
-                </section>
+                        <p class="">
+                            {{ section.settings.text2_aboutus }}
+                        </p>
+                                
+                        {%- if section.settings.button_label2_aboutus != blank -%}
+                            <a
+                                {% if section.settings.button_link2_aboutus == blank %}
+                                role="link" aria-disabled="true"
+                                {% else %}
+                                href="{{ section.settings.button_link2_aboutus }}"
+                                {% endif %}
+                                class="button{% if section.settings.button_style_secondary_aboutus2 %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
+                                {{ section.shopify_attributes }}
+                            >
+                                {{ section.settings.button_label2_aboutus | escape }}
+                            </a>
+                        {%- endif -%}
+                    </section>
+                </a>
     
         </div>
 
@@ -291,31 +307,34 @@
                 </div>
 
                 </a>
-                
-                <section class="page-width button-text-container-aboutus">
-        
-                    <h2 class="">
-                        {{ section.settings.heading3_aboutus }}
-                    </h2>
-                        
-                    <p class="">
-                        {{ section.settings.text3_aboutus }}
-                    </p>
+                <a 
+                    href="{{ section.settings.button_link3_aboutus }}"
+                    class="ancor-a">
+                    <section class="page-width button-text-container-aboutus">
+            
+                        <h2 class="">
+                            {{ section.settings.heading3_aboutus }}
+                        </h2>
                             
-                    {%- if section.settings.button_label3_aboutus != blank -%}
-                        <a
-                            {% if section.settings.button_link3_aboutus == blank %}
-                            role="link" aria-disabled="true"
-                            {% else %}
-                            href="{{ section.settings.button_link1_aboutus }}"
-                            {% endif %}
-                            class="button{% if section.settings.button_style_secondary_aboutus3 %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
-                            {{ section.shopify_attributes }}
-                        >
-                            {{ section.settings.button_label3_aboutus | escape }}
-                        </a>
-                    {%- endif -%}
-                </section>
+                        <p class="">
+                            {{ section.settings.text3_aboutus }}
+                        </p>
+                                
+                        {%- if section.settings.button_label3_aboutus != blank -%}
+                            <a
+                                {% if section.settings.button_link3_aboutus == blank %}
+                                role="link" aria-disabled="true"
+                                {% else %}
+                                href="{{ section.settings.button_link1_aboutus }}"
+                                {% endif %}
+                                class="button{% if section.settings.button_style_secondary_aboutus3 %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
+                                {{ section.shopify_attributes }}
+                            >
+                                {{ section.settings.button_label3_aboutus | escape }}
+                            </a>
+                        {%- endif -%}
+                    </section>
+                </a>
     
         </div>
     </section>
