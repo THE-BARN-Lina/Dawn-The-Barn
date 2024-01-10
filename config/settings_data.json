@@ -336,7 +336,7 @@
       },
       "14818028230436078177": {
         "type": "shopify:\/\/apps\/langify\/blocks\/langify\/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "theme_id": "143118532875",
           "block_flags_css": false,
