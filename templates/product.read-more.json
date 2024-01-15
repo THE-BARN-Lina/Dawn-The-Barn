@@ -97,6 +97,19 @@
           "settings": {
           }
         },
+        "custom_liquid_zEH6w9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "text_9fCY4F": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.hosted_video | metafield_tag }}",
+            "text_style": "body"
+          }
+        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -143,6 +156,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "custom_liquid_zEH6w9",
+        "text_9fCY4F",
         "collapsible-row-3",
         "collapsible-row-0",
         "collapsible-row-1",
