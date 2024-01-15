@@ -99,15 +99,15 @@
         },
         "custom_liquid_zEH6w9": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.video %}\n  <video width=\"640\" height=\"360\" controls>\n    <source src=\"{{ product.metafields.custom.video }}\" type=\"video\/mp4\">\n    Your browser does not support the video tag.\n  <\/video>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.video %}\n  <iframe width=\"560\" height=\"315\" src=\"{{ product.metafields.custom.\nvideo }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n\n<style>\niframe {\n  aspect-ratio: 16 \/ 9;\n  width: 100%;\n  height: auto;\n}\n<\/style>\n\n{% endif %}"
           }
         },
         "text_BdU6fC": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "{% if product.metafields.custom.video %}\n  <div class=\"video-container\">\n    <iframe width=\"560\" height=\"315\" src=\"{{ product.metafields.custom.\nvideo }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n  <\/div>\n{% endif %}",
+            "text": "{% if product.metafields.custom.video %}\n  <div class=\"responsive-video\">\n    <iframe width=\"560\" height=\"315\" src=\"{{ product.metafields.custom.\nvideo }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n  <\/div>\n{% endif %}\n\n<style>\n.responsive-video {\n  aspect-ratio: 16 \/ 9;\n  width: 100%;\n  height: auto;\n}\n<\/style>",
             "text_style": "body"
           }
         },
