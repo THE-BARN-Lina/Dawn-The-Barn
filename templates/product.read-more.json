@@ -100,7 +100,7 @@
         "custom_liquid_zEH6w9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.video %}\n  <iframe width=\"560\" height=\"315\" src=\"{{ product.metafields.custom.\nvideo }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n\n<style>\niframe {\n  aspect-ratio: 16 \/ 9;\n  width: 100%;\n  height: auto;\n}\n<\/style>\n\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.video %}\n<div class=\"iframe-container\">\n  <iframe width=\"560\" height=\"315\" src=\"{{ product.metafields.custom.video }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n<\/div>\n\n<style>\n.iframe-container{\n  position: relative;\n  width: 100%;\n  padding-bottom: 56.25%; \n  height: 400px;\n}\n.iframe-container iframe{\n  position: absolute;\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n<\/style>\n\n{% endif %}"
           }
         },
         "text_BdU6fC": {
