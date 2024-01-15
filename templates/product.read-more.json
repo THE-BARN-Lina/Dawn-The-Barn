@@ -99,6 +99,7 @@
         },
         "custom_liquid_zEH6w9": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.custom.video %}\n  <video width=\"640\" height=\"360\" controls>\n    <source src=\"{{ product.metafields.custom.video }}\" type=\"video\/mp4\">\n    Your browser does not support the video tag.\n  <\/video>\n{% endif %}"
           }
