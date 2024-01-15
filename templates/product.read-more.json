@@ -106,7 +106,7 @@
         "text_BdU6fC": {
           "type": "text",
           "settings": {
-            "text": "{% if product.metafields.custom.hosted_video %}\n  <div class=\"video-container\">\n    <iframe width=\"560\" height=\"315\" src=\"{{ product.metafields.custom.hosted_video }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n  <\/div>\n{% endif %}",
+            "text": "{% if product.metafields.custom.video %}\n  <div class=\"video-container\">\n    <iframe width=\"560\" height=\"315\" src=\"{{ product.metafields.custom.\nvideo }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n  <\/div>\n{% endif %}",
             "text_style": "body"
           }
         },
