@@ -13,8 +13,8 @@
       "settings": {
         "custom_liquid": "<style>\n  video {\n    width: 100%;\n    height: auto;\n    display: block;\n    margin: 0 auto;\n  }\n<\/style>\n\n<video controls muted autoplay playsinline loop>\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/257e62f96dd5423db8586c5569c42431.mp4\" type=\"video\/mp4\">\n  Your browser does not support the video tag.\n<\/video>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1653508694fa6f7e80": {
@@ -23,7 +23,7 @@
         "custom_liquid": "{% render | \"awards-snippet\" %}",
         "color_scheme": "background-1",
         "padding_top": 0,
-        "padding_bottom": 80
+        "padding_bottom": 0
       }
     },
     "16535087560770a397": {
@@ -32,7 +32,7 @@
         "165350875611e9ca12-1": {
           "type": "text",
           "settings": {
-            "text": "<p>THE BARN is a leading coffee roaster in Europe and represents the Specialty Coffee Movement at the highest level since 2010. Our beans are served by many coffee shops and home brewers across the globe.<\/p><p><br\/>Our vision has been very clear from the start: We focus on making our coffees better and better. No compromise - just great coffee. We would never blend our coffees in order to showcase specific flavour profiles and to present each farm we work with. This makes our farmers proud and the product fully traceable.<\/p>"
+            "text": "<p>THE BARN is a leading coffee roaster in Europe and represents the Specialty Coffee Movement at the highest level since 2010. Our beans are served by many coffee shops and home brewers across the globe.<br\/><br\/>Our vision has been very clear from the start: We focus on making our coffees better and better. No compromise - just great coffee. We would never blend our coffees in order to showcase specific flavour profiles and to present each farm we work with. This makes our farmers proud and the product fully traceable.<\/p>"
           }
         }
       },
@@ -45,7 +45,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 40
       }
     },
     "97d15337-f658-4382-95d4-4265f611b1e9": {
