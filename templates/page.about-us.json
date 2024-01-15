@@ -11,7 +11,7 @@
     "custom_liquid_iCyLrT": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/257e62f96dd5423db8586c5569c42431.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/257e62f96dd5423db8586c5569c42431.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
+        "custom_liquid": "<style>\n  video {\n    width: 100%;\n    height: auto;\n    display: block;\n    margin: 0 auto;\n  }\n<\/style>\n\n<video controls muted autoplay playsinline loop>\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/257e62f96dd5423db8586c5569c42431.mp4\" type=\"video\/mp4\">\n  Your browser does not support the video tag.\n<\/video>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -23,7 +23,7 @@
         "custom_liquid": "{% render | \"awards-snippet\" %}",
         "color_scheme": "background-1",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 80
       }
     },
     "16535087560770a397": {
