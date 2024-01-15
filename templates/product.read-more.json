@@ -100,13 +100,13 @@
         "custom_liquid_zEH6w9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "{% if product.metafields.custom.hosted_video %}\n  <div class=\"video-container\">\n    <iframe width=\"560\" height=\"315\" src=\"{{ product.metafields.custom.hosted_video }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n  <\/div>\n{% endif %}"
           }
         },
-        "text_9fCY4F": {
+        "text_BdU6fC": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.hosted_video | metafield_tag }}",
+            "text": "{% if product.metafields.custom.hosted_video %}\n  <div class=\"video-container\">\n    <iframe width=\"560\" height=\"315\" src=\"{{ product.metafields.custom.hosted_video }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n  <\/div>\n{% endif %}",
             "text_style": "body"
           }
         },
@@ -133,7 +133,7 @@
           "settings": {
             "heading": "The Process",
             "icon": "clipboard",
-            "content": "<p>{{ product.metafields.product.metafield_the_process | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.product.metafield_the_process | metafield_tag }} <\/p>",
             "page": ""
           }
         },
@@ -157,7 +157,7 @@
         "buy_buttons",
         "description",
         "custom_liquid_zEH6w9",
-        "text_9fCY4F",
+        "text_BdU6fC",
         "collapsible-row-3",
         "collapsible-row-0",
         "collapsible-row-1",
