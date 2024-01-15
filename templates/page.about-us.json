@@ -1,14 +1,5 @@
 {
   "sections": {
-    "custom_liquid_iCyLrT": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"\/media\/cc0-videos\/flower.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"\/media\/cc0-videos\/flower.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -17,13 +8,13 @@
         "padding_bottom": 28
       }
     },
-    "16590189470dfa78be": {
+    "custom_liquid_iCyLrT": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"container\"> \n<div class=\"iframe-container\">\n    <iframe width=\"560\" height=\"315\" src=\"https:\/\/www.youtube-nocookie.com\/embed\/USDQHnyNHVA?controls=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<div id=\"text\"><h1> About Us<\/h1><\/div>\n<\/div>\n<\/div> \n\n    <style>\n#text{\n \/*position: absolute;*\/\ncolor: #FFFFFF;\n}\n        \n\n\n.iframe-container{\n  \/*position: relative;*\/\n  width: 100%; \n  height: 640px;\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  gap:10px;\n}\n\n.iframe-container iframe{\n  \/*position: absolute;*\/\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n<\/style>",
+        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/257e62f96dd5423db8586c5569c42431.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/257e62f96dd5423db8586c5569c42431.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
         "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 12
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "1653508694fa6f7e80": {
@@ -228,9 +219,8 @@
     }
   },
   "order": [
-    "custom_liquid_iCyLrT",
     "main",
-    "16590189470dfa78be",
+    "custom_liquid_iCyLrT",
     "1653508694fa6f7e80",
     "16535087560770a397",
     "97d15337-f658-4382-95d4-4265f611b1e9",
