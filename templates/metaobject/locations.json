@@ -149,7 +149,7 @@
           "settings": {
             "heading": "Contact Us",
             "icon": "chat_bubble",
-            "row_content": "<p>If you would like to contact us, <a href=\"https:\/\/thebarn.de\/pages\/contact\" target=\"_blank\" title=\"CONTACT\">please send us a message<\/a>.<br\/><\/p>{{ block.settings.page.metafields.locations.cafe_contact | metafield_tag }}",
+            "row_content": "<p>If you would like to contact us, <a href=\"https:\/\/thebarn.de\/pages\/contact\" target=\"_blank\" title=\"CONTACT\">please send us a message<\/a>.<br\/><\/p><p>{{ metaobject.contact_1 | metafield_tag }}<\/p>",
             "page": ""
           }
         }
