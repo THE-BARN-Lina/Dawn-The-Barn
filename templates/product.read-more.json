@@ -147,7 +147,7 @@
         "custom_liquid_PqGjBg": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.rc-subscription-details {display:none}\n<\/style>"
+            "custom_liquid": "<style>\n    .rc-subscription-details {\n        display: none;\n    }\n<\/style>"
           }
         }
       },
