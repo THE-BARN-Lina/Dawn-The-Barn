@@ -2911,3 +2911,7 @@ details-disclosure > details {
  
   background-color:#1C1D1C;
 }
+
+ .rc-subscription-details {
+        display: none;
+    }
