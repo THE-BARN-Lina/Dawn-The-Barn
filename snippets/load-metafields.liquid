@@ -23,6 +23,57 @@
 
             /****** Start thirdPartyScriptDefinition ******/
             (function(){
+
+            var klaviyoDeclaration=2; // 1 => Statistik, 2 => Marketing
+            window.thirdPartyScriptDefinition.push({
+                    "src" : "klaviyo",
+                    "cookie" : "_hp2_id.XXX",
+                    "provider" : "klaviyo.com",
+                    "description" : "",
+                    "expires" : 33696000,
+                    "domain" : "klaviyo.com",
+                    "declaration" : 1,
+                    "group" : "klaviyo"
+                },{
+                    "src" : "klaviyo",
+                    "cookie" : "_hp2_ses_props.XXX",
+                    "provider" : "klaviyo.com",
+                    "description" : "",
+                    "expires" : 1,
+                    "domain" : "klaviyo.com",
+                    "declaration" : 1,
+                    "group" : "klaviyo"
+                },{
+                    "src" : "klaviyo",
+                    "cookie" : "_gid",
+                    "provider" : "klaviyo.com",
+                    "description" : "",
+                    "expires" : 86400,
+                    "domain" : "klaviyo.com",
+                    "declaration" : 1,
+                    "group" : "klaviyo"
+                },{
+                    "src" : "klaviyo",
+                    "cookie" : "__kla_id",
+                    "provider" : "klaviyo.com",
+                    "description" : "",
+                    "expires" : 33696000,
+                    "domain" : sDomain,
+                    "declaration" : 1,
+                    "group" : "klaviyo"
+                },{
+                    "src" : "klaviyo",
+                    "cookie" : "KL_FORMS_MODAL",
+                    "provider" : "klaviyo.com",
+                    "description" : "",
+                    "expires" : 0,
+                    "domain" : sDomain,
+                    "declaration" : 1,
+                    "group" : "klaviyo"
+                });
+
+
+      
                   window.thirdPartyScriptDefinition = [
                       {% comment %}
                       /* start example
@@ -77,6 +128,8 @@
 
             example end */
             {% endcomment %}
+
+          
 
             var customCookies = {};
 
