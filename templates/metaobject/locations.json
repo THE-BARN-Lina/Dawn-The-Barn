@@ -147,9 +147,9 @@
         "collapsible_row_qiNCzp": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Contact Us",
+            "icon": "chat_bubble",
+            "row_content": "<p>If you would like to contact us, <a href=\"https:\/\/thebarn.de\/pages\/contact\" target=\"_blank\" title=\"CONTACT\">please send us a message<\/a>.<br\/><\/p>{{ block.settings.page.metafields.locations.cafe_contact | metafield_tag }}",
             "page": ""
           }
         }
