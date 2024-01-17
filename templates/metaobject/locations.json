@@ -140,7 +140,7 @@
           "settings": {
             "heading": "Opening Times",
             "icon": "stopwatch",
-            "row_content": "{{ block.settings.page.metafields.locations.cafe_opening_times | metafield_tag }}",
+            "row_content": "<p>{{ metaobject.opening_time | metafield_tag }}<\/p>",
             "page": ""
           }
         },
