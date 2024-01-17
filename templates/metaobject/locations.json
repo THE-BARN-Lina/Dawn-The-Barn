@@ -98,33 +98,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_pFWgwr": {
-      "type": "rich-text",
-      "blocks": {
-        "button_VWQTXK": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Directions",
-            "button_link": "{{ metaobject.google_map.value }}",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button_VWQTXK"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "rich_text_wPzGeC": {
       "type": "rich-text",
       "blocks": {
@@ -148,6 +121,33 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_pFWgwr": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VWQTXK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Directions",
+            "button_link": "{{ metaobject.google_map.value }}",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_VWQTXK"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -203,8 +203,8 @@
   "order": [
     "rich_text_gX43mL",
     "multicolumn_djtJPh",
-    "rich_text_pFWgwr",
     "rich_text_wPzGeC",
+    "rich_text_pFWgwr",
     "collapsible_content_HfxXjM"
   ]
 }
