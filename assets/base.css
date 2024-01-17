@@ -2920,3 +2920,8 @@ details-disclosure > details {
     font-size: 1em !important;
     font-weight: 100 !important;
 }
+
+.parent-class .discount-label {
+  font-size: 1.3rem !important;
+}
+
