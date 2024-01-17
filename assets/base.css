@@ -2921,7 +2921,7 @@ details-disclosure > details {
     font-weight: 100 !important;
 }
 
-.parent-class .discount-label {
+.rc-radio__label .discount-label {
   font-size: 1.3rem !important;
 }
 
