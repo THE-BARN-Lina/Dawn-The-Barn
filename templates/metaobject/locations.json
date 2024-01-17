@@ -6,7 +6,7 @@
         "text_zwXniH": {
           "type": "text",
           "settings": {
-            "text": "<p>CAFES \/ {{ metaobject.title_cafe.value }}<\/p>"
+            "text": "<p><a href=\"\/pages\/locations\" title=\"THE BARN Specialty Coffee Cafés\">CAFES<\/a> \/ {{ metaobject.title_cafe.value }}<\/p>"
           }
         }
       },
