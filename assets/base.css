@@ -2913,5 +2913,5 @@ details-disclosure > details {
 }
 
  .rc-subscription-details {
-        display: none;
+        display: none !important;
     }
