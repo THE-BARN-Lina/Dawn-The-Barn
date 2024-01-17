@@ -6,7 +6,7 @@
         "text_zwXniH": {
           "type": "text",
           "settings": {
-            "text": "<p>CAFES <\/p>{{ metaobject.country | metafield_tag }}<p>\/ {{ metaobject.title_cafe.value }}<\/p>"
+            "text": "<p>CAFES \/ {{ metaobject.title_cafe.value }}<\/p>"
           }
         }
       },
@@ -14,18 +14,14 @@
         "text_zwXniH"
       ],
       "custom_css": [
-        ".rich-text {padding-top: 10px; padding-left: -10px;}",
-        ".rich-text__blocks > * {font-size: 1.2rem; font-weight: 100;}",
-        ".rich-text__wrapper {padding-left: -10px;}",
-        ".metafield-single_line_text_field-array {list-style-type: none;}",
-        ".rich-text__text, ul, .metafield-single_line_text_field-array {list-style-type: none; margin: 0; padding: 0;}",
-        ".rich-text__text, ul, .metafield-single_line_text_field-array, li {display: inline; \/* Additional styles as needed *\/}"
+        ".rich-text {padding-top: 10px;}",
+        ".rich-text__blocks > * {font-size: 1.2rem; font-weight: 100;}"
       ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
-        "full_width": false,
+        "full_width": true,
         "padding_top": 64,
         "padding_bottom": 52
       }
