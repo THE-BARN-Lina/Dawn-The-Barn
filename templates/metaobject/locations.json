@@ -120,6 +120,9 @@
         "heading_938qAT",
         "text_UAUfax"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%;}}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
