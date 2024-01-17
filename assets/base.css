@@ -2916,7 +2916,7 @@ details-disclosure > details {
         display: none !important;
     }
 
-rc-template__button-group .rc-button-group__options[data-v-f1bb5b6a] .rc-radio .price-label {
-    font-size: 1em;
-    font-weight: 100;
+rc-template__button-group .rc-button-group__options .rc-radio .price-label {
+    font-size: 1em !important;
+    font-weight: 100 !important;
 }
