@@ -2915,3 +2915,8 @@ details-disclosure > details {
  .rc-subscription-details {
         display: none !important;
     }
+
+rc-template__button-group .rc-button-group__options[data-v-f1bb5b6a] .rc-radio .price-label {
+    font-size: 1em;
+    font-weight: 100;
+}
