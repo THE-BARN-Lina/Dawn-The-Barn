@@ -1,5 +1,32 @@
 {
   "sections": {
+    "rich_text_gX43mL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_zwXniH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CAFES \/ <\/p>{{ metaobject.country | metafield_tag }}<p>\/ {{ metaobject.title_cafe.value }}<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zwXniH"
+      ],
+      "custom_css": [
+        ".rich-text {padding-top: 10px; padding-left: -10px;}",
+        ".rich-text__blocks > * {font-size: 1.2rem; font-weight: 100;}",
+        ".rich-text__wrapper {padding-left: -10px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 64,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_djtJPh": {
       "type": "multicolumn",
       "blocks": {
@@ -175,6 +202,7 @@
     }
   },
   "order": [
+    "rich_text_gX43mL",
     "multicolumn_djtJPh",
     "rich_text_pFWgwr",
     "rich_text_wPzGeC",
