@@ -1,7 +1,192 @@
 {
   "sections": {
+    "multicolumn_djtJPh": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iKGNpG": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobject.image_1.value }}",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "column_rGihT3": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobject.image_2.value }}",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "column_HMhgrQ": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobject.image_3.value }}",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        },
+        "column_UxDxYy": {
+          "type": "column",
+          "settings": {
+            "image": "{{ metaobject.image_4.value }}",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_iKGNpG",
+        "column_rGihT3",
+        "column_HMhgrQ",
+        "column_UxDxYy"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "link_as_button": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_pFWgwr": {
+      "type": "rich-text",
+      "blocks": {
+        "button_VWQTXK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Directions",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_VWQTXK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_wPzGeC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_938qAT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>{{ metaobject.title_cafe.value }}<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_UAUfax": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.description_cafe | metafield_tag }}<\/p>"
+          }
+        },
+        "button_wcfNzw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_938qAT",
+        "text_UAUfax",
+        "button_wcfNzw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_HfxXjM": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_KUKczz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "stopwatch",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_qiNCzp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_KUKczz",
+        "collapsible_row_qiNCzp"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
   },
   "order": [
-
+    "multicolumn_djtJPh",
+    "rich_text_pFWgwr",
+    "rich_text_wPzGeC",
+    "collapsible_content_HfxXjM"
   ]
 }
