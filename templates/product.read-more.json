@@ -143,6 +143,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_PqGjBg": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.rc-subscription-details {display:none}\n<\/style>"
+          }
         }
       },
       "block_order": [
@@ -161,7 +167,8 @@
         "collapsible-row-3",
         "collapsible-row-0",
         "collapsible-row-1",
-        "share"
+        "share",
+        "custom_liquid_PqGjBg"
       ],
       "settings": {
         "enable_sticky_info": true,
