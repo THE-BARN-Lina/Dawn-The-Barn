@@ -121,7 +121,7 @@
         "text_UAUfax"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%;}}"
+        "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -138,9 +138,9 @@
         "collapsible_row_KUKczz": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Opening Times",
             "icon": "stopwatch",
-            "row_content": "",
+            "row_content": "{{ block.settings.page.metafields.locations.cafe_opening_times | metafield_tag }}",
             "page": ""
           }
         },
@@ -166,7 +166,7 @@
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
