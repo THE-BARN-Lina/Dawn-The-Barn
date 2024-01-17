@@ -6,7 +6,7 @@
         "text_zwXniH": {
           "type": "text",
           "settings": {
-            "text": "<p>CAFES \/ <\/p>{{ metaobject.country | metafield_tag }}<p>\/ {{ metaobject.title_cafe.value }}<\/p><p><\/p>"
+            "text": "<p>CAFES \/<\/p>{{ metaobject.country | metafield_tag }}<p>\/ {{ metaobject.title_cafe.value }}<\/p>"
           }
         }
       },
