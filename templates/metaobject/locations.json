@@ -16,7 +16,9 @@
       "custom_css": [
         ".rich-text {padding-top: 10px; padding-left: -10px;}",
         ".rich-text__blocks > * {font-size: 1.2rem; font-weight: 100;}",
-        ".rich-text__wrapper {padding-left: -10px;}"
+        ".rich-text__wrapper {padding-left: -10px;}",
+        ".metafield-single_line_text_field-array {list-style-type: none;}",
+        ".metafield-single_line_text_field {list-style-type: none;}"
       ],
       "settings": {
         "desktop_content_position": "left",
