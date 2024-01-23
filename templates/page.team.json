@@ -46,6 +46,7 @@
         },
         "ac90b91d-08f4-40e1-b198-8aeea1ca90a0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/TEAM_EWELINA.webp",
             "title": "EWELINA",
