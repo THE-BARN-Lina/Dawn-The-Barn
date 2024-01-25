@@ -186,18 +186,18 @@
             class="text-inner-container-single-hero"
           >
                
-       
-                  <h2 class="heading-custom-image-text-hero">
-                    {{ section.settings.heading }}
-                  </h2>
-          
-                  <p class="caption-custom-image-text">
-                    {{ section.settings.caption | escape }}
-                  </p>
+          <h2 class="heading-custom-image-text-hero">
+            {{ section.settings.heading }}
+          </h2>
+                  <section style="margin-top: -2rem;">
+                    <p class="caption-custom-image-text">
+                      {{ section.settings.caption | escape }}
+                    </p>
+                    <div class="text-custom-image-text">
+                      {{ section.settings.text }}
+                    </div>
+                  </section>
   
-                  <div class="text-custom-image-text">
-                    {{ section.settings.text }}
-                  </div>
    
                   <section class="button-container-hero">
                     {%- if section.settings.button_label != blank -%}
