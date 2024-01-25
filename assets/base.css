@@ -2926,15 +2926,50 @@ details-disclosure > details {
 }
 
 @font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Bold.woff2') format('woff2'),
+        url('BebasNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
-  font-family: 'BebasNeue';
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Light.woff2') format('woff2'),
+        url('BebasNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
-  src: url('BebasNeue-Bold.woff') format('woff');  
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('BebasNeue-Book.woff2') format('woff2'),
+        url('BebasNeue-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
-  font-style: normal;
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Thin.woff2') format('woff2'),
+        url('BebasNeue-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Regular.woff2') format('woff2'),
+        url('BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
  
-
   }
 
 tagname or .classname or #id{
