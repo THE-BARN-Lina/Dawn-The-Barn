@@ -40,13 +40,15 @@
   .heading-custom-image-text-hero {
   font-size: 8vw; /* Set initial font size using vw */
   margin-bottom: 0px;
-  margin-top:0px;
+  margin-top:-40px;
   transition: font-size 0.3s ease; /* Smooth transition for font size changes */
 }
 
 @media screen and (max-width: 750px) {
   .heading-custom-image-text-hero {
     font-size: 10vw; /* Adjust font size for smaller screens */
+    margin-top: 0px;
+
   }
   .button-custom-image-text-hero{
     margin-top:2rem;
@@ -183,9 +185,7 @@
             id="ImageWithText--{{ section.id }}"
             class="text-inner-container-single-hero"
           >
-                  <p class="caption-custom-image-text">
-                    {{ section.settings.caption_2 | escape }}
-                  </p>
+               
        
                   <h2 class="heading-custom-image-text-hero">
                     {{ section.settings.heading }}
