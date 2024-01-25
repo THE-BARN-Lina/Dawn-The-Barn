@@ -20,16 +20,21 @@
     justify-content:center;
     text-decoration:none;
 
-    background-color:white;
-    color:black;
+    background-color:transparent;
+    color:white;
+    font-weight:600;
 
     width:100%;
     height:5rem;
-    border-radius:90px;
+    border-radius:5px;
+    border: 3px solid white;
   }
   .button-custom-image-text-hero:hover{
     color:white;
-    background-color:black;
+    background-color:#804d15;
+    border: none;
+
+   
   }
 
   .heading-custom-image-text-hero {
@@ -389,48 +394,6 @@
       "default": "left",
       "label": "t:sections.image-with-text.settings.desktop_content_alignment.label"
     },
-
-  
-    {
-      "type": "color_scheme",
-      "id": "section_color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "background-1"
-    },
-
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.multirow.settings.container_color_scheme.label",
-      "default": "background-1"
-    },
-
-    {
-      "type": "header",
-      "content": "t:sections.all.animation.content"
-    },
-
-    {
-      "type": "select",
-      "id": "image_behavior",
-      "options": [
-        {
-          "value": "none",
-          "label": "t:sections.all.animation.image_behavior.options__1.label"
-        },
-        {
-          "value": "ambient",
-          "label": "t:sections.all.animation.image_behavior.options__2.label"
-        },
-        {
-          "value": "zoom-in",
-          "label": "t:sections.all.animation.image_behavior.options__4.label"
-        }
-      ],
-      "default": "none",
-      "label": "t:sections.all.animation.image_behavior.label"
-    },
-
     {
       "type": "header",
       "content": "Mobile layout"
