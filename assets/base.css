@@ -2926,55 +2926,19 @@ details-disclosure > details {
 }
 
 @font-face {
-    font-family: 'Bebas Neue';
-    src: url('./BebasNeue-Bold.woff2') format('woff2'),
-        url(https://cdn.shopify.com/s/files/1/0831/4141/files/BebasNeue-Bold.woff?v=1706207173) format('woff');
+    font-family: 'Chalet Comprime';
+    src: url(https://cdn.shopify.com/s/files/1/0831/4141/files/ChaletComprime-CologneSixty.woff?v=1706207861) format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('./BebasNeue-Light.woff2') format('woff2'),
-        url('./BebasNeue-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: 'Bebas Neue Book';
-    src: url('./BebasNeue-Book.woff2') format('woff2'),
-        url('./BebasNeue-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('./BebasNeue-Thin.woff2') format('woff2'),
-        url('./BebasNeue-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('./BebasNeue-Regular.woff2') format('woff2'),
-        url('./BebasNeue-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
- 
   }
 
 tagname or .classname or #id{
 
-  font-family: 'Bebas Neue'
+  font-family: 'Chalet Comprime'
 
 }
 
