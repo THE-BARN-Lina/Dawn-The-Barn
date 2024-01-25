@@ -2,6 +2,9 @@
   "sections": {
     "custom_hero_from_v12_4pxXPe": {
       "type": "custom-hero-from-v12",
+      "custom_css": [
+        "h2{font-family:'Chalet Comprime'}"
+      ],
       "settings": {
         "caption_2": "",
         "image": "shopify:\/\/shop_images\/Variety-Box_1.png",
