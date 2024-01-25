@@ -2928,7 +2928,7 @@ details-disclosure > details {
 @font-face {
     font-family: 'Bebas Neue';
     src: url('./BebasNeue-Bold.woff2') format('woff2'),
-        url('./BebasNeue-Bold.woff') format('woff');
+        url(https://cdn.shopify.com/s/files/1/0831/4141/files/BebasNeue-Bold.woff?v=1706207173) format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
