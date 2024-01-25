@@ -1,5 +1,28 @@
 {
   "sections": {
+    "custom_hero_from_v12_4pxXPe": {
+      "type": "custom-hero-from-v12",
+      "disabled": true,
+      "settings": {
+        "caption_2": "",
+        "image": "shopify:\/\/shop_images\/Variety-Box_1.png",
+        "height": "adapt",
+        "heading": "VARIETY BOX",
+        "caption": "TRAVEL THE GLOBE WITH FOUR AMAZING COFFEES",
+        "text": "",
+        "button_label": "ORDER NOW",
+        "button_link": "shopify:\/\/products\/variety-box",
+        "button_style_secondary": false,
+        "button_label_2": "ALL BEANS",
+        "button_link_2": "shopify:\/\/collections\/coffee-beans",
+        "button_style_secondary_2": false,
+        "layout": "image_first",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "befa68a6-1035-4cea-bf06-95f308026d4b": {
       "type": "image-banner",
       "blocks": {
@@ -335,6 +358,7 @@
     }
   },
   "order": [
+    "custom_hero_from_v12_4pxXPe",
     "befa68a6-1035-4cea-bf06-95f308026d4b",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
