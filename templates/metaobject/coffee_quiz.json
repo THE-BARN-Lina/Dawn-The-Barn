@@ -1,7 +1,27 @@
 {
   "sections": {
+    "1706195075bb1a69e6": {
+      "type": "apps",
+      "blocks": {
+        "shop_quiz_product_recommender_inline_quiz_Lf4jth": {
+          "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/inline-quiz\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
+          "settings": {
+            "quiz_id": "LwHZRE",
+            "quiz_height": 600,
+            "quiz_autoscroll": false,
+            "quiz_fixed_height": true
+          }
+        }
+      },
+      "block_order": [
+        "shop_quiz_product_recommender_inline_quiz_Lf4jth"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
   },
   "order": [
-
+    "1706195075bb1a69e6"
   ]
 }
