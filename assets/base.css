@@ -2925,3 +2925,21 @@ details-disclosure > details {
   font-size: 1.3rem !important;
 }
 
+@font-face {
+
+  font-family: 'BebasNeue';
+
+  src: url('BebasNeue-Bold.woff') format('woff');  
+
+  font-style: normal;
+
+ 
+
+  }
+
+tagname or .classname or #id{
+
+  font-family: BebasNeue;
+
+}
+
