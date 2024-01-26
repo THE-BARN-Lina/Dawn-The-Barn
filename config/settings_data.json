@@ -120,11 +120,10 @@
         "blocks": {
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "JUST IN: Laurina - our new Low Caf Coffee ☕️",
+              "text": "LIMITED RELEASE: One Box Featuring Three Coffees From Volcan Azul.",
               "color_scheme": "accent-2",
-              "link": "shopify:\/\/products\/volcan-azul-laurina-low-caf"
+              "link": "shopify:\/\/products\/volcan-azul-triple-box"
             }
           }
         },
