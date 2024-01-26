@@ -563,5 +563,9 @@
         }
       }
     }
+  },
+  "gdpr-legal-cookie-consentmanager": {
+    "button_accept": "ACCEPT",
+    "info": "To use this content, you must accept the cookies for Youtube."
   }
 }
