@@ -12,6 +12,17 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  .text-container-custom-single{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      padding-left:3vw;
+      padding-right:3vw;
+
+      background-color:rgb(28,28,28);
+    
+    }
 
   .button-custom-image-text-hero{
     display:flex;
@@ -22,7 +33,7 @@
 
     background-color:transparent;
     color:white;
-    font-weight:600;
+    font-weight:500;
 
     width:100%;
     height:5rem;
@@ -31,71 +42,32 @@
   }
   .button-custom-image-text-hero:hover{
     color:white;
-    background-color:#804d15;
-    border: none;
 
-   
+    border: 3px solid #804d15;
   }
 
   .heading-custom-image-text-hero {
-  font-size: 11vw; /* Set initial font size using vw */
-  margin-bottom: 0px;
-  margin-top:-40px;
-  transition: font-size 0.3s ease; /* Smooth transition for font size changes */
+    font-size: 9vw; /* Set initial font size using vw */
+    margin-bottom: 0px;
+    margin-top:0px;
+    transition: font-size 0.3s ease; /* Smooth transition for font size changes */
+    width:80%;
+}
+.caption-custom-image-text{
+  width:80%;
+
 }
 
-@media screen and (max-width: 750px) {
-  .heading-custom-image-text-hero {
-    font-size: 10vw; /* Adjust font size for smaller screens */
-    margin-top: 0px;
-
-  }
-  .button-custom-image-text-hero{
-    margin-top:2rem;
-  }
-
-  .text-container-custom-single{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      padding:3vw;
-      text-align:center;
-    
-    }
-  
-  
-}
-@media screen and (min-width: 750px){
-  .text-inner-container-single-hero{
-      padding-left:3rem;
-      
-
-    }
-    .button-container-hero{
-      display:flex;
-      flex-direction:row;
-      justify-content:flex-start;
-      align-items:center;
-      text-align:center;
-      width:100%;
-    }
-    .button-custom-image-text-hero{
-      display:flex;
-      flex-direction:row;
-      justify-content:center;
-    width:42%;
-    margin-top:2rem;
-    margin-right:2rem;
-
-  }
-}
 .text-custom-image-text {
     margin-top:0px;
+    width:80%;
+    font-size: 1.4vw; /* Set initial font size using vw */
+
   }
 
   .text-custom-image-text p{
     margin-top:0px;
+
   }
 
   .image-direct-container-custom{
@@ -104,24 +76,73 @@
     .image-direct-container-custom img{
     max-height:100%;
     }
-    .text-container-custom-single{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      padding:3vw;
-      background-color:rgb(28,28,28);
-    
-    }
+  
     .text-inner-container-single-hero{
       display:flex;
       flex-direction:column;
       align-content:center;
       justify-content:center;
-
-   
     }
+    .text-inner-container-single-hero h2{
+      font-family:'Chalet Comprime';
+      line-height: 0.9;
+      
+    }
+
+@media screen and (min-width: 750px){
+    .text-inner-container-single-hero{
+      padding-left:4rem;
+    }
+    .button-container-hero{
+      display:flex;
+      flex-direction:row;
+      justify-content:flex-start;
+      align-items:center;
+      text-align:center;
+      width:90%;
+      margin-top:1.9rem;
+
+    }
+    .button-custom-image-text-hero{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      width:42%;
+      margin-right:2rem;
+  }
+}
+/*mobile*/
+@media screen and (max-width: 750px) {
+    .text-container-custom-single{
+      padding-top:3vw;
+    
+    }
+  .heading-custom-image-text-hero {
+    font-size: 15vw; /* Adjust font size for smaller screens */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    width:100%;
+    
+  }
+
   
+  .button-custom-image-text-hero{
+    margin-top:2rem;
+  }
+  .caption-custom-image-text{
+  width:100%;
+}
+
+.text-custom-image-text {
+    width:100%;
+    font-size: 3.5vw; /* Set initial font size using vw */
+  text-align:center;
+  padding-top:3vw;
+
+  }
+}
 
 {%- endstyle -%}
 
@@ -185,19 +206,17 @@
             id="ImageWithText--{{ section.id }}"
             class="text-inner-container-single-hero"
           >
-               
-          <h2 class="heading-custom-image-text-hero">
-            {{ section.settings.heading }}
-          </h2>
-                  <section style="margin-top: -2rem;">
-                    <p class="caption-custom-image-text">
-                      {{ section.settings.caption | escape }}
-                    </p>
-                    <div class="text-custom-image-text">
-                      {{ section.settings.text }}
-                    </div>
-                  </section>
+            
+       
+                  <h2 class="heading-custom-image-text-hero">
+                    {{ section.settings.heading }}
+                  </h2>
+          
+           
   
+                  <div class="text-custom-image-text">
+                    {{ section.settings.text }}
+                  </div>
    
                   <section class="button-container-hero">
                     {%- if section.settings.button_label != blank -%}
@@ -208,6 +227,9 @@
                           href="{{ section.settings.button_link }}"
                         {% endif %}
                         class="button-custom-image-text-hero"
+                        style="background-color: #804d15; border:none;"
+                        onmouseover="this.style.backgroundColor='#804d15c9'"
+                        onmouseout="this.style.backgroundColor='#804d15'"
                       
                       >
                         {{ section.settings.button_label | escape }}
@@ -244,12 +266,7 @@
   "name": "Custom Hero Landing",
   "class": "section",
   "settings": [
-    {
-        "type": "text",
-        "id": "caption_2",
-        "default": "The Barn - Coffee Roasters Berlin",
-        "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
-    },
+
     {
       "type": "image_picker",
       "id": "image",
@@ -262,19 +279,8 @@
         {
           "value": "adapt",
           "label": "t:sections.image-with-text.settings.height.options__1.label"
-        },
-        {
-          "value": "small",
-          "label": "t:sections.image-with-text.settings.height.options__2.label"
-        },
-        {
-          "value": "medium",
-          "label": "t:sections.image-with-text.settings.height.options__3.label"
-        },
-        {
-          "value": "large",
-          "label": "t:sections.image-with-text.settings.height.options__4.label"
         }
+      
       ],
       "default": "adapt",
       "label": "t:sections.image-with-text.settings.height.label"
@@ -289,21 +295,7 @@
         "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
     },
   
- 
 
-
- 
-    {
-        "type": "text",
-        "id": "caption",
-        "default": "Add a tagline",
-        "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
-    },
- 
-   
- 
-
-    
     {
         "type": "richtext",
         "id": "text",
@@ -325,13 +317,6 @@
         "id": "button_link",
         "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
     },
-    {
-        "type": "checkbox",
-        "id": "button_style_secondary",
-        "default": false,
-        "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
-    },
-
 
 
     {
@@ -346,12 +331,7 @@
         "id": "button_link_2",
         "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
     },
-    {
-        "type": "checkbox",
-        "id": "button_style_secondary_2",
-        "default": false,
-        "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
-    },
+ 
 
  
 
@@ -394,6 +374,7 @@
       "default": "left",
       "label": "t:sections.image-with-text.settings.desktop_content_alignment.label"
     },
+
     {
       "type": "header",
       "content": "Mobile layout"
