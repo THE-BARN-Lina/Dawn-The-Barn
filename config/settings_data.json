@@ -300,6 +300,45 @@
           "banner-color": "#067a46",
           "banner-hover-color": "#064b2c"
         }
+      },
+      "GDPR_LC_Manager": {
+        "type": "GDPR_LC_Manager",
+        "blocks": {
+          "custom_scripts_LhNRfh": {
+            "type": "customScripts",
+            "settings": {
+              "cookieName": "",
+              "script": ""
+            }
+          }
+        },
+        "block_order": [
+          "custom_scripts_LhNRfh"
+        ],
+        "settings": {
+          "testMode": false,
+          "useOverlay": true,
+          "unit": "px",
+          "bannerMaxWidth": 480,
+          "bannerWidthMobile": 8,
+          "fontSize": 12,
+          "z_index": 20,
+          "buttonClass": "Button, Button--primary",
+          "eventType": "click",
+          "overlay_color": "#000000",
+          "overlay_opacity": 50,
+          "overlay_blur": 4,
+          "box_color": "#fff",
+          "text_color": "#000",
+          "activate_shadow": false,
+          "shadow_color": "#000000",
+          "shadow_opacity": 50,
+          "shadow_x": 8,
+          "shadow_y": 8,
+          "shadow_blur_radius": 8,
+          "shadow_spread_radius": 8,
+          "wrapper_border_radius": 8
+        }
       }
     },
     "content_for_index": [
