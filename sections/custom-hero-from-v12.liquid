@@ -212,7 +212,9 @@
                     {{ section.settings.heading }}
                   </h2>
           
-           
+                  <div class="text-custom-image-text">
+                    {{ section.settings.text_1 }}
+                  </div>
   
                   <div class="text-custom-image-text">
                     {{ section.settings.text }}
@@ -295,7 +297,12 @@
         "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
     },
   
-
+  {
+        "type": "richtext",
+        "id": "text_1",
+        "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+    },
     {
         "type": "richtext",
         "id": "text",
