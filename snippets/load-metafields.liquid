@@ -1,3 +1,92 @@
 {% comment %}Start GDPR_LC Manager{% endcomment%}
 {% if request.design_mode %}{% section "GDPR_LC_Manager" %}{% else %}{% capture GDPR_LC_Manager %}{% section "GDPR_LC_Manager" %}{% endcapture %}{{ GDPR_LC_Manager | replace: '<div id="shopify-section-GDPR_LC_Manager" class="shopify-section">', '' | replace: '</div>' }}{% endif %}
 {% comment %}End GDPR_LC Manager{% endcomment%}
+
+{% comment %} V 2.0.0 {% endcomment %}
+{% unless request.design_mode %}
+    {% assign data = shop.metafields.bc_cookie %}
+    {% assign data_value = data.value | default: data %}
+
+    {% assign bc_cookie_list = null -%}
+    {% assign bc_cookie_list_value = data_value.bc_cookie_list.value | default: data_value.bc_cookie_list %}
+
+    {% if data_value.size > 0 and bc_cookie_list_value._bc_c_set.live == '1' and content_for_header contains 'beeclever.app\/get-script.php' %}
+        <link rel="preconnect" href="https://gdpr-legal-cookie.beeclever.app">
+        <link rel="preload" as="script" href="https://gdpr-legal-cookie.beeclever.app/get-script.php?shop={{ shop.permanent_domain }}">
+        <script>
+            var sDomain = location.host;
+
+            var klaviyoDeclaration = 2;
+
+            window.thirdPartyScriptDefinition.push({
+                "src": "klaviyo",
+                "cookie": "_hp2_id.XXX",
+                "provider": "klaviyo.com",
+                "description": "",
+                "expires": 33696000,
+                "domain": "klaviyo.com",
+                "declaration": 1,
+                "group": "klaviyo"
+            }, {
+                "src": "klaviyo",
+                "cookie": "_hp2_ses_props.XXX",
+                "provider": "klaviyo.com",
+                "description": "",
+                "expires": 1,
+                "domain": "klaviyo.com",
+                "declaration":1,
+                "group": "klaviyo"
+            }, {
+                "src": "klaviyo",
+                "cookie": "_gid",
+                "provider": "klaviyo.com",
+                "description": "",
+                "expires": 86400,
+                "domain": "klaviyo.com",
+                "declaration": 1,
+                "group": "klaviyo"
+            }, {
+                "src": "klaviyo",
+                "cookie": "__kla_id",
+                "provider": "klaviyo.com",
+                "description": "",
+                "expires": 33696000,
+                "domain": sDomain,
+                "declaration": 1,
+                "group": "klaviyo"
+            }, {
+                "src": "klaviyo",
+                "cookie": "KL_FORMS_MODAL",
+                "provider": "klaviyo.com",
+                "description": "",
+                "expires": 0,
+                "domain": sDomain,
+                "declaration": 1,
+                "group": "klaviyo"
+            });
+
+            (function () {
+                window.thirdPartyScriptDefinition = [];
+            })();
+
+            window.thirdPartyScriptDefinition.push(
+                { "src": "analytics.js", "cookie": "_shopify_fs", "provider": "shopify.com", "description": "", "expires": 0, "domain": sDomain, "declaration": 1, "group": "shopify" },
+                { "src": "doubleclick.net", "cookie": "_shopify_fs", "provider": "shopify.com", "description": "", "expires": 0, "domain": sDomain, "declaration": 1, "group": "shopify" },
+                { "src": "trekkie", "cookie": "_shopify_fs", "provider": "shopify.com", "description": "", "expires": 0, "domain": sDomain, "declaration": 1, "group": "shopify" },
+                { "src": "luckyorange", "cookie": "_shopify_fs", "provider": "shopify.com", "description": "", "expires": 0, "domain": sDomain, "declaration": 1, "group": "shopify" },
+                { "src": "googletagmanager", "cookie": "_gat", "provider": "googletagmanager.com", "description": "", "expires": 0, "domain": sDomain, "declaration": 1, "group": "googletagmanager" }
+            );
+
+            var customCookies = {};
+
+            function BC_GDPR_CustomScriptForShop() {
+                return [
+                    function testCookie() {
+                        // your additional script
+                    }
+                ];
+            }
+
+        </script>
+    {% endif %}
+{% endunless %}
