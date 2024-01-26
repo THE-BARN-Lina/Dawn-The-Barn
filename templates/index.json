@@ -214,6 +214,15 @@
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_TRTKqW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CHECKPOINT CHARLIE",
+            "icon": "map_pin",
+            "row_content": "",
+            "page": ""
+          }
+        },
         "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-0": {
           "type": "collapsible_row",
           "settings": {
@@ -315,6 +324,7 @@
         }
       },
       "block_order": [
+        "collapsible_row_TRTKqW",
         "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-0",
         "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-1",
         "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-2",
