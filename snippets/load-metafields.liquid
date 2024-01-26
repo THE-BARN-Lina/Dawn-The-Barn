@@ -1,4 +1,7 @@
 {% comment %} V 2.0.0 {% endcomment %}
+
+{% if request.design_mode %}{% section "GDPR_LC_Manager" %}{% else %}{% capture GDPR_LC_Manager %}{% section "GDPR_LC_Manager" %}{% endcapture %}{{ GDPR_LC_Manager | replace: '<div id="shopify-section-GDPR_LC_Manager" class="shopify-section">', '' | replace: '</div>' }}{% endif %}
+
 {% unless request.design_mode %}
     {% assign data = shop.metafields.bc_cookie %}
     {% assign data_value = data.value | default: data %}
