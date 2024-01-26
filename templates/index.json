@@ -219,7 +219,7 @@
           "settings": {
             "heading": "CHECKPOINT CHARLIE",
             "icon": "map_pin",
-            "row_content": "",
+            "row_content": "<p>Monday-Friday: 08:00 - 18:00<br\/>Saturday-Sunday: 10:00 - 18:00<br\/><br\/>Friedrichstraße 215, 10969 Berlin<\/p>",
             "page": ""
           }
         },
