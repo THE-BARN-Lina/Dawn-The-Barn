@@ -6,12 +6,12 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Variety-Box_1.png",
+        "image": "shopify:\/\/shop_images\/VolcanAzulTriple_131e5d56-dffa-4199-a8df-39bb29d5c7c4.jpg",
         "height": "adapt",
-        "heading": "VARIETY BOX",
-        "text": "<p>TRAVEL THE GLOBE WITH FOUR AMAZING COFFEES<\/p>",
+        "heading": "VOLCAN AZUL TRIPLE BOX",
+        "text": "<p>LIMITED EDITION: COSTA RICAN COFFEE AT ITS BEST<\/p>",
         "button_label": "ORDER NOW",
-        "button_link": "shopify:\/\/products\/variety-box",
+        "button_link": "shopify:\/\/products\/volcan-azul-triple-box",
         "button_label_2": "ALL BEANS",
         "button_link_2": "shopify:\/\/collections\/coffee-beans",
         "layout": "text_first",
