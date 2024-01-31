@@ -121,7 +121,7 @@
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
             "settings": {
-              "text": "LIMITED EDITION: One Box Featuring Three Coffees From Costa Rica.",
+              "text": "Limited Edition: One Box Featuring Three Coffees From Costa Rica.",
               "color_scheme": "accent-2",
               "link": "shopify:\/\/products\/volcan-azul-triple-box"
             }
@@ -328,8 +328,8 @@
           "overlay_color": "#000000",
           "overlay_opacity": 50,
           "overlay_blur": 4,
-          "box_color": "#fff",
-          "text_color": "#000",
+          "box_color": "#ffffff",
+          "text_color": "#000000",
           "activate_shadow": false,
           "shadow_color": "#000000",
           "shadow_opacity": 50,
