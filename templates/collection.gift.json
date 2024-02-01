@@ -77,7 +77,7 @@
         "collection": "gifts-super",
         "products_to_show": 12,
         "columns_desktop": 5,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "view_all_label": "View All",
