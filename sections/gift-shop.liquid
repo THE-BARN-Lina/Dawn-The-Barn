@@ -68,8 +68,8 @@
     padding: 8px 16px;
     transition: background-color 0.3s;
     font-size:16px;
-    min-width: 100px;
-    max-width: 200px;
+    min-width: 140px;
+
 
     background-color: var(--black);
     border-radius: 2px;
@@ -136,7 +136,8 @@
   .filter-buttons {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-bottom:1rem;
   }
   .filter-button{
     margin-right:2rem;
@@ -157,12 +158,18 @@
     <button
       onclick="filterByTag('Gifts_Beans_and_Bundles')"
       class="filter-button"
-      data-tag="Gifts_Beans_and_Bundles">Beans and Bundles</button>
+      data-tag="Gifts_Beans_and_Bundles"
+      style="min-width: 180px;"
+      
+      >Beans and Bundles</button>
     
     <button
       onclick="filterByTag('Gifts_Coffee_Voucher')"
       class="filter-button"
-      data-tag="Gifts_Coffee-Voucher">Coffee Voucher</button>
+      data-tag="Gifts_Coffee-Voucher"
+      style="min-width: 160px;"
+      
+      >Coffee Voucher</button>
 
       <button
       onclick="filterByTag('Gifts_Equipment')"
