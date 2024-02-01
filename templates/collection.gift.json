@@ -65,32 +65,22 @@
         "padding_bottom": 16
       }
     },
-    "featured_collection_wYiWgD": {
-      "type": "featured-collection",
+    "gift_shop_UinW4g": {
+      "type": "gift-shop",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description_heading_2": "<h3><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/strong><\/h3>",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "gifts-super",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
+        "products_per_page": 16,
+        "columns_desktop": 4,
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": false,
+        "quick_add_button_color": "",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -100,6 +90,6 @@
     "banner",
     "8beb5d87-50a8-4b20-b1c2-5b7a98c52161",
     "1a713986-dc37-4b66-b5cf-0705458ba228",
-    "featured_collection_wYiWgD"
+    "gift_shop_UinW4g"
   ]
 }
