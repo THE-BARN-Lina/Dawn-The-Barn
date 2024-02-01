@@ -47,10 +47,17 @@
             "heading": "<p>FOR THE LOVE OF COFFEE<\/p>",
             "heading_size": "h2"
           }
+        },
+        "text_BXq8gh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We Love Coffee... And so does a very special person in your life. Now you can give them the perfect give and make their coffee-loving heart sing.\u2028\u2028<\/p><p>Browse the curated selection of perfect coffee gifts and go down in history as an amazing gift giver!<\/p>"
+          }
         }
       },
       "block_order": [
-        "7e367069-124c-4280-bd07-dbad26e1b657"
+        "7e367069-124c-4280-bd07-dbad26e1b657",
+        "text_BXq8gh"
       ],
       "custom_css": [
         ".rich-text {padding-left: 0;}",
