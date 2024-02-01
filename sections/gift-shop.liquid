@@ -117,7 +117,6 @@
 
 }
 
-
   /* Styles for sections */
   .section-collection {
     display: none;
@@ -130,19 +129,16 @@
 }
 
   /* Additional styles for smaller screens */
-  @media screen and (min-width: 416px) {
-
-
-  .filter-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom:1rem;
-  }
-  .filter-button{
-    margin-right:2rem;
-  }
-
+  @media screen and (max-width: 1000px) {
+    .filter-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom:1rem;
+    }
+    .filter-button{
+      margin-right:2rem;
+    }
   }
 {%- endstyle -%}
 
