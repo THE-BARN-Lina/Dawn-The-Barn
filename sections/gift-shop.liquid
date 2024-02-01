@@ -49,7 +49,7 @@
     display: flex;
     flex-direction:column;
     align-items:center;
-    justify-content:center;
+    justify-content:flex-start;
     width: 100%;
     overflow-x: auto; /* Enable horizontal scrolling */
   }
@@ -57,7 +57,7 @@
   .filter-buttons {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     padding:4px;
     overflow-x: auto; /* Enable horizontal scrolling */
@@ -69,7 +69,7 @@
     transition: background-color 0.3s;
     font-size:16px;
     min-width: 100px;
-    max-width: 127px;
+    max-width: 200px;
 
     background-color: var(--black);
     border-radius: 2px;
@@ -136,7 +136,7 @@
   .filter-buttons {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .filter-button{
     margin-right:2rem;
@@ -155,12 +155,12 @@
       data-tag="All">All</button>
     
     <button
-      onclick="filterByTag('Beans-and-Bundles')"
+      onclick="filterByTag('Gifts_Beans_and_Bundles')"
       class="filter-button"
-      data-tag="Beans-and-Bundles">Beans and Bundles</button>
+      data-tag="Gifts_Beans_and_Bundles">Beans and Bundles</button>
     
     <button
-      onclick="filterByTag('Gifts_Coffee-Voucher')"
+      onclick="filterByTag('Gifts_Coffee_Voucher')"
       class="filter-button"
       data-tag="Gifts_Coffee-Voucher">Coffee Voucher</button>
 
@@ -262,7 +262,9 @@
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
               {%- for product in collection.products -%}
-                {% if product.type == "Espresso Coffee" or product.type == "Subscription" %}
+                {% if product.tags contains "Gifts_Beans_and_Bundles" or product.tags contains "Gifts_Coffee_Voucher" or product.tags contains "Gifts_Equipment" or product.tags contains "Gifts_Subscription" or product.tags contains "Gifts_Merch" %}
+
+
                     {% assign lazy_load = false %}
                     {%- if forloop.index > 2 -%}
                       {%- assign lazy_load = true -%}
