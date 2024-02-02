@@ -28,6 +28,7 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
     px;
   }
+
   .section-category-container {
     display: flex;
     flex-direction: column;
@@ -39,9 +40,11 @@
     /* background-color: purple; */
     margin-top: -10px;
   }
+
   .scroll-wrapper {
     overflow: hidden; /* Hide any horizontal overflow */
   }
+
   .scroll-container {
     display: flex;
     flex-direction:column;
@@ -50,6 +53,7 @@
     width: 100%;
     overflow-x: auto; /* Enable horizontal scrolling */
   }
+
   .filter-buttons {
     display: flex;
     align-items: center;
@@ -58,6 +62,7 @@
     padding:4px;
     overflow-x: auto; /* Enable horizontal scrolling */
   }
+
   .filter-button {
     /* Common button styles */
     padding: 8px 16px;
@@ -73,33 +78,46 @@
     border: 1px solid;
     margin-right:1.2rem;
   }
-  .filter-button[data-tag="All"] {
+.filter-button[data-tag="All"] {
     border-color: white;
-  }
-  .filter-button[data-tag="Balanced"] {
-      border-color: var(--brown-clear); 
-  }
-  .filter-button[data-tag="Terroir"] {
-      border-color: var(--green);
-  } 
-  .filter-button.active {
-      outline-offset: 3px;
-  }
-  .filter-button[data-tag="All"].active {
-    outline: 0.2px solid var(--white);
-    background-color: var(--white);
-    color: var(--black);  
-  }
-  .filter-button[data-tag="Balanced"].active {
-    outline: 0.2px solid var(--brown-clear);
-    background-color: var(--brown-clear); 
-    color: var(--white);  
-  }
-  .filter-button[data-tag="Terroir"].active {
-    outline: 0.2px solid var(--green);
-    background-color: var(--green); 
-    color: var(--white);  
-  }
+}
+
+.filter-button[data-tag="Balanced"] {
+    border-color: var(--brown-clear); 
+}
+
+.filter-button[data-tag="Terroir"] {
+    border-color: var(--green);
+}
+  
+.filter-button.active {
+    outline-offset: 3px;
+}
+.filter-button[data-tag="All"].active {
+  outline: 0.2px solid var(--white);
+  background-color: var(--white);
+  color: var(--black);  
+
+
+}
+
+.filter-button[data-tag="Balanced"].active {
+  outline: 0.2px solid var(--brown-clear);
+  background-color: var(--brown-clear); 
+  color: var(--white);  
+
+
+}
+
+.filter-button[data-tag="Terroir"].active {
+  outline: 0.2px solid var(--green);
+  background-color: var(--green); 
+  color: var(--white);  
+
+
+}
+
+
   /* Styles for sections */
   .section-collection {
     display: none;
@@ -109,167 +127,24 @@
   }
   .grid__item[style*="display: none"] {
     display: none !important;
-  }
+}
+
   /* Additional styles for smaller screens */
-  @media screen and (max-width: 1000px) {
-    .filter-buttons {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      margin-bottom:1rem;
-    }
-    .filter-button{
-      margin-right:2rem;
-    }
+  @media screen and (min-width: 416px) {
+
+
+  .filter-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom:1rem;
+  }
+  .filter-button{
+    margin-right:2rem;
+  }
+
   }
 {%- endstyle -%}
-
-<!-- Styles -->
-<style>
-  /* Padding for the section */
-  .section-{{ section.id }}-padding {
-    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
-    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
-  }
-
-  /* Container for custom columns */
-  .custom-columns-container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding: 15px 17px 15px 0px;
-  }
-
-  /* Individual column link */
-  .custom-column-link {
-    display: inline-flex;
-    flex-shrink: 0;
-    transition: background-color 0.3s ease-in-out;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 16px 8px;
-    margin-right: 0px; /* Spacing between columns */
-  }
-
-  .custom-column-link:not(:last-child) {
-    margin-right: 0px;
-  }
-
-  .custom-column-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Card image within the column link */
-  .multicolumn-card__image {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 14px;
-    padding: 5px;
-    border: 1px solid transparent;
-    border-radius: 50%; /* Make it a circle */
-    transition: border 0.2s ease-in-out, transform 0.2s ease-in;
-  }
-
-  /* Hover effect for column link */
-  .custom-column-link:hover .multicolumn-card__image {
-    border: 1.5px solid #ffffff; /* Make the border slightly thicker */
-  }
-
-  .custom-column-link:hover {
-    background-color: #1c1d1c;
-    transform: scale(1.05); /* Slightly enlarge the entire link */
-    border-radius: 10px;
-  }
-
-  /* Title within the column link */
-  .sub-collections__item-title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    min-width: 116px;
-    max-width: 116px;
-    text-align: center;
-    margin-top: -4px;
-    margin-bottom: 0px;
-  }
-
-  /* Remove underline on hover for all links */
-  a {
-    text-decoration: none !important;
-  }
-  
-  a:hover {
-    text-decoration: none !important;
-  }
-
-  /* Media query for larger screens */
-  @media (min-width: 769px) {
-    .custom-columns-container {
-      flex-flow: row wrap;
-      justify-content: center;
-      padding: 0 30px 0 30px;
-      /*margin-top: 40px;*/
-      overflow-x: visible;
-    }
-
-    .custom-column-link:not(:last-child) {
-      margin-right: 8px;
-    }
-
-    .custom-column-link {
-      margin-right: 27px; /* Adjust spacing for larger screens */
-      text-align: center;
-    }
-
-    .multicolumn-card__image {
-      width: 111px;
-      height: 111px;
-      margin-bottom: 14px;
-    }
-
-    .sub-collections__item-title {
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 24px;
-      min-width: 116px;
-      max-width: 116px;
-      margin-bottom: 0px;
-    }
-  }
-      .media img {
- 
-  background-color:#1C1D1C;
-}
-</style>
-
-<div class=" section-{{ section.id }}-padding">
-  <div class="custom-columns-container">
-    {% for block in section.blocks %}
-      <a href="{{ block.settings.button_link }}" class="custom-column-link">
-        <div class="custom-column-content">
-          <img class="multicolumn-card__image"
-            srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | image_url: width: 275 }} 275w,{%- endif -%}
-            {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
-            {%- if block.settings.image.width >= 710 -%}{{ block.settings.image | image_url: width: 710 }} 710w,{%- endif -%}
-            {%- if block.settings.image.width >= 1420 -%}{{ block.settings.image | image_url: width: 1420 }} 1420w,{%- endif -%}
-            {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
-            src="{{ block.settings.image | image_url: width: 550 }}"
-            sizes="(min-width: 320px) 320px,(min-width: 425px) 425px,(min-width: 768px) 768px"
-            {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
-            (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
-            calc(100vw - 30px)
-            alt="{{ block.settings.image.alt }}"
-            height="{{ block.settings.image.height }}"
-            width="{{ block.settings.image.width }}"
-            loading="lazy">
-          <h3 class="sub-collections__item-title">{{ block.settings.button_text }}</h3>
-        </div>
-      </a>
-    {% endfor %}
-  </div>
-</div>
 
 
 <div class="scroll-wrapper" style="">
@@ -436,86 +311,45 @@
 
 
 <script>
-    function filterByTag(tag) {
-        // Define a map of translations or synonymous tags
-        const tagTranslations = {
-            'Balanced': ['Balanced', 'Ausgebowen'],
-            'Exotic': ['Exotic', 'Exotisch']
-        };
+function filterByTag(tag) {
+    // Define a map of translations or synonymous tags
+    const tagTranslations = {
+        'Balanced': ['Balanced', 'Ausgebowen'],
+        'Exotic': ['Exotic', 'Exotisch']
+    };
 
-        // Deactivate currently active button
-        var activeButtons = document.querySelectorAll('.filter-button.active');
-        for (var i = 0; i < activeButtons.length; i++) {
-            activeButtons[i].classList.remove('active');
-        }
+    // Deactivate currently active button
+    var activeButtons = document.querySelectorAll('.filter-button.active');
+    for (var i = 0; i < activeButtons.length; i++) {
+        activeButtons[i].classList.remove('active');
+    }
 
-        // Activate clicked button
-        var buttons = document.querySelectorAll('.filter-button[data-tag="' + tag + '"]');
-        for (var i = 0; i < buttons.length; i++) {
-            buttons[i].classList.add('active');
-        }
+    // Activate clicked button
+    var buttons = document.querySelectorAll('.filter-button[data-tag="' + tag + '"]');
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].classList.add('active');
+    }
 
-        // Filter products based on tags
-        var products = document.querySelectorAll('.grid__item');
-        for (var i = 0; i < products.length; i++) {
-            if (tag == 'All') {
-                products[i].style.display = '';  // Show all products
+    // Filter products based on tags
+    var products = document.querySelectorAll('.grid__item');
+    for (var i = 0; i < products.length; i++) {
+        if (tag == 'All') {
+            products[i].style.display = '';  // Show all products
+        } else {
+            var productTags = products[i].getAttribute('data-tags').split(',');
+            var matchedTags = tagTranslations[tag] || [tag]; // get from translations map or default to the passed tag
+            if (productTags.some(tag => matchedTags.includes(tag))) {
+                products[i].style.display = '';  // Show product with matching tag
             } else {
-                var productTags = products[i].getAttribute('data-tags').split(',');
-                var matchedTags = tagTranslations[tag] || [tag]; // get from translations map or default to the passed tag
-                if (productTags.some(tag => matchedTags.includes(tag))) {
-                    products[i].style.display = '';  // Show product with matching tag
-                } else {
-                    products[i].style.display = 'none';  // Hide non-matching products
-                }
+                products[i].style.display = 'none';  // Hide non-matching products
             }
         }
     }
-</script>
+}
 
-<!-- JavaScript -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var customColumns = document.querySelectorAll(".custom-column-link");
-    var activeColumnIndex = localStorage.getItem("activeColumnIndex");
 
-    customColumns.forEach(function (column, index) {
-      column.addEventListener("mouseenter", function () {
-        // Add the "hover" class on hover
-        column.classList.add("hover");
-      });
-
-      column.addEventListener("mouseleave", function () {
-        // Remove the "hover" class when the mouse leaves
-        column.classList.remove("hover");
-      });
-
-      column.addEventListener("click", function () {
-        // Remove the "active" class from all columns
-        customColumns.forEach(function (col) {
-          col.classList.remove("active");
-        });
-
-        // Add the "active" class to the clicked column
-        column.classList.add("active");
-
-        // Store the clicked column's index in local storage
-        localStorage.setItem("activeColumnIndex", index);
-      });
-
-      // Initially remove the "hover" class from all columns
-      column.classList.remove("hover");
-
-      // Initially remove the "active" class from all columns
-      column.classList.remove("active");
-    });
-
-    // Add the "active" class to the column based on the stored index
-    if (activeColumnIndex !== null) {
-      customColumns[activeColumnIndex].classList.add("active");
-    }
-  });
-</script>
+  
+      </script>
 
 
 
@@ -671,30 +505,6 @@
         "default": 36
       }
     ],
-    "blocks": [
-    {
-      "type": "custom_column",
-      "name": "Custom Column",
-      "settings": [
-        {
-          "type": "image_picker",
-          "label": "Image",
-          "id": "image"
-        },
-        {
-          "type": "text",
-          "label": "Button Text",
-          "id": "button_text",
-          "default": "Learn More"
-        },
-        {
-          "type": "url",
-          "label": "Button Link",
-          "id": "button_link"
-        }
-      ]
-    }
-  ],
     "presets": [
       {
         "name": "Gift Shop",
