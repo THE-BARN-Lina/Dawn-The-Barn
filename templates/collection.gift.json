@@ -73,6 +73,55 @@
     },
     "gift_shop_UinW4g": {
       "type": "gift-shop",
+      "blocks": {
+        "custom_column_Y3reXr": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gift_Coffee_Beans.jpg",
+            "button_text": "Beans and Bundles",
+            "button_link": ""
+          }
+        },
+        "custom_column_U6VyNz": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gift_a_Voucher.jpg",
+            "button_text": "Coffee Voucher",
+            "button_link": ""
+          }
+        },
+        "custom_column_qXzCti": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gift_Coffee_Equipment.jpg",
+            "button_text": "Coffee Equipment",
+            "button_link": ""
+          }
+        },
+        "custom_column_PL7cf9": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gift_a_Subscription.webp",
+            "button_text": "Coffee Subscriptions",
+            "button_link": ""
+          }
+        },
+        "custom_column_TVjbCT": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gift_Coffee_Merch.jpg",
+            "button_text": "Coffee Merchandise",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "custom_column_Y3reXr",
+        "custom_column_U6VyNz",
+        "custom_column_qXzCti",
+        "custom_column_PL7cf9",
+        "custom_column_TVjbCT"
+      ],
       "settings": {
         "products_per_page": 64,
         "columns_desktop": 4,
