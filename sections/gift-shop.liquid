@@ -49,7 +49,7 @@
     display: flex;
     flex-direction:column;
     align-items:center;
-    justify-content:flex-start;
+    justify-content:center;
     width: 100%;
     overflow-x: auto; /* Enable horizontal scrolling */
   }
@@ -59,26 +59,30 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding:4px;
+    height:180px;
+
     overflow-x: auto; /* Enable horizontal scrolling */
-  }
+    margin-bottom:2rem;
+    }
 
   .filter-button {
     /* Common button styles */
     padding: 8px 16px;
     transition: background-color 0.3s;
     font-size:16px;
-    min-width: 140px;
-
-
-    background-color: var(--black);
+    min-width: 130px;
+    max-width:130px;
+    height:175px;
+    background-color: #121212;
     border-radius: 5px;
     color: var(--white);
     cursor: pointer;
-    border: 1px solid;
     margin-right:1.2rem;
+    border:none;
   }
-
+  .filter-button:hover{
+    background-color:#1c1d1c;
+  }
 
 
 
@@ -94,21 +98,6 @@
     display: none !important;
 }
 
-  /* Additional styles for smaller screens */
-  @media screen and (min-width: 416px) {
-
-
-  .filter-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom:1rem;
-  }
-  .filter-button{
-    margin-right:2rem;
-  }
-
-  }
   .filter-container-img-text{
     display:flex;
     flex-direction:column;
@@ -122,6 +111,23 @@
   .image-main-class{
     border-radius:50px;
   }
+  .image-main-class:hover{
+    border:1px solid white;
+    padding:4px;
+  }
+
+  /* Additional styles for smaller screens */
+  @media screen and (max-width: 500px) {
+
+.filter-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left:0.7rem;
+}
+
+  }
+
 {%- endstyle -%}
 
 
@@ -129,9 +135,9 @@
 
 
 
-<div class="scroll-wrapper" style="">
+<div class="scroll-wrapper">
   <div class="scroll-container">
-    <div class="filter-buttons">
+      <div class="filter-buttons">
 
       <button onclick="filterByTag('All')" class="filter-button active" data-tag="All">
         <section class="filter-container-img-text">
@@ -161,7 +167,7 @@
         </section>
       </button>
 
-      <button onclick="filterByTag('Gifts_Beans_and_Bundles')" class="filter-button active" data-tag="Gifts_Beans_and_Bundles">
+      <button onclick="filterByTag('Gifts_Beans_and_Bundles')" class="filter-button" data-tag="Gifts_Beans_and_Bundles">
         <section class="filter-container-img-text">
             {%- if section.settings.image_1 != blank -%}
               <img
@@ -189,7 +195,7 @@
         </section>
       </button>
 
-      <button onclick="filterByTag('Gifts_Coffee_Voucher')" class="filter-button active" data-tag="Gifts_Coffee_Voucher">
+      <button onclick="filterByTag('Gifts_Coffee_Voucher')" class="filter-button" data-tag="Gifts_Coffee_Voucher">
         <section class="filter-container-img-text">
             {%- if section.settings.image_2 != blank -%}
               <img
@@ -216,8 +222,8 @@
             Coffee Voucher
         </section>
       </button>
-      
-      <button onclick="filterByTag('Gifts_Equipment')" class="filter-button active" data-tag="Gifts_Equipment">
+            
+      <button onclick="filterByTag('Gifts_Equipment')" class="filter-button" data-tag="Gifts_Equipment">
         <section class="filter-container-img-text">
             {%- if section.settings.image_3 != blank -%}
               <img
@@ -245,7 +251,7 @@
         </section>
       </button>
     
-      <button onclick="filterByTag('Gifts_Subscription')" class="filter-button active" data-tag="Gifts_Subscription">
+      <button onclick="filterByTag('Gifts_Subscription')" class="filter-button" data-tag="Gifts_Subscription">
         <section class="filter-container-img-text">
             {%- if section.settings.image_4 != blank -%}
               <img
@@ -273,7 +279,7 @@
         </section>
       </button>
 
-      <button onclick="filterByTag('Gifts_Merch')" class="filter-button active" data-tag="Gifts_Merch">
+      <button onclick="filterByTag('Gifts_Merch')" class="filter-button" data-tag="Gifts_Merch">
         <section class="filter-container-img-text">
             {%- if section.settings.image_5 != blank -%}
               <img
