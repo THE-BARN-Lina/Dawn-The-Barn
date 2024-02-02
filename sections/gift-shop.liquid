@@ -72,50 +72,15 @@
 
 
     background-color: var(--black);
-    border-radius: 2px;
+    border-radius: 5px;
     color: var(--white);
     cursor: pointer;
     border: 1px solid;
     margin-right:1.2rem;
   }
-.filter-button[data-tag="All"] {
-    border-color: white;
-}
-
-.filter-button[data-tag="Balanced"] {
-    border-color: var(--brown-clear); 
-}
-
-.filter-button[data-tag="Terroir"] {
-    border-color: var(--green);
-}
-  
-.filter-button.active {
-    outline-offset: 3px;
-}
-.filter-button[data-tag="All"].active {
-  outline: 0.2px solid var(--white);
-  background-color: var(--white);
-  color: var(--black);  
 
 
-}
 
-.filter-button[data-tag="Balanced"].active {
-  outline: 0.2px solid var(--brown-clear);
-  background-color: var(--brown-clear); 
-  color: var(--white);  
-
-
-}
-
-.filter-button[data-tag="Terroir"].active {
-  outline: 0.2px solid var(--green);
-  background-color: var(--green); 
-  color: var(--white);  
-
-
-}
 
 
   /* Styles for sections */
@@ -144,24 +109,21 @@
   }
 
   }
+  .filter-container-img-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+
+    height:150px;
+
+
+  }
+  .image-main-class{
+    border-radius:50px;
+  }
 {%- endstyle -%}
 
-<img class=""
-    srcset="{%- if settings.image.width >= 275 -%}{{ settings.image | image_url: width: 275 }} 275w,{%- endif -%}
-            {%- if settings.image.width >= 550 -%}{{ settings.image | image_url: width: 550 }} 550w,{%- endif -%}
-            {%- if settings.image.width >= 710 -%}{{ settings.image | image_url: width: 710 }} 710w,{%- endif -%}
-            {%- if settings.image.width >= 1420 -%}{{ settings.image | image_url: width: 1420 }} 1420w,{%- endif -%}
-            {{ settings.image | image_url }} {{ settings.image.width }}w"
-    src="{{ settings.image| image_url: width: 550 }}"
-    sizes="(min-width: 320px) 320px,(min-width: 425px) 425px,(min-width: 768px) 768px, 
-          {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
-          (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
-          calc(100vw - 30px)"
-    alt="{{ settings.image.alt }}"
-    height="100"
-    width="100"
-    loading="lazy"
->
+
 
 
 
@@ -169,44 +131,175 @@
 <div class="scroll-wrapper" style="">
   <div class="scroll-container">
     <div class="filter-buttons">
+
       <button onclick="filterByTag('All')" class="filter-button active" data-tag="All">
-       
-        All
+        <section class="filter-container-img-text">
+            {%- if section.settings.image != blank -%}
+              <img
+                srcset="
+                  {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                  {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+                "
+                src="{{ section.settings.image | image_url: width: 1500 }}"
+                alt="{{ section.settings.image.alt | escape }}"
+                loading="lazy"
+                width="100"
+                height="100"
+                class="image-main-class"
+              >
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+
+              All
+        </section>
+      </button>
+
+      <button onclick="filterByTag('Gifts_Beans_and_Bundles')" class="filter-button active" data-tag="Gifts_Beans_and_Bundles">
+        <section class="filter-container-img-text">
+            {%- if section.settings.image_1 != blank -%}
+              <img
+                srcset="
+                  {%- if section.settings.image_1.width >= 165 -%}{{ section.settings.image_1 | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if section.settings.image_1.width >= 360 -%}{{ section.settings.image_1 | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if section.settings.image_1.width >= 535 -%}{{ section.settings.image_1 | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if section.settings.image_1.width >= 750 -%}{{ section.settings.image_1 | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if section.settings.image_1.width >= 1070 -%}{{ section.settings.image_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+                  {%- if section.settings.image_1.width >= 1500 -%}{{ section.settings.image_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ section.settings.image_1 | image_url }} {{ section.settings.image_1.width }}w
+                "
+                src="{{ section.settings.image_1 | image_url: width: 1500 }}"
+                alt="{{ section.settings.image_1.alt | escape }}"
+                loading="lazy"
+                width="100"
+                height="100"
+                class="image-main-class"
+              >
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+
+              Beans and Bundles
+        </section>
+      </button>
+
+      <button onclick="filterByTag('Gifts_Coffee_Voucher')" class="filter-button active" data-tag="Gifts_Coffee_Voucher">
+        <section class="filter-container-img-text">
+            {%- if section.settings.image_2 != blank -%}
+              <img
+                srcset="
+                  {%- if section.settings.image_2.width >= 165 -%}{{ section.settings.image_2 | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if section.settings.image_2.width >= 360 -%}{{ section.settings.image_2 | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if section.settings.image_2.width >= 535 -%}{{ section.settings.image_2 | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if section.settings.image_2.width >= 750 -%}{{ section.settings.image_2 | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if section.settings.image_2.width >= 1070 -%}{{ section.settings.image_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+                  {%- if section.settings.image_2.width >= 1500 -%}{{ section.settings.image_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ section.settings.image_2 | image_url }} {{ section.settings.image_2.width }}w
+                "
+                src="{{ section.settings.image_2 | image_url: width: 1500 }}"
+                alt="{{ section.settings.image_2.alt | escape }}"
+                loading="lazy"
+                width="100"
+                height="100"
+                class="image-main-class"
+              >
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+
+            Coffee Voucher
+        </section>
       </button>
       
+      <button onclick="filterByTag('Gifts_Equipment')" class="filter-button active" data-tag="Gifts_Equipment">
+        <section class="filter-container-img-text">
+            {%- if section.settings.image_3 != blank -%}
+              <img
+                srcset="
+                  {%- if section.settings.image_3.width >= 165 -%}{{ section.settings.image_3 | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if section.settings.image_3.width >= 360 -%}{{ section.settings.image_3 | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if section.settings.image_3.width >= 535 -%}{{ section.settings.image_3 | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if section.settings.image_3.width >= 750 -%}{{ section.settings.image_3 | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if section.settings.image_3.width >= 1070 -%}{{ section.settings.image_3 | image_url: width: 1070 }} 1070w,{%- endif -%}
+                  {%- if section.settings.image_3.width >= 1500 -%}{{ section.settings.image_3 | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ section.settings.image_3 | image_url }} {{ section.settings.image_3.width }}w
+                "
+                src="{{ section.settings.image_3 | image_url: width: 1500 }}"
+                alt="{{ section.settings.image_3.alt | escape }}"
+                loading="lazy"
+                width="100"
+                height="100"
+                class="image-main-class"
+              >
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+
+            Gifts Equipment
+        </section>
+      </button>
     
-    <button
-      onclick="filterByTag('Gifts_Beans_and_Bundles')"
-      class="filter-button"
-      data-tag="Gifts_Beans_and_Bundles"
-      style="min-width: 180px;"
-      
-      >Beans and Bundles</button>
-    
-    <button
-      onclick="filterByTag('Gifts_Coffee_Voucher')"
-      class="filter-button"
-      data-tag="Gifts_Coffee-Voucher"
-      style="min-width: 160px;"
-      
-      >Coffee Voucher</button>
+      <button onclick="filterByTag('Gifts_Subscription')" class="filter-button active" data-tag="Gifts_Subscription">
+        <section class="filter-container-img-text">
+            {%- if section.settings.image_4 != blank -%}
+              <img
+                srcset="
+                  {%- if section.settings.image_4.width >= 165 -%}{{ section.settings.image_4 | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if section.settings.image_4.width >= 360 -%}{{ section.settings.image_4 | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if section.settings.image_4.width >= 535 -%}{{ section.settings.image_4 | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if section.settings.image_4.width >= 750 -%}{{ section.settings.image_4 | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if section.settings.image_4.width >= 1070 -%}{{ section.settings.image_4 | image_url: width: 1070 }} 1070w,{%- endif -%}
+                  {%- if section.settings.image_4.width >= 1500 -%}{{ section.settings.image_4 | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ section.settings.image_4 | image_url }} {{ section.settings.image_4.width }}w
+                "
+                src="{{ section.settings.image_4 | image_url: width: 1500 }}"
+                alt="{{ section.settings.image_4.alt | escape }}"
+                loading="lazy"
+                width="100"
+                height="100"
+                class="image-main-class"
+              >
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
 
-      <button
-      onclick="filterByTag('Gifts_Equipment')"
-      class="filter-button"
-      data-tag="Gifts_Equipment">Equipment</button>
+            Gifts Subscription
+        </section>
+      </button>
 
-      <button
-      onclick="filterByTag('Gifts_Subscription')"
-      class="filter-button"
-      data-tag="Gifts_Subscription">Subscription</button>
+      <button onclick="filterByTag('Gifts_Merch')" class="filter-button active" data-tag="Gifts_Merch">
+        <section class="filter-container-img-text">
+            {%- if section.settings.image_5 != blank -%}
+              <img
+                srcset="
+                  {%- if section.settings.image_5.width >= 165 -%}{{ section.settings.image_5 | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if section.settings.image_5.width >= 360 -%}{{ section.settings.image_5 | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if section.settings.image_5.width >= 535 -%}{{ section.settings.image_5 | image_url: width: 535 }} 535w,{%- endif -%}
+                  {%- if section.settings.image_5.width >= 750 -%}{{ section.settings.image_5 | image_url: width: 750 }} 750w,{%- endif -%}
+                  {%- if section.settings.image_5.width >= 1070 -%}{{ section.settings.image_5 | image_url: width: 1070 }} 1070w,{%- endif -%}
+                  {%- if section.settings.image_5.width >= 1500 -%}{{ section.settings.image_5 | image_url: width: 1500 }} 1500w,{%- endif -%}
+                  {{ section.settings.image_5 | image_url }} {{ section.settings.image_5.width }}w
+                "
+                src="{{ section.settings.image_5 | image_url: width: 1500 }}"
+                alt="{{ section.settings.image_5.alt | escape }}"
+                loading="lazy"
+                width="100"
+                height="100"
+                class="image-main-class"
+              >
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
 
+            Gifts Merch
+        </section>
+      </button>
 
-      <button
-      onclick="filterByTag('Gifts_Merch')"
-      class="filter-button"
-      data-tag="Gifts_Merch">Merch</button>
-    
     </div>
   </div>
 </div>
@@ -382,6 +475,36 @@ function filterByTag(tag) {
           "type": "image_picker",
           "label": "Image",
           "id": "image"
+        },
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image_1"
+        },
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image_2"
+        },
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image_3"
+        },
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image_4"
+        },
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image_5"
+        },
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image_6"
         },
       {
         "type": "range",
