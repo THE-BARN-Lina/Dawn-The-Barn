@@ -163,7 +163,11 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
 
-              All Gifts
+            {%- if section.settings.button_description_0 != blank -%}
+              <p class="rich-text__heading rte ">
+                {{ section.settings.button_description_0 | replace: 'p>', 'span>' }}
+              </p>
+            {%- endif -%}
         </section>
       </button>
 
@@ -191,7 +195,11 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
 
-              Beans and Bundles
+            {%- if section.settings.button_description_1 != blank -%}
+              <p class="rich-text__heading rte ">
+                {{ section.settings.button_description_1 | replace: 'p>', 'span>' }}
+              </p>
+            {%- endif -%}
         </section>
       </button>
 
@@ -219,7 +227,11 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
 
-            Coffee Voucher
+            {%- if section.settings.button_description_2 != blank -%}
+              <p class="rich-text__heading rte ">
+                {{ section.settings.button_description_2 | replace: 'p>', 'span>' }}
+              </p>
+            {%- endif -%}
         </section>
       </button>
             
@@ -247,7 +259,11 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
 
-            Gifts Equipment
+            {%- if section.settings.button_description_3 != blank -%}
+              <p class="rich-text__heading rte ">
+                {{ section.settings.button_description_3 | replace: 'p>', 'span>' }}
+              </p>
+            {%- endif -%}
         </section>
       </button>
     
@@ -275,7 +291,11 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
 
-            Gifts Subscription
+            {%- if section.settings.button_description_4 != blank -%}
+              <p class="rich-text__heading rte ">
+                {{ section.settings.button_description_4 | replace: 'p>', 'span>' }}
+              </p>
+            {%- endif -%}
         </section>
       </button>
 
@@ -303,7 +323,11 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
 
-            Gifts Merch
+            {%- if section.settings.button_description_5 != blank -%}
+              <p class="rich-text__heading rte ">
+                {{ section.settings.button_description_5 | replace: 'p>', 'span>' }}
+              </p>
+            {%- endif -%}
         </section>
       </button>
 
@@ -484,9 +508,21 @@ function filterByTag(tag) {
           "id": "image"
         },
         {
+          "type": "richtext",
+          "id": "button_description_0",
+          "default": "<p>ZERO</p>",
+          "label": "button_description_0"
+        },
+        {
           "type": "image_picker",
           "label": "Image",
           "id": "image_1"
+        },
+        {
+          "type": "richtext",
+          "id": "button_description_1",
+          "default": "<p>ONE</p>",
+          "label": "button_description_1"
         },
         {
           "type": "image_picker",
@@ -494,9 +530,21 @@ function filterByTag(tag) {
           "id": "image_2"
         },
         {
+          "type": "richtext",
+          "id": "button_description_2",
+          "default": "<p>TWO</p>",
+          "label": "button_description_2"
+        },
+        {
           "type": "image_picker",
           "label": "Image",
           "id": "image_3"
+        },
+        {
+          "type": "richtext",
+          "id": "button_description_3",
+          "default": "<p>THREE</p>",
+          "label": "button_description_3"
         },
         {
           "type": "image_picker",
@@ -504,14 +552,32 @@ function filterByTag(tag) {
           "id": "image_4"
         },
         {
+          "type": "richtext",
+          "id": "button_description_4",
+          "default": "<p>FOUR</p>",
+          "label": "button_description_4"
+        },
+        {
           "type": "image_picker",
           "label": "Image",
           "id": "image_5"
         },
         {
+          "type": "richtext",
+          "id": "button_description_5",
+          "default": "<p>FIVE</p>",
+          "label": "button_description_5"
+        },
+        {
           "type": "image_picker",
           "label": "Image",
           "id": "image_6"
+        },
+        {
+          "type": "richtext",
+          "id": "button_description_6",
+          "default": "<p>SIX</p>",
+          "label": "button_description_6"
         },
       {
         "type": "range",
