@@ -17,9 +17,9 @@
         ".btn-card {cursor: po;}"
       ],
       "settings": {
-        "FRIEDRICHSTRASSE_IMAGE": "shopify:\/\/shop_images\/16-9-rectangle-checkpoint_charlie_image0-jpeg_custom_resized.jpg",
-        "FRIEDRICHSTRASSE_IMAGE_1": "shopify:\/\/shop_images\/16-9-rectangle-checkpoint_charlie_image3-jpeg_custom_resized.jpg",
-        "FRIEDRICHSTRASSE_IMAGE_2": "shopify:\/\/shop_images\/16-9-rectangle-checkpoint_charlie_image1-jpeg_custom_resized.jpg",
+        "FRIEDRICHSTRASSE_IMAGE": "shopify:\/\/shop_images\/PHOTO-2024-02-02-19-39-47.jpg",
+        "FRIEDRICHSTRASSE_IMAGE_1": "shopify:\/\/shop_images\/IMG_2965.jpg",
+        "FRIEDRICHSTRASSE_IMAGE_2": "shopify:\/\/shop_images\/PHOTO-2024-02-02-19-39-45.jpg",
         "FRIEDRICHSTRASSE_HEADING": "CHECKPOINT CHARLIE",
         "FRIEDRICHSTRASSE_ADDRESS": "Friedrichstraße 215, 10969 Berlin",
         "FRIEDRICHSTRASSE_OPENING": "<p>Monday-Friday: 08:00 - 18:00<br\/>Saturday-Sunday: 10:00 - 18:00<\/p>",
