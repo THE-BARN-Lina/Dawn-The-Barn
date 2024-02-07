@@ -28,23 +28,6 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
     px;
   }
-
-  .section-category-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100px;
-    /* background-color: purple; */
-    margin-top: -10px;
-  }
-
-  .scroll-wrapper {
-    overflow: hidden; /* Hide any horizontal overflow */
-  }
-
   .scroll-container {
     display: flex;
     flex-direction:column;
@@ -84,9 +67,6 @@
     background-color:#1c1d1c;
   }
 
-
-
-
   /* Styles for sections */
   .section-collection {
     display: none;
@@ -103,10 +83,7 @@
     flex-direction:column;
     justify-content:space-around;
     align-items:center;
-
     height:150px;
-
-
   }
   .image-main-class{
     border-radius:50px;
@@ -116,8 +93,8 @@
     padding:4px;
   }
 
-  /* Additional styles for smaller screens */
-  @media screen and (max-width: 500px) {
+/* Additional styles for smaller screens */
+@media screen and (max-width: 500px) {
 
 .filter-buttons{
   display: flex;
@@ -132,9 +109,6 @@
 
 
 
-
-
-
 <div class="scroll-wrapper">
   <div class="scroll-container">
       <div class="filter-buttons">
@@ -143,15 +117,6 @@
         <section class="filter-container-img-text">
             {%- if section.settings.image != blank -%}
               <img
-                srcset="
-                  {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
-                "
                 src="{{ section.settings.image | image_url: width: 1500 }}"
                 alt="{{ section.settings.image.alt | escape }}"
                 loading="lazy"
@@ -175,15 +140,6 @@
         <section class="filter-container-img-text">
             {%- if section.settings.image_1 != blank -%}
               <img
-                srcset="
-                  {%- if section.settings.image_1.width >= 165 -%}{{ section.settings.image_1 | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if section.settings.image_1.width >= 360 -%}{{ section.settings.image_1 | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if section.settings.image_1.width >= 535 -%}{{ section.settings.image_1 | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if section.settings.image_1.width >= 750 -%}{{ section.settings.image_1 | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if section.settings.image_1.width >= 1070 -%}{{ section.settings.image_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if section.settings.image_1.width >= 1500 -%}{{ section.settings.image_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ section.settings.image_1 | image_url }} {{ section.settings.image_1.width }}w
-                "
                 src="{{ section.settings.image_1 | image_url: width: 1500 }}"
                 alt="{{ section.settings.image_1.alt | escape }}"
                 loading="lazy"
@@ -207,15 +163,6 @@
         <section class="filter-container-img-text">
             {%- if section.settings.image_2 != blank -%}
               <img
-                srcset="
-                  {%- if section.settings.image_2.width >= 165 -%}{{ section.settings.image_2 | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if section.settings.image_2.width >= 360 -%}{{ section.settings.image_2 | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if section.settings.image_2.width >= 535 -%}{{ section.settings.image_2 | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if section.settings.image_2.width >= 750 -%}{{ section.settings.image_2 | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if section.settings.image_2.width >= 1070 -%}{{ section.settings.image_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if section.settings.image_2.width >= 1500 -%}{{ section.settings.image_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ section.settings.image_2 | image_url }} {{ section.settings.image_2.width }}w
-                "
                 src="{{ section.settings.image_2 | image_url: width: 1500 }}"
                 alt="{{ section.settings.image_2.alt | escape }}"
                 loading="lazy"
@@ -239,15 +186,6 @@
         <section class="filter-container-img-text">
             {%- if section.settings.image_3 != blank -%}
               <img
-                srcset="
-                  {%- if section.settings.image_3.width >= 165 -%}{{ section.settings.image_3 | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if section.settings.image_3.width >= 360 -%}{{ section.settings.image_3 | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if section.settings.image_3.width >= 535 -%}{{ section.settings.image_3 | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if section.settings.image_3.width >= 750 -%}{{ section.settings.image_3 | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if section.settings.image_3.width >= 1070 -%}{{ section.settings.image_3 | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if section.settings.image_3.width >= 1500 -%}{{ section.settings.image_3 | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ section.settings.image_3 | image_url }} {{ section.settings.image_3.width }}w
-                "
                 src="{{ section.settings.image_3 | image_url: width: 1500 }}"
                 alt="{{ section.settings.image_3.alt | escape }}"
                 loading="lazy"
@@ -271,15 +209,7 @@
         <section class="filter-container-img-text">
             {%- if section.settings.image_4 != blank -%}
               <img
-                srcset="
-                  {%- if section.settings.image_4.width >= 165 -%}{{ section.settings.image_4 | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if section.settings.image_4.width >= 360 -%}{{ section.settings.image_4 | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if section.settings.image_4.width >= 535 -%}{{ section.settings.image_4 | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if section.settings.image_4.width >= 750 -%}{{ section.settings.image_4 | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if section.settings.image_4.width >= 1070 -%}{{ section.settings.image_4 | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if section.settings.image_4.width >= 1500 -%}{{ section.settings.image_4 | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ section.settings.image_4 | image_url }} {{ section.settings.image_4.width }}w
-                "
+            
                 src="{{ section.settings.image_4 | image_url: width: 1500 }}"
                 alt="{{ section.settings.image_4.alt | escape }}"
                 loading="lazy"
@@ -303,15 +233,7 @@
         <section class="filter-container-img-text">
             {%- if section.settings.image_5 != blank -%}
               <img
-                srcset="
-                  {%- if section.settings.image_5.width >= 165 -%}{{ section.settings.image_5 | image_url: width: 165 }} 165w,{%- endif -%}
-                  {%- if section.settings.image_5.width >= 360 -%}{{ section.settings.image_5 | image_url: width: 360 }} 360w,{%- endif -%}
-                  {%- if section.settings.image_5.width >= 535 -%}{{ section.settings.image_5 | image_url: width: 535 }} 535w,{%- endif -%}
-                  {%- if section.settings.image_5.width >= 750 -%}{{ section.settings.image_5 | image_url: width: 750 }} 750w,{%- endif -%}
-                  {%- if section.settings.image_5.width >= 1070 -%}{{ section.settings.image_5 | image_url: width: 1070 }} 1070w,{%- endif -%}
-                  {%- if section.settings.image_5.width >= 1500 -%}{{ section.settings.image_5 | image_url: width: 1500 }} 1500w,{%- endif -%}
-                  {{ section.settings.image_5 | image_url }} {{ section.settings.image_5.width }}w
-                "
+           
                 src="{{ section.settings.image_5 | image_url: width: 1500 }}"
                 alt="{{ section.settings.image_5.alt | escape }}"
                 loading="lazy"
@@ -437,9 +359,6 @@
                     </li>
 
                   {% endif %}
-
-
-              
               {%- endfor -%}
             </ul>          
             
@@ -453,47 +372,28 @@
   </div>
 </div>
 
-
 <script>
-function filterByTag(tag) {
-    // Define a map of translations or synonymous tags
-    const tagTranslations = {
-        'Balanced': ['Balanced', 'Ausgebowen'],
-        'Exotic': ['Exotic', 'Exotisch']
-    };
+  function filterByTag(tag) {
+      // Define a map of translations or synonymous tags
+      const tagTranslations = '';
 
-    // Deactivate currently active button
-    var activeButtons = document.querySelectorAll('.filter-button.active');
-    for (var i = 0; i < activeButtons.length; i++) {
-        activeButtons[i].classList.remove('active');
-    }
-
-    // Activate clicked button
-    var buttons = document.querySelectorAll('.filter-button[data-tag="' + tag + '"]');
-    for (var i = 0; i < buttons.length; i++) {
-        buttons[i].classList.add('active');
-    }
-
-    // Filter products based on tags
-    var products = document.querySelectorAll('.grid__item');
-    for (var i = 0; i < products.length; i++) {
-        if (tag == 'All') {
-            products[i].style.display = '';  // Show all products
-        } else {
-            var productTags = products[i].getAttribute('data-tags').split(',');
-            var matchedTags = tagTranslations[tag] || [tag]; // get from translations map or default to the passed tag
-            if (productTags.some(tag => matchedTags.includes(tag))) {
-                products[i].style.display = '';  // Show product with matching tag
-            } else {
-                products[i].style.display = 'none';  // Hide non-matching products
-            }
-        }
-    }
-}
-
-
-  
-      </script>
+      // Filter products based on tags
+      var products = document.querySelectorAll('.grid__item');
+      for (var i = 0; i < products.length; i++) {
+          if (tag == 'All') {
+              products[i].style.display = '';  // Show all products
+          } else {
+              var productTags = products[i].getAttribute('data-tags').split(',');
+              var matchedTags = tagTranslations[tag] || [tag]; // get from translations map or default to the passed tag
+              if (productTags.some(tag => matchedTags.includes(tag))) {
+                  products[i].style.display = '';  // Show product with matching tag
+              } else {
+                  products[i].style.display = 'none';  // Hide non-matching products
+              }
+          }
+      }
+  }
+</script>
 
 
 
