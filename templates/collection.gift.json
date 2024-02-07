@@ -87,7 +87,7 @@
         "image_5": "shopify:\/\/shop_images\/Gift_Coffee_Merch.jpg",
         "button_description_5": "<p>Merch<\/p>",
         "button_description_6": "",
-        "products_per_page": 8,
+        "products_per_page": 64,
         "columns_desktop": 4,
         "image_ratio": "portrait",
         "show_secondary_image": true,
