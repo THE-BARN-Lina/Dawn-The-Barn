@@ -42,7 +42,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height:180px;
+    height:200px;
     overflow-x: auto; /* Enable horizontal scrolling */
     margin-bottom:2rem;
     }
@@ -107,14 +107,29 @@
 /* Additional styles for smaller screens */
 @media screen and (max-width: 500px) {
 
-.filter-buttons{
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left:0.7rem;
-}
-
+  .filter-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
+  .filter-button{
+    margin-bottom:1rem;
+  }
+  ::-webkit-scrollbar{
+      height: 4px;
+      width: 4px;
+      background: gray;
+  }
+  ::-webkit-scrollbar-thumb:horizontal{
+      background: #804d15;
+      border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:vertical{
+      background: none;
+      border:none;
+  }
+
+}
 
 
 
