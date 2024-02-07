@@ -83,15 +83,13 @@
       "type": "gift-shop",
       "custom_css": [
         ".quick-add__submit {background-color: #804d15; color: white;}",
-        "button {--border-offset: #804d15 !important;}",
-        "h3{color:black;}"
+        "button {--border-offset: #804d15 !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
         "button_description_0": "<p>All Gifts<\/p>",
         "image_1": "shopify:\/\/shop_images\/Gift_Coffee_Beans.jpg",
         "button_description_1": "<p>Beans<\/p>",
-        "feature-collection_zero": "<h3>ONE FEATURE<\/h3>",
         "image_2": "shopify:\/\/shop_images\/Gift_a_Voucher.jpg",
         "button_description_2": "<p>Vouchers<\/p>",
         "image_3": "shopify:\/\/shop_images\/Gift_Coffee_Equipment.jpg",

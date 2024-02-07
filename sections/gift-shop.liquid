@@ -108,10 +108,10 @@
     background-color:white;
   }
 
-  .feature-collection-container h2{
-    color:black;
+  .feature-collection-container{
+   background-color:grey;
   }
-  .feature-text{
+  .feature-collection-text{
     color:black;
   }
 
@@ -415,9 +415,9 @@
   <h2>Featured Collection</h2>
 
 
-  {%- if section.settings.feature-collection_zero != blank -%}
-    <h3 class="rich-text__heading rte">
-      {{ section.settings.feature-collection_zero| replace: 'h3>', 'span>' }}
+  {%- if section.settings.feature-collection_one != blank -%}
+    <h3 class="feature-collection-text">
+      {{ section.settings.feature-collection_one| replace: 'h3>', 'span>' }}
     </h3>
   {%- endif -%}
 
@@ -484,9 +484,9 @@ function updateActiveButton(clickedButton) {
         },
         {
           "type": "richtext",
-          "id": "feature-collection_zero",
+          "id": "feature-collection_one",
           "default": "<h3>ONE FEATURE</h3>",
-          "label": "feature-collection_zero"
+          "label": "feature collection one"
         },
         {
           "type": "image_picker",
