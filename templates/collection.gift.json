@@ -60,7 +60,7 @@
         "text_BXq8gh"
       ],
       "custom_css": [
-
+        ".rich-text__blocks {max-width: 80rem;}"
       ],
       "settings": {
         "desktop_content_position": "center",
