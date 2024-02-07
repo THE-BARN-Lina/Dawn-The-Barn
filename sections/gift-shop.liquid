@@ -414,6 +414,13 @@
 <section class="feature-collection-container">
   <h2>Featured Collection</h2>
 
+
+  {%- if section.settings.feature-collection_zero != blank -%}
+    <h3 class="rich-text__heading rte">
+      {{ section.settings.feature-collection_zero| replace: 'h3>', 'span>' }}
+    </h3>
+  {%- endif -%}
+
 </section>
 
 
