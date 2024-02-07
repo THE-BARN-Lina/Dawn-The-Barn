@@ -100,6 +100,21 @@
     height:150px;
   }
 
+  .feature-collection-container{
+    height:30vh;
+    margin-top:6rem;
+    margin-bottom:6rem;
+
+    background-color:white;
+  }
+
+  .feature-collection-container h2{
+    color:black;
+  }
+  .feature-text{
+    color:black;
+  }
+
 
 /* Additional styles for smaller screens */
 @media screen and (max-width: 500px) {
@@ -271,7 +286,7 @@
             {%- endif -%}
 
             {%- if section.settings.button_description_5 != blank -%}
-              <p class="rich-text__heading rte ">
+              <p class="rich-text__heading rte">
                 {{ section.settings.button_description_5 | replace: 'p>', 'span>' }}
               </p>
             {%- endif -%}
@@ -396,6 +411,13 @@
   </div>
 </div>
 
+<section class="feature-collection-container">
+  <h2>Featured Collection</h2>
+
+</section>
+
+
+
 <script>
   // Cache the query for performance improvement
   const products = document.querySelectorAll('.grid__item');
@@ -441,6 +463,12 @@ function updateActiveButton(clickedButton) {
           "id": "button_description_0",
           "default": "<p>ZERO</p>",
           "label": "button_description_0"
+        },
+        {
+          "type": "richtext",
+          "id": "feature-collection_zero",
+          "default": "<p>ZERO</p>",
+          "label": "feature-collection_zero"
         },
         {
           "type": "image_picker",
