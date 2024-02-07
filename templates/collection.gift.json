@@ -60,6 +60,7 @@
         "text_BXq8gh"
       ],
       "custom_css": [
+        "h1{font-family: \"Chalet Comprime\";}",
         ".rich-text__blocks {max-width: 80rem;}"
       ],
       "settings": {
