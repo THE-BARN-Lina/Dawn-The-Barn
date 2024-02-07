@@ -43,7 +43,6 @@
     justify-content: center;
     width: 100%;
     height:180px;
-
     overflow-x: auto; /* Enable horizontal scrolling */
     margin-bottom:2rem;
     }
@@ -63,9 +62,28 @@
     margin-right:1.2rem;
     border:none;
   }
-  .filter-button:hover{
-    background-color:#1c1d1c;
-  }
+ 
+  .image-main-class {
+    border-radius: 50px;
+    transition: border 0.3s ease, padding 0.3s ease; /* Smooth transition for border and padding */
+}
+
+.filter-button:hover .image-main-class,
+.active-button .image-main-class {
+    border: 1px solid grey;
+    padding: 4px;
+}
+
+.filter-button:hover {
+    background-color: #1c1d1c;
+}
+
+.active-button {
+    border: 1px solid grey; /* Adjusted active button border style */
+}
+
+
+
 
   /* Styles for sections */
   .section-collection {
@@ -74,9 +92,6 @@
   .section-collection.visible {
     display: block;
   }
-  .grid__item[style*="display: none"] {
-    display: none !important;
-}
 
   .filter-container-img-text{
     display:flex;
@@ -85,13 +100,7 @@
     align-items:center;
     height:150px;
   }
-  .image-main-class{
-    border-radius:50px;
-  }
-  .image-main-class:hover{
-    border:1px solid white;
-    padding:4px;
-  }
+
 
 /* Additional styles for smaller screens */
 @media screen and (max-width: 500px) {
@@ -105,6 +114,8 @@
 
   }
 
+
+
 {%- endstyle -%}
 
 
@@ -113,7 +124,7 @@
   <div class="scroll-container">
       <div class="filter-buttons">
 
-      <button onclick="filterByTag('All')" class="filter-button active" data-tag="All">
+      <button onclick="filterByTag('All'); updateActiveButton(this);" class="filter-button active" data-tag="All">
         <section class="filter-container-img-text">
             {%- if section.settings.image != blank -%}
               <img
@@ -136,7 +147,7 @@
         </section>
       </button>
 
-      <button onclick="filterByTag('Gifts_Beans_and_Bundles')" class="filter-button" data-tag="Gifts_Beans_and_Bundles">
+      <button onclick="filterByTag('Gifts_Beans_and_Bundles'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Beans_and_Bundles">
         <section class="filter-container-img-text">
             {%- if section.settings.image_1 != blank -%}
               <img
@@ -159,7 +170,7 @@
         </section>
       </button>
 
-      <button onclick="filterByTag('Gifts_Coffee_Voucher')" class="filter-button" data-tag="Gifts_Coffee_Voucher">
+      <button onclick="filterByTag('Gifts_Coffee_Voucher'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Coffee_Voucher">
         <section class="filter-container-img-text">
             {%- if section.settings.image_2 != blank -%}
               <img
@@ -182,7 +193,7 @@
         </section>
       </button>
             
-      <button onclick="filterByTag('Gifts_Equipment')" class="filter-button" data-tag="Gifts_Equipment">
+      <button onclick="filterByTag('Gifts_Equipment'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Equipment">
         <section class="filter-container-img-text">
             {%- if section.settings.image_3 != blank -%}
               <img
@@ -205,7 +216,7 @@
         </section>
       </button>
     
-      <button onclick="filterByTag('Gifts_Subscription')" class="filter-button" data-tag="Gifts_Subscription">
+      <button onclick="filterByTag('Gifts_Subscription'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Subscription">
         <section class="filter-container-img-text">
             {%- if section.settings.image_4 != blank -%}
               <img
@@ -229,7 +240,7 @@
         </section>
       </button>
 
-      <button onclick="filterByTag('Gifts_Merch')" class="filter-button" data-tag="Gifts_Merch">
+      <button onclick="filterByTag('Gifts_Merch'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Merch">
         <section class="filter-container-img-text">
             {%- if section.settings.image_5 != blank -%}
               <img
@@ -357,7 +368,6 @@
     
                       %}
                     </li>
-
                   {% endif %}
               {%- endfor -%}
             </ul>          
@@ -373,33 +383,38 @@
 </div>
 
 <script>
-  function filterByTag(tag) {
-      // Define a map of translations or synonymous tags
-      const tagTranslations = '';
+  // Cache the query for performance improvement
+  const products = document.querySelectorAll('.grid__item');
 
-      // Filter products based on tags
-      var products = document.querySelectorAll('.grid__item');
-      for (var i = 0; i < products.length; i++) {
-          if (tag == 'All') {
-              products[i].style.display = '';  // Show all products
+  function filterByTag(tag) {
+      products.forEach(product => {
+          if (tag === 'All') {
+              product.style.display = 'block';
           } else {
-              var productTags = products[i].getAttribute('data-tags').split(',');
-              var matchedTags = tagTranslations[tag] || [tag]; // get from translations map or default to the passed tag
-              if (productTags.some(tag => matchedTags.includes(tag))) {
-                  products[i].style.display = '';  // Show product with matching tag
-              } else {
-                  products[i].style.display = 'none';  // Hide non-matching products
-              }
+              const productTags = product.getAttribute('data-tags').split(',');
+              product.style.display = productTags.includes(tag) ? '' : 'none';
           }
-      }
-  }
+      });}
+      
 </script>
+<script>
+function updateActiveButton(clickedButton) {
+    // Remove the 'active-button' class from all filter buttons
+    document.querySelectorAll('.filter-button').forEach(button => {
+        button.classList.remove('active-button');
+    });
+
+    // Add the 'active-button' class to the clicked button
+    clickedButton.classList.add('active-button');
+}
+</script>
+
 
 
 
 {% schema %}
   {
-    "name": "Gift Shop",
+    "name":"Gift Shop",
     "class": "section",
     "settings": [
       {
