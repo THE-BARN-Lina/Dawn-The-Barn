@@ -69,7 +69,7 @@
       "custom_css": [
         "h1 {font-family: \"Chalet Comprime\";}",
         ".rich-text__blocks {max-width: 80rem;}",
-        "@media screen and (max-width: 400px) {.rich-text {display: none; }}"
+        "@media screen and (max-width: 350px) {.rich-text {display: none; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -111,7 +111,7 @@
       "custom_css": [
         "h1 {font-family: \"Chalet Comprime\";}",
         ".rich-text__blocks {max-width: 80rem;}",
-        "@media screen and (min-width: 400px) {.rich-text {display: none; }}"
+        "@media screen and (min-width: 350px) {.rich-text {display: none; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
