@@ -109,10 +109,17 @@
   }
 
   .feature-collection-container{
-   background-color:grey;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:black;
+  text-align:center;
   }
+
   .feature-collection-text{
-    color:black;
+    color:grey;
+    font-size:22px;
   }
 
 
@@ -412,63 +419,38 @@
 </div>
 
 <section class="feature-collection-container">
-  <h2>Featured Collection</h2>
- 
-  {%- if section.settings.feature-collection_one != blank -%}
+
     <p id="text1" class="feature-collection-text" style="display: none;">
-      {{ section.settings.feature-collection_one | replace: 'p>', 'span>' }}
+      <span class="en-text">Looking for an even wider selection of Coffee? Check out our whole Coffee Beans selection HERE.</span>
+      <span class="de-text" style="display: none;">Bist du auf der Suche nach noch mehr Kaffee-Variationen? Schau dir unser ganzes Angebot von Kaffeebohnen an.</span>
     </p>
-  {%- endif -%}
+    <!-- Repeat for other text blocks -->
+  
 
-  {%- if section.settings.feature-collection_two != blank -%}
+
+
     <p id="text2" class="feature-collection-text" style="display: none;">
-      {{ section.settings.feature-collection_two | replace: 'p>', 'span>' }}
     </p>
-  {%- endif -%}
 
-  {%- if section.settings.feature-collection_three != blank -%}
+         
     <p id="text3" class="feature-collection-text" style="display: none;">
-      {{ section.settings.feature-collection_three | replace: 'p>', 'span>' }}
+      Looking for other coffee equipment? HERE you can find a wider selection of coffee tools & utensils.
     </p>
-  {%- endif -%}
 
-  {%- if section.settings.feature-collection_four != blank -%}
     <p id="text4" class="feature-collection-text" style="display: none;">
-      {{ section.settings.feature-collection_four | replace: 'p>', 'span>' }}
+      Looking for a Coffee Subscription for yourself? Check out our regular Coffee Subscriptions HERE.
     </p>
-  {%- endif -%}
 
-  {%- if section.settings.feature-collection_five != blank -%}
     <p id="text5" class="feature-collection-text" style="display: none;">
-      {{ section.settings.feature-collection_five | replace: 'p>', 'span>' }}
+      There is even more Merch available in our regular Merch offering. Check it out HERE
     </p>
-  {%- endif -%}
+
+  
  
 
 </section>
 
-<!-- JavaScript for toggling visibility -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var buttons = document.querySelectorAll('.toggleButton');
 
-    buttons.forEach(function(button) {
-      button.addEventListener('click', function() {
-        // Hide all text blocks first
-        document.querySelectorAll('.feature-collection-text').forEach(function(text) {
-          text.style.display = 'none';
-        });
-        
-        // Show the targeted text block
-        var targetId = this.getAttribute('data-target');
-        var targetText = document.getElementById(targetId);
-        if (targetText) {
-          targetText.style.display = 'block';
-        }
-      });
-    });
-  });
-</script>
 
 
 <script>
@@ -498,6 +480,44 @@
       // Add the 'active-button' class to the clicked button
       clickedButton.classList.add('active-button');
   }
+</script>
+
+<!-- JavaScript for toggling visibility -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var urlPath = window.location.pathname;
+  var isGerman = urlPath.includes('/de');
+  
+  // Hide or show language-specific texts based on the URL
+  document.querySelectorAll('.en-text').forEach(function(enText) {
+    enText.style.display = isGerman ? 'none' : 'block';
+  });
+  document.querySelectorAll('.de-text').forEach(function(deText) {
+    deText.style.display = isGerman ? 'block' : 'none';
+  });
+
+  // Existing button functionality for showing/hiding feature-collection-text blocks
+  var buttons = document.querySelectorAll('.toggleButton');
+  buttons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      // Hide all text blocks first
+      document.querySelectorAll('.feature-collection-text').forEach(function(text) {
+        text.style.display = 'none';
+      });
+      
+      // Show the targeted text block
+      var targetId = this.getAttribute('data-target');
+      var targetText = document.getElementById(targetId);
+      if (targetText) {
+        targetText.style.display = 'block';
+        // Ensure only the appropriate language text is shown within the block
+        targetText.querySelector('.en-text').style.display = isGerman ? 'none' : 'block';
+        targetText.querySelector('.de-text').style.display = isGerman ? 'block' : 'none';
+      }
+    });
+  });
+});
+
 </script>
 
 
