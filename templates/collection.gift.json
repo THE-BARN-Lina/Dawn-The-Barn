@@ -93,7 +93,7 @@
         "text_E3mfM3": {
           "type": "text",
           "settings": {
-            "text": "<p>We Love Coffee... And so does a very special person in your life. Now you can give them the perfect give and make their coffee-loving heart sing.\u2028\u2028<\/p><p>Browse the curated selection of perfect coffee gifts and go down in history as an amazing gift giver!<\/p>"
+            "text": "<p>In search of the best Coffee Gifts? Look now further!<\/p><p>Browse our curated selection of amazing coffee gifts and go down in history as an amazing gift giver!<\/p>"
           }
         },
         "text_MFPFFe": {
@@ -111,7 +111,7 @@
       "custom_css": [
         "h1 {font-family: \"Chalet Comprime\";}",
         ".rich-text__blocks {max-width: 80rem;}",
-        "@media screen and (max-width: 340px) {.rich-text {display: none; }}"
+        "@media screen and (max-width: 400px) {.rich-text {display: none; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
