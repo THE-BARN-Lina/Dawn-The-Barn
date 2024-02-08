@@ -176,7 +176,7 @@
         </section>
       </button>
 
-      <button onclick="filterByTag('Gifts_Beans_and_Bundles'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Beans_and_Bundles">
+      <button id="showButton" onclick="filterByTag('Gifts_Beans_and_Bundles'); updateActiveButton(this);" class="filter-button toggleButton" data-tag="Gifts_Beans_and_Bundles" data-target="text1">
         <section class="filter-container-img-text">
             {%- if section.settings.image_1 != blank -%}
               <img
@@ -199,7 +199,7 @@
         </section>
       </button>
 
-      <button onclick="filterByTag('Gifts_Coffee_Voucher'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Coffee_Voucher">
+      <button onclick="filterByTag('Gifts_Coffee_Voucher'); updateActiveButton(this);" class="filter-button toggleButton" data-tag="Gifts_Coffee_Voucher"data-target="text2" >
         <section class="filter-container-img-text">
             {%- if section.settings.image_2 != blank -%}
               <img
@@ -222,7 +222,7 @@
         </section>
       </button>
             
-      <button onclick="filterByTag('Gifts_Equipment'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Equipment">
+      <button onclick="filterByTag('Gifts_Equipment'); updateActiveButton(this);" class="filter-button toggleButton" data-tag="Gifts_Equipment" data-target="text3">
         <section class="filter-container-img-text">
             {%- if section.settings.image_3 != blank -%}
               <img
@@ -245,7 +245,7 @@
         </section>
       </button>
     
-      <button onclick="filterByTag('Gifts_Subscription'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Subscription">
+      <button onclick="filterByTag('Gifts_Subscription'); updateActiveButton(this);" class="filter-button toggleButton" data-tag="Gifts_Subscription" data-target="text4">
         <section class="filter-container-img-text">
             {%- if section.settings.image_4 != blank -%}
               <img
@@ -269,7 +269,7 @@
         </section>
       </button>
 
-      <button onclick="filterByTag('Gifts_Merch'); updateActiveButton(this);" class="filter-button" data-tag="Gifts_Merch">
+      <button onclick="filterByTag('Gifts_Merch'); updateActiveButton(this);" class="filter-button toggleButton" data-tag="Gifts_Merch" data-target="text5">
         <section class="filter-container-img-text">
             {%- if section.settings.image_5 != blank -%}
               <img
@@ -297,7 +297,7 @@
   </div>
 </div>
 
-<div class="section-{{ section.id }}-padding main-container-espresso" style="margin-bottom:5rem;">
+<div class="section-{{ section.id }}-padding main-container-espresso">
   {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
   {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
     <facet-filters-form class="facets facets-vertical-sort  small-hide no-js-hidden">
@@ -411,6 +411,46 @@
   </div>
 </div>
 
+<section class="feature-collection-container">
+  <h2>Featured Collection</h2>
+ 
+  {%- if section.settings.feature-collection_one != blank -%}
+    <p id="text1" class="feature-collection-text" style="display: none;">
+      {{ section.settings.feature-collection_one | replace: 'p>', 'span>' }}
+    </p>
+  {%- endif -%}
+
+  {%- if section.settings.feature-collection_two != blank -%}
+    <p id="text2" class="feature-collection-text" style="display: none;">
+      {{ section.settings.feature-collection_two | replace: 'p>', 'span>' }}
+    </p>
+  {%- endif -%}
+ 
+
+</section>
+
+<!-- JavaScript for toggling visibility -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var buttons = document.querySelectorAll('.toggleButton');
+
+    buttons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        // Hide all text blocks first
+        document.querySelectorAll('.feature-collection-text').forEach(function(text) {
+          text.style.display = 'none';
+        });
+        
+        // Show the targeted text block
+        var targetId = this.getAttribute('data-target');
+        var targetText = document.getElementById(targetId);
+        if (targetText) {
+          targetText.style.display = 'block';
+        }
+      });
+    });
+  });
+</script>
 
 
 <script>
@@ -428,18 +468,19 @@
       });}
       
 </script>
+
 <script>
-function updateActiveButton(clickedButton) {
-    // Remove the 'active-button' class from all filter buttons
-    document.querySelectorAll('.filter-button').forEach(button => {
-        button.classList.remove('active-button');
-    });
 
-    // Add the 'active-button' class to the clicked button
-    clickedButton.classList.add('active-button');
-}
+  function updateActiveButton(clickedButton) {
+      // Remove the 'active-button' class from all filter buttons
+      document.querySelectorAll('.filter-button').forEach(button => {
+          button.classList.remove('active-button');
+      });
+
+      // Add the 'active-button' class to the clicked button
+      clickedButton.classList.add('active-button');
+  }
 </script>
-
 
 
 
