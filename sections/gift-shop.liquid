@@ -425,6 +425,24 @@
       {{ section.settings.feature-collection_two | replace: 'p>', 'span>' }}
     </p>
   {%- endif -%}
+
+  {%- if section.settings.feature-collection_three != blank -%}
+    <p id="text3" class="feature-collection-text" style="display: none;">
+      {{ section.settings.feature-collection_three | replace: 'p>', 'span>' }}
+    </p>
+  {%- endif -%}
+
+  {%- if section.settings.feature-collection_four != blank -%}
+    <p id="text4" class="feature-collection-text" style="display: none;">
+      {{ section.settings.feature-collection_four | replace: 'p>', 'span>' }}
+    </p>
+  {%- endif -%}
+
+  {%- if section.settings.feature-collection_five != blank -%}
+    <p id="text5" class="feature-collection-text" style="display: none;">
+      {{ section.settings.feature-collection_five | replace: 'p>', 'span>' }}
+    </p>
+  {%- endif -%}
  
 
 </section>
