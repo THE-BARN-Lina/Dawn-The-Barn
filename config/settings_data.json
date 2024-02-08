@@ -247,6 +247,13 @@
               "heading": "LEGAL",
               "subtext": "<h5><a href=\"\/policies\/legal-notice\" title=\"Legal Notice\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h5>"
             }
+          },
+          "text_mtMwE4": {
+            "type": "text",
+            "settings": {
+              "heading": "GIFTS",
+              "subtext": "<p><a href=\"\/collections\/coffee-gifts\" title=\"Coffee Gifts\"><strong>GIFT SHOP<br\/><br\/><\/strong><\/a><\/p>"
+            }
           }
         },
         "block_order": [
@@ -257,7 +264,8 @@
           "54146417-e198-4a25-a221-4be456299d47",
           "3b9c4772-8f19-4d4c-9fca-70c19c452223",
           "780a470e-2fa4-4e1a-9954-6422d2b44db5",
-          "ae726a0a-e0a3-4e61-a76e-66d8d817def1"
+          "ae726a0a-e0a3-4e61-a76e-66d8d817def1",
+          "text_mtMwE4"
         ],
         "custom_css": [
           "h5 {font-size: 14px;}",
