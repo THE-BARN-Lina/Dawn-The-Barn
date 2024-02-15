@@ -22,6 +22,8 @@
 .section-{{ section.id }}-padding {
   padding-top:0px;
   padding-bottom: 0px;
+  margin-right:4rem;
+  margin-left:4rem;
 }
 .xmas-title{
   display: flex;
@@ -31,11 +33,10 @@
   margin-bottom: 0px;
 }
 .scroll-wrapper {
-  overflow: hidden; /* Hide any horizontal overflow */
-  padding:1rem;
-  margin-left:1rem;
+  overflow: hidden;
+  margin-right:4rem;
+  margin-left:4rem;
 }
-
 
 .filter-buttons {
   display: flex;
@@ -44,7 +45,6 @@
   width: 100%;
   max-height: 100%;
   overflow-y: none;
-
 }
 .section-collection {
   display: none;
@@ -55,7 +55,6 @@
 .grid-border-box{
   border-bottom:none;
 }
-
 .filter-button-abo {
   margin-left: 1rem;
   margin-right: 1.5rem;
@@ -71,7 +70,6 @@
   margin-left: 0px;
 }
 .filter-image-text-container p{
- 
   cursor:pointer;
 }
 
@@ -82,22 +80,9 @@
   overflow-x: auto; /* Enable horizontal scrolling */
   background-color:none;
 }
+
 .scroll-container::-webkit-scrollbar {
   display: none;
-}
-@media (max-width: 990px) {
-  .filter-buttons {
-    justify-content: flex-start; ´
-    padding-right:0.5rem;
-  }
-  .xmas-title{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size:24px;
-  margin-bottom: 0px;
-  margin-top:8rem;
-}
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -109,6 +94,30 @@
 .filter-buttons {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+/* small screens */
+
+@media (max-width: 990px) {
+  .filter-buttons {
+    justify-content: flex-start; ´
+    padding-right:0.5rem;
+  }
+  .xmas-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:24px;
+    margin-bottom: 0px;
+    margin-top:8rem;
+  }
+  .scroll-wrapper {
+    overflow: hidden;
+    margin-bottom:2rem;
+  }
+  .section-{{ section.id }}-padding {
+    margin-right:0.5rem;
+    margin-left:0.5rem;
+  }
 }
 
 {%- endstyle -%}
@@ -122,89 +131,75 @@
   {%- endif -%}
   <div class="scroll-container">
     <div class="filter-buttons">
-    
-    <section 
-      class="filter-image-text-container"
-      onclick="toggleSection('x-mas-boxi')"
-      data-section="x-mas-boxi"
-      tabindex="0"
-      >
-      {%- if section.settings.XMAS_BUNDLES != blank -%}
-        <p>
-          {{ section.settings.XMAS_BUNDLES | escape }}
-        </p>
-      {%- endif -%}
-    </section>
+          
+        <section 
+          class="filter-image-text-container"
+          onclick="toggleSection('x-mas-equip')"
+          data-section="x-mas-equip"
+          tabindex="0"
+          >
+          {%- if section.settings.XMAS_EQUIPMENT != blank -%}
+            <p>
+              {{ section.settings.XMAS_EQUIPMENT | escape }}
+            </p>
+          {%- endif -%}
+        </section>
 
-    <section 
-      class="filter-image-text-container"
-      onclick="toggleSection('x-mas-essent')"
-      data-section="x-mas-essent"
-      tabindex="0"
-      >
-      {%- if section.settings.XMAS_ESSENTIALS != blank -%}
-        <p>
-          {{ section.settings.XMAS_ESSENTIALS | escape }}
-        </p>
-      {%- endif -%}
-    </section>
+        <section 
+          class="filter-image-text-container"
+          onclick="toggleSection('x-mas-boxi')"
+          data-section="x-mas-boxi"
+          tabindex="0"
+          >
+          {%- if section.settings.XMAS_BUNDLES != blank -%}
+            <p>
+              {{ section.settings.XMAS_BUNDLES | escape }}
+            </p>
+          {%- endif -%}
+        </section>
 
-    <section 
-      class="filter-image-text-container"
-      onclick="toggleSection('x-mas-bookie')"
-      data-section="x-mas-bookie"
-      tabindex="0"
-      >
-      {%- if section.settings.XMAS_BOOKS != blank -%}
-        <p>
-          {{ section.settings.XMAS_BOOKS | escape }}
-        </p>
-      {%- endif -%}
-    </section>
+        <section 
+          class="filter-image-text-container"
+          onclick="toggleSection('x-mas-essent')"
+          data-section="x-mas-essent"
+          tabindex="0"
+          >
+          {%- if section.settings.XMAS_ESSENTIALS != blank -%}
+            <p>
+              {{ section.settings.XMAS_ESSENTIALS | escape }}
+            </p>
+          {%- endif -%}
+        </section>
 
-    <section 
-      class="filter-image-text-container"
-      onclick="toggleSection('x-mas-fellowi')"
-      data-section="x-mas-fellowi"
-      tabindex="0"
-      >
-      {%- if section.settings.XMAS_FELLOW != blank -%}
-        <p>
-          {{ section.settings.XMAS_FELLOW | escape }}
-        </p>
-      {%- endif -%}
-    </section>
+        <section 
+          class="filter-image-text-container"
+          onclick="toggleSection('x-mas-fellowi')"
+          data-section="x-mas-fellowi"
+          tabindex="0"
+          >
+          {%- if section.settings.XMAS_FELLOW != blank -%}
+            <p>
+              {{ section.settings.XMAS_FELLOW | escape }}
+            </p>
+          {%- endif -%}
+        </section>
 
-    <section 
-      class="filter-image-text-container"
-      onclick="toggleSection('x-mas-equip')"
-      data-section="x-mas-equip"
-      tabindex="0"
-      >
-      {%- if section.settings.XMAS_EQUIPMENT != blank -%}
-        <p>
-          {{ section.settings.XMAS_EQUIPMENT | escape }}
-        </p>
-      {%- endif -%}
-    </section>
-
-    <section 
-        class="filter-image-text-container"   
-        onclick="toggleSection('x-mas-sub')"
-        data-section="x-mas-sub"
-        tabindex="0"
-        >
-        {%- if section.settings.XMAS_SUBSCRIPTIONS != blank -%}
-          <p>
-            {{ section.settings.XMAS_SUBSCRIPTIONS | escape }}
-          </p>
-        {%- endif -%}
-    </section>
+        <section 
+            class="filter-image-text-container"   
+            onclick="toggleSection('x-mas-sub')"
+            data-section="x-mas-sub"
+            tabindex="0"
+            >
+            {%- if section.settings.XMAS_SUBSCRIPTIONS != blank -%}
+              <p>
+                {{ section.settings.XMAS_SUBSCRIPTIONS | escape }}
+              </p>
+            {%- endif -%}
+        </section>
         
     </div>
   </div>
 </div>
-
 
 {%- liquid
   assign products_to_display = section.settings.collection.all_products_count
@@ -599,10 +594,10 @@
 
 <script>
   window.addEventListener('DOMContentLoaded', (event) => {
-    const defaultSection = document.getElementById('x-mas-essent');
+    const defaultSection = document.getElementById('x-mas-equip');
     defaultSection.classList.add('visible');
 
-    const defaultButton = document.querySelector('.filter-image-text-container[data-section="x-mas-essent"]');
+    const defaultButton = document.querySelector('.filter-image-text-container[data-section="x-mas-equip"]');
     defaultButton.classList.add('under-line-white');
 
     const buttons = document.querySelectorAll('.filter-image-text-container');
