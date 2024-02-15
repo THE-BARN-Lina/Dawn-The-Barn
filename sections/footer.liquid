@@ -44,6 +44,12 @@
 
   }
 
+  .slogan-footer{
+    font-family:'Chalet Comprime';
+    letter-spacing:0.2rem;
+    font-size:32px;
+  }
+
   .banner-slogan-footer h2{
     color:black;
     font-weight: 400;
@@ -69,8 +75,10 @@
   }
 {%- endstyle -%}
 <section class="banner-slogan-footer">
-<h2 class="slogan-footer">BREW · SIP · REMEMBER</h2>
+  <h2 class="slogan-footer">BREW · SIP · REMEMBER</h2>
 </section>
+
+
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
