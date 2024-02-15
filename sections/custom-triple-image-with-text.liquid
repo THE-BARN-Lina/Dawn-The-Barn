@@ -18,6 +18,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal columns */
     gap: 15px; /* Adjust the gap between items */
     padding:0;
+    margin-right:4rem;
+    margin-left:4rem;
 }
 
 .grid-item {
@@ -90,6 +92,8 @@
 .ancor-a:hover{
     text-decoration:underline;
 }
+
+/* Small Screen */
 @media screen and (max-width: 750px) {
     .half-width-left {
         grid-column: span 4; /* Span 1 column (half width) */
@@ -114,7 +118,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal columns */
         gap: 15px; /* Adjust the gap between items */
-        padding:0;
+        margin-right:2rem;
+        margin-left:2rem;
     }
   .image-direct-container-aboutus {
     height: 400px; /* Adjust the height of the container as needed */
