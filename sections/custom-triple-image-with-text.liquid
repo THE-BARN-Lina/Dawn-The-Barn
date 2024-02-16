@@ -26,26 +26,20 @@
     font-size:18px;
     border-bottom:1px solid grey;
 }
-
-
 .grid-item {
     overflow: hidden; /* Ensure child elements don't overflow */
 }
-
 .full-width {
     grid-column: span 4; /* Span 2 columns (full width) */
 }
-
 .half-width-left {
     grid-column: span 2; /* Span 1 column (half width) */
     padding-right:0;
-
 }
 .half-width-right {
     grid-column: span 2; /* Span 1 column (half width) */
     padding-left:0;
 }
-
 .image-with-text{
     position:relative;
     overflow:hidden;
@@ -56,29 +50,24 @@
     bottom: 0px;
     padding: 10px; /* Adjust padding as needed */
     background-color: #121212;
-
 }
-  .button-text-container-aboutus h2  {
+.button-text-container-aboutus h2  {
     margin:0rem;
     padding:0rem;
   }
-  .button-text-container-aboutus p  {
+.button-text-container-aboutus p  {
     margin:0rem;
     padding:0rem;
-  }
-
-  .button-aboutus-section{
+}
+.button-aboutus-section{
     height: 2rem;
     width:4rem;
     padding:1rem;
-
     border-radius:4px;
-  
 }
-.button:after{
+.button:after {
     box-shadow:none;
 }
-
 .image-direct-container-aboutus {
     height: 600px; /* Adjust the height of the container as needed */
     display: flex;
@@ -92,11 +81,37 @@
     height: 100%;
     object-fit: cover;
 }
-.ancor-a{
-    text-decoration: underline !important;
-
+.title_aboutus_container{
+    display:flex;
+    flex-direction:column;
+    background-color:none;
+    align-items:center;
+    justify-content:center;
+    width:auto;
+    margin-left:4rem;
+    margin-right:4rem;
 }
-
+.title_aboutus_container h2{
+    margin-bottom:0px;
+}
+.title_aboutus_container p {
+    margin-top:0px;
+}
+.linktoblock_aboutus_container{
+    display:flex;
+    flex-direction:column;
+    background-color:none;
+    align-items:flex-end;
+    justify-content:center;
+    width:auto;
+    margin-left:4rem;
+    margin-right:4rem;
+    padding-right:2rem;
+    margin-top:2rem;
+}
+.linktoblock_aboutus_container h2{
+   font-size:12px;
+}
 
 /* Small Screen */
 @media screen and (max-width: 750px) {
@@ -115,9 +130,10 @@
         position: absolute;
         bottom: 0%;
         right: 0px; 
-        text-align:center;  
+        text-align:center;
+        background-color:#1212127d; 
     }
-        .image-grid-custom-aboutus {
+    .image-grid-custom-aboutus {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal columns */
         gap: 15px; /* Adjust the gap between items */
@@ -127,18 +143,26 @@
     .title-image{
         font-size:16px;
         padding:1rem;
-     
     }
-  .image-direct-container-aboutus {
-    height: 400px; /* Adjust the height of the container as needed */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; /* Ensure the image remains within the container */
-    position: relative;
+    .image-direct-container-aboutus {
+        height: 400px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+    }
+    .title_aboutus_container{
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+    .linktoblock_aboutus_container{
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+
 }
 
-  }
 {%- endstyle -%}
 
 {%- liquid
@@ -153,7 +177,19 @@
 
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
 
+    <div class="title_aboutus_container">
+
+        <h2 class="">
+            {{ section.settings.title_aboutus }}
+        </h2>
+            
+        <p class="">
+            {{ section.settings.title_description_aboutus }}
+        </p>
+
+    </div>
     <section class="image-grid-custom-aboutus ">
+
 
         <div class="image-with-text full-width">
             <a href="{{ section.settings.button_link1_aboutus }}">
@@ -316,6 +352,13 @@
         </div>
 
     </section>
+    <div class="linktoblock_aboutus_container">
+
+    <h2 class="">
+        {{ section.settings.linktoblog_aboutus }}
+    </h2>
+        
+</div>
     
 </div>
     
@@ -326,6 +369,25 @@
   "name": "Custom Section - About Us",
   "class": "section",
   "settings": [
+
+  {
+        "type": "inline_richtext",
+        "id": "title_aboutus",
+        "default": "What's New",
+        "label": "Title"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "linktoblog_aboutus",
+        "default": "Latest happenings of The Barn",
+        "label": "Title"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "title_description_aboutus",
+        "default": "Check our blog",
+        "label": "Description"
+    },
     {
         "type": "image_picker",
         "id": "image1_aboutus",
