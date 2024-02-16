@@ -23,9 +23,9 @@
     height:80vh;
 }
 .title-image{
-   
-
+    font-size:18px;
 }
+
 
 .grid-item {
     overflow: hidden; /* Ensure child elements don't overflow */
@@ -43,7 +43,6 @@
 .half-width-right {
     grid-column: span 2; /* Span 1 column (half width) */
     padding-left:0;
-
 }
 
 .image-with-text{
@@ -53,9 +52,10 @@
 }
 .button-text-container-aboutus {
     position: absolute;
-    bottom: 0;
-    padding: 20px; /* Adjust padding as needed */
-    background-color: none;
+    bottom: 0px;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #121212;
+
 }
   .button-text-container-aboutus h2  {
     margin:0rem;
@@ -113,10 +113,8 @@
     }
     .button-text-container-aboutus {
         position: absolute;
-        bottom: 7%;
-        left: 50%; /* Position at 50% from the left */
-        transform: translateX(-50%);    /* Adjust to center horizontally */
-        padding: 20px; /* Adjust padding as needed */
+        bottom: 0%;
+        right: 0px; 
         text-align:center;  
     }
         .image-grid-custom-aboutus {
@@ -125,6 +123,11 @@
         gap: 15px; /* Adjust the gap between items */
         margin-right:2rem;
         margin-left:2rem;
+    }
+    .title-image{
+        font-size:16px;
+        padding:1rem;
+     
     }
   .image-direct-container-aboutus {
     height: 400px; /* Adjust the height of the container as needed */
@@ -199,19 +202,7 @@
                             {{ section.settings.text1_aboutus }}
                         </p>
                                 
-                        {%- if section.settings.button_label1_aboutus != blank -%}
-                            <a
-                                {% if section.settings.button_link1_aboutus == blank %}
-                                role="link" aria-disabled="true"
-                                {% else %}
-                                href="{{ section.settings.button_link1_aboutus }}"
-                                {% endif %}
-                                class="button{% if section.settings.button_style_secondary_aboutus %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
-                                {{ section.shopify_attributes }}
-                            >
-                                {{ section.settings.button_label1_aboutus | escape }}
-                            </a>
-                        {%- endif -%}
+                  
                     </section>
 
                 </a>
@@ -266,19 +257,7 @@
                             {{ section.settings.text2_aboutus }}
                         </p>
                                 
-                        {%- if section.settings.button_label2_aboutus != blank -%}
-                            <a
-                                {% if section.settings.button_link2_aboutus == blank %}
-                                role="link" aria-disabled="true"
-                                {% else %}
-                                href="{{ section.settings.button_link2_aboutus }}"
-                                {% endif %}
-                                class="button{% if section.settings.button_style_secondary_aboutus2 %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
-                                {{ section.shopify_attributes }}
-                            >
-                                {{ section.settings.button_label2_aboutus | escape }}
-                            </a>
-                        {%- endif -%}
+                  
                     </section>
                 </a>
     
@@ -330,19 +309,7 @@
                             {{ section.settings.text3_aboutus }}
                         </p>
                                 
-                        {%- if section.settings.button_label3_aboutus != blank -%}
-                            <a
-                                {% if section.settings.button_link3_aboutus == blank %}
-                                role="link" aria-disabled="true"
-                                {% else %}
-                                href="{{ section.settings.button_link1_aboutus }}"
-                                {% endif %}
-                                class="button{% if section.settings.button_style_secondary_aboutus3 %} button--secondary{% else %} button--primary{% endif %} button-aboutus-section"
-                                {{ section.shopify_attributes }}
-                            >
-                                {{ section.settings.button_label3_aboutus | escape }}
-                            </a>
-                        {%- endif -%}
+                  
                     </section>
                 </a>
     
