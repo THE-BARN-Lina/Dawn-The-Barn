@@ -117,9 +117,9 @@
     "23138f82-deb5-4edd-bcdc-8062abfac1eb": {
       "type": "custom-triple-image-with-text",
       "settings": {
-        "title_aboutus": "The Barn",
+        "title_aboutus": "News & Brews",
         "linktoblog_aboutus": "<a href=\"\/blogs\/the-barn-blog\" title=\"THE BARN Specialty Coffee Blog\">Check Our Block<\/a>",
-        "title_description_aboutus": "News",
+        "title_description_aboutus": "Our Latest Roasts and Reports",
         "image1_aboutus": "shopify:\/\/shop_images\/IMG_6147_2_1f15b44f-1e38-469c-b887-c1cad2a21fdc.jpg",
         "heading1_aboutus": "Approaching Sustainability",
         "text1_aboutus": "",
