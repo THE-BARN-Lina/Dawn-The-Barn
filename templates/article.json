@@ -45,84 +45,10 @@
       "disabled": true,
       "settings": {
       }
-    },
-    "featured_product_LCbCYA": {
-      "type": "featured-product",
-      "blocks": {
-        "text_7qNYnd": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_Fyq79J": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "text_Yg3pci": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "price_LKJCcN": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker_Jey9zA": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector_NqVyXN": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons_LiQh7h": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "share_KGLHAW": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_7qNYnd",
-        "title_Fyq79J",
-        "text_Yg3pci",
-        "price_LKJCcN",
-        "variant_picker_Jey9zA",
-        "quantity_selector_NqVyXN",
-        "buy_buttons_LiQh7h",
-        "share_KGLHAW"
-      ],
-      "settings": {
-        "product": "low-caffeine-coffee",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "1657896229556540f3",
-    "featured_product_LCbCYA"
+    "1657896229556540f3"
   ]
 }
