@@ -31,7 +31,10 @@
     overflow: hidden; /* Ensure child elements don't overflow */
 }
 .full-width {
-    grid-column: span 4; /* Span 2 columns (full width) */
+    grid-column: span 3; /* Span 2 columns (full width) */
+}
+.litle-width {
+    grid-column: span 1; /* Span 2 columns (full width) */
 }
 .half-width-left {
     grid-column: span 2; /* Span 1 column (half width) */
@@ -195,8 +198,6 @@
             {{ section.settings.title_description_aboutus }}
         </p>
         
-      
-    
 
     </div>
     <section class="image-grid-custom-aboutus ">
@@ -259,6 +260,66 @@
                   
                     </section>
 
+                </a>
+    
+        </div>
+
+
+
+        <div class="image-with-text litle-width">
+            <a href="{{ section.settings.button_link5_aboutus }}">
+
+                <div
+                class="global-media-settings image-direct-container-aboutus 
+                {% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
+            
+                >
+                {%- if section.settings.image2_aboutus != blank -%}
+                    {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+                    {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                {%- endcapture -%}
+                    {%- else -%}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                    {%- endif -%}
+                    {{
+                    section.settings.image5_aboutus
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+                </div>
+
+                </a>
+                <a 
+                    href="{{ section.settings.button_link5_aboutus }}"
+                    class="ancor-a"
+                    >
+
+                    <section class="page-width button-text-container-aboutus">
+            
+                        <h2 class="title-image">
+                            {{ section.settings.heading5_aboutus }}
+                            <svg width="25" height="25" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.75 4.5a.75.75 0 0 0 0 1.5h1.19l-2.72 2.72a.75.75 0 1 0 1.06 1.06l2.72-2.72v1.19a.75.75 0 0 0 1.5 0v-3a.75.75 0 0 0-.75-.75h-3Z" fill="white"></path>
+                            <path d="M15 11.25a.75.75 0 0 0-1.5 0v1c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5c0-.69.56-1.25 1.25-1.25h1a.75.75 0 0 0 0-1.5h-1a2.75 2.75 0 0 0-2.75 2.75v4.5a2.75 2.75 0 0 0 2.75 2.75h4.5a2.75 2.75 0 0 0 2.75-2.75v-1Z" fill="white"></path>
+                            </svg>
+                        </h2>
+                            
+                        <p class="">
+                            {{ section.settings.text5_aboutus }}
+                        </p>
+                                
+                  
+                    </section>
                 </a>
     
         </div>
@@ -378,13 +439,14 @@
         </div>
 
     </section>
+
     <div class="linktoblock_aboutus_container">
 
-    <h2 class="">
-        {{ section.settings.linktoblog_aboutus }}
-    </h2>
+        <h2 class="">
+            {{ section.settings.linktoblog_aboutus }}
+        </h2>
         
-</div>
+    </div>
     
 </div>
     
@@ -448,6 +510,51 @@
         "default": false,
         "label": "button style first image"
     },
+
+
+
+
+
+    {
+        "type": "image_picker",
+        "id": "image5_aboutus",
+        "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "heading5_aboutus",
+        "default": "Image with text",
+        "label": "heading first image"
+    },
+    {
+        "type": "inline_richtext",
+        "id": "text5_aboutus",
+        "default": "Image with text",
+        "label": "text first image"
+    },
+    {
+        "type": "text",
+        "id": "button_label5_aboutus",
+        "default": "Button label",
+        "label": "button title first image"
+    },
+    {
+        "type": "url",
+        "id": "button_link5_aboutus",
+        "label": "button link first image"
+    },
+    {
+        "type": "checkbox",
+        "id": "button_style_secondary_aboutus5",
+        "default": false,
+        "label": "button style first image"
+    },
+
+
+
+
+
+
     
     {
         "type": "image_picker",
