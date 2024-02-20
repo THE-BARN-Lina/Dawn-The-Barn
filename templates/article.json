@@ -35,7 +35,7 @@
         "09e3b91c-548d-4e0d-8407-66cce56af3e5"
       ],
       "custom_css": [
-
+        "h1 {font-family: \"Chalet Comprime\"; font-size: 52px;}"
       ],
       "settings": {
       }
