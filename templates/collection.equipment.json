@@ -57,7 +57,7 @@
         "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
-        "view_all_style": "outline",
+        "view_all_style": "link",
         "view_all_label": "View All",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
