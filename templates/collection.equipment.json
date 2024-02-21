@@ -23,12 +23,11 @@
         "b901350b-cae8-4e08-939e-b2abc927e4e1"
       ],
       "custom_css": [
-        ".rich-text {padding-left: 0;}",
-        ".rich-text__wrapper {padding-left: 0;}"
+
       ],
       "settings": {
         "desktop_content_position": "left",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 12,
