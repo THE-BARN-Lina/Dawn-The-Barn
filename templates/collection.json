@@ -1,6 +1,33 @@
 {
   "wrapper": "div#div_id.page-width",
   "sections": {
+    "rich_text_dQKe7t": {
+      "type": "rich-text",
+      "blocks": {
+        "text_MaViXp": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">Equipment  <\/a>&gt; {{ collection.title }}<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_MaViXp"
+      ],
+      "custom_css": [
+        ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text h6 {font-weight: 100;}",
+        ".rich-text__wrapper {padding-left: 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
@@ -87,6 +114,7 @@
     }
   },
   "order": [
+    "rich_text_dQKe7t",
     "banner",
     "73703f50-8557-4a1a-a963-0d73cf690863",
     "094f8d39-c1ca-4446-b6c8-20efbda4341e"
