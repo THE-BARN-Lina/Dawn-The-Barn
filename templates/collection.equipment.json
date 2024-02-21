@@ -193,8 +193,8 @@
         "padding_bottom": 36
       }
     },
-    "d609f03a-50cf-4cdd-851d-4a69786f42ba": {
-      "type": "feature-collection-custom",
+    "feature_collection_custom_equipment_VyLGTd": {
+      "type": "feature-collection-custom-equipment",
       "settings": {
         "title": "COFFEE SCALES",
         "heading_size": "h1",
@@ -218,7 +218,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -279,7 +279,7 @@
     "feature_collection_custom_equipment_y6wzGr",
     "feature_collection_custom_equipment_HaLHfm",
     "feature_collection_custom_equipment_c77UJc",
-    "d609f03a-50cf-4cdd-851d-4a69786f42ba",
+    "feature_collection_custom_equipment_VyLGTd",
     "166185182978c04b4e"
   ]
 }
