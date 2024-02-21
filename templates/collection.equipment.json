@@ -35,21 +35,6 @@
         "padding_bottom": 0
       }
     },
-    "9df8aec3-9e35-42c0-adf3-3244db596cd7": {
-      "type": "equipment",
-      "disabled": true,
-      "custom_css": [
-        "p {padding-top: 8px; padding-bottom: 8px; padding-left: 16px; padding-right: 16px;}"
-      ],
-      "settings": {
-        "button_all_content": "<p><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">All<\/a><\/p>",
-        "button_grinder_content": "<p><a href=\"\/collections\/coffee-grinders\" title=\"Coffee Grinders | THE BARN Coffee Roasters\">Grinders<\/a><\/p>",
-        "button_filters_content": "<p><a href=\"\/collections\/coffee-filter-equipment\" title=\"Coffee Filter Equipment | THE BARN Coffee Roasters\">Filter<\/a><\/p>",
-        "button_scales_content": "<p><a href=\"\/collections\/coffee-scales\" title=\"Coffee Scales  | THE BARN Coffee Roasters\">Scales<\/a><\/p>",
-        "button_mugs_content": "<p><a href=\"\/collections\/coffee-mugs\" title=\"Coffee Mugs | THE BARN Coffee Roasters\">Mugs<\/a><\/p>",
-        "button_aeropress_content": "<p><a href=\"\/collections\/aeropress-equipment\" title=\"Aeropress Equipment | THE BARN Coffee Roasters\">Aeropress<\/a><\/p>"
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -59,79 +44,10 @@
         "color_scheme": "background-2"
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "disabled": true,
-      "settings": {
-        "products_per_page": 12,
-        "columns_desktop": 3,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": true,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "quick_add_button_color": "#804d15",
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 32,
-        "padding_bottom": 36
-      }
-    },
-    "166185182978c04b4e": {
-      "type": "collection-list",
-      "blocks": {
-        "1661851829e57354d7-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "instant-coffee"
-          }
-        },
-        "1661851829e57354d7-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-capsules"
-          }
-        },
-        "1661851829e57354d7-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-equipment"
-          }
-        },
-        "3fda16a3-fa25-493a-b088-8cd83bb91e7e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "merchandise"
-          }
-        }
-      },
-      "block_order": [
-        "1661851829e57354d7-0",
-        "1661851829e57354d7-1",
-        "1661851829e57354d7-2",
-        "3fda16a3-fa25-493a-b088-8cd83bb91e7e"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "DISCOVER MORE",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 48,
-        "padding_bottom": 36
-      }
-    },
     "1a6184bd-aa13-4355-9b70-87160239c819": {
       "type": "feature-collection-custom",
       "custom_css": [
-        ".collection__title {padding: 0px;}"
+
       ],
       "settings": {
         "title": "AEROPRESS",
@@ -292,18 +208,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "166185182978c04b4e": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_kiBcD3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-beans"
+          }
+        },
+        "3fda16a3-fa25-493a-b088-8cd83bb91e7e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-subscription"
+          }
+        },
+        "1661851829e57354d7-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "instant-coffee"
+          }
+        },
+        "1661851829e57354d7-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-capsules"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_kiBcD3",
+        "3fda16a3-fa25-493a-b088-8cd83bb91e7e",
+        "1661851829e57354d7-0",
+        "1661851829e57354d7-1"
+      ],
+      "settings": {
+        "title": "DISCOVER MORE",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "16618500908bb9c917",
-    "9df8aec3-9e35-42c0-adf3-3244db596cd7",
     "banner",
-    "product-grid",
-    "166185182978c04b4e",
     "1a6184bd-aa13-4355-9b70-87160239c819",
     "2cac0ea0-d9da-48a9-8055-659dcb36a671",
     "add639fc-4939-4d06-944d-b7b569b569c7",
     "ad6852aa-771e-4177-92e1-fa7f3554ce82",
-    "d609f03a-50cf-4cdd-851d-4a69786f42ba"
+    "d609f03a-50cf-4cdd-851d-4a69786f42ba",
+    "166185182978c04b4e"
   ]
 }
