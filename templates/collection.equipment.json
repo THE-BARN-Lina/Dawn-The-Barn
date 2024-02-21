@@ -218,7 +218,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
