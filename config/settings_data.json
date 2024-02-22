@@ -196,70 +196,70 @@
             "type": "text",
             "settings": {
               "heading": "SUBSCRIPTIONS",
-              "subtext": "<h5><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">All Subscriptions<br\/><\/a><a href=\"\/products\/coffee-masterpieces\" title=\"MASTERPIECE SUBSCRIPTION\">Masterpiece<br\/><\/a><a href=\"\/products\/coffee-subscription-curated\" title=\"CURATED\">Curated<br\/><\/a><a href=\"\/products\/coffee-espresso-of-the-month\" title=\"ESPRESSO OF THE MONTH\">Espresso Of The Month<br\/><\/a><a href=\"\/products\/low-caffeine-coffee\" title=\"LOW CAF\">Low Caf<br\/><\/a><a href=\"\/products\/house-coffee-subscription\" title=\"HOUSE\">House<br\/><\/a><a href=\"\/products\/coffee-trial-subscription\" title=\"TRIAL SUBSCRIPTION\">Trial Subscription<\/a><\/h5><h5><\/h5>"
+              "subtext": "<h4><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">All Subscriptions<br\/><\/a><a href=\"\/products\/coffee-masterpieces\" title=\"MASTERPIECE SUBSCRIPTION\">Masterpiece<br\/><\/a><a href=\"\/products\/coffee-subscription-curated\" title=\"CURATED\">Curated<br\/><\/a><a href=\"\/products\/coffee-espresso-of-the-month\" title=\"ESPRESSO OF THE MONTH\">Espresso Of The Month<br\/><\/a><a href=\"\/products\/low-caffeine-coffee\" title=\"LOW CAF\">Low Caf<br\/><\/a><a href=\"\/products\/house-coffee-subscription\" title=\"HOUSE\">House<br\/><\/a><a href=\"\/products\/coffee-trial-subscription\" title=\"TRIAL SUBSCRIPTION\">Trial Subscription<\/a><\/h4><h5><\/h5>"
             }
           },
           "c75a1e9a-7872-4221-bedc-9fb59a8601e6": {
             "type": "text",
             "settings": {
               "heading": "SHOP",
-              "subtext": "<h5><a href=\"\/collections\/beans\" title=\"COFFEE BEANS\">Beans<\/a><br\/><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<br\/><\/a><a href=\"\/products\/specialty-coffee-capsules\" title=\"COFFEE CAPSULES\">Capsules<\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment\u2028<br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a>\u2028<br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h5>"
+              "subtext": "<h4><a href=\"\/collections\/beans\" title=\"COFFEE BEANS\">Beans<\/a><br\/><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<br\/><\/a><a href=\"\/products\/specialty-coffee-capsules\" title=\"COFFEE CAPSULES\">Capsules<\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment\u2028<br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a>\u2028<br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h4>"
             }
           },
           "705afaa5-785a-40f3-9e83-5c853fe5b6aa": {
             "type": "text",
             "settings": {
               "heading": "SUSTAINABILITY",
-              "subtext": "<h5><a href=\"\/products\/plant-a-tree\" title=\"DONATE A TREE\">Donate Trees<\/a><\/h5>"
+              "subtext": "<h4><a href=\"\/products\/plant-a-tree\" title=\"DONATE A TREE\">Donate Trees<\/a><\/h4>"
             }
           },
           "text_mtMwE4": {
             "type": "text",
             "settings": {
               "heading": "GIFTS",
-              "subtext": "<h5><a href=\"\/collections\/coffee-gifts\" title=\"Coffee Gifts\">Gift Shop<\/a><\/h5>"
+              "subtext": "<h4><a href=\"\/collections\/coffee-gifts\" title=\"Coffee Gifts\">Gift Shop<\/a><\/h4>"
             }
           },
           "3b9c4772-8f19-4d4c-9fca-70c19c452223": {
             "type": "text",
             "settings": {
               "heading": "BLOG",
-              "subtext": "<h5><a href=\"\/blogs\/the-barn-blog\" title=\"BLOG\">Articles & Education\u2028<\/a><\/h5>"
+              "subtext": "<h4><a href=\"\/blogs\/the-barn-blog\" title=\"BLOG\">Articles & Education\u2028<\/a><\/h4>"
             }
           },
           "text_L3YWUC": {
             "type": "text",
             "settings": {
               "heading": "GUIDES",
-              "subtext": "<h5><a href=\"\/pages\/brew-guides\" title=\"Brew Guides\">Brew Guides<\/a><a href=\"\/pages\/signature-drinks\" title=\"SIGNATURE DRINKS\"><br\/>Signature Drinks<\/a><\/h5>"
+              "subtext": "<h4><a href=\"\/pages\/brew-guides\" title=\"Brew Guides\">Brew Guides<\/a><a href=\"\/pages\/signature-drinks\" title=\"SIGNATURE DRINKS\"><br\/>Signature Drinks<\/a><\/h4>"
             }
           },
           "54146417-e198-4a25-a221-4be456299d47": {
             "type": "text",
             "settings": {
               "heading": "WHOLESALE",
-              "subtext": "<h5><a href=\"\/pages\/wholesale\" title=\"Wholesale\">Contact Form<\/a><br\/><\/h5>"
+              "subtext": "<h4><a href=\"\/pages\/wholesale\" title=\"Wholesale\">Contact Form<\/a><br\/><\/h4>"
             }
           },
           "33c97cbe-0f9e-4981-998f-81e7ff9b9679": {
             "type": "text",
             "settings": {
               "heading": "ABOUT",
-              "subtext": "<h5><a href=\"\/pages\/aboutus\" title=\"About Us\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team\u2028<\/a><br\/><a href=\"\/pages\/locations\" title=\"Locations\">Locations<br\/><\/a><a href=\"\/pages\/careers\" title=\"Careers\">Careers<\/a><\/h5>"
+              "subtext": "<h4><a href=\"\/pages\/aboutus\" title=\"About Us\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team\u2028<\/a><br\/><a href=\"\/pages\/locations\" title=\"Locations\">Locations<br\/><\/a><a href=\"\/pages\/careers\" title=\"Careers\">Careers<\/a><\/h4>"
             }
           },
           "780a470e-2fa4-4e1a-9954-6422d2b44db5": {
             "type": "text",
             "settings": {
               "heading": "QUICK LINKS",
-              "subtext": "<h5><a href=\"\/pages\/faq-the-barn-coffee-roasters\" title=\"Frequently Asked Questions | The Barn Coffee Roasters\">FAQ<\/a><br\/><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<br\/><\/a><a href=\"\/pages\/contact\" title=\"CONTACT\">Contact<\/a><br\/><a href=\"\/pages\/press\" title=\"Press\">Press<br\/><\/a><\/h5>"
+              "subtext": "<h4><a href=\"\/pages\/faq-the-barn-coffee-roasters\" title=\"Frequently Asked Questions | The Barn Coffee Roasters\">FAQ<\/a><br\/><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<br\/><\/a><a href=\"\/pages\/contact\" title=\"CONTACT\">Contact<\/a><br\/><a href=\"\/pages\/press\" title=\"Press\">Press<br\/><\/a><\/h4>"
             }
           },
           "ae726a0a-e0a3-4e61-a76e-66d8d817def1": {
             "type": "text",
             "settings": {
               "heading": "LEGAL",
-              "subtext": "<h5><a href=\"\/policies\/legal-notice\" title=\"Legal Notice\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h5>"
+              "subtext": "<h4><a href=\"\/policies\/legal-notice\" title=\"Legal Notice\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h4>"
             }
           }
         },
