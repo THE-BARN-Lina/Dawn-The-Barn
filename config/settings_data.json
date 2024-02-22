@@ -199,18 +199,18 @@
               "subtext": "<h5><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">All Subscriptions<\/a><\/h5>"
             }
           },
-          "text_mtMwE4": {
-            "type": "text",
-            "settings": {
-              "heading": "GIFTS",
-              "subtext": "<p><a href=\"\/collections\/coffee-gifts\" title=\"Coffee Gifts\">Gift Shop<\/a><\/p>"
-            }
-          },
           "c75a1e9a-7872-4221-bedc-9fb59a8601e6": {
             "type": "text",
             "settings": {
               "heading": "SHOP",
               "subtext": "<h5><a href=\"\/collections\/beans\" title=\"COFFEE BEANS\">Beans<\/a><br\/><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<br\/><\/a><a href=\"\/products\/specialty-coffee-capsules\" title=\"COFFEE CAPSULES\">Capsules<\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment\u2028<br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a>\u2028<br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h5>"
+            }
+          },
+          "705afaa5-785a-40f3-9e83-5c853fe5b6aa": {
+            "type": "text",
+            "settings": {
+              "heading": "SUSTAINABILITY",
+              "subtext": "<h5><a href=\"\/products\/plant-a-tree\" title=\"DONATE A TREE\">Donate Trees<\/a><\/h5>"
             }
           },
           "33c97cbe-0f9e-4981-998f-81e7ff9b9679": {
@@ -220,11 +220,11 @@
               "subtext": "<h4><a href=\"\/pages\/aboutus\" title=\"About Us\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team\u2028<\/a><br\/><a href=\"\/pages\/locations\" title=\"Locations\">Locations<br\/><\/a><a href=\"\/pages\/careers\" title=\"Careers\">Careers<\/a><\/h4>"
             }
           },
-          "705afaa5-785a-40f3-9e83-5c853fe5b6aa": {
+          "text_mtMwE4": {
             "type": "text",
             "settings": {
-              "heading": "SUSTAINABILITY",
-              "subtext": "<h5><a href=\"\/products\/plant-a-tree\" title=\"DONATE A TREE\">Donate Trees<\/a><\/h5>"
+              "heading": "GIFTS",
+              "subtext": "<p><a href=\"\/collections\/coffee-gifts\" title=\"Coffee Gifts\">Gift Shop<\/a><\/p>"
             }
           },
           "54146417-e198-4a25-a221-4be456299d47": {
@@ -238,7 +238,14 @@
             "type": "text",
             "settings": {
               "heading": "BLOG",
-              "subtext": "<h5><a href=\"\/blogs\/the-barn-blog\" title=\"BLOG\">Articles & Education\u2028<br\/><\/a><a href=\"\/pages\/brew-guides\" title=\"Brew Guides\">Brew Guides<\/a><a href=\"\/pages\/signature-drinks\" title=\"SIGNATURE DRINKS\"><br\/>Signature Drinks<\/a><\/h5>"
+              "subtext": "<h5><a href=\"\/blogs\/the-barn-blog\" title=\"BLOG\">Articles & Education\u2028<\/a><\/h5>"
+            }
+          },
+          "text_L3YWUC": {
+            "type": "text",
+            "settings": {
+              "heading": "GUIDES",
+              "subtext": "<h5><a href=\"\/pages\/brew-guides\" title=\"Brew Guides\">Brew Guides<\/a><a href=\"\/pages\/signature-drinks\" title=\"SIGNATURE DRINKS\"><br\/>Signature Drinks<\/a><\/h5>"
             }
           },
           "780a470e-2fa4-4e1a-9954-6422d2b44db5": {
@@ -258,12 +265,13 @@
         },
         "block_order": [
           "8df4c85d-d9a2-4f99-bf0e-74b5f9578dd9",
-          "text_mtMwE4",
           "c75a1e9a-7872-4221-bedc-9fb59a8601e6",
-          "33c97cbe-0f9e-4981-998f-81e7ff9b9679",
           "705afaa5-785a-40f3-9e83-5c853fe5b6aa",
+          "33c97cbe-0f9e-4981-998f-81e7ff9b9679",
+          "text_mtMwE4",
           "54146417-e198-4a25-a221-4be456299d47",
           "3b9c4772-8f19-4d4c-9fca-70c19c452223",
+          "text_L3YWUC",
           "780a470e-2fa4-4e1a-9954-6422d2b44db5",
           "ae726a0a-e0a3-4e61-a76e-66d8d817def1"
         ],
