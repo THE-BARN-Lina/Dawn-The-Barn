@@ -199,11 +199,18 @@
               "subtext": "<h4><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">All Subscriptions<br\/><\/a><a href=\"\/products\/coffee-masterpieces\" title=\"MASTERPIECE SUBSCRIPTION\">Masterpiece<br\/><\/a><a href=\"\/products\/coffee-subscription-curated\" title=\"CURATED\">Curated<br\/><\/a><a href=\"\/products\/coffee-espresso-of-the-month\" title=\"ESPRESSO OF THE MONTH\">Espresso Of The Month<br\/><\/a><a href=\"\/products\/low-caffeine-coffee\" title=\"LOW CAF\">Low Caf<br\/><\/a><a href=\"\/products\/house-coffee-subscription\" title=\"HOUSE\">House<br\/><\/a><a href=\"\/products\/coffee-trial-subscription\" title=\"TRIAL SUBSCRIPTION\">Trial Subscription<\/a><\/h4><h5><\/h5>"
             }
           },
+          "text_6R3yBY": {
+            "type": "text",
+            "settings": {
+              "heading": "COFFEE BEANS",
+              "subtext": "<h4><a href=\"\/collections\/espresso-coffee\" title=\"Espresso Coffee Beans | THE BARN Coffee Roasters\">Espresso<\/a><br\/><a href=\"\/collections\/filter-coffee\" title=\"Filter Coffee Beans | THE BARN Coffee Roasters\">Filter<\/a><br\/><a href=\"\/collections\/low-caf-coffee-beans\" title=\"Low Caf Coffee Beans\">Low Caf<\/a><br\/><a href=\"\/collections\/coffee-beans-specials\" title=\"Coffee Specials\">Specials<\/a><\/h4>"
+            }
+          },
           "c75a1e9a-7872-4221-bedc-9fb59a8601e6": {
             "type": "text",
             "settings": {
               "heading": "SHOP",
-              "subtext": "<h4><a href=\"\/collections\/beans\" title=\"COFFEE BEANS\">Coffee Beans<\/a><br\/><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<br\/><\/a><a href=\"\/products\/specialty-coffee-capsules\" title=\"COFFEE CAPSULES\">Capsules<\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment\u2028<br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a>\u2028<br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h4>"
+              "subtext": "<h4><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<br\/><\/a><a href=\"\/products\/specialty-coffee-capsules\" title=\"COFFEE CAPSULES\">Capsules<\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment\u2028<br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a>\u2028<br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h4>"
             }
           },
           "705afaa5-785a-40f3-9e83-5c853fe5b6aa": {
@@ -261,17 +268,11 @@
               "heading": "LEGAL",
               "subtext": "<h4><a href=\"\/policies\/legal-notice\" title=\"Legal Notice\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h4>"
             }
-          },
-          "text_6R3yBY": {
-            "type": "text",
-            "settings": {
-              "heading": "COFFEE BEANS",
-              "subtext": "<h4><a href=\"\/collections\/espresso-coffee\" title=\"Espresso Coffee Beans | THE BARN Coffee Roasters\">Espresso<\/a><br\/><a href=\"\/collections\/filter-coffee\" title=\"Filter Coffee Beans | THE BARN Coffee Roasters\">Filter<\/a><br\/><a href=\"\/collections\/low-caf-coffee-beans\" title=\"Low Caf Coffee Beans\">Low Caf<\/a><br\/><a href=\"\/collections\/coffee-beans-specials\" title=\"Coffee Specials\">Specials<\/a><\/h4>"
-            }
           }
         },
         "block_order": [
           "8df4c85d-d9a2-4f99-bf0e-74b5f9578dd9",
+          "text_6R3yBY",
           "c75a1e9a-7872-4221-bedc-9fb59a8601e6",
           "705afaa5-785a-40f3-9e83-5c853fe5b6aa",
           "text_mtMwE4",
@@ -280,8 +281,7 @@
           "54146417-e198-4a25-a221-4be456299d47",
           "33c97cbe-0f9e-4981-998f-81e7ff9b9679",
           "780a470e-2fa4-4e1a-9954-6422d2b44db5",
-          "ae726a0a-e0a3-4e61-a76e-66d8d817def1",
-          "text_6R3yBY"
+          "ae726a0a-e0a3-4e61-a76e-66d8d817def1"
         ],
         "custom_css": [
 
