@@ -285,7 +285,7 @@
         ],
         "custom_css": [
           "a {text-decoration: none;}",
-          "h4{text-decoration: none;}"
+          "h4 {text-decoration: none;}"
         ],
         "settings": {
           "color_scheme": "background-2",
@@ -295,9 +295,9 @@
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": true,
-          "margin_top": 0,
+          "margin_top": 12,
           "padding_top": 68,
-          "padding_bottom": 100
+          "padding_bottom": 28
         }
       },
       "main-password-header": {
