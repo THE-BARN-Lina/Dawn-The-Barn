@@ -196,7 +196,7 @@
             "type": "text",
             "settings": {
               "heading": "SUBSCRIPTIONS",
-              "subtext": "<h5><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">All Subscriptions<\/a><\/h5>"
+              "subtext": "<h5><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">All Subscriptions<br\/><\/a><a href=\"\/products\/coffee-masterpieces\" title=\"MASTERPIECE SUBSCRIPTION\">Masterpiece<br\/><\/a><a href=\"\/products\/coffee-subscription-curated\" title=\"CURATED\">Curated<br\/><\/a><a href=\"\/products\/coffee-espresso-of-the-month\" title=\"ESPRESSO OF THE MONTH\">Espresso Of The Month<br\/><\/a><a href=\"\/products\/low-caffeine-coffee\" title=\"LOW CAF\">Low Caf<br\/><\/a><a href=\"\/products\/house-coffee-subscription\" title=\"HOUSE\">House<br\/><\/a><a href=\"\/products\/coffee-trial-subscription\" title=\"TRIAL SUBSCRIPTION\">Trial Subscription<\/a><\/h5><h5><\/h5>"
             }
           },
           "c75a1e9a-7872-4221-bedc-9fb59a8601e6": {
