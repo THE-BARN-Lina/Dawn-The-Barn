@@ -58,17 +58,31 @@
   @media screen and (min-width: 750px) {
     .footer {
       margin-top: {{ section.settings.margin_top }}px;
+     
     }
 
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    .footer-block--newsletter{
+      margin-top:10rem;
+      background-color:#141414;
+
+      border-radius: 2rem;
+    }
   }
+
+  {%comment%} Small screen {%endcomment%}
   @media screen and (max-width: 750px) {
 
     .banner-slogan-footer{
       height:90px;
+    }
+
+    .footer {
+      background-color:red;
+     
     }
 
   
