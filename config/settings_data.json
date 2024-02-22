@@ -284,7 +284,8 @@
           "ae726a0a-e0a3-4e61-a76e-66d8d817def1"
         ],
         "custom_css": [
-          "a {text-decoration: none !important;}"
+          "a {text-decoration: none;}",
+          "h4{text-decoration: none;}"
         ],
         "settings": {
           "color_scheme": "background-2",
