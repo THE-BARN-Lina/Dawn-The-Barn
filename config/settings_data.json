@@ -288,9 +288,9 @@
         ],
         "settings": {
           "color_scheme": "background-2",
-          "newsletter_enable": false,
+          "newsletter_enable": true,
           "newsletter_heading": "Stay connected through our newsletter",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": true,
