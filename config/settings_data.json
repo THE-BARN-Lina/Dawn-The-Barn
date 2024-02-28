@@ -335,7 +335,7 @@
               "cookie": "Spotify_THE_BARN",
               "thirdParty": false,
               "addResizeEvent": true,
-              "parentSelector": "Spotify",
+              "parentSelector": "spotify",
               "required_childs": ""
             }
           }
