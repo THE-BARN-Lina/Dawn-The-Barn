@@ -327,18 +327,6 @@
       },
       "GDPR_LC_Manager": {
         "type": "GDPR_LC_Manager",
-        "blocks": {
-          "custom_scripts_LhNRfh": {
-            "type": "customScripts",
-            "settings": {
-              "cookieName": "",
-              "script": ""
-            }
-          }
-        },
-        "block_order": [
-          "custom_scripts_LhNRfh"
-        ],
         "settings": {
           "testMode": false,
           "useOverlay": true,
