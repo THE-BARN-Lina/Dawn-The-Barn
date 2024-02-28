@@ -327,6 +327,22 @@
       },
       "GDPR_LC_Manager": {
         "type": "GDPR_LC_Manager",
+        "blocks": {
+          "overlay_Lc8Fa9": {
+            "type": "overlay",
+            "settings": {
+              "title": "Spotify",
+              "cookie": "Spotify_THE_BARN",
+              "thirdParty": false,
+              "addResizeEvent": true,
+              "parentSelector": "Spotify",
+              "required_childs": ""
+            }
+          }
+        },
+        "block_order": [
+          "overlay_Lc8Fa9"
+        ],
         "settings": {
           "testMode": false,
           "useOverlay": true,
