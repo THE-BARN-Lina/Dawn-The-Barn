@@ -216,15 +216,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "custom_liquid_dd3QGU": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=spotify> <iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/episode\/6M25pgOs7KtJxDoBoP4X3o?utm_source=generator&theme=0\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>\n<\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 56,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -234,7 +225,6 @@
     "16535087560770a397",
     "97d15337-f658-4382-95d4-4265f611b1e9",
     "165350883755001537",
-    "16535089403fff00a8",
-    "custom_liquid_dd3QGU"
+    "16535089403fff00a8"
   ]
 }
