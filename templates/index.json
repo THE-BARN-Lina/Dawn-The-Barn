@@ -6,13 +6,13 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MasterpiecePourover_1.png",
+        "image": "shopify:\/\/shop_images\/myanmar_sorting_cherries.jpg",
         "height": "adapt",
-        "heading": "<strong>MASTERPIECE GIFT SUBSCRIPTION<\/strong>",
-        "text_1": "<p>Special Offer in February<\/p>",
-        "text": "<p>Secure the next 3 Masterpiece Coffees with extra goodies from Daterra!<\/p>",
+        "heading": "<strong>PA-O, COFFEE FUELED BY FEMALE POWER<\/strong>",
+        "text_1": "<p><strong>In The Spotlight<\/strong><\/p>",
+        "text": "<p>This special coffee is changing womens lives in Myanmar<\/p>",
         "button_label": "Learn More",
-        "button_link": "shopify:\/\/products\/coffee-gift-masterpieces",
+        "button_link": "shopify:\/\/products\/pa-o",
         "button_label_2": "All Beans",
         "button_link_2": "shopify:\/\/collections\/coffee-beans",
         "layout": "text_first",
