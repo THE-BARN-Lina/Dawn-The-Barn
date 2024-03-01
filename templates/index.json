@@ -392,8 +392,9 @@
         "slide_kCTjJG",
         "slide_aeXKVP"
       ],
+      "disabled": true,
       "custom_css": [
-        ".button--secondary{border:2px solid white;}"
+        ".button--secondary {border: 2px solid white;}"
       ],
       "settings": {
         "layout": "full_bleed",
