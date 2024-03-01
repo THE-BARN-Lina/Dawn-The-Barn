@@ -339,30 +339,6 @@
     "custom_slideshow_hero_a4ArM7": {
       "type": "custom-slideshow-hero",
       "blocks": {
-        "slide_aeXKVP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
-            "heading": "MARCH SPECIAL COFFEE DROP",
-            "heading_1": "",
-            "heading_2": "",
-            "heading_size": "h1",
-            "subheading": "Coming soon",
-            "subheading_2": "Super rare & special. Don’t miss our Special Coffee Drop in March & Sign up for our Newsletter today!",
-            "button_label": "Sign-up now!",
-            "link": "",
-            "button_style_secondary": false,
-            "button_label_2": "All Beans",
-            "link_2": "shopify:\/\/collections\/coffee-beans",
-            "button_style_secondary_2": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_kCTjJG": {
           "type": "slide",
           "settings": {
@@ -386,11 +362,35 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_aeXKVP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
+            "heading": "MARCH SPECIAL COFFEE DROP",
+            "heading_1": "",
+            "heading_2": "",
+            "heading_size": "h1",
+            "subheading": "Coming soon",
+            "subheading_2": "Super rare & special. Don’t miss our Special Coffee Drop in March & Sign up for our Newsletter today!",
+            "button_label": "Sign-up now!",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label_2": "All Beans",
+            "link_2": "shopify:\/\/collections\/coffee-beans",
+            "button_style_secondary_2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_aeXKVP",
-        "slide_kCTjJG"
+        "slide_kCTjJG",
+        "slide_aeXKVP"
       ],
       "disabled": true,
       "settings": {
