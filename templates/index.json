@@ -1,7 +1,77 @@
 {
   "sections": {
+    "custom_slideshow_hero_a4ArM7": {
+      "type": "custom-slideshow-hero",
+      "blocks": {
+        "slide_kCTjJG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/myanmar_sorting_cherries.jpg",
+            "heading": "PA-O",
+            "heading_1": "COFFEE FUELED BY",
+            "heading_2": "FEMALE POWER",
+            "heading_size": "h1",
+            "subheading": "In the spotlight",
+            "subheading_2": "This special coffee changes women’s lives in Myanmar",
+            "button_label": "Find out more",
+            "link": "shopify:\/\/products\/pa-o",
+            "button_style_secondary": false,
+            "button_label_2": "All Beans",
+            "link_2": "shopify:\/\/collections\/coffee-beans",
+            "button_style_secondary_2": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_aeXKVP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Special_Drop_With_Chemex.jpg",
+            "heading": "MARCH SPECIAL COFFEE DROP",
+            "heading_1": "",
+            "heading_2": "",
+            "heading_size": "h1",
+            "subheading": "Coming soon",
+            "subheading_2": "Super rare & special. Don’t miss our Special Coffee Drop in March & Sign up for our Newsletter today!",
+            "button_label": "Sign-up now!",
+            "link": "shopify:\/\/pages\/newsletter-signup",
+            "button_style_secondary": false,
+            "button_label_2": "All Beans",
+            "link_2": "shopify:\/\/collections\/coffee-beans",
+            "button_style_secondary_2": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kCTjJG",
+        "slide_aeXKVP"
+      ],
+      "custom_css": [
+        ".button--secondary {border: 2px solid white;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "custom_hero_from_v12_4pxXPe": {
       "type": "custom-hero-from-v12",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -335,79 +405,10 @@
         "padding_top": 0,
         "padding_bottom": 28
       }
-    },
-    "custom_slideshow_hero_a4ArM7": {
-      "type": "custom-slideshow-hero",
-      "blocks": {
-        "slide_kCTjJG": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/myanmar_sorting_cherries.jpg",
-            "heading": "PA-O",
-            "heading_1": "COFFEE FUELED BY",
-            "heading_2": "FEMALE POWER",
-            "heading_size": "h1",
-            "subheading": "In the spotlight",
-            "subheading_2": "This special coffee changes women’s lives in Myanmar",
-            "button_label": "Find out more",
-            "link": "shopify:\/\/products\/pa-o",
-            "button_style_secondary": false,
-            "button_label_2": "All Beans",
-            "link_2": "shopify:\/\/collections\/coffee-beans",
-            "button_style_secondary_2": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_aeXKVP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Special_Drop_With_Chemex.jpg",
-            "heading": "MARCH SPECIAL COFFEE DROP",
-            "heading_1": "",
-            "heading_2": "",
-            "heading_size": "h1",
-            "subheading": "Coming soon",
-            "subheading_2": "Super rare & special. Don’t miss our Special Coffee Drop in March & Sign up for our Newsletter today!",
-            "button_label": "Sign-up now!",
-            "link": "shopify:\/\/pages\/newsletter-signup",
-            "button_style_secondary": false,
-            "button_label_2": "All Beans",
-            "link_2": "shopify:\/\/collections\/coffee-beans",
-            "button_style_secondary_2": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_kCTjJG",
-        "slide_aeXKVP"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".button--secondary {border: 2px solid white;}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
+    "custom_slideshow_hero_a4ArM7",
     "custom_hero_from_v12_4pxXPe",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "feature_collection_custom_APCtWN",
@@ -415,7 +416,6 @@
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
     "23138f82-deb5-4edd-bcdc-8062abfac1eb",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
-    "1653387743507b82e2",
-    "custom_slideshow_hero_a4ArM7"
+    "1653387743507b82e2"
   ]
 }
