@@ -366,7 +366,7 @@
         "slide_aeXKVP": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LOCATIONS_ROASTERY_1.png",
+            "image": "shopify:\/\/shop_images\/Special_Drop_With_Chemex.jpg",
             "heading": "MARCH SPECIAL COFFEE DROP",
             "heading_1": "",
             "heading_2": "",
@@ -374,7 +374,7 @@
             "subheading": "Coming soon",
             "subheading_2": "Super rare & special. Don’t miss our Special Coffee Drop in March & Sign up for our Newsletter today!",
             "button_label": "Sign-up now!",
-            "link": "",
+            "link": "shopify:\/\/pages\/newsletter-signup",
             "button_style_secondary": false,
             "button_label_2": "All Beans",
             "link_2": "shopify:\/\/collections\/coffee-beans",
