@@ -251,40 +251,31 @@
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_TRTKqW": {
+        "44f43363-7757-49fc-a950-71f0029d8c41": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "CHECKPOINT CHARLIE",
+            "heading": "POTSDAMER PLATZ",
             "icon": "map_pin",
-            "row_content": "<p>Monday-Friday: 08:00 - 18:00<br\/>Saturday-Sunday: 10:00 - 18:00<br\/><br\/><a href=\"https:\/\/maps.app.goo.gl\/Kq5KJ6vW2kDDf6NE7\" target=\"_blank\" title=\"https:\/\/maps.app.goo.gl\/Kq5KJ6vW2kDDf6NE7\">Friedrichstraße 215, 10969 Berlin<\/a><\/p>",
-            "page": ""
+            "row_content": "<p>Monday - Friday 08:30 – 19:00<br\/>Saturday 09:00 – 19:00<br\/>Sunday 09:00 – 18:00<strong><br\/><\/strong><br\/><strong>Alte Potsdamer Str. 5, 10785 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/iy47GVofLoViCeUa6\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
+            "page": "p5"
           }
         },
-        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-0": {
+        "2e44d085-a58b-4f9d-ac1c-ca13ba2aadbe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "MITTE",
+            "heading": "CAFÉ KRANZLER",
             "icon": "map_pin",
-            "row_content": "<p>Monday-Friday 08:00 – 18:00<br\/>Saturday 09:00 – 18:00<br\/>Sunday 10:00 – 18:00<strong><br\/><br\/>Auguststraße 58, 10119 Berlin<br\/><br\/><\/strong><a href=\"https:\/\/goo.gl\/maps\/ThnGDex4DxooZFdbA\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
-            "page": "mitte"
+            "row_content": "<p>Monday - Friday 11:00 – 18:00<strong><br\/><\/strong>Saturday 11:00 - 19:00<br\/>Sunday: 11:00 - 18:00<strong><br\/><\/strong><br\/><strong>Kurfürstendamm 22<br\/>10719 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/9XTHjZNjazrAxwiNA\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
+            "page": "k18"
           }
         },
-        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-1": {
+        "118f220b-c742-4e34-a94a-da6d7a562dfb": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "SCHÖNHAUSER ALLEE | KIOSK",
+            "heading": "HACKESCHER MARKT",
             "icon": "map_pin",
-            "row_content": "<p>Monday-Friday 10:00 – 14:00<br\/>Saturday-Sunday Closed<strong><br\/><\/strong><br\/><strong>Schönhauser Allee 8, 10119 Berlin<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/K6vJ6xd2hx6k9is47\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
-            "page": "schonhauser-allee"
-          }
-        },
-        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "ROSENTHALER PLATZ",
-            "icon": "map_pin",
-            "row_content": "<p>Monday-Friday 08:00 – 18:00<br\/>Saturday-Sunday 10:00 – 18:00<strong><br\/><\/strong><br\/><strong>Weinbergsweg 1, 10119 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/JWbQeNypciH6u6yk7\" target=\"_blank\">View on Map<\/a><br\/>-<\/p>",
-            "page": "rosenthaler-platz-cafe"
+            "row_content": "<p>Monday-Friday 10:00 – 18:00<br\/>Saturday-Sunday 11:00 – 18:00<strong><br\/><\/strong><br\/><strong>Neue Schönhauser Str. 12, 10178 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/sbcqQZ64gBfY7AfLA\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
+            "page": "hackescher-markt"
           }
         },
         "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-3": {
@@ -305,13 +296,31 @@
             "page": "cafe-nordbahnhof"
           }
         },
-        "118f220b-c742-4e34-a94a-da6d7a562dfb": {
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "HACKESCHER MARKT",
+            "heading": "ROSENTHALER PLATZ",
             "icon": "map_pin",
-            "row_content": "<p>Monday-Friday 10:00 – 18:00<br\/>Saturday-Sunday 11:00 – 18:00<strong><br\/><\/strong><br\/><strong>Neue Schönhauser Str. 12, 10178 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/sbcqQZ64gBfY7AfLA\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
-            "page": "hackescher-markt"
+            "row_content": "<p>Monday-Friday 08:00 – 18:00<br\/>Saturday-Sunday 10:00 – 18:00<strong><br\/><\/strong><br\/><strong>Weinbergsweg 1, 10119 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/JWbQeNypciH6u6yk7\" target=\"_blank\">View on Map<\/a><br\/>-<\/p>",
+            "page": "rosenthaler-platz-cafe"
+          }
+        },
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "MITTE",
+            "icon": "map_pin",
+            "row_content": "<p>Monday-Friday 08:00 – 18:00<br\/>Saturday 09:00 – 18:00<br\/>Sunday 10:00 – 18:00<strong><br\/><br\/>Auguststraße 58, 10119 Berlin<br\/><br\/><\/strong><a href=\"https:\/\/goo.gl\/maps\/ThnGDex4DxooZFdbA\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
+            "page": "mitte"
+          }
+        },
+        "collapsible_row_TRTKqW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CHECKPOINT CHARLIE",
+            "icon": "map_pin",
+            "row_content": "<p>Monday-Friday: 08:00 - 18:00<br\/>Saturday-Sunday: 10:00 - 18:00<br\/><br\/><a href=\"https:\/\/maps.app.goo.gl\/Kq5KJ6vW2kDDf6NE7\" target=\"_blank\" title=\"https:\/\/maps.app.goo.gl\/Kq5KJ6vW2kDDf6NE7\">Friedrichstraße 215, 10969 Berlin<\/a><\/p>",
+            "page": ""
           }
         },
         "5903806a-eb63-4b0c-bd6f-27e5064c5b98": {
@@ -323,22 +332,13 @@
             "page": "the-barn-sony-center"
           }
         },
-        "44f43363-7757-49fc-a950-71f0029d8c41": {
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "POTSDAMER PLATZ",
+            "heading": "SCHÖNHAUSER ALLEE | KIOSK",
             "icon": "map_pin",
-            "row_content": "<p>Monday - Friday 08:30 – 19:00<br\/>Saturday 09:00 – 19:00<br\/>Sunday 09:00 – 18:00<strong><br\/><\/strong><br\/><strong>Alte Potsdamer Str. 5, 10785 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/iy47GVofLoViCeUa6\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
-            "page": "p5"
-          }
-        },
-        "2e44d085-a58b-4f9d-ac1c-ca13ba2aadbe": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "CAFÉ KRANZLER",
-            "icon": "map_pin",
-            "row_content": "<p>Monday - Friday 11:00 – 18:00<strong><br\/><\/strong>Saturday 11:00 - 19:00<br\/>Sunday: 11:00 - 18:00<strong><br\/><\/strong><br\/><strong>Kurfürstendamm 22<br\/>10719 Berlin, Germany<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/9XTHjZNjazrAxwiNA\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
-            "page": "k18"
+            "row_content": "<p>Monday-Friday 10:00 – 14:00<br\/>Saturday-Sunday Closed<strong><br\/><\/strong><br\/><strong>Schönhauser Allee 8, 10119 Berlin<\/strong><br\/><br\/><a href=\"https:\/\/goo.gl\/maps\/K6vJ6xd2hx6k9is47\" target=\"_blank\">View on Map<br\/><\/a>-<\/p>",
+            "page": "schonhauser-allee"
           }
         },
         "30b7b181-b377-49d2-96f2-c85f5ef67768": {
@@ -361,16 +361,16 @@
         }
       },
       "block_order": [
-        "collapsible_row_TRTKqW",
-        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-0",
-        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-1",
-        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-2",
-        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-3",
-        "55555408-61be-4324-b240-07c475c6ca2d",
-        "118f220b-c742-4e34-a94a-da6d7a562dfb",
-        "5903806a-eb63-4b0c-bd6f-27e5064c5b98",
         "44f43363-7757-49fc-a950-71f0029d8c41",
         "2e44d085-a58b-4f9d-ac1c-ca13ba2aadbe",
+        "118f220b-c742-4e34-a94a-da6d7a562dfb",
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-3",
+        "55555408-61be-4324-b240-07c475c6ca2d",
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-2",
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-0",
+        "collapsible_row_TRTKqW",
+        "5903806a-eb63-4b0c-bd6f-27e5064c5b98",
+        "template--17938053923083__8c6b0def-3ad0-4049-ba71-a895f22aa6a2-168803031067651955-1",
         "30b7b181-b377-49d2-96f2-c85f5ef67768",
         "ebcf916f-48b7-4d4a-94fc-dc5e453dd19d"
       ],
