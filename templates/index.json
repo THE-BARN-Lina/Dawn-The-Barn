@@ -5,6 +5,7 @@
       "blocks": {
         "slide_aeXKVP": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/SpecialDropYemenReveal.jpg",
             "heading": "YEMEN ALCHEMY",
