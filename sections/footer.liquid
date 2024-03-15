@@ -175,6 +175,75 @@ input[type="radio"] {
   
   }
 {%- endstyle -%}
+<section class="newsletter-container">
+
+<div class="newsletter-image-container">
+  {%- if section.settings.image_newsletter != blank -%}
+    <img
+      srcset="{%- if section.settings.image_newsletter.width >= 165 -%}{{ section.settings.image_newsletter | image_url: width: 165 }} 165w,{%- endif -%}
+        {%- if section.settings.image_newsletter.width >= 360 -%}{{ section.settings.image_newsletter | image_url: width: 360 }} 360w,{%- endif -%}
+        {%- if section.settings.image_newsletter.width >= 535 -%}{{ section.settings.image_newsletter | image_url: width: 535 }} 535w,{%- endif -%}
+        {%- if section.settings.image_newsletter.width >= 750 -%}{{ section.settings.image_newsletter | image_url: width: 750 }} 750w,{%- endif -%}
+        {%- if section.settings.image_newsletter.width >= 1070 -%}{{ section.settings.image_newsletter | image_url: width: 1070 }} 1070w,{%- endif -%}
+        {%- if section.settings.image_newsletter.width >= 1500 -%}{{ section.settings.image_newsletter | image_url: width: 1500 }} 1500w,{%- endif -%}
+        {{ section.settings.image_newsletter | image_url }} {{ section.settings.image_newsletter.width }}w"
+      src="{{ section.settings.image_newsletter | image_url: width: 150 }}"
+      sizes=""
+      alt="{{ section.settings.image_newsletter.alt | escape }}"
+      loading="lazy"
+      width="{{ 300}}"
+      height="{{ 300}}"
+      class="image-newsletter"
+    >
+  {%- else -%}
+    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+  {%- endif -%}
+</div>
+
+<section class="newsletter-content-container">
+
+  
+  <section class="newsletter-text-container">
+    
+    {%- if section.settings.heading_newsletter != blank -%}
+      <h2 class="newsletter-title">{{- section.settings.heading_newsletter -}}</h2>
+    {%- endif -%}
+  
+    {%- if section.settings.perks_newsletter != blank -%}
+      <div class="">{{- section.settings.perks_newsletter  -}}</div>
+    {%- endif -%}
+
+    {%- if section.settings.text_newsletter != blank -%}
+      <div class="text-newsletter">{{- section.settings.text_newsletter  -}}</div>
+    {%- endif -%}
+  
+  </section>
+
+
+  
+  <section class="newsletter-buttons-container">
+    <form id="languageSelectionForm">
+      <div style="margin-right: 2rem;">
+        <input  type="radio" id="englishOption" name="language" value="English" checked>
+        <label for="englishOption">English</label>
+      </div>
+      <div style="margin-right: 2rem;">
+        <input  type="radio" id="germanOption" name="language" value="German">
+        <label for="germanOption">Deutsch</label>
+      </div>
+    </form>
+  </section>
+  
+
+  <section class="newsletter-form-container">
+
+    <div id="germanForm" class="klaviyo-form-Y9AGrt"style="display:none;" ></div>
+    <div id="englishForm" class="klaviyo-form-TTe8CY" ></div>
+  </section>
+
+</section>
+</section>
+
 
 
 
