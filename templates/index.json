@@ -5,17 +5,16 @@
       "blocks": {
         "slide_aeXKVP": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/SpecialDropYemenReveal.jpg",
-            "heading": "YEMEN ALCHEMY",
+            "image": "shopify:\/\/shop_images\/caballero_marysable_moises_f8a1272b-003d-4c15-9285-c0b89c74bb60.jpg",
+            "heading": "CABALLERO CONFITE #3",
             "heading_1": "",
             "heading_2": "",
             "heading_size": "h1",
-            "subheading": "Our Latest Special Drop Is Here!",
-            "subheading_2": "40 Bags. 24 Hours. Experience the flavour of Yemen Alchemy today.",
+            "subheading": "The last release",
+            "subheading_2": "Celebrating our Central American partnerships",
             "button_label": "Order Now!",
-            "link": "shopify:\/\/products\/yemen-alchemy-hayma-dakhiliya",
+            "link": "shopify:\/\/products\/caballero-confite",
             "button_style_secondary": false,
             "button_label_2": "All Beans",
             "link_2": "shopify:\/\/collections\/coffee-beans",
