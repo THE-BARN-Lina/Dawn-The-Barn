@@ -544,6 +544,32 @@ input[type="radio"] {
   }
 
   customElements.define('localization-form', LocalizationForm);
+
+    // NEWSLETTER LOGIC
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Function to show one form and hide the other based on radio button selection
+  function toggleForms() {
+    // Check which radio button is selected
+    const selectedLanguage = document.querySelector('input[name="language"]:checked').value;
+    if (selectedLanguage === 'English') {
+      document.getElementById('englishForm').style.display = 'block'; // Show the English form
+      document.getElementById('germanForm').style.display = 'none'; // Hide the German form
+    } else if (selectedLanguage === 'German') {
+      document.getElementById('germanForm').style.display = 'block'; // Show the German form
+      document.getElementById('englishForm').style.display = 'none'; // Hide the English form
+    }
+  }
+
+  // Add change event listeners to the radio buttons
+  document.querySelectorAll('input[name="language"]').forEach(radio => {
+    radio.addEventListener('change', toggleForms);
+  });
+
+  // Call toggleForms function initially to set the correct form visibility on page load
+  toggleForms();
+});
+
 {% endjavascript %}
 
 {% schema %}
