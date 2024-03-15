@@ -62,10 +62,14 @@
 }
 .newsletter-title {
 font-size:42px;
-
+color:white;
+}
+.news-letter-text{
+  color:white;
 }
 .text-newsletter{
   margin-top:5rem;
+  color:white;
 }
 
 
@@ -115,11 +119,8 @@ input[type="radio"] {
   height:100%;
   object-fit:cover;
   object-position: right 20px;
-
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
     
-
-
 }
 
  {%comment%} Small screen {%endcomment%}
@@ -211,7 +212,7 @@ input[type="radio"] {
     {%- endif -%}
   
     {%- if section.settings.perks_newsletter != blank -%}
-      <div class="">{{- section.settings.perks_newsletter  -}}</div>
+      <div class="newsletter-perks">{{- section.settings.perks_newsletter  -}}</div>
     {%- endif -%}
 
     {%- if section.settings.text_newsletter != blank -%}
