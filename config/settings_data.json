@@ -268,6 +268,14 @@
               "heading": "LEGAL",
               "subtext": "<h4><a href=\"\/policies\/legal-notice\" title=\"Legal Notice\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h4>"
             }
+          },
+          "image_mX943G": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/LOGO-NAME-SLOGAN.png",
+              "image_width": 145,
+              "alignment": "center"
+            }
           }
         },
         "block_order": [
@@ -281,7 +289,8 @@
           "54146417-e198-4a25-a221-4be456299d47",
           "33c97cbe-0f9e-4981-998f-81e7ff9b9679",
           "780a470e-2fa4-4e1a-9954-6422d2b44db5",
-          "ae726a0a-e0a3-4e61-a76e-66d8d817def1"
+          "ae726a0a-e0a3-4e61-a76e-66d8d817def1",
+          "image_mX943G"
         ],
         "custom_css": [
           "a {text-decoration: none;}",
