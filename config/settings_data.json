@@ -272,8 +272,8 @@
           "image_mX943G": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/LOGO-NAME-SLOGAN.png",
-              "image_width": 115,
+              "image": "shopify:\/\/shop_images\/LOGO-NAME.png",
+              "image_width": 110,
               "alignment": "center"
             }
           }
