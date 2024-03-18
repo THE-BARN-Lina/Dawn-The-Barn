@@ -24,25 +24,16 @@
         "text_BeeWkL": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_PTRGMd": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>We hope you are enjoying your cup of coffee at our \"\" Cafe<\/p>"
           }
         }
       },
       "block_order": [
         "heading_ejM7FD",
-        "text_BeeWkL",
-        "button_PTRGMd"
+        "text_BeeWkL"
+      ],
+      "custom_css": [
+        ".h1 {font-family: \"Chalet Comprime\";}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -56,41 +47,19 @@
     "multirow_PaQUtK": {
       "type": "multirow",
       "blocks": {
-        "row_GQC3LW": {
+        "row_xVrDBF": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_W7iMDH": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_6i4wCA": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "caption": "",
+            "heading": "Did you know you can subscribe to our Single Origin Coffee Subscription? Here is what you get:",
+            "text": "<ul><li>Monthly shipment right to your doorstep<\/li><li>Fast delivery<\/li><li>Always freshly roasted beans for filter or espresso<\/li><li>Discounted price in comparison to regular bean prices<\/li><\/ul>",
+            "button_label": "Explore single origin subscriptions",
+            "button_link": "shopify:\/\/collections\/coffee-subscription"
           }
         }
       },
       "block_order": [
-        "row_GQC3LW",
-        "row_W7iMDH",
-        "row_6i4wCA"
+        "row_xVrDBF"
       ],
       "settings": {
         "image_height": "medium",
@@ -100,7 +69,7 @@
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
