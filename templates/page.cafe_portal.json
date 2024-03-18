@@ -52,7 +52,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/47263658-9588-41E3-8AD2-32FA3810DA19_1_201_a.jpg",
             "caption": "",
-            "heading": "Did you know you can subscribe to our Single Origin Coffee Subscription? Here is what you get:",
+            "heading": "<strong>Did you know you can subscribe to our Single Origin Coffee Subscription? Here is what you get:<\/strong>",
             "text": "<ul><li>Save 10% off regular bean prices<\/li><li>Free shipment right to your doorstep<\/li><li>Always freshly roasted beans for filter or espresso<\/li><\/ul><p><\/p>",
             "button_label": "Explore single origin subscriptions",
             "button_link": "shopify:\/\/collections\/coffee-subscription"
