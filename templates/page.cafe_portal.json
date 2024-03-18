@@ -50,9 +50,10 @@
         "row_xVrDBF": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/47263658-9588-41E3-8AD2-32FA3810DA19_1_201_a.jpg",
             "caption": "",
             "heading": "Did you know you can subscribe to our Single Origin Coffee Subscription? Here is what you get:",
-            "text": "<ul><li>Monthly shipment right to your doorstep<\/li><li>Fast delivery<\/li><li>Always freshly roasted beans for filter or espresso<\/li><li>Discounted price in comparison to regular bean prices<\/li><\/ul>",
+            "text": "<ul><li>Save 10% off regular bean prices<\/li><li>Free shipment right to your doorstep<\/li><li>Always freshly roasted beans for filter or espresso<\/li><\/ul><p><\/p>",
             "button_label": "Explore single origin subscriptions",
             "button_link": "shopify:\/\/collections\/coffee-subscription"
           }
@@ -62,11 +63,11 @@
         "row_xVrDBF"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_image_width": "medium",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "text_style": "body",
-        "button_style": "secondary",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-right",
@@ -76,11 +77,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_P9mwQ4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "rich_text_bdMY6e",
-    "multirow_PaQUtK"
+    "multirow_PaQUtK",
+    "custom_liquid_P9mwQ4"
   ]
 }
