@@ -27,34 +27,34 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_kCTjJG": {
+        "slide_nk7yHf": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/myanmar_sorting_cherries.jpg",
-            "heading": "PA-O",
-            "heading_1": "COFFEE FUELED BY",
-            "heading_2": "FEMALE POWER",
+            "image": "shopify:\/\/shop_images\/41429F1D-968D-4AB6-818F-CE015C3602BD-1799-000001B085362781.jpg",
+            "heading": "HIMALAYA",
+            "heading_1": "MARACATURA",
+            "heading_2": "",
             "heading_size": "h1",
-            "subheading": "In the spotlight",
-            "subheading_2": "Changing the life of women in Myanmar",
-            "button_label": "Find out more",
-            "link": "shopify:\/\/products\/pa-o",
+            "subheading": "Excellence from El Salvador",
+            "subheading_2": "This coffee offers excellence - from production to cup profile",
+            "button_label": "Order now!",
+            "link": "shopify:\/\/products\/himalaya-maracaturra",
             "button_style_secondary": false,
-            "button_label_2": "All Beans",
+            "button_label_2": "All beans",
             "link_2": "shopify:\/\/collections\/coffee-beans",
-            "button_style_secondary_2": true,
-            "box_align": "middle-center",
+            "button_style_secondary_2": false,
+            "box_align": "bottom-left",
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "left"
           }
         }
       },
       "block_order": [
         "slide_aeXKVP",
-        "slide_kCTjJG"
+        "slide_nk7yHf"
       ],
       "custom_css": [
         ".button--secondary {border: 2px solid white;}"
