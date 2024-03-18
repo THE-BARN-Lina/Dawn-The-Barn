@@ -43,7 +43,7 @@
             "button_label_2": "All beans",
             "link_2": "shopify:\/\/collections\/coffee-beans",
             "button_style_secondary_2": false,
-            "box_align": "bottom-left",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
