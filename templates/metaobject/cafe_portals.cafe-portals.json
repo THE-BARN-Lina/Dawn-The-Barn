@@ -52,7 +52,7 @@
         "row_3WdaVc"
       ],
       "custom_css": [
-        ".image-with-text__media {border-radius: %;}"
+        ".image-with-text__media {border-radius: 4%; @media screen and (max-width: 520px) {.image-with-text__content {text-align: center; } .image-with-text__content .caption-with-letter-spacing {display: none; }}"
       ],
       "settings": {
         "image_height": "medium",
