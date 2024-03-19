@@ -52,7 +52,7 @@
         "row_3WdaVc"
       ],
       "custom_css": [
-        ".image-with-text__media {border-radius: 4%;}"
+        ".image-with-text__media {border-radius: %;}"
       ],
       "settings": {
         "image_height": "medium",
