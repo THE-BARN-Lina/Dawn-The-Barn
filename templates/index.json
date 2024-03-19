@@ -3,30 +3,6 @@
     "custom_slideshow_hero_a4ArM7": {
       "type": "custom-slideshow-hero",
       "blocks": {
-        "slide_aeXKVP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CABALLERO_CONFITE_3.jpg",
-            "heading": "CABALLERO CONFITE #3",
-            "heading_1": "",
-            "heading_2": "",
-            "heading_size": "h1",
-            "subheading": "The last release",
-            "subheading_2": "Celebrating our Central American partnerships",
-            "button_label": "Order Now!",
-            "link": "shopify:\/\/products\/caballero-confite",
-            "button_style_secondary": false,
-            "button_label_2": "All Beans",
-            "link_2": "shopify:\/\/collections\/coffee-beans",
-            "button_style_secondary_2": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_nk7yHf": {
           "type": "slide",
           "settings": {
@@ -50,11 +26,35 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
           }
+        },
+        "slide_aeXKVP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CABALLERO_CONFITE_3.jpg",
+            "heading": "CABALLERO CONFITE #3",
+            "heading_1": "",
+            "heading_2": "",
+            "heading_size": "h1",
+            "subheading": "The last release",
+            "subheading_2": "Celebrating our Central American partnerships",
+            "button_label": "Order Now!",
+            "link": "shopify:\/\/products\/caballero-confite",
+            "button_style_secondary": false,
+            "button_label_2": "All Beans",
+            "link_2": "shopify:\/\/collections\/coffee-beans",
+            "button_style_secondary_2": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_aeXKVP",
-        "slide_nk7yHf"
+        "slide_nk7yHf",
+        "slide_aeXKVP"
       ],
       "custom_css": [
         ".button--secondary {border: 2px solid white;}"
