@@ -51,6 +51,9 @@
       "block_order": [
         "row_3WdaVc"
       ],
+      "custom_css": [
+        ".image-with-text__media {border-radius: 4%;}"
+      ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
