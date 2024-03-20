@@ -25,7 +25,7 @@
         ".h1 {font-family: \"Chalet Comprime\";}"
       ],
       "settings": {
-        "desktop_content_position": "left",
+        "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
