@@ -318,7 +318,29 @@
 }
 
 
-/*custom image adding code*/
+/*custom image adding code for product image badges*/
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  30% {
+    transform: rotate(-7deg);
+  }
+  40% {
+    transform: rotate(7deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+}
+
 .custom-badge::after {
   position: absolute;
   content: " ";
