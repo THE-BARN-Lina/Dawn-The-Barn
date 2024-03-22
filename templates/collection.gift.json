@@ -43,7 +43,7 @@
       "custom_css": [
         ".quick-add__submit {background-color: #804d15; color: white;}",
         "button {--border-offset: #804d15 !important;}",
-        "h1 {font-family: \"Chalet Comprime\";}"
+        "h1 {font-family: \"Chalet Comprime\"; font-size:32px;}"
       ],
       "settings": {
         "main-title": "<p>FOR THE LOVE OF COFFEE<\/p>",
