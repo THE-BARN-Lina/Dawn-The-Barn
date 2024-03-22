@@ -230,6 +230,11 @@
       {{ section.settings.secondary-description | replace: 'p>', 'span>' }}
     </p>
   {%- endif -%}
+  {%- if section.settings.third-description!= blank -%}
+    <p class="rich-text__heading rte">
+      {{ section.settings.third-description | replace: 'p>', 'span>' }}
+    </p>
+  {%- endif -%}
 
 </section>
 
@@ -625,6 +630,12 @@ document.addEventListener('DOMContentLoaded', function() {
         "id": "secondary-description",
         "default": "<p>secondary-description</p>",
         "label": "secondary-description"
+      },
+      {
+        "type": "richtext",
+        "id": "third-description",
+        "default": "<p>third-description</p>",
+        "label": "third-description"
       },
       {
           "type": "image_picker",
