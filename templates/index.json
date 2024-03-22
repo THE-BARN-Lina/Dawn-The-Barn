@@ -50,11 +50,36 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_XVWCFG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fa3d82b8-aa64-43eb-94ba-931d936cd10f-ezgif.com-video-to-gif-converter.gif",
+            "heading": "EASTER SPECIALS",
+            "heading_1": "",
+            "heading_2": "",
+            "heading_size": "h1",
+            "subheading": "Only until April 1st",
+            "subheading_2": "Easter bundles, enhanced coffee subscriptions, chocolates and easter egg hunt",
+            "button_label": "Find out more",
+            "link": "shopify:\/\/collections\/coffee-gifts",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_nk7yHf",
-        "slide_aeXKVP"
+        "slide_aeXKVP",
+        "slide_XVWCFG"
       ],
       "custom_css": [
         ".button--secondary {border: 2px solid white;}"
