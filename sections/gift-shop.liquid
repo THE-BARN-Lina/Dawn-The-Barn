@@ -217,24 +217,24 @@
 <section class="title-description-container" id="special-frame-container">
   
   {%- if section.settings.main-title != blank -%}
-    <h1 class="rich-text__heading rte" style="margin-bottom:0px;">
+    <h1 class="rich-text__heading rte" style="margin-bottom:0px; z-index: 9999;">
       {{ section.settings.main-title | replace: 'p>', 'span>' }}
     </h1>
   {%- endif -%}
 
   {%- if section.settings.main-description!= blank -%}
-    <p class="rich-text__heading rte">
+    <p class="rich-text__heading rte"  style="z-index: 9999;">
       {{ section.settings.main-description | replace: 'p>', 'span>' }}
     </p>
   {%- endif -%}
 
   {%- if section.settings.secondary-description!= blank -%}
-    <p class="rich-text__heading rte">
+    <p class="rich-text__heading rte" style="z-index: 9999;">
       {{ section.settings.secondary-description | replace: 'p>', 'span>' }}
     </p>
   {%- endif -%}
   {%- if section.settings.third-description!= blank -%}
-    <p class="rich-text__heading rte">
+    <p class="rich-text__heading rte" style="z-index: 9999;">
       {{ section.settings.third-description | replace: 'p>', 'span>' }}
     </p>
   {%- endif -%}
