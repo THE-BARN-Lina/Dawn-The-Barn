@@ -187,7 +187,16 @@
 
 
 
-
+{%- if section.settings.main-title != blank -%}
+  <h1 class="rich-text__heading rte ">
+    {{ section.settings.main-title | replace: 'p>', 'span>' }}
+  </h1>
+{%- endif -%}
+{%- if section.settings.main-main-description!= blank -%}
+  <p class="rich-text__heading rte ">
+    {{ section.settings.main-main-description | replace: 'p>', 'span>' }}
+  </p>
+{%- endif -%}
 
 
 <div class="scroll-container" >
@@ -564,6 +573,18 @@ document.addEventListener('DOMContentLoaded', function() {
     "name":"Gift Shop",
     "class": "section",
     "settings": [
+      {
+        "type": "richtext",
+        "id": "main-title",
+        "default": "<p>main-title</p>",
+        "label": "main-title"
+      },
+      {
+        "type": "richtext",
+        "id": "main-description",
+        "default": "<p>main-description</p>",
+        "label": "main-description"
+      },
       {
           "type": "image_picker",
           "label": "Image",
