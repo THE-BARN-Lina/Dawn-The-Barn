@@ -3,6 +3,30 @@
     "custom_slideshow_hero_a4ArM7": {
       "type": "custom-slideshow-hero",
       "blocks": {
+        "slide_XVWCFG": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fa3d82b8-aa64-43eb-94ba-931d936cd10f-ezgif.com-video-to-gif-converter.gif",
+            "heading": "EASTER SPECIALS",
+            "heading_1": "",
+            "heading_2": "",
+            "heading_size": "h1",
+            "subheading": "Only until April 1st",
+            "subheading_2": "Easter bundles, enhanced coffee subscriptions, chocolates and easter egg hunt",
+            "button_label": "Find out more",
+            "link": "shopify:\/\/collections\/coffee-gifts",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_nk7yHf": {
           "type": "slide",
           "settings": {
@@ -50,36 +74,12 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_XVWCFG": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fa3d82b8-aa64-43eb-94ba-931d936cd10f-ezgif.com-video-to-gif-converter.gif",
-            "heading": "EASTER SPECIALS",
-            "heading_1": "",
-            "heading_2": "",
-            "heading_size": "h1",
-            "subheading": "Only until April 1st",
-            "subheading_2": "Easter bundles, enhanced coffee subscriptions, chocolates and easter egg hunt",
-            "button_label": "Find out more",
-            "link": "shopify:\/\/collections\/coffee-gifts",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary_2": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_XVWCFG",
         "slide_nk7yHf",
-        "slide_aeXKVP",
-        "slide_XVWCFG"
+        "slide_aeXKVP"
       ],
       "custom_css": [
         ".button--secondary {border: 2px solid white;}"
@@ -115,6 +115,39 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 24
+      }
+    },
+    "ede73460-01d6-4be0-bf2c-e2f489f5fb40": {
+      "type": "feature-collection-custom",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "SUBSCRIPTION PLANS",
+        "heading_size": "h1",
+        "description_heading_2": "",
+        "description": "<p>The worlds best coffees on repeat<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "coffee-subscription",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "view_all_label": "View All",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 24,
+        "padding_bottom": 0
       }
     },
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744": {
@@ -182,39 +215,6 @@
         "button_style_secondary_aboutus3": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "ede73460-01d6-4be0-bf2c-e2f489f5fb40": {
-      "type": "feature-collection-custom",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "SUBSCRIPTION PLANS",
-        "heading_size": "h1",
-        "description_heading_2": "",
-        "description": "<p>The worlds best coffees on repeat<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "coffee-subscription",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "view_all_label": "View All",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 24,
-        "padding_bottom": 0
       }
     },
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db": {
@@ -405,9 +405,9 @@
   "order": [
     "custom_slideshow_hero_a4ArM7",
     "custom_hero_from_v12_4pxXPe",
+    "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
     "ee9cdb15-2020-44dc-8a5a-27e5e1f51744",
     "23138f82-deb5-4edd-bcdc-8062abfac1eb",
-    "ede73460-01d6-4be0-bf2c-e2f489f5fb40",
     "ab5deab8-d68c-47d8-9ea8-9a8f781fe6db",
     "8c6b0def-3ad0-4049-ba71-a895f22aa6a2",
     "1653387743507b82e2"
