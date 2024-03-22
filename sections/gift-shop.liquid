@@ -152,36 +152,7 @@
 
 }
 
-#special-frame-container {
-    width: 100%;
-    height: 300px;
-    position: relative; /* This enables absolute positioning of the pseudo-elements relative to this container */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
-  #special-frame-container::before,
-  #special-frame-container::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 50px; /* Width of the stripes, adjust as needed */
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  #special-frame-container::before {
-    left: 0;
-    background-image: url('{{ 'left-egg-stripe.svg' | asset_url }}'); /* Your left stripe image */
-  }
-
-  #special-frame-container::after {
-    right: 0;
-    background-image: url('{{ 'right-egg-stripe.svg' | asset_url }}'); /* Your right stripe image */
-  }
 
 {%- endstyle -%}
 

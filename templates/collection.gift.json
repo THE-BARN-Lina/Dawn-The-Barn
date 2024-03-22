@@ -59,9 +59,10 @@
         "7e367069-124c-4280-bd07-dbad26e1b657",
         "text_BXq8gh"
       ],
-      "disabled": true,
       "custom_css": [
-
+        "h1 {font-family: \"Chalet Comprime\";}",
+        ".rich-text__blocks {max-width: 80rem;}",
+        "@media screen and (max-width: 380px) {.rich-text {display: none; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -100,7 +101,6 @@
         "text_E3mfM3",
         "text_MFPFFe"
       ],
-      "disabled": true,
       "custom_css": [
         "h1 {font-family: \"Chalet Comprime\";}",
         ".rich-text__blocks {max-width: 80rem;}",
@@ -119,12 +119,9 @@
       "type": "gift-shop",
       "custom_css": [
         ".quick-add__submit {background-color: #804d15; color: white;}",
-        "button {--border-offset: #804d15 !important;}",
-        "h1 {font-family: \"Chalet Comprime\";}"
+        "button {--border-offset: #804d15 !important;}"
       ],
       "settings": {
-        "main-title": "<p>FOR THE LOVE OF COFFEE<\/p>",
-        "main-description": "<p>We Love Coffee... And so does a very special person in your life. Now you can give them the perfect give and make their coffee-loving heart sing.<\/p><p>Browse the curated selection of perfect coffee gifts and go down in history as an amazing gift giver!<\/p>",
         "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
         "button_description_0": "<p>All Gifts<\/p>",
         "image_1": "shopify:\/\/shop_images\/Gift_Coffee_Beans.jpg",
