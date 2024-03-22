@@ -168,6 +168,11 @@
     {{ section.settings.main-description | replace: 'p>', 'span>' }}
   </p>
 {%- endif -%}
+{%- if section.settings.secondary-description!= blank -%}
+  <p class="rich-text__heading rte ">
+    {{ section.settings.secondary-description | replace: 'p>', 'span>' }}
+  </p>
+{%- endif -%}
 
 
 <div class="scroll-container" >
@@ -555,6 +560,12 @@ document.addEventListener('DOMContentLoaded', function() {
         "id": "main-description",
         "default": "<p>main-description</p>",
         "label": "main-description"
+      },
+      {
+        "type": "richtext",
+        "id": "secondary-description",
+        "default": "<p>secondary-description</p>",
+        "label": "secondary-description"
       },
       {
           "type": "image_picker",

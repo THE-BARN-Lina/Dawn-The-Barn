@@ -38,16 +38,90 @@
         "padding_bottom": 48
       }
     },
+    "1a713986-dc37-4b66-b5cf-0705458ba228": {
+      "type": "rich-text",
+      "blocks": {
+        "7e367069-124c-4280-bd07-dbad26e1b657": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>FOR THE LOVE OF COFFEE<\/h1>",
+            "heading_size": "h2"
+          }
+        },
+        "text_BXq8gh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We Love Coffee... And so does a very special person in your life. Now you can give them the perfect give and make their coffee-loving heart sing.\u2028\u2028<\/p><p>Browse the curated selection of perfect coffee gifts and go down in history as an amazing gift giver!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7e367069-124c-4280-bd07-dbad26e1b657",
+        "text_BXq8gh"
+      ],
+      "custom_css": [
+        "h1 {font-family: \"Chalet Comprime\";}",
+        ".rich-text__blocks {max-width: 80rem;}",
+        "@media screen and (max-width: 380px) {.rich-text {display: none; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_nTCpqF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_N739zg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>FOR THE LOVE OF COFFEE<\/h1>",
+            "heading_size": "h2"
+          }
+        },
+        "text_E3mfM3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In search of the best Coffee Gifts? Look now further!<\/p><p>Browse our curated selection of amazing coffee gifts and go down in history as an amazing gift giver!<\/p>"
+          }
+        },
+        "text_MFPFFe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Valentine’s Day Special:<\/strong> Buy the Volcan Azul Triple Box and receive a special, hand-crafted Chocolate from Dick & Taylor with your order! Until stock lasts!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_N739zg",
+        "text_E3mfM3",
+        "text_MFPFFe"
+      ],
+      "custom_css": [
+        "h1 {font-family: \"Chalet Comprime\";}",
+        ".rich-text__blocks {max-width: 80rem;}",
+        "@media screen and (min-width: 380px) {.rich-text {display: none; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    },
     "gift_shop_UinW4g": {
       "type": "gift-shop",
       "custom_css": [
         ".quick-add__submit {background-color: #804d15; color: white;}",
-        "button {--border-offset: #804d15 !important;}",
-        "h1{font-family:'Chalet Comprime'}"
+        "button {--border-offset: #804d15 !important;}"
       ],
       "settings": {
-        "main-title": "<p>FOR THE LOVE OF COFFEE<\/p>",
-        "main-description": "<p>We Love Coffee... And so does a very special person in your life. Now you can give them the perfect give and make their coffee-loving heart sing. Browse the curated selection of perfect coffee gifts and go down in history as an amazing gift giver!<\/p>",
         "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
         "button_description_0": "<p>All Gifts<\/p>",
         "image_1": "shopify:\/\/shop_images\/Gift_Coffee_Beans.jpg",
@@ -86,6 +160,8 @@
   "order": [
     "banner",
     "8beb5d87-50a8-4b20-b1c2-5b7a98c52161",
+    "1a713986-dc37-4b66-b5cf-0705458ba228",
+    "rich_text_nTCpqF",
     "gift_shop_UinW4g"
   ]
 }
