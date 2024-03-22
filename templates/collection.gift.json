@@ -101,11 +101,7 @@
         "text_E3mfM3",
         "text_MFPFFe"
       ],
-      "custom_css": [
-        "h1 {font-family: \"Chalet Comprime\";}",
-        ".rich-text__blocks {max-width: 80rem;}",
-        "@media screen and (min-width: 380px) {.rich-text {display: none; }}"
-      ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

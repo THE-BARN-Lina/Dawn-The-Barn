@@ -1198,3 +1198,53 @@ a.product__text {
 .rc_container {
   display: none;
 }
+
+/*custom image adding code for product image badges*/
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  30% {
+    transform: rotate(-7deg);
+  }
+  40% {
+    transform: rotate(7deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+}
+
+.custom-badge::after {
+  position: absolute;
+  content: " ";
+  background: transparent
+    url(https://cdn.shopify.com/s/files/1/0831/4141/files/THE_BARN_Easter_Hunt.png?v=1711025342)
+    no-repeat center/contain;
+  top: 7px;
+  right: -2px;
+  width: 20%;
+  height: 20%;
+  pointer-events: none;
+  animation: shake 1.5s infinite; /* Added 'infinite' to make the animation loop */
+}
+
+.card .custom-badge::after {
+  animation: shake 1.5s infinite; /* Added 'infinite' to make the animation loop */
+}
+
+@media screen and (max-width: 767px) {
+    .custom-badge::after {
+        top: 5px;
+        left: 148px; 
+        width: 20%;  
+        height: 20%; 
+    }
+}
