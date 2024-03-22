@@ -43,12 +43,12 @@
       "custom_css": [
         ".quick-add__submit {background-color: #804d15; color: white;}",
         "button {--border-offset: #804d15 !important;}",
-        "h1{font-family:'Chalet Comprime'}"
+        "h1 {font-family: \"Chalet Comprime\";}"
       ],
       "settings": {
         "main-title": "<p>FOR THE LOVE OF COFFEE<\/p>",
         "main-description": "<p>We Love Coffee... And so does a very special person in your life. Now you can give them the perfect give and make their coffee-loving heart sing.<\/p>",
-        "secondary-description": "<p>Browse the curated selection of perfect coffee gifts and go down in history as an amazing gift giver!<\/p>",
+        "secondary-description": "<p><strong>EASTER SPECIAL:<\/strong> Our Coffe Subscriptions just got upgraded by the Easter Bunny 🐇 and he just dropped a special Easter Bundle. Not to mention the <strong>Easter Egg hunt<\/strong> — if you order any of the Coffee Beans marked with an Easter egg, you will receive a special Coffee Sample.<br\/><strong><br\/>Happy Easter!<\/strong><\/p>",
         "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
         "button_description_0": "<p>All Gifts<\/p>",
         "image_1": "shopify:\/\/shop_images\/Gift_Coffee_Beans.jpg",
