@@ -195,7 +195,7 @@
     content: "";
     position: absolute;
     top: 0;
-    width: 100px; /* Width of the stripes, adjust as needed */
+    width: 80px; /* Width of the stripes, adjust as needed */
     height: 500px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -203,12 +203,12 @@
   }
 
   #special-frame-container::before {
-    left: -2rem;
+    left: 0;
     background-image: url('{{ 'left-egg-stripe.svg' | asset_url }}'); /* Your left stripe image */
   }
 
   #special-frame-container::after {
-    right: -2rem;
+    right: 0;
     background-image: url('{{ 'right-egg-stripe.svg' | asset_url }}'); /* Your right stripe image */
   }
 
