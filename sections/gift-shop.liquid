@@ -180,7 +180,7 @@
 
 #special-frame-container {
     width: 100%;
-    height: 300px;
+    height: 400px;
     position: relative; /* This enables absolute positioning of the pseudo-elements relative to this container */
     display: flex;
     justify-content: center;
@@ -192,20 +192,20 @@
     content: "";
     position: absolute;
     top: 0;
-    width: 50px; /* Width of the stripes, adjust as needed */
-    height: 100%;
+    width: 65px; /* Width of the stripes, adjust as needed */
+    height: 400px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   #special-frame-container::before {
-    left: 0;
+    left: -2rem;
     background-image: url('{{ 'left-egg-stripe.svg' | asset_url }}'); /* Your left stripe image */
   }
 
   #special-frame-container::after {
-    right: 0;
+    right: -2rem;
     background-image: url('{{ 'right-egg-stripe.svg' | asset_url }}'); /* Your right stripe image */
   }
 
@@ -214,7 +214,7 @@
 <section class="title-description-container" id="special-frame-container">
   
   {%- if section.settings.main-title != blank -%}
-    <h1 class="rich-text__heading rte">
+    <h1 class="rich-text__heading rte" style="margin-bottom:0px;">
       {{ section.settings.main-title | replace: 'p>', 'span>' }}
     </h1>
   {%- endif -%}
