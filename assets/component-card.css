@@ -362,7 +362,7 @@
 @media screen and (max-width: 767px) {
     .custom-badge::after {
         top: 5px;
-        left: 148px; 
+        /*left: 148px;*/
         width: 20%;  
         height: 20%; 
     }
