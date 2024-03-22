@@ -204,14 +204,23 @@
 
   #special-frame-container::before {
     left: 0;
-    background-image: url('{{ 'left-egg-stripe.svg' | asset_url }}'); /* Your left stripe image */
+    background-image: url('{{ 'gift-left-egg-stripe-mobile.svg' | asset_url }}'); /* Your left stripe image */
   }
 
   #special-frame-container::after {
     right: 0;
-    background-image: url('{{ 'right-egg-stripe.svg' | asset_url }}'); /* Your right stripe image */
+    background-image: url('{{ 'gift-right-egg-stripe-mobile.svg' | asset_url }}'); /* Your right stripe image */
   }
+/* Desktop version: Adjust the breakpoint as needed */
+  @media (min-width: 1024px) {
+    #special-frame-container::before {
+      background-image: url('{{ 'gift-left-egg-stripe-desktop.svg' | asset_url }}'); /* Desktop left stripe image */
+    }
 
+    #special-frame-container::after {
+      background-image: url('{{ 'gift-right-egg-stripe-desktop.svg' | asset_url }}'); /* Desktop right stripe image */
+    }
+  }
 
 {%- endstyle -%}
 <section class="title-description-container" id="special-frame-container">
@@ -240,9 +249,6 @@
   {%- endif -%}
 
 </section>
-
-
-
 
 <div class="scroll-wrapper" >
       <div class="filter-buttons">
@@ -389,7 +395,7 @@
 
     </div>
   </div>
-</div>
+
 
 <div class="section-{{ section.id }}-padding main-container-espresso">
   {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
@@ -540,8 +546,6 @@
 </section>
 
 
-
-
 <script>
   // Cache the query for performance improvement
   const products = document.querySelectorAll('.grid__item');
@@ -571,41 +575,40 @@
   }
 </script>
 
-<!-- JavaScript for toggling visibility -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  var urlPath = window.location.pathname;
-  var isGerman = urlPath.includes('/de');
-  
-  // Hide or show language-specific texts based on the URL
-  document.querySelectorAll('.en-text').forEach(function(enText) {
-    enText.style.display = isGerman ? 'none' : 'block';
-  });
-  document.querySelectorAll('.de-text').forEach(function(deText) {
-    deText.style.display = isGerman ? 'block' : 'none';
-  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var urlPath = window.location.pathname;
+    var isGerman = urlPath.includes('/de');
+    
+    // Hide or show language-specific texts based on the URL
+    document.querySelectorAll('.en-text').forEach(function(enText) {
+      enText.style.display = isGerman ? 'none' : 'block';
+    });
+    document.querySelectorAll('.de-text').forEach(function(deText) {
+      deText.style.display = isGerman ? 'block' : 'none';
+    });
 
-  // Existing button functionality for showing/hiding feature-collection-text blocks
-  var buttons = document.querySelectorAll('.toggleButton');
-  buttons.forEach(function(button) {
-    button.addEventListener('click', function() {
-      // Hide all text blocks first
-      document.querySelectorAll('.feature-collection-text').forEach(function(text) {
-        text.style.display = 'none';
+    // Existing button functionality for showing/hiding feature-collection-text blocks
+    var buttons = document.querySelectorAll('.toggleButton');
+    buttons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        // Hide all text blocks first
+        document.querySelectorAll('.feature-collection-text').forEach(function(text) {
+          text.style.display = 'none';
+        });
+        
+        // Show the targeted text block
+        var targetId = this.getAttribute('data-target');
+        var targetText = document.getElementById(targetId);
+        if (targetText) {
+          targetText.style.display = 'block';
+          // Ensure only the appropriate language text is shown within the block
+          targetText.querySelector('.en-text').style.display = isGerman ? 'none' : 'block';
+          targetText.querySelector('.de-text').style.display = isGerman ? 'block' : 'none';
+        }
       });
-      
-      // Show the targeted text block
-      var targetId = this.getAttribute('data-target');
-      var targetText = document.getElementById(targetId);
-      if (targetText) {
-        targetText.style.display = 'block';
-        // Ensure only the appropriate language text is shown within the block
-        targetText.querySelector('.en-text').style.display = isGerman ? 'none' : 'block';
-        targetText.querySelector('.de-text').style.display = isGerman ? 'block' : 'none';
-      }
     });
   });
-});
 
 </script>
 
