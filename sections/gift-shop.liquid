@@ -152,27 +152,36 @@
 
 }
 
+.title-description-container{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  width:100%;
+}
 
 
 {%- endstyle -%}
+<section class="title-description-container">
+  
+  {%- if section.settings.main-title != blank -%}
+    <h1 class="rich-text__heading rte">
+      {{ section.settings.main-title | replace: 'p>', 'span>' }}
+    </h1>
+  {%- endif -%}
 
+  {%- if section.settings.main-description!= blank -%}
+    <p class="rich-text__heading rte">
+      {{ section.settings.main-description | replace: 'p>', 'span>' }}
+    </p>
+  {%- endif -%}
 
+  {%- if section.settings.secondary-description!= blank -%}
+    <p class="rich-text__heading rte">
+      {{ section.settings.secondary-description | replace: 'p>', 'span>' }}
+    </p>
+  {%- endif -%}
 
-{%- if section.settings.main-title != blank -%}
-  <h1 class="rich-text__heading rte ">
-    {{ section.settings.main-title | replace: 'p>', 'span>' }}
-  </h1>
-{%- endif -%}
-{%- if section.settings.main-description!= blank -%}
-  <p class="rich-text__heading rte ">
-    {{ section.settings.main-description | replace: 'p>', 'span>' }}
-  </p>
-{%- endif -%}
-{%- if section.settings.secondary-description!= blank -%}
-  <p class="rich-text__heading rte ">
-    {{ section.settings.secondary-description | replace: 'p>', 'span>' }}
-  </p>
-{%- endif -%}
+</section>
 
 
 
