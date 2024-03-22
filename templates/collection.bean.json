@@ -47,10 +47,17 @@
             "heading": "<p>CHOOSE YOUR FAVOURITE<\/p>",
             "heading_size": "h2"
           }
+        },
+        "text_R3HX7i": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Easter Egg hunt: <\/strong> If you order any of the Coffee Beans marked with an Easter egg, you will receive a special Coffee Sample.<\/p>"
+          }
         }
       },
       "block_order": [
-        "7e367069-124c-4280-bd07-dbad26e1b657"
+        "7e367069-124c-4280-bd07-dbad26e1b657",
+        "text_R3HX7i"
       ],
       "custom_css": [
         ".rich-text {padding-left: 0;}",
