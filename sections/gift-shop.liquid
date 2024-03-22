@@ -28,6 +28,16 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}
     px;
   }
+
+  .title-description-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    width: 100%;
+ 
+  
+  }
   .scroll-container {
     display: flex;
     flex-direction:column;
@@ -149,15 +159,22 @@
       background: none;
       border:none;
   }
+ 
 
+  .title-description-container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    width: 100%;
+  
+  
+  }
 }
 
-.title-description-container{
-  display:flex;
-  flex-direction: column;
-  align-items:center;
-  width:100%;
-}
+
+
+
 
 
 {%- endstyle -%}
