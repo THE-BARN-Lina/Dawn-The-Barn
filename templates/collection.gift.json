@@ -61,9 +61,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        "h1 {font-family: \"Chalet Comprime\";}",
-        ".rich-text__blocks {max-width: 80rem;}",
-        "@media screen and (max-width: 380px) {.rich-text {display: none; }}"
+
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -121,7 +119,8 @@
       "type": "gift-shop",
       "custom_css": [
         ".quick-add__submit {background-color: #804d15; color: white;}",
-        "button {--border-offset: #804d15 !important;}"
+        "button {--border-offset: #804d15 !important;}",
+        "h1 {font-family: \"Chalet Comprime\";}"
       ],
       "settings": {
         "main-title": "<p>FOR THE LOVE OF COFFEE<\/p>",
