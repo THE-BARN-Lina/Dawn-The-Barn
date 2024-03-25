@@ -1,0 +1,21 @@
+{% comment %}ly_global_begin{% endcomment %}
+{%- capture ly-global-content %}{% render 'ly-global' render:true %}{% endcapture -%}
+{%- assign ly-global-content = ly-global-content | split: '#ly#' -%}
+{%- assign langify_title = ly-global-content[0] -%}
+{%- assign langify_description = ly-global-content[1] -%}
+{%- assign langify_shop_name = ly-global-content[2] -%}
+{%- assign langify_shop_description = ly-global-content[3] -%}
+{%- assign canonical_langify_url = ly-global-content[4] -%}
+{%- assign langify_shop_url = ly-global-content[5] -%}
+{%- assign langify_shop_domain = ly-global-content[6] -%}
+{% comment %}ly_global_end{% endcomment %}
+{% comment %}ly_asset_replace_for_[ 'WcsubWidget-styles.css' | asset_url | stylesheet_tag ]_begin{% endcomment %}
+{%- assign ly_asset = 'WcsubWidget-styles.css' -%}
+{%- capture ly_translation %}{% render 'ly-asset' with ly_asset render:true %}{% endcapture -%}
+{{- ly_translation | stylesheet_tag -}}
+{% comment %}ly_asset_replace_end{% endcomment %}
+
+{% section 'subscription_new' %}
+{% section 'subscription_icon_text' %}
+{% section 'subflow_new' %}
+{% section 'subscription_new_2' %}
