@@ -1,6 +1,182 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% comment %}ly_global_begin{% endcomment %}
+{%- capture ly-global-content %}{% render 'ly-global' render:true %}{% endcapture -%}
+{%- assign ly-global-content = ly-global-content | split: '#ly#' -%}
+{%- assign langify_title = ly-global-content[0] -%}
+{%- assign langify_description = ly-global-content[1] -%}
+{%- assign langify_shop_name = ly-global-content[2] -%}
+{%- assign langify_shop_description = ly-global-content[3] -%}
+{%- assign canonical_langify_url = ly-global-content[4] -%}
+{%- assign langify_shop_url = ly-global-content[5] -%}
+{%- assign langify_shop_domain = ly-global-content[6] -%}
+{% comment %}ly_global_end{% endcomment %}
+<h2 class="prod_select_hed specialOffersTitle">{{ section.settings.title }}</h2>
+<div class="sub_outer">
+  <div class="sub_inner sub_inner_1">
+    <div class="sub_inner_content">
+      <h2 class="sub_hed">{{ section.settings.heading_subscribe }}</h2>
+      <p class="sub_desc">{{ section.settings.subhead_subscribe }}</p>
+      {%- if section.settings.btn_subscribe != blank -%}
+        <a class="btn btn_subscribe" href="{{section.settings.btn_subscribe_link}}">
+          {{- section.settings.btn_subscribe -}}
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+  {% if section.settings.show_two %}
+    <div class="sub_inner sub_inner_2">
+      <div class="sub_inner_content">
+        <h2 class="sub_hed">{{ section.settings.heading_subscribe_2 }}</h2>
+        <p class="sub_desc">{{ section.settings.subhead_subscribe_2 }}</p>
+        {%- if section.settings.btn_subscribe_2 != blank -%}
+          <a class="btn btn_subscribe" href="{{section.settings.btn_subscribe_link_2}}">
+            {{- section.settings.btn_subscribe_2 -}}
+          </a>
+        {%- endif -%}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<style>
+  {%- if section.settings.back_image_sub != null -%}
+  .sub_outer{
+    justify-content: center;
+
+
   }
+  .sub_div_2 .sub_inner_1{
+    background-image: url("{{section.settings.back_image_sub | img_url:'master'}}");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position:relative;
+      }
+  {%- if section.settings.sub_bg_overlay -%}
+  .sub_div_2 .sub_inner_1:before{
+    content:'';
+    position: absolute;
+    width:100%;
+    top:0;
+    left:0;
+    height:100%;
+    background:#000;
+    opacity:0.4;
+  }
+  {%- endif -%}
+  {%- endif -%}
+  {%- if section.settings.back_image_sub_2 != null -%}
+  .sub_div_2 .sub_inner_2{
+    background-image: url("{{section.settings.back_image_sub_2 | img_url:'master'}}");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position:relative;
+      }
+  {%- if section.settings.sub_bg_overlay_2 -%}
+  .sub_div_2 .sub_inner_2:before{
+    content:'';
+    position: absolute;
+    width:100%;
+    top:0;
+    left:0;
+    height:100%;
+    background:#000;
+    opacity:0.4;
+  }
+  {%- endif -%}
+  {%- endif -%}
+</style>
+
+{% schema %}
+ {
+   "name": "Subscription Bottom",
+"class":"subscription_sec sub_div_2",
+   "settings": [
+	{
+		"type": "text",
+		"id": "title",
+		"label": "Heading",
+		"default": "SPECIAL OFFERS"
+	},
+	{
+		"type":"header",
+		"content":"Left Section"
+	},
+	{
+	  "type":"image_picker",
+	  "id":"back_image_sub",
+	  "label":"background Image"
+	},
+	{
+	  "type":"checkbox",
+	  "id":"sub_bg_overlay",
+	  "label":"Backgorund Overlay"
+	},
+	{
+         "type":"text",
+         "id":"heading_subscribe",
+         "label":"Heading"
+	},
+	{
+         "type":"textarea",
+         "id":"subhead_subscribe",
+         "label":"Sub Heading"
+	},
+	{
+         "type":"text",
+         "id":"btn_subscribe",
+         "label":"Button Heading"
+	},
+	{
+	  "type":"url",
+	  "id":"btn_subscribe_link",
+         "label":"Button Link"
+	},
+	{
+	  "type":"checkbox",
+	  "id":"show_two",
+	  "label":"Show Second Subscription"
+	},
+	{
+		"type":"header",
+		"content":"Right Section"
+	},
+	{
+	  "type":"image_picker",
+	  "id":"back_image_sub_2",
+	  "label":"background Image"
+	},
+	{
+	  "type":"checkbox",
+	  "id":"sub_bg_overlay_2",
+	  "label":"Backgorund Overlay"
+	},
+	{
+         "type":"text",
+         "id":"heading_subscribe_2",
+         "label":"Heading"
+	},
+	{
+         "type":"textarea",
+         "id":"subhead_subscribe_2",
+         "label":"Sub Heading"
+	},
+	{
+         "type":"text",
+         "id":"btn_subscribe_2",
+         "label":"Button Heading"
+	},
+	{
+	  "type":"url",
+	  "id":"btn_subscribe_link_2",
+         "label":"Button Link"
+	}
+]
+ }
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
