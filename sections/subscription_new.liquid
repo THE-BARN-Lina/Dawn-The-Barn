@@ -1,0 +1,167 @@
+{% comment %}ly_global_begin{% endcomment %}
+{%- capture ly-global-content %}{% render 'ly-global' render:true %}{% endcapture -%}
+{%- assign ly-global-content = ly-global-content | split: '#ly#' -%}
+{%- assign langify_title = ly-global-content[0] -%}
+{%- assign langify_description = ly-global-content[1] -%}
+{%- assign langify_shop_name = ly-global-content[2] -%}
+{%- assign langify_shop_description = ly-global-content[3] -%}
+{%- assign canonical_langify_url = ly-global-content[4] -%}
+{%- assign langify_shop_url = ly-global-content[5] -%}
+{%- assign langify_shop_domain = ly-global-content[6] -%}
+{% comment %}ly_global_end{% endcomment %}
+<div
+  class="section-hero lazyload"
+  {% if section.settings.back_image_sub %}
+    data-bgset="{% include 'bgset', image: section.settings.back_image_sub %}"
+    data-sizes="auto"
+    data-parent-fit="cover"
+    style="background-position: center center; background-image: url('{{ section.settings.back_image_sub | img_url: '300x300' }});"
+  {% endif %}
+>
+  <div class="sub_outer page-width">
+    <h2 class="sub_hed">{{ section.settings.heading_subscribe }}</h2>
+    <p class="sub_desc">{{ section.settings.subhead_subscribe }}</p>
+    {%- if section.settings.btn_subscribe != blank -%}
+      <div class="navigation-parent">
+        <a id="subs-info" class="navigation-buttons">
+          <p class="navigation-labels">
+            {{ section.settings.btn_subscribe -}}
+            {%- if section.settings.btn_is_automated %}{{ 'now' | date: '%B' | prepend: ' ' }}{% endif %}
+          </p>
+        </a>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+<style>
+
+    .navigation-parent
+    {
+    	display:flex;
+    	justify-content: space-around;
+    }
+    .sub_hed{
+     text-align: center;
+    }
+    .sub_desc{
+    text-align: center;
+    }
+
+     .navigation-buttons {
+      background-color: white;
+      width: 200px;
+      height: 50px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      margin: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .navigation-buttons:hover {
+      color: black;
+      text-transform: uppercase;
+      background-color: #dedede;
+      /*background-color: #402910;*/
+      transition: background-color 0.2s ease;
+    }
+
+    .navigation-labels {
+      color: black;
+      font-family: Raleway,sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      white-space: normal;
+      font-size: 14px;
+  }
+
+
+    main#MainContent {
+      padding-top: 0;
+    }
+    {%- if section.settings.back_image_sub != blank -%}
+      /* div#shopify-section-subscription_new {
+        background-image: url("{{section.settings.back_image_sub | img_url:'master'}}");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+      } */
+      {%- if section.settings.sub_bg_overlay -%}
+        div#shopify-section-subscription_new .section-hero {
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        div#shopify-section-subscription_new .section-hero:before {
+          content:'';
+          position: absolute;
+          width:100%;
+          top:0;
+          left:0;
+          height:100%;
+          background:#000;
+          opacity: {{ section.settings.image_overlay_opacity | times: 0.01 }};
+        }
+      {%- endif -%}
+    {%- endif -%}
+</style>
+
+{% schema %}
+{
+  "name": "Select Subscription",
+  "class": "subscription_sec",
+  "settings": [{
+      "type": "image_picker",
+      "id": "back_image_sub",
+      "label": "background Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "sub_bg_overlay",
+      "label": "Backgorund Overlay"
+    },
+    {
+      "type": "range",
+      "id": "image_overlay_opacity",
+      "label": "Opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "default": 40
+    },
+    {
+      "type": "text",
+      "id": "heading_subscribe",
+      "label": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "subhead_subscribe",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "text",
+      "id": "btn_subscribe",
+      "label": "Button Heading"
+    },
+    {
+      "type": "url",
+      "id": "btn_subscribe_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "checkbox",
+      "id": "btn_is_automated",
+      "label": "Use Automated Month"
+    }
+  ]
+}
+{% endschema %}
