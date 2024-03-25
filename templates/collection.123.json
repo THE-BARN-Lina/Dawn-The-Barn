@@ -1,0 +1,364 @@
+{
+  "wrapper": "div#div_id.page-width",
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-2"
+      }
+    },
+    "8beb5d87-50a8-4b20-b1c2-5b7a98c52161": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17938059460875__8beb5d87-50a8-4b20-b1c2-5b7a98c52161-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h6><a href=\"\/\" title=\"\/\">Home<\/a> &gt;<a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\"> Coffee Beans<\/a><\/h6>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17938059460875__8beb5d87-50a8-4b20-b1c2-5b7a98c52161-heading-1"
+      ],
+      "custom_css": [
+        ".rich-text {padding-top: 0; padding-left: 0;}",
+        ".rich-text__blocks > * {font-weight: 100;}",
+        ".rich-text__wrapper {padding-left: 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 48
+      }
+    },
+    "1a713986-dc37-4b66-b5cf-0705458ba228": {
+      "type": "rich-text",
+      "blocks": {
+        "7e367069-124c-4280-bd07-dbad26e1b657": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>CHOOSE YOUR FAVOURITE<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "text_R3HX7i": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Easter Egg hunt: <\/strong> If you order any of the Coffee Beans marked with an Easter egg, you will receive a special Coffee Sample.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7e367069-124c-4280-bd07-dbad26e1b657",
+        "text_R3HX7i"
+      ],
+      "custom_css": [
+        ".rich-text {padding-left: 0;}",
+        "@media (max-width: 410px) {.rich-text h2 {display: flex; flex-direction: column; align-items: left; justify-content: left; text-align: left; } .rich-text__wrapper {padding-left: 0; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 16
+      }
+    },
+    "4a7462f3-1c39-492f-90cd-a6b4c15e80ff": {
+      "type": "coffee-beans-circles-filters",
+      "blocks": {
+        "54e5d10b-4703-4c17-a9e5-8f1d5279403f": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
+            "button_text": "Espresso",
+            "button_link": "shopify:\/\/collections\/espresso-coffee-beans"
+          }
+        },
+        "1f32ae64-b90c-44bd-97ef-0e12d728d2f8": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
+            "button_text": "Filter",
+            "button_link": "shopify:\/\/collections\/filter-coffee"
+          }
+        },
+        "af0ddf71-9308-4059-83d9-f59ed25b2a2f": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Subscriptions_Circle_Filter.jpg",
+            "button_text": "Subscriptions",
+            "button_link": "shopify:\/\/collections\/coffee-subscription"
+          }
+        },
+        "f0d2e206-0115-4993-a74f-034b0f8a5f60": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coffee_Specials_Circle_Filter_e09438f6-e62e-432d-8206-6d035ed0e116.jpg",
+            "button_text": "Specials",
+            "button_link": "shopify:\/\/collections\/coffee-beans-specials"
+          }
+        },
+        "297ce8b4-71da-41a1-98c6-aa83007f32d4": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/laurinacover_2.jpg",
+            "button_text": "Low Caf",
+            "button_link": "shopify:\/\/collections\/low-caf-coffee-beans"
+          }
+        }
+      },
+      "block_order": [
+        "54e5d10b-4703-4c17-a9e5-8f1d5279403f",
+        "1f32ae64-b90c-44bd-97ef-0e12d728d2f8",
+        "af0ddf71-9308-4059-83d9-f59ed25b2a2f",
+        "f0d2e206-0115-4993-a74f-034b0f8a5f60",
+        "297ce8b4-71da-41a1-98c6-aa83007f32d4"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16609093955d46716e": {
+      "type": "bean-collection-product-grid",
+      "custom_css": [
+        "@media screen and (max-width: 520px) {.card_tastnote_text {display: none; } .card__50_50__grid {padding-bottom: 0; min-height: 0px; } .card__information {width: 100%; grid-row-start: 2; padding: 1.3rem 0.4rem; color: #fff; } .card__50_50__grid {grid-template-columns: 1fr 1fr; column-gap: 0.4rem; } .card--card .quick-add {min-width: 140px; margin: 0 0.4rem 0.4rem; }}",
+        "@media screen and (min-width: 520px) {.card-information .caption {display: none; }}"
+      ],
+      "settings": {
+        "products_per_page": 64,
+        "columns_desktop": 3,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_tastenotes": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "quick_add_button_color": "#804d15",
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "a9608a96-2b9c-474b-bc96-4ce2504bf1ba": {
+      "type": "rich-text",
+      "blocks": {
+        "56c89b28-9917-4b67-a4c9-5199eed835af": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>LEARN ABOUT US<\/h3>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "56c89b28-9917-4b67-a4c9-5199eed835af"
+      ],
+      "custom_css": [
+        "h3 {color: rgba(255, 255, 255, 0.75);}",
+        "@media screen and (min-width: 990px) {h3 {font-size: 20px; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "4124a9d7-7910-428b-a05f-f8b4e4879abc": {
+      "type": "coffee-beans-main-seo",
+      "settings": {
+      }
+    },
+    "03c3a901-f704-411d-8317-944644c86e30": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are freshly roasted coffee beans important for your coffee?",
+            "icon": "check_mark",
+            "row_content": "<p>First of all: The better the coffee beans - the better the cup of coffee. Thats easy! So, what are important factors to bear in mind when brewing a delicious cup of coffee? Freshness of coffee beans is certainly an major quality point. <\/p><p>Thats why we print the roast date (plus batch number) on the back of our bean bags. So, when are they are too old? Our guidance is that the best flavour experience is guaranteed in the first 3 months after roast date. <\/p><p>Given that you store the beans correctly (room temperature, sealed bag, no sunlight). Once the bag was opened, we recommend enjoying your beans within 10 days. Having said all this: Light roasted coffee degases slower than dark roasted coffee. Even though you may have surpassed the 3 months, your coffee will still taste a lot better than regular coffee you buy in the supermarkets. <\/p><p>Essentially, it never really goes bad. It just gets weaker in flavour expression. What are other major factors to brew the best cup of coffee: Number one has to be the water. It is more than 95% of the beverage. <\/p><p>Check out our water guide but make sure you have well-filtered water (without any added minerals, if you go for bottled). Secondly, the grind setting is crucial. The more we break the beaan into pieces, the more surface we offer the water for extraction. <\/p><p>Thats why espresso is very fine in grind (you only have around 30 seconds for extraction under high pressure). <\/p><p>And thats why the french press is so coarse (you have 4-5 minutes without any pressure during extraction). Other factors are: agitation and water temperature.      <\/p>",
+            "page": ""
+          }
+        },
+        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I choose my coffee?",
+            "icon": "check_mark",
+            "row_content": "<p>As much as we love all our coffees: Taste is subjective. But we can guide you to make the right choices. Thats why you find the two main flavours of each coffee on the front label of the bag. We are adding a third piece: A tactile note. <\/p><p>You find words like: creamy, velvety or elegant - on our bags. They guide you with regards to the mouthfeel of each coffee. On our coffee cards (and on our webshop) we expand on the description of the cup profile plus we evaluate four key elements in each cup: On a scale from 1 to 10, we indicate the intensity of: balance, sweetness, body and acidity. <\/p><p>To make chosing your favourite coffee category super easy on our webshop, we have created 3 main flavour categories: Balanced. Terroir. Exotic. Our beans are sourced from coffee farms we trust, then roasted and shipped to ensure freshness and optimal flavour. <\/p>",
+            "page": ""
+          }
+        },
+        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is coffee processing?",
+            "icon": "check_mark",
+            "row_content": "<p>Coffee processing happens at farm level. Processing takes place after the ripe coffee cherries are being picked. The two most common processing styles are wet (washed) or dry (natural). <\/p><p>Most of the times, the processing has its roots in the traditional way that coffee is being treated locally and culturally at origin. In Kenya, almost all coffees are being processed wet. <\/p><p>In Ethiopia we have a high ratio of dry processing. Access to water or traditional ways are leading reasons. In wet processing, cherries are being removed from the beans (with mechanical depulpers or water-pressure depulpers). After that, the coffee beans are placed overnight into water tanks. Fermentation takes places under water. After 24 hours (or more, depending on temperature and climate), a second wash may take place. After that, the beans are graded in Grading Channels, followed by further quality sorting and drying on raised African beds. Slow drying is important to ensure intact bean shells (to keep all flavours inside of the beans). Most of our coffee portfolio is now dry or naturally processed. In dry processing, the beans have very little contact with water: literally only at delivery point of the cherries, they are put into water buckets to remove floaters. Floaters are coffee cherries that may look ripe but are not fully ripe. Thats why they float. We remove them because they have lower qualities. The coffee beans are being dried on raised African beds and in cherry. It is important that the cherries are placed in thin layers and they need to be moved regularly. That way, we can create super clean cup profiles. We love naturally processed coffees not only because they are more environmental friendly. But they are also very aromatic, have high sweetness and very balanced acidity. With growing relationships and the quality development of our coffee producers, they engage in modern processing styles, such as anaerobics, honey, carbonic marceration and so on. With those methods, coffee producers have an opportunity to create additional flavour notes that may increase the scoring of the final cup. Innovative methods are also a great way of working around the challenges of climate change. <\/p>",
+            "page": ""
+          }
+        },
+        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is a coffee varietal?",
+            "icon": "check_mark",
+            "row_content": "<p>Like in wine, we have different grapes in coffee. The varietal tree of arabica coffee keeps spreading: From heirloom and other natural varietals, coffee travelled with colonialism. <\/p><p>From there, new varietals were cross-bred to adjust to soil, increase yield or flavour or to pretect coffee from diseases. Sizes, hardness, density, sweetness, acidity and flavour characteristics vary massively and it is a joy not only to discover different varietals but also to try a varietal on different soil, processing or country of origin. <\/p><p>Some of our more advanced farm partners have varietal gardens where they experiment over many years, what varietal suits best their soil and climate. Based on that, they then look at processing to offer a vast range of flavour profiles, coming from the same farm and soil.    <\/p>",
+            "page": ""
+          }
+        },
+        "70761c91-5037-441b-9f31-b0d3a0d6e0b6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer decaf coffee beans?",
+            "icon": "check_mark",
+            "row_content": "<p>Decaf Coffee undergoes a process that we find has two negative effects: It leaves a negative footprint in terms of environmental impact. It also takes away a lot of the exciting natural flavour profile of the coffee it once was. <\/p><p>While we are aware that new technologies can achieve less impact and improved cup profiles, there is still a wide gap between a decaf and a natural coffee. The good news is: There is a natural solution. <\/p><p>There are two varietals that naturally contain less caffeine: Laurina (0.2-0.4%) and Aramosa (0.5-0.7%). This compares with around 1.4-1.8% of caffeine that occurs in regular arabica coffee beans. <\/p><p>And compared to over 2.0% in robusta beans. We started our Low Caf program in 2018, offering those two varietals for those who are more sensitive to caffeine. <\/p><p>Mind you: Even Decaf Coffee has traces of caffeine. With our Low Caf you cut out a minimum of 50% of caffeine in your beverage. Whilst enjoying the whole world of natural coffee flavours.   <\/p>",
+            "page": ""
+          }
+        },
+        "34c5e002-7707-4f0b-b318-2e9c74585e65": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer pre-ground coffee?",
+            "icon": "check_mark",
+            "row_content": "<p>The simple answer is: No. And there is a good reason for that. Each bean is carefully treated ever since it was being removed from the protecting coffee cherry. <\/p><p>During fermentation, sorting and drying we make sure that the beans do not crack. For example from having too much heat on the drying beds. <\/p><p>Keeping the shell intact means that we keep all of the flavours and oils inside the coffee bean. We roast them slowly and gently so we can develop flavours, sweetness, acidity and body from inside the bean. <\/p><p>When we grind a coffee, we crack open this beautiful seed and from that moment, flavours and oils are exposed to oxygen. And from that moment, the flavour potential starts weakening. So the best coffee experience you can have is when you grind your beans just before brewing your coffee. <\/p><p>We strongly believe in that and we want to present our coffees in the best possible way to you. There is a second reason: In order to extract your coffee perfectly, you should adjust the grind setting to your method, machine, water and waterpressure. <\/p><p>This is best done by yourself at home, in the office or when you travel. We do offer great handgrinders that we recommend for perfect grind distribution. Grinding coffee beans right before brewing ensures a unique and flavourful coffee experience.<\/p>",
+            "page": ""
+          }
+        },
+        "424e3cf3-0c89-4c45-a1d0-728729f388fa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the best way to store coffee beans?",
+            "icon": "check_mark",
+            "row_content": "<p>To keep your coffee beans fresh and full of flavour, it is essential to store them properly. <\/p><p>Our signature coffee bags have a one-way valve which ensures your coffee beans do not oxidise: only coffee gases exit the bag and no oxygen can come in. <\/p><p>Once you have opened the bag, use the zipper to close it after use. Store your coffee beans in a dry place and at room temperature. In case you prefer to put your beans into a jar or such, make sure its not glass or transparent. <\/p><p>Sunlight will make coffee beans age quicker. A perfect coffee jar has a vacuum function, such as the Atmos by Fellow. It is recommended to grind the beans just before brewing for the best coffee experience: The moment the coffee has been ground, it start losing flavours. <\/p><p>Essentially, the seed has been cracked so that the protected oils and the inside of the beautiful bean is exposed to oxygen. <\/p><p>Avoid storing coffee in the refrigerator or freezer, as these environments can introduce moisture and cause condensation on the coffee, potentially affecting the taste. If you still want to freeze your beans, do it in small quantities, so that when you defrost them, you enjoy them all the same day. <\/p><p>Do not freeze beans twice!<\/p>",
+            "page": ""
+          }
+        },
+        "71e3c66f-d063-42f3-9a96-a6cbc038eb03": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What should I consider when buying coffee beans online?",
+            "icon": "check_mark",
+            "row_content": "<p>When purchasing our coffee beans online, follow our guidance so you will chose the perfect coffee for yourself. <\/p><p>Our bean collection is split between filter and espresso roasts. While we find these two roast styles important so you can easier chose based on your brewing method, there are many coffee fans that love our espresso roast on filter brewing methods and vice versa. <\/p><p>Both are light in style. The only difference is that the espresso roast has a slightly longer roast time and is roasted in a slightly larger machine. Which brings the body and sweetness to the forefront.<\/p><p> Our filter roasts are shorter and they highlight acidity and more delicate notes such as florals. <\/p>",
+            "page": ""
+          }
+        },
+        "547f95f3-b4f6-4e73-bc5f-7954e6a788ee": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your coffee beans sustainable?",
+            "icon": "check_mark",
+            "row_content": "<p>When we look at sustainability, we look at the environment and the coffee producer. The way we approach it, is this: <\/p><p>First we need to find a producer that is wants to adopt quality standards to produce better coffee. It requires a desire to change and to elevate processing techniques. <\/p><p>Those farmers are passionate and they want to know their roast partner. This is when we come in. If our goals align and if personalities match, we start a relationship. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-1",
+        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-2",
+        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-3",
+        "template--17938059460875__03c3a901-f704-411d-8317-944644c86e30-collapsible_row-4",
+        "70761c91-5037-441b-9f31-b0d3a0d6e0b6",
+        "34c5e002-7707-4f0b-b318-2e9c74585e65",
+        "424e3cf3-0c89-4c45-a1d0-728729f388fa",
+        "71e3c66f-d063-42f3-9a96-a6cbc038eb03",
+        "547f95f3-b4f6-4e73-bc5f-7954e6a788ee"
+      ],
+      "custom_css": [
+        ".collapsible-content-wrapper-narrow {max-width: 100%;}"
+      ],
+      "settings": {
+        "caption": "THE BARN COFFEE BEANS",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16609096892f959660": {
+      "type": "collection-list",
+      "blocks": {
+        "16609096892c11eee0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "instant-coffee"
+          }
+        },
+        "cf528b2f-6e3c-49a0-85d9-a8bb2f990829": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-capsules"
+          }
+        },
+        "16609096892c11eee0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-equipment"
+          }
+        },
+        "16609096892c11eee0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "merchandise"
+          }
+        }
+      },
+      "block_order": [
+        "16609096892c11eee0-0",
+        "cf528b2f-6e3c-49a0-85d9-a8bb2f990829",
+        "16609096892c11eee0-1",
+        "16609096892c11eee0-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".collection-list-wrapper {padding: 0px; padding-top: 4rem;}"
+      ],
+      "settings": {
+        "title": "DISCOVER MORE",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "8beb5d87-50a8-4b20-b1c2-5b7a98c52161",
+    "1a713986-dc37-4b66-b5cf-0705458ba228",
+    "4a7462f3-1c39-492f-90cd-a6b4c15e80ff",
+    "16609093955d46716e",
+    "a9608a96-2b9c-474b-bc96-4ce2504bf1ba",
+    "4124a9d7-7910-428b-a05f-f8b4e4879abc",
+    "03c3a901-f704-411d-8317-944644c86e30",
+    "16609096892f959660"
+  ]
+}
