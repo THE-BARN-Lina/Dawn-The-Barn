@@ -380,6 +380,94 @@
           "shadow_spread_radius": 8,
           "wrapper_border_radius": 8
         }
+      },
+      "subscription_new": {
+        "type": "subscription_new",
+        "settings": {
+          "sub_bg_overlay": false,
+          "image_overlay_opacity": 40,
+          "heading_subscribe": "",
+          "subhead_subscribe": "",
+          "btn_subscribe": "",
+          "btn_subscribe_link": "",
+          "btn_is_automated": false
+        }
+      },
+      "subflow_new": {
+        "type": "subflow_new",
+        "blocks": {
+          "icon_text_ePa9Pq": {
+            "type": "icon_text",
+            "settings": {
+              "select_img": "shopify:\/\/shop_images\/Curated_Easter_6Months.jpg",
+              "title": "<p>CURATED <br\/>FILTER OR ESPRESSO<\/p>",
+              "title_value": "CURATED",
+              "select_sub_hed": "<p>Two new coffee experiences per month. <\/p>",
+              "sec_subhed": "<p>Receive two new coffees every month. Chose your roast style. Always get the latest releases.<br\/><strong>In {{ \"now\" | date: \"%B\"| prepend: \" \" }} we are sending out :<\/strong><\/p><p><strong>FILTER<br\/><\/strong>{{settings.curated_filter_1}}<br\/>{{settings.curated_filter_2}}<br\/><strong><br\/>ESPRESSO <\/strong><br\/>{{settings.curated_espresso_1}}<br\/>{{settings.curated_espresso_2}}<\/p>",
+              "question_heading": "Select your roast",
+              "que1_type1": "FILTER",
+              "que1_type1_val": "FILTER",
+              "que1_type2": "ESPRESSO",
+              "que1_type2_val": "ESPRESSO",
+              "question2_heading": "How many 250 gram bags?",
+              "question2_heading_2": "1 bag = 15 brews",
+              "que2_type1": "2",
+              "que2_type2": "4",
+              "que2_type3": "6",
+              "question2_heading_1kg": "",
+              "question2_heading_2_1kg": "",
+              "que2_type1_1kg": "",
+              "que2_type2_1kg": "",
+              "que2_type3_1kg": "",
+              "question4_heading": "",
+              "que4_deafault_weight": "",
+              "que4_type1": "",
+              "que4_type1_val": "",
+              "que4_type2": "",
+              "que4_type2_val": "",
+              "que4_type3": "",
+              "que4_type3_val": "",
+              "que4_type4": "",
+              "que4_type4_val": "",
+              "question5_heading": "How do you want to pay?",
+              "que5_type1": "MONTHLY",
+              "que5_type2": "PREPAID"
+            }
+          }
+        },
+        "block_order": [
+          "icon_text_ePa9Pq"
+        ],
+        "settings": {
+          "subscription_heading": "",
+          "summery_style_img": "shopify:\/\/shop_images\/roast_0a00000c-c8e8-4725-a3cf-75a32221ac88.png",
+          "summery_weight_img": "shopify:\/\/shop_images\/CAREERS_PRODUCTION_ROASTER.jpg",
+          "summery_destination_img": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
+          "summery_info": "",
+          "drawer_button_text": "",
+          "drawer_inn_had": "",
+          "left_text": "",
+          "drawer_left_content_coffee": "",
+          "right_text": "",
+          "drawer_right_content_coffee": ""
+        }
+      },
+      "subscription_new_2": {
+        "type": "subscription_new_2",
+        "settings": {
+          "title": "SPECIAL OFFERS",
+          "sub_bg_overlay": false,
+          "heading_subscribe": "",
+          "subhead_subscribe": "",
+          "btn_subscribe": "",
+          "btn_subscribe_link": "",
+          "show_two": false,
+          "sub_bg_overlay_2": false,
+          "heading_subscribe_2": "",
+          "subhead_subscribe_2": "",
+          "btn_subscribe_2": "",
+          "btn_subscribe_link_2": ""
+        }
       }
     },
     "content_for_index": [
