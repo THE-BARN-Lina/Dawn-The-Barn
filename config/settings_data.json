@@ -516,6 +516,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "7878088468538493966": {
+        "type": "shopify:\/\/apps\/wisepops-popup-notifications\/blocks\/app-embed\/e7d7a4f7-0df4-4073-9375-5f36db513952",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
