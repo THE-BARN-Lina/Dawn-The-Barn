@@ -120,6 +120,7 @@
         "blocks": {
           "9b61c670-421e-411e-a354-e322ee6f62a5": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "🐇 EASTER SPECIALS: Only until April 1st 🐣",
               "color_scheme": "accent-2",
@@ -467,6 +468,31 @@
           "subhead_subscribe_2": "",
           "btn_subscribe_2": "",
           "btn_subscribe_link_2": ""
+        }
+      },
+      "custom_countdown_annoucment": {
+        "type": "custom_countdown_annoucment",
+        "blocks": {
+          "announcement_zap6Fr": {
+            "type": "announcement",
+            "settings": {
+              "text": "🐇 EASTER SPECIALS: Only until April 1st 🐣",
+              "color_scheme": "accent-2",
+              "link": "shopify:\/\/collections\/coffee-gifts",
+              "show_countdown": false,
+              "detail_days": "Days",
+              "detail_hours": "Hours",
+              "detail_mins": "Minutes"
+            }
+          }
+        },
+        "block_order": [
+          "announcement_zap6Fr"
+        ],
+        "custom_css": [
+          ".announcement-bar {display: flex; width: 100%; height: 30px; align-items: center; padding: 2rem 2rem; text-decoration: none; justify-content: space-around;}"
+        ],
+        "settings": {
         }
       }
     },
